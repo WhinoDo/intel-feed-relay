@@ -26,48 +26,49 @@ jobs:
           set -uo pipefail
           mkdir -p out
 
-          valid() {
-            [ -s "$1" ] && python3 - "$1" <<'PY'
-          import sys, json, xml.etree.ElementTree as ET
-          p = sys.argv[1]
-          if p.endswith(".json"):
-              json.load(open(p))
-          else:
-              ET.parse(p)
-          PY
-          }
-
+          # Download one feed; HTTP 200 payloads are kept raw for later
+          # validation/repair steps. Returns 1 on any non-200 outcome.
           fetch() {
             name="$1"; url="$2"
             tmp="out/.${name}.tmp"
             code=$(curl -sL --max-time 90 --retry 2 --retry-delay 5 \
                  -A "$UA" -H "Accept: application/rss+xml, application/atom+xml, application/xml, text/xml, application/json, */*" \
                  -o "$tmp" -w "%{http_code}" "$url") || code="curl_$?"
-            if [ "$code" = "200" ] && valid "$tmp"; then
-              mv "$tmp" "out/${name}"
-              echo "OK ${name} $(wc -c < "out/${name}") bytes"
-            else
+            if [ "$code" != "200" ] || [ ! -s "$tmp" ]; then
               echo "FAIL ${name} http=${code}"
-              head -c 300 "$tmp" 2>/dev/null | tr -d '\0' || true
+              head -c 200 "$tmp" 2>/dev/null | tr -d '\0' || true
               echo
               rm -f "$tmp"
+              return 1
             fi
+            mv "$tmp" "out/${name}"
+            echo "GOT ${name} $(wc -c < "out/${name}") bytes"
+            return 0
           }
 
-          fetch arxiv-cs-ro.xml      "https://export.arxiv.org/rss/cs.RO"
-          fetch import-ai.xml        "https://importai.substack.com/feed"
-          fetch robot-report.xml     "https://www.therobotreport.com/feed/"
-          fetch humanoids-daily.xml  "https://www.humanoidsdaily.com/feed.xml"
+          fetch arxiv-cs-ro.xml      "https://export.arxiv.org/rss/cs.RO"      || true
+          fetch import-ai.xml        "https://importai.substack.com/feed"      || true
+          fetch robot-report.xml     "https://www.therobotreport.com/feed/"    || true
+          fetch humanoids-daily.xml  "https://www.humanoidsdaily.com/feed.xml" || true
 
-          # HF daily papers: try the official API, then hf-mirror
+          # HF daily papers: official API first, mirror as fallback
           if ! fetch hf-daily-papers.json "https://huggingface.co/api/daily_papers"; then
             fetch hf-daily-papers.json "https://hf-mirror.com/api/daily_papers" || true
           fi
 
-          # Repair feeds with invalid XML (e.g. bare & in categories)
-          for f in out/humanoids-daily.xml out/robot-report.xml out/arxiv-cs-ro.xml out/import-ai.xml; do
+          # Validate JSON payloads; drop anything that is not valid JSON.
+          for f in out/*.json; do
             [ -f "$f" ] || continue
-            python3 - "$f" <<'PY' || { echo "still invalid: $f"; rm -f "$f"; }
+            if ! python3 -c "import json,sys; json.load(open(sys.argv[1]))" "$f"; then
+              echo "DROP ${f} (invalid JSON)"
+              rm -f "$f"
+            fi
+          done
+
+          # Repair XML payloads (escape bare ampersands, drop if hopeless).
+          for f in out/*.xml; do
+            [ -f "$f" ] || continue
+            python3 - "$f" <<'PY' || { echo "DROP $f (unrepairable XML)"; rm -f "$f"; }
           import re, sys, xml.etree.ElementTree as ET
           p = sys.argv[1]
           raw = open(p, encoding="utf-8", errors="replace").read()
@@ -81,17 +82,22 @@ jobs:
               raise SystemExit(1)
           ET.fromstring(raw)
           open(p, "w", encoding="utf-8").write(raw)
+          print("REPAIRED" if "&amp;" in raw else "VALID", p)
           PY
           done
 
-          # Substack feed fallback: archive API -> minimal RSS
+          # Substack fallback: archive API -> minimal RSS
           if [ ! -f out/import-ai.xml ]; then
             python3 - <<'PY' || true
           import json, urllib.request, xml.sax.saxutils as sx
           req = urllib.request.Request(
               "https://importai.substack.com/api/v1/archive?sort=new&search=&offset=0&limit=10",
               headers={"User-Agent": "Mozilla/5.0"})
-          data = json.load(urllib.request.urlopen(req, timeout=60))
+          try:
+              data = json.load(urllib.request.urlopen(req, timeout=60))
+          except Exception as exc:
+              print("archive api failed:", type(exc).__name__, str(exc)[:200])
+              raise SystemExit(0)
           items = []
           for p in data:
               items.append(
@@ -109,6 +115,8 @@ jobs:
           print("OK import-ai.xml via archive api")
           PY
           fi
+
+          ls -la out/ || true
 
       - name: Commit if changed
         run: |
