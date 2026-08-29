@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>The Robot Report</title>
+	<atom:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.therobotreport.com/</link>
+	<description>Robotics news, research and analysis</description>
+	<lastBuildDate>Fri, 28 Aug 2026 23:25:37 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.0.4</generator>
+
+<image>
+	<url>https://www.therobotreport.com/wp-content/uploads/2017/08/cropped-robot-report-site-32x32.png</url>
+	<title>The Robot Report</title>
+	<link>https://www.therobotreport.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>From teach and repeat to SelfPath AI: The next robotics leap</title>
+		<link>https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/</link>
+					<comments>https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/#respond</comments>
+		
+		<dc:creator><![CDATA[Mike Oitzman]]></dc:creator>
+		<pubDate>Fri, 28 Aug 2026 23:25:06 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Automated Warehouse]]></category>
+		<category><![CDATA[Logistics]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Brain Corp]]></category>
+		<category><![CDATA[Generalist]]></category>
+		<category><![CDATA[Nvidia]]></category>
+		<category><![CDATA[Symbotic]]></category>
+		<category><![CDATA[XPENG Robotics]]></category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589353</guid>
+
+					<description><![CDATA[<p>John Black, chief technology officer at Brian Corp, shares insights on how to build trust for robotics fleets and AI.</p>
+<p>The post <a href="https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/">From teach and repeat to SelfPath AI: The next robotics leap</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2390500761&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true" width="100%" height="166" frameborder="no" scrolling="no"><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start">﻿</span></iframe></p>
+<div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;"><a style="color: #cccccc; text-decoration: none;" title="The Robot Report Podcast" href="https://soundcloud.com/robot-report-podcast" target="_blank" rel="noopener">The Robot Report Podcast</a> · <a style="color: #cccccc; text-decoration: none;" title="From Teach-and-Repeat to SelfPath AI: The next robotics leap" href="https://soundcloud.com/robot-report-podcast/from-teach-and-repeat-to" target="_blank" rel="noopener">From Teach-and-Repeat to SelfPath AI: The next robotics leap</a></div>
+<div id="attachment_589354" style="width: 360px" class="wp-caption alignleft"><img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589354" class="size-full wp-image-589354" src="https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot.jpg" alt="headshot of john black." width="350" height="437" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot.jpg 350w, https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot-240x300.jpg 240w, https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot-191x238.jpg 191w" sizes="(max-width: 350px) 100vw, 350px" /><p id="caption-attachment-589354" class="wp-caption-text">John Black, CTO, Brain Corp.</p></div>
+<p>In Episode 259 of <em>The Robot Report</em> Podcast, the topic is scaling robot fleets and building trust while operating in public spaces.</p>
+<p>Our guest is John Black, chief technology officer at <a href="https://www.therobotreport.com/tag/brain-corp/" target="_blank" rel="noopener">Brain Corp</a>.</p>
+<p>He has commercialized a fleet of over 50,000 autonomous mobile robots (<a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener">AMRs</a>), which have logged more than 25 million hours of safe, real-world operation powered by BrainOS.</p>
+<p>A Carnegie Mellon University graduate, Black is a TÜV Rheinland-certified functional safety engineer and serves as board chair for the <a href="https://www.therobotreport.com/tag/university-of-california-san-diego/" target="_blank" rel="noopener">UC San Diego</a> Jacobs School of Engineering Corporate Affiliates Program.</p>
+<p>&nbsp;</p>
+<hr />
+<h2>Show timeline</h2>
+<ul>
+<li>10:00 &#8211; News of the week</li>
+<li>25:43 &#8211; <a href="https://www.linkedin.com/in/john-b-22744b8/" target="_blank" rel="noopener">John Black</a>, CTO, Brain Corp</li>
+</ul>
+<hr />
+<h2>News of the week</h2>
+<ul>
+<li><a href="https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/" target="_blank" rel="noopener"><span class="TextRun SCXW20403845 BCX2" lang="EN-US" xml:lang="EN-US" data-contrast="none"><span class="NormalTextRun SCXW20403845 BCX2" data-ccp-parastyle="heading 1">XPeng Motors humanoid robot unit </span><span class="NormalTextRun SpellingErrorV2Themed SCXW20403845 BCX2" data-ccp-parastyle="heading 1">Dogotix</span><span class="NormalTextRun SCXW20403845 BCX2" data-ccp-parastyle="heading 1"> raises $900M</span></span></a></li>
+<li><span class="TextRun SCXW175998906 BCX2" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW175998906 BCX2" data-ccp-parastyle="heading 2"><a href="https://www.therobotreport.com/tag/generalist/" target="_blank" rel="noopener">Generalist</a> <a href="https://www.axios.com/2026/08/24/robotics-ai-generalist-200m" target="_blank" rel="noopener">brings in another $200M in funding</a> <a href="https://generalistai.com/blog/gen-1.5" target="_blank" rel="noopener">as it updates its model</a></span></span></li>
+<li><a href="https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/" target="_blank" rel="noopener"><span class="TextRun SCXW224563747 BCX2" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW224563747 BCX2" data-ccp-parastyle="heading 2">Jetson Orin Nano 2 doubles inference performance for robotics on the edge, says NVIDIA</span></span></a></li>
+<li><a href="https://www.automatedwarehouseonline.com/symbotic-takes-no-1-warehouse-automation-market-share-says-interact-analysis/" target="_blank" rel="noopener"><span class="TextRun SCXW75379993 BCX2" lang="EN-US" xml:lang="EN-US" data-contrast="auto"><span class="NormalTextRun SpellingErrorV2Themed SpellingErrorHighlight SCXW75379993 BCX2" data-ccp-parastyle="heading 2">Symbotic</span><span class="NormalTextRun SCXW75379993 BCX2" data-ccp-parastyle="heading 2"> takes No. 1 in warehouse automation, according to Interact Analysis</span></span></a></li>
+</ul>
+<hr />
+<h2>Sponsors</h2>
+<p><em>Thanks to our sponsors who make this content possible.</em><b></b></p>
+<hr />
+<p>To learn how you can sponsor a future episode of <em>The Robot Report</em> Podcast, contact Jami Brownlee at <a href="mailto:jbrownlee@arrowfly.com" target="_blank" rel="noopener">jbrownlee@arrowfly.com</a></p>
+<p>Would you like to be a guest on a future episode? Contact Mike Oitzman at <a href="mailto:moitzman@arrowfly.com" target="_blank" rel="noopener">moitzman@arrowfly.com</a></p>
+<hr />
+
+<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
+<img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+
+<hr />
+<p>The post <a href="https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/">From teach and repeat to SelfPath AI: The next robotics leap</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Deere faces headwinds in Q3 update and announces Reservoir R&#038;D partnership</title>
+		<link>https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/</link>
+					<comments>https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/#respond</comments>
+		
+		<dc:creator><![CDATA[Mike Oitzman]]></dc:creator>
+		<pubDate>Fri, 28 Aug 2026 21:06:40 +0000</pubDate>
+				<category><![CDATA[Agriculture]]></category>
+		<category><![CDATA[Analysis]]></category>
+		<category><![CDATA[Autonomous Mobile Robots (AMRs)]]></category>
+		<category><![CDATA[Earnings]]></category>
+		<category><![CDATA[Investments]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[John Deere]]></category>
+		<category><![CDATA[Reservoir]]></category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589321</guid>
+
+					<description><![CDATA[<p>Deere beats Q3 expectations, raises guidance, and partners with Reservoir on a $10 million agtech AI initiative.</p>
+<p>The post <a href="https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/">Deere faces headwinds in Q3 update and announces Reservoir R&#038;D partnership</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div id="attachment_589343" style="width: 780px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589343" class="wp-image-589343 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/bernstein-sundberg-reservoir-featured.jpg" alt="Danny Bernstein from Reservoir and Sean Sundberg from John Deere shake hands in a field." width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/bernstein-sundberg-reservoir-featured.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/08/bernstein-sundberg-reservoir-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/bernstein-sundberg-reservoir-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/bernstein-sundberg-reservoir-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/bernstein-sundberg-reservoir-featured-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /><p id="caption-attachment-589343" class="wp-caption-text">Danny Bernstein (l) from Reservoir and Sean Sundberg (r) from John Deere announced a partnership at the Ruggedize event. | Credit: Reservoir</p></div>
+<p><span data-contrast="auto">Deere &amp; Co. last week posted Q3 2026 net income of $1.379 billion, or $5.10 per share, outperforming market expectations despite headwinds in its </span>Production and Precision Agriculture<span data-contrast="auto"> division—the primary unit driving revenue from the company&#8217;s autonomous machinery, smart targeting systems, and precision technologies.</span><span data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335551550&quot;:0,&quot;335551620&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:240}"> </span></p>
+<h3>Production and Precision Agriculture Q3 breakdown:</h3>
+<ul>
+<li aria-setsize="-1" data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559683&quot;:0,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-aria-posinset="1" data-aria-level="1"><b><span data-contrast="auto">Small Agriculture and Turf </span></b><span data-contrast="auto">sales increased for the quarter. Net sales were up 12%, and profit was up 28%.</span><span data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335551550&quot;:0,&quot;335551620&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240}"> </span></li>
+<li aria-setsize="-1" data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559683&quot;:0,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" data-aria-posinset="1" data-aria-level="1"><b><span data-contrast="auto">Production and Precision Agriculture</span></b><span data-contrast="auto"> sales decreased for the quarter as a result of lower shipment volumes, partially offset by favorable price realization and foreign currency translation. Net sales were down 6%, and profit was down 9%.</span></li>
+</ul>
+<p><span data-contrast="auto">The revised outlook signaled that the multi-year downturn in global farm machinery demand may finally be reaching its floor. By raising its full-year net income guidance to a range of $4.75 billion to $5 billion, Deere is reinforcing its thesis that fiscal 2026 represents the trough of the current <a href="https://www.therobotreport.com/category/markets-industries/ag/" target="_blank" rel="noopener">agricultural</a> equipment cycle. </span><span data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335551550&quot;:0,&quot;335551620&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240}"> </span></p>
+<p><span data-contrast="auto">Crucially, as traditional equipment order volumes contend with elevated input costs and softer international demand, the <a href="https://www.therobotreport.com/tag/john-deere" target="_blank" rel="noopener">company</a> is poised for a tech-enabled recovery as global replacement cycles resume. Deere said it expects to benefit from expanding adoption of high-margin autonomous capabilities, automated spraying systems, and connected fleet software, which are providing a vital structural buffer for operating margins.</span><span data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335551550&quot;:0,&quot;335551620&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240}"> </span></p>
+<h2><b><span data-contrast="auto">Deere partners with Reservoir</span></b><span data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335551550&quot;:0,&quot;335551620&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240}"> </span></h2>
+<p><span data-contrast="auto">This week, <a href="http://www.therobotreport.com/tag/reservoir/" target="_blank" rel="noopener">Reservoir</a> announced a $10 million, three-year research and development partnership with John Deere to accelerate real-world development and commercialization of rugged <a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener">AI</a> technologies for high-value crop agriculture.</span><span data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335551550&quot;:0,&quot;335551620&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:240}"> </span></p>
+<p><span data-contrast="auto">The partnership builds on a relationship that began when Reservoir was founded in 2024 and reflects Deere&#8217;s commitment to an innovation ecosystem that moves faster from prototype to grower impact.</span><span data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335551550&quot;:0,&quot;335551620&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240}"> </span></p>
+<p><span data-contrast="auto">Reservoir hosted its first <a href="https://ruggedize.ai/" target="_blank" rel="noopener">Ruggedize</a> event this week in Salinas, Calif. The event brought together engineers, founders, and technical teams building robotic and AI systems that must survive the realities of active farmland. Deere is key investor in Reservoir.</span></p>
+<p><span data-contrast="auto">“John Deere is committed to helping high-value crop growers do more with less, and that requires strong innovation built in the field, not just in the lab,” said Jason Brantley, vice president of production systems, small ag and turf, at John Deere.</span></p>
+<p><span data-contrast="auto">“Real-world validation is a key part of Deere’s mission and helps ensure new solutions are addressing real challenges farmers are facing,&#8221; he added. &#8220;Automation on the farm is addressing the immediate labor and efficiency needs of the industry, and Reservoir is also helping explore what innovations come next across data, connectivity and other emerging agtech solutions.”</span><span data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335551550&quot;:0,&quot;335551620&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240}"> </span></p>
+<p><span data-contrast="auto">Reservoir said the partnership will help broaden access to its on-farm technical community by subsidizing startup participation and lowering barriers for founders entering the ecosystem. It will also expand opportunities for innovation in rural communities by connecting entrepreneurs and deep-tech engineers more directly with growers, farm operations, and industry partners across California, Arizona, and other key agricultural regions.</span></p>
+<p><strong>Editor&#8217;s note:</strong> Field robotics is the topic of a session track at <a href="https://www.robobusiness.com/" target="_blank" rel="noopener">RoboBusiness</a> 2026, which will be on Oct. 20 and 21 in Santa Clara, Calif. <a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener">Register now to attend.</a></p>
+<hr />
+
+<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+
+<hr />
+<p>The post <a href="https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/">Deere faces headwinds in Q3 update and announces Reservoir R&#038;D partnership</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>EXL acquires physical AI model developer iMerit</title>
+		<link>https://www.therobotreport.com/exl-acquires-physical-ai-model-developer-imerit/</link>
+					<comments>https://www.therobotreport.com/exl-acquires-physical-ai-model-developer-imerit/#respond</comments>
+		
+		<dc:creator><![CDATA[Eugene Demaitre]]></dc:creator>
+		<pubDate>Fri, 28 Aug 2026 17:36:09 +0000</pubDate>
+				<category><![CDATA[Agriculture]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Artificial Intelligence / Cognition]]></category>
+		<category><![CDATA[Development Tools / SDKs / Libraries]]></category>
+		<category><![CDATA[Healthcare Robotics]]></category>
+		<category><![CDATA[Mergers & Acquisitions]]></category>
+		<category><![CDATA[Mobility / Navigation]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Safety & Security]]></category>
+		<category><![CDATA[Self-Driving Vehicles]]></category>
+		<category><![CDATA[Software / Simulation]]></category>
+		<category><![CDATA[Transportation]]></category>
+		<category><![CDATA[ExlService Holdings]]></category>
+		<category><![CDATA[imerit]]></category>
+		<category><![CDATA[safety]]></category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589341</guid>
+
+					<description><![CDATA[<p>The EXL and iMerit executives explain how their companies' combined expertise and platforms will help developers with reliable physical AI.</p>
+<p>The post <a href="https://www.therobotreport.com/exl-acquires-physical-ai-model-developer-imerit/">EXL acquires physical AI model developer iMerit</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div id="attachment_589342" style="width: 780px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589342" class="wp-image-589342 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Mark-Liflander-EXL-iMerit-2048x1463-copy.jpg" alt="Radha Basu, EVP and head of iMerit, and Rohit Kapoor, CEO of EXL." width="770" height="496" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Mark-Liflander-EXL-iMerit-2048x1463-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/08/Mark-Liflander-EXL-iMerit-2048x1463-copy-300x193.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Mark-Liflander-EXL-iMerit-2048x1463-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Mark-Liflander-EXL-iMerit-2048x1463-copy-768x495.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/Mark-Liflander-EXL-iMerit-2048x1463-copy-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /><p id="caption-attachment-589342" class="wp-caption-text">Radha Basu, EVP and head of iMerit (left), and Rohit Kapoor, CEO of EXL (right). Credit: Mark Liflander, EXL</p></div>
+<p>The actions of physical AI, including robots, are only as good as the human expertise and data used to build the AI models that train them. ExlService Holdings Inc. this month completed its acquisition of iMerit Technology, a leader in AI model training, evaluation, and reinforcement learning.</p>
+<p>Founded in 1999, EXL offers services and solutions to industries including insurance, <a href="https://www.therobotreport.com/category/markets-industries/biotechnology-medical-healthcare/" target="_blank" rel="noopener">healthcare</a>, banking and capital markets, retail, communications and media, and energy and infrastructure. The New York-based <a href="https://www.exlservice.com/" target="_blank" rel="noopener">company</a> has about 68,000 employees worldwide.</p>
+<p>Founded in 2012, iMerit provides data annotation for robotics, autonomous mobility, healthcare <a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener">AI</a>, and other high-tech industries. The San Jose, Calif.-based <a href="https://imerit.ai/" target="_blank" rel="noopener">company</a> said its subject-matter experts and proprietary <a href="https://imerit.ai/products/ango-workflow-automation-by-imerit/" target="_blank" rel="noopener">Ango Hub</a> platform enable customers &#8220;to collaborate on complex multimodal data to generate highly curated and validated training artifacts for high-stakes models.&#8221;</p>
+<p>For instance, iMerit <a href="https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/" target="_blank" rel="noopener">has partnered</a> with <a href="https://www.therobotreport.com/tag/carbon-robotics" target="_blank" rel="noopener">Carbon Robotics</a> to help digest millions of plant images needed to create an <a href="https://www.therobotreport.com/category/markets-industries/ag/" target="_blank" rel="noopener">agricultural</a> model for robotic weeding.</p>
+<p><a href="https://www.linkedin.com/in/radha-basu-b181225/" target="_blank" rel="noopener">Radha Ramaswami Basu</a>, founder and CEO of iMerit, has joined EXL as executive vice president and head of iMerit. She and <a href="https://www.linkedin.com/in/rohitkapoorexl/" target="_blank" rel="noopener">Rohit Kapoor</a>, chairman and CEO of EXL, replied to the following questions from <a href="https://www.therobotreport.com/" target="_blank" rel="noopener"><em>The Robot Report</em></a> about the acquisition.</p>
+<hr />
+
+<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+
+<hr />
+<h2>iMerit and EXL strive for more trustworthy models</h2>
+<p dir="ltr"><strong>What challenges are AI model builders underestimating today, and why?</strong></p>
+<p dir="ltr"><strong>Basu: </strong>Models are becoming highly capable day by day. With this comes increasing potential for hallucination or exceeding the scope. The labs, like customers, are starting to realize that the final mile and the concept of trust need work in order to thrive in a critical enterprise process.</p>
+<p dir="ltr">A model can perform well on a benchmark and still struggle with edge cases, unfamiliar conditions, or the specialized context of a healthcare or financial workflow. The bottleneck is access to expert, domain-specific data and trusted deployment in a business workflow.</p>
+<p dir="ltr">This is solved by experts who can challenge the model, expose failure modes, and evaluate whether its reasoning and behavior are reliable in a given business environment.</p>
+<p dir="ltr"><strong>How does EXL&#8217;s acquisition of <span class="markjgpt1wcq0" data-markjs="true" data-ogac="" data-ogab="" data-ogsc="" data-ogsb="" data-ogsbtc="" data-ogsbrc="" data-ogsbbc="" data-ogsblc="">iMerit</span> change how models are trained and evaluated?</strong></p>
+<p dir="ltr"><strong>Kapoor:</strong> The acquisition connects parts of the AI lifecycle that have often been managed separately, establishing an end-to-end AI platform for enterprises.</p>
+<p dir="ltr"><span class="markjgpt1wcq0" data-markjs="true" data-ogac="" data-ogab="" data-ogsc="" data-ogsb="" data-ogsbtc="" data-ogsbrc="" data-ogsbbc="" data-ogsblc="">iMerit</span> brings expert-led model training, multimodal evaluation, the Ango Hub platform, and a global network of domain experts. EXL brings enterprise data, deep industry context, and experience integrating technology into business operations.</p>
+<p dir="ltr">Together, those capabilities create a more continuous path from preparing proprietary data to fine-tuning a model, evaluating how it behaves, and operationalizing it within an enterprise workflow as clients transition from pilot to production-scale AI. The goal is to help organizations bridge the gap between innovation and real-world production, turning AI potential into measurable business results that are trustworthy.</p>
+<p><iframe loading="lazy" title="iMerit&amp;apos;s Agent Evaluation Tool" width="740" height="416" src="https://www.youtube.com/embed/jj-pJVOpmTg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<h2 dir="ltr">Physical AI still has to demonstrate business value</h2>
+<p dir="ltr"><strong>Why aren&#8217;t other companies taking your approach?</strong></p>
+<p dir="ltr"><strong>Kapoor:</strong> Enterprise AI is entering a more demanding phase. Organizations have experimented widely, but most still struggle to achieve consistent business value.</p>
+<p dir="ltr">The challenge was never just picking a model; it&#8217;s training, evaluating, adapting, and governing AI systems to perform reliably in specific business contexts. That&#8217;s where capabilities like model evaluation, reinforcement learning, domain-specific data, red teaming, and expert human feedback become critical.</p>
+<p dir="ltr">AI economics will also push enterprises toward more specialized, purpose-built models, trained on proprietary data, optimized for their own workflows, and continuously improved based on performance. That makes high-quality data, evaluation, and reinforcement learning foundational capabilities, not peripheral services.</p>
+<p dir="ltr">This investment reflects a broader market shift: Value is moving from building AI models to making AI usable, trusted, cost-effective, and outcome-driven.</p>
+<p><iframe loading="lazy" title="EXL IntelliChain.AI" width="740" height="416" src="https://www.youtube.com/embed/nrc2ZkEKFn8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<h2 dir="ltr">Human experts help guarantee safety, notes iMerit head</h2>
+<p dir="ltr"><strong>Can you give examples of how this applies to the development of <a href="https://www.therobotreport.com/category/robots-platforms/self-driving-vehicles/">autonomous vehicles</a> and robotics?</strong></p>
+<p dir="ltr"><strong>Basu:</strong> As AI moves into robotics and autonomous systems at the edge, success depends less on model scale and more on data quality. Physical AI must interpret noisy multimodal inputs, reason in real time, and act safely in unpredictable environments to identify the correct next action, not just the &#8220;right&#8221; answer.</p>
+<p dir="ltr">The challenges evolve from perception to planning and decision-making. Human experts play a critical role in creating high-quality ground truth data, and they help build realistic scenarios, identify rare edge cases, and evaluate whether a vehicle or robot responded appropriately.</p>
+<p dir="ltr">In autonomous driving, AI is trained on multimodal data &#8212; <a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener">vision</a>, <a href="https://www.therobotreport.com/tag/lidar" target="_blank" rel="noopener">lidar</a>, audio &#8212; and tested through <a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener">simulated</a> scenarios like collisions. Experts evaluate not just what the vehicle sees, but also how it behaves and explains its decisions, ensuring it can act safely in real-world edge cases. These are complex, high-context, and high-cognition scenarios.</p>
+<p dir="ltr"><strong>What are the implications for safety and compliance?</strong></p>
+<p dir="ltr"><strong>Basu:</strong> The blocker for AI deployment now is trust, accuracy, and validation versus model capability. Thus, <a href="https://www.therobotreport.com/category/safety-security" target="_blank" rel="noopener">safety</a> and compliance cannot be treated as a final check before launch. They must be designed into the data, training, evaluation, and monitoring process.</p>
+<p dir="ltr">Expert-driven data and domain insight can be transformed into interaction patterns that assess, torment, and oversee AI models in mission-critical applications.</p>
+<p dir="ltr">In regulated industries, organizations must be able to demonstrate not only that an AI system performs well on average, but that it was tested against the situations where an error could create irreversible clinical, financial, or operational harm. EXL strengthens this process through trace analysis, enabling organizations to follow the data and model behavior that led to a particular decision and better understand where errors or unexpected outcomes originated.</p>
+<p><iframe loading="lazy" title="Accelerating HD Mapping for Autonomous Vehicles | HD Map Annotation Case Study" width="740" height="416" src="https://www.youtube.com/embed/Mk92FfEX2Ck?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<h2>Competitive advantage comes from tech combos, domain expertise says EXL CEO</h2>
+<p dir="ltr"><strong>How do you see the AI market evolving, both in terms of the market and the applications?</strong></p>
+<p dir="ltr"><strong>Kapoor:</strong> Competitive advantage in enterprise AI won&#8217;t come from any single layer. It will come from bringing the right layers together: proprietary data, domain context, model evaluation, AI engineering, and governance.</p>
+<p dir="ltr">Foundation models will keep improving, but in the enterprise, the question isn&#8217;t which model is most powerful. It&#8217;s which AI system delivers the most reliable outcome in a specific workflow, under real regulatory and operational constraints. That&#8217;s a fundamentally different challenge.</p>
+<p dir="ltr">Over the next three to five years, proprietary enterprise data will become one of the most valuable competitive assets. Companies will increasingly want specialized models trained on their own data, not just access to external model providers. And they&#8217;ll need continuous evaluation and reinforcement learning to keep those models accurate and safe as conditions change.</p>
+<p dir="ltr">Domain expertise will matter more, not less. In complex workflows, underwriting, claims, healthcare payment integrity, fraud detection, credit decisioning, the model needs to understand the business, the risk, and the regulatory environment. That&#8217;s where EXL has a differentiated position.</p>
+<p dir="ltr">The companies that win in enterprise AI will be those that combine data, context, AI, evaluation, and execution into one operating model. That has been EXL&#8217;s strategy. The <span class="markjgpt1wcq0" data-markjs="true" data-ogac="" data-ogab="" data-ogsc="" data-ogsb="" data-ogsbtc="" data-ogsbrc="" data-ogsbbc="" data-ogsblc="">iMerit</span> acquisition strengthens it and positions us to play a more central role in how next-generation AI is built, governed, and deployed for real business outcomes.</p>
+<p dir="ltr"><strong>Editor’s note:</strong> Sudeep George, chief technology officer at iMerit, recently participated in <em>The Robot Report</em>‘s webinar on “<a href="https://event.on24.com/wcc/r/5175330/1447431896DC588812C08612EBF73A90" target="_blank" rel="noopener">Physical AI and Robotics</a>.”</p>
+<p>The post <a href="https://www.therobotreport.com/exl-acquires-physical-ai-model-developer-imerit/">EXL acquires physical AI model developer iMerit</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.therobotreport.com/exl-acquires-physical-ai-model-developer-imerit/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How Locus is getting a grasp on one of robotics biggest challenges: manipulation</title>
+		<link>https://www.therobotreport.com/locus-getting-grasp-one-robotics-biggest-challenges-manipulation/</link>
+					<comments>https://www.therobotreport.com/locus-getting-grasp-one-robotics-biggest-challenges-manipulation/#respond</comments>
+		
+		<dc:creator><![CDATA[Brianna Wessling]]></dc:creator>
+		<pubDate>Fri, 28 Aug 2026 13:29:51 +0000</pubDate>
+				<category><![CDATA[Arms / Manipulators]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Artificial Intelligence / Cognition]]></category>
+		<category><![CDATA[Autonomous Mobile Robots (AMRs)]]></category>
+		<category><![CDATA[Design / Development]]></category>
+		<category><![CDATA[End Effectors / Grippers]]></category>
+		<category><![CDATA[End of Arm Tooling]]></category>
+		<category><![CDATA[Grippers]]></category>
+		<category><![CDATA[Human Robot Interaction / Haptics]]></category>
+		<category><![CDATA[Logistics]]></category>
+		<category><![CDATA[Markets / Industries]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Pneumatics & Hydraulics]]></category>
+		<category><![CDATA[Robots / Platforms]]></category>
+		<category><![CDATA[Sensors / Sensing Systems]]></category>
+		<category><![CDATA[Soft Robotics]]></category>
+		<category><![CDATA[Technologies]]></category>
+		<category><![CDATA[Locus Robotics]]></category>
+		<category><![CDATA[mobile manipulation]]></category>
+		<category><![CDATA[Nexera Robotics]]></category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589338</guid>
+
+					<description><![CDATA[<p>Locus Robotics recently acquired Nexera Robotics, which create unique soft picking technology, bolstering its manipulation capabilities.</p>
+<p>The post <a href="https://www.therobotreport.com/locus-getting-grasp-one-robotics-biggest-challenges-manipulation/">How Locus is getting a grasp on one of robotics biggest challenges: manipulation</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div id="attachment_589339" style="width: 1550px" class="wp-caption aligncenter"><a href="https://www.therobotreport.com/wp-content/uploads/2026/08/Locus-Nexera-Box-Angle-Lift-featured.jpg"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589339" class="wp-image-589339 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Locus-Nexera-Box-Angle-Lift-featured.jpg" alt="Locus unit Nexera said it has proven that NeuraGrasp can dynamically grasp a wide range of items, from small containers to porous polybags and cloth items." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Locus-Nexera-Box-Angle-Lift-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/08/Locus-Nexera-Box-Angle-Lift-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Locus-Nexera-Box-Angle-Lift-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/08/Locus-Nexera-Box-Angle-Lift-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Locus-Nexera-Box-Angle-Lift-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/Locus-Nexera-Box-Angle-Lift-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/08/Locus-Nexera-Box-Angle-Lift-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /></a><p id="caption-attachment-589339" class="wp-caption-text">NeuraGrasp can grasp a wide range of items, from small containers to porous polybags and cloth items. | Source: Locus Robotics</p></div>
+<p>Locus Robotics Corp. has successfully tackled many robotic challenges in real working environments. Its autonomous mobile robots, or AMRs, have navigated countless miles in a variety of facilities, and they have aided in more than 6 billion picks. Now, its targeting manipulation.</p>
+<p>The <a href="https://www.therobotreport.com/tag/locus-robotics/" target="_blank" rel="noopener">company</a> entered the robotic picking space in March 2025 when it <a href="https://www.therobotreport.com/locus-robotics-launches-locus-array-for-fully-autonomous-fulfillment/" target="_blank" rel="noopener">unveiled</a> <a href="https://locusrobotics.com/locusone/fleet/locus-array" target="_blank" rel="noopener">Array</a>, a <a href="https://www.therobotreport.com/tag/mobile-manipulation" target="_blank" rel="noopener">mobile manipulator</a> equipped with a custom-developed, vision-guided picking arm. Over a year later, Locus <a href="https://www.therobotreport.com/locus-array-expands-picking-ability-with-nexera-robotics-neuragrip/" target="_blank" rel="noopener">acquired</a> Nexera Robotics, which is known for its NeuraGrasp <a href="https://www.therobotreport.com/category/technologies/grippers-end-effectors/" target="_blank" rel="noopener">gripping</a> technology.</p>
+<p>According to Roy Belak, the senior vice president of robotic grasping at Locus and former CEO of <a href="https://www.therobotreport.com/tag/nexera-robotics/" target="_blank" rel="noopener">Nexera</a>, by the time it came in contact with Locus, Nexera had already spent years refining its unique, <a href="https://www.therobotreport.com/category/technologies/soft-robotics/" target="_blank" rel="noopener">soft</a> end effectors. It had already gone through at least six different product generations, he said.</p>
+<p>“Just as we were getting to that point where the technology was showing its compelling capabilities, we were at a fortuitous situation where we met with Locus at <a href="https://www.therobotreport.com/tag/MODEX/" target="_blank" rel="noopener">MODEX</a>, and I think the history kind of writes itself from there,” Belak told <a href="https://www.therobotreport.com/" target="_blank" rel="noopener"><em>The Robot Report</em></a>.</p>
+<p>The timing was ideal for both companies. Locus wanted to be able to handle more SKUs in its facilities, and Vancouver, Canada-based Nexera was ready to scale.</p>
+<p>“We want to see this technology deployed at scale,&#8221; said Belak. &#8220;That’s something that excites me as somebody who’s an innovator and building something. You just want to see it out there widely, and that seemed like it was a great opportunity.&#8221;</p>
+<h2>What does NeuraGrasp bring to Locus Array?</h2>
+<p><iframe loading="lazy" title="Locus Robotics Acquires Nexera Robotics to Advance Mobile Manipulation" width="740" height="416" src="https://www.youtube.com/embed/IDwflhUm2E0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<p>Nexera met Locus in 2025, when Locus was planning its early market release for Array. At the time, Array had a standard suction-cup gripper. Belak said the companies spent a lot of time figuring out how to fit Nexera’s technology into Array’s development so late in the game.</p>
+<p>Luckily, even though Locus was already far into its process of developing Array, the robot was already well prepared for Nexera&#8217;s technology. Array already had an air supply, a power supply, and other things that Nexera’s technology needed.</p>
+<p>“There was a lot of work that was done prior to the acquisition to make sure the technology could be slipped into the development stream,&#8221; recalled Belak. &#8220;I think it we had missed that window by another year, it probably would have been really hard to make those changes.&#8221;</p>
+<p>While Belak did not give an exact timeline of when customers could gain access to Nexera&#8217;s technology, he said he is optimistic about the process. Belak said he expects that the next time Array is displayed publicly, it will likely have Nexera technology.</p>
+<p>Right now, Locus is in the early stages of deploying Array with its original gripper to customers, so Nexera hasn’t seen the windfall of data that will be coming soon.</p>
+<p>“There’s a long line of customers with their hands up that are really excited about Array,&#8221; Belak said. It’s in some ways intimidating, because you’re going to take this thing, you’re going to integrate it, and then it’s  going to go to many different places. Then we’ll start seeing the data really come back, and we’ll have a chance to just optimize as much as we can during that process.”</p>
+<p><iframe loading="lazy" title="Locus Robotics Launches Fully Autonomous with Locus Array" width="740" height="416" src="https://www.youtube.com/embed/qTQNCVOdK0Y?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<h2>Suction versus pinch picking</h2>
+<p>When taking a step back and looking at the robotics industry as a whole, Belak said that much of robotic manipulation falls on a spectrum between suction-based grasping and pinch grasping.</p>
+<p>“The reality is that suction is very good, particularly in warehouse operations,&#8221; he said. &#8220;Sixty percent to 70% of the time, it’s all you need. It’s when you get to that 30% to 40% and get to the really high coverage ratios.&#8221;</p>
+<p>NeuraGrasp&#8217;s soft gripping technology can help to bridge this gap because it uses both suction and pinching, according to Belak.</p>
+<p>“As an industry trend, it’s 100% recognized that pinch grasping is likely going to be very influential in the future of robotic grasping,” he said. “With that said, we are still firm believers that suction gets you a good portion of the way with air. And if it ain’t broke, you don’t throw it away.”</p>
+<h2>Locus is focusing on reliability and quality picks, not speed</h2>
+<p><iframe loading="lazy" title="Locus Array demonstration" width="740" height="416" src="https://www.youtube.com/embed/kEKQWQHCz1E?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<p>“In the industrial environment, reliability is everything,” Belak said. “Suction technologies, although they have a performance limitation, the beauty of them is that they’re incredibly reliable. As we go to pinch grasping technologies, depending on the level of complexity that’s there, they can border on marginally reliable to very unreliable, or maybe just questionably reliable.”</p>
+<p>Belak said it&#8217;s important to make robots that can simply do tasks successfully. But after that, the top priority is reliability, because it doesn&#8217;t matter how well a robot can pick if it’s constantly breaking down or missing picks. In addition, the quality of the pick is essential, he said.</p>
+<p>“There’s a big differentiation between being able to do something, and being able to do the same tasks with high quality. Locus Origin bots are already known for being very high-quality,” Belak said. “We want to bring that same ethos to picking.”</p>
+<p>“Picking has historically been a field where the claims have been more focused on the return on investment, without understanding the underlying quality,&#8221; he continued. &#8220;We can do many picks per hour, but what people don’t focus on is how good are those picks.”</p>
+<p>Locus&#8217; team wants to focus on avoiding product damage, double picks, and misspicks, noted Belak. They aren’t often talked about when advertising a robot, but they can eat into a customer&#8217;s costs quickly, he added. &#8220;Once they have the quality down, then they can worry about increasing speed,&#8221; Balak said.</p>
+<h2>What&#8217;s holding back robotic picking?</h2>
+<div id="attachment_588118" style="width: 780px" class="wp-caption aligncenter"><a href="https://www.therobotreport.com/wp-content/uploads/2026/05/Locus-Nexera-Orange-Poly-Bag-copy.jpg"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-588118" class="size-full wp-image-588118" src="https://www.therobotreport.com/wp-content/uploads/2026/05/Locus-Nexera-Orange-Poly-Bag-copy.jpg" alt="Nexera’s NeuraGrip can grasp items that were previously difficult to pick, such as porous polybags." width="770" height="494" srcset="https://www.therobotreport.com/wp-content/uploads/2026/05/Locus-Nexera-Orange-Poly-Bag-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/05/Locus-Nexera-Orange-Poly-Bag-copy-300x192.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/05/Locus-Nexera-Orange-Poly-Bag-copy-150x96.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/05/Locus-Nexera-Orange-Poly-Bag-copy-768x493.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/05/Locus-Nexera-Orange-Poly-Bag-copy-368x236.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /></a><p id="caption-attachment-588118" class="wp-caption-text">Nexera’s NeuraGrip can grasp items that were previously difficult to pick, such as porous polybags. | Source: Locus Robotics</p></div>
+<p>Two roadblocks are still hindering the industry, claimed Belak: the development of <a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener">AI</a> and giving robots a sense of <a href="https://www.therobotreport.com/category/design-development/haptics/" target="_blank" rel="noopener">touch</a>. The industry is good at building fancy hands or electromechanical structures, he said. But, when it comes to pinch grasping, the intelligence is still lagging behind.</p>
+<p>“[The challenge] is 100% the proprioception and the data metrics and the feedback mechanisms that are there to actually make these hands do things,” Belak said.</p>
+<p>This shouldn’t come as a surprise. The robotics industry has raked in millions of dollars of <a href="https://www.therobotreport.com/category/financial/investments-funding/" target="_blank" rel="noopener">funding</a> in recent years to build a robust physical AI system for robots. And the reality is, human brains evolved over billions of years. Some companies are trying to close this gap by generating as much data as possible, but when you do that, you start to notice the lack of tactile <a href="https://www.therobotreport.com/category/technologies/sensors-sensing/" target="_blank" rel="noopener">sensing</a>.</p>
+<p>“There is one piece of the physical system which is missing, which is the sense of touch on the robots, and particularly robust, reliable touch that doesn’t degrade after very limited usage. That stuff is really tough to simulate or to have the data generated,” Belak said. “I don’t think that simulated data is going to help with this problem very much.”</p>
+<p>Nexera does currently use a sense of touch, and it is interested in advancing that in the future. While Locus is still early in its journey with Array, Belak said the company&#8217;s manipulation roadmap doesn&#8217;t stop with Array.</p>
+<p>“Robotic manipulation in general &#8212; whether it’s Array, whether it’s other versions of the technology, whether it’s on picking benches, whatever it may be &#8212; we have identified that as a pillar of innovation that we want to be exceptional at,” he said.</p>
+<p><strong>Editor&#8217;s note:</strong> Rick Faulk, the CEO of Locus Robotics, will be speaking at <a href="https://www.robobusiness.com/" target="_blank" rel="noopener">RoboBusiness</a> 2026 in Santa Clara, Calif., on Oct. 20 and 21. Faulk will be part of the panel discussion &#8220;The RaaS Playbook: Pricing, Service &amp; Scale.&#8221;</p>
+<hr />
+
+<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+
+<hr />
+<p>The post <a href="https://www.therobotreport.com/locus-getting-grasp-one-robotics-biggest-challenges-manipulation/">How Locus is getting a grasp on one of robotics biggest challenges: manipulation</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.therobotreport.com/locus-getting-grasp-one-robotics-biggest-challenges-manipulation/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Teradyne Robotics ramps up fight against cobot copycats</title>
+		<link>https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/</link>
+					<comments>https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/#respond</comments>
+		
+		<dc:creator><![CDATA[Steve Crowe]]></dc:creator>
+		<pubDate>Thu, 27 Aug 2026 20:31:27 +0000</pubDate>
+				<category><![CDATA[China]]></category>
+		<category><![CDATA[Cobot Arms]]></category>
+		<category><![CDATA[Collaborative Robots]]></category>
+		<category><![CDATA[Investments]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[JAKA Robotics]]></category>
+		<category><![CDATA[Teradyne]]></category>
+		<category><![CDATA[Universal Robots]]></category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589332</guid>
+
+					<description><![CDATA[<p>Teradyne Robotics sued cobot maker JAKA over alleged patent infringement, marking its second battle with a Chinese cobot company in 2026.</p>
+<p>The post <a href="https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/">Teradyne Robotics ramps up fight against cobot copycats</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>If imitation is the sincerest form of flattery, Teradyne Robotics has had enough compliments for one year.</p>
+<p>Teradyne Robotics, the parent company of cobot arm maker <a href="http://www.therobotreport.com/tag/universal-robots" target="_blank" rel="noopener">Universal Robots</a>, has filed a patent infringement lawsuit against a German subsidiary of Chinese robotics company JAKA. The case alleges that JAKA infringed patents covering both hardware and software used in Universal Robots&#8217; <a href="https://www.therobotreport.com/category/robots-platforms/collaborative-robot/" target="_blank" rel="noopener">collaborative robots</a>.</p>
+<p>The lawsuit is Teradyne Robotics&#8217; second major case involving a Chinese robotics company in Europe this year. In February 2026, the <a href="https://www.therobotreport.com/tag/teradyne-robotics" target="_blank" rel="noopener">company</a> sued Elite Robots&#8217; German subsidiary over alleged copyright infringement.</p>
+<p>In April, the Regional Court of Hamburg <a href="https://www.therobotreport.com/german-court-rules-in-favor-of-teradyne-robotics-issues-injunction-against-elite-robots/" target="_blank" rel="noopener">issued a preliminary injunction</a> prohibiting Elite Robots Germany from offering the disputed software and products containing it in Germany. The case is still ongoing.</p>
+<p>The JAKA case is different. &#8220;This is a patent case where the other one was about copyright,&#8221; David Brandt, vice president of research and development and chief technology officer at Universal Robots, told <a href="https://www.therobotreport.com/" target="_blank" rel="noopener"><em>The Robot Report</em></a>. &#8220;It&#8217;s multiple patents this time, and they cover both significant hardware and software aspects of our products.&#8221;</p>
+<h2>Teradyne spots cobot similarities</h2>
+<p>According to Brandt, Teradyne Robotics became interested in <a href="https://www.therobotreport.com/tag/jaka-robotics/" target="_blank" rel="noopener">JAKA</a>&#8216;s products after noticing similarities between the two companies&#8217; force- and power-limited robot arms.</p>
+<p>&#8220;Our robots and the robots of JAKA look quite alike,&#8221; Brandt said. &#8220;We then chose to acquire one of the robots and take a deeper look at it. Then it became quite obvious that there&#8217;s possible patent infringement in this.&#8221;</p>
+<p>Teradyne Robotics said the lawsuit involves a range of JAKA collaborative robots marketed in the European Union. The company filed the case with the Unified Patent Court (UPC) Local Division in Copenhagen because alleged acts of infringement occurred in <a href="https://www.therobotreport.com/tag/denmark" target="_blank" rel="noopener">Denmark</a> and other EU member states.</p>
+<h2>EU ruling has broad implications</h2>
+<p>A ruling from the UPC could have broad geographic implications. According to Teradyne Robotics, a ruling could take effect across 17 of the 18 EU member states participating in the UPC, as well as in certain countries outside the UPC Agreement, including the U.K. and Spain.</p>
+<p><em>The Robot Report</em> reached out to JAKA for comment, but did not hear back at press time.</p>
+<div class="sir-container">
+<div class="sir-text-style-color-primary sir-text-style-paragraph-m-default">
+<p>“This case is another clear demonstration that Teradyne Robotics will enforce its patents and intellectual property (IP) rights against what we consider to be illegal and unfair copying and infringement, across both hardware and software,&#8221; stated Teradyne Robotics Group President Jean-Pierre Hathout.</p>
+<p>&#8220;We cannot and will not accept companies that unlawfully copy protected technologies, and we are resolute in safeguarding our IP so customers can continue to have innovative automation solutions that meet the highest standards for safety and compliance,&#8221; he added.</p>
+</div>
+</div>
+<div id="attachment_589335" style="width: 1010px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589335" class="size-full wp-image-589335" src="https://www.therobotreport.com/wp-content/uploads/2026/08/universal-robots-ur-series-cobots.jpg" alt="UR Series cobots from Universal Robots." width="1000" height="750" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/universal-robots-ur-series-cobots.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/universal-robots-ur-series-cobots-300x225.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/universal-robots-ur-series-cobots-150x113.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/universal-robots-ur-series-cobots-768x576.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/universal-robots-ur-series-cobots-317x238.jpg 317w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><p id="caption-attachment-589335" class="wp-caption-text">UR Series cobots from Universal Robots.</p></div>
+<h2>Comparing cobot portfolios</h2>
+<p>The dispute puts two collaborative robot portfolios under the microscope. Universal Robots currently divides its robot arms primarily between its UR Series and e-Series. The UR Series includes the UR8 Long, UR15, UR18, UR20 and UR30. Payloads range from 10 kg on the UR8 Long to 35 kg on the UR30, while reach extends to 1,750 mm on the UR8 Long and UR20.</p>
+<p>The e-Series is aimed at more compact and general-purpose automation. It currently consists of the UR3e, UR7e, UR12e and UR16e. Payloads range from 3 kg to 16 kg, with reaches from 500 mm to 1,300 mm.</p>
+<p>JAKA&#8217;s portfolio is similarly extensive. Its current lineup includes the Zu, Pro, S, AL, A and Mini series, along with the MiniCobo. The Zu family includes the Zu3, Zu5, Zu7, Zu12, Zu18, Zu20 and Zu30. The Pro family includes the Pro5, Pro12 and Pro16.</p>
+<p>The Zu series is JAKA&#8217;s broad general-purpose cobot family. For example, the Zu5 offers a 5-kg payload and 954-mm reach, while the Zu12 carries 12 kg to a 1,327-mm working radius and the Zu18 carries 18 kg to 1,073 mm.</p>
+<p>The Pro series is designed for more demanding environments and carries an IP68 rating. It includes the Pro5, Pro12 and Pro16, with payloads of 5, 12 and 16 kg, respectively. The Pro16 offers a 1,713-mm reach and is positioned for applications including palletizing, machine tending, polishing, grinding, and welding.</p>
+<div id="attachment_589334" style="width: 1010px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589334" class="size-full wp-image-589334" src="https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-cobot-lineup.jpg" alt="Part of JAKA's cobot lineup." width="1000" height="596" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-cobot-lineup.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-cobot-lineup-300x179.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-cobot-lineup-150x89.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-cobot-lineup-768x458.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-cobot-lineup-368x219.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><p id="caption-attachment-589334" class="wp-caption-text">JAKA&#8217;s cobot lineup.</p></div>
+<h2>Lawsuit is not about China, says Teradyne</h2>
+<p>Brandt emphasized that Teradyne&#8217;s decision was not driven by JAKA&#8217;s <a href="https://www.therobotreport.com/tag/china" target="_blank" rel="noopener">Chinese</a> ownership. &#8220;To us, it&#8217;s not about China,&#8221; he said. &#8220;It&#8217;s about other companies copying stuff that we designed, whether they&#8217;re Chinese or not.&#8221;</p>
+<p>Teradyne Robotics has long maintained a large intellectual property portfolio covering its robot technology. Brandt said the company uses patents, copyrights and trade-secret protections, but acknowledged the fundamental difficulty of protecting robots once they are commercially available.</p>
+<p>&#8220;You have to build the robot and ship it to a customer to have a robot,&#8221; he said. &#8220;And, of course, some competitor can buy the robot, take it apart, and look at how we design stuff.&#8221;</p>
+<p>&#8220;We welcome competition and we think competition is healthy,&#8221; added Brandt. &#8220;But we have a competition where we make big investments in creating what we believe is a great product, having good quality, having a very safe product, a lot of investment going into that. It&#8217;s quite expensive to develop such a product, and then having another company simply steal your innovations and copying it. That&#8217;s where we&#8217;re trying to put our foot down.&#8221;</p>
+<p><strong>Editor’s note:</strong>&nbsp;James Davidson, chief AI officer at Teradyne Robotics,&nbsp;will speak at <a href="http://www.robobusiness.com" target="_blank" rel="noopener">RoboBusiness 2026</a>. The event takes place Oct. 20 and 21 in Santa Clara, Calif., and attract 1,500+ attends from the robotics development community. <a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener">Register now to attend.</a></p>
+<hr />
+
+<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+
+<hr />
+<h2>Universal Robots wants JAKA to stop</h2>
+<p>Brandt said Teradyne&#8217;s primary objective isn&#8217;t financial compensation. &#8220;Ideally, we would like them to stop copying and infringing our IP,&#8221; he said. &#8220;This is not predominantly for getting money out of JAKA. This is more to send a very clear signal that they need to stop copying our products.&#8221;</p>
+<p>Brandt also sees a potential safety issue. Universal Robots helped establish the market for collaborative robots designed to operate in proximity to people, subject to appropriate risk assessment and safety measures. Brandt said the proliferation of copycat products that don&#8217;t meet the same standards could create risks beyond the companies involved in this dispute.</p>
+<p>&#8220;If they are not as safe as they should be, and in the worst-case scenario lead to somebody getting seriously hurt by these products, there&#8217;s of course a risk that this could reflect badly on the entire industry,&#8221; he said.</p>
+<p>That could lead regulators and workplace-safety authorities to view collaborative robots more broadly as a safety problem, Brandt said.</p>
+<p>&#8220;So we are concerned,&#8221; he said. &#8220;Mostly, of course, we&#8217;re concerned about people getting hurt. But there&#8217;s also, of course, a business side to that problem.&#8221;</p>
+<h2>Competition in the cobot market</h2>
+<p>Teradyne Robotics&#8217; two lawsuits underscore the competitive nature of the collaborative robot market. Universal Robots has sold more than 100,000 cobots and has spent more than a decade building an ecosystem around its robot arms, software, and accessories.</p>
+<p>Teradyne Robotics generated $100 million in revenue in Q2 2026. The $100 million in quarterly revenue is an increase from the $91 million that its made in <a href="https://www.therobotreport.com/teradyne-robotics-revenue-rises-start-2026/" target="_blank" rel="noopener">Q1 2026</a>.</p>
+<p>The North Reading, Mass.-based company marked its fifth consecutive quarter of growth. It also reported 33% year-over-year revenue growth from Q2 2025, when it made $75 million. Most of the $100 million came from Universal Robots, while the rest was generated by its <a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener">AMR</a> subsidiary Mobile Industrial Robots (<a href="https://www.therobotreport.com/tag/mobile-industrial-robots" target="_blank" rel="noopener">MiR</a>).</p>
+<p>At the same time, the market has attracted an expanding number of competitors, including companies from China offering cobots at aggressive price points. Brandt said that trend is not necessarily bad for Universal Robots.</p>
+<p>&#8220;The global market is growing,&#8221; he said. &#8220;There are just more companies trying to do the same thing, so in that respect, of course, the competition is heating up.&#8221;</p>
+<p>The problem, in Teradyne Robotics&#8217; view, is where competition crosses into alleged copying of protected technology.</p>
+<p>And Brandt suggested that JAKA may not be the last company that Teradyne Robotics challenges. &#8220;We do not see this as a one-time thing,&#8221; he said. &#8220;We are dedicated to aggressively protecting our IP, and JAKA is not the only robot out there that looks suspiciously like ours.&#8221;</p>
+<p>The post <a href="https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/">Teradyne Robotics ramps up fight against cobot copycats</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NSF to invest $90M into three new technology centers, including one focused on robotics</title>
+		<link>https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/</link>
+					<comments>https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/#respond</comments>
+		
+		<dc:creator><![CDATA[The Robot Report Staff]]></dc:creator>
+		<pubDate>Thu, 27 Aug 2026 18:12:54 +0000</pubDate>
+				<category><![CDATA[Academia / Research]]></category>
+		<category><![CDATA[Financial]]></category>
+		<category><![CDATA[Human Robot Interaction / Haptics]]></category>
+		<category><![CDATA[Investments]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Michigan State University]]></category>
+		<category><![CDATA[national science foundation]]></category>
+		<category><![CDATA[Northwestern University]]></category>
+		<category><![CDATA[nsf]]></category>
+		<category><![CDATA[University of Texas at Austin]]></category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589323</guid>
+
+					<description><![CDATA[<p>One of the new NSF funded centers will be the Center for Human and Robot Co-Adaptation, led by The University of Texas at Austin.</p>
+<p>The post <a href="https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/">NSF to invest $90M into three new technology centers, including one focused on robotics</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div id="attachment_589324" style="width: 1550px" class="wp-caption aligncenter"><a href="https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured.jpg"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589324" class="wp-image-589324 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured.jpg" alt="The NSF STCs will focus on building sustained partnerships across universities, industry, and government and accelerating the use of new ideas and technologies for scientific discovery. " width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /></a><p id="caption-attachment-589324" class="wp-caption-text">Science and Technology Centers focus on building sustained partnerships across universities, industry, and government and accelerating the use of new ideas and technologies for scientific discovery. | Sources: NSF, left to right: Indiana University, Bloomington; Michigan State University College of Engineering; Brian Scassellati and Kayla Matheus, Yale University</p></div>
+<p>The U.S. National Science Foundation yesterday said it is investing $90 million over five years to support three new Science and Technology Centers, or NSF STCs. The NSF will allocate $6 million annually for an initial five-year period to each of the three centers.</p>
+<p>After the first five years, the centers will have the opportunity to compete for up to five additional years of support. The <a href="https://www.therobotreport.com/tag/national-science-foundation/" target="_blank" rel="noopener">foundation</a> said the centers will advance American leadership in science and technology, strengthen the nation&#8217;s STEM workforce, and accelerate innovation in a variety of fields, including AI and robotics.</p>
+<p>&#8220;Maintaining the United States&#8217; leadership in science and technology requires bold research, strong partnerships, and a skilled workforce,&#8221; stated Brian Stone, who is performing the duties of the NSF director. &#8220;As advances in foundational science and technology open new possibilities, these Science and Technology Centers will help American researchers seize those opportunities, accelerate scientific discovery, and develop the talent and technologies needed to turn innovation into solutions that benefit the American people.&#8221;</p>
+<h2>Austin center will focus on human-robot collaboration</h2>
+<p>One of the new centers will be the Center for Human and Robot Co-Adaptation, led by <a href="https://www.therobotreport.com/tag/university-of-texas-at-austin/" target="_blank" rel="noopener">The University of Texas at Austin</a>. This center will study how people and robots can securely and effectively adapt to one another as service and assistive robots become more common in homes, hospitals, workplaces, and public spaces.</p>
+<p>Researchers at the center will combine robotics, <a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener">AI</a>, and human factors to develop new methods that help robots with embodied intelligence learn from people, understand their needs and preferences, and then adapt physically and cognitively to changing environments and different people. The center aims to advance secure, useful robotic technologies that can support independent living, <a href="https://www.therobotreport.com/category/markets-industries/biotechnology-medical-healthcare/" target="_blank" rel="noopener">healthcare</a>, and other human-centered services.</p>
+<p>The other two centers include the Center for Transformative Explorations in Multi-Physics and Engineering of Scientific Turbulence (<a href="https://engineering.msu.edu/news/msu-receives-30m-nsf-grant-establish-turbulence-research-center" target="_blank" rel="noopener">TEMPEST</a>), led by <a href="https://www.therobotreport.com/tag/michigan-state-university/" target="_blank" rel="noopener">Michigan State University</a>, and the Center for Genome Intelligence Engineering (GENIE), led by Northwestern University.</p>
+<p><iframe loading="lazy" title="The Human Connection: Inside UT Austin&amp;apos;s Robot Parade" width="740" height="416" src="https://www.youtube.com/embed/_2gJv68i_xE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<h2>More about the NSF STC program</h2>
+<p>Since its inception in 1987, the NSF STC program has driven the emergence of new fields of discovery, catalyzed strong partnerships, advanced breakthrough technologies, sparked numerous start-up companies, and trained generations of researchers and innovators.</p>
+<p>The program supports large-scale, transformational research that opens new areas of discovery and drives technological innovation. By combining expertise across organizations and partnering with industry and other groups, STCs tackle complex, high-risk challenges in foundational research and help move promising ideas toward real-world benefits.</p>
+<p>The NSF added that the centers will strengthen the nation&#8217;s scientific and technical workforce by providing students and early-career researchers with hands-on experience in emerging fields. The class of 2026 STCs will focus on strengthening foundational <a href="https://www.therobotreport.com/category/research/" target="_blank" rel="noopener">research</a>, advancing critical and emerging technologies, developing the <a href="https://www.therobotreport.com/tag/workforce" target="_blank" rel="noopener">workforce</a>, and translating discoveries into technological advances and national benefits.</p>
+<hr />
+
+<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+
+<hr />
+<p>The post <a href="https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/">NSF to invest $90M into three new technology centers, including one focused on robotics</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Carbon Robotics partners with iMerit to power instant in-field AI customization</title>
+		<link>https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/</link>
+					<comments>https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/#respond</comments>
+		
+		<dc:creator><![CDATA[Mike Oitzman]]></dc:creator>
+		<pubDate>Thu, 27 Aug 2026 13:27:58 +0000</pubDate>
+				<category><![CDATA[Agriculture]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Autonomous Mobile Robots (AMRs)]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Self-Driving Vehicles]]></category>
+		<category><![CDATA[Sensors / Sensing Systems]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Carbon Robotics]]></category>
+		<category><![CDATA[imerit]]></category>
+		<category><![CDATA[John Deere]]></category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589308</guid>
+
+					<description><![CDATA[<p>Carbon Robotics introduced a plant foundation AI model and tractor kit, enabling farmers to customize laser weeding.</p>
+<p>The post <a href="https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/">Carbon Robotics partners with iMerit to power instant in-field AI customization</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div id="attachment_589319" style="width: 780px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589319" class="size-full wp-image-589319" src="https://www.therobotreport.com/wp-content/uploads/2026/08/carbon-robotics-plantprofile-featured.jpg" alt="close up of an ipad in foreground with a tractor in a field in the background." width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/carbon-robotics-plantprofile-featured.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/08/carbon-robotics-plantprofile-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/carbon-robotics-plantprofile-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/carbon-robotics-plantprofile-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/carbon-robotics-plantprofile-featured-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /><p id="caption-attachment-589319" class="wp-caption-text">Carbon AI is trained on 150 million labeled plants, enabling farmers to start laser weeding any field or crop in minutes. | Credit: Carbon Robotics</p></div>
+<p>Carbon Robotics is bringing the era of foundation models to the farm. The company has replaced its collection of crop‑specific AI vision models with a single “large plant model” that understands plant structure across regions and species, allowing farmers to instantly tune Carbon’s laser weeder to their own definition of crops and weeds.</p>
+<p>Unlike traditional <a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener">vision</a> systems that require time‑consuming retraining whenever a new crop, weed, or geography is introduced, Carbon said its large plant model is pre‑trained on millions of images of baby plants collected worldwide and then personalized in the field. Using an iPad app, <a href="https://www.therobotreport.com/category/markets-industries/ag/" target="_blank" rel="noopener">farmers</a> can simply review thumbnails from their own fields and tag a small number as “crop” or “weed.”</p>
+<p>With the tool and the new foundation model, Carbon Robotics said farmers can customize their use of the its autonomous weeder to &#8220;zap&#8221; the specific plants that they want removed from their field. Even if those plants are desirable plants in another region or part of the farm, the grower can customize the intended target of the laser for each deployment.</p>
+<p>Those examples are fed into the <a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener">foundation model</a>, which immediately adjusts its behavior—without rolling new models or downloading new software. The same global model can selectively zap weeds in a carrot field in Arizona, then move to lettuce or herbs on another farm with only minutes of configuration.</p>
+<div id="attachment_585931" style="width: 2510px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-585931" class="size-full wp-image-585931" src="https://www.therobotreport.com/wp-content/uploads/2025/11/Laser-Weeding-Close-Up.jpg" alt="A close up of the laser weeder killing a weed." width="2500" height="1406" srcset="https://www.therobotreport.com/wp-content/uploads/2025/11/Laser-Weeding-Close-Up.jpg 2500w, https://www.therobotreport.com/wp-content/uploads/2025/11/Laser-Weeding-Close-Up-300x169.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2025/11/Laser-Weeding-Close-Up-1024x576.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2025/11/Laser-Weeding-Close-Up-150x84.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2025/11/Laser-Weeding-Close-Up-768x432.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2025/11/Laser-Weeding-Close-Up-1536x864.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2025/11/Laser-Weeding-Close-Up-2048x1152.jpg 2048w, https://www.therobotreport.com/wp-content/uploads/2025/11/Laser-Weeding-Close-Up-368x207.jpg 368w" sizes="auto, (max-width: 2500px) 100vw, 2500px" /><p id="caption-attachment-585931" class="wp-caption-text">When the LaserWeeder kills weeds, the nutrients from the weed go back into the soil to fertilize the plant. | Source: Carbon Robotics</p></div>
+<h2>Carbon Robotics CTO explains crop capabilities</h2>
+<p>Alex Sergeev, chief technology officer at Carbon Robotics, recently spoke with <a href="https://www.therobotreport.com/" target="_blank" rel="noopener"><em>The Robot Report </em></a>about the <a href="https://www.therobotreport.com/tag/carbon-robotics/" target="_blank" rel="noopener">company</a>&#8216;s capabilities.</p>
+<p>“What we had to do was to build a process that lets farmers give model examples, and that model doesn&#8217;t need time to retrain, just instantaneously work,&#8221; he said. &#8220;The model can understand differences. So it uses examples, and it&#8217;s able to compare those examples to plants that we see in the field at very fast speed. It&#8217;s fundamentally different principles.”</p>
+<p>Sergeev continued, “The main thing that model needs to output instead of saying, &#8216;Here&#8217;s my confidence that this is a weed&#8217; and &#8216;Here&#8217;s my confidence that this is a crop,&#8217; it gives you a way to do comparison between this plant and all the plants that the farmer told you &#8216;These are crops’ and &#8216;These are weeds.&#8217; That&#8217;s the difference, and that needs to happen really fast.”</p>
+<hr />
+
+<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+
+<hr />
+<h2>iMerit helps to create pretraining data</h2>
+<p>Labeling data and training the plant foundation model was a huge task. To train its model effectively, Carbon Robotics partnered with <a href="https://www.therobotreport.com/tag/imerit/" target="_blank" rel="noopener">iMerit</a>. The data-annotation company delivered the training resources and workflow to ingest the millions of plant images necessary to create a model capable of supporting the new capabilities.</p>
+<p>“In the very beginning, we were doing labeling ourselves,&#8221; stated Sergeev. &#8220;We were very small; we would all go to the farm and then in the evening, we would get together in a hotel room and label images. As you can imagine, it wasn&#8217;t scalable. So, in 2020, we went on a quest to find a label partner, and that&#8217;s when we found iMerit. We probably did maybe 2,000 images throughout our own kind of labeling life, and they did a million images at this point.”</p>
+<p>“We made a tool for our very specific style of labeling, and we just gave that tool to iMerit that was the best because then we could update the tool based on what innovation the learning team made,&#8221; he said. &#8220;We could also update it based on their feedback or feasibility, so it was like very synergetic that we were able to build this tool quickly with their feedback, and they were able to effectively use it.”</p>
+<p><strong>Editor&#8217;s note:</strong> Sudeep George, chief technology officer at iMerit, recently participated in <em>The Robot Report</em>&#8216;s webinar on &#8220;<a href="https://event.on24.com/wcc/r/5175330/1447431896DC588812C08612EBF73A90" target="_blank" rel="noopener">Physical AI and Robotics</a>.&#8221;</p>
+<h2>Carbon ATK is automating the tractor now</h2>
+<div id="attachment_589318" style="width: 1010px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589318" class="size-full wp-image-589318" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Carbon-Autonomy-Tractor-Kit.jpg" alt="hero image of a John Deere tractor equipped with Carbon ATK." width="1000" height="562" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Carbon-Autonomy-Tractor-Kit.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/Carbon-Autonomy-Tractor-Kit-300x169.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Carbon-Autonomy-Tractor-Kit-150x84.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Carbon-Autonomy-Tractor-Kit-768x432.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/Carbon-Autonomy-Tractor-Kit-368x207.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><p id="caption-attachment-589318" class="wp-caption-text">Carbon ATK Integrates with smart implements like the LaserWeeder to optimize speed based on weed pressure. | Credit: Carbon Robotics</p></div>
+<p>The next area of innovation for Carbon Robotics is automating the tractor. The company recently released Carbon ATK, an autonomy kit designed to retrofit existing <a href="https://www.therobotreport.com/tag/John-Deere/" target="_blank" rel="noopener">John Deere</a> 6R, 8R, 8RX, 8RT (2019+) series tractors with no permanent modifications.</p>
+<p>The Carbon ATK kit includes the cameras and sensors necessary for perception and position tracking. Using the onboard sensors, the unit can perform obstacle avoidance, path planning, tracking, and mission definition.</p>
+<p>A tractor outfitted with Carbon ATK and the Carbon Robotics smart implement is fully autonomous and capable of delivering weeding missions without a driver onboard. In addition, the autonomous tractor can be deployed for other farming workflows such as tillage, spraying, and harvesting.</p>
+<p><iframe loading="lazy" title="Carbon ATK: The Most Dependable Tractor Autonomy Solution" width="740" height="416" src="https://www.youtube.com/embed/2ix_caCPfVQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<p>The post <a href="https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/">Carbon Robotics partners with iMerit to power instant in-field AI customization</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Gatik brings in $200M to continue expanding autonomous trucking operations</title>
+		<link>https://www.therobotreport.com/gatik-brings-in-200m-to-continue-expanding-autonomous-trucking-operations/</link>
+					<comments>https://www.therobotreport.com/gatik-brings-in-200m-to-continue-expanding-autonomous-trucking-operations/#respond</comments>
+		
+		<dc:creator><![CDATA[The Robot Report Staff]]></dc:creator>
+		<pubDate>Wed, 26 Aug 2026 16:59:15 +0000</pubDate>
+				<category><![CDATA[Automotive]]></category>
+		<category><![CDATA[Financial]]></category>
+		<category><![CDATA[Investments]]></category>
+		<category><![CDATA[Logistics]]></category>
+		<category><![CDATA[Markets / Industries]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Robots / Platforms]]></category>
+		<category><![CDATA[Self-Driving Vehicles]]></category>
+		<category><![CDATA[autonomous trucking]]></category>
+		<category><![CDATA[Gatik]]></category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589315</guid>
+
+					<description><![CDATA[<p>Gatik said the funding will help it expand its model built around high-frequency regional routes connecting distribution centers and stores.</p>
+<p>The post <a href="https://www.therobotreport.com/gatik-brings-in-200m-to-continue-expanding-autonomous-trucking-operations/">Gatik brings in $200M to continue expanding autonomous trucking operations</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div id="attachment_589316" style="width: 1010px" class="wp-caption aligncenter"><a href="https://www.therobotreport.com/wp-content/uploads/2026/08/Gatik_Georgia-Pacific-and-KBX-Partnership-6-scaled-featured.jpg"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589316" class="size-full wp-image-589316" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Gatik_Georgia-Pacific-and-KBX-Partnership-6-scaled-featured.jpg" alt="Gatik automates regional transformation for a range of customers, including PepsiCo, Kroger, Tyson Foods, Georgia-Pacific, and more." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Gatik_Georgia-Pacific-and-KBX-Partnership-6-scaled-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/Gatik_Georgia-Pacific-and-KBX-Partnership-6-scaled-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Gatik_Georgia-Pacific-and-KBX-Partnership-6-scaled-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Gatik_Georgia-Pacific-and-KBX-Partnership-6-scaled-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/Gatik_Georgia-Pacific-and-KBX-Partnership-6-scaled-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a><p id="caption-attachment-589316" class="wp-caption-text">Gatik automates regional transformation for a range of customers, including PepsiCo, Kroger, Tyson Foods, and Georgia-Pacific. | Source: Gatik</p></div>
+<p>Gatik AI Inc. yesterday said it has raised $200 million in Series D funding. The company said it plans to use the investment to accelerate driverless commercial freight across Fortune 50 retail, consumer packaged goods, and grocery supply chains.</p>
+<p>Mountain View, Calif.-based Gatik said its <a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener">AI</a>-first autonomous vehicle (<a href="https://www.therobotreport.com/category/robots-platforms/self-driving-vehicles/" target="_blank" rel="noopener">AV</a>) technology is purpose-built for use across highways and surface streets. Its <a href="https://www.therobotreport.com/tag/autonomous-trucking" target="_blank" rel="noopener">autonomous trucks</a> use dynamic routes to help customers respond to changing demand, distribution center activity, and pickup and drop-off needs across commercial networks.</p>
+<p>“This round, led by some of the world’s leading financial institutions, is a clear validation of Gatik’s commercial leadership in autonomous freight,” stated Gautam Narang, co-founder and CEO of Gatik. “We have built Gatik with real revenue, deep customer demand, and AI-driven autonomous technology proven every day in live supply chains. This round gives us the capital to scale with speed and discipline, serve the world’s largest companies, and define the future of autonomous freight.”</p>
+<h2>Gatik autonomous truck fleet is growing</h2>
+<p>Gatik said it has more than $600 million in contracted revenue, completed 85,000 fully driverless orders, and 99% on-time delivery across its operations. With dozens of driverless trucks already operating today across North America, the <a href="https://www.automatedwarehouseonline.com/tag/gatik/" target="_blank" rel="noopener">company</a> plans to expand to thousands in the years ahead.</p>
+<p>The company&#8217;s <a href="https://archive.gatik.ai/" target="_blank" rel="noopener">trucks</a> move goods across high-frequency regional networks between <a href="https://www.automatedwarehouseonline.com/category/distribution-center/" target="_blank" rel="noopener">distribution centers</a> and stores. It said this gives customers a reliable way to add capacity, improve service levels, and keep products moving.</p>
+<p>In June, Gatik said it has <a href="https://www.therobotreport.com/gatik-brings-autonomous-freight-pepsico-north-american-supply-chain/" target="_blank" rel="noopener">expanded</a> its multi-year strategic partnership with PepsiCo. The company’s first deployment with PepsiCo was in 2022.</p>
+<p>Gatik has already conducted operations for PepsiCo across Texas, Arizona, and Arkansas. The new partnership focuses on PepsiCo’s regional transportation networks, where Gatik moves products daily from site to site.</p>
+<hr />
+
+<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+
+<hr />
+<h2>Funding to put more self-driving trucks on regional routes</h2>
+<p>Qatar Investment Authority (QIA) and Koch Disruptive Technologies (KDT) led Gatik&#8217;s Series D round. Millennium Management, ARK Invest, Intact Private Capital and others also participated.</p>
+<p>“We’ve long believed autonomous freight has the potential to improve the efficiency and reliability of supply chains,” said Byron Knight, president of Koch Disruptive Technologies. “What we’re seeing today is autonomy moving beyond a promising technology into real-world commercial operations. Gatik has demonstrated a practical approach to that transition, and we look forward to supporting the company’s continued growth.”</p>
+<p>Gatik said the latest funding will help expand its model built around high-frequency regional routes that connect distribution centers and stores. These routes are time-sensitive, operationally complex, and essential to keeping shelves stocked as customer expectations shift toward faster, more predictable access to everyday products, noted the company.</p>
+<p><iframe loading="lazy" title="Gatik Raises $200M Series D" width="740" height="416" src="https://www.youtube.com/embed/dzaeRV1WPiE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<p>The post <a href="https://www.therobotreport.com/gatik-brings-in-200m-to-continue-expanding-autonomous-trucking-operations/">Gatik brings in $200M to continue expanding autonomous trucking operations</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.therobotreport.com/gatik-brings-in-200m-to-continue-expanding-autonomous-trucking-operations/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>IDS Imaging adds Nion ToF sensor to its portfolio of 3D cameras</title>
+		<link>https://www.therobotreport.com/ids-imaging-adds-nion-tof-camera-portfolio-3d-cameras/</link>
+					<comments>https://www.therobotreport.com/ids-imaging-adds-nion-tof-camera-portfolio-3d-cameras/#respond</comments>
+		
+		<dc:creator><![CDATA[The Robot Report Staff]]></dc:creator>
+		<pubDate>Wed, 26 Aug 2026 15:04:14 +0000</pubDate>
+				<category><![CDATA[Cameras / Imaging / Vision]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Technologies]]></category>
+		<category><![CDATA[IDS Imaging]]></category>
+		<category><![CDATA[onsemi]]></category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589309</guid>
+
+					<description><![CDATA[<p>IDS said Nion is suitable for applications where precise 3D data is required at real-world process speeds, such as logistics and robotics. </p>
+<p>The post <a href="https://www.therobotreport.com/ids-imaging-adds-nion-tof-camera-portfolio-3d-cameras/">IDS Imaging adds Nion ToF sensor to its portfolio of 3D cameras</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div id="attachment_589310" style="width: 1010px" class="wp-caption aligncenter"><a href="https://www.therobotreport.com/wp-content/uploads/2026/08/ids-nion-3d-tof-camera-point-cloud-featured.jpg"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589310" class="size-full wp-image-589310" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ids-nion-3d-tof-camera-point-cloud-featured.jpg" alt="The Nion iToF sensor combines a global shutter, pixel-internal memory and a fast readout structure. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/ids-nion-3d-tof-camera-point-cloud-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/ids-nion-3d-tof-camera-point-cloud-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/ids-nion-3d-tof-camera-point-cloud-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/ids-nion-3d-tof-camera-point-cloud-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/ids-nion-3d-tof-camera-point-cloud-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a><p id="caption-attachment-589310" class="wp-caption-text">The Nion iToF sensor combines a global shutter, pixel-internal memory and a fast readout structure. | Source: IDS Imaging</p></div>
+<p>IDS Imaging Development Systems GmbH this week expanded its 3D sensor portfolio with Nion. The new product is an industrial time-of-flight, or ToF, camera that features 1.2-megapixel resolution and integrated depth processing. The Nion 3D camera is now available in series production.</p>
+<p>The <a href="https://www.therobotreport.com/tag/ids/" target="_blank" rel="noopener">company</a> said the new <a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener">camera</a> provides high resolution and temporally stable depth information at 30 fps. It continues to work during rapid movements and under changing lighting conditions. IDS said Nion is suitable for applications where precise 3D data is required at real-world process speeds, such as logistics, automation, and robotics.</p>
+<p>&#8220;The <a href="https://www.ids-imaging.us/ueye-3d-camera-nion.html" target="_blank" rel="noopener">Nion</a> provides stable depth data even under variable lighting conditions,&#8221; said Patrick Schick, the product manager for 3D vision and imaging software at IDS. &#8220;This provides a solid foundation for automation processes that rely on fast and accurate 3D data.&#8221;</p>
+<p>Founded in 1997, Obsersulm, Germany-based IDS Imaging offers 2D and 3D cameras, monitoring cameras, and AI-supported models are modular, intuitive, and versatile. Its portfolio includes around 5,000 products.</p>
+<p>The company has a team of more than 320 employees from 21 countries. This includes branches in the U.S., Japan, South Korea, and the U.K. as well as representative offices in France, the Benelux countries, and India.</p>
+<h2>IDS said Nion can work in a range of conditions reliably</h2>
+<p><iframe loading="lazy" title="Nion time-of-flight insights with real-world applications" width="740" height="416" src="https://www.youtube.com/embed/z5-n1P5c538?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<p>IDS claimed the Nion captures moving objects with virtually no blur. Additionally, its high resistance to stray light ensures reproducible measurement results both indoors and outdoors. The camera&#8217;s measurement range of 0.3 to 7.5 m (0.9 to 24.6 ft.) covers typical industrial scenarios.</p>
+<p>Nion features a rugged IP67-rated housing, which allows for use in more demanding environments. It also offers Power over Ethernet (PoE), which reduces installation effort and cabling.</p>
+<p>Nion is powered by the advanced 1.2 MP indirect time-of-flight sensor AF0130 from <a href="https://www.therobotreport.com/tag/onsemi/" target="_blank" rel="noopener">onsemi</a>&#8216;s Hyperlux ID family. Compared with standard ToF cameras on the market, the company said the onsemi depth sensor offers higher resolution, lower noise, more stable results in ambient light, and better motion stability. As a result, IDS said Nion achieves high depth accuracy even with fast-moving objects and variable lighting conditions.</p>
+<p>With its compact design, high measurement quality, and excellent value for money, IDS said Nion offers a straightforward introduction to 3D image processing. Companies can easily integrate the camera into existing systems and benefit from a cost-effective solution for reliable depth data.</p>
+<p>“In many cases, existing 2D processes can be retained and supplemented with depth data where necessary, if that aids decision-making in the process,” said Schick.</p>
+<hr />
+
+<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+
+<hr />
+<p>The post <a href="https://www.therobotreport.com/ids-imaging-adds-nion-tof-camera-portfolio-3d-cameras/">IDS Imaging adds Nion ToF sensor to its portfolio of 3D cameras</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.therobotreport.com/ids-imaging-adds-nion-tof-camera-portfolio-3d-cameras/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bedrock Robotics&#8217; first operator-free excavator deployments take off</title>
+		<link>https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/</link>
+					<comments>https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/#respond</comments>
+		
+		<dc:creator><![CDATA[Mike Oitzman]]></dc:creator>
+		<pubDate>Wed, 26 Aug 2026 13:51:51 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Autonomous Mobile Robots (AMRs)]]></category>
+		<category><![CDATA[Construction]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Bedrock Robotics]]></category>
+		<category><![CDATA[construction]]></category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589307</guid>
+
+					<description><![CDATA[<p>Bedrock Robotics deploys autonomous excavators to active job sites, tackling construction labor shortages with AI-powered heavy machinery.</p>
+<p>The post <a href="https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/">Bedrock Robotics&#8217; first operator-free excavator deployments take off</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div id="attachment_589311" style="width: 780px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589311" class="size-full wp-image-589311" src="https://www.therobotreport.com/wp-content/uploads/2026/08/bedrock-robotics-featured.jpg" alt="drone image of a bedrock robotics equipped excavator moving dirt." width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/bedrock-robotics-featured.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/08/bedrock-robotics-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/bedrock-robotics-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/bedrock-robotics-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/bedrock-robotics-featured-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /><p id="caption-attachment-589311" class="wp-caption-text">Bedrock is automating earth-moving equipment to improve site safety and fill skilled labor shortages. | Credit: Bedrock Robotics</p></div>
+<p>Bedrock Robotics Inc. has deployed fully autonomous, retrofitted heavy excavators onto active infrastructure projects in Texas and Nevada. These AI-driven heavy equipment projects directly address the construction industry’s severe labor shortages, safety hazards, and cost overruns.</p>
+<p>As the U.S. faces a looming labor crisis—with over 40% of the <a href="https://www.therobotreport.com/tag/construction/" target="_blank" rel="noopener">construction</a> workforce expected to retire within five years—Bedrock said its technology comes at a pivotal moment for national infrastructure ambitions. Backed by $350 million in venture capital and led by former <a href="https://www.therobotreport.com/tag/waymo/" target="_blank" rel="noopener">Waymo</a> autonomy veterans, the startup’s plug-and-play retrofit system turns complex, high-risk earthwork into software-driven operations.</p>
+<p>The San Francisco-based <a href="https://www.therobotreport.com/tag/bedrock-robotics/" target="_blank" rel="noopener">company</a> asserted that it is helping the physical economy transition from digital <a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener">AI</a> concepts to self-orchestrating machine fleets on live job sites.</p>
+<h2>First projects with fully autonomous excavators</h2>
+<p>The first few projects for Bedrock Robotics include a water treatment facility in partnership with Sundt Construction in Nevada, a multi-million cubic yard earthwork site with Champion Site Prep in Texas, and a 1.2 million cubic yard civil sitework project with Zachry Construction Corp.</p>
+<p>Bedrock claimed that these deployments mark a significant shift, as AI increasingly performs work of genuine economic value in the physical world. It’s also a critical step toward something larger: fleets that can self-orchestrate across machine types to plan, share, and execute jobs on a construction site at a pace and scale the industry has never seen.</p>
+<p>What is the scope of the current projects? &#8220;Right now, we&#8217;re doing a lot of clearing earth, like the early earthwork, cut and fill operations, the prep work for foundations, the prep work for the big sort of like rough cuts ahead of more detailed work,&#8221; <a href="https://www.linkedin.com/in/kevin-peterson-a783612/" target="_blank" rel="noopener">Kevin Peterson</a>, chief technology officer of Bedrock Robotics, told <a href="https://www.therobotreport.com/" target="_blank" rel="noopener"><em>The Robot Report</em></a>.</p>
+<p>While Bedrock&#8217;s design will eventually enable retrofits of existing late-model excavators in the future, right now, the company is only deploying new equipment that has been outfitted and tested at its headquarters. Peterson said he expects that by the end of the year, the <a href="https://bedrockrobotics.com/" target="_blank" rel="noopener">company</a> will be running on partner equipment.</p>
+<p><strong>Editor&#8217;s note:</strong> Physical AI and field robotics will be among the session track topics at RoboBusiness 2026, which will be on Oct. 20 and 21 in Santa Clara, Calif. <a href="https://web.cvent.com/event/7494a347-6721-45bc-95d0-337e8d036c45/summary" target="_blank" rel="noopener">Register now to attend.</a></p>
+<hr />
+
+<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+
+<hr />
+<h2>Bedrock Robotics does not compromise on safety</h2>
+<p>Safety is the No. 1 priority for system deployment, according to Peterson.</p>
+<p>&#8220;We can&#8217;t compromise safety,&#8221; he said. &#8220;[The machines] operate around people; water trucks drive up, and the machine has to react. That&#8217;s really what we care about. So when you&#8217;re outfitting [existing] machines, one of the things you start to run into is we care about all the sensors on the machine. We care about signals coming back and about the machine health.&#8221;</p>
+<p>The Bedrock systems can work safely without an operator in the seat. &#8220;The system monitors itself, and it looks to see what it&#8217;s doing, whether it&#8217;s making progress, and it&#8217;ll call home if it gets stuck,&#8221; explained Peterson. &#8220;If it gets stuck, there&#8217;s a process for managing that.&#8221;</p>
+<p>Having a &#8220;person in the loop&#8221; ensures that the operations are successful, while minimizing interruptions onsite, said Bedrock.</p>
+<div id="attachment_589312" style="width: 1010px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589312" class="size-full wp-image-589312" src="https://www.therobotreport.com/wp-content/uploads/2026/08/bedrock-Fully-Autonomous-Cab-View.jpg" alt="image from the cab showing the monitor screen inside the cab." width="1000" height="562" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/bedrock-Fully-Autonomous-Cab-View.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/bedrock-Fully-Autonomous-Cab-View-300x169.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/bedrock-Fully-Autonomous-Cab-View-150x84.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/bedrock-Fully-Autonomous-Cab-View-768x432.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/bedrock-Fully-Autonomous-Cab-View-368x207.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><p id="caption-attachment-589312" class="wp-caption-text">Bedrock has begun to operate autonomous excavators without an operator in the cab. | Credit: Bedrock Robotics</p></div>
+<h2>Startup looks to scale</h2>
+<p>&#8220;There are three big things that we&#8217;re doing next,&#8221; noted Peterson. &#8220;One is just scaling up our deployments. We want to get more customers using these machines that gives us experience.&#8221;</p>
+<p>&#8220;The other dimension is doing more tasks,&#8221; he said. &#8220;So we&#8217;re getting into a handful of more finesse kind of work that opens up more and more scope that we can do.&#8221;</p>
+<p>&#8220;There&#8217;s a lot a ton of other things that we&#8217;re pushing on,&#8221; Peterson said. &#8220;We&#8217;re really starting to think about orchestrating multiple machines, and so that&#8217;s been a longer-term thing, but coming soon on the roadmap are clusters of machines that work together. You might have an excavator, a bulldozer, a truck, and maybe there&#8217;s a grader, and those work together as a team. We want to accelerate these building projects &#8212; it could be simple work, or it could be complex work &#8212; but to accelerate them, you need these machines that work together.&#8221;</p>
+<h2>Construction is ripe for autonomy</h2>
+<p>The sector is reaching its limits, said Bedrock Robotics. Twenty percent of construction workers are over the age of 55, and analysts estimate that more than 40% of the construction industry will retire in the next five years.</p>
+<p>Large projects already run an average of 20% over schedule and 80% over budget. Exacerbating these challenges is the inherent danger of the industry: Construction workers make up 7.5% of the workforce and 20% of workplace deaths.</p>
+<p>“The physical economy is the next great frontier for machine learning,” stated Boris Sofman, co-founder and CEO of Bedrock Robotics. “While we have excavators moving earth independently today, we are moving toward coordinated fleets that self-orchestrate entire scopes of work.&#8221;</p>
+<p>&#8220;Getting here took real partnership with contractors who are designing these solutions alongside us and an uncompromising commitment to doing this safely, responsibly, and with optimism about the future,&#8221; he said. &#8220;This fundamentally redefines not just the productivity of a single machine, but the very scale of what contractors — and our country — can achieve.”</p>
+<p>Sofman was a guest on <a href="https://www.therobotreport.com/building-tomorrow-how-bedrock-robotics-changing-construction-industry/" target="_blank" rel="noopener">Episode 236</a> <em>The Robot Report</em> Podcast earlier this year. On the show, he discussed his long-term vision for the company.</p>
+<p><iframe loading="lazy" title="Driverless Excavators Are Now Working on Live Sites | Bedrock Robotics" width="740" height="416" src="https://www.youtube.com/embed/JKFfIcO-QJo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<h2>Bedrock masters the critical first phase of excavation</h2>
+<p>Bedrock Robotics said it prioritized excavators, the most complex and highly utilized machine on a job site, often making up 25% of a contractor’s fleet. Mastering an excavator typically takes five years or more, which makes it among the hardest machines to predictably staff with skilled operators.</p>
+<p>Starting with earthwork brings more predictability to the foundation of every major project, the company said. Until earthwork is complete, no subsequent phase — concrete, steel, mechanical, or electrical — can proceed.</p>
+<p>The Bedrock Operator retrofits existing fleets with a sophisticated <a href="https://www.therobotreport.com/category/technologies/sensors-sensing/" target="_blank" rel="noopener">sensor</a> and compute suite in a same-day installation that requires no permanent changes or new machinery. Trained across tens of thousands of hours in the field, Bedrock said its end-to-end machine learning model enables the system to perceive its environment, plan its motion, and execute complex tasks autonomously once a site manager sets the initial plan.</p>
+<p>After a year of rigorous testing on active job sites under human supervision, Bedrock-equipped machines have proven their readiness.</p>
+<p>“Our partnership with Bedrock Robotics is helping us tackle some of the challenges that matter most in construction: making schedules and costs more predictable, getting more consistent use out of our equipment, and allowing our skilled crews to focus on the work where their experience matters most,” said Cade Rowley, CEO of Sundt Construction Inc.</p>
+<p>“AI is creating opportunities in our industry that we could not have imagined just a few years ago, both in the office and in the field,&#8221; he said. &#8220;As an employee-owned company, these tools can help us take on more, perform at a higher level, and create even greater opportunities for our people.”</p>
+<p><iframe loading="lazy" title="Sundt on Bringing Autonomy to America&amp;apos;s Job Sites with Bedrock Robotics" width="740" height="416" src="https://www.youtube.com/embed/1LndxWBx2TQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<p>The post <a href="https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/">Bedrock Robotics&#8217; first operator-free excavator deployments take off</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Early bird pricing for RoboBusiness 2026 ends August 31</title>
+		<link>https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/</link>
+					<comments>https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/#respond</comments>
+		
+		<dc:creator><![CDATA[The Robot Report Staff]]></dc:creator>
+		<pubDate>Tue, 25 Aug 2026 17:41:56 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[Human Robot Interaction / Haptics]]></category>
+		<category><![CDATA[Humanoids]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Agility Robotics]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[Apptronik]]></category>
+		<category><![CDATA[Familiar Machines & Magic]]></category>
+		<category><![CDATA[Persona AI]]></category>
+		<category><![CDATA[PSYONIC]]></category>
+		<category><![CDATA[robobusiness]]></category>
+		<category><![CDATA[Robust AI]]></category>
+		<category><![CDATA[Teradyne Robotics]]></category>
+		<category><![CDATA[uc berkeley]]></category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589297</guid>
+
+					<description><![CDATA[<p>Early bird pricing for RoboBusiness 2026, which saves attendees $200 on full conference passes, will end Aug. 31.</p>
+<p>The post <a href="https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/">Early bird pricing for RoboBusiness 2026 ends August 31</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><a href="https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured.jpg"><img loading="lazy" decoding="async" class="aligncenter wp-image-589301 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured.jpg" alt="A promotional image for RobBusiness 2026." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></p>
+<p>Your chance to get discounted passes to RoboBusiness 2026, the leading event for commercial robotics developers, will come to an end next week. Early bird pricing for the show, which saves attendees $200 on full conference passes, will end <strong>Aug. 31, 2026</strong>. For expo-only passes, early bird pricing will save attendees $40.</p>
+<p>A full conference pass at <a href="https://www.robobusiness.com/" target="_blank" rel="noopener">RoboBusiness</a> will give attendees access to all keynote and breakout sessions, post-show access to speaker presentations, all networking breaks, the engineering theater sessions, and the expo floor.</p>
+<p>This year, we&#8217;ll be celebrating 20 years of RoboBusiness. The show will take place at the Santa Clara Convention Center on&nbsp;<strong>Oct. 20 and 21</strong>. The event is produced by&nbsp;<a href="https://www.therobotreport.com/" target="_blank" rel="noopener"><em>The Robot Report</em></a>&nbsp;and parent company&nbsp;<a href="https://www.therobotreport.com/the-robot-report-parent-company-wtwh-media-rebrands-as-arrowfly/" target="_blank" rel="noopener">Arrowfly</a>.</p>
+<p>Attendees will learn from experts in robotics and AI on cutting-edge research and industry trends, as well as innovative applications in sectors such as manufacturing, healthcare, agriculture, logistics, and more.</p>
+<p><a href="http://www.massrobotics.org/" target="_blank" rel="noopener">MassRobotics</a>, the world’s largest independent robotics hub dedicated to accelerating robotics innovation, commercialization and adoption, is the strategic partner of RoboBusiness.</p>
+<hr />
+
+<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+
+<hr />
+<h2>Meet the RoboBusiness 2026 keynote speakers</h2>
+<p>This year, RoboBusiness will include four insightful keynote sessions:</p>
+<ul>
+<li><strong>The Next 20 Years of Robotics:&nbsp;</strong>To kick off the show, <a href="https://www.therobotreport.com/tag/robust-ai" target="_blank" rel="noopener">Robust AI</a>&#8216;s Rodney Brooks, <a href="https://www.therobotreport.com/tag/agility-robotics" target="_blank" rel="noopener">Agility</a>&#8216;s Jonathan Hurst, and <a href="https://www.therobotreport.com/tag/uc-berkeley/" target="_blank" rel="noopener">UC Berkeley</a>&#8216;s Ken Goldberg will reflect on the breakthroughs that defined the past two decades. They will also explore the technologies, markets, opportunities, and challenges that will shape the next 20 years.</li>
+<li><strong>Beyond the Demo: AI in Production Robotics:&nbsp;</strong>To close Day 1, <a href="https://www.therobotreport.com/tag/amazon" target="_blank" rel="noopener">Amazon</a>&#8216;s Bhavana Chandrashekhar, <a href="https://www.therobotreport.com/tag/teradyne-robotics" target="_blank" rel="noopener">Teradyne</a>&#8216;s James Davidson, and <a href="https://therobotreport.com/tag/cobot" target="_blank" rel="noopener">Cobot</a>&#8216;s Michael Vogelson will discuss how they&#8217;re applying <a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener">AI</a> to robots operating in real customer environments.</li>
+<li><strong>State of Humanoids:&nbsp;</strong>At the start of Day 2, Agility&#8217;s Pras Velagapudi, <a href="https://www.therobotreport.com/tag/apptronik" target="_blank" rel="noopener">Apptronik</a>&#8216;s Parker Conroy, <a href="https://www.therobotreport.com/tag/persona-AI" target="_blank" rel="noopener">Persona AI</a>&#8216;s Michael Patrick Perry, and <a href="https://www.therobotreport.com/tag/psyonic/" target="_blank" rel="noopener">PSYONIC</a>&#8216;s Aadeel Akhtar will explore the capabilities that <a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener">humanoids</a> are delivering today, the technical and operational challenges that remain, and the lessons emerging from early industrial implementations.</li>
+<li><strong>Creating Robotic Characters:&nbsp;</strong>To close out the show, Morgan Pope, formerly of Disney Imagineering and now the director of companionship at <a href="https://www.therobotreport.com/tag/familiar-machines-magic/" target="_blank" rel="noopener">Familiar Machines &amp; Magic</a>, will discuss how the company is bringing a new character to life at mass-market scale.</li>
+</ul>
+<p>RoboBusiness features five different conference tracks covering physical AI, enabling technologies, humanoids, field robotics, and business and deployment. The Engineering Theater on the show floor will also feature presentations by industry experts.</p>
+<p><iframe loading="lazy" title="Best Moments of RoboBusiness 2025" width="740" height="416" src="https://www.youtube.com/embed/sA7R9PGhCog?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<h2>See robots and startups on the show floor</h2>
+<p>The expo hall at RoboBusiness 2026 will showcase more than 100 exhibitors. They will bring the latest enabling technologies, products, and services to help robotics engineers throughout their development journeys.</p>
+<p>The show floor will also include the RoboBusiness Startup Alley, which will highlight innovative startups a variety of industries.</p>
+<p><a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener">Register now</a> to take advantage of early bird pricing.</p>
+<article class="type-post entry" aria-label="Registration is open for RoboBusiness 2026">
+<div class="entry-content">
+<p>For information about sponsorship and exhibition opportunities,&nbsp;<a href="https://www.robobusiness.com/sponsor/" target="_blank" rel="noopener">download the prospectus</a>. Questions regarding sponsorship opportunities should be directed to Colleen Sepich at csepich[AT]arrowfly.com.</p>
+</div>
+</article>
+<p>The post <a href="https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/">Early bird pricing for RoboBusiness 2026 ends August 31</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Humans in the loop are still needed for robotaxi fleet safety, says Guident</title>
+		<link>https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/</link>
+					<comments>https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/#comments</comments>
+		
+		<dc:creator><![CDATA[Eugene Demaitre]]></dc:creator>
+		<pubDate>Tue, 25 Aug 2026 15:11:13 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Automotive]]></category>
+		<category><![CDATA[Autonomous Mobile Robots (AMRs)]]></category>
+		<category><![CDATA[Mobility / Navigation]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Safety & Security]]></category>
+		<category><![CDATA[Self-Driving Vehicles]]></category>
+		<category><![CDATA[Transportation]]></category>
+		<category><![CDATA[government]]></category>
+		<category><![CDATA[Guident]]></category>
+		<category><![CDATA[robotaxi]]></category>
+		<category><![CDATA[robotaxis]]></category>
+		<category><![CDATA[safety]]></category>
+		<category><![CDATA[standards]]></category>
+		<category><![CDATA[Waymo]]></category>
+		<category><![CDATA[Zoox]]></category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589290</guid>
+
+					<description><![CDATA[<p>As fleets of autonomous vehicles scale, AI and human oversight remain critical for safety, explains Guident's CEO.</p>
+<p>The post <a href="https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/">Humans in the loop are still needed for robotaxi fleet safety, says Guident</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div id="attachment_589298" style="width: 780px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589298" class="wp-image-589298 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_Boca-copy.jpg" alt="Guident launched autonomous shuttle service in Boca Raton, Fla., in November 2025. Safety is critical as fleets scale, says the company." width="770" height="499" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_Boca-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_Boca-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_Boca-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_Boca-copy-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_Boca-copy-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /><p id="caption-attachment-589298" class="wp-caption-text">Guident launched autonomous shuttle service in Boca Raton, Fla., in November 2025. Source: Guident</p></div>
+<p>Robotaxi fleets are growing as self-driving vehicle companies start to roll out commercial services while still collecting data for further development and safety. For instance, Zoox Inc. this month began charging for rides in Las Vegas.</p>
+<p>The Foster City, Calif.-based Amazon <a href="https://www.therobotreport.com/tag/zoox/" target="_blank" rel="noopener">subsidiary</a> recently partnered with Uber as it <a href="https://www.therobotreport.com/zoox-begins-testing-purpose-built-robotaxis-phoenix-and-dallas/" target="_blank" rel="noopener">expands</a> to multiple cities. While Zoox has <a href="https://zoox.com/safety" target="_blank" rel="noopener">explained how it approaches safety</a> for its autonomous vehicles (<a href="https://www.therobotreport.com/category/robots-platforms/self-driving-vehicles/" target="_blank" rel="noopener">AVs</a>), which have no steering wheels, there are no federal standards yet.</p>
+<p>Guident Corp. claimed that its GuideOn platform addresses the critical human-in-the-loop layer, providing <a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener">AI</a>, remote monitoring, and <a href="https://www.therobotreport.com/tag/teleoperation/" target="_blank" rel="noopener">teleoperation</a> for AVs and <a href="https://www.therobotreport.com/tag/robotaxi" target="_blank" rel="noopener">robotaxis</a>. It operates six remote monitoring and control centers and has partnered with six autonomous shuttle operators.</p>
+<p>The Boca Raton, Fla.-based <a href="https://www.therobotreport.com/tag/guident/" target="_blank" rel="noopener">company</a> last week also <a href="https://ir.guident.com/news/news-details/2026/Guident-Extends-Multi-Year-AI-Safety-Agreement-with-Coastal-Waste--Recycling/default.aspx" target="_blank" rel="noopener">extended</a> its partnership with Coastal Waste &amp; Recycling by three years, as deployments of its WatchBot inspection robot and related software expand across&nbsp;locations in Florida, Georgia, and South Carolina.</p>
+<p>Harald Braun, CEO of Guident, replied to the following questions from&nbsp;<a href="https://www.therobotreport.com/" target="_blank" rel="noopener"><em>The Robot Report</em></a> about AV safety and remote monitoring.</p>
+<h2>Technology can help human oversight keep up</h2>
+<p><strong>How can human-in-the-loop architectures keep up with growing AV fleets?</strong></p>
+<p><strong><img loading="lazy" decoding="async" class="alignleft size-medium wp-image-589299" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Harald-Braun-Medium-300x300.webp" alt="Guident CEO Harald Braun" width="300" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Harald-Braun-Medium-300x300.webp 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Harald-Braun-Medium-150x150.webp 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Harald-Braun-Medium-238x238.webp 238w, https://www.therobotreport.com/wp-content/uploads/2026/08/Harald-Braun-Medium.webp 640w" sizes="auto, (max-width: 300px) 100vw, 300px" />Braun:</strong> The key is that human-in-the-loop does not mean that a person is manually driving every vehicle or watching every vehicle continuously. Its purpose is to provide oversight and assistance when the autonomous system encounters a situation it cannot safely resolve on its own.</p>
+<p>As fleets grow, the technology needs to make that human oversight scalable. The autonomous vehicle should handle the normal situations, while AI-driven monitoring can identify when something unusual is happening and bring the right information to a remote operator.</p>
+<p>That operator can then provide guidance or, when technically appropriate and legally permitted, intervene to return the vehicle to a safe operating state.</p>
+<p>In my view, that is the right model for scaling autonomous mobility. You don&#8217;t want to eliminate the human from the equation. You want to use technology to make the human much more effective.</p>
+<p>Guident&#8217;s approach is built around that combination of autonomous systems, AI-driven monitoring, and human oversight.</p>
+<p><strong>Editor&#8217;s note:</strong> Physical AI, enabling technologies, and field robotics are among the session tracks at <a href="https://www.robobusiness.com/" target="_blank" rel="noopener">RoboBusiness</a> 2026, which will be at the Santa Clara Convention Center on Oct. 20 and 21. <a href="https://web.cvent.com/event/7494a347-6721-45bc-95d0-337e8d036c45/summary" target="_blank" rel="noopener">Register now to attend.</a></p>
+<hr />
+
+<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+
+<hr />
+<h2>Robotaxi safety requires consistency and data to build trust</h2>
+<p><strong>What are the dangers of robotaxi developers setting their own safety <a href="https://www.therobotreport.com/tag/standards" target="_blank" rel="noopener">standards</a>? Don&#8217;t they already need to comply with existing road-safety rules?</strong></p>
+<p><strong>Braun:</strong> Existing road-safety rules are important, but autonomous vehicles introduce new situations that traditional road-safety frameworks were not necessarily designed to address. The question is not only whether a vehicle follows the rules of the road, but also what happens when the autonomous system encounters something unexpected or outside of its normal operating conditions.</p>
+<p>In my view, there needs to be a consistent framework for how AVs are monitored, how incidents and edge cases are reported, and how human intervention is handled when necessary. I don&#8217;t think the answer is to tell companies exactly how they have to build their technology. The industry needs room to innovate. But there should be clear safety expectations and measurable standards that apply across the industry.</p>
+<p>Ultimately, if we want public trust and widespread adoption, people need to know that there is a safety architecture around these vehicles and that there is a way to respond when the autonomous system encounters a situation it cannot resolve itself.</p>
+<p><strong>We&#8217;ve seen testing in more AV-friendly jurisdictions, but we&#8217;ve also seen restrictions, particularly of <a href="https://www.therobotreport.com/tag/delivery-robots/" target="_blank" rel="noopener">delivery robots</a>, <a href="https://www.bbc.com/news/articles/c0rygp005wjo" target="_blank" rel="noopener">in others</a>. How can authorities find reliable data on which to build requirements that apply on a wider scale?</strong></p>
+<p><strong>Braun:&nbsp;</strong>The most important thing is consistent, real-world data. Every autonomous system will eventually encounter situations that were not anticipated during development.</p>
+<p>If companies are measuring and reporting those situations differently, it becomes very difficult for regulators to understand what is actually happening across the industry.</p>
+<p>We should be looking at data from the entire operating environment, not just whether an AV successfully completed a trip. What happened when it encountered an object in the road or another type of edge case? Did it need assistance? How did it respond? Was a human operator required to intervene?</p>
+<p>The more standardized and transparent that information becomes, the better regulators can distinguish between an isolated situation and a systemic issue. That gives authorities a much stronger foundation for developing requirements that can be applied across different jurisdictions while still allowing the technology to evolve.</p>
+<p><iframe loading="lazy" title="Guident Passenger Communication Module for Autonomous Vehicles" width="740" height="416" src="https://www.youtube.com/embed/27AeYgct5lI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<h2>Autonomous systems must account for speed and edge cases</h2>
+<p><strong>What are the differences and similarities for monitoring and control of self-driving vehicles and <a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener">mobile robots</a>?</strong></p>
+<p><strong>Braun:</strong> A robotaxi is operating around passengers, pedestrians, other vehicles and traffic at much higher speeds, so the consequences of an incident can be very different from those involving a mobile inspection robot.</p>
+<p>However, the underlying principle is very similar. Autonomous vehicles, whether they are cars, robots or other types of autonomous systems, need to be monitored and, when necessary, controlled. That is the strategic thinking we have had at Guident from the beginning.</p>
+<p>The autonomous system should be able to perform its mission independently, but it may encounter situations it does not understand or cannot safely resolve without assistance. A monitoring system needs to identify those situations, provide the right information to a remote operator, and allow that operator to assist or control the vehicle when necessary.</p>
+<p><strong>What are some of the edge cases that AV fleets might encounter as they scale? How will this affect public perception and potential <a href="https://www.therobotreport.com/tag/government" target="_blank" rel="noopener">government</a> regulation?</strong></p>
+<p><strong>Braun:</strong> There are thousands of potential edge cases because the real world is constantly changing. You can have an unexpected object in the road, an unusual traffic situation, a vehicle that is blocking the normal route, an accident with another vehicle, or some other emergency situation that the autonomous system was not expecting.</p>
+<p>The important question is not whether you can eliminate every edge case. The important question is what the system does <em>when </em>it encounters one.</p>
+<p>If the vehicle can recognize it is in a situation it cannot safely resolve, bring that information to a remote monitoring and control center and have a human operator assist it, then you have another layer of safety around the autonomous system. That is how we think about human oversight at Guident.</p>
+<p>It is not necessarily there because the autonomous system has failed; it is there because the real world will continue to produce situations that are difficult to predict.</p>
+<p>Public perception will ultimately depend on how reliably these systems handle those situations. The industry needs to demonstrate that autonomy is not simply about the vehicle driving itself, but about having the appropriate safety architecture around the vehicle when something unexpected happens.</p>
+<div id="attachment_589300" style="width: 1210px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589300" class="wp-image-589300 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_SoC-copy.jpg" alt="Guident offers remote monitoring and control for autonomous system safety." width="1200" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_SoC-copy.jpg 1200w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_SoC-copy-300x162.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_SoC-copy-1024x554.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_SoC-copy-150x81.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_SoC-copy-768x415.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_SoC-copy-368x199.jpg 368w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /><p id="caption-attachment-589300" class="wp-caption-text">Guident offers remote monitoring and control of autonomous systems. Source: Guident</p></div>
+<h2>Third-party safety, data sharing don&#8217;t have to impede innovation</h2>
+<p><strong>As the technologies of <a href="https://www.therobotreport.com/tag/waymo/" target="_blank" rel="noopener">Waymo</a> and Zoox mature and AV deployments <a href="https://electrek.co/2026/08/15/weekend-quick-charge-all-about-autonomy-with-waymo-and-gm/" target="_blank" rel="noopener">continue to spread</a>, what incentives do they have to collaborate with third-party <a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener">software</a> providers such as Guident?</strong></p>
+<p><strong>Braun:</strong> As autonomous fleets scale, the operators are going to have to think not only about the driving technology itself, but also about the operational infrastructure required to safely manage hundreds or thousands of vehicles.</p>
+<p>I don&#8217;t see third-party remote monitoring and control software as replacing the autonomous driving system, but as a complementary layer. The AV company can focus on what it does best, which is developing the autonomous driving technology, while a company like Guident can provide monitoring, assistance, remote intervention and operational support around it.</p>
+<p>A specialized third-party platform can also provide vehicle-agnostic infrastructure, redundant connectivity, and standardized operational data across different vehicle types. This allows fleet operators to avoid duplicating supporting systems while maintaining a consistent safety and oversight layer.</p>
+<p>The larger the fleet becomes, the more important that infrastructure becomes. A small pilot operating in a controlled environment can rely on more manual processes.</p>
+<p>When you have thousands of vehicles operating simultaneously, you need a system that can continuously monitor those vehicles, identify situations that require attention and bring a human into the loop when necessary.</p>
+<p><strong>If data is the foundation for training robot behaviors, who should control it?</strong></p>
+<p><strong>Braun:</strong> I think there are two different issues here: who generates and owns the data, and who needs access to the data to ensure that autonomous systems are operating safely.</p>
+<p>The companies developing and operating these systems are obviously going to generate a tremendous amount of valuable data, and they need to be able to use that data to improve their technology.</p>
+<p>At the same time, when you are talking about safety-related information from autonomous vehicles operating in public environments, there is a broader interest in having appropriate transparency.</p>
+<p>I don&#8217;t think all of that information needs to be public. There are privacy, security, and commercial considerations. But regulators should have access to the information they need to evaluate safety, and there should be consistent ways of reporting incidents and edge cases.</p>
+<p>Ultimately, the goal should be to use data to make autonomous systems safer. The industry needs to find the right balance between protecting proprietary information and making sure the data necessary for safety and accountability is available.</p>
+<p><iframe loading="lazy" title="Inside The Ride: Scaling Zoox | Episode One" width="740" height="416" src="https://www.youtube.com/embed/6srqKuBN0NE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<h2>Clarity and redundancy light the way to AV safety</h2>
+<p><strong>What standards would you like to see to enable safe and profitable scaling of these fleets?</strong></p>
+<p><strong>Braun:</strong> There should be clear expectations around operational monitoring, incident reporting, remote human oversight, communications reliability, <a href="https://www.therobotreport.com/tag/cybersecurity/" target="_blank" rel="noopener">cybersecurity</a>, operator qualifications, and fallback procedures when an autonomous vehicle encounters a situation outside its normal operating parameters.</p>
+<p>I also think scalability is important. A safety architecture that works for one AV must remain reliable when applied across an entire fleet.</p>
+<p>In my view, that combination of autonomous technology and human intelligence is what will allow the industry to move from individual pilots to large-scale commercial deployment. The goal is not to have a human manually operating every vehicle, but to have a human oversight layer that can effectively monitor multiple vehicles and intervene when necessary.</p>
+<p><strong>Does adding a remote operator create another potential point of failure?</strong></p>
+<p><strong>Braun:</strong> It can, if the vehicle depends on a single operator or communications link. A properly designed remote-operations system should instead provide an additional safety layer without replacing the vehicle’s onboard autonomy and fallback capabilities.</p>
+<p>If connectivity is degraded or lost, the vehicle must be able to reach a safe state. That requires redundant, secure communications, trained operators, and clearly defined fallback procedures.</p>
+<p>At Guident, we use event-driven oversight, ultra-low-latency communications, and redundant connectivity. The operator becomes involved only when assistance is needed. The objective is to ensure that no individual operator or communications link becomes a critical point of failure.</p>
+<p><iframe loading="lazy" title="AVC 2026 Recap | 5th Annual Autonomous Vehicle Conference" width="740" height="416" src="https://www.youtube.com/embed/JjcjR1ZuhDA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<p>The post <a href="https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/">Humans in the loop are still needed for robotaxi fleet safety, says Guident</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Jetson Orin Nano 2 doubles inference performance for robotics on the edge, says NVIDIA</title>
+		<link>https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/</link>
+					<comments>https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/#respond</comments>
+		
+		<dc:creator><![CDATA[Eugene Demaitre]]></dc:creator>
+		<pubDate>Tue, 25 Aug 2026 15:00:22 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Artificial Intelligence / Cognition]]></category>
+		<category><![CDATA[Development Tools / SDKs / Libraries]]></category>
+		<category><![CDATA[Microprocessors / SoC]]></category>
+		<category><![CDATA[Microprocessors / SoCs]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Software / Simulation]]></category>
+		<category><![CDATA[Jetson Nano]]></category>
+		<category><![CDATA[Nvidia]]></category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589276</guid>
+
+					<description><![CDATA[<p>With Jetson Orin Nano 2, NVIDIA says that frontier intelligence has reached the edge and can now run in real time.</p>
+<p>The post <a href="https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/">Jetson Orin Nano 2 doubles inference performance for robotics on the edge, says NVIDIA</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div id="attachment_589277" style="width: 780px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589277" class="size-full wp-image-589277" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2.jpg" alt="NVIDIA Jetson Orin Nano 2 consumes less power than its predecessor." width="770" height="499" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /><p id="caption-attachment-589277" class="wp-caption-text">Jetson Orin Nano 2 consumes less power at the same performance level of its predecessor. Source: NVIDIA</p></div>
+<p>As AI models become more efficient, more devices can become autonomous, but developers need compact, energy-efficient computers built for edge AI, asserted NVIDIA Corp. The company today introduced NVIDIA Jetson Orin Nano 2, a new entry-level computer for edge AI that it said enables millions of developers worldwide to build systems for physical AI applications.</p>
+<p>“Today’s small and medium frontier models have reached the accuracy of last year’s largest frontier models, unlocking real time intelligence for edge devices,” stated Deepu Talla, vice president of robotics and edge AI at NVIDIA. “The Jetson Orin Nano 2 computer puts that breakthrough within reach of millions of developers, delivering the performance and energy efficiency needed for real-time reasoning in smart drones, robots, and vision AI systems.”</p>
+<p>&#8220;Over the past three months, we&#8217;ve seen the evolution of open models powering physical AI and how important they&#8217;ve become,&#8221; he added during a press briefing. &#8220;One year ago, frontier models which were 600 billion or 1 trillion parameter models. A year later, we&#8217;re able to bring that level of accuracy all the way down to intro-level edge AI products in Orin Nano 2. This is amazing.&#8221;</p>
+<p>NVIDIA Jetson Orin Nano 2 is part of the company&#8217;s &#8220;three-computer, full-stack&#8221; approach to robotics, with Omniverse with <a href="https://www.therobotreport.com/nvidia-adds-cosmos-policy-world-foundation-models/" target="_blank" rel="noopener">Cosmos</a> providing <a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener">simulation</a> for testing, DJX supporting training, and <a href="https://www.therobotreport.com/tag/jetson-nano" target="_blank" rel="noopener">Jetson</a> as the &#8220;robot brain&#8221; providing runtime deployment.</p>
+<hr />
+
+<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+
+<hr />
+<h2>Jetson Orin Nano 2 advances accuracy, processing speed</h2>
+<p>&#8220;Jetson Orin Nano 2 delivers a significant leap in <a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener">AI</a> and <a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener">video</a> processing performance in a cost-effective, power-efficient system,&#8221; said NVIDIA. The system features 78 trillion operations per second (TOPS) of AI compute, 8GB of memory, and an eight-core <a href="https://www.therobotreport.com/tag/arm/" target="_blank" rel="noopener">Arm</a> CPU.</p>
+<p>Jetson Orin Nano 2 doubles the inference performance of Jetson Orin Nano Super through improved Tensor Cores and higher memory bandwidth, while maintaining the same compact form factor. In 15-watt mode, Jetson Orin Nano 2 consumes 40% less power to deliver the same peak-to-peak performance as its predecessor, Talla told <em><a href="https://www.therobotreport.com/" target="_blank" rel="noopener">The Robot Report</a>.</em></p>
+<p>NVIDIA noted that its existing open software <a href="https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/" target="_blank" rel="noopener">stack</a> can run on Nano 2, which is built on the same GPU architecture as data centers. It is designed to be a drop-in for existing Orin customers.</p>
+<p>In combination with Jetson agent skills and the <a href="https://www.therobotreport.com/tag/nvidia" target="_blank" rel="noopener">company</a>&#8216;s technology ecosystem, developers can now run the latest large language models (LLMs) and vision language models (VLMs) optimized for memory-efficient edge inference. These include open models such as NVIDIA Cosmos and Nemotron, Gemma 4, and Qwen 3.</p>
+<p>&#8220;This now suddenly unlocks a level of intelligence that was impossible &#8212; we&#8217;ve been dreaming about this for a decade in edge AI,&#8221; said Talla during a press briefing. &#8220;This is a significant moment in time, where now for all of these robotics and physical AI applications, we can actually put frontier AI models such as LLMs and VLMs on top of the other autonomous capabilities. We believe this will speed up the development and deployment of AI in the physical world.&#8221;</p>
+<p>NVIDIA had already refreshed its higher-end Jetson offerings, including the Orin NX, Orin, and T3000/T2000 for mainstream applications and the Jetson T5000/T4000 for advanced uses.</p>
+<p><iframe loading="lazy" title="Introducing NVIDIA Jetson Orin&#x2122; Nano Super: The World’s Most Affordable Generative AI Computer" width="740" height="416" src="https://www.youtube.com/embed/S9L2WGf1KrM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<h2>Developers use NVIDIA stack for physical AI applications</h2>
+<p>NVIDIA said that more than 3 million developers are <a href="https://www.therobotreport.com/nvidia-collaborates-global-robotics-leaders-make-physical-ai-reality/" target="_blank" rel="noopener">already building</a> on its robotics stack. Partners such as <a href="https://www.therobotreport.com/tag/cognex" target="_blank" rel="noopener">Cognex</a>, <a href="https://www.therobotreport.com/doosen-bobcat-unveils-latest-rx3-concept-loader/" target="_blank" rel="noopener">Doosan Bobcat</a>, Matic, and Wing are evaluating or using Jetson Orin Nano 2 for real-world edge AI in compact devices.</p>
+<p>&#8220;Thousands of companies ship with entry-level edge AI on Jetson, and more than 10,000 companies are shipping or developing products built on Jetson,&#8221; said Talla.</p>
+<p>Alphabet subsidiary <a href="https://www.therobotreport.com/tag/wing/" target="_blank" rel="noopener">Wing</a> is using Jetson Orin Nano Super and the NVIDIA software stack in its delivery <a href="https://www.therobotreport.com/category/robots-platforms/uav-drones/" target="_blank" rel="noopener">drone</a> fleet. It plans plans to evaluate Jetson Orin Nano 2 to advance real-time AI perception and reasoning for faster, safer <a href="https://www.therobotreport.com/tag/delivery-robots/" target="_blank" rel="noopener">deliveries</a> from local businesses to residential yards.</p>
+<p>“Drone delivery depends on AI that can enable fast, reliable understanding of the real world,” said Dinuka Abeywardena, head of perception at Wing. “Wing is exploring Jetson Orin Nano 2 to give us a path to more responsive, energy-efficient drones that can help make deliveries quicker and more dependable for customers.”</p>
+<p><a href="https://maticrobots.com/" target="_blank" rel="noopener">Matic Robots</a> is using Jetson Orin Nano 2 to enable more intuitive interactions with its home <a href="https://www.therobotreport.com/tag/cleaning" target="_blank" rel="noopener">cleaning</a> robots. The company is giving the robots conversational AI, gesture detection, precision mapping and semantic understanding of the <a href="https://www.therobotreport.com/tag/household/" target="_blank" rel="noopener">home</a> environment, and greater autonomy.</p>
+<p>“Home robots need to understand people, map spaces precisely, understand the layout of objects and spaces, and clean autonomously in dynamic and constantly changing environments,” said Navneet Dalal, co-founder and CEO of Matic Robotics. “With Jetson Orin Nano 2, Matic can run state-of-the-art AI models at the edge in a compact home robotics platform built for real-time perception, interaction and navigation.”</p>
+<p>&#8220;The problem with companion robots has been that the intelligence has not been good, but now, with the availability of all this frontier-level intelligence, which can run in real time on Orin Nano or Orin Nano 2, we can enable a new class of applications,&#8221; said Talla. He also mentioned <a href="https://www.therobotreport.com/tag/hugging-face/" target="_blank" rel="noopener">Hugging Face</a>&#8216;s Reachy Mini, which uses a small LLM for speech recognition.</p>
+<p>NVIDIA cited AAEON, ADLINK, Advantech, Aetina, Antmicro, Aptiv, Auvidea, AVerMedia, Chuanglebo, Connect Tech, ForeCR, JWIPC, Neurealm, Plink, Realtimes, RidgeRun, RS, Seeed Studio, Tauro Tech, Twowin, TZTek and YUAN as other Jetson partners building carrier boards, hardware, customized AI software, and reference systems to help customers accelerate time to market.</p>
+<p>Talla said he expects NVIDIA&#8217;s technology to enable generalized navigation and dexterous manipulation, as well as improvements in robot training, <a href="https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/" target="_blank" rel="noopener">safety</a>, and independence. NVIDIA said the Jetson Orin Nano 2 module and developer kit will be available in the first half of 2027.</p>
+<p><iframe loading="lazy" title="Reachy Mini robot powered by NVIDIA DGX Spark and Arm" width="740" height="416" src="https://www.youtube.com/embed/wBPISPlpMZI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<p>The post <a href="https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/">Jetson Orin Nano 2 doubles inference performance for robotics on the edge, says NVIDIA</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The next big AI play isn&#8217;t apps or humanoids; it&#8217;s machines with brains and brawn</title>
+		<link>https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/</link>
+					<comments>https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/#respond</comments>
+		
+		<dc:creator><![CDATA[Tim Bucher]]></dc:creator>
+		<pubDate>Mon, 24 Aug 2026 22:53:33 +0000</pubDate>
+				<category><![CDATA[Agriculture]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Autonomous Mobile Robots (AMRs)]]></category>
+		<category><![CDATA[Construction]]></category>
+		<category><![CDATA[Educational]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[Agtonomy]]></category>
+		<category><![CDATA[Bobcat]]></category>
+		<category><![CDATA[Kubota]]></category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589287</guid>
+
+					<description><![CDATA[<p>For agricultural and construction equipment makers to stay relevant as workforces dwindle, they need to add AI, says Agtonomy's founder.</p>
+<p>The post <a href="https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/">The next big AI play isn&#8217;t apps or humanoids; it&#8217;s machines with brains and brawn</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div id="attachment_589292" style="width: 780px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589292" class="size-full wp-image-589292" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Kubota-Agtonomy-featured.jpg" alt="Kubota tractor equipped with agtonomy controls in front of a vineyard." width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Kubota-Agtonomy-featured.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/08/Kubota-Agtonomy-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Kubota-Agtonomy-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Kubota-Agtonomy-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/Kubota-Agtonomy-featured-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /><p id="caption-attachment-589292" class="wp-caption-text">Kubota unveiled the integrated, autonomous M5 Narrow diesel specialty tractor at CES 2026. | Credit: Kubota</p></div>
+<p>Humanoid robots and AI are chasing a powerful promise: replacing repetitive manufacturing tasks for lower cost, easing caregiver shortages, taking people out of dangerous work, and helping more of us live better, fuller lives in environments built for humans. That’s important, and it’s coming.</p>
+<p>On rural farms or urban <a href="https://www.therobotreport.com/tag/construction" target="_blank" rel="noopener">construction</a> sites, the problem looks different. The urgent question isn’t “Can a robot live with us?” It’s “can intelligent machines help us keep producing food and building infrastructure when skilled operators are disappearing and margins are razor‑thin?”</p>
+<p>That’s where embedding physical AI into heavy equipment comes in—and <a href="https://www.therobotreport.com/category/markets-industries/ag/" target="_blank" rel="noopener">agriculture</a>, especially permanent crops, is where it’s being pushed the hardest.</p>
+<p>In a vineyard or orchard, a machine operates inches from high‑value plants with almost no room for error. It threads through trellises and under canopies, around irrigation lines, on slopes, in dust, and in mixed traffic with humans and other machines.</p>
+<p>GNSS can be unreliable, visibility is constrained, and conditions change hour by hour. You can’t rely on the sky to guide you. You have to perceive the environment on board and act safely at the edge.</p>
+<p>For too long, autonomy in agriculture has been discussed as if all fields are the same. They are not. Row crops matter, of course, but they are the easier proving ground and have enjoyed “auto steering” for decades and more recently fully autonomous solutions.</p>
+<p>The hardest environment in agriculture is permanent crops: orchards, vineyards, berries, trellised systems: the places where a machine is operating inches away from high-value plants with no margin for error. In these environments, you cannot count on clean GPS, open skies, or simple repeatability. You must perceive the world as it is, in real time, and make good decisions at the edge. That is what real physical AI looks like.</p>
+<div id="attachment_589294" style="width: 810px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589294" class="wp-image-589294 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/bobcat-5MN-tractor.jpg" alt="agtonomy equipped bobcat tractor in front of a vineyard. AI promises to make equipment safer, more autonomous, and more productive." width="800" height="533" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/bobcat-5MN-tractor.jpg 800w, https://www.therobotreport.com/wp-content/uploads/2026/08/bobcat-5MN-tractor-300x200.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/bobcat-5MN-tractor-150x100.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/bobcat-5MN-tractor-768x512.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/bobcat-5MN-tractor-357x238.jpg 357w" sizes="auto, (max-width: 800px) 100vw, 800px" /><p id="caption-attachment-589294" class="wp-caption-text">A Bobcat 5MN tractor with Agtonomy automation is suitable for high-value crops like vineyards and orchards. | Credit: Bobcat</p></div>
+<h2>Brains‑in‑brawn: Keep the iron and change the brain</h2>
+<p>Autonomy in that setting isn’t about novelty. It’s about survival. Farmers are aging, and skilled operators in agriculture and construction are retiring. Labor is not a future issue; it’s the operating reality now.</p>
+<p>In U.S. agriculture, the average farmer is nearly 60 years old, with farmers 65 and older making up more than 40% of the total farming population, so even with encouraging growth among younger producers, the sector is aging and the barriers to replacement remain steep.</p>
+<p>Construction faces the same pressure from another angle: The industry must attract hundreds of thousands of new skilled workers in 2026 just to meet demand, with most of that need driven by retirements rather than growth. In other words, the labor gap is no longer cyclical noise; it is structural.</p>
+<p>Automation is one of the few practical ways to keep farms and projects viable when the skilled labor pool keeps shrinking. Physical AI isn’t replacing farmers; it’s critical to keeping them in business. It’s needed now more than ever.</p>
+<p>I believe it’s all about adding brains in brawn. Serious machines are still needed to mow, spray, dig, and haul. The physics of off‑road work doesn&#8217;t change because AI gets better. What changes is how much intelligence lives inside those “brawny” machines that will be needed even if a humanoid one day operates them.</p>
+<p>Tractors, sprayers, <a href="https://www.therobotreport.com/tag/mowing/" target="_blank" rel="noopener">mowers</a>, and construction equipment roll off the line with a <a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener">physical AI</a> layer baked in: <a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener">perception systems</a>, <a href="https://www.therobotreport.com/category/technologies/microprocessors-socs/" target="_blank" rel="noopener">edge compute,</a> and autonomy <a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener">software</a> that understand their surroundings, make behavioral decisions on their own, and execute tasks with far less dependence on a skilled operator, even if it’s some future humanoid sitting in the seat of the vehicle.</p>
+<p><a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener">Humanoids</a> could have a real role to play in human environments. But asking a <a href="https://www.therobotreport.com/mobile-manipulators-and-humanoids/" target="_blank" rel="noopener">general‑purpose humanoid</a> to sit on every machine in a vineyard or construction site is adding complexity and a significant cost where we don’t need it.</p>
+<p>Using a mixed fleet of <a href="https://www.therobotreport.com/tag/agtonomy" target="_blank" rel="noopener">Agtonomy</a>-enabled Kubota or <a href="https://www.therobotreport.com/tag/doosan" target="_blank" rel="noopener">Doosan</a> Bobcat tractors, one tech operator can supervise multiple machines doing multiple simultaneous tasks. Training curves drop from weeks to hours. <a href="https://www.therobotreport.com/tag/safety" target="_blank" rel="noopener">Safety</a> improves because the many set of eyes never get tired and are mounted directly on the machine doing the work at every angle.</p>
+<p>In permanent crops, that means more consistent spraying and mowing, fewer passes at night when people are exhausted, and better protection for crops that can’t afford a single mistake. In construction and ground maintenance, it means fewer blind‑spot incidents and more reliable coverage when crews are thin.</p>
+<p><iframe loading="lazy" title="Built In. Not Bolted On | Factory-Fit Automation with OEM Partners" width="740" height="416" src="https://www.youtube.com/embed/qd7dfdtRORo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<h2>The model that works is simple: The iron factory meets the AI factory</h2>
+<p>To make real, scalable impact, one group has to win: existing equipment manufacturers (sometimes referred to as “original equipment manufacturers” or “OEMs” for short).</p>
+<p>The 100-plus year-old companies that already design, manufacture, distribute, service, and finance off‑road equipment are the ones with the reach to turn autonomy into infrastructure. They have trusted brands, dealer networks, training programs, and financing tools that keep farms and projects running.</p>
+<p>For continuity across the food system and the build environment, OEMs need to carry the intelligence layer forward.</p>
+<p>Innovators don’t exist to knock them off the podium. We exist to embed the brain that lets that iron see, decide, and act. Done right, every new piece of equipment doesn’t just join the fleet; it joins the workforce.</p>
+<p>This isn’t a battle between humanoids and tractors. It’s two different answers to two different questions with a co-existence that will extend for decades or even centuries, since brawny machines will forever be needed for off-road industrial work.</p>
+<p>Global OEMs are moving with urgency given the reality of declining skilled labor. If OEMs follow the skilled labor graph, they will be on a path to extinction. They also know that becoming an AI company is not something a century-old equipment manufacturer can do overnight. A handful may try to build it themselves, but most will need a faster path.</p>
+<p>The winning model is partnership: The iron factory meets the AI factory.</p>
+<p>This is the next phase of a technology-based industrial revolution requiring all the OEMs to go through a digital transformation. For years, digital transformation meant dashboards, telematics, and cloud software.</p>
+<p>The next step is physical AI embedded at the point of action: on the vehicle, in the task, with low-latency decision-making that does not depend on perfect connectivity or remote intervention.</p>
+<p>Even with cellular and satellite links improving, critical safety and control decisions still must happen on board. In off-road work, latency is not an inconvenience; it is a liability.</p>
+<hr />
+
+<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+
+<hr />
+<h2>Physical AI&#8217;s moment is now</h2>
+<p>In 2024 and 2025, physical AI in agriculture proved it could work. In 2026, the conversation shifted from whether autonomy is possible to whether industries will deploy it at scale, responsibly, and fast enough. Markets don’t wait for perfect narratives. They respond when necessity meets technology that is ready for the task.</p>
+<p>The most important robots of the next decade may not look like people at all. They’ll look like the tractors, sprayers, mowers, and other types of off‑road machines that already underpin our food and infrastructure with brains built into their brawn from Day 1.</p>
+<p>The industries that feed and build the world don’t need a new logo on the hood. They need the brands they already trust to roll out equipment that arrives ready to work like skilled labor. After providing that first in permanent crops, the rest of the industrial world starts to open. The time has come for all brawn machines to have brains.</p>
+<hr />
+<p><img loading="lazy" decoding="async" class="size-full wp-image-589291 alignleft" src="https://www.therobotreport.com/wp-content/uploads/2026/08/tim-bucher-headshot.jpg" alt="headshot of Tim Bucher." width="280" height="350" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/tim-bucher-headshot.jpg 280w, https://www.therobotreport.com/wp-content/uploads/2026/08/tim-bucher-headshot-240x300.jpg 240w, https://www.therobotreport.com/wp-content/uploads/2026/08/tim-bucher-headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/08/tim-bucher-headshot-190x238.jpg 190w" sizes="auto, (max-width: 280px) 100vw, 280px" /></p>
+<h3>About the author</h3>
+<p><a href="https://www.linkedin.com/in/timbucher" target="_blank" rel="noopener">Tim Bucher</a> is the co-founder and CEO of <a href="https://www.agtonomy.com/" target="_blank" rel="noopener">Agtonomy</a>, a physical AI company that partners with leading equipment manufacturers to transform off‑road machines into smart, autonomous solutions for agriculture, turf, and other industrial markets. It draws on his three decades as a high‑tech serial entrepreneur and lifelong California farmer whose ventures have been acquired or taken public by Fortune 50 companies.</p>
+<p>The post <a href="https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/">The next big AI play isn&#8217;t apps or humanoids; it&#8217;s machines with brains and brawn</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>XPeng Motors humanoid robot unit Dogotix raises $900M</title>
+		<link>https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/</link>
+					<comments>https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/#respond</comments>
+		
+		<dc:creator><![CDATA[Eugene Demaitre]]></dc:creator>
+		<pubDate>Mon, 24 Aug 2026 20:07:09 +0000</pubDate>
+				<category><![CDATA[Automotive]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[Humanoids]]></category>
+		<category><![CDATA[Investments]]></category>
+		<category><![CDATA[Manufacturing]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Xpeng Motors]]></category>
+		<category><![CDATA[XPENG Robotics]]></category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589280</guid>
+
+					<description><![CDATA[<p>Dogotix, the humanoid unit of XPeng Motors, has attained a valuation of $6.3 billion as it plans to produce robots at scale.</p>
+<p>The post <a href="https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/">XPeng Motors humanoid robot unit Dogotix raises $900M</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div id="attachment_589288" style="width: 780px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589288" class="size-full wp-image-589288" src="https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON.jpg" alt="XPeng is developing the IRON humanoid robot. " width="770" height="498" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-768x497.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /><p id="caption-attachment-589288" class="wp-caption-text">XPeng&#8217;s Dogotix unit is developing the IRON humanoid robot. Source: XPeng</p></div>
+<p>Like other global automakers, XPeng Motors is branching into humanoid robots. The electric vehicle manufacturer today said that its Dogotix robotics unit has raised more than $900 million in its initial funding round, bringing its pre-money valuation to $5 billion and post-transaction valuation to more than $6.3 billion.</p>
+<p>XPeng said it plans to use the investment to further develop hardware and software, collect data, train physical AI models, build mass-production facilities, and expand globally. Founded in 2016, Shenzhen, China-based Dogotix will remain a <a href="https://www.therobotreport.com/tag/xpeng-robotics" target="_blank" rel="noopener">subsidiary</a> of XPeng, with He Ziaopeng remaining CEO of both companies.</p>
+<p>Founded in 2014, Xiaopeng Motors Technology Co. or XPeng said it aspires to become a global leader in AI mobility. The Guangzhou, China-based <a href="https://www.therobotreport.com/tag/xpeng-motors/" target="_blank" rel="noopener">company</a> develops its full-stack advanced driver-assistance system (ADAS) technology and in-car operating system in-house, and most of its manufacturing takes place at facilities in China.</p>
+<p>XPeng <a href="https://www.xpeng.com/news/019e3ad2f9789dd703de8a0282290180" target="_blank" rel="noopener">released</a> its first <a href="https://www.therobotreport.com/tag/robotaxi/" target="_blank" rel="noopener">robotaxi</a> based on its GX platform in May, and it is still <a href="https://www.wsj.com/business/earnings/xpeng-net-loss-widens-amid-physical-ai-push-e44b31f1" target="_blank" rel="noopener">working toward profitability</a>, said <em>The Wall Street Journal</em>.</p>
+<h2>XPeng plans to scale robot production</h2>
+<p>XPeng <a href="https://www.scmp.com/business/china-business/article/3360814/race-against-tesla-china-ev-maker-xpeng-launch-viral-humanoid-globally-2027?module=inline&amp;pgtype=article" target="_blank" rel="noopener">said it plans to produce</a> 1,000 <a href="https://www.xpeng.com/au/explore/xpeng_ai_robot_iron" target="_blank" rel="noopener">IRON</a> humanoids monthly by the end of 2026. The dexterous robot is aimed at <a href="https://www.therobotreport.com/category/retail-wholesale/" target="_blank" rel="noopener">retail</a> stores and industrial campuses, and the company said commercial deliveries will begin in 2027.</p>
+<p>Dogotix has also developed <a href="https://www.therobotreport.com/tag/legged-robots/" target="_blank" rel="noopener">quadruped</a> and tracked robots for smart home, logistics, power inspection, and security use cases. As an early-stage company, it did report <a href="https://www.stocktitan.net/sec-filings/XPEV/6-k-xpeng-inc-current-report-foreign-issuer-6e335a7a8328.html" target="_blank" rel="noopener">losses</a> in 2024 and 2025.</p>
+<p>Other automakers directly involved in humanoid development include <a href="https://www.therobotreport.com/tag/hyundai/" target="_blank" rel="noopener">Hyundai</a>, which is testing <a href="https://www.therobotreport.com/tag/boston-dynamics/" target="_blank" rel="noopener">Boston Dynamic</a>&#8216;s Atlas, and <a href="https://www.therobotreport.com/tag/tesla/" target="_blank" rel="noopener">Tesla</a>, which is <a href="https://www.therobotreport.com/from-evs-to-robotics-tesla-targets-10m-optimus-units-with-new-texas-plant/" target="_blank" rel="noopener">preparing to produce</a> its Optimus at scale. BMW Group <a href="https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/" target="_blank" rel="noopener">has deployed</a> <a href="https://www.therobotreport.com/tag/figure-ai" target="_blank" rel="noopener">Figure AI</a>&#8216;s Figure 03 after testing. These manufacturers see a large potential market for mass-produced complex machinery and electronics.</p>
+<p><strong>Editor&#8217;s note:</strong> Humanoid robotics development will be the topic of a session track at <a href="https://www.robobusiness.com/" target="_blank" rel="noopener">RoboBusiness</a> 2026, which will be on Oct. 20 and 21 in Santa Clara, Calif. Companies presenting will include Agility, AgiBot, Apptronik, Core Matter Labs, ForceN, Kollmorgen, Persona AI, PSYONIC, and Synapticon. <a href="https://web.cvent.com/event/7494a347-6721-45bc-95d0-337e8d036c45/summary" target="_blank" rel="noopener">Register now to attend.</a></p>
+<hr />
+
+<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+
+<hr />
+<h2>Humanoid investment continues to climb</h2>
+<p>IDG Capital led the funding round for XPeng, whose strategic investors include Alibaba and Tencent. Gaorong Ventures, which also supported autonomous vehicle developer <a href="https://www.therobotreport.com/momenta-raises-500m-for-autonomous-driving-technology/" target="_blank" rel="noopener">Momenta</a> and humanoid robot startup <a href="https://www.therobotreport.com/tag/agibot/" target="_blank" rel="noopener">AgiBot</a>, also participated, <a href="https://www.reuters.com/business/retail-consumer/xpeng-says-its-robotics-business-raised-over-900-million-first-funding-round-2026-08-24/" target="_blank" rel="noopener">reported</a> Reuters.</p>
+<p>XPeng said it has set a record for a single private financing in China&#8217;s embodied AI sector. The company&#8217;s valuation is similar to that of other recent recipients of funding for humanoids:</p>
+<h2 id="tablepress-155-name" class="tablepress-table-name tablepress-table-name-id-155">Noteworthy humanoid funding rounds</h2>
+
+<table id="tablepress-155" class="tablepress tablepress-id-155" aria-labelledby="tablepress-155-name">
+<thead>
+<tr class="row-1">
+	<th class="column-1">Company Name</th><th class="column-2">Date</th><th class="column-3">Funding Round</th><th class="column-4">Round Value</th><th class="column-5">Source</th>
+</tr>
+</thead>
+<tbody class="row-striping row-hover">
+<tr class="row-2">
+	<td class="column-1">Figure AI</td><td class="column-2">Sept. 2025</td><td class="column-3">Series C</td><td class="column-4">$1.0B+</td><td class="column-5"><a href="https://www.therobotreport.com/figure-ai-raises-1b-in-series-c-funding-toward-humanoid-robot-development/" target="_blank">Figure funding news</a></td>
+</tr>
+<tr class="row-3">
+	<td class="column-1">1X Technologies</td><td class="column-2">Jan. 2024</td><td class="column-3">Series B</td><td class="column-4">$100M</td><td class="column-5"><a href="https://www.therobotreport.com/1x-technologies-raises-100m-series-b-advance-neo-humanoid-robot/" target="_blank">1X funding news</a></td>
+</tr>
+<tr class="row-4">
+	<td class="column-1">Apptronik</td><td class="column-2">Feb. 2026</td><td class="column-3">Series A</td><td class="column-4">$520M</td><td class="column-5"><a href="https://www.therobotreport.com/apptronik-brings-in-another-520m-to-ramp-up-apollo-production/" target="_blank">Apptronik funding news</a></td>
+</tr>
+<tr class="row-5">
+	<td class="column-1">AI² Robotics</td><td class="column-2">July 2026</td><td class="column-3">Strategic / Growth</td><td class="column-4">$735M</td><td class="column-5"><a href="https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/" target="_blank">AI2 funding news</a></td>
+</tr>
+<tr class="row-6">
+	<td class="column-1">Apptronik</td><td class="column-2">March 2025</td><td class="column-3">Series A</td><td class="column-4">$53M</td><td class="column-5"><a href="https://www.therobotreport.com/apptronik-brings-in-another-53-million-to-fuel-apollo-production/" target="_blank">Apptronik funding news</a></td>
+</tr>
+<tr class="row-7">
+	<td class="column-1">Apptronik</td><td class="column-2">Feb. 2025</td><td class="column-3">Series A</td><td class="column-4">$350M</td><td class="column-5"><a href="https://www.therobotreport.com/apptronik-raises-350-million-to-build-humanoids/" target="_blank">Apptronik funding news</a></td>
+</tr>
+<tr class="row-8">
+	<td class="column-1">Agility Robotics </td><td class="column-2">June 2026</td><td class="column-3">IPO - SPAC</td><td class="column-4">$620M</td><td class="column-5"><a href="https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/" target="_blank">Agility SPAC news</a></td>
+</tr>
+<tr class="row-9">
+	<td class="column-1">Unitree</td><td class="column-2">March 2026</td><td class="column-3">IPO</td><td class="column-4">Up to $900M</td><td class="column-5"><a href="https://www.therobotreport.com/unitree-ipo-shows-a-real-hardware-business-the-humanoid-case-is-still-early/" target="_blank">Unitree IPO news</a></td>
+</tr>
+<tr class="row-10">
+	<td class="column-1">Leju Robotics</td><td class="column-2">Oct. 2025</td><td class="column-3">Undisclosed</td><td class="column-4">$200M</td><td class="column-5"><a href="https://www.therobotreport.com/leju-raises-200m-humanoid-production-unitree-unveils-h2-robot/" target="_blank">Leju funding news</a></td>
+</tr>
+<tr class="row-11">
+	<td class="column-1">Unitree</td><td class="column-2">June 2025</td><td class="column-3">Series C</td><td class="column-4">Undisclosed</td><td class="column-5"><a href="https://www.therobotreport.com/unitree-becomes-a-legged-robot-unicorn-with-series-c-funding/" target="_blank">Unitree funding news</a></td>
+</tr>
+<tr class="row-12">
+	<td class="column-1">Neura Robotics</td><td class="column-2">June 2026</td><td class="column-3">Series C</td><td class="column-4">Up to $1.4B</td><td class="column-5"><a href="https://www.therobotreport.com/neura-robotics-raise-up-1-4b-in-series-c-funding-physical-ai/">Neura funding news</a></td>
+</tr>
+<tr class="row-13">
+	<td class="column-1">Avatar Robotics</td><td class="column-2">July 2026</td><td class="column-3">Seed</td><td class="column-4">$6M</td><td class="column-5"><a href="https://www.therobotreport.com/avatar-robotics-raises-6-5-m-seed-round-address-industrial-labor-constraints/">Avatar funding news</a></td>
+</tr>
+<tr class="row-14">
+	<td class="column-1">Humanoid</td><td class="column-2">July 2026</td><td class="column-3">Series A</td><td class="column-4">$152M</td><td class="column-5"><a href="https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/">Humanoid funding news</a></td>
+</tr>
+<tr class="row-15">
+	<td class="column-1">Holiday Robotics</td><td class="column-2">July 2026</td><td class="column-3">Series A</td><td class="column-4">$105M</td><td class="column-5"><a href="https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/" target="_blank">Holiday Robotics funding news</a></td>
+</tr>
+<tr class="row-16">
+	<td class="column-1">XPENG/Dogotix</td><td class="column-2">Aug 2026</td><td class="column-3">Seed</td><td class="column-4">$900M</td><td class="column-5"><a href="https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/">XPENG funding news</a></td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-155 from cache -->
+<p>Investors have given humanoid robotics companies more than $8.7 billion in venture capital so far this year, <a href="https://dealroom.co/resources/humanoid-robotics/" target="_blank" rel="noopener">according to</a> <em>Dealroom.co</em>. Two-thirds of that funding has gone to <a href="https://www.therobotreport.com/category/china/" target="_blank" rel="noopener">Chinese</a> companies, it noted.</p>
+<p>At the same time, it remains to be seen how and when these companies will deliver commercial value. For instance, <a href="https://www.therobotreport.com/tag/unitree/" target="_blank" rel="noopener">Unitree</a>&#8216;s stock <a href="https://www.forbes.com/sites/drewbernstein/2026/08/24/the-50-billion-backflip-inside-chinas-robot-stock-mania/" target="_blank" rel="noopener">surged</a> by about 460% after its initial public offering, but it has then <a href="https://finance.biggo.com/news/9c4ac436-7c2d-415c-b454-d700517ba6ce" target="_blank" rel="noopener">fallen by 44%</a> from that high.</p>
+<p><iframe loading="lazy" title="IRON Shows You XPENG" width="740" height="416" src="https://www.youtube.com/embed/_Dn-Sk6iTi4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<p>The post <a href="https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/">XPeng Motors humanoid robot unit Dogotix raises $900M</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
