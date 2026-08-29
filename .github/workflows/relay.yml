@@ -54,10 +54,35 @@ jobs:
             fi
           }
 
-          fetch arxiv-cs-ro.xml    "https://export.arxiv.org/rss/cs.RO"
-          fetch import-ai.xml      "https://importai.substack.com/feed"
-          fetch robot-report.xml   "https://www.therobotreport.com/feed/"
-          fetch hf-daily-papers.json "https://huggingface.co/api/daily_papers"
+          fetch arxiv-cs-ro.xml      "https://export.arxiv.org/rss/cs.RO"
+          fetch import-ai.xml        "https://importai.substack.com/feed"
+          fetch robot-report.xml     "https://www.therobotreport.com/feed/"
+          fetch humanoids-daily.xml  "https://www.humanoidsdaily.com/feed.xml"
+
+          # HF daily papers: try the official API, then hf-mirror
+          if ! fetch hf-daily-papers.json "https://huggingface.co/api/daily_papers"; then
+            fetch hf-daily-papers.json "https://hf-mirror.com/api/daily_papers" || true
+          fi
+
+          # Repair feeds with invalid XML (e.g. bare & in categories)
+          for f in out/humanoids-daily.xml out/robot-report.xml out/arxiv-cs-ro.xml out/import-ai.xml; do
+            [ -f "$f" ] || continue
+            python3 - "$f" <<'PY' || { echo "still invalid: $f"; rm -f "$f"; }
+          import re, sys, xml.etree.ElementTree as ET
+          p = sys.argv[1]
+          raw = open(p, encoding="utf-8", errors="replace").read()
+          for _ in range(3):
+              try:
+                  ET.fromstring(raw)
+                  break
+              except ET.ParseError:
+                  raw = re.sub(r"&(?!amp;|lt;|gt;|quot;|apos;|#)", "&amp;", raw)
+          else:
+              raise SystemExit(1)
+          ET.fromstring(raw)
+          open(p, "w", encoding="utf-8").write(raw)
+          PY
+          done
 
           # Substack feed fallback: archive API -> minimal RSS
           if [ ! -f out/import-ai.xml ]; then
