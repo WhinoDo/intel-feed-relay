@@ -90,6 +90,12 @@ jobs:
           if [ ! -f out/import-ai.xml ]; then
             fetch import-ai.xml "https://rsshub.app/substack/importai" || true
           fi
+          if [ ! -f out/import-ai.xml ]; then
+            fetch import-ai.xml "https://morss.it/https://importai.substack.com/feed" || true
+          fi
+          if [ ! -f out/import-ai.xml ]; then
+            fetch import-ai.xml "https://web.archive.org/web/2/https://importai.substack.com/feed" || true
+          fi
 
           # Trim XML feeds to the latest 30 items to keep payloads small.
           for f in out/*.xml; do
