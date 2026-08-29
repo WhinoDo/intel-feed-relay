@@ -86,6 +86,35 @@ jobs:
           PY
           done
 
+          # Substack via RSSHub when the direct feed blocks runner IPs
+          if [ ! -f out/import-ai.xml ]; then
+            fetch import-ai.xml "https://rsshub.app/substack/importai" || true
+          fi
+
+          # Trim XML feeds to the latest 30 items to keep payloads small.
+          for f in out/*.xml; do
+            [ -f "$f" ] || continue
+            python3 - "$f" <<'PY' || { echo "DROP $f (trim failed)"; rm -f "$f"; }
+          import sys, xml.etree.ElementTree as ET
+          p = sys.argv[1]
+          tree = ET.parse(p)
+          root = tree.getroot()
+          keep = 30
+          if root.tag == "rss":
+              channel = root.find("channel")
+              items = channel.findall("item")
+              for it in items[keep:]:
+                  channel.remove(it)
+          elif root.tag.endswith("feed"):
+              items = root.findall("{http://www.w3.org/2005/Atom}entry")
+              for it in items[keep:]:
+                  root.remove(it)
+          tree.write(p, encoding="utf-8", xml_declaration=True)
+          import os
+          print("TRIMMED", p, os.path.getsize(p))
+          PY
+          done
+
           # Substack fallback: archive API -> minimal RSS
           if [ ! -f out/import-ai.xml ]; then
             python3 - <<'PY' || true
