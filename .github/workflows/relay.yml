@@ -25,31 +25,32 @@ jobs:
         run: |
           set -uo pipefail
           mkdir -p out
-          status() { printf '%s\n' "$1"; }
 
-          fetch() {
-            name="$1"; url="$2"
-            tmp="out/.${name}.tmp"
-            if curl -fsSL --max-time 90 --retry 2 --retry-delay 5 \
-                 -A "$UA" -H "Accept: application/rss+xml, application/atom+xml, application/xml, text/xml, application/json, */*" \
-                 -o "$tmp" "$url"; then
-              if [ -s "$tmp" ] && python3 - "$tmp" <<'PY'
-          import sys, xml.etree.ElementTree as ET
+          valid() {
+            [ -s "$1" ] && python3 - "$1" <<'PY'
+          import sys, json, xml.etree.ElementTree as ET
           p = sys.argv[1]
           if p.endswith(".json"):
-              import json
               json.load(open(p))
           else:
               ET.parse(p)
           PY
-              then
-                mv "$tmp" "out/${name}"
-                status "OK ${name} $(wc -c < "out/${name}") bytes"
-              else
-                rm -f "$tmp"; status "BAD_PAYLOAD ${name}"
-              fi
+          }
+
+          fetch() {
+            name="$1"; url="$2"
+            tmp="out/.${name}.tmp"
+            code=$(curl -sL --max-time 90 --retry 2 --retry-delay 5 \
+                 -A "$UA" -H "Accept: application/rss+xml, application/atom+xml, application/xml, text/xml, application/json, */*" \
+                 -o "$tmp" -w "%{http_code}" "$url") || code="curl_$?"
+            if [ "$code" = "200" ] && valid "$tmp"; then
+              mv "$tmp" "out/${name}"
+              echo "OK ${name} $(wc -c < "out/${name}") bytes"
             else
-              rm -f "$tmp"; status "FAIL ${name}"
+              echo "FAIL ${name} http=${code}"
+              head -c 300 "$tmp" 2>/dev/null | tr -d '\0' || true
+              echo
+              rm -f "$tmp"
             fi
           }
 
@@ -57,6 +58,32 @@ jobs:
           fetch import-ai.xml      "https://importai.substack.com/feed"
           fetch robot-report.xml   "https://www.therobotreport.com/feed/"
           fetch hf-daily-papers.json "https://huggingface.co/api/daily_papers"
+
+          # Substack feed fallback: archive API -> minimal RSS
+          if [ ! -f out/import-ai.xml ]; then
+            python3 - <<'PY' || true
+          import json, urllib.request, xml.sax.saxutils as sx
+          req = urllib.request.Request(
+              "https://importai.substack.com/api/v1/archive?sort=new&search=&offset=0&limit=10",
+              headers={"User-Agent": "Mozilla/5.0"})
+          data = json.load(urllib.request.urlopen(req, timeout=60))
+          items = []
+          for p in data:
+              items.append(
+                  "    <item><title>%s</title><link>%s</link>"
+                  "<pubDate>%s</pubDate><description>%s</description></item>"
+                  % (sx.escape(p.get("title") or ""),
+                     sx.escape(p.get("canonical_url") or ""),
+                     sx.escape(p.get("post_date") or ""),
+                     sx.escape((p.get("subtitle") or "")[:500])))
+          xml = ("<?xml version='1.0' encoding='UTF-8'?>\n<rss version='2.0'><channel>"
+                 "<title>Import AI</title><link>https://importai.substack.com</link>"
+                 "<description>Import AI (relay)</description>\n" + "\n".join(items)
+                 + "\n  </channel></rss>\n")
+          open("out/import-ai.xml", "w").write(xml)
+          print("OK import-ai.xml via archive api")
+          PY
+          fi
 
       - name: Commit if changed
         run: |
