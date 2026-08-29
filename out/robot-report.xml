@@ -28,6 +28,85 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>The differences between decentralized and centralized power in swarm robotics</title>
+		<link>https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/</link>
+					<comments>https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/#respond</comments>
+		
+		<dc:creator><![CDATA[Lou Farrell]]></dc:creator>
+		<pubDate>Sat, 29 Aug 2026 12:25:31 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Autonomous Mobile Robots (AMRs)]]></category>
+		<category><![CDATA[Batteries / Power Supplies]]></category>
+		<category><![CDATA[Drones]]></category>
+		<category><![CDATA[Industrial Robots]]></category>
+		<category><![CDATA[Networking / Connectivity]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[Unmanned Aerial Systems / Drones]]></category>
+		<category><![CDATA[amazon robotics]]></category>
+		<category><![CDATA[Ocado]]></category>
+		<category><![CDATA[swarm]]></category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589344</guid>
+
+					<description><![CDATA[<p>A robotic swarm typically relies on centralized or decentralized power management, but a hybrid approach could offer the best of both.</p>
+<p>The post <a href="https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/">The differences between decentralized and centralized power in swarm robotics</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div id="attachment_589345" style="width: 780px" class="wp-caption aligncenter"><img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589345" class="wp-image-589345 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Amazon_fleet.jpg" alt="A small sample of Amazon’s vast, deployed warehouse fulfillment fleet, which uses swarm technology." width="770" height="497" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Amazon_fleet.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/08/Amazon_fleet-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Amazon_fleet-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Amazon_fleet-768x496.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/Amazon_fleet-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /><p id="caption-attachment-589345" class="wp-caption-text">A small sample of Amazon’s vast deployed warehouse fulfillment fleet. Source: Amazon</p></div>
+<p>Swarm robotics systems rely on power architecture because energy distribution influences coordination efficiency and fault tolerance in multi-agent environments. Centralized models depend on unified infrastructure and coordinated energy management.</p>
+<p>Meanwhile, decentralized approaches distribute <a href="https://www.therobotreport.com/category/batteries-power-supplies" target="_blank" rel="noopener">power</a> control and operational decision-making across individual robotic units within the swarm.</p>
+<p>These architectural differences create significant operational trade-offs involving communication latency, synchronization precision, and adaptive responsiveness. They make power topology an important consideration for robotics engineers, <a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener">artificial intelligence</a> researchers, and industrial automation professionals.</p>
+<h2>Power architecture is a core layer in swarm intelligence</h2>
+<p>Power topology is central to swarm <a href="https://www.therobotreport.com/tag/swarm" target="_blank" rel="noopener">coordination</a> because autonomous decision-making and scalable task execution depend on how robotic agents distribute and manage energy resources.</p>
+<p>Dynamic swarm environments require adaptive routing <a href="https://www.eurekalert.org/news-releases/1140526" target="_blank" rel="noopener">awareness</a> to maintain operational continuity, particularly when robotic nodes frequently change position or <a href="https://www.therobotreport.com/category/technologies/networking-connectivity" target="_blank" rel="noopener">communication</a> range during deployment.</p>
+<p>For example, in unmanned aerial vehicle (<a href="https://www.therobotreport.com/category/robots-platforms/uav-drones/" target="_blank" rel="noopener">UAV</a>) swarms, routing data to a base station without awareness of updated topology conditions can trigger <a href="https://www.sciencedirect.com/science/article/pii/S1084804522000844" target="_blank" rel="noopener">link breakages and localized energy holes</a> that disrupt real-time responsiveness. These <a href="https://www.therobotreport.com/drone-swarms-how-they-actually-work-and-what-industries-should-care/" target="_blank" rel="noopener">operational</a> challenges highlight why power architecture functions as a foundational systems-level consideration before evaluating the differences between centralized and decentralized swarm models.</p>
+<p><iframe title="Scientists use a swarm of drones as mobile cell towers" width="740" height="416" src="https://www.youtube.com/embed/Fcc_xptn7Do?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<h2>Centralized power models in swarm robotics</h2>
+<p>Centralized power models in swarm robotics rely on unified orchestration systems that coordinate energy distribution and charging schedules across the robotic fleet. This architecture often performs well in <a href="https://www.therobotreport.com/category/robots-platforms/industrial-robots/" target="_blank" rel="noopener">industrial automation</a> and <a href="https://www.automatedwarehouseonline.com/" target="_blank" rel="noopener">warehouse</a> environments where structured layouts and predictable workflows allow centralized infrastructure to optimize synchronization precision and workload efficiency.</p>
+<p>Shared <a href="https://www.therobotreport.com/category/technologies/controllers/" target="_blank" rel="noopener">control</a> systems can simplify <a href="https://www.automatedwarehouseonline.com/tag/fleet-management/" target="_blank" rel="noopener">fleet</a> diagnostics and maintenance scheduling. However, dependence on centralized coordination may also introduce scalability limitations, communication bottlenecks, and infrastructure vulnerability if failures occur within the primary control layer.</p>
+<h2>Decentralized power models in swarm robotics</h2>
+<p>Decentralized power models in swarm robotics distribute energy management and operational coordination to individual robotic agents rather than relying on a single orchestration layer. This architecture improves fault tolerance and deployment scalability because robots can continue operating even when connectivity disruptions or localized failures occur within the swarm.</p>
+<p>However, as swarm size increases, message traffic scales significantly. Additional nodes must continuously exchange routing updates and decision data to maintain decentralized coordination.</p>
+<p>The resulting communication congestion <a href="https://www.mdpi.com/2218-6581/13/5/66" target="_blank" rel="noopener">can reduce real-time responsiveness</a>, which remains essential for synchronized swarm behavior and cooperative task execution in dynamic operational environments.</p>
+<h2>Hybrid coordination and adaptive power management in swarm robotics</h2>
+<p>Hybrid swarm architectures combine centralized orchestration with decentralized energy autonomy to balance large-scale coordination efficiency with localized adaptability across robotic fleets.</p>
+<p>These systems often rely on edge AI processing and localized decision-making to improve resilience in dynamic environments where connectivity and operational conditions frequently change.</p>
+<p>Hybrid models can distribute certain computational and energy-management functions closer to individual robotic agents while maintaining higher-level centralized oversight. This approach can reduce communication congestion, routing instability, and localized energy imbalance in large-scale swarm deployments.</p>
+<h2>Robotics companies apply swarm robotics</h2>
+<p><iframe title="Meet Amazon&amp;apos;s First Fully Autonomous Mobile Robot | Amazon News" width="740" height="416" src="https://www.youtube.com/embed/AmmEbYkYfHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<p>Robotics brands in the <a href="https://www.therobotreport.com/category/markets-industries/logistics-warehousing-asrs/" target="_blank" rel="noopener">logistics</a> and <a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener">manufacturing</a> sectors are applying swarm robotics principles to improve coordination efficiency and autonomous decision-making.</p>
+<p>These real-world implementations demonstrate how different power architectures influence adaptive behavior and operational performance in multi-agent robotic systems.</p>
+<h3>Amazon Robotics</h3>
+<p><a href="https://www.therobotreport.com/tag/amazon-robotics/" target="_blank" rel="noopener">Amazon Robotics</a> combines centralized fleet orchestration and AI-driven traffic management to coordinate robotic activity across high-density <a href="https://www.automatedwarehouseonline.com/tag/fulfillment/" target="_blank" rel="noopener">fulfillment</a> environments. The enterprise deploys <a href="https://www.therobotreport.com/amazon-launches-new-ai-foundation-model-deploys-1-millionth-robot/" target="_blank" rel="noopener">over 1 million robots</a> to improve inventory movement <a href="https://www.automatedwarehouseonline.com/category/inventory/" target="_blank" rel="noopener">throughout</a> its many warehouses.</p>
+<p>These machines deliver items directly to employees using mobile shelving systems, which allows centralized control platforms to optimize routing efficiency and synchronized task execution. This coordination model supports predictable operational throughput and real-time traffic optimization by continuously managing robot movement patterns and congestion in large-scale automated facilities.</p>
+<p><strong>Editor&#8217;s note:</strong> Bhavana Chandrashekhar, senior manager of applied science at Amazon Robotics, will speak <a href="https://www.therobotreport.com/amazons-bhavana-chandrashekhar-speaks-robobusiness-women-in-robotics-lunch/" target="_blank" rel="noopener">at the Women in Robotics Lunch</a> and participate in a keynote panel on “Beyond the Demo: AI in Production Robotics” at <a href="https://www.robobusiness.com/" target="_blank" rel="noopener">RoboBusiness</a> 2026. The event will be on Oct. 20 and 21 in Santa Clara, Calif. <a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener">Register now to attend.</a></p>
+<hr />
+
+<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+
+<hr />
+<h3>Ocado Technology</h3>
+<p><a href="https://www.therobotreport.com/tag/Ocado/" target="_blank" rel="noopener">Ocado</a> uses grid-based swarm fulfillment systems and centralized energy coordination architecture to manage thousands of robots within densely automated <a href="https://www.automatedwarehouseonline.com/category/distribution-center" target="_blank" rel="noopener">distribution</a> environments. Highly automated picking, storage, and dispatch allow a 50-item basket to be <a href="https://www.ocadogroup.com/our-solutions/online-grocery/fulfilment/customer-fulfilment-centres" target="_blank" rel="noopener">picked in under five minutes</a>.</p>
+<p>Meanwhile, 24/7 engineering support and high-performing service levels help guarantee consistent site throughput in large-scale fulfillment operations.</p>
+<p>Centralized control layers continuously optimize robotic movements and order sequencing in real time. They enable the company to maintain synchronized swarm coordination, minimize congestion and support high-volume grocery fulfillment with predictable operational efficiency.</p>
+<p><iframe loading="lazy" title="Fly through one of our CFCs and see Ocado&amp;apos;s technology in action" width="740" height="416" src="https://www.youtube.com/embed/tp9GIMPB2rA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<h2>Hybrid power architectures emerge in swarm robotics</h2>
+<p>Hybrid frameworks combine centralized AI coordination with decentralized energy autonomy to give swarm systems strategic oversight and local responsiveness. Edge computing and distributed battery intelligence can also enable individual robots to process data and manage energy states without constantly relying on a central controller.</p>
+<p>As swarm-aware energy routing and autonomous docking systems mature, future deployments may support more resilient coordination within large-scale robotic fleets. These advancements can also improve scalability for autonomous warehouse systems and industrial robotics operating in dynamic environments.</p>
+<p>Future robotic ecosystems will likely depend on hybrid frameworks that combine centralized coordination with decentralized energy autonomy to improve operational flexibility. As swarm robotics deployments become more complex in manufacturing and autonomous mobility applications, power topology can shape communication stability and system resilience.</p>
+<p>Robotics engineers and automation professionals should evaluate power architecture as a strategic design variable that directly influences fault tolerance and large-scale deployment performance.</p>
+<h3 class="p4"><b><img loading="lazy" decoding="async" class="alignleft size-medium wp-image-586141" src="https://www.therobotreport.com/wp-content/uploads/2025/11/Lou_Farrell-300x300.png" alt="Lou Farrell, Revolutionized" width="300" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2025/11/Lou_Farrell-300x300.png 300w, https://www.therobotreport.com/wp-content/uploads/2025/11/Lou_Farrell-150x150.png 150w, https://www.therobotreport.com/wp-content/uploads/2025/11/Lou_Farrell-238x238.png 238w, https://www.therobotreport.com/wp-content/uploads/2025/11/Lou_Farrell.png 500w" sizes="auto, (max-width: 300px) 100vw, 300px" />About the author</b></h3>
+<p><a href="https://revolutionized.com/author/loufarrell/" target="_blank" rel="noopener">Lou Farrell</a>, a senior editor at <em>Revolutionized</em>, has written on the topics of robotics, computing, and technology for years. He has a great passion for the stories he covers and for writing in general.</p>
+<p>This article is posted with permission.</p>
+<p>The post <a href="https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/">The differences between decentralized and centralized power in swarm robotics</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>From teach and repeat to SelfPath AI: The next robotics leap</title>
 		<link>https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/</link>
 					<comments>https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/#respond</comments>
@@ -52,9 +131,9 @@
 					<description><![CDATA[<p>John Black, chief technology officer at Brian Corp, shares insights on how to build trust for robotics fleets and AI.</p>
 <p>The post <a href="https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/">From teach and repeat to SelfPath AI: The next robotics leap</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
 ]]></description>
-										<content:encoded><![CDATA[<p><iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2390500761&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true" width="100%" height="166" frameborder="no" scrolling="no"><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start">﻿</span></iframe></p>
+										<content:encoded><![CDATA[<p><iframe loading="lazy" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2390500761&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true" width="100%" height="166" frameborder="no" scrolling="no"><span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start">﻿</span></iframe></p>
 <div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;"><a style="color: #cccccc; text-decoration: none;" title="The Robot Report Podcast" href="https://soundcloud.com/robot-report-podcast" target="_blank" rel="noopener">The Robot Report Podcast</a> · <a style="color: #cccccc; text-decoration: none;" title="From Teach-and-Repeat to SelfPath AI: The next robotics leap" href="https://soundcloud.com/robot-report-podcast/from-teach-and-repeat-to" target="_blank" rel="noopener">From Teach-and-Repeat to SelfPath AI: The next robotics leap</a></div>
-<div id="attachment_589354" style="width: 360px" class="wp-caption alignleft"><img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589354" class="size-full wp-image-589354" src="https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot.jpg" alt="headshot of john black." width="350" height="437" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot.jpg 350w, https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot-240x300.jpg 240w, https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot-191x238.jpg 191w" sizes="(max-width: 350px) 100vw, 350px" /><p id="caption-attachment-589354" class="wp-caption-text">John Black, CTO, Brain Corp.</p></div>
+<div id="attachment_589354" style="width: 360px" class="wp-caption alignleft"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589354" class="size-full wp-image-589354" src="https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot.jpg" alt="headshot of john black." width="350" height="437" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot.jpg 350w, https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot-240x300.jpg 240w, https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot-191x238.jpg 191w" sizes="auto, (max-width: 350px) 100vw, 350px" /><p id="caption-attachment-589354" class="wp-caption-text">John Black, CTO, Brain Corp.</p></div>
 <p>In Episode 259 of <em>The Robot Report</em> Podcast, the topic is scaling robot fleets and building trust while operating in public spaces.</p>
 <p>Our guest is John Black, chief technology officer at <a href="https://www.therobotreport.com/tag/brain-corp/" target="_blank" rel="noopener">Brain Corp</a>.</p>
 <p>He has commercialized a fleet of over 50,000 autonomous mobile robots (<a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener">AMRs</a>), which have logged more than 25 million hours of safe, real-world operation powered by BrainOS.</p>
@@ -83,7 +162,7 @@
 <hr />
 
 <div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
-<img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
 
 <hr />
 <p>The post <a href="https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/">From teach and repeat to SelfPath AI: The next robotics leap</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
@@ -956,113 +1035,6 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>XPeng Motors humanoid robot unit Dogotix raises $900M</title>
-		<link>https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/</link>
-					<comments>https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/#respond</comments>
-		
-		<dc:creator><![CDATA[Eugene Demaitre]]></dc:creator>
-		<pubDate>Mon, 24 Aug 2026 20:07:09 +0000</pubDate>
-				<category><![CDATA[Automotive]]></category>
-		<category><![CDATA[China]]></category>
-		<category><![CDATA[Humanoids]]></category>
-		<category><![CDATA[Investments]]></category>
-		<category><![CDATA[Manufacturing]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Xpeng Motors]]></category>
-		<category><![CDATA[XPENG Robotics]]></category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589280</guid>
-
-					<description><![CDATA[<p>Dogotix, the humanoid unit of XPeng Motors, has attained a valuation of $6.3 billion as it plans to produce robots at scale.</p>
-<p>The post <a href="https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/">XPeng Motors humanoid robot unit Dogotix raises $900M</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[<div id="attachment_589288" style="width: 780px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-589288" class="size-full wp-image-589288" src="https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON.jpg" alt="XPeng is developing the IRON humanoid robot. " width="770" height="498" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-768x497.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /><p id="caption-attachment-589288" class="wp-caption-text">XPeng&#8217;s Dogotix unit is developing the IRON humanoid robot. Source: XPeng</p></div>
-<p>Like other global automakers, XPeng Motors is branching into humanoid robots. The electric vehicle manufacturer today said that its Dogotix robotics unit has raised more than $900 million in its initial funding round, bringing its pre-money valuation to $5 billion and post-transaction valuation to more than $6.3 billion.</p>
-<p>XPeng said it plans to use the investment to further develop hardware and software, collect data, train physical AI models, build mass-production facilities, and expand globally. Founded in 2016, Shenzhen, China-based Dogotix will remain a <a href="https://www.therobotreport.com/tag/xpeng-robotics" target="_blank" rel="noopener">subsidiary</a> of XPeng, with He Ziaopeng remaining CEO of both companies.</p>
-<p>Founded in 2014, Xiaopeng Motors Technology Co. or XPeng said it aspires to become a global leader in AI mobility. The Guangzhou, China-based <a href="https://www.therobotreport.com/tag/xpeng-motors/" target="_blank" rel="noopener">company</a> develops its full-stack advanced driver-assistance system (ADAS) technology and in-car operating system in-house, and most of its manufacturing takes place at facilities in China.</p>
-<p>XPeng <a href="https://www.xpeng.com/news/019e3ad2f9789dd703de8a0282290180" target="_blank" rel="noopener">released</a> its first <a href="https://www.therobotreport.com/tag/robotaxi/" target="_blank" rel="noopener">robotaxi</a> based on its GX platform in May, and it is still <a href="https://www.wsj.com/business/earnings/xpeng-net-loss-widens-amid-physical-ai-push-e44b31f1" target="_blank" rel="noopener">working toward profitability</a>, said <em>The Wall Street Journal</em>.</p>
-<h2>XPeng plans to scale robot production</h2>
-<p>XPeng <a href="https://www.scmp.com/business/china-business/article/3360814/race-against-tesla-china-ev-maker-xpeng-launch-viral-humanoid-globally-2027?module=inline&amp;pgtype=article" target="_blank" rel="noopener">said it plans to produce</a> 1,000 <a href="https://www.xpeng.com/au/explore/xpeng_ai_robot_iron" target="_blank" rel="noopener">IRON</a> humanoids monthly by the end of 2026. The dexterous robot is aimed at <a href="https://www.therobotreport.com/category/retail-wholesale/" target="_blank" rel="noopener">retail</a> stores and industrial campuses, and the company said commercial deliveries will begin in 2027.</p>
-<p>Dogotix has also developed <a href="https://www.therobotreport.com/tag/legged-robots/" target="_blank" rel="noopener">quadruped</a> and tracked robots for smart home, logistics, power inspection, and security use cases. As an early-stage company, it did report <a href="https://www.stocktitan.net/sec-filings/XPEV/6-k-xpeng-inc-current-report-foreign-issuer-6e335a7a8328.html" target="_blank" rel="noopener">losses</a> in 2024 and 2025.</p>
-<p>Other automakers directly involved in humanoid development include <a href="https://www.therobotreport.com/tag/hyundai/" target="_blank" rel="noopener">Hyundai</a>, which is testing <a href="https://www.therobotreport.com/tag/boston-dynamics/" target="_blank" rel="noopener">Boston Dynamic</a>&#8216;s Atlas, and <a href="https://www.therobotreport.com/tag/tesla/" target="_blank" rel="noopener">Tesla</a>, which is <a href="https://www.therobotreport.com/from-evs-to-robotics-tesla-targets-10m-optimus-units-with-new-texas-plant/" target="_blank" rel="noopener">preparing to produce</a> its Optimus at scale. BMW Group <a href="https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/" target="_blank" rel="noopener">has deployed</a> <a href="https://www.therobotreport.com/tag/figure-ai" target="_blank" rel="noopener">Figure AI</a>&#8216;s Figure 03 after testing. These manufacturers see a large potential market for mass-produced complex machinery and electronics.</p>
-<p><strong>Editor&#8217;s note:</strong> Humanoid robotics development will be the topic of a session track at <a href="https://www.robobusiness.com/" target="_blank" rel="noopener">RoboBusiness</a> 2026, which will be on Oct. 20 and 21 in Santa Clara, Calif. Companies presenting will include Agility, AgiBot, Apptronik, Core Matter Labs, ForceN, Kollmorgen, Persona AI, PSYONIC, and Synapticon. <a href="https://web.cvent.com/event/7494a347-6721-45bc-95d0-337e8d036c45/summary" target="_blank" rel="noopener">Register now to attend.</a></p>
-<hr />
-
-<div style="text-align: center;"><a href="https://cvent.me/5AGyXE?RefId=articles">
-<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /></a><b>Register now and save on your pass to RoboBusiness 2026</b></div>
-
-<hr />
-<h2>Humanoid investment continues to climb</h2>
-<p>IDG Capital led the funding round for XPeng, whose strategic investors include Alibaba and Tencent. Gaorong Ventures, which also supported autonomous vehicle developer <a href="https://www.therobotreport.com/momenta-raises-500m-for-autonomous-driving-technology/" target="_blank" rel="noopener">Momenta</a> and humanoid robot startup <a href="https://www.therobotreport.com/tag/agibot/" target="_blank" rel="noopener">AgiBot</a>, also participated, <a href="https://www.reuters.com/business/retail-consumer/xpeng-says-its-robotics-business-raised-over-900-million-first-funding-round-2026-08-24/" target="_blank" rel="noopener">reported</a> Reuters.</p>
-<p>XPeng said it has set a record for a single private financing in China&#8217;s embodied AI sector. The company&#8217;s valuation is similar to that of other recent recipients of funding for humanoids:</p>
-<h2 id="tablepress-155-name" class="tablepress-table-name tablepress-table-name-id-155">Noteworthy humanoid funding rounds</h2>
-
-<table id="tablepress-155" class="tablepress tablepress-id-155" aria-labelledby="tablepress-155-name">
-<thead>
-<tr class="row-1">
-	<th class="column-1">Company Name</th><th class="column-2">Date</th><th class="column-3">Funding Round</th><th class="column-4">Round Value</th><th class="column-5">Source</th>
-</tr>
-</thead>
-<tbody class="row-striping row-hover">
-<tr class="row-2">
-	<td class="column-1">Figure AI</td><td class="column-2">Sept. 2025</td><td class="column-3">Series C</td><td class="column-4">$1.0B+</td><td class="column-5"><a href="https://www.therobotreport.com/figure-ai-raises-1b-in-series-c-funding-toward-humanoid-robot-development/" target="_blank">Figure funding news</a></td>
-</tr>
-<tr class="row-3">
-	<td class="column-1">1X Technologies</td><td class="column-2">Jan. 2024</td><td class="column-3">Series B</td><td class="column-4">$100M</td><td class="column-5"><a href="https://www.therobotreport.com/1x-technologies-raises-100m-series-b-advance-neo-humanoid-robot/" target="_blank">1X funding news</a></td>
-</tr>
-<tr class="row-4">
-	<td class="column-1">Apptronik</td><td class="column-2">Feb. 2026</td><td class="column-3">Series A</td><td class="column-4">$520M</td><td class="column-5"><a href="https://www.therobotreport.com/apptronik-brings-in-another-520m-to-ramp-up-apollo-production/" target="_blank">Apptronik funding news</a></td>
-</tr>
-<tr class="row-5">
-	<td class="column-1">AI² Robotics</td><td class="column-2">July 2026</td><td class="column-3">Strategic / Growth</td><td class="column-4">$735M</td><td class="column-5"><a href="https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/" target="_blank">AI2 funding news</a></td>
-</tr>
-<tr class="row-6">
-	<td class="column-1">Apptronik</td><td class="column-2">March 2025</td><td class="column-3">Series A</td><td class="column-4">$53M</td><td class="column-5"><a href="https://www.therobotreport.com/apptronik-brings-in-another-53-million-to-fuel-apollo-production/" target="_blank">Apptronik funding news</a></td>
-</tr>
-<tr class="row-7">
-	<td class="column-1">Apptronik</td><td class="column-2">Feb. 2025</td><td class="column-3">Series A</td><td class="column-4">$350M</td><td class="column-5"><a href="https://www.therobotreport.com/apptronik-raises-350-million-to-build-humanoids/" target="_blank">Apptronik funding news</a></td>
-</tr>
-<tr class="row-8">
-	<td class="column-1">Agility Robotics </td><td class="column-2">June 2026</td><td class="column-3">IPO - SPAC</td><td class="column-4">$620M</td><td class="column-5"><a href="https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/" target="_blank">Agility SPAC news</a></td>
-</tr>
-<tr class="row-9">
-	<td class="column-1">Unitree</td><td class="column-2">March 2026</td><td class="column-3">IPO</td><td class="column-4">Up to $900M</td><td class="column-5"><a href="https://www.therobotreport.com/unitree-ipo-shows-a-real-hardware-business-the-humanoid-case-is-still-early/" target="_blank">Unitree IPO news</a></td>
-</tr>
-<tr class="row-10">
-	<td class="column-1">Leju Robotics</td><td class="column-2">Oct. 2025</td><td class="column-3">Undisclosed</td><td class="column-4">$200M</td><td class="column-5"><a href="https://www.therobotreport.com/leju-raises-200m-humanoid-production-unitree-unveils-h2-robot/" target="_blank">Leju funding news</a></td>
-</tr>
-<tr class="row-11">
-	<td class="column-1">Unitree</td><td class="column-2">June 2025</td><td class="column-3">Series C</td><td class="column-4">Undisclosed</td><td class="column-5"><a href="https://www.therobotreport.com/unitree-becomes-a-legged-robot-unicorn-with-series-c-funding/" target="_blank">Unitree funding news</a></td>
-</tr>
-<tr class="row-12">
-	<td class="column-1">Neura Robotics</td><td class="column-2">June 2026</td><td class="column-3">Series C</td><td class="column-4">Up to $1.4B</td><td class="column-5"><a href="https://www.therobotreport.com/neura-robotics-raise-up-1-4b-in-series-c-funding-physical-ai/">Neura funding news</a></td>
-</tr>
-<tr class="row-13">
-	<td class="column-1">Avatar Robotics</td><td class="column-2">July 2026</td><td class="column-3">Seed</td><td class="column-4">$6M</td><td class="column-5"><a href="https://www.therobotreport.com/avatar-robotics-raises-6-5-m-seed-round-address-industrial-labor-constraints/">Avatar funding news</a></td>
-</tr>
-<tr class="row-14">
-	<td class="column-1">Humanoid</td><td class="column-2">July 2026</td><td class="column-3">Series A</td><td class="column-4">$152M</td><td class="column-5"><a href="https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/">Humanoid funding news</a></td>
-</tr>
-<tr class="row-15">
-	<td class="column-1">Holiday Robotics</td><td class="column-2">July 2026</td><td class="column-3">Series A</td><td class="column-4">$105M</td><td class="column-5"><a href="https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/" target="_blank">Holiday Robotics funding news</a></td>
-</tr>
-<tr class="row-16">
-	<td class="column-1">XPENG/Dogotix</td><td class="column-2">Aug 2026</td><td class="column-3">Seed</td><td class="column-4">$900M</td><td class="column-5"><a href="https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/">XPENG funding news</a></td>
-</tr>
-</tbody>
-</table>
-<!-- #tablepress-155 from cache -->
-<p>Investors have given humanoid robotics companies more than $8.7 billion in venture capital so far this year, <a href="https://dealroom.co/resources/humanoid-robotics/" target="_blank" rel="noopener">according to</a> <em>Dealroom.co</em>. Two-thirds of that funding has gone to <a href="https://www.therobotreport.com/category/china/" target="_blank" rel="noopener">Chinese</a> companies, it noted.</p>
-<p>At the same time, it remains to be seen how and when these companies will deliver commercial value. For instance, <a href="https://www.therobotreport.com/tag/unitree/" target="_blank" rel="noopener">Unitree</a>&#8216;s stock <a href="https://www.forbes.com/sites/drewbernstein/2026/08/24/the-50-billion-backflip-inside-chinas-robot-stock-mania/" target="_blank" rel="noopener">surged</a> by about 460% after its initial public offering, but it has then <a href="https://finance.biggo.com/news/9c4ac436-7c2d-415c-b454-d700517ba6ce" target="_blank" rel="noopener">fallen by 44%</a> from that high.</p>
-<p><iframe loading="lazy" title="IRON Shows You XPENG" width="740" height="416" src="https://www.youtube.com/embed/_Dn-Sk6iTi4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
-<p>The post <a href="https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/">XPeng Motors humanoid robot unit Dogotix raises $900M</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
