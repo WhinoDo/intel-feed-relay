@@ -1,0 +1,71 @@
+name: relay
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: relay
+  cancel-in-progress: true
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch feeds
+        env:
+          UA: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+        run: |
+          set -uo pipefail
+          mkdir -p out
+          status() { printf '%s\n' "$1"; }
+
+          fetch() {
+            name="$1"; url="$2"
+            tmp="out/.${name}.tmp"
+            if curl -fsSL --max-time 90 --retry 2 --retry-delay 5 \
+                 -A "$UA" -H "Accept: application/rss+xml, application/atom+xml, application/xml, text/xml, application/json, */*" \
+                 -o "$tmp" "$url"; then
+              if [ -s "$tmp" ] && python3 - "$tmp" <<'PY'
+          import sys, xml.etree.ElementTree as ET
+          p = sys.argv[1]
+          if p.endswith(".json"):
+              import json
+              json.load(open(p))
+          else:
+              ET.parse(p)
+          PY
+              then
+                mv "$tmp" "out/${name}"
+                status "OK ${name} $(wc -c < "out/${name}") bytes"
+              else
+                rm -f "$tmp"; status "BAD_PAYLOAD ${name}"
+              fi
+            else
+              rm -f "$tmp"; status "FAIL ${name}"
+            fi
+          }
+
+          fetch arxiv-cs-ro.xml    "https://export.arxiv.org/rss/cs.RO"
+          fetch import-ai.xml      "https://importai.substack.com/feed"
+          fetch robot-report.xml   "https://www.therobotreport.com/feed/"
+          fetch hf-daily-papers.json "https://huggingface.co/api/daily_papers"
+
+      - name: Commit if changed
+        run: |
+          git config user.name "relay-bot"
+          git config user.email "relay-bot@users.noreply.github.com"
+          git add out
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "relay update $(date -u +%FT%TZ)"
+            git push
+          fi
