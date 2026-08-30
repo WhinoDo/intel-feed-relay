@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Sat, 29 Aug 2026 11:46:16 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 30 Aug 2026 05:46:57 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/from-alphago-to-astratennis-galbot-humanoids-complete-100-consecutive-rallies-in-live-tennis-match</guid>
+    <title>From AlphaGo to AstraTennis: Galbot Humanoids Complete 100+ Consecutive Rallies in Live Tennis Match</title>
+    <link>https://www.humanoidsdaily.com/news/from-alphago-to-astratennis-galbot-humanoids-complete-100-consecutive-rallies-in-live-tennis-match</link>
+    <description>During the opening ceremony of the second World Humanoid Robot Games, Galbot showcased autonomous humanoids completing over 100 consecutive tennis rallies against and alongside human athletes.</description>
+    <pubDate>Sun, 30 Aug 2026 05:46:57 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>galbot</category><category>China</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/lightberry-unveils-lumi-a-40k-interactive-humanoid-built-on-a-unitree-core</guid>
     <title>Lightberry Unveils Lumi: A $40k Interactive Humanoid Built on a Unitree Core</title>
@@ -298,16 +308,6 @@
     <pubDate>Fri, 14 Aug 2026 07:29:49 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Brett Adcock</category><category>Figure</category><category>hand</category><category>hands</category><category>foundation</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/no-fingers-no-problem-x-square-robot-s-1-816-parcel-per-hour-livestream-challenges-figure</guid>
-    <title>No Fingers, No Problem: X Square Robot’s 1,816-Parcel-Per-Hour Livestream Challenges Figure</title>
-    <link>https://www.humanoidsdaily.com/news/no-fingers-no-problem-x-square-robot-s-1-816-parcel-per-hour-livestream-challenges-figure</link>
-    <description>Chinese embodied AI startup X Square Robot just completed a live, uncut package sorting challenge. Relying on simple grippers instead of dexterous hands, the system shattered its throughput target, inevitably drawing comparisons to Figure AI.</description>
-    <pubDate>Wed, 12 Aug 2026 19:07:52 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>livestream</category><category>China</category><category>xsquare</category>
   </item>
 
   </channel>
