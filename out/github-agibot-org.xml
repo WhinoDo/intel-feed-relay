@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <ns0:id>tag:github.com,2008:/agibot-world</ns0:id>
+  <ns0:link type="text/html" rel="alternate" href="https://github.com/agibot-world" />
+  <ns0:link type="application/atom+xml" rel="self" href="https://github.com/agibot-world.atom" />
+  <ns0:title>GitHub Public Timeline Feed</ns0:title>
+  <ns0:updated>2026-08-29T08:16:07Z</ns0:updated>
+</ns0:feed>

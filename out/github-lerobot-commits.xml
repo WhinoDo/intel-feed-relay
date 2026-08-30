@@ -1,0 +1,872 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <ns0:id>tag:github.com,2008:/huggingface/lerobot/commits/main</ns0:id>
+  <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
+  <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
+  <ns0:title>Recent Commits to lerobot:main</ns0:title>
+  <ns0:updated>2026-08-28T14:15:16Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/4aaff99be4a1d81568c08c8f0296b41b40c99ec4</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4aaff99be4a1d81568c08c8f0296b41b40c99ec4" />
+    <ns0:title>
+        add upper bounds for lancedb dependencies (#4532)
+    </ns0:title>
+    <ns0:updated>2026-08-28T14:15:16Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/15766192?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>AyushExel</ns0:name>
+      <ns0:uri>https://github.com/AyushExel</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;add upper bounds for lancedb dependencies (#4532)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/201bfe73901834ea068e4816592b010e1574375b</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/201bfe73901834ea068e4816592b010e1574375b" />
+    <ns0:title>
+        fix(security): remediate workflow vulnerability in .github/workflows/…
+    </ns0:title>
+    <ns0:updated>2026-08-28T12:38:52Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/25720743?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>hf-security-analysis</ns0:name>
+      <ns0:uri>https://github.com/hf-security-analysis</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(security): remediate workflow vulnerability in .github/workflows/full_tests.yml (#4531)
+
+Co-authored-by: hf-security-analysis[bot] &amp;lt;265538906+hf-security-analysis[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/f67b122dbbecbd01be8c2a36114dba8f453bcdd6</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f67b122dbbecbd01be8c2a36114dba8f453bcdd6" />
+    <ns0:title>
+        feat(datasets): native support for LeRobot datasets stored as LanceDB…
+    </ns0:title>
+    <ns0:updated>2026-08-28T12:25:00Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/15766192?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>AyushExel</ns0:name>
+      <ns0:uri>https://github.com/AyushExel</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(datasets): native support for LeRobot datasets stored as LanceDB datasets (#4363)
+
+Add Lance storage support for LeRobot datasets
+
+* Add a reader-level storage abstraction with BaseDatasetReader, keeping
+    LeRobotDataset as the single public dataset API. The existing
+    DatasetReader remains the default lerobot backend, while
+    LanceDatasetReader provides Lance-backed storage selected through
+    storage_format in meta/info.json.
+* Add batched Lance reads with support for delta timestamps, padding masks,
+    episode subsets, language columns, depth features, and parity with the
+    existing LeRobot reader semantics.
+* Add efficient local and remote video decoding from Lance blob columns.
+    Video byte indexes are used to issue coalesced, keyframe-aligned ranged
+    reads for each batch, backed by sparse seekable sources and decoder caches.
+    Video preparation and decoding are parallelized and work with RGB and
+    depth video paths.
+* Support local paths and remote dataset roots including s3://, gs://,
+    file://, and hf://buckets/.... Dataset metadata is stored in a Lance
+    meta table and materialized locally for compatibility with
+    LeRobotDatasetMetadata, with revision, authentication, cache consistency,
+    and path-safety handling.
+* Add dataset integrity validation for frame counts, episode boundaries, and
+    referenced video files, plus consistent float64 timestamp tolerance checks
+    across video decoders.
+* Integrate Lance readers with dataset factories, training/evaluation,
+    multiprocessing DataLoaders, Groot, depth output units, and repository
+    configuration while preserving the existing behavior for standard LeRobot
+    datasets.
+* Add optional lancedb and lancedb-convert dependencies and tests covering
+    reader parity, remote-root factory routing, multiprocessing, language
+    columns, metadata safety, video/depth decoding, and backend selection.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/bf31dd794ffb4f87380aba3912f64421e8352d3c</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/bf31dd794ffb4f87380aba3912f64421e8352d3c" />
+    <ns0:title>
+        docs: correct calibration guide grammar (#4508)
+    </ns0:title>
+    <ns0:updated>2026-08-25T11:42:18Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/193373702?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>POPOXR</ns0:name>
+      <ns0:uri>https://github.com/POPOXR</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: correct calibration guide grammar (#4508)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/8b256a6c0d4769c3cc3e7e98f04940126398a391</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8b256a6c0d4769c3cc3e7e98f04940126398a391" />
+    <ns0:title>
+        fix(datasets): validate aggregate root count (#4488)
+    </ns0:title>
+    <ns0:updated>2026-08-24T14:43:43Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/127607634?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>tandede</ns0:name>
+      <ns0:uri>https://github.com/tandede</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): validate aggregate root count (#4488)
+
+Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/f2c548e24dfec216742c24d5934cac045885a416</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f2c548e24dfec216742c24d5934cac045885a416" />
+    <ns0:title>
+        fix(datasets): keep small splits from dropping episodes in split_data…
+    </ns0:title>
+    <ns0:updated>2026-08-24T06:28:20Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/72850668?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>VihaanAgarwal</ns0:name>
+      <ns0:uri>https://github.com/VihaanAgarwal</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): keep small splits from dropping episodes in split_dataset (#4001)
+
+* fix(datasets): keep small splits from dropping episodes in split_dataset
+
+Splitting by fractions rounded each split with int(total_episodes * fraction).
+When a fraction rounded down to zero the split was skipped, which dropped both
+the split and its episodes even when the fractions summed to 1.0. For example
+{&amp;quot;train&amp;quot;: 0.9, &amp;quot;val&amp;quot;: 0.1} on 5 episodes returned only a 4-episode train split
+and silently lost the fifth episode.
+
+Allocate the leftover so every episode lands in exactly one split, and borrow a
+single episode from the largest split to fill any positive-fraction split that
+rounds to zero. Splits with more requested splits than episodes now raise
+instead of dropping data.
+
+* fix(datasets): reject negative split fractions and warn on zero ones
+
+A negative fraction passed the sum &amp;lt;= 1.0 check and leaked a negative
+count into the leftover arithmetic, so validate that every fraction is
+non-negative next to that check.
+
+An explicit zero fraction (e.g. {&amp;quot;train&amp;quot;: 0.9, &amp;quot;val&amp;quot;: 0.1, &amp;quot;test&amp;quot;: 0.0})
+is still skipped, but now logs a warning instead of dropping the split
+silently, matching the rest of this function&amp;#39;s no-quiet-loss behavior.
+
+* refactor(datasets): trim split-fraction comments and tests per review&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/7427f31801f944f5ec9ce53cda02862ce7d1638b</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7427f31801f944f5ec9ce53cda02862ce7d1638b" />
+    <ns0:title>
+        fix(tests): fix peft cli test (#4477)
+    </ns0:title>
+    <ns0:updated>2026-08-22T20:38:38Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(tests): fix peft cli test (#4477)
+
+`--peft.method` is a strict prefix of `--peft.method_type`, so argparse&amp;#39;s
+`allow_abbrev` expanded it silently. draccus 0.11 sets `allow_abbrev = False`,
+so the flag stopped resolving when #4033 bumped the pin from 0.10.0 to 0.11.6
+and all three tests now exit at argument parsing.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/8a49b5c8e958d91919eed4f7479f4c838853eb6e</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8a49b5c8e958d91919eed4f7479f4c838853eb6e" />
+    <ns0:title>
+        fix(rl): guard learner checkpoint saving against non-positive save_fr…
+    </ns0:title>
+    <ns0:updated>2026-08-22T20:38:17Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(rl): guard learner checkpoint saving against non-positive save_freq (#4479)
+
+`save_freq` is documented as &amp;quot;a non-positive value disables periodic saving,
+keeping only the final checkpoint&amp;quot;, and the RL learner inherits the field from
+TrainPipelineConfig. Its raw `optimization_step % save_freq` never honoured
+that: 0 raises ZeroDivisionError, and -1 saves on every step because
+`step % -1` is always 0.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/223a8ad16c52dad961cc1104477ffc3369c5189a</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/223a8ad16c52dad961cc1104477ffc3369c5189a" />
+    <ns0:title>
+        perf(fastwam): add compiled cached inference (#4491)
+    </ns0:title>
+    <ns0:updated>2026-08-21T15:24:45Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/139144277?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>darthjaja6</ns0:name>
+      <ns0:uri>https://github.com/darthjaja6</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(fastwam): add compiled cached inference (#4491)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/c13d79e6e350c589babc5b7c5cf5ef05cb0fa58e</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c13d79e6e350c589babc5b7c5cf5ef05cb0fa58e" />
+    <ns0:title>
+        fix(molmoact2): align continuous training with official recipe (#4249)
+    </ns0:title>
+    <ns0:updated>2026-08-21T13:32:37Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/71356829?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>hq-fang</ns0:name>
+      <ns0:uri>https://github.com/hq-fang</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(molmoact2): align continuous training with official recipe (#4249)
+
+* align molmoact2 training with original recipe
+
+* simplify molmoact2 vlm training mode
+
+* fix(molmoact2): align training configuration
+
+* fix(molmoact2): align preprocessing and normalization
+
+* fix(molmoact2): align continuous HF model path
+
+* fix(molmoact2): align continuous policy training
+
+* docs(molmoact2): document matched training recipe
+
+* test(molmoact2): cover matched continuous training
+
+* fix(molmoact2): match official LoRA initialization
+
+* fix(molmoact2): preserve continuous inference mask
+
+* fix(molmoact2): match embedding optimizer group
+
+* perf(molmoact2): specialize compiled action shapes
+
+* refactor(molmoact2): decouple shared policy helpers
+
+* docs(molmoact2): align compile and augmentation guidance
+
+* style(molmoact2): apply upstream formatters
+
+* fix(molmoact2): preserve explicit flow tensor dtype
+
+* set libero reset wait steps to 50
+
+* refactor(molmoact2): keep one compiled training path
+
+* fix(molmoact2): load checkpoint processors through factory
+
+* fix(molmoact2): keep norm stats path initialization-only
+
+* fix(molmoact2): match official scheduler horizon
+
+* revert(libero): keep upstream reset wait default
+
+* fix(molmoact2): load LeRobot checkpoints strictly
+
+* fix(molmoact2): preserve gripper masks on checkpoint reuse
+
+* fix(molmoact2): trust saved norm tag metadata
+
+* docs(molmoact2): clarify strict topology loading
+
+* fix(molmoact2): keep norm metadata initialization-only&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/15b19df7dbdbe00781a3b4c0dd2fbad0571e76da</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/15b19df7dbdbe00781a3b4c0dd2fbad0571e76da" />
+    <ns0:title>
+        feat(pi05): add optional training-time RTC (#4056)
+    </ns0:title>
+    <ns0:updated>2026-08-21T12:37:37Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>pkooij</ns0:name>
+      <ns0:uri>https://github.com/pkooij</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(pi05): add optional training-time RTC (#4056)
+
+feat(pi05): add optional training-time RTC
+
+Adds opt-in training-time Real-Time Chunking to pi0.5 via
+policy.rtc_training_max_delay (defaults to 0). When enabled, training samples a fully denoised
+action prefix per example, accomplishing this by supplying per-action flow timesteps (1 for prefix, 0 for the rest), and
+computing the flow loss only on the generated postfix. Trained
+checkpoints run with --inference.rtc.mode=trained; guided
+RTC remains the default for ordinary checkpoints.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/d451fe4f1f1b00a812f95aa9534389b5e42ab155</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d451fe4f1f1b00a812f95aa9534389b5e42ab155" />
+    <ns0:title>
+        feat(policies): vla-jepa refactoring (#4425)
+    </ns0:title>
+    <ns0:updated>2026-08-20T14:02:37Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): vla-jepa refactoring (#4425)
+
+* vla-jepa relative actions
+
+* vla_jepa: per-sample loss reduction for RA-BC
+
+* device autocast
+
+* refactoring processors
+
+* load reinit checkpoints onto the current device and honor strict
+
+* skip the discarded full-vocab lm_head forward
+
+* derive action and state dims in the config instead of mutating it in __init__
+
+* only clip normalized actions under MIN_MAX
+
+* make the gripper post-steps serializable and safe outside LIBERO
+
+* separate the world-model view count from the JEPA tubelet size
+
+* wire up the config fields that were silently ignored
+
+* fix predictor attention dropout and drop its dead parameters
+
+* skip CPU autocast for dtypes it does not implement
+
+* add tests and docs for the gripper, clipping and view-count changes
+
+* keep each sample with its own camera views when merging world-model features
+
+* enable strided observations for long horizon chunks
+* instead of first N frames, spread them across the whole chunk
+
+* cleanup pre-commit
+
+* apply the view-merge fix to the causal world-model context path
+
+#4381&amp;#39;s causal_world_model_context branch merges views with the same
+chunk+cat pattern fixed in 9622b400, so it splices features from different
+samples for b &amp;gt; 1. Extract the merge into _merge_views and use it in both
+places, and parametrize the regression test over the flag.
+
+* trim the long baked-in explanations to their essentials
+
+* overwrite input_features with the right state dim&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/713a409faedd73bb5597481b8885f17fbee23330</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/713a409faedd73bb5597481b8885f17fbee23330" />
+    <ns0:title>
+        (add) SONIC whole-body controller
+    </ns0:title>
+    <ns0:updated>2026-08-17T20:40:13Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>nepyope</ns0:name>
+      <ns0:uri>https://github.com/nepyope</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;(add) SONIC whole-body controller&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/6adf51511b7625090eade8d82d9f61a1846ebe56</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/6adf51511b7625090eade8d82d9f61a1846ebe56" />
+    <ns0:title>
+        feat(rollout): interactive sessions — chat-style CLI and programmatic…
+    </ns0:title>
+    <ns0:updated>2026-08-13T18:11:31Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(rollout): interactive sessions — chat-style CLI and programmatic rollout control (#4380)
+
+* feat(rollout): interactive v1
+
+Co-authored-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;
+
+* feat(rollout): mute logs in interactive mode
+
+Co-authored-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;
+
+* feat(rollout): add subtask command
+
+Co-authored-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;
+
+* refactor(rollout): integrate feedback -&amp;gt; api, recording, log mut and keyboard
+
+Co-authored-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;
+
+* fix(rollout): correct label for recording
+
+* feat(rollout): vqa command draft
+
+* feat(rollout): autosteer command draft
+
+* fix(rollout): contract for policy
+
+* refactor(rollout): add policy contract and fix _generate_text
+
+* feat(rollout): print autosteer subtasks
+
+* chore(rollout): demote pump_query in engine
+
+* chore(rollout): interactive strategy clarification
+
+* docs(rollout): update docstrings + comments
+
+* fix(utils): harden stdin listener EOF and error paths
+
+- Blocking reader: detect EOF with a falsy check so bytes streams (b&amp;quot;&amp;quot;)
+  terminate instead of busy-spinning forever without firing on_eof.
+- Drop the str-&amp;gt;bytes-&amp;gt;str round-trip: _emit_line now takes str and the
+  select path decodes at its two emit sites, removing an uncaught encode
+  failure path.
+- Guard the initial fileno() in _run_select so a stream closed before the
+  thread&amp;#39;s first instruction still reports a dead channel via on_eof.
+- Document the sole-consumer constraint of the descriptor-level reader.
+- Tests: blocking bytes-stream EOF, un-newlined final command flush at
+  EOF, and partial-line accumulation across reads.
+
+* fix(rollout): close query-channel races in the engine ABC
+
+- Stale autosteer apply: a NEXT_SUBTASK generation finishing after /reset,
+  /subtask, or /autosteer off no longer overwrites the operator&amp;#39;s newer
+  instruction — the check-and-apply now runs atomically under _query_lock
+  and stale turns are discarded without an announcement.
+- Autosteer double-queue on async backends: a _query_in_flight flag (set at
+  claim, cleared at publish) stops _poll_autosteer from queueing a duplicate
+  turn during the whole generation latency.
+- Undelivered answers are no longer overwritten: the single _ready_answer
+  slot becomes a small queue drained fully by each pump, so two /vqa
+  answered between pumps (e.g. during torch.compile warmup) both arrive.
+- generate_text output is validated centrally in _service_query (non-empty
+  str) and the str() coercion is dropped in both backends, so None/tensor
+  returns become error answers instead of the live task &amp;#39;None&amp;#39;.
+- Segment cleanup drains undelivered NEXT_SUBTASK answers (new
+  engine.drop_ready_subtask_answers), so the idle pump cannot announce a
+  subtask from a stopped sequencer; VQA answers stay deliverable.
+- pump_query/_service_query now report whether a query was served inline,
+  for overrun-warning suppression and post-query observation refresh.
+
+* fix(rollout): close RTC reset TOCTOU and stale post-query chunks
+
+- reset() clears the action queue inside the same _obs_lock section as the
+  epoch bump, and _rtc_loop checks the epoch and merges inside one _obs_lock
+  section: a reset can no longer interleave between check and merge and
+  leak a pre-reset chunk into the freshly cleared queue (lock order stays
+  _obs_lock -&amp;gt; queue.lock on both sides).
+- After _service_query serves a blocking text query, the RTC loop re-reads
+  the observation and the epoch before the refill branch, so the next chunk
+  is conditioned on the freshest pose instead of a seconds-old snapshot and
+  the discard guard also covers resets that landed during the query.
+- Reword the task-changed log: the switch is applied from the next *merged*
+  chunk (the epoch guard may still discard the current one).
+- ActionQueue.get_with_task raises a self-describing RuntimeError when the
+  task-label queue desyncs from the action queue, instead of a bare
+  IndexError on the control thread&amp;#39;s hot path (+ test).
+
+* fix(rollout): make controller lifecycle terminal and failure surface truthful
+
+- One-shot semantics made explicit: serve() latches a terminal stopped
+  state on exit and raises on re-entry; start/reset/set_task refuse with
+  False once stopped (or when a stop is pending / a failure is latched)
+  instead of acknowledging commands nothing will ever service.
+- strategy.run() exceptions are captured into a controller-level failure
+  slot, surfaced through failed/failure_traceback and a new STRATEGY_FAILED
+  event before STOPPED — instead of unwinding through serve() as a
+  clean-looking STOPPED with the traceback lost to the thread excepthook.
+- Segment startup re-checks engine.failed after clearing the LinkedEvent&amp;#39;s
+  local flag, closing the window where a dying RTC thread&amp;#39;s shutdown signal
+  was wiped and a segment started against a dead engine.
+- return_to_initial_position() now returns whether the move completed; a
+  failed move emits the new RESET_FAILED event (RESET_DONE promises the
+  robot is home) and the session words the failure explicitly.
+- The constructor rejects one-shot strategies (supports_interactive=False),
+  enforcing on the library path the contract the CLI already enforces.
+
+* fix(rollout): make sentry tail saves safe, counted, and non-silent
+
+- Tail-save recovery no longer masks a partially-committed save_episode:
+  DatasetWriter commits parquet rows before its failure-prone steps, so a
+  mid-save failure now latches the dataset as poisoned (further segments
+  raise, background/teardown Hub pushes are refused) and re-raises to the
+  controller&amp;#39;s failure surface instead of silently growing corruption.
+- Empty-tail segments (e.g. /start then /reset during warmup) skip the
+  save via dataset.has_pending_frames() instead of taking the exception
+  path with a muting-piercing WARNING traceback on a normal path.
+- Failure cleanup uses the public dataset.clear_episode_buffer(
+  delete_images=False) instead of poking writer internals.
+- Tail saves count toward upload_every_n_episodes: post-save bookkeeping is
+  factored into _register_saved_episode and called from both save sites, so
+  interactive sessions (segments shorter than one rotation) background-push
+  on the documented cadence instead of only at teardown.
+- Both save sites warn (WARNING pierces the interactive log muting) before
+  blocking on the episode lock while a Hub upload is in flight, so /reset
+  and /stop no longer freeze the robot with zero feedback.
+
+* fix(rollout): console truthfulness and operator-facing polish
+
+- Skip the FPS-overrun warning for ticks whose overrun is an expected
+  inline text generation (pump_query&amp;#39;s served flag), in base and sentry
+  loops — the warning channel stays reserved for genuine slowdowns.
+- warn_loop_overrun takes the effective target rate (1/control_interval,
+  i.e. fps x interpolation_multiplier) instead of the base fps, so the
+  message names the budget actually missed; all call sites updated.
+- _mute_system_output nests warnings.catch_warnings() instead of
+  hand-restoring warnings.filters (which missed the mutation-counter bump
+  and could leave warnings suppressed after the session).
+- _print emits one write per message so listener-thread acknowledgements
+  and serve-thread events cannot interleave mid-line.
+- /subtask &amp;quot;&amp;quot; and /vqa &amp;quot;&amp;quot; no longer apply/queue the empty string: quotes
+  are stripped before the emptiness check, matching /autosteer.
+- Exhaustive AskResult handling in /vqa and /autosteer: unknown variants
+  log an error instead of being mislabeled busy/success.
+- Docs: note that the transcript&amp;#39;s &amp;#39;&amp;gt;&amp;#39; is typed input (no prompt is
+  rendered), and that --duration bounds each /start segment in interactive
+  mode (also noted on the config field).
+
+* refactor(rollout): trim top-level exports, document the architecture
+
+- Drop parse_command, InteractiveCommand (terminal front-end internals) and
+  PolicyQuery (engine-internal; observers only ever see QueryAnswer) from
+  the package&amp;#39;s top-level surface; they remain importable from their
+  defining modules, and tests now import them from there.
+- Add an Architecture section to the package docstring: the four
+  components with their responsibilities/lifetimes/threads, the downward
+  call DAG, the control-plane vs data-plane split of engine callers, the
+  two upward channels, and the record-intent rule that answers &amp;#39;when do
+  things happen&amp;#39;.
+- Document the fourth interactive-strategy requirement: the mandatory
+  end-of-tick engine.pump_query(obs_processed) call, in both the
+  RolloutStrategy contract and the run() docstring — a strategy satisfying
+  every previously documented bullet still silently degraded text queries.
+
+* feat(policies): make the interactive rollout contracts enforceable
+
+- drop_queued_actions() resolves the action queue through a declared
+  ClassVar (_action_queue_attrs, mirroring _fsdp_forward_methods) instead
+  of hard-coded duck-typing: a chunking policy whose queue lives under a
+  different name now has an explicit knob, and the convention is documented
+  next to populate_queues.
+- __init_subclass__ raises when generate_text() is overridden without
+  supports_text_generation(): the rollout stack consults the flag before
+  accepting /vqa //autosteer, so a text head without it is unreachable and
+  the operator is told the policy has none — the mismatch now fails at
+  class-definition time. Checkpoint-conditional overrides stay possible.
+- Conformance tests against a real chunking policy (tiny ACT): a fresh
+  forward after drop_queued_actions(), the queue attribute being one the
+  base class declares, custom-attr extension, and both tandem-override
+  directions.
+
+* test(rollout): RTC engine coverage, deterministic clocks, asserted joins
+
+- New RTC engine test group driving a real RTCInferenceEngine with a
+  gate-released stub chunk policy: dispatched-task provenance across a
+  set_task with queued leftovers, reset() discarding a chunk from an
+  in-flight inference (and recovering after), /vqa answered on the RTC
+  thread but delivered only by the control thread&amp;#39;s pump, and get_action
+  failing loudly on a provenance-less queue entry.
+- Autosteer interval tests run on a fake clock injected into the engine
+  module (no global time patch), removing the reproduced wall-clock race
+  with the 100 ms budget and the real sleep.
+- _join_session helper joins and asserts thread exit everywhere: a hung
+  session thread can no longer silently leak process-wide log muting into
+  the rest of the suite; the first logging test also restores
+  logging.disable in its finally.
+- The mock strategy is now create_autospec(RolloutStrategy, instance=True)
+  with a real BaseStrategyConfig, so method-signature drift fails in tests
+  instead of on hardware during /reset.
+- Negative and zero-boundary tests for the autosteer_interval_s config
+  validation.
+
+* chore(rollout): appease ruff format and B023 in new tests
+
+* fix(rollout): close gaps found by adversarial verification of the review fixes
+
+A 12-agent verification pass over the full diff confirmed 46 item
+implementations and surfaced five gaps, all fixed here:
+
+- Sentry: rotation-site save_episode failures now take the same poison
+  path as tail saves (shared _checked_save_episode); previously a rotation
+  failure bypassed the latch, and has_pending_frames() then KeyError&amp;#39;d on
+  the popped &amp;#39;size&amp;#39; key inside run()&amp;#39;s finally, masking the original error
+  and letting teardown upload the partially-committed dataset. The tail
+  save also returns early when the poison is already latched, and
+  has_pending_frames() treats a mid-save-abandoned buffer as empty.
+- Sentry: the background _push closure re-checks _dataset_poisoned under
+  _episode_lock, so a push queued behind an in-flight one cannot upload a
+  dataset poisoned while it waited.
+- Engine: the NEXT_SUBTASK failure path gets the same liveness rule as the
+  success path (_fail_subtask): a stale turn&amp;#39;s failure no longer kills a
+  goal the operator has since set, nor announces &amp;#39;could not plan&amp;#39; for a
+  sequencer that segment cleanup already stopped.
+- Policies: the generate_text/supports_text_generation tandem guard
+  resolves through the MRO instead of cls.__dict__ — no false positive on
+  subclasses of conforming parents, and mixin-supplied text heads are
+  caught.
+- Session: /start//subtask//reset refusals from a stopping or failed
+  controller are worded truthfully instead of &amp;#39;Already running&amp;#39; / &amp;#39;Task
+  unchanged&amp;#39;.
+
+All fixes pinned by new tests.
+
+* fix(rollout): reconcile interactive rollout with #4423&amp;#39;s unified pacing
+
+The merge commit before this one resolved every conflicting hunk to
+upstream, so this commit is the whole of &amp;quot;what the interactive-rollout
+branch had to change to comply with main&amp;quot;.  Reviewing it in isolation
+shows the full cost of #4423 for this branch.
+
+`warn_loop_overrun` is deleted: `CycleTimer.wait()` now owns the slow-loop
+warning for all nine control loops.  Its one non-redundant behaviour — do
+not warn about a tick that ran slow because it served an inline /vqa or
+/autosteer generation — is re-expressed as `timer.restart()` on a truthy
+`engine.pump_query(...)`, before `timer.wait()`.  That re-arms the start-up
+exemption so the group `wait()` closes is not judged, which is the idiom
+#4423 already uses after the blocking `save_episode` and after DAgger&amp;#39;s
+handover ramps.  The guard must stay conditional: an unconditional
+`restart()` exempts every group and silently disables the warning (and the
+effective-cadence line) for the whole run — a regression that leaves every
+existing assertion green, so both directions are now pinned by tests.
+
+Re-grafted onto upstream&amp;#39;s loops:
+
+- `configs.py`: `interactive` / `autosteer_interval_s` were deleted by the
+  merge while the `__post_init__` validators that read them survived —
+  every `RolloutConfig(...)` raised `AttributeError`.  Restored, with the
+  cadence caveats documented on both fields.
+- `base.py`, `sentry.py`: the end-of-tick query pump, inside a
+  `timer.section(&amp;quot;query&amp;quot;)` so an inline generation is attributed rather
+  than silently inflating unaccounted work.
+- `sentry.py`: restartability restored on top of upstream&amp;#39;s cadence loop —
+  no `VideoEncodingManager` in `run()`, the four save/push helpers, the
+  poison latch, and `engine.dispatched_task` frame labelling now read
+  inside upstream&amp;#39;s `emitted_policy_action` gate.  `log_run_summary()` runs
+  before the tail save, which unlike the suppressed save it replaces can
+  re-raise.  `_episodes_since_push` moved to `__init__` so a strategy
+  driven without `setup()` still has a counter.
+- `episodic.py`, `highlight.py`: dropped the now-unused import only.  Both
+  keep the merge&amp;#39;s hybrid state deliberately — normalising them to upstream
+  would reinstate `self._return_to_initial_position`, which `core.py` no
+  longer defines.  `dagger.py` is byte-identical to upstream.
+
+Tests: sentry&amp;#39;s `send_next_action` stub now drives the interpolator, since
+upstream gates recording on `emitted_policy_action` and a stub that only
+returns a dict records nothing.  Upstream&amp;#39;s `_make_loop_ctx` pins
+`pump_query` to `False` — a bare `MagicMock` returns truthy and would
+restart the timer every tick, neutering cadence judging for every strategy
+it drives.  The query-exemption test asks mid-run instead of before the
+loop (asking first landed on the start-up group, so it passed vacuously),
+and a positive control asserts a slow tick *without* a query still warns.
+A new sentry case covers `dispatched_task` labelling at
+`interpolation_multiplier=2`, where the recording tick is no longer the
+tick that ran inference — the one claim the reconciliation makes that
+multiplier 1 cannot exercise.  Three mutants (no `restart()`,
+unconditional `restart()`, recording gate removed) were each verified to
+fail exactly the intended test and no other.
+
+Known limitation, documented rather than fixed: an interactive session
+mutes below WARNING, so #4423&amp;#39;s per-episode and whole-run cadence
+summaries (INFO) are withheld for the session.  Surfacing them through the
+session&amp;#39;s own channel needs a report sink on `CycleTimer` and is a
+follow-up, not a merge fix.
+
+402 passed, 3 skipped across tests/test_rollout.py,
+tests/test_interactive_rollout.py, tests/utils/test_cycle_timer.py,
+tests/policies/rtc/, tests/utils/test_stdin_input.py and
+tests/policies/test_pretrained_interactive_contracts.py.
+
+* chore(rollout): demote rtc log + count text to timercycle
+
+* feat(rollout): enable cycletimer sink to interactive exception
+
+* chore(rollout): raise muted logs in interactive to ERROR
+
+* chore(rollout): trim tests, comments, docstrings and docs
+
+---------
+
+Co-authored-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/e6f956746ef0c8f05786f64deb4f98dddbe8de8c</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e6f956746ef0c8f05786f64deb4f98dddbe8de8c" />
+    <ns0:title>
+        fix(vla_jepa): add opt-in causal world-model context to stop future-f…
+    </ns0:title>
+    <ns0:updated>2026-08-13T16:25:33Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/3657419?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>ravediamond</ns0:name>
+      <ns0:uri>https://github.com/ravediamond</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(vla_jepa): add opt-in causal world-model context to stop future-frame leakage (#4381)
+
+* fix(vla_jepa): add opt-in causal world-model context to stop future-frame leakage (#4153)
+
+* style: fix prettier formatting in vla_jepa.mdx table
+
+* test(vla_jepa): strengthen #4381 causal-context regression coverage
+
+Co-authored-by: vdmaas98 &amp;lt;159767407+vdmaas98@users.noreply.github.com&amp;gt;
+
+* style(vla_jepa): trim causal_world_model_context comment to one line
+
+---------
+
+Co-authored-by: vdmaas98 &amp;lt;159767407+vdmaas98@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/e081bbdebe7763a952d3be81a12b70a0c90f0607</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e081bbdebe7763a952d3be81a12b70a0c90f0607" />
+    <ns0:title>
+        fix: use &lt;= instead of &lt; for timestamp tolerance comparison in video_…
+    </ns0:title>
+    <ns0:updated>2026-08-13T15:52:51Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/198962750?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>walle250ai</ns0:name>
+      <ns0:uri>https://github.com/walle250ai</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix: use &amp;lt;= instead of &amp;lt; for timestamp tolerance comparison in video_utils (#3423)
+
+Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/d0af05771fd462649f4639fda07d55fd59cb799e</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d0af05771fd462649f4639fda07d55fd59cb799e" />
+    <ns0:title>
+        fix(control): unify control-loop pacing and cadence reporting (#4423)
+    </ns0:title>
+    <ns0:updated>2026-08-13T13:38:58Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(control): unify control-loop pacing and cadence reporting (#4423)
+
+* refactor(rollout): cadence cycle
+
+* feat(rollout): add Cadence Reporting
+
+* feat(scripts): use cycletimer + move it to utils
+
+* test(rollout): simplify tests&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/31f8e55d20054342447b9390e0419d3e18a56a7f</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/31f8e55d20054342447b9390e0419d3e18a56a7f" />
+    <ns0:title>
+        fix(policies): Warn when freezing VLA-JEPA Qwen conditioning (#4421)
+    </ns0:title>
+    <ns0:updated>2026-08-13T12:35:28Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/35391914?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>WOLIKIMCHENG</ns0:name>
+      <ns0:uri>https://github.com/WOLIKIMCHENG</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(policies): Warn when freezing VLA-JEPA Qwen conditioning (#4421)
+
+Co-authored-by: root &amp;lt;kinsonnee@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/a3a8653a5b569e8e70cd6fe4b0973c4b2b983120</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/a3a8653a5b569e8e70cd6fe4b0973c4b2b983120" />
+    <ns0:title>
+        fix(legacy depth markers): unifying legacy depth markers across the c…
+    </ns0:title>
+    <ns0:updated>2026-08-13T09:30:22Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29127300?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>CarolinePascal</ns0:name>
+      <ns0:uri>https://github.com/CarolinePascal</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(legacy depth markers): unifying legacy depth markers across the codebase (#4428)
+
+* fix(legacy depth): fixing legacy depth makers when aggregating datasets and unifying legacy markers handling across the codebase
+
+* chore(test): updating tests
+
+* refactor(datasets): centralize depth-map detection in is_depth_map utility
+
+Add a pure ``is_depth_map`` predicate in ``configs.video`` that handles the
+canonical marker and both legacy forms, and reuse it in ``depth_keys``,
+``encoder_config_from_video_info`` and ``canonicalize_depth_marker``.
+
+* fix(datasets): never leave an empty video_info entry after canonicalizing
+
+When the legacy depth marker lived in a separate ``video_info`` dict, popping it
+could leave an empty ``video_info``. Drop it in ``canonicalize_depth_marker`` so
+merged metadata stays clean, and simplify the merge-equality normalization.
+
+* fix(non-depth markers): fixing canonical non-depth markers to always be info.is_depth_map: False
+
+* fix(stats): use is_depth_map util for depth detection&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/a16f34c085c9597fcbdb9fde395a3334d78df716</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/a16f34c085c9597fcbdb9fde395a3334d78df716" />
+    <ns0:title>
+        perf(policies): move image normalization to device in prepare_observa…
+    </ns0:title>
+    <ns0:updated>2026-08-12T16:18:40Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(policies): move image normalization to device in prepare_observation_for_inference (#4433)
+
+Transfer camera frames to the compute device as compact uint8 (a 4x
+smaller copy than float32) and run the /255 + permute there, instead of
+converting on the CPU control thread. Outputs are bit-identical.
+
+In a 30 FPS sync-inference rollout (2 cameras, MPS) this cuts the
+per-tick observation prep on the control thread from 9.1 ms to 0.6 ms:
+the conversion kernels run asynchronously on the accelerator, overlapped
+with the loop&amp;#39;s pacing sleep, raising the achieved control rate from
+27.5 Hz to 28.8 Hz.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+</ns0:feed>

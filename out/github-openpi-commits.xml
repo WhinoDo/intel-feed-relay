@@ -1,0 +1,486 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <ns0:id>tag:github.com,2008:/Physical-Intelligence/openpi/commits/main</ns0:id>
+  <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commits/main" />
+  <ns0:link type="application/atom+xml" rel="self" href="https://github.com/Physical-Intelligence/openpi/commits/main.atom" />
+  <ns0:title>Recent Commits to openpi:main</ns0:title>
+  <ns0:updated>2026-08-24T16:27:12Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/215abfb217dbac7d5f1273282331b9b1866c0479</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/215abfb217dbac7d5f1273282331b9b1866c0479" />
+    <ns0:title>
+        docs(droid): fix config search instruction (#1023)
+    </ns0:title>
+    <ns0:updated>2026-08-24T16:27:12Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/193373702?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>POPOXR</ns0:name>
+      <ns0:uri>https://github.com/POPOXR</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(droid): fix config search instruction (#1023)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/15a9616a00943ada6c20a0f158e3adb39df2ccac</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/15a9616a00943ada6c20a0f158e3adb39df2ccac" />
+    <ns0:title>
+        update output objects to support batching (#975)
+    </ns0:title>
+    <ns0:updated>2026-06-16T00:14:00Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/39648931?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>verityw</ns0:name>
+      <ns0:uri>https://github.com/verityw</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update output objects to support batching (#975)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/c23745b5ad24e98f66967ea795a07b2588ed6c79</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/c23745b5ad24e98f66967ea795a07b2588ed6c79" />
+    <ns0:title>
+        Remove redundant tree dependency (#937)
+    </ns0:title>
+    <ns0:updated>2026-05-05T16:08:33Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/35717847?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>kstonekuan</ns0:name>
+      <ns0:uri>https://github.com/kstonekuan</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove redundant tree dependency (#937)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/650c5b0283a49c42784fb5055a0507da2c6d347d</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/650c5b0283a49c42784fb5055a0507da2c6d347d" />
+    <ns0:title>
+        Use dependency groups in openpi-client (#926)
+    </ns0:title>
+    <ns0:updated>2026-04-16T03:25:11Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/35717847?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>kstonekuan</ns0:name>
+      <ns0:uri>https://github.com/kstonekuan</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Use dependency groups in openpi-client (#926)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/a190e000bba78bb09b18dee1865c3b4302b071c9</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/a190e000bba78bb09b18dee1865c3b4302b071c9" />
+    <ns0:title>
+        Add chex as a runtime dependency (#924)
+    </ns0:title>
+    <ns0:updated>2026-04-15T15:19:43Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/35717847?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>kstonekuan</ns0:name>
+      <ns0:uri>https://github.com/kstonekuan</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add chex as a runtime dependency (#924)
+
+* Add chex runtime dependency
+
+* Update lockfile for chex dependency
+
+* Upgrade av in lockfile&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/e4429ad35ec380842dc72b4074735cf3e8a503c2</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/e4429ad35ec380842dc72b4074735cf3e8a503c2" />
+    <ns0:title>
+        Remove pytest from runtime model import (#923)
+    </ns0:title>
+    <ns0:updated>2026-04-15T04:03:51Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1822327?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>jimmyt857</ns0:name>
+      <ns0:uri>https://github.com/jimmyt857</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove pytest from runtime model import (#923)
+
+## Summary
+
+This removes an unintended runtime dependency on `pytest` from
+`openpi.models_pytorch.gemma_pytorch`.
+
+The only usage was in a type annotation for `past_key_values`:
+
+- before: `list[torch.FloatTensor] | pytest.Cache | None`
+- after: `list[torch.FloatTensor] | None`
+
+## Why
+
+  `pytest` should not be required to import or serve runtime model code.
+
+This showed up when using `openpi` in a production inference image that
+excludes dev dependencies.
+
+In our serving environment, `openpi.models_pytorch.gemma_pytorch` was
+imported during model load, which caused the server to fail if `pytest`
+was not installed. The `pytest` reference was only used in a type
+annotation and was not part of runtime behavior.
+  
+
+  ## Changes
+
+- removed `import pytest` from
+`src/openpi/models_pytorch/gemma_pytorch.py`
+- replaced the `pytest.Cache` annotation on `past_key_values` with a
+runtime-safe annotation
+
+  ## Validation
+
+- verified that the only runtime use of `pytest` in this module was the
+type annotation
+  - verified the change is isolated to this import and annotation
+
+  ## Notes
+
+I kept this patch intentionally narrow to avoid changing model behavior
+or cache semantics beyond removing the accidental test-only dependency.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/46638e81a41da6dc138d5947a7dd9c0e74518419</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/46638e81a41da6dc138d5947a7dd9c0e74518419" />
+    <ns0:title>
+        Remove pytest from runtime model import
+    </ns0:title>
+    <ns0:updated>2026-04-15T03:19:21Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/35717847?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>kstonekuan</ns0:name>
+      <ns0:uri>https://github.com/kstonekuan</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove pytest from runtime model import&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/fdc03f527881cdfc8ae1a168ed6a20c60edbbbcc</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/fdc03f527881cdfc8ae1a168ed6a20c60edbbbcc" />
+    <ns0:title>
+        docs: clarify Python 3.11 requirement for RLDS group (#910)
+    </ns0:title>
+    <ns0:updated>2026-03-29T07:19:38Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1822327?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>jimmyt857</ns0:name>
+      <ns0:uri>https://github.com/jimmyt857</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: clarify Python 3.11 requirement for RLDS group (#910)
+
+## What this PR does
+
+Documents the Python 3.11 requirement when using `uv sync --group rlds`.
+
+### Problem
+
+Running `uv sync --group rlds` with Python 3.12+ fails because
+`tensorflow-cpu==2.15.0` only has `cp311` wheels on PyPI:
+
+```
+error: Distribution tensorflow-cpu==2.15.0 can&amp;#39;t be installed because it doesn&amp;#39;t have a
+source distribution or wheel for the current platform
+hint: You&amp;#39;re using CPython 3.12 (cp312), but tensorflow-cpu (v2.15.0) only has wheels
+with the following Python ABI tag: cp311
+```
+
+### Fix
+
+- Updated `examples/droid/README_train.md` with explicit `uv python
+install 3.11` + `uv venv --python 3.11` steps before `uv sync --group
+rlds`
+- Added a comment in `pyproject.toml` next to the rlds group documenting
+this constraint
+
+### Checklist
+
+- [x] Minimal documentation change
+- [x] No code changes
+
+Closes #907&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/39b69efd8ec2d8f81d93e63448257f82c32f1190</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/39b69efd8ec2d8f81d93e63448257f82c32f1190" />
+    <ns0:title>
+        docs: clarify Python 3.11 requirement for RLDS group
+    </ns0:title>
+    <ns0:updated>2026-03-24T04:33:07Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/34277382?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>wadeKeith</ns0:name>
+      <ns0:uri>https://github.com/wadeKeith</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: clarify Python 3.11 requirement for RLDS group
+
+tensorflow-cpu==2.15.0 only provides cp311 wheels on PyPI, so
+`uv sync --group rlds` fails when the venv uses Python 3.12+.
+
+- Add explicit Python 3.11 setup commands to DROID training docs
+- Add comment in pyproject.toml noting the constraint
+
+Closes #907&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/54cbaee6ae0c010a1ed431871cdaa8f4684ac709</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/54cbaee6ae0c010a1ed431871cdaa8f4684ac709" />
+    <ns0:title>
+        Fix race condition in maybe_download (#846)
+    </ns0:title>
+    <ns0:updated>2026-03-20T06:40:52Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/12429600?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>kvablack</ns0:name>
+      <ns0:uri>https://github.com/kvablack</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix race condition in maybe_download (#846)
+
+Fixes #845.
+
+`maybe_download` only checks if the file exists before acquiring the
+file lock, so multiple threads could pass the existence check
+concurrently, and then each will sequentially download the same file,
+resulting in redundant downloads. This PR adds an existence check after
+acquiring the file lock, so if multiple threads are concurrently
+downloading the same file, only one of them will actually perform the
+download and the others will shortcut.
+
+This is the code to reproduce:
+
+```python
+from concurrent.futures import ThreadPoolExecutor
+import logging
+
+from openpi.shared.download import maybe_download
+
+
+logging.basicConfig(level=logging.INFO)
+
+def main():
+    n_workers = 2
+    with ThreadPoolExecutor(max_workers=n_workers) as executor:
+        futures = []
+        for _ in range(n_workers):
+            futures.append(executor.submit(maybe_download, &amp;quot;gs://openpi-assets/checkpoints/pi05_droid/params/ocdbt.process_0/d/b862fdd01b4477d01ea1f43ddb38b88f&amp;quot;))
+        for future in futures:
+            future.result()
+
+
+if __name__ == &amp;quot;__main__&amp;quot;:
+    main()
+```
+
+Before the fix, this was the output:
+
+```
+INFO:openpi.shared.download:Downloading gs://openpi-assets/checkpoints/pi05_droid/params/ocdbt.process_0/d/b862fdd01b4477d01ea1f43ddb38b88f to /root/.cache/openpi/openpi-assets/checkpoints/pi05_droid/params/ocdbt.process_0/d/b862fdd01b4477d01ea1f43ddb38b88f
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2.61G/2.61G [00:28&amp;lt;00:00, 99.9MiB/s]
+INFO:openpi.shared.download:Downloading gs://openpi-assets/checkpoints/pi05_droid/params/ocdbt.process_0/d/b862fdd01b4477d01ea1f43ddb38b88f to /root/.cache/openpi/openpi-assets/checkpoints/pi05_droid/params/ocdbt.process_0/d/b862fdd01b4477d01ea1f43ddb38b88f
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2.61G/2.61G [00:26&amp;lt;00:00, 108MiB/s]
+```
+
+With the fix, this is the output:
+
+```
+INFO:openpi.shared.download:Downloading gs://openpi-assets/checkpoints/pi05_droid/params/ocdbt.process_0/d/b862fdd01b4477d01ea1f43ddb38b88f to /root/.cache/openpi/openpi-assets/checkpoints/pi05_droid/params/ocdbt.process_0/d/b862fdd01b4477d01ea1f43ddb38b88f
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2.61G/2.61G [00:26&amp;lt;00:00, 108MiB/s]
+```&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/78b409156f6bae6b0eb4bfd0e45526715477addb</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/78b409156f6bae6b0eb4bfd0e45526715477addb" />
+    <ns0:title>
+        Merge branch 'main' into fix-download
+    </ns0:title>
+    <ns0:updated>2026-03-20T00:38:38Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/22180942?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>abhaybd</ns0:name>
+      <ns0:uri>https://github.com/abhaybd</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch &amp;#39;main&amp;#39; into fix-download&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/714ec9aa5e4e9b73b98c6bf3a328f377268e26f9</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/714ec9aa5e4e9b73b98c6bf3a328f377268e26f9" />
+    <ns0:title>
+        Allow configuring pytorch compilation mode (#905)
+    </ns0:title>
+    <ns0:updated>2026-03-19T22:18:59Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/12429600?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>kvablack</ns0:name>
+      <ns0:uri>https://github.com/kvablack</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow configuring pytorch compilation mode (#905)
+
+This PR allows users to configure the compilation mode used by
+`Pi0Pytorch` to compile the `sample_actions` method.
+
+This was specifically motivated by needing to use the
+`max-autotune-no-cudagraphs` mode, due to threading issues. By default
+the compilation mode is `max-autotune`, which preserves existing
+behavior.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/2153a758301b6c532e0a422254ad9081f0651d73</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/2153a758301b6c532e0a422254ad9081f0651d73" />
+    <ns0:title>
+        Fix race condition in maybe_download
+    </ns0:title>
+    <ns0:updated>2026-03-19T21:55:40Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/22180942?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>abhaybd</ns0:name>
+      <ns0:uri>https://github.com/abhaybd</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix race condition in maybe_download&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/417042a927159619b3fb0c4605334e21fc9ba9cc</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/417042a927159619b3fb0c4605334e21fc9ba9cc" />
+    <ns0:title>
+        ruff
+    </ns0:title>
+    <ns0:updated>2026-03-19T21:29:47Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/22180942?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>abhaybd</ns0:name>
+      <ns0:uri>https://github.com/abhaybd</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;ruff&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/7b23daaf3bb57ac0f23648b2532001e745ecac28</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/7b23daaf3bb57ac0f23648b2532001e745ecac28" />
+    <ns0:title>
+        Allow configuring pytorch compilation mode
+    </ns0:title>
+    <ns0:updated>2026-03-19T21:29:47Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/22180942?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>abhaybd</ns0:name>
+      <ns0:uri>https://github.com/abhaybd</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow configuring pytorch compilation mode&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/37ea6685d9cae4d6d213a3830444046ad2885ecb</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/37ea6685d9cae4d6d213a3830444046ad2885ecb" />
+    <ns0:title>
+        Fix hardcoded action dim in pi0 pytorch model (#855)
+    </ns0:title>
+    <ns0:updated>2026-03-19T21:29:31Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/12429600?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>kvablack</ns0:name>
+      <ns0:uri>https://github.com/kvablack</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix hardcoded action dim in pi0 pytorch model (#855)
+
+As seen
+[here](https://github.com/Physical-Intelligence/openpi/blob/981483dca0fd9acba698fea00aa6e52d56a66c58/src/openpi/models/pi0.py#L92-L100),
+the jax version of the pi0 modeling code correctly uses
+`config.action_dim` for the linear layer shapes. However, the
+corresponding pytorch code hardcodes this as 32.
+
+This works fine for pi0/pi05 since they use an action dim of 32, but if
+users want to e.g. train a paligemma model with a different action
+dimension the pytorch code will error. This PR fixes this bug and uses
+the action dimension from the config.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/f7e5a24a2d9d6524be8a465a9140e08ec642a6ef</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/f7e5a24a2d9d6524be8a465a9140e08ec642a6ef" />
+    <ns0:title>
+        Fix hardcoded action dim in pi0 pytorch model
+    </ns0:title>
+    <ns0:updated>2026-03-19T20:52:13Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/22180942?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>abhaybd</ns0:name>
+      <ns0:uri>https://github.com/abhaybd</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix hardcoded action dim in pi0 pytorch model&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/e6b044115c075dc64a2e4e23d33ea3a3c293f123</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/e6b044115c075dc64a2e4e23d33ea3a3c293f123" />
+    <ns0:title>
+        Implement gsutil download for GCS URLs (#901)
+    </ns0:title>
+    <ns0:updated>2026-03-13T16:08:08Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1822327?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>jimmyt857</ns0:name>
+      <ns0:uri>https://github.com/jimmyt857</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Implement gsutil download for GCS URLs (#901)
+
+Add a new function to download files using gsutil for GCS URLs.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/2601fa260a20b502d2252cb2c4e2fe8dbff322b9</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/2601fa260a20b502d2252cb2c4e2fe8dbff322b9" />
+    <ns0:title>
+        lint code
+    </ns0:title>
+    <ns0:updated>2026-03-13T05:25:52Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1712533?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>psimit</ns0:name>
+      <ns0:uri>https://github.com/psimit</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;lint code&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/e43ead89db499ab2fa414b448b1ccb1e5fab4602</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/Physical-Intelligence/openpi/commit/e43ead89db499ab2fa414b448b1ccb1e5fab4602" />
+    <ns0:title>
+        Merge branch 'main' into 900-gcloud-download-defaults-to-authenticati…
+    </ns0:title>
+    <ns0:updated>2026-03-12T16:35:20Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1822327?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>jimmyt857</ns0:name>
+      <ns0:uri>https://github.com/jimmyt857</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch &amp;#39;main&amp;#39; into 900-gcloud-download-defaults-to-authentication-even-for-public-assets&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+</ns0:feed>

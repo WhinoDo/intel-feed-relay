@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <ns0:id>tag:github.com,2008:/unitreerobotics</ns0:id>
+  <ns0:link type="text/html" rel="alternate" href="https://github.com/unitreerobotics" />
+  <ns0:link type="application/atom+xml" rel="self" href="https://github.com/unitreerobotics.atom" />
+  <ns0:title>GitHub Public Timeline Feed</ns0:title>
+  <ns0:updated>2026-08-26T01:55:06-07:00</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:member_add_to_repo/13882925282</ns0:id>
+    <ns0:published>2026-08-26 01:55:06 -0700</ns0:published>
+    <ns0:updated>2026-08-26 01:55:06 -0700</ns0:updated>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/unitreerobotics/unitree_sdk2_rs" />
+    <ns0:title type="html">unitreerobotics added Roy-dk to unitreerobotics/unitree_sdk2_rs</ns0:title>
+    <ns0:author>
+      <ns0:name>unitreerobotics</ns0:name>
+      <ns0:email>Laikago@unitree.cc</ns0:email>
+      <ns0:uri>https://github.com/unitreerobotics</ns0:uri>
+    </ns0:author>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/44998897?s=30&amp;v=4" />
+    <ns0:content type="html">&lt;div class="feed-add-user js-feed-item-view"&gt;&lt;div class="body"&gt;
+&lt;!-- member --&gt;
+&lt;div class="d-flex flex-items-baseline tmp-py-4"&gt;
+  &lt;div class="d-flex flex-items-baseline width-full"&gt;
+    &lt;div class="color-fg-muted"&gt;
+      &lt;span class="mr-2"&gt;&lt;a class="d-inline-block" data-hovercard-type="organization" data-hovercard-url="/orgs/unitreerobotics/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/unitreerobotics" rel="noreferrer"&gt;&lt;img class="avatar" src="https://avatars.githubusercontent.com/u/44998897?s=64&amp;amp;v=4" width="32" height="32" alt="@unitreerobotics"&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class="Link--primary no-underline wb-break-all" href="/unitreerobotics" rel="noreferrer"&gt;unitreerobotics&lt;/a&gt;
+      
+      added
+      &lt;a class="Link--primary no-underline wb-break-all" href="/Roy-dk" rel="noreferrer"&gt;Roy-dk&lt;/a&gt;
+      to
+      &lt;a class="Link--primary no-underline wb-break-all" href="/unitreerobotics/unitree_sdk2_rs" rel="noreferrer"&gt;unitreerobotics/unitree_sdk2_rs&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense="past" datetime="2026-08-26T01:55:06-07:00" data-view-component="true"&gt;August 26, 2026 01:55&lt;/relative-time&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</ns0:content>
+  </ns0:entry>
+</ns0:feed>
