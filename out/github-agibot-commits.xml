@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <ns0:id>tag:github.com,2008:/AgiBot-World/VideoDataset/commits/main</ns0:id>
+  <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commits/main" />
+  <ns0:link type="application/atom+xml" rel="self" href="https://github.com/AgiBot-World/VideoDataset/commits/main.atom" />
+  <ns0:title>Recent Commits to VideoDataset:main</ns0:title>
+  <ns0:updated>2026-03-18T06:25:48Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/e91b513a3bfb22939a638d53673e8a0864c890bb</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/e91b513a3bfb22939a638d53673e8a0864c890bb" />
+    <ns0:title>
+        build(deps): update dependency check-jsonschema to v0.36.2 (#74)
+    </ns0:title>
+    <ns0:updated>2026-03-18T06:25:48Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update dependency check-jsonschema to v0.36.2 (#74)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/a0364fdca8bd245a9cd475402c3d608bf004ede6</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/a0364fdca8bd245a9cd475402c3d608bf004ede6" />
+    <ns0:title>
+        build(deps): update dependency ruff to v0.15.6 (#85)
+    </ns0:title>
+    <ns0:updated>2026-03-18T05:35:33Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update dependency ruff to v0.15.6 (#85)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/ef322ffdecbbedd0f5b52c3fb516b98527824622</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/ef322ffdecbbedd0f5b52c3fb516b98527824622" />
+    <ns0:title>
+        build(deps): update dependency codespell to v2.4.2 (#89)
+    </ns0:title>
+    <ns0:updated>2026-03-12T07:22:31Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update dependency codespell to v2.4.2 (#89)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/0d1874ce9c8434be4c3c23c38b80749959454530</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/0d1874ce9c8434be4c3c23c38b80749959454530" />
+    <ns0:title>
+        build(deps): update pre-commit hook pre-commit/mirrors-clang-format t…
+    </ns0:title>
+    <ns0:updated>2026-03-04T11:02:21Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update pre-commit hook pre-commit/mirrors-clang-format to v22 (#88)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/d079d55612d58a1037bd12b94179179f57d81160</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/d079d55612d58a1037bd12b94179179f57d81160" />
+    <ns0:title>
+        build(deps): update ghcr.io/renovatebot/renovate docker tag to v43.31…
+    </ns0:title>
+    <ns0:updated>2026-02-25T11:18:38Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update ghcr.io/renovatebot/renovate docker tag to v43.31.1 (#73)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/7e7adb3014fe575cbe390cc3294301130a32e919</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/7e7adb3014fe575cbe390cc3294301130a32e919" />
+    <ns0:title>
+        build(deps): update dependency ruff to v0.15.2 (#83)
+    </ns0:title>
+    <ns0:updated>2026-02-25T07:16:21Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update dependency ruff to v0.15.2 (#83)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/06c1e1b1c9434702414cd83ae3d441d164d2dd4f</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/06c1e1b1c9434702414cd83ae3d441d164d2dd4f" />
+    <ns0:title>
+        build(deps): update actions/checkout digest to de0fac2 (#78)
+    </ns0:title>
+    <ns0:updated>2026-02-16T13:43:51Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update actions/checkout digest to de0fac2 (#78)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;
+Co-authored-by: Xuan (Sean) Hu &amp;lt;i@huxuan.org&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/24adba3a8826cd9a9f74782dec4c276fbc0b2d3c</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/24adba3a8826cd9a9f74782dec4c276fbc0b2d3c" />
+    <ns0:title>
+        build(deps): update ghcr.io/renovatebot/renovate docker tag to v43 (#81)
+    </ns0:title>
+    <ns0:updated>2026-02-13T07:41:57Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update ghcr.io/renovatebot/renovate docker tag to v43 (#81)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/8a2f4073b984808e1134cf4e0cb40c04ccc6111c</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/8a2f4073b984808e1134cf4e0cb40c04ccc6111c" />
+    <ns0:title>
+        build(deps): update dependency ruff to v0.15.0 (#80)
+    </ns0:title>
+    <ns0:updated>2026-02-12T09:11:51Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update dependency ruff to v0.15.0 (#80)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/727d5aade585f50375181bdcb0bc33f8356b1e70</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/727d5aade585f50375181bdcb0bc33f8356b1e70" />
+    <ns0:title>
+        build(deps): update commitlint/commitlint docker tag to v20.4.1 (#75)
+    </ns0:title>
+    <ns0:updated>2026-02-12T08:32:36Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update commitlint/commitlint docker tag to v20.4.1 (#75)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/e086aee92c6ebd63ee353e56b0a381d3591bdcc7</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/e086aee92c6ebd63ee353e56b0a381d3591bdcc7" />
+    <ns0:title>
+        build(deps): update dependency ruff to v0.14.14 (#72)
+    </ns0:title>
+    <ns0:updated>2026-01-30T03:23:15Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update dependency ruff to v0.14.14 (#72)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/047cd04152d0dd3091d5924640036f4b473f4697</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/047cd04152d0dd3091d5924640036f4b473f4697" />
+    <ns0:title>
+        build(deps): update actions/setup-python digest to a309ff8 (#68)
+    </ns0:title>
+    <ns0:updated>2026-01-28T16:30:26Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update actions/setup-python digest to a309ff8 (#68)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;
+Co-authored-by: Xuan (Sean) Hu &amp;lt;i@huxuan.org&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/813c0697553802422500076327cc155637445dea</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/813c0697553802422500076327cc155637445dea" />
+    <ns0:title>
+        build(deps): update github/codeql-action digest to 19b2f06 (#69)
+    </ns0:title>
+    <ns0:updated>2026-01-28T13:12:17Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update github/codeql-action digest to 19b2f06 (#69)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;
+Co-authored-by: Xuan (Sean) Hu &amp;lt;i@huxuan.org&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/766a858ad1b3f6b4a5299cc361084f406b4651cc</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/766a858ad1b3f6b4a5299cc361084f406b4651cc" />
+    <ns0:title>
+        build(deps): update actions/checkout action to v6.0.2 (#70)
+    </ns0:title>
+    <ns0:updated>2026-01-27T03:13:25Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update actions/checkout action to v6.0.2 (#70)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/567122fffbacf0421f9805f40e0db099789a9de9</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/567122fffbacf0421f9805f40e0db099789a9de9" />
+    <ns0:title>
+        build(deps): update dependency copier to v9.11.3 (#71)
+    </ns0:title>
+    <ns0:updated>2026-01-26T05:11:30Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update dependency copier to v9.11.3 (#71)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/1e51ed7a6a1880357411cef0783ac34744675a2a</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/1e51ed7a6a1880357411cef0783ac34744675a2a" />
+    <ns0:title>
+        build(deps): update ghcr.io/renovatebot/renovate docker tag to v42.81…
+    </ns0:title>
+    <ns0:updated>2026-01-19T06:29:41Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update ghcr.io/renovatebot/renovate docker tag to v42.81.7 (#65)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/573d8e2b327d517dd70d9335ae7320ccba166414</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/573d8e2b327d517dd70d9335ae7320ccba166414" />
+    <ns0:title>
+        build(deps): update actions/setup-node action to v6.2.0 (#67)
+    </ns0:title>
+    <ns0:updated>2026-01-19T06:09:59Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update actions/setup-node action to v6.2.0 (#67)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/1bf0b8c44c56953b3ce24f31411aebfe0b702dc0</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/1bf0b8c44c56953b3ce24f31411aebfe0b702dc0" />
+    <ns0:title>
+        build(deps): update dependency ruff to v0.14.13 (#66)
+    </ns0:title>
+    <ns0:updated>2026-01-16T07:06:45Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update dependency ruff to v0.14.13 (#66)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/cfa2558f2b67604bf7c0032ad9a06948114b2d61</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/cfa2558f2b67604bf7c0032ad9a06948114b2d61" />
+    <ns0:title>
+        build(deps): pin dependencies (#15)
+    </ns0:title>
+    <ns0:updated>2026-01-15T18:22:02Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): pin dependencies (#15)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/2d2a2d642e760ff679bc94df4e136a2291b043bc</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/commit/2d2a2d642e760ff679bc94df4e136a2291b043bc" />
+    <ns0:title>
+        build(deps): update dependency pyproject-fmt to v2.11.1 (#30)
+    </ns0:title>
+    <ns0:updated>2026-01-15T04:51:00Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>agibot-world</ns0:name>
+      <ns0:uri>https://github.com/agibot-world</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;build(deps): update dependency pyproject-fmt to v2.11.1 (#30)
+
+Co-authored-by: agibot-world[bot] &amp;lt;246073236+agibot-world[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+</ns0:feed>

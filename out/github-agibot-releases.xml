@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <ns0:id>tag:github.com,2008:https://github.com/AgiBot-World/VideoDataset/releases</ns0:id>
+  <ns0:link type="text/html" rel="alternate" href="https://github.com/AgiBot-World/VideoDataset/releases" />
+  <ns0:link type="application/atom+xml" rel="self" href="https://github.com/AgiBot-World/VideoDataset/releases.atom" />
+  <ns0:title>Release notes from VideoDataset</ns0:title>
+  <ns0:updated>2026-01-08T02:46:51Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Repository/1091395901/v0.1.5</ns0:id>
+    <ns0:updated>2026-01-08T11:20:17Z</ns0:updated>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/AgiBot-World/VideoDataset/releases/tag/v0.1.5" />
+    <ns0:title>v0.1.5</ns0:title>
+    <ns0:content type="html">&lt;h2&gt;&lt;a href="https://github.com/AgiBot-World/VideoDataset/compare/v0.1.4...v0.1.5"&gt;0.1.5&lt;/a&gt; (2026-01-08)&lt;/h2&gt;
+&lt;h3&gt;Performance&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;skip handle picture display (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/60" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/60/hovercard"&gt;#60&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/967ab9c77e03e5aecb5a6b92e2f154f3c2be28c1"&gt;967ab9c&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</ns0:content>
+    <ns0:author>
+      <ns0:name>agibot-world[bot]</ns0:name>
+    </ns0:author>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=60&amp;v=4" />
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Repository/1091395901/v0.1.4</ns0:id>
+    <ns0:updated>2026-01-07T06:37:32Z</ns0:updated>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/AgiBot-World/VideoDataset/releases/tag/v0.1.4" />
+    <ns0:title>v0.1.4</ns0:title>
+    <ns0:content type="html">&lt;h2&gt;&lt;a href="https://github.com/AgiBot-World/VideoDataset/compare/v0.1.3...v0.1.4"&gt;0.1.4&lt;/a&gt; (2026-01-07)&lt;/h2&gt;
+&lt;h3&gt;Build&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update actions/checkout action to v6 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/38" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/38/hovercard"&gt;#38&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/4710c8fadfe5cdd41a07745bb5156ed7092a67dc"&gt;4710c8f&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update actions/setup-node action to v6 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/39" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/39/hovercard"&gt;#39&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/d9329bc40130e5c895101b4a633ae4d1a3bb7c20"&gt;d9329bc&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update actions/setup-python action to v6 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/40" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/40/hovercard"&gt;#40&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/4cec2ea1daf943fadbf6cf2e92de66dece57de3d"&gt;4cec2ea&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update dependency pipenv to v2026 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/50" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/50/hovercard"&gt;#50&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/02a430aa546b1f5bc1e540d699dd6de3113f283e"&gt;02a430a&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update dependency ruff to v0.14.10 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/47" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/47/hovercard"&gt;#47&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/3c6a0654a81e727cd4a185bc79545ad62999ca44"&gt;3c6a065&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update dependency ruff to v0.14.9 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/35" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/35/hovercard"&gt;#35&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/42ffce6c69824ff0bc27a835df96c9c06306de19"&gt;42ffce6&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update dependency twine to v6.2.0 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/36" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/36/hovercard"&gt;#36&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/535434de681c1d97f35be4262cf616c6a278c495"&gt;535434d&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update ghcr.io/renovatebot/renovate docker tag to v41.173.1 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/37" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/37/hovercard"&gt;#37&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/49be46022738ab62e014dbb879ba39c460efff4e"&gt;49be460&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update ghcr.io/renovatebot/renovate docker tag to v42 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/52" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/52/hovercard"&gt;#52&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/af582fc531c11da51952450b990c72054a6d29b2"&gt;af582fc&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update github artifact actions (major) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/53" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/53/hovercard"&gt;#53&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/997f656aeae5e09afce1279b6cdb5972be7f3f55"&gt;997f656&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update pre-commit hook pre-commit/mirrors-clang-format to v21 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/55" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/55/hovercard"&gt;#55&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/549de9403f2fd214ea551d0314536c30bedf3a2b"&gt;549de94&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update pre-commit hook pre-commit/pre-commit-hooks to v6 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/56" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/56/hovercard"&gt;#56&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/6bd3c2d86c548e65069282395d3eba87b0c702f4"&gt;6bd3c2d&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;prevent incomplete URL substring sanitization in GitHub proxy rewrite (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/42" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/42/hovercard"&gt;#42&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/cef67951bc11fb442713eef044ccc0994f815dcf"&gt;cef6795&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Chores&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;remove gitlab ci related config (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/44" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/44/hovercard"&gt;#44&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/94bba69bcfeb892c0590ae48dd362492245a6294"&gt;94bba69&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Continuous Integration&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;build whls based on python version seperately (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/41" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/41/hovercard"&gt;#41&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/8c1c31a583b217d500340114ef73d046697e0a18"&gt;8c1c31a&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;fix broken links for tests directory (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/43" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/43/hovercard"&gt;#43&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/b6e0a105f4c55585e7302a6c2509a2b3b183dd2e"&gt;b6e0a10&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Performance&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;reuse demuxer (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/59" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/59/hovercard"&gt;#59&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/71963e56d48910f7c4df82cabdeb5fead3ce4c94"&gt;71963e5&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Tests&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;perfer to use match from pytest.raises (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/45" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/45/hovercard"&gt;#45&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/7c7f99f73f27fa41bb1eb8f28dd09e25120f40b3"&gt;7c7f99f&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</ns0:content>
+    <ns0:author>
+      <ns0:name>agibot-world[bot]</ns0:name>
+    </ns0:author>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=60&amp;v=4" />
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Repository/1091395901/v0.1.3</ns0:id>
+    <ns0:updated>2025-12-16T02:08:24Z</ns0:updated>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/AgiBot-World/VideoDataset/releases/tag/v0.1.3" />
+    <ns0:title>v0.1.3</ns0:title>
+    <ns0:content type="html">&lt;h2&gt;&lt;a href="https://github.com/AgiBot-World/VideoDataset/compare/v0.1.2...v0.1.3"&gt;0.1.3&lt;/a&gt; (2025-12-16)&lt;/h2&gt;
+&lt;h3&gt;Performance&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;link built ffmpeg (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/34" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/34/hovercard"&gt;#34&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/5ab419bd6f23d3005843259f27ae8ff809339c68"&gt;5ab419b&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</ns0:content>
+    <ns0:author>
+      <ns0:name>agibot-world[bot]</ns0:name>
+    </ns0:author>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=60&amp;v=4" />
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Repository/1091395901/v0.1.2</ns0:id>
+    <ns0:updated>2025-12-12T11:02:24Z</ns0:updated>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/AgiBot-World/VideoDataset/releases/tag/v0.1.2" />
+    <ns0:title>v0.1.2</ns0:title>
+    <ns0:content type="html">&lt;h2&gt;&lt;a href="https://github.com/AgiBot-World/VideoDataset/compare/v0.1.1...v0.1.2"&gt;0.1.2&lt;/a&gt; (2025-12-12)&lt;/h2&gt;
+&lt;h3&gt;Build&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update actions/create-github-app-token action to v2.2.1 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/26" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/26/hovercard"&gt;#26&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/1945ea213e3f7bf98eaac9db2f76b2d0cf0b906f"&gt;1945ea2&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update dependency copier to v9.11.0 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/27" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/27/hovercard"&gt;#27&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/0bd85fe679a2f9f0c66dc18ccd8ac2b94a99fe79"&gt;0bd85fe&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update dependency pre-commit to v4.5.0 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/29" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/29/hovercard"&gt;#29&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/ae5ef9702459dcf5e510d0b9e1ca22991d04bf95"&gt;ae5ef97&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update dependency ruff to v0.14.8 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/31" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/31/hovercard"&gt;#31&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/2c03d411dbf7732a99e52baa41c076867c50395c"&gt;2c03d41&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Chores&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;remove readthedocs config (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/25" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/25/hovercard"&gt;#25&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/ad524f87a7bbeddedadf7490fd8863e90d3e336e"&gt;ad524f8&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;exclude all external libs (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/33" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/33/hovercard"&gt;#33&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/1f67dc6e1ecd493431e4ea3bf3770d342568bff5"&gt;1f67dc6&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</ns0:content>
+    <ns0:author>
+      <ns0:name>agibot-world[bot]</ns0:name>
+    </ns0:author>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=60&amp;v=4" />
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Repository/1091395901/v0.1.1</ns0:id>
+    <ns0:updated>2025-12-02T09:23:43Z</ns0:updated>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/AgiBot-World/VideoDataset/releases/tag/v0.1.1" />
+    <ns0:title>v0.1.1</ns0:title>
+    <ns0:content type="html">&lt;h2&gt;&lt;a href="https://github.com/AgiBot-World/VideoDataset/compare/v0.1.0...v0.1.1"&gt;0.1.1&lt;/a&gt; (2025-12-02)&lt;/h2&gt;
+&lt;h3&gt;Build&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update actions/checkout action to v4.3.1 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/17" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/17/hovercard"&gt;#17&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/1e2d0e2c7c36b052ae7285f7a6a78ed4dce3af8c"&gt;1e2d0e2&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update actions/create-github-app-token action to v2.2.0 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/18" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/18/hovercard"&gt;#18&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/b5ea93f14314e41a7e74384c8e68909a0683d17b"&gt;b5ea93f&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update commitlint/commitlint docker tag to v19.9.1 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/19" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/19/hovercard"&gt;#19&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/1227d8d5e99737b95490909d3bb3235ddf05bb85"&gt;1227d8d&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update dependency check-jsonschema to v0.35.0 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/20" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/20/hovercard"&gt;#20&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/83de226d008603566dfd721f39db59b7e909fc30"&gt;83de226&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update pre-commit hook pre-commit/mirrors-clang-format to v20.1.8 (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/16" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/16/hovercard"&gt;#16&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/244c9c231ad2b670afee8b367dc878458c2b33d3"&gt;244c9c2&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Chores&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;close cmake configure on open (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/23" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/23/hovercard"&gt;#23&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/8de390bce53b0c4f2039a77e132480d1241fff8a"&gt;8de390b&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;remove unused badges (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/13" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/13/hovercard"&gt;#13&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/a25ca637d56983a7f838aa718657ef7614fd9f4a"&gt;a25ca63&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Continuous Integration&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;build docs in ci (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/22" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/22/hovercard"&gt;#22&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/4094b05d66d9bcea57e2f449326d88a573ad0558"&gt;4094b05&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;enable codecov (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/14" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/14/hovercard"&gt;#14&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/a7f0b174a573064e8d33d73ec4700f92435e2b17"&gt;a7f0b17&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;patch-release:&lt;/strong&gt; add missing pages artifact actions (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/24" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/24/hovercard"&gt;#24&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/6c93933beddbae17b07e738a9a4ff082afc73442"&gt;6c93933&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;correct badges and links (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/12" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/12/hovercard"&gt;#12&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/7b1f4971e2c82613c26554044bf5462fd179aee0"&gt;7b1f497&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;update README (&lt;a href="https://github.com/AgiBot-World/VideoDataset/issues/21" data-hovercard-type="pull_request" data-hovercard-url="/AgiBot-World/VideoDataset/pull/21/hovercard"&gt;#21&lt;/a&gt;) (&lt;a href="https://github.com/AgiBot-World/VideoDataset/commit/cd1d28dc61a55b43712cd9f2e4a878bc55c4f55b"&gt;cd1d28d&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</ns0:content>
+    <ns0:author>
+      <ns0:name>agibot-world[bot]</ns0:name>
+    </ns0:author>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221021577?s=60&amp;v=4" />
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Repository/1091395901/v0.1.0</ns0:id>
+    <ns0:updated>2025-12-02T10:38:13Z</ns0:updated>
+    <ns0:link rel="alternate" type="text/html" href="https://github.com/AgiBot-World/VideoDataset/releases/tag/v0.1.0" />
+    <ns0:title>v0.1.0</ns0:title>
+    <ns0:content type="html">&lt;p&gt;Initial version of VideoDataset from AgiBot-World.&lt;/p&gt;</ns0:content>
+    <ns0:author>
+      <ns0:name>huxuan</ns0:name>
+    </ns0:author>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/726061?s=60&amp;v=4" />
+  </ns0:entry>
+</ns0:feed>
