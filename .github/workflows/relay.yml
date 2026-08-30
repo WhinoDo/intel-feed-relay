@@ -57,8 +57,8 @@ jobs:
           fetch github-lerobot-commits.xml   "https://github.com/huggingface/lerobot/commits/main.atom"             || true
           fetch github-unitree-org.xml       "https://github.com/unitreerobotics.atom"                              || true
           fetch github-unitree-repos.xml     "https://github.com/orgs/unitreerobotics/repositories.atom"            || true
-          fetch github-agibot-org.xml        "https://github.com/agibot-world.atom"                                || true
-          fetch github-agibot-repos.xml      "https://github.com/orgs/agibot-world/repositories.atom"               || true
+          fetch github-agibot-releases.xml   "https://github.com/AgiBot-World/VideoDataset/releases.atom"          || true
+          fetch github-agibot-commits.xml    "https://github.com/AgiBot-World/VideoDataset/commits/main.atom"       || true
           fetch github-openpi-releases.xml   "https://github.com/physical-intelligence/openpi/releases.atom"       || true
           fetch github-openpi-commits.xml    "https://github.com/physical-intelligence/openpi/commits/main.atom"    || true
 
