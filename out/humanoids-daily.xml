@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Sun, 30 Aug 2026 05:46:57 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 30 Aug 2026 06:37:32 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/hack-one-robot-reach-the-next-how-unitree-s-g1-left-the-door-open-to-root-takeover</guid>
+    <title>Hack One Robot, Reach the Next: How Unitree’s G1 Left the Door Open to Root Takeover</title>
+    <link>https://www.humanoidsdaily.com/news/hack-one-robot-reach-the-next-how-unitree-s-g1-left-the-door-open-to-root-takeover</link>
+    <description>A new security disclosure reveals how proximity and a cloud flaw enabled unauthenticated root takeover of Unitree’s G1 humanoid, spotlighting the physical risks of software security in embodied robotics.</description>
+    <pubDate>Sun, 30 Aug 2026 06:37:32 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Unitree Robotics</category><category>China</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/from-alphago-to-astratennis-galbot-humanoids-complete-100-consecutive-rallies-in-live-tennis-match</guid>
     <title>From AlphaGo to AstraTennis: Galbot Humanoids Complete 100+ Consecutive Rallies in Live Tennis Match</title>
@@ -298,16 +308,6 @@
     <pubDate>Sat, 15 Aug 2026 22:13:52 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>policy</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/the-great-dexterity-divide-why-robotics-leaders-are-warring-over-tendon-vs-direct-drive-hands</guid>
-    <title>The Great Dexterity Divide: Why Robotics Leaders Are Warring Over Tendon vs. Direct-Drive Hands</title>
-    <link>https://www.humanoidsdaily.com/news/the-great-dexterity-divide-why-robotics-leaders-are-warring-over-tendon-vs-direct-drive-hands</link>
-    <description>Figure CEO Brett Adcock dismissed tendon-driven hands as a "complete local maximum," igniting a fierce debate with Foundation over friction, force, and the future of humanoid manipulation.</description>
-    <pubDate>Fri, 14 Aug 2026 07:29:49 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Brett Adcock</category><category>Figure</category><category>hand</category><category>hands</category><category>foundation</category>
   </item>
 
   </channel>
