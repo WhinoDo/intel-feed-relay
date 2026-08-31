@@ -4,7 +4,23 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-08-28T14:15:16Z</ns0:updated>
+  <ns0:updated>2026-08-31T16:36:28Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/d36d404b65315139b7601a707f260a3db736462f</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d36d404b65315139b7601a707f260a3db736462f" />
+    <ns0:title>
+        support lance datasets in foxglove playback (#4542)
+    </ns0:title>
+    <ns0:updated>2026-08-31T16:36:28Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/15766192?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>AyushExel</ns0:name>
+      <ns0:uri>https://github.com/AyushExel</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;support lance datasets in foxglove playback (#4542)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/4aaff99be4a1d81568c08c8f0296b41b40c99ec4</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4aaff99be4a1d81568c08c8f0296b41b40c99ec4" />
@@ -841,32 +857,6 @@ merged metadata stays clean, and simplify the merge-equality normalization.
 * fix(non-depth markers): fixing canonical non-depth markers to always be info.is_depth_map: False
 
 * fix(stats): use is_depth_map util for depth detection&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/a16f34c085c9597fcbdb9fde395a3334d78df716</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/a16f34c085c9597fcbdb9fde395a3334d78df716" />
-    <ns0:title>
-        perf(policies): move image normalization to device in prepare_observa…
-    </ns0:title>
-    <ns0:updated>2026-08-12T16:18:40Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(policies): move image normalization to device in prepare_observation_for_inference (#4433)
-
-Transfer camera frames to the compute device as compact uint8 (a 4x
-smaller copy than float32) and run the /255 + permute there, instead of
-converting on the CPU control thread. Outputs are bit-identical.
-
-In a 30 FPS sync-inference rollout (2 cameras, MPS) this cuts the
-per-tick observation prep on the control thread from 9.1 ms to 0.6 ms:
-the conversion kernels run asynchronously on the accelerator, overlapped
-with the loop&amp;#39;s pacing sleep, raising the achieved control rate from
-27.5 Hz to 28.8 Hz.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

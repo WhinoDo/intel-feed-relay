@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Mon, 31 Aug 2026 14:48:00 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 31 Aug 2026 20:20:25 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,131 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>How better grippers can unlock physical AI</title>
+		<link>https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/</link>
+					<comments>https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/#respond</comments>
+		
+		<dc:creator>Thomas Houden</dc:creator>
+		<pubDate>Mon, 31 Aug 2026 20:20:25 +0000</pubDate>
+				<category>Artificial Intelligence</category>
+		<category>Artificial Intelligence / Cognition</category>
+		<category>Design / Development</category>
+		<category>End Effectors / Grippers</category>
+		<category>News</category>
+		<category>Technologies</category>
+		<category>OnRobot</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589365</guid>
+
+					<description>&lt;p&gt;Physical AI depends on smarter grippers to give robots the dexterity, sensing and adaptability needed to handle real-world tasks.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/"&gt;How better grippers can unlock physical AI&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589370" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589370" class="wp-image-589370 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/onrobot-gripper-physical-ai.jpg" alt="OnRoot gripper picking up a block." width="1000" height="800" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/onrobot-gripper-physical-ai.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/onrobot-gripper-physical-ai-300x240.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/onrobot-gripper-physical-ai-150x120.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/onrobot-gripper-physical-ai-768x614.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/onrobot-gripper-physical-ai-298x238.jpg 298w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-589370" class="wp-caption-text"&gt;Models can generate actions, but hardware must execute those actions. | Credit: OnRoot&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Physical AI promises robots that can perceive, act and adapt in the real world with far less task-specific engineering than traditional automation. It’s a compelling proposition: robots powered by AI models trained on vast amounts of data, capable of improving over time and operating effectively in far less structured environments. But how do we get there?&lt;/p&gt;
+&lt;p&gt;As AI systems move from the digital to the physical world, new requirements emerge. Intelligent models and policies remain essential, but they are only a part of the equation. Robots ultimately interact with the physical world through grippers, sensors and tools that make direct contact with objects.&lt;/p&gt;
+&lt;p&gt;For physical AI to deliver on its promise, it needs a reliable physical interaction layer: &lt;a href="https://www.therobotreport.com/category/end-of-arm-tooling/"&gt;End-of-arm tooling&lt;/a&gt; (EOAT) that combines adaptability, sensing and feedback so robots can respond effectively to uncertainty and variation.&lt;/p&gt;
+&lt;p&gt;In selecting the right EOAT for physical AI-driven robotic applications, these four requirements are critical.&lt;/p&gt;
+&lt;h2&gt;1. Ability to accommodate real-world variability&lt;/h2&gt;
+&lt;p&gt;In a real-world &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/"&gt;manufacturing&lt;/a&gt; environment, robots need to handle variation in parts, positioning and operating conditions. Physical AI promises to handle more of this variability with less effort. As advances in multimodal foundation models, world models, robot learning, simulation and other areas make robots increasingly capable, the execution layer grows in importance.&lt;/p&gt;
+&lt;p&gt;The handling is key here. If the EOAT cannot reliably handle variations in part sizes, shapes, and materials, then the model’s intelligence has limited practical value.&lt;/p&gt;
+&lt;p&gt;Grippers with adjustable gripping parameters and the flexibility to accommodate different parts and conditions give the system greater freedom to put that intelligence into practice.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;2. More capable models require a reliable execution layer&lt;/h2&gt;
+&lt;p&gt;Models can generate actions, but hardware must execute those actions. Models can infer that an object should be picked up, but a physical gripper must make contact, apply the right force, detect whether the object is secure, and respond if something changes. Every single time.&lt;/p&gt;
+&lt;p&gt;Robot motion is relatively mature compared with real-world manipulation. That’s because manipulation depends on physical variables that cannot be eliminated and cannot be modeled perfectly.&lt;/p&gt;
+&lt;p&gt;This makes basic execution feedback critical. Grip and part detection can confirm whether an object is present and whether a grasp has been successfully completed, giving the system a direct signal that the intended action actually occurred.&lt;/p&gt;
+&lt;p&gt;Grippers and tools shape what a robot can do and how it interacts with the physical world. Limited tools mean limited practical capabilities, whereas flexible, feedback-capable tools expand the range of options available to the system.&lt;/p&gt;
+&lt;h2&gt;3. Contact-rich data is needed to complement simulation and vision&lt;/h2&gt;
+&lt;p&gt;Simulation allows teams to train, test, and iterate quickly. Vision helps robots recognize objects, understand scenes, and plan actions. Both are important to physical AI, but neither fully captures what happens when a robot physically interacts with an object.&lt;/p&gt;
+&lt;p&gt;Reliable manipulation also requires physical feedback. How much force is needed to pick up the item? What are the contact dynamics &amp;#8211; including friction, slip and deformation? This type of critical feedback is very difficult to reproduce in simulation only. A grasp that works in simulation may still fail in practice due to the uncertainty and variability of the real world.&lt;/p&gt;
+&lt;div id="attachment_589371" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-589371" class="wp-image-589371 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/rg2-ft-holding-bottle.jpg" alt="" width="1000" height="600" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/rg2-ft-holding-bottle.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/rg2-ft-holding-bottle-300x180.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/rg2-ft-holding-bottle-150x90.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/rg2-ft-holding-bottle-768x461.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/rg2-ft-holding-bottle-368x221.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-589371" class="wp-caption-text"&gt;OnRobot&amp;#8217;s RG2-FT combines gripping with built-in force/torque and proximity sensing at the fingertips. This feedback supports delicate handling, part hand-offs, insertion, alignment, and manipulation under uncertainty. | Credit: OnRobot&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;And while a camera can locate an object, it cannot always determine what is happening during physical interaction. It may also miss subtle slip, asymmetric contact, insertion resistance, and excessive force. These limitations make multimodal feedback from EOAT an important part of physical AI.&lt;/p&gt;
+&lt;p&gt;Different forms of sensing provide information at different stages of an interaction: Proximity sensing provides data before the robot makes contact. Force/torque sensing can provide information during contact. Together with grip detection and success or failure signals, this gives the system a richer picture of what is happening during manipulation.&lt;/p&gt;
+&lt;p&gt;For learning-based systems, receiving this interaction data can vastly improve training, validation, and failure analysis.&lt;/p&gt;
+&lt;h2&gt;4. Physical AI requires flexibility across the tooling layer&lt;/h2&gt;
+&lt;p&gt;Physical AI is often associated with general-purpose robots, but general-purpose does not mean that a single end-effector can perform every type of physical interaction.&lt;/p&gt;
+&lt;p&gt;Different objects and applications require different modes of interaction:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2-finger grippers suit a broad range of handling tasks&lt;/li&gt;
+&lt;li&gt;3-finger grippers provide auto-centering gripping for cylindrical parts across a wide gripping range&lt;/li&gt;
+&lt;li&gt;Vacuum and magnetic tools provide alternative gripping methods for suitable surfaces and materials&lt;/li&gt;
+&lt;li&gt;Force/torque sensors provide feedback for contact-rich tasks&lt;/li&gt;
+&lt;li&gt;Tool changers allow a robot to switch between end effectors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In practice, physical AI requires hardware flexibility as well as software flexibility. A broad EOAT portfolio with a unified interface can accommodate different modes of interaction while making it easier for the robot to switch between tools.&lt;/p&gt;
+&lt;p&gt;Built for a world outside labs and fixed structures The next phase of physical AI will depend on stronger models, better data, improved simulation, and more capable robot platforms. It will also depend on the physical interaction layer consisting of grippers, sensors, tool changers, and end-of-arm technologies that enable models to act reliably in the real world.&lt;/p&gt;
+&lt;p&gt;End-of-arm tools are no longer simply the last component to be added to a robot. They are an integral part of advanced learning systems.&lt;/p&gt;
+&lt;p&gt;&lt;img loading="lazy" decoding="async" class="size-medium wp-image-589368 alignleft" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Thomas-Houden-300x200.png" alt="" width="300" height="200" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Thomas-Houden-300x200.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Thomas-Houden-150x100.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Thomas-Houden-357x238.png 357w, https://www.therobotreport.com/wp-content/uploads/2026/08/Thomas-Houden.png 757w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/p&gt;
+&lt;h2&gt;About the author&lt;/h2&gt;
+&lt;p&gt;Thomas Houden is Director of Global Business Development at OnRobot, where he leads business and market development for new automation offerings and their global commercialization. His work spans product strategy, partnerships and go-to-market execution, connecting market needs with new robotics technologies and solutions.&lt;/p&gt;
+&lt;p&gt;As OnRobot’s spokesperson on Physical AI, Thomas focuses on how robotic sensing, and manipulation can support more intelligent and adaptive robotic systems. He regularly represents OnRobot at international industry and educational events, speaking about Physical AI and the commercialization of emerging automation technologies.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/"&gt;How better grippers can unlock physical AI&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
+		<title>Reframe Systems raises $40M to scale its robotic microfactories for home building</title>
+		<link>https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/</link>
+					<comments>https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Mon, 31 Aug 2026 18:46:48 +0000</pubDate>
+				<category>Artificial Intelligence</category>
+		<category>Artificial Intelligence / Cognition</category>
+		<category>Construction</category>
+		<category>Design / Development</category>
+		<category>Financial</category>
+		<category>Investments</category>
+		<category>Markets / Industries</category>
+		<category>News</category>
+		<category>Reframe Systems</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589360</guid>
+
+					<description>&lt;p&gt;Reframe Systems aims to build a network of automated microfactories near communities where homes are needed.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/"&gt;Reframe Systems raises $40M to scale its robotic microfactories for home building&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589361" style="width: 1474px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/reframemicrofactory.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589361" class="size-full wp-image-589361" src="https://www.therobotreport.com/wp-content/uploads/2026/08/reframemicrofactory.jpg" alt="Reframe Systems combines robotics, Pixels to Parts software, and a network of microfactories to deliver resilient, site-customized homes." width="1464" height="1664" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/reframemicrofactory.jpg 1464w, https://www.therobotreport.com/wp-content/uploads/2026/08/reframemicrofactory-264x300.jpg 264w, https://www.therobotreport.com/wp-content/uploads/2026/08/reframemicrofactory-901x1024.jpg 901w, https://www.therobotreport.com/wp-content/uploads/2026/08/reframemicrofactory-132x150.jpg 132w, https://www.therobotreport.com/wp-content/uploads/2026/08/reframemicrofactory-768x873.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/reframemicrofactory-1351x1536.jpg 1351w, https://www.therobotreport.com/wp-content/uploads/2026/08/reframemicrofactory-209x238.jpg 209w" sizes="auto, (max-width: 1464px) 100vw, 1464px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589361" class="wp-caption-text"&gt;Reframe Systems combines robotics, Pixels to Parts software, and a network of microfactories to build homes. | Source: Reframe Systems&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Reframe Systems, a robotics company using physical AI to industrialize home construction, today announced said it has raised $40 million. The company said the funding will help it scale its microfactory network across North America.&lt;/p&gt;
+&lt;p&gt;Currently, the U.S. is &lt;a href="https://www.zillow.com/research/the-national-housing-deficit-stopped-getting-worse-in-2024-holding-at-4-7-million-36511/" target="_blank" rel="noopener"&gt;short&lt;/a&gt; 4.5 million homes. Reframe said this problem stems from the &lt;a href="https://www.therobotreport.com/category/markets-industries/construction-demolition" target="_blank" rel="noopener"&gt;construction&lt;/a&gt; industry&amp;#8217;s fragmented nature. Most houses are build by hand, involving 25 or more subcontractors that are drawing on a shrinking pool of skilled trades.&lt;/p&gt;
+&lt;p&gt;Reframe hopes to address this issue by building a network of automated &lt;a href="https://www.reframe.systems/microfactory" target="_blank" rel="noopener"&gt;microfactories&lt;/a&gt; near communities where homes are needed. This allows the &lt;a href="https://www.therobotreport.com/tag/reframe-systems/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; to adapt production to different zoning requirements, climate conditions, and architectural styles.&lt;/p&gt;
+&lt;p&gt;“The housing shortage is an abstraction until you&amp;#8217;re the person who can&amp;#8217;t find a home in the community you want to live in,” said Vikas Enti, co-founder and CEO of Reframe Systems. “Developers are demanding faster, energy-efficient, climate-resilient homes and we are answering that demand. With our technology, we’re able to deliver infill housing, such as a triple-decker in Somerville in 180 days and help families in Altadena rebuild wildfire-resilient bungalows in months instead of years.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;With our model, every home we deliver makes the next one faster and cheaper to build, because our software, robotics and network learn from each deployment,&amp;#8221; he said. &amp;#8220;That demand is why we&amp;#8217;re expanding, and why we&amp;#8217;re now targeting one million homes by 2040, five years ahead of schedule.”&lt;/p&gt;
+&lt;h2&gt;Reframe to open a new microfactory in October&lt;/h2&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Reframe Systems raises $40 million" width="740" height="416" src="https://www.youtube.com/embed/G-WDPmgLxFk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Reframe plans to expand its production capacity by opening FAB1, a new microfactory in Billerica, Mass. The company plans to begin operations at FAB1 on Oct. 5. This means it will achieve full factory readiness in just 70 days from receiving the keys. The factory will use less than $5 million in equipment. Reframe designed FAB1 to produce up to 500 multifamily units or 250 single-family homes annually.&lt;/p&gt;
+&lt;p&gt;So far, Reframe has completed 10 homes which range from accessory dwelling units (ADUs) to triple-decker apartments. Eight of these homes are already occupied.&lt;/p&gt;
+&lt;p&gt;Over the next year, Reframe plans to deliver 114 more units. The company aims to build 1 million homes worldwide by 2040.&lt;/p&gt;
+&lt;p&gt;At Adams Circle in Devens, Mass., Reframe is finishing 12 units for delivery. It has a five-story apartment building in Roxbury and a development in Thornton, N.H., next in the factory pipeline to build.&lt;/p&gt;
+&lt;p&gt;In Altadena, Calif., Reframe is completing a wildfire-resilient bungalow and an ADU to help a family rebuild after the fires.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;After the fires, we were being told that a traditional construction rebuild could take years and could cost far more than we could afford. Reframe streamlined the process, secured the permits, coordinated with a contractor, and is completing our new wildfire-resilient home in months at a cost that worked for our family,&amp;#8221; said Jonathan Talbot and Marisol Talbot, homeowners of the Altadena bungalow. “That difference in timeline, cost, and security allowed us to move forward with confidence.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="This Is How We Build: Reframe Systems&amp;amp;apos; 3-Story Home" width="740" height="416" src="https://www.youtube.com/embed/wj01mhX0dgg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;More about the funding round&lt;/h2&gt;
+&lt;p&gt;Energy Impact Partners (EIP) led the funding round. It also included investments from Counterpart Ventures, E12 Ventures, Global Brain, Thin Line Capital, Up Partners and LACI Impact Fund. The company saw support from existing investors Eclipse, VoLo Earth, Cubit Capital, RA Capital Management (Planetary Health), MassMutual Catalyst and Nor’easter.&lt;/p&gt;
+&lt;p&gt;The additional capital positions Reframe to accelerate home delivery in New England and deploy additional microfactory capacity across North America. It aims to bring its robotics-enabled homebuilding to the communities that need it most.&lt;/p&gt;
+&lt;p&gt;Reframe Systems was founded by former &lt;a href="https://www.therobotreport.com/tag/amazon" target="_blank" rel="noopener"&gt;Amazon Robotics&lt;/a&gt; leaders Vikas Enti, Felipe Polido, and Aaron Small in 2022. At Amazon, the three helped to scale automation systems and deploy more than 500,000 robots across Amazon’s global fulfillment network.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/"&gt;Reframe Systems raises $40M to scale its robotic microfactories for home building&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>Early bird pricing for RoboBusiness 2026 ends August 31</title>
 		<link>https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/</link>
 					<comments>https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/#respond</comments>
@@ -48,7 +173,7 @@
 					<description>&lt;p&gt;Early bird pricing for RoboBusiness 2026, which saves attendees $200 on full conference passes, will end Aug. 31.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/"&gt;Early bird pricing for RoboBusiness 2026 ends August 31&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;p&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" class="aligncenter wp-image-589301 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured.jpg" alt="A promotional image for RobBusiness 2026." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;/p&gt;
+										<ns3:encoded>&lt;p&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" class="aligncenter wp-image-589301 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured.jpg" alt="A promotional image for RobBusiness 2026." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/robo-earlybirdpricing-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Your chance to get discounted passes to RoboBusiness 2026, the leading event for commercial robotics developers, will come to an end next week. Early bird pricing for the show, which saves attendees $200 on full conference passes, will end &lt;strong&gt;Aug. 31, 2026&lt;/strong&gt;. For expo-only passes, early bird pricing will save attendees $40.&lt;/p&gt;
 &lt;p&gt;A full conference pass at &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; will give attendees access to all keynote and breakout sessions, post-show access to speaker presentations, all networking breaks, the engineering theater sessions, and the expo floor.&lt;/p&gt;
 &lt;p&gt;This year, we&amp;#8217;ll be celebrating 20 years of RoboBusiness. The show will take place at the Santa Clara Convention Center on &lt;strong&gt;Oct. 20 and 21&lt;/strong&gt;. The event is produced by &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt; and parent company &lt;a href="https://www.therobotreport.com/the-robot-report-parent-company-wtwh-media-rebrands-as-arrowfly/" target="_blank" rel="noopener"&gt;Arrowfly&lt;/a&gt;.&lt;/p&gt;
@@ -57,7 +182,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;Meet the RoboBusiness 2026 keynote speakers&lt;/h2&gt;
@@ -69,7 +194,7 @@
 &lt;li&gt;&lt;strong&gt;Creating Robotic Characters: &lt;/strong&gt;To close out the show, Morgan Pope, formerly of Disney Imagineering and now the director of companionship at &lt;a href="https://www.therobotreport.com/tag/familiar-machines-magic/" target="_blank" rel="noopener"&gt;Familiar Machines &amp;amp; Magic&lt;/a&gt;, will discuss how the company is bringing a new character to life at mass-market scale.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;RoboBusiness features five different conference tracks covering physical AI, enabling technologies, humanoids, field robotics, and business and deployment. The Engineering Theater on the show floor will also feature presentations by industry experts.&lt;/p&gt;
-&lt;p&gt;&lt;iframe title="Best Moments of RoboBusiness 2025" width="740" height="416" src="https://www.youtube.com/embed/sA7R9PGhCog?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Best Moments of RoboBusiness 2025" width="740" height="416" src="https://www.youtube.com/embed/sA7R9PGhCog?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;See robots and startups on the show floor&lt;/h2&gt;
 &lt;p&gt;The expo hall at RoboBusiness 2026 will showcase more than 100 exhibitors. They will bring the latest enabling technologies, products, and services to help robotics engineers throughout their development journeys.&lt;/p&gt;
 &lt;p&gt;The show floor will also include the RoboBusiness Startup Alley, which will highlight innovative startups a variety of industries.&lt;/p&gt;
@@ -378,7 +503,7 @@
 		<item>
 		<title>Deere faces headwinds in Q3 update and announces Reservoir R&amp;D partnership</title>
 		<link>https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/</link>
-					<comments>https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/#respond</comments>
+					<comments>https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/#comments</comments>
 		
 		<dc:creator>Mike Oitzman</dc:creator>
 		<pubDate>Fri, 28 Aug 2026 21:06:40 +0000</pubDate>
@@ -422,7 +547,7 @@
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
+			<ns5:comments>1</ns5:comments>
 		
 		
 			</item>
@@ -935,168 +1060,6 @@
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Humans in the loop are still needed for robotaxi fleet safety, says Guident</title>
-		<link>https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/</link>
-					<comments>https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/#comments</comments>
-		
-		<dc:creator>Eugene Demaitre</dc:creator>
-		<pubDate>Tue, 25 Aug 2026 15:11:13 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Automotive</category>
-		<category>Autonomous Mobile Robots (AMRs)</category>
-		<category>Mobility / Navigation</category>
-		<category>News</category>
-		<category>Safety &amp; Security</category>
-		<category>Self-Driving Vehicles</category>
-		<category>Transportation</category>
-		<category>government</category>
-		<category>Guident</category>
-		<category>robotaxi</category>
-		<category>robotaxis</category>
-		<category>safety</category>
-		<category>standards</category>
-		<category>Waymo</category>
-		<category>Zoox</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589290</guid>
-
-					<description>&lt;p&gt;As fleets of autonomous vehicles scale, AI and human oversight remain critical for safety, explains Guident's CEO.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/"&gt;Humans in the loop are still needed for robotaxi fleet safety, says Guident&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589298" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589298" class="wp-image-589298 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_Boca-copy.jpg" alt="Guident launched autonomous shuttle service in Boca Raton, Fla., in November 2025. Safety is critical as fleets scale, says the company." width="770" height="499" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_Boca-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_Boca-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_Boca-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_Boca-copy-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_Boca-copy-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589298" class="wp-caption-text"&gt;Guident launched autonomous shuttle service in Boca Raton, Fla., in November 2025. Source: Guident&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Robotaxi fleets are growing as self-driving vehicle companies start to roll out commercial services while still collecting data for further development and safety. For instance, Zoox Inc. this month began charging for rides in Las Vegas.&lt;/p&gt;
-&lt;p&gt;The Foster City, Calif.-based Amazon &lt;a href="https://www.therobotreport.com/tag/zoox/" target="_blank" rel="noopener"&gt;subsidiary&lt;/a&gt; recently partnered with Uber as it &lt;a href="https://www.therobotreport.com/zoox-begins-testing-purpose-built-robotaxis-phoenix-and-dallas/" target="_blank" rel="noopener"&gt;expands&lt;/a&gt; to multiple cities. While Zoox has &lt;a href="https://zoox.com/safety" target="_blank" rel="noopener"&gt;explained how it approaches safety&lt;/a&gt; for its autonomous vehicles (&lt;a href="https://www.therobotreport.com/category/robots-platforms/self-driving-vehicles/" target="_blank" rel="noopener"&gt;AVs&lt;/a&gt;), which have no steering wheels, there are no federal standards yet.&lt;/p&gt;
-&lt;p&gt;Guident Corp. claimed that its GuideOn platform addresses the critical human-in-the-loop layer, providing &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;, remote monitoring, and &lt;a href="https://www.therobotreport.com/tag/teleoperation/" target="_blank" rel="noopener"&gt;teleoperation&lt;/a&gt; for AVs and &lt;a href="https://www.therobotreport.com/tag/robotaxi" target="_blank" rel="noopener"&gt;robotaxis&lt;/a&gt;. It operates six remote monitoring and control centers and has partnered with six autonomous shuttle operators.&lt;/p&gt;
-&lt;p&gt;The Boca Raton, Fla.-based &lt;a href="https://www.therobotreport.com/tag/guident/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; last week also &lt;a href="https://ir.guident.com/news/news-details/2026/Guident-Extends-Multi-Year-AI-Safety-Agreement-with-Coastal-Waste--Recycling/default.aspx" target="_blank" rel="noopener"&gt;extended&lt;/a&gt; its partnership with Coastal Waste &amp;amp; Recycling by three years, as deployments of its WatchBot inspection robot and related software expand across&amp;nbsp;locations in Florida, Georgia, and South Carolina.&lt;/p&gt;
-&lt;p&gt;Harald Braun, CEO of Guident, replied to the following questions from&amp;nbsp;&lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt; about AV safety and remote monitoring.&lt;/p&gt;
-&lt;h2&gt;Technology can help human oversight keep up&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;How can human-in-the-loop architectures keep up with growing AV fleets?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;img loading="lazy" decoding="async" class="alignleft size-medium wp-image-589299" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Harald-Braun-Medium-300x300.webp" alt="Guident CEO Harald Braun" width="300" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Harald-Braun-Medium-300x300.webp 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Harald-Braun-Medium-150x150.webp 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Harald-Braun-Medium-238x238.webp 238w, https://www.therobotreport.com/wp-content/uploads/2026/08/Harald-Braun-Medium.webp 640w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;Braun:&lt;/strong&gt; The key is that human-in-the-loop does not mean that a person is manually driving every vehicle or watching every vehicle continuously. Its purpose is to provide oversight and assistance when the autonomous system encounters a situation it cannot safely resolve on its own.&lt;/p&gt;
-&lt;p&gt;As fleets grow, the technology needs to make that human oversight scalable. The autonomous vehicle should handle the normal situations, while AI-driven monitoring can identify when something unusual is happening and bring the right information to a remote operator.&lt;/p&gt;
-&lt;p&gt;That operator can then provide guidance or, when technically appropriate and legally permitted, intervene to return the vehicle to a safe operating state.&lt;/p&gt;
-&lt;p&gt;In my view, that is the right model for scaling autonomous mobility. You don&amp;#8217;t want to eliminate the human from the equation. You want to use technology to make the human much more effective.&lt;/p&gt;
-&lt;p&gt;Guident&amp;#8217;s approach is built around that combination of autonomous systems, AI-driven monitoring, and human oversight.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Editor&amp;#8217;s note:&lt;/strong&gt; Physical AI, enabling technologies, and field robotics are among the session tracks at &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026, which will be at the Santa Clara Convention Center on Oct. 20 and 21. &lt;a href="https://web.cvent.com/event/7494a347-6721-45bc-95d0-337e8d036c45/summary" target="_blank" rel="noopener"&gt;Register now to attend.&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;h2&gt;Robotaxi safety requires consistency and data to build trust&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;What are the dangers of robotaxi developers setting their own safety &lt;a href="https://www.therobotreport.com/tag/standards" target="_blank" rel="noopener"&gt;standards&lt;/a&gt;? Don&amp;#8217;t they already need to comply with existing road-safety rules?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Braun:&lt;/strong&gt; Existing road-safety rules are important, but autonomous vehicles introduce new situations that traditional road-safety frameworks were not necessarily designed to address. The question is not only whether a vehicle follows the rules of the road, but also what happens when the autonomous system encounters something unexpected or outside of its normal operating conditions.&lt;/p&gt;
-&lt;p&gt;In my view, there needs to be a consistent framework for how AVs are monitored, how incidents and edge cases are reported, and how human intervention is handled when necessary. I don&amp;#8217;t think the answer is to tell companies exactly how they have to build their technology. The industry needs room to innovate. But there should be clear safety expectations and measurable standards that apply across the industry.&lt;/p&gt;
-&lt;p&gt;Ultimately, if we want public trust and widespread adoption, people need to know that there is a safety architecture around these vehicles and that there is a way to respond when the autonomous system encounters a situation it cannot resolve itself.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;We&amp;#8217;ve seen testing in more AV-friendly jurisdictions, but we&amp;#8217;ve also seen restrictions, particularly of &lt;a href="https://www.therobotreport.com/tag/delivery-robots/" target="_blank" rel="noopener"&gt;delivery robots&lt;/a&gt;, &lt;a href="https://www.bbc.com/news/articles/c0rygp005wjo" target="_blank" rel="noopener"&gt;in others&lt;/a&gt;. How can authorities find reliable data on which to build requirements that apply on a wider scale?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Braun:&amp;nbsp;&lt;/strong&gt;The most important thing is consistent, real-world data. Every autonomous system will eventually encounter situations that were not anticipated during development.&lt;/p&gt;
-&lt;p&gt;If companies are measuring and reporting those situations differently, it becomes very difficult for regulators to understand what is actually happening across the industry.&lt;/p&gt;
-&lt;p&gt;We should be looking at data from the entire operating environment, not just whether an AV successfully completed a trip. What happened when it encountered an object in the road or another type of edge case? Did it need assistance? How did it respond? Was a human operator required to intervene?&lt;/p&gt;
-&lt;p&gt;The more standardized and transparent that information becomes, the better regulators can distinguish between an isolated situation and a systemic issue. That gives authorities a much stronger foundation for developing requirements that can be applied across different jurisdictions while still allowing the technology to evolve.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Guident Passenger Communication Module for Autonomous Vehicles" width="740" height="416" src="https://www.youtube.com/embed/27AeYgct5lI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;Autonomous systems must account for speed and edge cases&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;What are the differences and similarities for monitoring and control of self-driving vehicles and &lt;a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener"&gt;mobile robots&lt;/a&gt;?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Braun:&lt;/strong&gt; A robotaxi is operating around passengers, pedestrians, other vehicles and traffic at much higher speeds, so the consequences of an incident can be very different from those involving a mobile inspection robot.&lt;/p&gt;
-&lt;p&gt;However, the underlying principle is very similar. Autonomous vehicles, whether they are cars, robots or other types of autonomous systems, need to be monitored and, when necessary, controlled. That is the strategic thinking we have had at Guident from the beginning.&lt;/p&gt;
-&lt;p&gt;The autonomous system should be able to perform its mission independently, but it may encounter situations it does not understand or cannot safely resolve without assistance. A monitoring system needs to identify those situations, provide the right information to a remote operator, and allow that operator to assist or control the vehicle when necessary.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What are some of the edge cases that AV fleets might encounter as they scale? How will this affect public perception and potential &lt;a href="https://www.therobotreport.com/tag/government" target="_blank" rel="noopener"&gt;government&lt;/a&gt; regulation?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Braun:&lt;/strong&gt; There are thousands of potential edge cases because the real world is constantly changing. You can have an unexpected object in the road, an unusual traffic situation, a vehicle that is blocking the normal route, an accident with another vehicle, or some other emergency situation that the autonomous system was not expecting.&lt;/p&gt;
-&lt;p&gt;The important question is not whether you can eliminate every edge case. The important question is what the system does &lt;em&gt;when &lt;/em&gt;it encounters one.&lt;/p&gt;
-&lt;p&gt;If the vehicle can recognize it is in a situation it cannot safely resolve, bring that information to a remote monitoring and control center and have a human operator assist it, then you have another layer of safety around the autonomous system. That is how we think about human oversight at Guident.&lt;/p&gt;
-&lt;p&gt;It is not necessarily there because the autonomous system has failed; it is there because the real world will continue to produce situations that are difficult to predict.&lt;/p&gt;
-&lt;p&gt;Public perception will ultimately depend on how reliably these systems handle those situations. The industry needs to demonstrate that autonomy is not simply about the vehicle driving itself, but about having the appropriate safety architecture around the vehicle when something unexpected happens.&lt;/p&gt;
-&lt;div id="attachment_589300" style="width: 1210px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589300" class="wp-image-589300 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_SoC-copy.jpg" alt="Guident offers remote monitoring and control for autonomous system safety." width="1200" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_SoC-copy.jpg 1200w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_SoC-copy-300x162.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_SoC-copy-1024x554.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_SoC-copy-150x81.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_SoC-copy-768x415.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/Guident_SoC-copy-368x199.jpg 368w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /&gt;&lt;p id="caption-attachment-589300" class="wp-caption-text"&gt;Guident offers remote monitoring and control of autonomous systems. Source: Guident&lt;/p&gt;&lt;/div&gt;
-&lt;h2&gt;Third-party safety, data sharing don&amp;#8217;t have to impede innovation&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;As the technologies of &lt;a href="https://www.therobotreport.com/tag/waymo/" target="_blank" rel="noopener"&gt;Waymo&lt;/a&gt; and Zoox mature and AV deployments &lt;a href="https://electrek.co/2026/08/15/weekend-quick-charge-all-about-autonomy-with-waymo-and-gm/" target="_blank" rel="noopener"&gt;continue to spread&lt;/a&gt;, what incentives do they have to collaborate with third-party &lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;software&lt;/a&gt; providers such as Guident?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Braun:&lt;/strong&gt; As autonomous fleets scale, the operators are going to have to think not only about the driving technology itself, but also about the operational infrastructure required to safely manage hundreds or thousands of vehicles.&lt;/p&gt;
-&lt;p&gt;I don&amp;#8217;t see third-party remote monitoring and control software as replacing the autonomous driving system, but as a complementary layer. The AV company can focus on what it does best, which is developing the autonomous driving technology, while a company like Guident can provide monitoring, assistance, remote intervention and operational support around it.&lt;/p&gt;
-&lt;p&gt;A specialized third-party platform can also provide vehicle-agnostic infrastructure, redundant connectivity, and standardized operational data across different vehicle types. This allows fleet operators to avoid duplicating supporting systems while maintaining a consistent safety and oversight layer.&lt;/p&gt;
-&lt;p&gt;The larger the fleet becomes, the more important that infrastructure becomes. A small pilot operating in a controlled environment can rely on more manual processes.&lt;/p&gt;
-&lt;p&gt;When you have thousands of vehicles operating simultaneously, you need a system that can continuously monitor those vehicles, identify situations that require attention and bring a human into the loop when necessary.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;If data is the foundation for training robot behaviors, who should control it?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Braun:&lt;/strong&gt; I think there are two different issues here: who generates and owns the data, and who needs access to the data to ensure that autonomous systems are operating safely.&lt;/p&gt;
-&lt;p&gt;The companies developing and operating these systems are obviously going to generate a tremendous amount of valuable data, and they need to be able to use that data to improve their technology.&lt;/p&gt;
-&lt;p&gt;At the same time, when you are talking about safety-related information from autonomous vehicles operating in public environments, there is a broader interest in having appropriate transparency.&lt;/p&gt;
-&lt;p&gt;I don&amp;#8217;t think all of that information needs to be public. There are privacy, security, and commercial considerations. But regulators should have access to the information they need to evaluate safety, and there should be consistent ways of reporting incidents and edge cases.&lt;/p&gt;
-&lt;p&gt;Ultimately, the goal should be to use data to make autonomous systems safer. The industry needs to find the right balance between protecting proprietary information and making sure the data necessary for safety and accountability is available.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Inside The Ride: Scaling Zoox | Episode One" width="740" height="416" src="https://www.youtube.com/embed/6srqKuBN0NE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;Clarity and redundancy light the way to AV safety&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;What standards would you like to see to enable safe and profitable scaling of these fleets?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Braun:&lt;/strong&gt; There should be clear expectations around operational monitoring, incident reporting, remote human oversight, communications reliability, &lt;a href="https://www.therobotreport.com/tag/cybersecurity/" target="_blank" rel="noopener"&gt;cybersecurity&lt;/a&gt;, operator qualifications, and fallback procedures when an autonomous vehicle encounters a situation outside its normal operating parameters.&lt;/p&gt;
-&lt;p&gt;I also think scalability is important. A safety architecture that works for one AV must remain reliable when applied across an entire fleet.&lt;/p&gt;
-&lt;p&gt;In my view, that combination of autonomous technology and human intelligence is what will allow the industry to move from individual pilots to large-scale commercial deployment. The goal is not to have a human manually operating every vehicle, but to have a human oversight layer that can effectively monitor multiple vehicles and intervene when necessary.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Does adding a remote operator create another potential point of failure?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Braun:&lt;/strong&gt; It can, if the vehicle depends on a single operator or communications link. A properly designed remote-operations system should instead provide an additional safety layer without replacing the vehicle’s onboard autonomy and fallback capabilities.&lt;/p&gt;
-&lt;p&gt;If connectivity is degraded or lost, the vehicle must be able to reach a safe state. That requires redundant, secure communications, trained operators, and clearly defined fallback procedures.&lt;/p&gt;
-&lt;p&gt;At Guident, we use event-driven oversight, ultra-low-latency communications, and redundant connectivity. The operator becomes involved only when assistance is needed. The objective is to ensure that no individual operator or communications link becomes a critical point of failure.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="AVC 2026 Recap | 5th Annual Autonomous Vehicle Conference" width="740" height="416" src="https://www.youtube.com/embed/JjcjR1ZuhDA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/"&gt;Humans in the loop are still needed for robotaxi fleet safety, says Guident&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/feed/</ns4:commentRss>
-			<ns5:comments>1</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Jetson Orin Nano 2 doubles inference performance for robotics on the edge, says NVIDIA</title>
-		<link>https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/</link>
-					<comments>https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/#respond</comments>
-		
-		<dc:creator>Eugene Demaitre</dc:creator>
-		<pubDate>Tue, 25 Aug 2026 15:00:22 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Development Tools / SDKs / Libraries</category>
-		<category>Microprocessors / SoC</category>
-		<category>Microprocessors / SoCs</category>
-		<category>News</category>
-		<category>Software / Simulation</category>
-		<category>Jetson Nano</category>
-		<category>Nvidia</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589276</guid>
-
-					<description>&lt;p&gt;With Jetson Orin Nano 2, NVIDIA says that frontier intelligence has reached the edge and can now run in real time.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/"&gt;Jetson Orin Nano 2 doubles inference performance for robotics on the edge, says NVIDIA&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589277" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589277" class="size-full wp-image-589277" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2.jpg" alt="NVIDIA Jetson Orin Nano 2 consumes less power than its predecessor." width="770" height="499" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589277" class="wp-caption-text"&gt;Jetson Orin Nano 2 consumes less power at the same performance level of its predecessor. Source: NVIDIA&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;As AI models become more efficient, more devices can become autonomous, but developers need compact, energy-efficient computers built for edge AI, asserted NVIDIA Corp. The company today introduced NVIDIA Jetson Orin Nano 2, a new entry-level computer for edge AI that it said enables millions of developers worldwide to build systems for physical AI applications.&lt;/p&gt;
-&lt;p&gt;“Today’s small and medium frontier models have reached the accuracy of last year’s largest frontier models, unlocking real time intelligence for edge devices,” stated Deepu Talla, vice president of robotics and edge AI at NVIDIA. “The Jetson Orin Nano 2 computer puts that breakthrough within reach of millions of developers, delivering the performance and energy efficiency needed for real-time reasoning in smart drones, robots, and vision AI systems.”&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Over the past three months, we&amp;#8217;ve seen the evolution of open models powering physical AI and how important they&amp;#8217;ve become,&amp;#8221; he added during a press briefing. &amp;#8220;One year ago, frontier models which were 600 billion or 1 trillion parameter models. A year later, we&amp;#8217;re able to bring that level of accuracy all the way down to intro-level edge AI products in Orin Nano 2. This is amazing.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;NVIDIA Jetson Orin Nano 2 is part of the company&amp;#8217;s &amp;#8220;three-computer, full-stack&amp;#8221; approach to robotics, with Omniverse with &lt;a href="https://www.therobotreport.com/nvidia-adds-cosmos-policy-world-foundation-models/" target="_blank" rel="noopener"&gt;Cosmos&lt;/a&gt; providing &lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;simulation&lt;/a&gt; for testing, DJX supporting training, and &lt;a href="https://www.therobotreport.com/tag/jetson-nano" target="_blank" rel="noopener"&gt;Jetson&lt;/a&gt; as the &amp;#8220;robot brain&amp;#8221; providing runtime deployment.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;h2&gt;Jetson Orin Nano 2 advances accuracy, processing speed&lt;/h2&gt;
-&lt;p&gt;&amp;#8220;Jetson Orin Nano 2 delivers a significant leap in &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener"&gt;video&lt;/a&gt; processing performance in a cost-effective, power-efficient system,&amp;#8221; said NVIDIA. The system features 78 trillion operations per second (TOPS) of AI compute, 8GB of memory, and an eight-core &lt;a href="https://www.therobotreport.com/tag/arm/" target="_blank" rel="noopener"&gt;Arm&lt;/a&gt; CPU.&lt;/p&gt;
-&lt;p&gt;Jetson Orin Nano 2 doubles the inference performance of Jetson Orin Nano Super through improved Tensor Cores and higher memory bandwidth, while maintaining the same compact form factor. In 15-watt mode, Jetson Orin Nano 2 consumes 40% less power to deliver the same peak-to-peak performance as its predecessor, Talla told &lt;em&gt;&lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;The Robot Report&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;NVIDIA noted that its existing open software &lt;a href="https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/" target="_blank" rel="noopener"&gt;stack&lt;/a&gt; can run on Nano 2, which is built on the same GPU architecture as data centers. It is designed to be a drop-in for existing Orin customers.&lt;/p&gt;
-&lt;p&gt;In combination with Jetson agent skills and the &lt;a href="https://www.therobotreport.com/tag/nvidia" target="_blank" rel="noopener"&gt;company&lt;/a&gt;&amp;#8216;s technology ecosystem, developers can now run the latest large language models (LLMs) and vision language models (VLMs) optimized for memory-efficient edge inference. These include open models such as NVIDIA Cosmos and Nemotron, Gemma 4, and Qwen 3.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;This now suddenly unlocks a level of intelligence that was impossible &amp;#8212; we&amp;#8217;ve been dreaming about this for a decade in edge AI,&amp;#8221; said Talla during a press briefing. &amp;#8220;This is a significant moment in time, where now for all of these robotics and physical AI applications, we can actually put frontier AI models such as LLMs and VLMs on top of the other autonomous capabilities. We believe this will speed up the development and deployment of AI in the physical world.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;NVIDIA had already refreshed its higher-end Jetson offerings, including the Orin NX, Orin, and T3000/T2000 for mainstream applications and the Jetson T5000/T4000 for advanced uses.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Introducing NVIDIA Jetson Orin&amp;#x2122; Nano Super: The World’s Most Affordable Generative AI Computer" width="740" height="416" src="https://www.youtube.com/embed/S9L2WGf1KrM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;Developers use NVIDIA stack for physical AI applications&lt;/h2&gt;
-&lt;p&gt;NVIDIA said that more than 3 million developers are &lt;a href="https://www.therobotreport.com/nvidia-collaborates-global-robotics-leaders-make-physical-ai-reality/" target="_blank" rel="noopener"&gt;already building&lt;/a&gt; on its robotics stack. Partners such as &lt;a href="https://www.therobotreport.com/tag/cognex" target="_blank" rel="noopener"&gt;Cognex&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/doosen-bobcat-unveils-latest-rx3-concept-loader/" target="_blank" rel="noopener"&gt;Doosan Bobcat&lt;/a&gt;, Matic, and Wing are evaluating or using Jetson Orin Nano 2 for real-world edge AI in compact devices.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Thousands of companies ship with entry-level edge AI on Jetson, and more than 10,000 companies are shipping or developing products built on Jetson,&amp;#8221; said Talla.&lt;/p&gt;
-&lt;p&gt;Alphabet subsidiary &lt;a href="https://www.therobotreport.com/tag/wing/" target="_blank" rel="noopener"&gt;Wing&lt;/a&gt; is using Jetson Orin Nano Super and the NVIDIA software stack in its delivery &lt;a href="https://www.therobotreport.com/category/robots-platforms/uav-drones/" target="_blank" rel="noopener"&gt;drone&lt;/a&gt; fleet. It plans plans to evaluate Jetson Orin Nano 2 to advance real-time AI perception and reasoning for faster, safer &lt;a href="https://www.therobotreport.com/tag/delivery-robots/" target="_blank" rel="noopener"&gt;deliveries&lt;/a&gt; from local businesses to residential yards.&lt;/p&gt;
-&lt;p&gt;“Drone delivery depends on AI that can enable fast, reliable understanding of the real world,” said Dinuka Abeywardena, head of perception at Wing. “Wing is exploring Jetson Orin Nano 2 to give us a path to more responsive, energy-efficient drones that can help make deliveries quicker and more dependable for customers.”&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://maticrobots.com/" target="_blank" rel="noopener"&gt;Matic Robots&lt;/a&gt; is using Jetson Orin Nano 2 to enable more intuitive interactions with its home &lt;a href="https://www.therobotreport.com/tag/cleaning" target="_blank" rel="noopener"&gt;cleaning&lt;/a&gt; robots. The company is giving the robots conversational AI, gesture detection, precision mapping and semantic understanding of the &lt;a href="https://www.therobotreport.com/tag/household/" target="_blank" rel="noopener"&gt;home&lt;/a&gt; environment, and greater autonomy.&lt;/p&gt;
-&lt;p&gt;“Home robots need to understand people, map spaces precisely, understand the layout of objects and spaces, and clean autonomously in dynamic and constantly changing environments,” said Navneet Dalal, co-founder and CEO of Matic Robotics. “With Jetson Orin Nano 2, Matic can run state-of-the-art AI models at the edge in a compact home robotics platform built for real-time perception, interaction and navigation.”&lt;/p&gt;
-&lt;p&gt;&amp;#8220;The problem with companion robots has been that the intelligence has not been good, but now, with the availability of all this frontier-level intelligence, which can run in real time on Orin Nano or Orin Nano 2, we can enable a new class of applications,&amp;#8221; said Talla. He also mentioned &lt;a href="https://www.therobotreport.com/tag/hugging-face/" target="_blank" rel="noopener"&gt;Hugging Face&lt;/a&gt;&amp;#8216;s Reachy Mini, which uses a small LLM for speech recognition.&lt;/p&gt;
-&lt;p&gt;NVIDIA cited AAEON, ADLINK, Advantech, Aetina, Antmicro, Aptiv, Auvidea, AVerMedia, Chuanglebo, Connect Tech, ForeCR, JWIPC, Neurealm, Plink, Realtimes, RidgeRun, RS, Seeed Studio, Tauro Tech, Twowin, TZTek and YUAN as other Jetson partners building carrier boards, hardware, customized AI software, and reference systems to help customers accelerate time to market.&lt;/p&gt;
-&lt;p&gt;Talla said he expects NVIDIA&amp;#8217;s technology to enable generalized navigation and dexterous manipulation, as well as improvements in robot training, &lt;a href="https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/" target="_blank" rel="noopener"&gt;safety&lt;/a&gt;, and independence. NVIDIA said the Jetson Orin Nano 2 module and developer kit will be available in the first half of 2027.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Reachy Mini robot powered by NVIDIA DGX Spark and Arm" width="740" height="416" src="https://www.youtube.com/embed/wBPISPlpMZI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/"&gt;Jetson Orin Nano 2 doubles inference performance for robotics on the edge, says NVIDIA&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
