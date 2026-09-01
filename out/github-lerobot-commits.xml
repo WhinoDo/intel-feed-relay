@@ -4,7 +4,47 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-01T11:41:19Z</ns0:updated>
+  <ns0:updated>2026-09-01T20:56:02Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/fbb811fca92504439792b97d216f0d00c2268382</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/fbb811fca92504439792b97d216f0d00c2268382" />
+    <ns0:title>
+        fix(datasets): answer delta queries through cached single-column view…
+    </ns0:title>
+    <ns0:updated>2026-09-01T20:56:02Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/35650394?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Rick0525</ns0:name>
+      <ns0:uri>https://github.com/Rick0525</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): answer delta queries through cached single-column views (#4314)
+
+* fix(datasets): answer delta queries through cached single-column views
+
+Since datasets 4.4, a custom transform disables the lazy-Column fast
+path, so both hf_dataset[key][indices] and hf_dataset[indices][key]
+fetch and decode entire rows. On image datasets this decodes every
+embedded camera image of every queried row just to read a
+low-dimensional column like action.
+
+Route delta queries (and the video timestamp lookup) through cached
+select_columns views instead: a zero-copy schema projection that
+restores true column access. ~200x faster on the query, 46x per sample
+end-to-end on an image dataset with a 50-step action chunk.
+
+Fixes #2895
+
+* fix(datasets): include the transform in the column-view cache key
+
+set_transform() mutates hf_dataset in place, so dataset identity alone
+cannot invalidate the cached single-column views: a view built under the
+previous transform would keep answering delta queries with it. Compare
+the transform recorded at view-build time and rebuild when it changes.
+
+Addresses review feedback on #4314.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/128d3324e3202ce1fca1340fb8d7941edecce9d3</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/128d3324e3202ce1fca1340fb8d7941edecce9d3" />
@@ -848,24 +888,6 @@ Co-authored-by: vdmaas98 &amp;lt;159767407+vdmaas98@users.noreply.github.com&amp
 ---------
 
 Co-authored-by: vdmaas98 &amp;lt;159767407+vdmaas98@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/e081bbdebe7763a952d3be81a12b70a0c90f0607</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e081bbdebe7763a952d3be81a12b70a0c90f0607" />
-    <ns0:title>
-        fix: use &lt;= instead of &lt; for timestamp tolerance comparison in video_…
-    </ns0:title>
-    <ns0:updated>2026-08-13T15:52:51Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/198962750?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>walle250ai</ns0:name>
-      <ns0:uri>https://github.com/walle250ai</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix: use &amp;lt;= instead of &amp;lt; for timestamp tolerance comparison in video_utils (#3423)
-
-Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
