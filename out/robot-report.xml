@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Tue, 01 Sep 2026 13:56:53 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 01 Sep 2026 16:48:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,129 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Learn how physical AI is being used to do real work at RoboBusiness</title>
+		<link>https://www.therobotreport.com/learn-how-physical-ai-is-being-used-to-do-real-work-at-robobusiness/</link>
+					<comments>https://www.therobotreport.com/learn-how-physical-ai-is-being-used-to-do-real-work-at-robobusiness/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Tue, 01 Sep 2026 16:48:33 +0000</pubDate>
+				<category>Artificial Intelligence</category>
+		<category>Artificial Intelligence / Cognition</category>
+		<category>Design / Development</category>
+		<category>Events</category>
+		<category>News</category>
+		<category>Amazon</category>
+		<category>amazon robotics</category>
+		<category>cobot</category>
+		<category>robobusiness</category>
+		<category>Teradyne Robotics</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589375</guid>
+
+					<description>&lt;p&gt;Leaders at Amazon Robotics, Teradyne Robotics, and Cobot will discuss how they're applying physical AI to robots operating in customer environments.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/learn-how-physical-ai-is-being-used-to-do-real-work-at-robobusiness/"&gt;Learn how physical AI is being used to do real work at RoboBusiness&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div class="session_excerpt"&gt;
+&lt;div id="attachment_589377" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/AIpanelrobobusiness.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589377" class="wp-image-589377 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/AIpanelrobobusiness.jpg" alt="From left to right: Bhavana Chandrashekhar, James Davidson, and Michael Vogelsong, who will discuss physical AI at RoboBusiness 2026." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/AIpanelrobobusiness.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIpanelrobobusiness-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIpanelrobobusiness-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIpanelrobobusiness-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIpanelrobobusiness-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIpanelrobobusiness-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIpanelrobobusiness-368x238.jpg 368w" sizes="(max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589377" class="wp-caption-text"&gt;From left to right: Bhavana Chandrashekhar, James Davidson, and Michael Vogelsong.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Everyone is talking about AI, inside and outside of robotics. While physical AI efforts bring in tens of millions of dollars in funding, the question remains: What is physical AI doing in the real world today?&lt;/p&gt;
+&lt;p&gt;At &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026, which takes place Oct. 20 and 21 in Santa Clara, Calif., robotics experts will discuss this topic in the keynote panel &amp;#8220;Beyond the Demo: AI in Production Robots.&amp;#8221; The session will be at 4:30 p.m. PT on the first day of the show.&lt;/p&gt;
+&lt;p&gt;Hear from leaders at &lt;a href="https://www.therobotreport.com/tag/amazon-robotics/" target="_blank" rel="noopener"&gt;Amazon Robotics&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/tag/teradyne-robotics/" target="_blank" rel="noopener"&gt;Teradyne Robotics&lt;/a&gt;, and &lt;a href="https://www.therobotreport.com/tag/cobot/" target="_blank" rel="noopener"&gt;Cobot&lt;/a&gt; as they discuss how they&amp;#8217;re applying &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; to robots operating in real customer environments. From perception and autonomy to fleet optimization, maintenance, and software updates, learn what it takes to build physical AI that is reliable, scalable, and delivers measurable business value.&lt;/p&gt;
+&lt;h2&gt;Meet the physical AI experts&lt;/h2&gt;
+&lt;p&gt;The speakers who will help close out Day 1 of RoboBusiness include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://linkedin.com/in/bhavanachandrashekhar" target="_blank" rel="noopener"&gt;Bhavana Chandrashekhar&lt;/a&gt; is a senior manager of applied science at Amazon Robotics based in Seattle. She manages a team of applied scientists, engineers, and managers building autonomous manipulators for Amazon warehouses. Chandrashekhar&amp;#8217;s stated mission is to build AI-powered robots that augment the workforce performing physically demanding tasks autonomously. Her research interests include robotic vision, machine learning, robotic software, and task planning. Some flagship robots she has built include Robin, which has picked several billion packages, and Vulcan Stow, which has stowed over a million items. Chandrashekhar will also speak &lt;a href="https://www.therobotreport.com/amazons-bhavana-chandrashekhar-speaks-robobusiness-women-in-robotics-lunch/" target="_blank" rel="noopener"&gt;at the Women in Robotics Lunch&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.linkedin.com/in/james-davidson-robotics/" target="_blank" rel="noopener"&gt;James Davidson&lt;/a&gt; is the chief AI officer at Teradyne Robotics, where he leads the integration of AI across &lt;a href="https://www.therobotreport.com/category/robots-platforms/collaborative-robot/" target="_blank" rel="noopener"&gt;collaborative&lt;/a&gt; and autonomous mobile robots (&lt;a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener"&gt;AMRs&lt;/a&gt;), including &lt;a href="https://www.therobotreport.com/tag/universal-robots" target="_blank" rel="noopener"&gt;Universal Robots&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/tag/mobile-industrial-robots" target="_blank" rel="noopener"&gt;Mobile Industrial Robots&lt;/a&gt;. In this role, Davidson shapes the AI strategy driving the next generation of intelligent, adaptable, and human-centric automation. With more than two decades of experience across AI research, robotics, and applied engineering, he brings a unique blend of deep technical expertise and commercial execution.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.linkedin.com/in/michael-vogelsong-524b2080/" target="_blank" rel="noopener"&gt;Michael Vogelsong&lt;/a&gt; leads the Foundation Models AI team at Cobot, primarily focused on robotic manipulation. He previously started the Deep Learning Technologies team at Amazon, developing and deploying machine learning (ML) and AI for the company&amp;#8217;s search engine, visual search, Alexa, and robotic manipulation. He also was chief ML engineer at Groundlight and led ML development for a personalized cancer treatment that is now in a Phase I clinical trial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Register now for RoboBusiness 2026&lt;/h2&gt;
+&lt;p&gt;&lt;iframe title="Best Moments of RoboBusiness 2025" width="740" height="416" src="https://www.youtube.com/embed/sA7R9PGhCog?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;RoboBusiness 2026 is the leading event for commercial robotics developers. Attendees will gain the latest insights from experts in robotics and AI on cutting-edge research, industry trends, and innovative applications in sectors such as manufacturing, healthcare, agriculture, logistics, and more.&lt;/p&gt;
+&lt;p&gt;The show also features a number of &lt;a href="https://www.robobusiness.com/networking-events/" target="_blank" rel="noopener"&gt;networking opportunities&lt;/a&gt; to give attendees the chance to connect with other experts in the industry. This will include the Mix and Mingle reception on the first day of the show.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Buy your full conference pass&lt;/a&gt; and gain full access to all keynotes, technical sessions, networking receptions, and special events. Discounts are also available for academia, associations, and corporate groups. Please email events[at]arrowfly.com for more details about our discount programs.&lt;/p&gt;
+&lt;article class="type-post entry" aria-label="Registration is open for RoboBusiness 2026"&gt;
+&lt;div class="entry-content"&gt;
+&lt;p&gt;For information about sponsorship and exhibition opportunities, &lt;a href="https://www.robobusiness.com/sponsor/" target="_blank" rel="noopener"&gt;download the prospectus&lt;/a&gt;. Questions regarding sponsorship opportunities should be directed to Colleen Sepich at csepich[AT]arrowfly.com.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+&lt;/div&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/learn-how-physical-ai-is-being-used-to-do-real-work-at-robobusiness/"&gt;Learn how physical AI is being used to do real work at RoboBusiness&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/learn-how-physical-ai-is-being-used-to-do-real-work-at-robobusiness/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
+		<title>Visko launches Orbis live model and closes pre-seed funding round</title>
+		<link>https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/</link>
+					<comments>https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/#respond</comments>
+		
+		<dc:creator>Eugene Demaitre</dc:creator>
+		<pubDate>Tue, 01 Sep 2026 16:00:01 +0000</pubDate>
+				<category>Artificial Intelligence</category>
+		<category>Artificial Intelligence / Cognition</category>
+		<category>Cameras / Imaging / Vision</category>
+		<category>Humanoids</category>
+		<category>Investments</category>
+		<category>News</category>
+		<category>Self-Driving Vehicles</category>
+		<category>Software / Simulation</category>
+		<category>Google</category>
+		<category>Visko</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589379</guid>
+
+					<description>&lt;p&gt;Visko says Orbis streams 4K video at 24 frames per second, responds to user intervention, and sustains hour-scale generation without drift.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/"&gt;Visko launches Orbis live model and closes pre-seed funding round&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div style="width: 740px;" class="wp-video"&gt;&lt;video class="wp-video-shortcode" id="video-589379-1" width="740" height="416" preload="metadata" controls="controls"&gt;&lt;source type="video/webm" src="https://www.therobotreport.com/wp-content/uploads/2026/09/orbis-720p.webm?_=1" /&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/orbis-720p.webm"&gt;https://www.therobotreport.com/wp-content/uploads/2026/09/orbis-720p.webm&lt;/a&gt;&lt;/video&gt;&lt;/div&gt;
+&lt;p&gt;To generate video with artificial intelligence, a user typically submits a prompt, waits, and then receives a finished clip that cannot be altered. Visko Platform Inc. today opened public access to Orbis, a foundation model that streams worlds in real time with persistent memory, interactivity, and physics-grounded generation for unlimited duration. The company has also raised $10 million in pre-seed funding led by Llama Ventures.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Every real-time system before this faced the same wall: The longer a world runs, the more it falls apart,&amp;#8221; stated Qing (Will) Yin, founder and CEO of Visko. &amp;#8220;We built Orbis to hold together — physically, visually, and narratively — for as long as you want to stay inside it. Starting today, anyone can see that for themselves at &lt;em&gt;visko.ai&lt;/em&gt;.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Most video models optimize every frame of a clip at once and show nothing until the whole thing resolves,&amp;#8221; Yin told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;Orbis finishes the first frame, streams it, then generates the next conditioned on what came before, closer to next-token prediction in a large language model.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;Visko was founded in 2025 by Yin, a Stanford Ph.D. in computational mathematics and mechanics who spent three years as a researcher at Apple. The Sunnyvale, Calif.-based &lt;a href="https://www.visko.ai/" target="_blank" rel="noopener"&gt;startup&lt;/a&gt;&amp;#8216;s 16-person team draws from Apple, &lt;a href="https://www.therobotreport.com/tag/google-deepmind/" target="_blank" rel="noopener"&gt;Google DeepMind&lt;/a&gt;, Meta, Amazon, and Tesla, and it is working with Google.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Editor&amp;#8217;s note:&lt;/strong&gt; Physical &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; and enabling technologies will be among the session track topics discussed at &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026, which will be on Oct. 20 and 21 in Santa Clara, Calif. &lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Register now to attend.&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;Orbis runs world models continuously&lt;/h2&gt;
+&lt;p&gt;Visko said its &lt;a href="https://www.visko.ai/blog/introducing-live-models" target="_blank" rel="noopener"&gt;Live Models&lt;/a&gt; are a new class of world models that run rather than render. Where conventional AI video generates a clip and stops, the company said its &lt;a href="https://www.visko.ai/models#orbis" target="_blank" rel="noopener"&gt;Orbis&lt;/a&gt; foundation model generates video continuously and streams it live.&lt;/p&gt;
+&lt;p&gt;Users can change the prompt at any moment during generation and see the update reflected instantly while the video keeps streaming. &amp;#8220;The next paradigm of AI is not a model you call, but a process that runs in step with the world itself,&amp;#8221; Visko claimed.&lt;/p&gt;
+&lt;p&gt;According to the company&amp;#8217;s &lt;a href="https://www.visko.ai/blog/papers/Visko_Orbis_1_0__A_Live_Model_for_Real_TimeInteractive_Long_Video_Generation.pdf" target="_blank" rel="noopener"&gt;technical report&lt;/a&gt;, Orbis delivers 4K video at 24 frames per second in real time and sustains hour-scale generation without quality or color drift. &amp;#8220;Generation is grounded in physical dynamics: A latent world model scores candidate futures during inference, steering output toward physically plausible motion and object dynamics,&amp;#8221; said Visko.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Change the prompt mid-run, and the world updates around it instead of restarting,&amp;#8221; said Yin. &amp;#8220;That makes it usable for &lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;simulation&lt;/a&gt; and for training footage that is unsafe or expensive to stage. In short, we are the world&amp;#8217;s first real-time 4K steerable video generation model, enabling use cases in interactive robotic training.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;In addition to generating videos up to an hour long and enabling real-time commands, Orbis can generate videos in real time,&amp;#8221; said Yin. &amp;#8220;We designed the memory structure to directly embed physics frame by frame. This actually requires less compute, and egocentric data requires long-form video without any breaks.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;In the report&amp;#8217;s evaluations, Orbis leads compared real-time and long-video systems on DOVER aesthetic and technical quality and on VideoAlign &lt;a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener"&gt;visual&lt;/a&gt; and motion quality. Visko said it recorded the highest overall-preference and temporal-stability ratings in a long-form human preference study across eight systems.&lt;/p&gt;
+&lt;div id="attachment_589387" style="width: 634px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589387" class="size-full wp-image-589387" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Visko_01.png" alt="Visko has tested its Orbis video generation technology against several metrics." width="624" height="261" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Visko_01.png 624w, https://www.therobotreport.com/wp-content/uploads/2026/09/Visko_01-300x125.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Visko_01-150x63.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Visko_01-368x154.png 368w" sizes="auto, (max-width: 624px) 100vw, 624px" /&gt;&lt;p id="caption-attachment-589387" class="wp-caption-text"&gt;Orbis is a real-time, interactive long video-generation system. Source: Visko&lt;/p&gt;&lt;/div&gt;
+&lt;h2&gt;Visko has more work to do&lt;/h2&gt;
+&lt;p&gt;The &lt;a href="https://arxiv.org/abs/2607.26694" target="_blank" rel="noopener"&gt;report&lt;/a&gt; also disclosed dimensions where Orbis trails other systems, with full methodology and results published. There is more work to be done, acknowledged Yin.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;On the research front, we need better design of the memory structure,&amp;#8221; he said. &amp;#8220;For example, the video can maintain even better consistency across the generation.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Secondly, we would like to add more detailed action description into the data collecting, like for training those video models,&amp;#8221; Yin added. &amp;#8220;Right now, I can ask a robotic arm to do something, but I don&amp;#8217;t have a very detailed description. If I give a very detailed instruction, like raise the arm 45 degrees, we would like to incorporate more accurate action description data into training this model.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;On the engineering side, we have to scale up the model in terms of the model and the data size,&amp;#8221; he said. &amp;#8220;We&amp;#8217;re focused on audio and video data at the moment. We&amp;#8217;re still exploring injecting other sensor data, like tactile. For a lot of deformable objects, we can interpret the forces from the video, but we&amp;#8217;re looking for partners focusing on robotic sensors and applications. We&amp;#8217;re talking to some hardware companies.&amp;#8221;&lt;/p&gt;
+&lt;div id="attachment_589388" style="width: 634px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589388" class="size-full wp-image-589388" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Visko_02.png" alt="Orbis has outperformed other models, according to Visko." width="624" height="384" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Visko_02.png 624w, https://www.therobotreport.com/wp-content/uploads/2026/09/Visko_02-300x185.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Visko_02-150x92.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Visko_02-368x226.png 368w" sizes="auto, (max-width: 624px) 100vw, 624px" /&gt;&lt;p id="caption-attachment-589388" class="wp-caption-text"&gt;Top: Quality, alignment, and motion measurements on one- to three-minute event-based benchmark. Bottom: Overall long-form video Arena point estimates from the human preference study. Orbis 1.0 attained the highest overall score; the table provides the dimension-level comparison and citations for all baselines. Source: Visko&lt;/p&gt;&lt;/div&gt;
+&lt;h2&gt;Advisor cites potential applications&lt;/h2&gt;
+&lt;p&gt;Advisors include Michael I. Jordan of the &lt;a href="https://www.therobotreport.com/tag/uc-berkeley/" target="_blank" rel="noopener"&gt;University of California, Berkeley&lt;/a&gt;; Steve WaiChing Sun of Columbia University; and Mengye Ren of New York University. Distribution is handled through Visko&amp;#8217;s partner Reactor.&lt;/p&gt;
+&lt;p&gt;“Visko is pursuing one of the most ambitious directions in video AI: live, stateful models that continuously perceive, predict, and interact with the world in real time while maintaining physical consistency,&amp;#8221; said Jordan, the chairman of Visko&amp;#8217;s advisory board.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Visko delivers a state-of-the-art architecture that has a meaningful technological lead beyond conventional short-clip video generation,&amp;#8221; he added. &amp;#8220;The same core capability could support a remarkably broad range of commercial opportunities, from robotics and physical simulation to gaming, live commerce, education, and real-time creative media.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;Orbis could also help provide environments for testing corner cases for safer &lt;a href="https://www.therobotreport.com/category/robots-platforms/self-driving-vehicles/" target="_blank" rel="noopener"&gt;autonomous vehicles&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoid&lt;/a&gt; robots, said Yin.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Some people people estimate that general-purpose robots will be in homes in five to 10 years, but from my communications with people in the field, that could take some time, just like autonomous driving,&amp;#8221; he noted. &amp;#8220;My goal is to find commercialization opportunities on the way.&amp;#8221;&lt;/p&gt;
+&lt;div id="attachment_589386" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589386" class="size-full wp-image-589386" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Visko_03.jpg" alt="The data for testing Visko Orbis 1.0 included raw video collection of real-world and generated video domains." width="770" height="496" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Visko_03.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/Visko_03-300x193.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Visko_03-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Visko_03-768x495.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/Visko_03-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589386" class="wp-caption-text"&gt;The data for testing Orbis 1.0 included raw video collection of real-world and generated domains. Source: Visko&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/"&gt;Visko launches Orbis live model and closes pre-seed funding round&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		<enclosure url="https://www.therobotreport.com/wp-content/uploads/2026/09/orbis-720p.webm" length="2828738" type="video/webm" />
+
+			</item>
+		<item>
 		<title>The Missing Layer in Robot Safety Assurance</title>
 		<link>https://www.therobotreport.com/the-missing-layer-in-robot-safety-assurance/</link>
 					<comments>https://www.therobotreport.com/the-missing-layer-in-robot-safety-assurance/#respond</comments>
@@ -35,7 +158,7 @@
 					<description>&lt;p&gt;Why robot safety assurance must account for attacks that can change how a machine sees, decides, and acts.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/the-missing-layer-in-robot-safety-assurance/"&gt;The Missing Layer in Robot Safety Assurance&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;p&gt;&lt;img fetchpriority="high" decoding="async" src="https://www.therobotreport.com/wp-content/uploads/2026/08/vicone-sponsored-featured-image-august2026.jpg" alt="" width="770" height="500" class="aligncenter size-full wp-image-589328" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/vicone-sponsored-featured-image-august2026.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/08/vicone-sponsored-featured-image-august2026-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/vicone-sponsored-featured-image-august2026-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/vicone-sponsored-featured-image-august2026-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/vicone-sponsored-featured-image-august2026-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;/p&gt;
+										<ns3:encoded>&lt;p&gt;&lt;img loading="lazy" decoding="async" src="https://www.therobotreport.com/wp-content/uploads/2026/08/vicone-sponsored-featured-image-august2026.jpg" alt="" width="770" height="500" class="aligncenter size-full wp-image-589328" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/vicone-sponsored-featured-image-august2026.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/08/vicone-sponsored-featured-image-august2026-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/vicone-sponsored-featured-image-august2026-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/vicone-sponsored-featured-image-august2026-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/vicone-sponsored-featured-image-august2026-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;/p&gt;
 &lt;h4&gt;Why robot safety assurance must account for attacks that can change how a machine sees, decides, and acts.&lt;/h4&gt;
 &lt;p&gt;Robot safety has traditionally asked: Can a machine remain safe when something goes wrong? Physical AI raises a harder question: &lt;strong&gt;Can it remain safe when an attacker changes what it sees, decides, or does even when nothing appears to have failed?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Modern robots perceive through multimodal sensors, interpret context using AI models, and translate those interpretations into physical action. As they move into dynamic environments, their safety increasingly depends on the integrity of the data guiding their decisions.&lt;/p&gt;
@@ -48,12 +171,12 @@
 &lt;p&gt;A related study in 2025, &lt;a href="https://arxiv.org/abs/2510.09269" target="_blank"&gt;GoBA&lt;/a&gt;, showed that ordinary objects such as a coffee mug could serve as a reliable trigger. The researchers reported a 97% attack success rate without degrading performance on clean inputs.&lt;/p&gt;
 &lt;p&gt;These studies expose a blind spot in model validation: a model may pass testing yet produce corrupted behavior when a hidden trigger appears in operation.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The safety question is whether it remains within its task and safety boundaries under adversarial conditions. &lt;a href="https://vicone.com/company/press-releases/vicone-turns-def-con-34-robot-hacking-research-into-free-nvidia-isaac-sim-extension/?utm_source=therobotreport&amp;amp;utm_medium=sponsored-content&amp;amp;utm_campaign=2026-09" target="_blank"&gt;Simulation tools&lt;/a&gt; such as NVIDIA Isaac Sim&lt;img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /&gt;, when paired with VicOne Radeis, can test the effects of manipulated inputs before deployment.&lt;/strong&gt;&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/SJH5PFiqQQ8?si=RCgePi5fz_zGA9zD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt; &lt;center&gt;&lt;em&gt;Video 1. VicOne LAB R7 demonstrates Radeis, a Physical AI safety validator for NVIDIA Isaac Sim that tests how adversarial visual inputs affect robot behavior before deployment.&lt;/em&gt;&lt;/center&gt;
+&lt;iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/SJH5PFiqQQ8?si=RCgePi5fz_zGA9zD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt; &lt;center&gt;&lt;em&gt;Video 1. VicOne LAB R7 demonstrates Radeis, a Physical AI safety validator for NVIDIA Isaac Sim that tests how adversarial visual inputs affect robot behavior before deployment.&lt;/em&gt;&lt;/center&gt;
 &amp;nbsp;&lt;/p&gt;
 &lt;h4&gt;Layer Two: System vulnerabilities as gateways to AI control&lt;/h4&gt;
 &lt;p&gt;Even a securely trained model can be subverted if the surrounding system stack is vulnerable.&lt;/p&gt;
 &lt;p&gt;In September 2025, researchers disclosed &lt;a href="https://github.com/Bin4ry/UniPwn" target="_blank"&gt;UniPwn&lt;/a&gt;, a Bluetooth exploit chain affecting quadruped and humanoid robots from a major manufacturer. Hardcoded cryptographic keys allowed traffic decryption, authentication checks were bypassed, and command injection enabled root-level execution. The exploit is also described as “wormable.” A compromised robot could scan nearby units and potentially affect an entire fleet.&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/v0i_0Or4ytU?si=UX80Gps3-rBPoGJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt; &lt;center&gt;&lt;em&gt;Video 2. VicOne Lab R7’s demo shows how chaining three wireless exploits can trigger uncontrolled robot behavior within 60 seconds, resulting in operational disruption.&lt;/em&gt;&lt;/center&gt;
+&lt;iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/v0i_0Or4ytU?si=UX80Gps3-rBPoGJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt; &lt;center&gt;&lt;em&gt;Video 2. VicOne Lab R7’s demo shows how chaining three wireless exploits can trigger uncontrolled robot behavior within 60 seconds, resulting in operational disruption.&lt;/em&gt;&lt;/center&gt;
 &amp;nbsp;&lt;br /&gt;
 Middleware creates another exposure point. Vulnerabilities in ROS 2 and DDS-based systems can enable arbitrary code execution or abuse unauthenticated topics to deliver malicious commands. With sufficient access, an attacker could override motor commands or replace AI model weights without directly attacking the model architecture.&lt;/p&gt;
 &lt;p&gt;In this case, the components may still function as designed. &lt;strong&gt;What has changed is the trustworthiness of the commands flowing through the system. &lt;/strong&gt;Vulnerability management can help teams identify known risks before deployment, while continuous monitoring can surface emerging threats.&lt;/p&gt;
@@ -961,136 +1084,6 @@ Middleware creates another exposure point. Vulnerabilities in ROS 2 and DDS-base
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/locus-getting-grasp-one-robotics-biggest-challenges-manipulation/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Teradyne Robotics ramps up fight against cobot copycats</title>
-		<link>https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/</link>
-					<comments>https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/#respond</comments>
-		
-		<dc:creator>Steve Crowe</dc:creator>
-		<pubDate>Thu, 27 Aug 2026 20:31:27 +0000</pubDate>
-				<category>China</category>
-		<category>Cobot Arms</category>
-		<category>Collaborative Robots</category>
-		<category>Investments</category>
-		<category>News</category>
-		<category>JAKA Robotics</category>
-		<category>Teradyne</category>
-		<category>Universal Robots</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589332</guid>
-
-					<description>&lt;p&gt;Teradyne Robotics sued cobot maker JAKA over alleged patent infringement, marking its second battle with a Chinese cobot company in 2026.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/"&gt;Teradyne Robotics ramps up fight against cobot copycats&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;p&gt;If imitation is the sincerest form of flattery, Teradyne Robotics has had enough compliments for one year.&lt;/p&gt;
-&lt;p&gt;Teradyne Robotics, the parent company of cobot arm maker &lt;a href="http://www.therobotreport.com/tag/universal-robots" target="_blank" rel="noopener"&gt;Universal Robots&lt;/a&gt;, has filed a patent infringement lawsuit against a German subsidiary of Chinese robotics company JAKA. The case alleges that JAKA infringed patents covering both hardware and software used in Universal Robots&amp;#8217; &lt;a href="https://www.therobotreport.com/category/robots-platforms/collaborative-robot/" target="_blank" rel="noopener"&gt;collaborative robots&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The lawsuit is Teradyne Robotics&amp;#8217; second major case involving a Chinese robotics company in Europe this year. In February 2026, the &lt;a href="https://www.therobotreport.com/tag/teradyne-robotics" target="_blank" rel="noopener"&gt;company&lt;/a&gt; sued Elite Robots&amp;#8217; German subsidiary over alleged copyright infringement.&lt;/p&gt;
-&lt;p&gt;In April, the Regional Court of Hamburg &lt;a href="https://www.therobotreport.com/german-court-rules-in-favor-of-teradyne-robotics-issues-injunction-against-elite-robots/" target="_blank" rel="noopener"&gt;issued a preliminary injunction&lt;/a&gt; prohibiting Elite Robots Germany from offering the disputed software and products containing it in Germany. The case is still ongoing.&lt;/p&gt;
-&lt;p&gt;The JAKA case is different. &amp;#8220;This is a patent case where the other one was about copyright,&amp;#8221; David Brandt, vice president of research and development and chief technology officer at Universal Robots, told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;It&amp;#8217;s multiple patents this time, and they cover both significant hardware and software aspects of our products.&amp;#8221;&lt;/p&gt;
-&lt;h2&gt;Teradyne spots cobot similarities&lt;/h2&gt;
-&lt;p&gt;According to Brandt, Teradyne Robotics became interested in &lt;a href="https://www.therobotreport.com/tag/jaka-robotics/" target="_blank" rel="noopener"&gt;JAKA&lt;/a&gt;&amp;#8216;s products after noticing similarities between the two companies&amp;#8217; force- and power-limited robot arms.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Our robots and the robots of JAKA look quite alike,&amp;#8221; Brandt said. &amp;#8220;We then chose to acquire one of the robots and take a deeper look at it. Then it became quite obvious that there&amp;#8217;s possible patent infringement in this.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Teradyne Robotics said the lawsuit involves a range of JAKA collaborative robots marketed in the European Union. The company filed the case with the Unified Patent Court (UPC) Local Division in Copenhagen because alleged acts of infringement occurred in &lt;a href="https://www.therobotreport.com/tag/denmark" target="_blank" rel="noopener"&gt;Denmark&lt;/a&gt; and other EU member states.&lt;/p&gt;
-&lt;h2&gt;EU ruling has broad implications&lt;/h2&gt;
-&lt;p&gt;A ruling from the UPC could have broad geographic implications. According to Teradyne Robotics, a ruling could take effect across 17 of the 18 EU member states participating in the UPC, as well as in certain countries outside the UPC Agreement, including the U.K. and Spain.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;The Robot Report&lt;/em&gt; reached out to JAKA for comment, but did not hear back at press time.&lt;/p&gt;
-&lt;div class="sir-container"&gt;
-&lt;div class="sir-text-style-color-primary sir-text-style-paragraph-m-default"&gt;
-&lt;p&gt;“This case is another clear demonstration that Teradyne Robotics will enforce its patents and intellectual property (IP) rights against what we consider to be illegal and unfair copying and infringement, across both hardware and software,&amp;#8221; stated Teradyne Robotics Group President Jean-Pierre Hathout.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;We cannot and will not accept companies that unlawfully copy protected technologies, and we are resolute in safeguarding our IP so customers can continue to have innovative automation solutions that meet the highest standards for safety and compliance,&amp;#8221; he added.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="attachment_589335" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589335" class="size-full wp-image-589335" src="https://www.therobotreport.com/wp-content/uploads/2026/08/universal-robots-ur-series-cobots.jpg" alt="UR Series cobots from Universal Robots." width="1000" height="750" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/universal-robots-ur-series-cobots.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/universal-robots-ur-series-cobots-300x225.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/universal-robots-ur-series-cobots-150x113.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/universal-robots-ur-series-cobots-768x576.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/universal-robots-ur-series-cobots-317x238.jpg 317w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-589335" class="wp-caption-text"&gt;UR Series cobots from Universal Robots.&lt;/p&gt;&lt;/div&gt;
-&lt;h2&gt;Comparing cobot portfolios&lt;/h2&gt;
-&lt;p&gt;The dispute puts two collaborative robot portfolios under the microscope. Universal Robots currently divides its robot arms primarily between its UR Series and e-Series. The UR Series includes the UR8 Long, UR15, UR18, UR20 and UR30. Payloads range from 10 kg on the UR8 Long to 35 kg on the UR30, while reach extends to 1,750 mm on the UR8 Long and UR20.&lt;/p&gt;
-&lt;p&gt;The e-Series is aimed at more compact and general-purpose automation. It currently consists of the UR3e, UR7e, UR12e and UR16e. Payloads range from 3 kg to 16 kg, with reaches from 500 mm to 1,300 mm.&lt;/p&gt;
-&lt;p&gt;JAKA&amp;#8217;s portfolio is similarly extensive. Its current lineup includes the Zu, Pro, S, AL, A and Mini series, along with the MiniCobo. The Zu family includes the Zu3, Zu5, Zu7, Zu12, Zu18, Zu20 and Zu30. The Pro family includes the Pro5, Pro12 and Pro16.&lt;/p&gt;
-&lt;p&gt;The Zu series is JAKA&amp;#8217;s broad general-purpose cobot family. For example, the Zu5 offers a 5-kg payload and 954-mm reach, while the Zu12 carries 12 kg to a 1,327-mm working radius and the Zu18 carries 18 kg to 1,073 mm.&lt;/p&gt;
-&lt;p&gt;The Pro series is designed for more demanding environments and carries an IP68 rating. It includes the Pro5, Pro12 and Pro16, with payloads of 5, 12 and 16 kg, respectively. The Pro16 offers a 1,713-mm reach and is positioned for applications including palletizing, machine tending, polishing, grinding, and welding.&lt;/p&gt;
-&lt;div id="attachment_589334" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589334" class="size-full wp-image-589334" src="https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-cobot-lineup.jpg" alt="Part of JAKA's cobot lineup." width="1000" height="596" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-cobot-lineup.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-cobot-lineup-300x179.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-cobot-lineup-150x89.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-cobot-lineup-768x458.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-cobot-lineup-368x219.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-589334" class="wp-caption-text"&gt;JAKA&amp;#8217;s cobot lineup.&lt;/p&gt;&lt;/div&gt;
-&lt;h2&gt;Lawsuit is not about China, says Teradyne&lt;/h2&gt;
-&lt;p&gt;Brandt emphasized that Teradyne&amp;#8217;s decision was not driven by JAKA&amp;#8217;s &lt;a href="https://www.therobotreport.com/tag/china" target="_blank" rel="noopener"&gt;Chinese&lt;/a&gt; ownership. &amp;#8220;To us, it&amp;#8217;s not about China,&amp;#8221; he said. &amp;#8220;It&amp;#8217;s about other companies copying stuff that we designed, whether they&amp;#8217;re Chinese or not.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Teradyne Robotics has long maintained a large intellectual property portfolio covering its robot technology. Brandt said the company uses patents, copyrights and trade-secret protections, but acknowledged the fundamental difficulty of protecting robots once they are commercially available.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;You have to build the robot and ship it to a customer to have a robot,&amp;#8221; he said. &amp;#8220;And, of course, some competitor can buy the robot, take it apart, and look at how we design stuff.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;We welcome competition and we think competition is healthy,&amp;#8221; added Brandt. &amp;#8220;But we have a competition where we make big investments in creating what we believe is a great product, having good quality, having a very safe product, a lot of investment going into that. It&amp;#8217;s quite expensive to develop such a product, and then having another company simply steal your innovations and copying it. That&amp;#8217;s where we&amp;#8217;re trying to put our foot down.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Editor’s note:&lt;/strong&gt;&amp;nbsp;James Davidson, chief AI officer at Teradyne Robotics,&amp;nbsp;will speak at &lt;a href="http://www.robobusiness.com" target="_blank" rel="noopener"&gt;RoboBusiness 2026&lt;/a&gt;. The event takes place Oct. 20 and 21 in Santa Clara, Calif., and attract 1,500+ attends from the robotics development community. &lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Register now to attend.&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;h2&gt;Universal Robots wants JAKA to stop&lt;/h2&gt;
-&lt;p&gt;Brandt said Teradyne&amp;#8217;s primary objective isn&amp;#8217;t financial compensation. &amp;#8220;Ideally, we would like them to stop copying and infringing our IP,&amp;#8221; he said. &amp;#8220;This is not predominantly for getting money out of JAKA. This is more to send a very clear signal that they need to stop copying our products.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Brandt also sees a potential safety issue. Universal Robots helped establish the market for collaborative robots designed to operate in proximity to people, subject to appropriate risk assessment and safety measures. Brandt said the proliferation of copycat products that don&amp;#8217;t meet the same standards could create risks beyond the companies involved in this dispute.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;If they are not as safe as they should be, and in the worst-case scenario lead to somebody getting seriously hurt by these products, there&amp;#8217;s of course a risk that this could reflect badly on the entire industry,&amp;#8221; he said.&lt;/p&gt;
-&lt;p&gt;That could lead regulators and workplace-safety authorities to view collaborative robots more broadly as a safety problem, Brandt said.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;So we are concerned,&amp;#8221; he said. &amp;#8220;Mostly, of course, we&amp;#8217;re concerned about people getting hurt. But there&amp;#8217;s also, of course, a business side to that problem.&amp;#8221;&lt;/p&gt;
-&lt;h2&gt;Competition in the cobot market&lt;/h2&gt;
-&lt;p&gt;Teradyne Robotics&amp;#8217; two lawsuits underscore the competitive nature of the collaborative robot market. Universal Robots has sold more than 100,000 cobots and has spent more than a decade building an ecosystem around its robot arms, software, and accessories.&lt;/p&gt;
-&lt;p&gt;Teradyne Robotics generated $100 million in revenue in Q2 2026. The $100 million in quarterly revenue is an increase from the $91 million that its made in &lt;a href="https://www.therobotreport.com/teradyne-robotics-revenue-rises-start-2026/" target="_blank" rel="noopener"&gt;Q1 2026&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The North Reading, Mass.-based company marked its fifth consecutive quarter of growth. It also reported 33% year-over-year revenue growth from Q2 2025, when it made $75 million. Most of the $100 million came from Universal Robots, while the rest was generated by its &lt;a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener"&gt;AMR&lt;/a&gt; subsidiary Mobile Industrial Robots (&lt;a href="https://www.therobotreport.com/tag/mobile-industrial-robots" target="_blank" rel="noopener"&gt;MiR&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;At the same time, the market has attracted an expanding number of competitors, including companies from China offering cobots at aggressive price points. Brandt said that trend is not necessarily bad for Universal Robots.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;The global market is growing,&amp;#8221; he said. &amp;#8220;There are just more companies trying to do the same thing, so in that respect, of course, the competition is heating up.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;The problem, in Teradyne Robotics&amp;#8217; view, is where competition crosses into alleged copying of protected technology.&lt;/p&gt;
-&lt;p&gt;And Brandt suggested that JAKA may not be the last company that Teradyne Robotics challenges. &amp;#8220;We do not see this as a one-time thing,&amp;#8221; he said. &amp;#8220;We are dedicated to aggressively protecting our IP, and JAKA is not the only robot out there that looks suspiciously like ours.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/"&gt;Teradyne Robotics ramps up fight against cobot copycats&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>NSF to invest $90M into three new technology centers, including one focused on robotics</title>
-		<link>https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/</link>
-					<comments>https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/#respond</comments>
-		
-		<dc:creator>The Robot Report Staff</dc:creator>
-		<pubDate>Thu, 27 Aug 2026 18:12:54 +0000</pubDate>
-				<category>Academia / Research</category>
-		<category>Financial</category>
-		<category>Human Robot Interaction / Haptics</category>
-		<category>Investments</category>
-		<category>News</category>
-		<category>Research</category>
-		<category>Michigan State University</category>
-		<category>national science foundation</category>
-		<category>Northwestern University</category>
-		<category>nsf</category>
-		<category>University of Texas at Austin</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589323</guid>
-
-					<description>&lt;p&gt;One of the new NSF funded centers will be the Center for Human and Robot Co-Adaptation, led by The University of Texas at Austin.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/"&gt;NSF to invest $90M into three new technology centers, including one focused on robotics&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589324" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589324" class="wp-image-589324 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured.jpg" alt="The NSF STCs will focus on building sustained partnerships across universities, industry, and government and accelerating the use of new ideas and technologies for scientific discovery. " width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/08/NSF_STC_News_Hero_2026-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589324" class="wp-caption-text"&gt;Science and Technology Centers focus on building sustained partnerships across universities, industry, and government and accelerating the use of new ideas and technologies for scientific discovery. | Sources: NSF, left to right: Indiana University, Bloomington; Michigan State University College of Engineering; Brian Scassellati and Kayla Matheus, Yale University&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;The U.S. National Science Foundation yesterday said it is investing $90 million over five years to support three new Science and Technology Centers, or NSF STCs. The NSF will allocate $6 million annually for an initial five-year period to each of the three centers.&lt;/p&gt;
-&lt;p&gt;After the first five years, the centers will have the opportunity to compete for up to five additional years of support. The &lt;a href="https://www.therobotreport.com/tag/national-science-foundation/" target="_blank" rel="noopener"&gt;foundation&lt;/a&gt; said the centers will advance American leadership in science and technology, strengthen the nation&amp;#8217;s STEM workforce, and accelerate innovation in a variety of fields, including AI and robotics.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Maintaining the United States&amp;#8217; leadership in science and technology requires bold research, strong partnerships, and a skilled workforce,&amp;#8221; stated Brian Stone, who is performing the duties of the NSF director. &amp;#8220;As advances in foundational science and technology open new possibilities, these Science and Technology Centers will help American researchers seize those opportunities, accelerate scientific discovery, and develop the talent and technologies needed to turn innovation into solutions that benefit the American people.&amp;#8221;&lt;/p&gt;
-&lt;h2&gt;Austin center will focus on human-robot collaboration&lt;/h2&gt;
-&lt;p&gt;One of the new centers will be the Center for Human and Robot Co-Adaptation, led by &lt;a href="https://www.therobotreport.com/tag/university-of-texas-at-austin/" target="_blank" rel="noopener"&gt;The University of Texas at Austin&lt;/a&gt;. This center will study how people and robots can securely and effectively adapt to one another as service and assistive robots become more common in homes, hospitals, workplaces, and public spaces.&lt;/p&gt;
-&lt;p&gt;Researchers at the center will combine robotics, &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;, and human factors to develop new methods that help robots with embodied intelligence learn from people, understand their needs and preferences, and then adapt physically and cognitively to changing environments and different people. The center aims to advance secure, useful robotic technologies that can support independent living, &lt;a href="https://www.therobotreport.com/category/markets-industries/biotechnology-medical-healthcare/" target="_blank" rel="noopener"&gt;healthcare&lt;/a&gt;, and other human-centered services.&lt;/p&gt;
-&lt;p&gt;The other two centers include the Center for Transformative Explorations in Multi-Physics and Engineering of Scientific Turbulence (&lt;a href="https://engineering.msu.edu/news/msu-receives-30m-nsf-grant-establish-turbulence-research-center" target="_blank" rel="noopener"&gt;TEMPEST&lt;/a&gt;), led by &lt;a href="https://www.therobotreport.com/tag/michigan-state-university/" target="_blank" rel="noopener"&gt;Michigan State University&lt;/a&gt;, and the Center for Genome Intelligence Engineering (GENIE), led by Northwestern University.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="The Human Connection: Inside UT Austin&amp;amp;apos;s Robot Parade" width="740" height="416" src="https://www.youtube.com/embed/_2gJv68i_xE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;More about the NSF STC program&lt;/h2&gt;
-&lt;p&gt;Since its inception in 1987, the NSF STC program has driven the emergence of new fields of discovery, catalyzed strong partnerships, advanced breakthrough technologies, sparked numerous start-up companies, and trained generations of researchers and innovators.&lt;/p&gt;
-&lt;p&gt;The program supports large-scale, transformational research that opens new areas of discovery and drives technological innovation. By combining expertise across organizations and partnering with industry and other groups, STCs tackle complex, high-risk challenges in foundational research and help move promising ideas toward real-world benefits.&lt;/p&gt;
-&lt;p&gt;The NSF added that the centers will strengthen the nation&amp;#8217;s scientific and technical workforce by providing students and early-career researchers with hands-on experience in emerging fields. The class of 2026 STCs will focus on strengthening foundational &lt;a href="https://www.therobotreport.com/category/research/" target="_blank" rel="noopener"&gt;research&lt;/a&gt;, advancing critical and emerging technologies, developing the &lt;a href="https://www.therobotreport.com/tag/workforce" target="_blank" rel="noopener"&gt;workforce&lt;/a&gt;, and translating discoveries into technological advances and national benefits.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/"&gt;NSF to invest $90M into three new technology centers, including one focused on robotics&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		

@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 01 Sep 2026 12:22:07 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 01 Sep 2026 15:14:29 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/the-no-bot-of-theseus-challenge-scott-walter-proposes-a-strict-decathlon-benchmark-for-humanoids</guid>
+    <title>The "No Bot of Theseus" Challenge: Scott Walter Proposes a Strict Decathlon Benchmark for Humanoids</title>
+    <link>https://www.humanoidsdaily.com/news/the-no-bot-of-theseus-challenge-scott-walter-proposes-a-strict-decathlon-benchmark-for-humanoids</link>
+    <description>Robotics pioneer Dr. Scott Walter has drafted a rule book for an autonomous humanoid decathlon, targeting single-task optimization with strict rules on anthropomorphism, zero hardware swaps, and self-dressing.</description>
+    <pubDate>Tue, 01 Sep 2026 15:14:29 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Scott Walter</category><category>WHRG</category>
+  </item>
+
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/the-1-688-appliance-bet-nori-robotics-launches-wheeled-bimanual-manipulator</guid>
+    <title>The $1,688 Appliance Bet: Nori Robotics Launches Wheeled Bimanual Manipulator</title>
+    <link>https://www.humanoidsdaily.com/news/the-1-688-appliance-bet-nori-robotics-launches-wheeled-bimanual-manipulator</link>
+    <description>Nori Robotics has debuted the A3, a sub-$1,700 bimanual mobile manipulator aimed at consumer homes. But technical papers and newly opened SDKs reveal the divide between appliance marketing and experimental developer hardware.</description>
+    <pubDate>Tue, 01 Sep 2026 13:39:41 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Nori Robotics</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/lumos-robotics-unveils-mos-2-mobile-manipulator-backed-by-mitsubishi-factory-deployment</guid>
     <title>Lumos Robotics Unveils MOS 2 Mobile Manipulator Backed by Mitsubishi Factory Deployment</title>
@@ -288,26 +308,6 @@
     <pubDate>Mon, 17 Aug 2026 16:48:38 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Europe</category><category>Actuators</category><category>Schaeffler</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/samsung-accelerates-in-house-humanoid-development-with-dedicated-rx-unit-and-world-model-ai</guid>
-    <title>Samsung Accelerates In-House Humanoid Development with Dedicated RX Unit and World Model AI</title>
-    <link>https://www.humanoidsdaily.com/news/samsung-accelerates-in-house-humanoid-development-with-dedicated-rx-unit-and-world-model-ai</link>
-    <description>South Korean tech giant Samsung is reportedly developing an advanced proprietary humanoid robot separate from Rainbow Robotics, backing the project with a new direct-to-CEO division, custom actuators, and factory-level world models.</description>
-    <pubDate>Mon, 17 Aug 2026 15:57:12 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>South Korea</category><category>Samsung</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/unitree-unveils-superman-robot-claims-to-shatter-human-speed-and-jump-records</guid>
-    <title>Unitree Unveils "Superman" Robot, Claims to Shatter Human Speed and Jump Records</title>
-    <link>https://www.humanoidsdaily.com/news/unitree-unveils-superman-robot-claims-to-shatter-human-speed-and-jump-records</link>
-    <description>With a reported top speed of 12.66 m/s and a 2-meter standing high jump, Unitree’s latest prototype appears to fulfill its CEO’s promise to outpace the world’s elite human athletes.</description>
-    <pubDate>Mon, 17 Aug 2026 06:54:14 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>China</category>
   </item>
 
   </channel>
