@@ -4,7 +4,74 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-08-31T16:36:28Z</ns0:updated>
+  <ns0:updated>2026-09-01T09:38:35Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/fa048804d05c1b965b0a5801cf205f97a9e8a3e8</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/fa048804d05c1b965b0a5801cf205f97a9e8a3e8" />
+    <ns0:title>
+        add dataset reader registry for storage backends (#4541)
+    </ns0:title>
+    <ns0:updated>2026-09-01T09:38:35Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/15766192?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>AyushExel</ns0:name>
+      <ns0:uri>https://github.com/AyushExel</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;add dataset reader registry for storage backends (#4541)
+
+* add dataset reader registry for third party storage formats
+
+* skip storage formats with missing optional deps when probing remote roots&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/dd256899946c6255653aa7824a9f8ce6420148b4</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/dd256899946c6255653aa7824a9f8ce6420148b4" />
+    <ns0:title>
+        Fix reset config joint positions encoding (#4545)
+    </ns0:title>
+    <ns0:updated>2026-09-01T07:37:36Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/13318497?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>s1lent4gnt</ns0:name>
+      <ns0:uri>https://github.com/s1lent4gnt</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix reset config joint positions encoding (#4545)
+
+* fix(envs): type fixed_reset_joint_positions as list[float]
+
+draccus cannot encode a dataclass field annotated `Any`: encoding calls
+`isinstance(value, typing.get_origin(t) or t)`, and `typing.Any` is not
+usable with `isinstance`. Any config that sets
+`ResetConfig.fixed_reset_joint_positions` therefore raises:
+
+    TypeError: typing.Any cannot be used with isinstance()
+
+This fires in `lerobot.rl.learner` at the first statement after config
+parsing -- `logging.info(pformat(cfg.to_dict()))` (learner.py:166) --
+before the dataset, policy or gRPC server are constructed. Every HIL-SERL
+config sets a reset pose, so the learner cannot start at all, in
+simulation or on hardware. `lerobot_train.py:272` makes the same call.
+
+The field is consumed only by `gym_manipulator.make_robot_env`, which
+passes it to `RobotEnv(reset_pose=...)`, and every shipped example config
+supplies a plain list of joint positions -- so `list[float] | None` is the
+accurate annotation. `Any` remains imported and used elsewhere in the file.
+
+Verified against the published example config
+(lerobot/config_examples rl/gym_hil/train_config.json): the learner now
+reaches &amp;quot;Starting learner thread&amp;quot; with the gRPC server up and the offline
+replay buffer populated.
+
+* docs(envs): update HIL-SERL reset positions type
+
+---------
+
+Co-authored-by: lucarp &amp;lt;lucarp@lucarp.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/d36d404b65315139b7601a707f260a3db736462f</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d36d404b65315139b7601a707f260a3db736462f" />
@@ -803,60 +870,6 @@ Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/p
 * feat(scripts): use cycletimer + move it to utils
 
 * test(rollout): simplify tests&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/31f8e55d20054342447b9390e0419d3e18a56a7f</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/31f8e55d20054342447b9390e0419d3e18a56a7f" />
-    <ns0:title>
-        fix(policies): Warn when freezing VLA-JEPA Qwen conditioning (#4421)
-    </ns0:title>
-    <ns0:updated>2026-08-13T12:35:28Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/35391914?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>WOLIKIMCHENG</ns0:name>
-      <ns0:uri>https://github.com/WOLIKIMCHENG</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(policies): Warn when freezing VLA-JEPA Qwen conditioning (#4421)
-
-Co-authored-by: root &amp;lt;kinsonnee@gmail.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/a3a8653a5b569e8e70cd6fe4b0973c4b2b983120</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/a3a8653a5b569e8e70cd6fe4b0973c4b2b983120" />
-    <ns0:title>
-        fix(legacy depth markers): unifying legacy depth markers across the c…
-    </ns0:title>
-    <ns0:updated>2026-08-13T09:30:22Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29127300?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>CarolinePascal</ns0:name>
-      <ns0:uri>https://github.com/CarolinePascal</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(legacy depth markers): unifying legacy depth markers across the codebase (#4428)
-
-* fix(legacy depth): fixing legacy depth makers when aggregating datasets and unifying legacy markers handling across the codebase
-
-* chore(test): updating tests
-
-* refactor(datasets): centralize depth-map detection in is_depth_map utility
-
-Add a pure ``is_depth_map`` predicate in ``configs.video`` that handles the
-canonical marker and both legacy forms, and reuse it in ``depth_keys``,
-``encoder_config_from_video_info`` and ``canonicalize_depth_marker``.
-
-* fix(datasets): never leave an empty video_info entry after canonicalizing
-
-When the legacy depth marker lived in a separate ``video_info`` dict, popping it
-could leave an empty ``video_info``. Drop it in ``canonicalize_depth_marker`` so
-merged metadata stays clean, and simplify the merge-equality normalization.
-
-* fix(non-depth markers): fixing canonical non-depth markers to always be info.is_depth_map: False
-
-* fix(stats): use is_depth_map util for depth detection&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
