@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 31 Aug 2026 06:50:41 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 01 Sep 2026 12:22:07 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/lumos-robotics-unveils-mos-2-mobile-manipulator-backed-by-mitsubishi-factory-deployment</guid>
+    <title>Lumos Robotics Unveils MOS 2 Mobile Manipulator Backed by Mitsubishi Factory Deployment</title>
+    <link>https://www.humanoidsdaily.com/news/lumos-robotics-unveils-mos-2-mobile-manipulator-backed-by-mitsubishi-factory-deployment</link>
+    <description>Lumos Robotics has launched MOS 2, a heavy-duty wheeled dual-arm "AI Worker" with a 50 kg payload capacity, deployed at Mitsubishi Electric facilities following a funding round exceeding 1 billion yuan.</description>
+    <pubDate>Tue, 01 Sep 2026 12:22:07 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>MOS2</category><category>Lumos Robotics</category><category>China</category>
+  </item>
+
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/kinetic-blocks-opens-marketplace-for-humanoid-training-data</guid>
+    <title>Kinetic Blocks Opens Marketplace for Humanoid Training Data</title>
+    <link>https://www.humanoidsdaily.com/news/kinetic-blocks-opens-marketplace-for-humanoid-training-data</link>
+    <description>Oslo-based Kinetic Blocks launches a gated two-sided market to standardize licensing, pricing, and quality grading for physical AI datasets.</description>
+    <pubDate>Tue, 01 Sep 2026 11:48:29 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Data Collection</category><category>Kinetic Blocks</category><category>Dataset</category><category>Europe</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/ubtech-reports-104-revenue-surge-in-h1-2026-as-full-size-humanoids-drive-growth</guid>
     <title>UBTECH Reports 104% Revenue Surge in H1 2026 as Full-Size Humanoids Drive Growth</title>
@@ -288,26 +308,6 @@
     <pubDate>Mon, 17 Aug 2026 06:54:14 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Unitree Robotics</category><category>China</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/figure-ceo-brett-adcock-claims-humanoids-are-already-delivering-roi-amid-severe-labor-shortages</guid>
-    <title>Figure CEO Brett Adcock Claims Humanoids Are Already Delivering ROI Amid Severe Labor Shortages</title>
-    <link>https://www.humanoidsdaily.com/news/figure-ceo-brett-adcock-claims-humanoids-are-already-delivering-roi-amid-severe-labor-shortages</link>
-    <description>In a recent podcast appearance, Figure founder Brett Adcock pushed back against humanoid hype, arguing that the true bottleneck is onboard intelligence, not hardware manufacturing, and claiming early customers are already seeing a real-world return on investment.</description>
-    <pubDate>Sun, 16 Aug 2026 08:58:42 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Brett Adcock</category><category>US</category><category>Figure</category><category>Figure-03</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/lg-to-unveil-next-gen-humanoid-built-on-nvidia-isaac-gr00t-in-early-2027</guid>
-    <title>LG to Unveil Next-Gen Humanoid Built on NVIDIA Isaac GR00T in Early 2027</title>
-    <link>https://www.humanoidsdaily.com/news/lg-to-unveil-next-gen-humanoid-built-on-nvidia-isaac-gr00t-in-early-2027</link>
-    <description>LG has formalized a strategic partnership with NVIDIA to co-develop a bipedal humanoid robot, deploy wheel-based systems in U.S. factories, and build next-generation AI infrastructure.</description>
-    <pubDate>Sat, 15 Aug 2026 22:44:06 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>NVIDIA</category><category>US</category><category>South Korea</category><category>LG</category>
   </item>
 
   </channel>

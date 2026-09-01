@@ -4,7 +4,27 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-01T09:38:35Z</ns0:updated>
+  <ns0:updated>2026-09-01T11:41:19Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/128d3324e3202ce1fca1340fb8d7941edecce9d3</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/128d3324e3202ce1fca1340fb8d7941edecce9d3" />
+    <ns0:title>
+         make eval_split format aware (#4543)
+    </ns0:title>
+    <ns0:updated>2026-09-01T11:41:19Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/15766192?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>AyushExel</ns0:name>
+      <ns0:uri>https://github.com/AyushExel</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt; make eval_split format aware (#4543)
+
+* allow eval_split for map-style formats on buckets
+
+* address review&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/fa048804d05c1b965b0a5801cf205f97a9e8a3e8</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/fa048804d05c1b965b0a5801cf205f97a9e8a3e8" />
@@ -846,30 +866,6 @@ Co-authored-by: vdmaas98 &amp;lt;159767407+vdmaas98@users.noreply.github.com&amp
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix: use &amp;lt;= instead of &amp;lt; for timestamp tolerance comparison in video_utils (#3423)
 
 Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/d0af05771fd462649f4639fda07d55fd59cb799e</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d0af05771fd462649f4639fda07d55fd59cb799e" />
-    <ns0:title>
-        fix(control): unify control-loop pacing and cadence reporting (#4423)
-    </ns0:title>
-    <ns0:updated>2026-08-13T13:38:58Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(control): unify control-loop pacing and cadence reporting (#4423)
-
-* refactor(rollout): cadence cycle
-
-* feat(rollout): add Cadence Reporting
-
-* feat(scripts): use cycletimer + move it to utils
-
-* test(rollout): simplify tests&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
