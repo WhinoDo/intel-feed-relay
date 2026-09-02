@@ -6,13 +6,13 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Tue, 01 Sep 2026 18:57:00 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Sep 2026 15:44:20 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
 	<ns1:updateFrequency>
 	1	</ns1:updateFrequency>
-	<generator>https://wordpress.org/?v=7.0.4</generator>
+	<generator>https://wordpress.org/?v=7.1</generator>
 
 <image>
 	<url>https://www.therobotreport.com/wp-content/uploads/2017/08/cropped-robot-report-site-32x32.png</url>
@@ -22,6 +22,68 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>AIR to use Elmo Motion Control technology in uncrewed cargo aircraft</title>
+		<link>https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/</link>
+					<comments>https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/#respond</comments>
+		
+		<dc:creator>Brianna Wessling</dc:creator>
+		<pubDate>Wed, 02 Sep 2026 15:29:23 +0000</pubDate>
+				<category>Actuators / Motors / Servos</category>
+		<category>Defense / Security</category>
+		<category>Drones</category>
+		<category>Markets / Industries</category>
+		<category>Motion Control</category>
+		<category>News</category>
+		<category>Robot Components</category>
+		<category>Robots / Platforms</category>
+		<category>Unmanned Aerial Systems / Drones</category>
+		<category>AIR</category>
+		<category>Delivery Robots</category>
+		<category>Elmo Motion Control</category>
+		<category>middle mile delivery</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589303</guid>
+
+					<description>&lt;p&gt;The partnership brings together Elmo's compact, high-power density servo drives and AIR's electric aviation design.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/"&gt;AIR to use Elmo Motion Control technology in uncrewed cargo aircraft&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589304" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589304" class="wp-image-589304 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured.jpg" alt="AIR says it brings together advanced flight systems, intelligent automation, and purpose-built design to create smart aircraft." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589304" class="wp-caption-text"&gt;AIR brings together advanced flight systems, intelligent automation, and purpose-built design to create smart aircraft. | Source: AIR&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;AIR VEV Inc. last week announced a strategic partnership with Elmo Motion Control Ltd. Elmo will integrate its high-performance motion control system into AIR&amp;#8217;s Heavy Lift UAS, or uncrewed aerial system.&lt;/p&gt;
+&lt;p&gt;The partnership brings together &lt;a href="https://www.elmomc.com/" target="_blank" rel="noopener"&gt;Elmo&lt;/a&gt;&amp;#8216;s compact, high-power density servo drives and AIR&amp;#8217;s electric aviation design. Elmo&amp;#8217;s Gold HV drive will power the &lt;a href="https://www.airev.aero/" target="_blank" rel="noopener"&gt;company&lt;/a&gt;&amp;#8216;s eight electric propulsion motors, delivering precise, responsive control for the AIR 120D VTOL-capable cargo &lt;a href="https://www.therobotreport.com/category/robots-platforms/uav-drones/" target="_blank" rel="noopener"&gt;drone&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;AIR selected Elmo based on the combination of performance, power density, weight, efficiency, and system-level integration capabilities of its high-voltage servo drives,&amp;#8221; AIR CEO Rani Plaut told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;For an electric aircraft, every gram matters, and the propulsion system needs to deliver high power while remaining compact, efficient, reliable, and thermally manageable. Elmo’s Gold HV platform offered a strong fit for these requirements.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;The selection was part of AIR’s broader effort to identify best-in-class technologies that could improve the performance and efficiency of our cargo aircraft without adding unnecessary weight or complexity,&amp;#8221; he added. &amp;#8220;Elmo’s experience in high-performance &lt;a href="https://www.therobotreport.com/category/robot-components/motioncontrol/" target="_blank" rel="noopener"&gt;motion control&lt;/a&gt;, combined with its ability to work closely with our engineering team, made it a strong partner for the AIR 120D platform.&amp;#8221;&lt;/p&gt;
+&lt;h2&gt;Elmo technology enables air cooling&lt;/h2&gt;
+&lt;p&gt;As part of this integration, the high-efficiency &lt;a href="https://www.therobotreport.com/category/technologies/actuators-motors-servos" target="_blank" rel="noopener"&gt;drive&lt;/a&gt; system will enable air-cooled operation, eliminating the need for complex liquid cooling systems, said the partners. By removing this component, the platform benefits from reduced weight, lower system complexity, and increased payload capacity.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Elmo’s high-power-density Gold HV servo drives are designed to operate efficiently while managing the thermal loads generated during high-power operation,&amp;#8221; Plaut said. &amp;#8220;This enables AIR to use an air-cooled propulsion architecture rather than relying on a liquid-cooling system.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;The benefit is more than simply eliminating a cooling component,&amp;#8221; he explained. &amp;#8220;Removing the liquid-cooling loop reduces system weight, packaging requirements, and overall system complexity. In an aircraft, that weight reduction can be directly translated into additional useful payload or additional performance margin. For the AIR 120D, optimizing the propulsion and thermal-management architecture is particularly important. The result is a more compact and efficient propulsion system and a very strong payload-to-size ratio.&amp;#8221;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;AIR designs dual-use drones&lt;/h2&gt;
+&lt;p&gt;Auburndale, Fla.-based AIR&amp;#8217;s uncrewed cargo aircraft has a payload capacity of 550 lb. (249.4 kg) and a 1-hour flight endurance. It is categorized as a Group 4 UAS by the U.S. &lt;a href="https://www.therobotreport.com/tag/u-s-department-of-defense/" target="_blank" rel="noopener"&gt;Department of War&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Through its dual-use architecture, the AIR 120D is able to service multiple industry needs, including flexible &lt;a href="https://www.therobotreport.com/category/markets-industries/logistics-warehousing-asrs/" target="_blank" rel="noopener"&gt;logistics&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/tag/middle-mile-delivery/" target="_blank" rel="noopener"&gt;mid-mile&lt;/a&gt; &lt;a href="https://www.therobotreport.com/tag/delivery-robots/" target="_blank" rel="noopener"&gt;delivery&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/robots-platforms/ums/" target="_blank" rel="noopener"&gt;maritime&lt;/a&gt; resupply, and rapid aid deployments.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;The integration is already under way as part of the AIR 120D development program,&amp;#8221; said Plaut. &amp;#8220;Elmo’s Gold HV motor drives are being integrated to power the aircraft’s eight electric propulsion motors.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;We are currently focused on completing the integration and validation process and will share additional details on testing and operational deployment as we reach the appropriate milestones,&amp;#8221; he noted. &amp;#8220;Our priority is to ensure the technology is fully validated against AIR’s performance, safety, and operational requirements before moving into the next phase of deployment.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;To date, over 25 units of AIR&amp;#8217;s Heavy Lift drones have been ordered and paid for, continuing to signal strong market demand. This announcement came on the heels of recent partnerships by AIR, including &lt;a href="https://www.prnewswire.com/news-releases/air-selects-dynon-avionics-as-exclusive-avionics-provider-across-smart-aircraft-portfolio-302789254.html" target="_blank" rel="noopener"&gt;with Dynon Avionics&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;iframe title="AIR ONE - Smart Aircraft CEO Tour" width="740" height="416" src="https://www.youtube.com/embed/SDnd1wXMvWY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Customers can expect capability improvements&lt;/h2&gt;
+&lt;p&gt;Once integration is finished, AIR&amp;#8217;s customers should start seeing its biggest impacts in mission capability.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Reducing the weight and complexity of the propulsion system allows the aircraft to dedicate more of its available weight to useful payload while maintaining the performance required for demanding missions,&amp;#8221; Plaut said. &amp;#8220;This can translate into greater flexibility in how customers use the aircraft — whether for &lt;a href="https://www.therobotreport.com/category/markets-industries/defense-security/" target="_blank" rel="noopener"&gt;defense&lt;/a&gt; logistics, commercial cargo operations, or humanitarian missions.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;The air-cooled architecture also removes a more complex liquid-cooling system from the aircraft, which has the potential to simplify maintenance requirements,&amp;#8221; he said. &amp;#8220;Ultimately, our goal is to give operators an aircraft that can carry more useful cargo, operate efficiently, and perform reliably across a wide range of missions.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;According to Plaut, AIR is interested in future collaborations with Elmo.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;We see this as a strategic relationship rather than simply a component-level supplier relationship,&amp;#8221; he said. &amp;#8220;The initial focus is the integration of Elmo’s motion-control technology into the AIR 120D Heavy Lift UAS, but we are interested in continuing to work together on optimizing propulsion performance, efficiency, and system integration as the platform evolves. As both companies continue to develop their respective technologies, there is also potential to explore additional applications across AIR’s autonomous aircraft portfolio and future electric aviation platforms.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="First eVTOL Customer Testimonial | AIR ONE" width="740" height="416" src="https://www.youtube.com/embed/74gOLiush2I?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/"&gt;AIR to use Elmo Motion Control technology in uncrewed cargo aircraft&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>Top 10 robotics stories of August 2026</title>
 		<link>https://www.therobotreport.com/top-10-robotics-stories-of-august-2026/</link>
 					<comments>https://www.therobotreport.com/top-10-robotics-stories-of-august-2026/#respond</comments>
@@ -63,14 +125,14 @@
 										<ns3:encoded>&lt;p&gt;In August 2026, large funding rounds, humanoid robot developments, and stories about the latest AI models for robotics got our readers&amp;#8217; attention.&lt;/p&gt;
 &lt;p&gt;Here are the 10 most popular articles on &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt; in the past month. Subscribe to &lt;a href="https://www.therobotreport.com/the-robot-report-enewsletter/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt; newsletter&lt;/a&gt; and listen to &lt;a href="https://www.therobotreport.com/category/podcast/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report &lt;/em&gt;Podcast&lt;/a&gt; to stay up to date on the latest robotics news.&lt;/p&gt;
 &lt;hr /&gt;
-&lt;h3&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON.jpg"&gt;&lt;img fetchpriority="high" decoding="async" class="wp-image-589288 size-medium alignleft" src="https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-300x194.jpg" alt="XPeng is developing the IRON humanoid robot." width="300" height="194" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-768x497.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-368x238.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON.jpg 770w" sizes="(max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;10. XPeng humanoid robot unit Dogotix picks up $900M in August 2026&lt;/h3&gt;
+&lt;h3&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON.jpg"&gt;&lt;img loading="lazy" decoding="async" class="wp-image-589288 size-medium alignleft" src="https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-300x194.jpg" alt="XPeng is developing the IRON humanoid robot." width="300" height="194" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-768x497.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON-368x238.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/08/XPeng_IRON.jpg 770w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;10. XPeng humanoid robot unit Dogotix picks up $900M in August 2026&lt;/h3&gt;
 &lt;p&gt;Like other global automakers, XPeng Motors is branching into humanoid robots. The electric vehicle manufacturer said that its Dogotix robotics unit has raised more than $900 million, bringing its pre-money valuation to $5 billion and post-transaction valuation to more than $6.3 billion. &lt;a href="https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/" target="_blank" rel="noopener"&gt;Read more.&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/3D-Terrain-Mesh-copy.jpg"&gt;&lt;img decoding="async" class="alignright wp-image-589188 size-medium" src="https://www.therobotreport.com/wp-content/uploads/2026/08/3D-Terrain-Mesh-copy-300x194.jpg" alt="A terrain mesh illustrating Gravis Robotics' sensing capabilities. The company raised funding in August 2026." width="300" height="194" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/3D-Terrain-Mesh-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/3D-Terrain-Mesh-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/3D-Terrain-Mesh-copy-768x496.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/3D-Terrain-Mesh-copy-368x238.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/08/3D-Terrain-Mesh-copy.jpg 770w" sizes="(max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/3D-Terrain-Mesh-copy.jpg"&gt;&lt;img loading="lazy" decoding="async" class="alignright wp-image-589188 size-medium" src="https://www.therobotreport.com/wp-content/uploads/2026/08/3D-Terrain-Mesh-copy-300x194.jpg" alt="A terrain mesh illustrating Gravis Robotics' sensing capabilities. The company raised funding in August 2026." width="300" height="194" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/3D-Terrain-Mesh-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/3D-Terrain-Mesh-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/3D-Terrain-Mesh-copy-768x496.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/3D-Terrain-Mesh-copy-368x238.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/08/3D-Terrain-Mesh-copy.jpg 770w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;9. Gravis Robotics raises $200M for autonomous construction&lt;/h3&gt;
 &lt;p&gt;The construction industry has been slow to automate, but demand is growing for infrastructure repairs, AI data center buildouts, and U.S. reshoring and defense. SoftBank has invested in Gravis Robotics&amp;#8217; Series A round, which it claimed is the largest in construction robotics history. &lt;a href="https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/" target="_blank" rel="noopener"&gt;Read more.&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;h3&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/Reimagine_Robotics.jpg"&gt;&lt;img decoding="async" class="alignleft wp-image-589030 size-medium" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Reimagine_Robotics-300x193.jpg" alt="Jonathan Scholz of Reimagine Robotics with the startup's system. The company emerged from stealth in August 2026." width="300" height="193" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Reimagine_Robotics-300x193.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Reimagine_Robotics-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Reimagine_Robotics-768x495.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/Reimagine_Robotics-368x238.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/08/Reimagine_Robotics.jpg 770w" sizes="(max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;8. Reimagine Robotics emerges from stealth in August 2026 with robots that &amp;#8216;learn on the job&amp;#8217;&lt;/h3&gt;
+&lt;h3&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/Reimagine_Robotics.jpg"&gt;&lt;img loading="lazy" decoding="async" class="alignleft wp-image-589030 size-medium" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Reimagine_Robotics-300x193.jpg" alt="Jonathan Scholz of Reimagine Robotics with the startup's system. The company emerged from stealth in August 2026." width="300" height="193" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Reimagine_Robotics-300x193.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Reimagine_Robotics-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Reimagine_Robotics-768x495.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/Reimagine_Robotics-368x238.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/08/Reimagine_Robotics.jpg 770w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;8. Reimagine Robotics emerges from stealth in August 2026 with robots that &amp;#8216;learn on the job&amp;#8217;&lt;/h3&gt;
 &lt;p&gt;AI is enabling robots to learn on the job, according to Reimagine Robotics. The startup is developing technology that it claimed anyone can train and use. Its CEO founded Google DeepMind’s Applied &lt;span class="markjkypgn262" data-markjs="true" data-ogac="" data-ogab="" data-ogsc="" data-ogsb="" data-ogsbtc="" data-ogsbrc="" data-ogsbbc="" data-ogsblc=""&gt;Robotics&lt;/span&gt; team in London and led it for seven years. &lt;a href="https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/" target="_blank" rel="noopener"&gt;Read more.&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h3&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2.jpg"&gt;&lt;img loading="lazy" decoding="async" class="wp-image-589277 size-medium alignright" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2-300x194.jpg" alt="NVIDIA Jetson Orin Nano 2 consumes less power than its predecessor." width="300" height="194" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2-368x238.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/08/Jetson-Orin-Nano-2.jpg 770w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;7. Jetson Orin Nano 2 doubles inference performance for robotics on the edge, says NVIDIA&lt;/h3&gt;
@@ -96,7 +158,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/top-10-robotics-stories-of-august-2026/"&gt;Top 10 robotics stories of August 2026&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
@@ -152,7 +214,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;/div&gt;
@@ -197,7 +259,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;Orbis runs world models continuously&lt;/h2&gt;
@@ -316,28 +378,38 @@ Middleware creates another exposure point. Vulnerabilities in ROS 2 and DDS-base
 &lt;h2&gt;Manufacturers in Australia need more automation&lt;/h2&gt;
 &lt;p&gt;Australian &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;manufacturing&lt;/a&gt; faces persistent skilled workforce shortages, cost pressures, and the slowest productivity growth in 60 years, &lt;a href="https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/latest-release" target="_blank" rel="noopener"&gt;according to&lt;/a&gt; the Australian Bureau of Statistics. In its &lt;a href="https://www.industry.gov.au/publications/national-robotics-strategy" target="_blank" rel="noopener"&gt;&lt;u&gt;National Robotics Strategy&lt;/u&gt;&lt;/a&gt;, the &lt;a href="https://www.therobotreport.com/tag/australia/" target="_blank" rel="noopener"&gt;country&lt;/a&gt;&amp;#8216;s government said that increasing the use of automation &lt;a href="https://www.industry.gov.au/publications/national-robotics-strategy/australias-robotics-opportunity" target="_blank" rel="noopener"&gt;could add&lt;/a&gt; $170 billion to $600 billion per year to Australia&amp;#8217;s gross domestic product by 2030. (The U.S. has had similar &lt;a href="https://www.therobotreport.com/?s=national+robotics+strategy" target="_blank" rel="noopener"&gt;discussions&lt;/a&gt; around a national robotics strategy.)&lt;/p&gt;
 &lt;p&gt;“If we want the productivity benefits of automation, we need to make it easier for more Australian businesses to actually adopt it,” said Paul Mason, CEO of Robotics Australia Group. “That means helping companies make better decisions before they spend the money &amp;#8212; finding the right opportunities, building a sound business case, and getting the right solution providers around the table.”&lt;/p&gt;
+&lt;p&gt;Why is Australia&amp;#8217;s robot density so low?&lt;/p&gt;
+&lt;p class="x_MsoNormal"&gt;&lt;span data-olk-copy-source="MessageBody"&gt;&amp;#8220;Much of it is structural,&amp;#8221; Mason told &lt;em&gt;The Robot Report&lt;/em&gt;. &amp;#8220;Australia’s robot installations were historically concentrated in automotive, and when the last car plant closed in 2017, our installed supplier base, along with the ecosystem around it, was diminished.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="x_MsoNormal"&gt;&lt;span data-olk-copy-source="MessageBody"&gt;&amp;#8220;Fortunately, some of this capability was adopted by our booming food and beverage industry,&amp;#8221; he added. &amp;#8220;However, Australia’s real strength has been in solving industry problems with field robotics &amp;#8212; mining, agriculture, and defense, for example.&amp;#8221;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="x_MsoNormal"&gt;&amp;#8220;The shape of the sector matters too,&amp;#8221; said Mason. &amp;#8220;Australian manufacturing is dominated by SMEs [small and midsize enterprises] running high-mix, low-volume production, which is harder to automate and which has the least in-house engineering capacity. So each company effectively starts from scratch.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;Robotics Australia Group is intended to facilitate the growth of a sustainable and internationally competitive Australian robotics industry. The &lt;a href="https://www.roboausnet.com.au/" target="_blank" rel="noopener"&gt;organization&lt;/a&gt; connects developers, researchers, integrators, manufacturers, adopters, educators, investors and government across the robotics and automation &lt;a href="https://www.roboausnet.com.au/robotics-ecosystem" target="_blank" rel="noopener"&gt;ecosystem&lt;/a&gt;. It has &lt;a href="https://www.therobotreport.com/building-sustainable-robotics-industry-australia-role-robotics-australia-group/" target="_blank" rel="noopener"&gt;produced&lt;/a&gt; three editions of the &amp;#8220;&lt;a href="https://www.roboausnet.com.au/robotics-roadmap-2025" target="_blank" rel="noopener"&gt;Australian Robotics Roadmap&lt;/a&gt;&amp;#8221; and supported the National Robotics Strategy.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Editor&amp;#8217;s note:&lt;/strong&gt; Reshoring production with automation will be among the topics discussed at &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026, which will be on Oct. 20 and 21 in Santa Clara, Calif. &lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Register now to attend.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Editor&amp;#8217;s note:&lt;/strong&gt; Reshoring production with automation and field robotics will be among the topics discussed at &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026, which will be on Oct. 20 and 21 in Santa Clara, Calif. &lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Register now to attend.&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;&lt;em&gt;AutomationFinder.com.au&lt;/em&gt; is a national resource&lt;/h2&gt;
 &lt;p&gt;The partners have launched &lt;em&gt;&lt;a href="http://www.automationfinder.com.au/" target="_blank" rel="noopener"&gt;&lt;u&gt;AutomationFinder.com.au&lt;/u&gt;&lt;/a&gt;&lt;/em&gt;&lt;u&gt;&lt;/u&gt;, a localized site operated by Robotics Australia Group and using HowToRobot&amp;#8217;s AI. It is designed to help Australian businesses identify where automation could benefit their operations the most.&lt;/p&gt;
 &lt;p&gt;The subscription-based platform provides a structured system for local engineers to describe their needs and then them into supplier-ready project briefs, said HowToRobot. Users can then get real market feedback on costs, feasibility, and solution concepts from a global network of more than 20,000 vetted suppliers &amp;#8212; including 500 in Australia alone.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;AutomationFinder.com.au&lt;/em&gt; draws on data from more than 600 existing automation projects worldwide. The partners also said a panel of independent automation experts is available for hands-on engagements across Australia.&lt;/p&gt;
-&lt;p&gt;“This partnership brings a system that&amp;#8217;s already proven to work in the markets that are furthest ahead,&amp;#8221; said Mason. &amp;#8220;We are excited to &amp;#8212; in partnership with HowToRobot – provide [manufacturers] with the system, expertise, and clarity they need to succeed.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;Australian companies can use the platform to compare suppliers, move forward with firm quotes, and make final selections. HowToRobot asserted that its system is vendor-neutral, relying on a mix of suppliers, from divisions of global vendors such as FANUC to local integrators and startups.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;What we see across the businesses already using our platform is that giving them a structured way to validate key decisions – what to automate, what it should cost, who can deliver it – is what makes adoption move faster and outcomes more predictable,&amp;#8221; said Peters. &amp;#8220;We&amp;#8217;re excited to bring that to Australian manufacturers alongside Robotics Australia Group.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;What we see across the businesses already using our platform is that giving them a structured way to validate key decisions – what to automate, what it should cost, who can deliver it – is what makes adoption move faster and outcomes more predictable,&amp;#8221; said Peters.&lt;/p&gt;
+&lt;p&gt;Mason added: &amp;#8220;&lt;span data-olk-copy-source="MessageBody"&gt;The practical effect is compressing a process that currently takes a year or more into weeks, with more than one credible option on the table and a realistic price benchmark behind it. It also lowers the risk on that critical first project, which is what determines whether a manufacturer keeps going.&amp;#8221;&lt;/span&gt;&lt;/p&gt;
 &lt;div id="attachment_589381" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589381" class="size-full wp-image-589381" src="https://www.therobotreport.com/wp-content/uploads/2026/09/AutomationFinder_com_au_screen.jpg" alt="AutomationFinder.com.au is the first national version of HowToRobot's platform." width="770" height="498" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/AutomationFinder_com_au_screen.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/AutomationFinder_com_au_screen-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/AutomationFinder_com_au_screen-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/AutomationFinder_com_au_screen-768x497.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/AutomationFinder_com_au_screen-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589381" class="wp-caption-text"&gt;AutomationFinder.com.au is the first national version of the AI robotics sourcing platform. Source: HowToRobot&lt;/p&gt;&lt;/div&gt;
+&lt;h2&gt;Australia minds the talent gap&lt;/h2&gt;
+&lt;p class="x_MsoNormal"&gt;&lt;span data-olk-copy-source="MessageBody"&gt;While Australia has retained its research prowess and field robotics expertise, there is still a gap in talent, acknowledged Mason. HowToRobot can help companies in the meantime.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="x_MsoNormal"&gt;&amp;#8220;The gap is further down: robot programmers, controls engineers, and integration and field-service technicians,&amp;#8221; he said. &amp;#8220;Vocational training in automation is fragmented, so companies either train on the job or compete for the same small pool of experienced people.&amp;#8221;&lt;/p&gt;
+&lt;p class="x_MsoNormal"&gt;&amp;#8220;There is real interest in fixing it, but training capacity takes years to build, and manufacturers need to automate now,&amp;#8221; asserted Mason. &amp;#8220;That is part of the appeal of a platform model: Companies get access to suppliers and advisors who already have the expertise, so a first project does not depend on hiring a robotics team that does not exist yet. The demand this creates is also what makes the case for expanding training.&amp;#8221;&lt;/p&gt;
 &lt;h2&gt;First national platform for automation buyers, suppliers&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;AutomationFinder.com.au &lt;/em&gt;is the first country-wide licensed deployment of HowToRobot&amp;#8217;s platform, but it won&amp;#8217;t be the last, Peters said.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;We&amp;#8217;re now getting contacted by other associations and countries. Every client is looking to shorten their supply chain,&amp;#8221; he observed. &amp;#8220;We&amp;#8217;ve seen a lot of government initiatives spend enormous amounts of money and identify good things, but then they go nowhere. Even if one project goes forward, what about the other 11?&amp;#8221;&lt;/p&gt;
 &lt;p&gt;&amp;#8220;With HowToRobot, the platform remembers that, even if robotic palletizing is the thing that moves forward, you can go back to a company four months later and ask about packaging,&amp;#8221; said Peters. &amp;#8220;You get that memory in a sense.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Imagine that we had 10,000 companies in Australia that have all bookmarked what they are thinking,  automation-wise, and you now give that information &amp;#8212; anonymized, obviously &amp;#8212; to the Australian people and say, &amp;#8216;This is what you&amp;#8217;re thinking of as a nation right now,'&amp;#8221; he said. &amp;#8220;Maybe packaging is Australia&amp;#8217;s biggest problem. That would really really change the the focus on what a country is trying to get moving.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Peters mentioned that other areas of interest in Europe, U.S. states, and elsewhere include agriculture and end-of-line packaging.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Imagine that we had 10,000 companies in Australia that have all bookmarked what they are thinking,  automation-wise, and you now give that information &amp;#8212; anonymized, obviously &amp;#8212; to the Australian people and say, &amp;#8216;This is what you&amp;#8217;re thinking of as a nation right now,'&amp;#8221; he said. &amp;#8220;That would really really change the the focus on what a country is trying to get moving.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;Where is the demand in Australia?&lt;/p&gt;
+&lt;p&gt;&lt;span data-olk-copy-source="MessageBody"&gt;&amp;#8220;Demand skews practical: palletizing and end-of-line packaging, machine tending, welding, vision-guided pick and place, and mobile robots for internal logistics,&amp;#8221; replied Mason. &amp;#8220;Welding is a standout given Australia’s well-documented welder shortage. Because so much production here is high-mix, the appetite is for flexible, re-deployable systems &amp;#8212; cobots, standard cells, ready-made solutions &amp;#8212; rather than hard-tooled lines.&amp;#8221;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Trust is important to helping automation scale, according to Peters.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;It took us a while to understand our role &amp;#8212; mom and pop shops are trying to find an accessible way of automating,&amp;#8221; he acknowledged. &amp;#8220;We don&amp;#8217;t fly anyone to Ohio or California or wherever; we see if we can find a local guy. That&amp;#8217;s important for building trust between buyers and sellers.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;&amp;#8220;We&amp;#8217;re not trying to take an advisory role &amp;#8212; we providing the infrastructure piece,&amp;#8221; said Peters. &amp;#8220;People think we&amp;#8217;re just a marketplace, but we&amp;#8217;re helping to build a pipeline for the discovery and buying part of robotics.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;&lt;iframe loading="lazy" title="Build a Predictable Pipeline of Automation Projects | HowToRobot for Suppliers" width="740" height="416" src="https://www.youtube.com/embed/eOb2w57sxfk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
@@ -398,7 +470,7 @@ Middleware creates another exposure point. Vulnerabilities in ROS 2 and DDS-base
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;FurrowVision and ExactEmerge enter full production&lt;/h2&gt;
@@ -468,7 +540,7 @@ Middleware creates another exposure point. Vulnerabilities in ROS 2 and DDS-base
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/"&gt;Skild AI unveils S1 flagship robot foundation model&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
@@ -510,7 +582,7 @@ Middleware creates another exposure point. Vulnerabilities in ROS 2 and DDS-base
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;2. More capable models require a reliable execution layer&lt;/h2&gt;
@@ -593,7 +665,7 @@ Middleware creates another exposure point. Vulnerabilities in ROS 2 and DDS-base
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/"&gt;Reframe Systems raises $40M to scale its robotic microfactories for home building&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
@@ -640,7 +712,7 @@ Middleware creates another exposure point. Vulnerabilities in ROS 2 and DDS-base
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;Meet the RoboBusiness 2026 keynote speakers&lt;/h2&gt;
@@ -712,7 +784,7 @@ Middleware creates another exposure point. Vulnerabilities in ROS 2 and DDS-base
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;The edge AI wall: Physical and mathematical limits&lt;/h2&gt;
@@ -867,7 +939,7 @@ Middleware creates another exposure point. Vulnerabilities in ROS 2 and DDS-base
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h3&gt;Ocado Technology&lt;/h3&gt;
@@ -947,7 +1019,7 @@ Middleware creates another exposure point. Vulnerabilities in ROS 2 and DDS-base
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/"&gt;From teach and repeat to SelfPath AI: The next robotics leap&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
@@ -998,7 +1070,7 @@ Middleware creates another exposure point. Vulnerabilities in ROS 2 and DDS-base
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/"&gt;Deere faces headwinds in Q3 update and announces Reservoir R&amp;#038;D partnership&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
@@ -1006,88 +1078,6 @@ Middleware creates another exposure point. Vulnerabilities in ROS 2 and DDS-base
 					
 					<ns4:commentRss>https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/feed/</ns4:commentRss>
 			<ns5:comments>1</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>EXL acquires physical AI model developer iMerit</title>
-		<link>https://www.therobotreport.com/exl-acquires-physical-ai-model-developer-imerit/</link>
-					<comments>https://www.therobotreport.com/exl-acquires-physical-ai-model-developer-imerit/#respond</comments>
-		
-		<dc:creator>Eugene Demaitre</dc:creator>
-		<pubDate>Fri, 28 Aug 2026 17:36:09 +0000</pubDate>
-				<category>Agriculture</category>
-		<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Development Tools / SDKs / Libraries</category>
-		<category>Healthcare Robotics</category>
-		<category>Mergers &amp; Acquisitions</category>
-		<category>Mobility / Navigation</category>
-		<category>News</category>
-		<category>Safety &amp; Security</category>
-		<category>Self-Driving Vehicles</category>
-		<category>Software / Simulation</category>
-		<category>Transportation</category>
-		<category>ExlService Holdings</category>
-		<category>imerit</category>
-		<category>safety</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589341</guid>
-
-					<description>&lt;p&gt;The EXL and iMerit executives explain how their companies' combined expertise and platforms will help developers with reliable physical AI.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/exl-acquires-physical-ai-model-developer-imerit/"&gt;EXL acquires physical AI model developer iMerit&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589342" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589342" class="wp-image-589342 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Mark-Liflander-EXL-iMerit-2048x1463-copy.jpg" alt="Radha Basu, EVP and head of iMerit, and Rohit Kapoor, CEO of EXL." width="770" height="496" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Mark-Liflander-EXL-iMerit-2048x1463-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/08/Mark-Liflander-EXL-iMerit-2048x1463-copy-300x193.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Mark-Liflander-EXL-iMerit-2048x1463-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Mark-Liflander-EXL-iMerit-2048x1463-copy-768x495.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/Mark-Liflander-EXL-iMerit-2048x1463-copy-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589342" class="wp-caption-text"&gt;Radha Basu, EVP and head of iMerit (left), and Rohit Kapoor, CEO of EXL (right). Credit: Mark Liflander, EXL&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;The actions of physical AI, including robots, are only as good as the human expertise and data used to build the AI models that train them. ExlService Holdings Inc. this month completed its acquisition of iMerit Technology, a leader in AI model training, evaluation, and reinforcement learning.&lt;/p&gt;
-&lt;p&gt;Founded in 1999, EXL offers services and solutions to industries including insurance, &lt;a href="https://www.therobotreport.com/category/markets-industries/biotechnology-medical-healthcare/" target="_blank" rel="noopener"&gt;healthcare&lt;/a&gt;, banking and capital markets, retail, communications and media, and energy and infrastructure. The New York-based &lt;a href="https://www.exlservice.com/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; has about 68,000 employees worldwide.&lt;/p&gt;
-&lt;p&gt;Founded in 2012, iMerit provides data annotation for robotics, autonomous mobility, healthcare &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;, and other high-tech industries. The San Jose, Calif.-based &lt;a href="https://imerit.ai/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; said its subject-matter experts and proprietary &lt;a href="https://imerit.ai/products/ango-workflow-automation-by-imerit/" target="_blank" rel="noopener"&gt;Ango Hub&lt;/a&gt; platform enable customers &amp;#8220;to collaborate on complex multimodal data to generate highly curated and validated training artifacts for high-stakes models.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;For instance, iMerit &lt;a href="https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/" target="_blank" rel="noopener"&gt;has partnered&lt;/a&gt; with &lt;a href="https://www.therobotreport.com/tag/carbon-robotics" target="_blank" rel="noopener"&gt;Carbon Robotics&lt;/a&gt; to help digest millions of plant images needed to create an &lt;a href="https://www.therobotreport.com/category/markets-industries/ag/" target="_blank" rel="noopener"&gt;agricultural&lt;/a&gt; model for robotic weeding.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.linkedin.com/in/radha-basu-b181225/" target="_blank" rel="noopener"&gt;Radha Ramaswami Basu&lt;/a&gt;, founder and CEO of iMerit, has joined EXL as executive vice president and head of iMerit. She and &lt;a href="https://www.linkedin.com/in/rohitkapoorexl/" target="_blank" rel="noopener"&gt;Rohit Kapoor&lt;/a&gt;, chairman and CEO of EXL, replied to the following questions from &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt; about the acquisition.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/08/ro26-earlybird-728x90-1.jpg" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;h2&gt;iMerit and EXL strive for more trustworthy models&lt;/h2&gt;
-&lt;p dir="ltr"&gt;&lt;strong&gt;What challenges are AI model builders underestimating today, and why?&lt;/strong&gt;&lt;/p&gt;
-&lt;p dir="ltr"&gt;&lt;strong&gt;Basu: &lt;/strong&gt;Models are becoming highly capable day by day. With this comes increasing potential for hallucination or exceeding the scope. The labs, like customers, are starting to realize that the final mile and the concept of trust need work in order to thrive in a critical enterprise process.&lt;/p&gt;
-&lt;p dir="ltr"&gt;A model can perform well on a benchmark and still struggle with edge cases, unfamiliar conditions, or the specialized context of a healthcare or financial workflow. The bottleneck is access to expert, domain-specific data and trusted deployment in a business workflow.&lt;/p&gt;
-&lt;p dir="ltr"&gt;This is solved by experts who can challenge the model, expose failure modes, and evaluate whether its reasoning and behavior are reliable in a given business environment.&lt;/p&gt;
-&lt;p dir="ltr"&gt;&lt;strong&gt;How does EXL&amp;#8217;s acquisition of &lt;span class="markjgpt1wcq0" data-markjs="true" data-ogac="" data-ogab="" data-ogsc="" data-ogsb="" data-ogsbtc="" data-ogsbrc="" data-ogsbbc="" data-ogsblc=""&gt;iMerit&lt;/span&gt; change how models are trained and evaluated?&lt;/strong&gt;&lt;/p&gt;
-&lt;p dir="ltr"&gt;&lt;strong&gt;Kapoor:&lt;/strong&gt; The acquisition connects parts of the AI lifecycle that have often been managed separately, establishing an end-to-end AI platform for enterprises.&lt;/p&gt;
-&lt;p dir="ltr"&gt;&lt;span class="markjgpt1wcq0" data-markjs="true" data-ogac="" data-ogab="" data-ogsc="" data-ogsb="" data-ogsbtc="" data-ogsbrc="" data-ogsbbc="" data-ogsblc=""&gt;iMerit&lt;/span&gt; brings expert-led model training, multimodal evaluation, the Ango Hub platform, and a global network of domain experts. EXL brings enterprise data, deep industry context, and experience integrating technology into business operations.&lt;/p&gt;
-&lt;p dir="ltr"&gt;Together, those capabilities create a more continuous path from preparing proprietary data to fine-tuning a model, evaluating how it behaves, and operationalizing it within an enterprise workflow as clients transition from pilot to production-scale AI. The goal is to help organizations bridge the gap between innovation and real-world production, turning AI potential into measurable business results that are trustworthy.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="iMerit&amp;amp;apos;s Agent Evaluation Tool" width="740" height="416" src="https://www.youtube.com/embed/jj-pJVOpmTg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2 dir="ltr"&gt;Physical AI still has to demonstrate business value&lt;/h2&gt;
-&lt;p dir="ltr"&gt;&lt;strong&gt;Why aren&amp;#8217;t other companies taking your approach?&lt;/strong&gt;&lt;/p&gt;
-&lt;p dir="ltr"&gt;&lt;strong&gt;Kapoor:&lt;/strong&gt; Enterprise AI is entering a more demanding phase. Organizations have experimented widely, but most still struggle to achieve consistent business value.&lt;/p&gt;
-&lt;p dir="ltr"&gt;The challenge was never just picking a model; it&amp;#8217;s training, evaluating, adapting, and governing AI systems to perform reliably in specific business contexts. That&amp;#8217;s where capabilities like model evaluation, reinforcement learning, domain-specific data, red teaming, and expert human feedback become critical.&lt;/p&gt;
-&lt;p dir="ltr"&gt;AI economics will also push enterprises toward more specialized, purpose-built models, trained on proprietary data, optimized for their own workflows, and continuously improved based on performance. That makes high-quality data, evaluation, and reinforcement learning foundational capabilities, not peripheral services.&lt;/p&gt;
-&lt;p dir="ltr"&gt;This investment reflects a broader market shift: Value is moving from building AI models to making AI usable, trusted, cost-effective, and outcome-driven.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="EXL IntelliChain.AI" width="740" height="416" src="https://www.youtube.com/embed/nrc2ZkEKFn8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2 dir="ltr"&gt;Human experts help guarantee safety, notes iMerit head&lt;/h2&gt;
-&lt;p dir="ltr"&gt;&lt;strong&gt;Can you give examples of how this applies to the development of &lt;a href="https://www.therobotreport.com/category/robots-platforms/self-driving-vehicles/"&gt;autonomous vehicles&lt;/a&gt; and robotics?&lt;/strong&gt;&lt;/p&gt;
-&lt;p dir="ltr"&gt;&lt;strong&gt;Basu:&lt;/strong&gt; As AI moves into robotics and autonomous systems at the edge, success depends less on model scale and more on data quality. Physical AI must interpret noisy multimodal inputs, reason in real time, and act safely in unpredictable environments to identify the correct next action, not just the &amp;#8220;right&amp;#8221; answer.&lt;/p&gt;
-&lt;p dir="ltr"&gt;The challenges evolve from perception to planning and decision-making. Human experts play a critical role in creating high-quality ground truth data, and they help build realistic scenarios, identify rare edge cases, and evaluate whether a vehicle or robot responded appropriately.&lt;/p&gt;
-&lt;p dir="ltr"&gt;In autonomous driving, AI is trained on multimodal data &amp;#8212; &lt;a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener"&gt;vision&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/tag/lidar" target="_blank" rel="noopener"&gt;lidar&lt;/a&gt;, audio &amp;#8212; and tested through &lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;simulated&lt;/a&gt; scenarios like collisions. Experts evaluate not just what the vehicle sees, but also how it behaves and explains its decisions, ensuring it can act safely in real-world edge cases. These are complex, high-context, and high-cognition scenarios.&lt;/p&gt;
-&lt;p dir="ltr"&gt;&lt;strong&gt;What are the implications for safety and compliance?&lt;/strong&gt;&lt;/p&gt;
-&lt;p dir="ltr"&gt;&lt;strong&gt;Basu:&lt;/strong&gt; The blocker for AI deployment now is trust, accuracy, and validation versus model capability. Thus, &lt;a href="https://www.therobotreport.com/category/safety-security" target="_blank" rel="noopener"&gt;safety&lt;/a&gt; and compliance cannot be treated as a final check before launch. They must be designed into the data, training, evaluation, and monitoring process.&lt;/p&gt;
-&lt;p dir="ltr"&gt;Expert-driven data and domain insight can be transformed into interaction patterns that assess, torment, and oversee AI models in mission-critical applications.&lt;/p&gt;
-&lt;p dir="ltr"&gt;In regulated industries, organizations must be able to demonstrate not only that an AI system performs well on average, but that it was tested against the situations where an error could create irreversible clinical, financial, or operational harm. EXL strengthens this process through trace analysis, enabling organizations to follow the data and model behavior that led to a particular decision and better understand where errors or unexpected outcomes originated.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Accelerating HD Mapping for Autonomous Vehicles | HD Map Annotation Case Study" width="740" height="416" src="https://www.youtube.com/embed/Mk92FfEX2Ck?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;Competitive advantage comes from tech combos, domain expertise says EXL CEO&lt;/h2&gt;
-&lt;p dir="ltr"&gt;&lt;strong&gt;How do you see the AI market evolving, both in terms of the market and the applications?&lt;/strong&gt;&lt;/p&gt;
-&lt;p dir="ltr"&gt;&lt;strong&gt;Kapoor:&lt;/strong&gt; Competitive advantage in enterprise AI won&amp;#8217;t come from any single layer. It will come from bringing the right layers together: proprietary data, domain context, model evaluation, AI engineering, and governance.&lt;/p&gt;
-&lt;p dir="ltr"&gt;Foundation models will keep improving, but in the enterprise, the question isn&amp;#8217;t which model is most powerful. It&amp;#8217;s which AI system delivers the most reliable outcome in a specific workflow, under real regulatory and operational constraints. That&amp;#8217;s a fundamentally different challenge.&lt;/p&gt;
-&lt;p dir="ltr"&gt;Over the next three to five years, proprietary enterprise data will become one of the most valuable competitive assets. Companies will increasingly want specialized models trained on their own data, not just access to external model providers. And they&amp;#8217;ll need continuous evaluation and reinforcement learning to keep those models accurate and safe as conditions change.&lt;/p&gt;
-&lt;p dir="ltr"&gt;Domain expertise will matter more, not less. In complex workflows, underwriting, claims, healthcare payment integrity, fraud detection, credit decisioning, the model needs to understand the business, the risk, and the regulatory environment. That&amp;#8217;s where EXL has a differentiated position.&lt;/p&gt;
-&lt;p dir="ltr"&gt;The companies that win in enterprise AI will be those that combine data, context, AI, evaluation, and execution into one operating model. That has been EXL&amp;#8217;s strategy. The &lt;span class="markjgpt1wcq0" data-markjs="true" data-ogac="" data-ogab="" data-ogsc="" data-ogsb="" data-ogsbtc="" data-ogsbrc="" data-ogsbbc="" data-ogsblc=""&gt;iMerit&lt;/span&gt; acquisition strengthens it and positions us to play a more central role in how next-generation AI is built, governed, and deployed for real business outcomes.&lt;/p&gt;
-&lt;p dir="ltr"&gt;&lt;strong&gt;Editor’s note:&lt;/strong&gt; Sudeep George, chief technology officer at iMerit, recently participated in &lt;em&gt;The Robot Report&lt;/em&gt;‘s webinar on “&lt;a href="https://event.on24.com/wcc/r/5175330/1447431896DC588812C08612EBF73A90" target="_blank" rel="noopener"&gt;Physical AI and Robotics&lt;/a&gt;.”&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/exl-acquires-physical-ai-model-developer-imerit/"&gt;EXL acquires physical AI model developer iMerit&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/exl-acquires-physical-ai-model-developer-imerit/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
 		
 		
 			</item>

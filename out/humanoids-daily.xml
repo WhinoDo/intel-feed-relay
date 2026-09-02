@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 01 Sep 2026 15:14:29 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 02 Sep 2026 14:16:57 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/minth-group-and-agibot-launch-europe-s-first-humanoid-mass-production-line-in-serbia</guid>
+    <title>Minth Group and AGIBOT Launch Europe’s First Humanoid Mass Production Line in Serbia</title>
+    <link>https://www.humanoidsdaily.com/news/minth-group-and-agibot-launch-europe-s-first-humanoid-mass-production-line-in-serbia</link>
+    <description>Minth Group and AGIBOT have inaugurated Europe’s first mass-production base for humanoid robots in Šabac, backing a €20 million initial line ahead of a planned €200 million robotics hub in Inđija.</description>
+    <pubDate>Wed, 02 Sep 2026 14:16:57 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Europe</category><category>Market</category><category>Minth Group</category><category>China</category><category>AGIBOT</category>
+  </item>
+
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/isomorphism-over-imitation-x-square-unveils-twindex-to-bridge-the-robot-free-data-gap</guid>
+    <title>Isomorphism Over Imitation: X Square Unveils TwinDEX to Bridge the Robot-Free Data Gap</title>
+    <link>https://www.humanoidsdaily.com/news/isomorphism-over-imitation-x-square-unveils-twindex-to-bridge-the-robot-free-data-gap</link>
+    <description>Shenzhen-based X Square Robot has introduced TwinDEX, an isomorphic three-finger, nine-DoF manipulation interface paired between a wearable exoskeleton and a robot end effector to accelerate real-world dexterous data collection.</description>
+    <pubDate>Wed, 02 Sep 2026 13:48:26 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Data Collection</category><category>China</category><category>xsquare</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/the-no-bot-of-theseus-challenge-scott-walter-proposes-a-strict-decathlon-benchmark-for-humanoids</guid>
     <title>The "No Bot of Theseus" Challenge: Scott Walter Proposes a Strict Decathlon Benchmark for Humanoids</title>
@@ -288,26 +308,6 @@
     <pubDate>Mon, 17 Aug 2026 21:50:15 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Booster Robotics</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/from-importer-to-integrator-robostore-rebrands-as-robo-inc-amid-sweeping-us-hardware-bans</guid>
-    <title>From Importer to Integrator: RoboStore Rebrands as Robo Inc. Amid Sweeping US Hardware Bans</title>
-    <link>https://www.humanoidsdaily.com/news/from-importer-to-integrator-robostore-rebrands-as-robo-inc-amid-sweeping-us-hardware-bans</link>
-    <description>Confronting strict FCC import restrictions on foreign robots, top Unitree distributor RoboStore is launching Robo Inc. to focus on domestic assembly, cybersecurity vetting, and practical systems integration.</description>
-    <pubDate>Mon, 17 Aug 2026 21:28:08 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Robo Inc</category><category>RoboStore</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/schaeffler-cracks-the-cost-bottleneck-formed-strain-wave-gearboxes-target-2027-mass-production</guid>
-    <title>Schaeffler Cracks the Cost Bottleneck: Formed Strain Wave Gearboxes Target 2027 Mass Production</title>
-    <link>https://www.humanoidsdaily.com/news/schaeffler-cracks-the-cost-bottleneck-formed-strain-wave-gearboxes-target-2027-mass-production</link>
-    <description>By replacing traditional machining with high-speed forming technology, the German industrial giant claims to cut manufacturing costs for critical humanoid joints by more than 25 percent.</description>
-    <pubDate>Mon, 17 Aug 2026 16:48:38 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Europe</category><category>Actuators</category><category>Schaeffler</category>
   </item>
 
   </channel>
