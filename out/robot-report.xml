@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Wed, 02 Sep 2026 15:44:20 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Sep 2026 18:14:13 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,70 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Learn why food is physical AI’s hardest problem at RoboBusiness</title>
+		<link>https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/</link>
+					<comments>https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Wed, 02 Sep 2026 17:37:50 +0000</pubDate>
+				<category>Artificial Intelligence</category>
+		<category>Artificial Intelligence / Cognition</category>
+		<category>Design / Development</category>
+		<category>End Effectors / Grippers</category>
+		<category>Events</category>
+		<category>Food / Beverage</category>
+		<category>Markets / Industries</category>
+		<category>News</category>
+		<category>Sensors / Sensing Systems</category>
+		<category>chef robotics</category>
+		<category>food</category>
+		<category>robobusiness</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589396</guid>
+
+					<description>&lt;p&gt;Rajat Bhageria, the founder and CEO of Chef Robotics, will explore what makes food such a demanding benchmark for physical AI.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/"&gt;Learn why food is physical AI&amp;#8217;s hardest problem at RoboBusiness&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589397" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589397" class="size-full wp-image-589397" src="https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured.jpg" alt="Chef Robotics' robot picking up food." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589397" class="wp-caption-text"&gt;Chef Robotics has designed its robotic system to handle high-mix food preparation. | Source: Chef Robotics&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Physical AI has made remarkable strides, but most of the time, we use rigid objects to train foundation models. Food represents one of the most complex manipulation challenges in robotics, noted Chef Robotics. Every ingredient is deformable, inconsistent in weight and texture, sensitive to temperature, and must be handled with calibrated force across thousands of variations.&lt;/p&gt;
+&lt;p&gt;Chef Robotics said it has built the largest real-world dataset of deformable material manipulation. The &lt;a href="https://www.therobotreport.com/tag/chef-robotics/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; has completed over 118 million servings in production across over a dozen &lt;a href="https://www.therobotreport.com/category/markets-industries/food/" target="_blank" rel="noopener"&gt;food&lt;/a&gt; manufacturing facilities in North America and Europe. This data serves as the basis for its Food Foundation Model (FFM), which enables robots to generalize to new ingredients with minimal retraining.&lt;/p&gt;
+&lt;p&gt;At &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026 on Oct. 20 and 21 in Santa Clara, Calif., Rajat Bhageria, the founder and CEO of Chef Robotics, will give the talk, &amp;#8220;Why Food is Physical AI’s Hardest Problem and Most Promising Catalyst.&amp;#8221;&lt;/p&gt;
+&lt;h2&gt;Chef CEO to explore challenges, opportunities for food robotics&lt;/h2&gt;
+&lt;p&gt;&lt;iframe title="Chef Robotics physical AI system assembles a burrito bowl in under two minutes" width="740" height="416" src="https://www.youtube.com/embed/qp3I-RDuIpI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;This session will explore what makes food such a demanding benchmark for physical &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;. This includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The sensor-fusion challenges of &lt;a href="https://www.therobotreport.com/category/technologies/grippers-end-effectors/" target="_blank" rel="noopener"&gt;grasping&lt;/a&gt; soft and unpredictable objects&lt;/li&gt;
+&lt;li&gt;The force-control precision required to handle fragile versus dense materials&lt;/li&gt;
+&lt;li&gt;Why real-world variation at scale is irreplaceable for training robust policies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More importantly, Bhageria will show why solving food unlocks progress far beyond this industry. The techniques developed at Chef Robotics &amp;#8212; such as adaptive grasping, tactile feedback integration, and high-variance training distributions &amp;#8212; may transfer to medical devices, flexible packaging, agriculture, and other domains involving deformable materials.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria.jpg"&gt;&lt;img decoding="async" class="wp-image-589398 size-thumbnail alignleft" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria-150x150.jpg" alt="Rajat Bhageria." width="150" height="150" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria-150x150.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria-300x300.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria-238x238.jpg 238w, https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria.jpg 600w" sizes="(max-width: 150px) 100vw, 150px" /&gt;&lt;/a&gt;Attendees will leave with a concrete framework for thinking about deformable material manipulation as the next frontier in physical AI, and evidence that real-world data at scale is what separates lab demos from deployable systems.&lt;/p&gt;
+&lt;p&gt;San Francisco-based Chef Robotics is a physical AI company that automates food production. Previously, Bhageria was a founder and managing partner at Prototype Capital, a pre-seed venture capital fund investing in founders who apply new technology to old industries.&lt;/p&gt;
+&lt;p&gt;Before Prototype Capital, Bhageria founded ThirdEye, a company that developed assistive technology for the visually impaired. ThirdEye was ultimately acquired. Bhageria holds a master’s degree in robotics and machine learning and a bachelor’s degree in economics from the University of Pennsylvania.&lt;/p&gt;
+&lt;h2&gt;Register now for RoboBusiness 2026&lt;/h2&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Best Moments of RoboBusiness 2025" width="740" height="416" src="https://www.youtube.com/embed/sA7R9PGhCog?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;RoboBusiness 2026 is the leading event for commercial robotics developers. Attendees will gain the latest insights from experts in robotics and AI on cutting-edge research, industry trends, and innovative applications in sectors such as manufacturing, healthcare, agriculture, logistics, and more.&lt;/p&gt;
+&lt;p&gt;The show also features a number of &lt;a href="https://www.robobusiness.com/networking-events/" target="_blank" rel="noopener"&gt;networking opportunities&lt;/a&gt; to give attendees the chance to connect with other experts in the industry. This will include the Mix and Mingle reception on the first day of the show.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Buy your full conference pass&lt;/a&gt; and gain full access to all keynotes, technical sessions, networking receptions, and special events. Discounts are also available for academia, associations, and corporate groups. Please email events[at]arrowfly.com for more details about our discount programs.&lt;/p&gt;
+&lt;article class="type-post entry" aria-label="Registration is open for RoboBusiness 2026"&gt;
+&lt;div class="entry-content"&gt;
+&lt;p&gt;For information about sponsorship and exhibition opportunities, &lt;a href="https://www.robobusiness.com/sponsor/" target="_blank" rel="noopener"&gt;download the prospectus&lt;/a&gt;. Questions regarding sponsorship opportunities should be directed to Colleen Sepich at csepich[AT]arrowfly.com.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/"&gt;Learn why food is physical AI&amp;#8217;s hardest problem at RoboBusiness&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>AIR to use Elmo Motion Control technology in uncrewed cargo aircraft</title>
 		<link>https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/</link>
 					<comments>https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/#respond</comments>
@@ -46,7 +110,7 @@
 					<description>&lt;p&gt;The partnership brings together Elmo's compact, high-power density servo drives and AIR's electric aviation design.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/"&gt;AIR to use Elmo Motion Control technology in uncrewed cargo aircraft&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_589304" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589304" class="wp-image-589304 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured.jpg" alt="AIR says it brings together advanced flight systems, intelligent automation, and purpose-built design to create smart aircraft." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589304" class="wp-caption-text"&gt;AIR brings together advanced flight systems, intelligent automation, and purpose-built design to create smart aircraft. | Source: AIR&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_589304" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589304" class="wp-image-589304 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured.jpg" alt="AIR says it brings together advanced flight systems, intelligent automation, and purpose-built design to create smart aircraft." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/AIR-Image-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589304" class="wp-caption-text"&gt;AIR brings together advanced flight systems, intelligent automation, and purpose-built design to create smart aircraft. | Source: AIR&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;AIR VEV Inc. last week announced a strategic partnership with Elmo Motion Control Ltd. Elmo will integrate its high-performance motion control system into AIR&amp;#8217;s Heavy Lift UAS, or uncrewed aerial system.&lt;/p&gt;
 &lt;p&gt;The partnership brings together &lt;a href="https://www.elmomc.com/" target="_blank" rel="noopener"&gt;Elmo&lt;/a&gt;&amp;#8216;s compact, high-power density servo drives and AIR&amp;#8217;s electric aviation design. Elmo&amp;#8217;s Gold HV drive will power the &lt;a href="https://www.airev.aero/" target="_blank" rel="noopener"&gt;company&lt;/a&gt;&amp;#8216;s eight electric propulsion motors, delivering precise, responsive control for the AIR 120D VTOL-capable cargo &lt;a href="https://www.therobotreport.com/category/robots-platforms/uav-drones/" target="_blank" rel="noopener"&gt;drone&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;AIR selected Elmo based on the combination of performance, power density, weight, efficiency, and system-level integration capabilities of its high-voltage servo drives,&amp;#8221; AIR CEO Rani Plaut told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;For an electric aircraft, every gram matters, and the propulsion system needs to deliver high power while remaining compact, efficient, reliable, and thermally manageable. Elmo’s Gold HV platform offered a strong fit for these requirements.&amp;#8221;&lt;/p&gt;
@@ -58,7 +122,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;AIR designs dual-use drones&lt;/h2&gt;
@@ -67,7 +131,7 @@
 &lt;p&gt;&amp;#8220;The integration is already under way as part of the AIR 120D development program,&amp;#8221; said Plaut. &amp;#8220;Elmo’s Gold HV motor drives are being integrated to power the aircraft’s eight electric propulsion motors.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;&amp;#8220;We are currently focused on completing the integration and validation process and will share additional details on testing and operational deployment as we reach the appropriate milestones,&amp;#8221; he noted. &amp;#8220;Our priority is to ensure the technology is fully validated against AIR’s performance, safety, and operational requirements before moving into the next phase of deployment.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;To date, over 25 units of AIR&amp;#8217;s Heavy Lift drones have been ordered and paid for, continuing to signal strong market demand. This announcement came on the heels of recent partnerships by AIR, including &lt;a href="https://www.prnewswire.com/news-releases/air-selects-dynon-avionics-as-exclusive-avionics-provider-across-smart-aircraft-portfolio-302789254.html" target="_blank" rel="noopener"&gt;with Dynon Avionics&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;iframe title="AIR ONE - Smart Aircraft CEO Tour" width="740" height="416" src="https://www.youtube.com/embed/SDnd1wXMvWY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="AIR ONE - Smart Aircraft CEO Tour" width="740" height="416" src="https://www.youtube.com/embed/SDnd1wXMvWY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;Customers can expect capability improvements&lt;/h2&gt;
 &lt;p&gt;Once integration is finished, AIR&amp;#8217;s customers should start seeing its biggest impacts in mission capability.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;Reducing the weight and complexity of the propulsion system allows the aircraft to dedicate more of its available weight to useful payload while maintaining the performance required for demanding missions,&amp;#8221; Plaut said. &amp;#8220;This can translate into greater flexibility in how customers use the aircraft — whether for &lt;a href="https://www.therobotreport.com/category/markets-industries/defense-security/" target="_blank" rel="noopener"&gt;defense&lt;/a&gt; logistics, commercial cargo operations, or humanitarian missions.&amp;#8221;&lt;/p&gt;
@@ -1027,57 +1091,6 @@ Middleware creates another exposure point. Vulnerabilities in ROS 2 and DDS-base
 					
 					<ns4:commentRss>https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Deere faces headwinds in Q3 update and announces Reservoir R&amp;D partnership</title>
-		<link>https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/</link>
-					<comments>https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/#comments</comments>
-		
-		<dc:creator>Mike Oitzman</dc:creator>
-		<pubDate>Fri, 28 Aug 2026 21:06:40 +0000</pubDate>
-				<category>Agriculture</category>
-		<category>Analysis</category>
-		<category>Autonomous Mobile Robots (AMRs)</category>
-		<category>Earnings</category>
-		<category>Investments</category>
-		<category>News</category>
-		<category>John Deere</category>
-		<category>Reservoir</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589321</guid>
-
-					<description>&lt;p&gt;Deere beats Q3 expectations, raises guidance, and partners with Reservoir on a $10 million agtech AI initiative.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/"&gt;Deere faces headwinds in Q3 update and announces Reservoir R&amp;#038;D partnership&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589343" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589343" class="wp-image-589343 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/bernstein-sundberg-reservoir-featured.jpg" alt="Danny Bernstein from Reservoir and Sean Sundberg from John Deere shake hands in a field." width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/bernstein-sundberg-reservoir-featured.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/08/bernstein-sundberg-reservoir-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/bernstein-sundberg-reservoir-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/bernstein-sundberg-reservoir-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/bernstein-sundberg-reservoir-featured-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589343" class="wp-caption-text"&gt;Danny Bernstein (l) from Reservoir and Sean Sundberg (r) from John Deere announced a partnership at the Ruggedize event. | Credit: Reservoir&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;Deere &amp;amp; Co. last week posted Q3 2026 net income of $1.379 billion, or $5.10 per share, outperforming market expectations despite headwinds in its &lt;/span&gt;Production and Precision Agriculture&lt;span data-contrast="auto"&gt; division—the primary unit driving revenue from the company&amp;#8217;s autonomous machinery, smart targeting systems, and precision technologies.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335551550&amp;quot;:0,&amp;quot;335551620&amp;quot;:0,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:240}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;Production and Precision Agriculture Q3 breakdown:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li aria-setsize="-1" data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559683&amp;quot;:0,&amp;quot;335559684&amp;quot;:-2,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}" data-aria-posinset="1" data-aria-level="1"&gt;&lt;b&gt;&lt;span data-contrast="auto"&gt;Small Agriculture and Turf &lt;/span&gt;&lt;/b&gt;&lt;span data-contrast="auto"&gt;sales increased for the quarter. Net sales were up 12%, and profit was up 28%.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335551550&amp;quot;:0,&amp;quot;335551620&amp;quot;:0,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}"&gt; &lt;/span&gt;&lt;/li&gt;
-&lt;li aria-setsize="-1" data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559683&amp;quot;:0,&amp;quot;335559684&amp;quot;:-2,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}" data-aria-posinset="1" data-aria-level="1"&gt;&lt;b&gt;&lt;span data-contrast="auto"&gt;Production and Precision Agriculture&lt;/span&gt;&lt;/b&gt;&lt;span data-contrast="auto"&gt; sales decreased for the quarter as a result of lower shipment volumes, partially offset by favorable price realization and foreign currency translation. Net sales were down 6%, and profit was down 9%.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;The revised outlook signaled that the multi-year downturn in global farm machinery demand may finally be reaching its floor. By raising its full-year net income guidance to a range of $4.75 billion to $5 billion, Deere is reinforcing its thesis that fiscal 2026 represents the trough of the current &lt;a href="https://www.therobotreport.com/category/markets-industries/ag/" target="_blank" rel="noopener"&gt;agricultural&lt;/a&gt; equipment cycle. &lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335551550&amp;quot;:0,&amp;quot;335551620&amp;quot;:0,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;Crucially, as traditional equipment order volumes contend with elevated input costs and softer international demand, the &lt;a href="https://www.therobotreport.com/tag/john-deere" target="_blank" rel="noopener"&gt;company&lt;/a&gt; is poised for a tech-enabled recovery as global replacement cycles resume. Deere said it expects to benefit from expanding adoption of high-margin autonomous capabilities, automated spraying systems, and connected fleet software, which are providing a vital structural buffer for operating margins.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335551550&amp;quot;:0,&amp;quot;335551620&amp;quot;:0,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;b&gt;&lt;span data-contrast="auto"&gt;Deere partners with Reservoir&lt;/span&gt;&lt;/b&gt;&lt;span data-ccp-props="{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335551550&amp;quot;:0,&amp;quot;335551620&amp;quot;:0,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}"&gt; &lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;This week, &lt;a href="http://www.therobotreport.com/tag/reservoir/" target="_blank" rel="noopener"&gt;Reservoir&lt;/a&gt; announced a $10 million, three-year research and development partnership with John Deere to accelerate real-world development and commercialization of rugged &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; technologies for high-value crop agriculture.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335551550&amp;quot;:0,&amp;quot;335551620&amp;quot;:0,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:240}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;The partnership builds on a relationship that began when Reservoir was founded in 2024 and reflects Deere&amp;#8217;s commitment to an innovation ecosystem that moves faster from prototype to grower impact.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335551550&amp;quot;:0,&amp;quot;335551620&amp;quot;:0,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;Reservoir hosted its first &lt;a href="https://ruggedize.ai/" target="_blank" rel="noopener"&gt;Ruggedize&lt;/a&gt; event this week in Salinas, Calif. The event brought together engineers, founders, and technical teams building robotic and AI systems that must survive the realities of active farmland. Deere is key investor in Reservoir.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;“John Deere is committed to helping high-value crop growers do more with less, and that requires strong innovation built in the field, not just in the lab,” said Jason Brantley, vice president of production systems, small ag and turf, at John Deere.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;“Real-world validation is a key part of Deere’s mission and helps ensure new solutions are addressing real challenges farmers are facing,&amp;#8221; he added. &amp;#8220;Automation on the farm is addressing the immediate labor and efficiency needs of the industry, and Reservoir is also helping explore what innovations come next across data, connectivity and other emerging agtech solutions.”&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335551550&amp;quot;:0,&amp;quot;335551620&amp;quot;:0,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;Reservoir said the partnership will help broaden access to its on-farm technical community by subsidizing startup participation and lowering barriers for founders entering the ecosystem. It will also expand opportunities for innovation in rural communities by connecting entrepreneurs and deep-tech engineers more directly with growers, farm operations, and industry partners across California, Arizona, and other key agricultural regions.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Editor&amp;#8217;s note:&lt;/strong&gt; Field robotics is the topic of a session track at &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026, which will be on Oct. 20 and 21 in Santa Clara, Calif. &lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Register now to attend.&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/"&gt;Deere faces headwinds in Q3 update and announces Reservoir R&amp;#038;D partnership&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/feed/</ns4:commentRss>
-			<ns5:comments>1</ns5:comments>
 		
 		
 			</item>
