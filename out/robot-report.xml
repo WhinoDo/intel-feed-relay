@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Wed, 02 Sep 2026 18:14:13 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Sep 2026 19:45:19 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,87 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>NexCOBOT discusses physical AI market hurdles and acceleration</title>
+		<link>https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/</link>
+					<comments>https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/#respond</comments>
+		
+		<dc:creator>Eugene Demaitre</dc:creator>
+		<pubDate>Wed, 02 Sep 2026 19:45:19 +0000</pubDate>
+				<category>Artificial Intelligence / Cognition</category>
+		<category>Controllers</category>
+		<category>Healthcare Robotics</category>
+		<category>Human Robot Interaction / Haptics</category>
+		<category>Humanoids</category>
+		<category>Investments</category>
+		<category>Logistics</category>
+		<category>Manufacturing</category>
+		<category>Mergers &amp; Acquisitions</category>
+		<category>Motion Control</category>
+		<category>News</category>
+		<category>Software / Simulation</category>
+		<category>legged</category>
+		<category>Legged Robots</category>
+		<category>NexCOBOT</category>
+		<category>NEXCOM</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589400</guid>
+
+					<description>&lt;p&gt;NexCOBOT, which provides functional safety and motion controllers, discusses how physical AI benefits from 'Big Tech' and where it will grow.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/"&gt;NexCOBOT discusses physical AI market hurdles and acceleration&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589401" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589401" class="size-full wp-image-589401" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Robotic-Summit-PR-image-banner_NexCOBOT-scaled-1.jpg" alt="NexCOBOT, which exhibited at the Robotics Summit &amp;amp; Expo, provides a range of controllers." width="770" height="496" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Robotic-Summit-PR-image-banner_NexCOBOT-scaled-1.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/Robotic-Summit-PR-image-banner_NexCOBOT-scaled-1-300x193.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Robotic-Summit-PR-image-banner_NexCOBOT-scaled-1-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Robotic-Summit-PR-image-banner_NexCOBOT-scaled-1-768x495.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/Robotic-Summit-PR-image-banner_NexCOBOT-scaled-1-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589401" class="wp-caption-text"&gt;NexCOBOT, which exhibited at the Robotics Summit &amp;amp; Expo, provides a range of controllers. Source: NexCOBOT&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Humanoid robotics and physical AI developers are not only raising billions of dollars; they&amp;#8217;re also getting acquired by big technology companies. This has implications for industrial adoption, according to &lt;a href="https://www.linkedin.com/in/jennyshern/" target="_blank" rel="noopener"&gt;Jenny Shern&lt;/a&gt;, general manager of NexCOBOT.&lt;/p&gt;
+&lt;p&gt;For instance, &lt;a href="https://www.therobotreport.com/mobileye-to-acquire-mentee-robotics-for-900m-bid-dominate-physical-ai/" target="_blank" rel="noopener"&gt;Mobileye acquired Mentee Robotics&lt;/a&gt; for $900 million in January, &lt;a href="https://www.therobotreport.com/amazon-acquires-humanoid-developer-fauna-robotics/" target="_blank" rel="noopener"&gt;Amazon bought Fauna Robotics&lt;/a&gt; in March, and Meta &lt;a href="https://finance.yahoo.com/sectors/technology/articles/meta-acquires-assured-robot-intelligence-174157587.html" target="_blank" rel="noopener"&gt;picked up&lt;/a&gt; Assured Robot Intelligence in May.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Beginning last year, our team got lots of requests from companies building legged robots, including quadrupeds and humanoids, as well as mobile manipulators,&amp;#8221; Shern told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;Our controllers support traditional robots and these newer kinds of systems.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;NexCOBOT spun out of &lt;a href="https://www.nexcom.com/index.html" target="_blank" rel="noopener"&gt;NEXCOM Group&lt;/a&gt;&amp;#8216;s IoT Automation Solutions business unit in 2018. The New Taipei City, Taiwan-based &lt;a href="https://www.therobotreport.com/tag/nexcobot/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; offers &lt;a href="https://www.therobotreport.com/category/robot-components/motioncontrol/" target="_blank" rel="noopener"&gt;motion controllers&lt;/a&gt;, functional &lt;a href="https://www.therobotreport.com/tag/safety/" target="_blank" rel="noopener"&gt;safety&lt;/a&gt; controllers, peripheral components, and design verification consulting services to robotics developers and manufacturers.&lt;/p&gt;
+&lt;p&gt;Shern shared her perspective on how the physical &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; market is evolving.&lt;/p&gt;
+&lt;h2&gt;Big Tech finds acquisition a fast path to innovation&lt;/h2&gt;
+&lt;p&gt;&lt;b data-olk-copy-source="MessageBody"&gt;Do you expect to see more &lt;a href="https://www.therobotreport.com/category/financial/mergers-acquisitions/" target="_blank" rel="noopener"&gt;acquisitions&lt;/a&gt;?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Shern: &lt;/strong&gt;Acquisitions will certainly continue as robotics becomes increasingly important to major tech companies. Smaller robotics companies and &lt;a href="https://www.therobotreport.com/category/startups/" target="_blank" rel="noopener"&gt;startups&lt;/a&gt; have strong expertise in areas such as robot learning, perception, or autonomous control, while larger companies have the computing infrastructure, data resources and capital needed to scale those innovations.&lt;/p&gt;
+&lt;p&gt;As AI models continue to improve, acquiring these companies offers a faster path for &amp;#8220;Big Tech&amp;#8221; firms to streamline development and establish a position in what many see as the next phase of intelligent systems.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;How is NexCOBOT doing in terms of its own funding?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Shern: &lt;/strong&gt;Due to &lt;a href="https://www.nexcobot.com/en/index" target="_blank" rel="noopener"&gt;company&lt;/a&gt; policy, we do not disclose details around specific internal finances or independent funding. However, we can share that NexCOBOT is in a highly stable financial position.&lt;/p&gt;
+&lt;p&gt;Our priorities are entirely focused on scaling our open, functional safety robotic controllers, and fulfilling our strong backlog of global orders as we head into mass production.&lt;/p&gt;
+&lt;p&gt;&lt;iframe title="The Future Core of AI Robotics — Beyond Control, Computing &amp;amp; Safety |【 NexCOBOT Express 】" width="740" height="416" src="https://www.youtube.com/embed/OraCWeIs1aE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;AI-native robots must still prove reliability and safety&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;While U.S. funding for physical AI and large rounds has increased, overall VC investment in early-stage companies has reportedly fallen. What does that mean for robotics developers and innovation?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Shern: &lt;/strong&gt;This creates a more selective funding environment for robotics developers. Capital is still available for companies that demonstrate strong technical differentiation and a clear path to commercialization, but early-stage startups may experience greater pressure to validate their business models sooner. While that could slow the number of new entrants, it may also encourage more focused robotics innovation aimed at solving real operational challenges.&lt;/p&gt;
+&lt;p&gt;Additionally, the industry may see increased collaboration between startups, industrial companies, and larger technology firms as developers look for alternative paths to scale development and bring new technologies to market.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;You&amp;#8217;ve referred to &amp;#8220;AI-native robots.&amp;#8221; What do you mean by that term, and how quickly are they maturing?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Shern: &lt;/strong&gt;AI-native robots are robots that were originally structured to incorporate AI as a core part of how they perceive, make decisions, and interact with their environment. Traditional robots typically follow predefined instructions in structured settings, while AI-native robots are designed to adapt to changing conditions and learn from new inputs.&lt;/p&gt;
+&lt;p&gt;We are seeing rapid progress, especially in perception, motion planning, and &lt;a href="https://www.therobotreport.com/category/design-development/haptics/" target="_blank" rel="noopener"&gt;human-robot interaction&lt;/a&gt;. However, for industrial applications, reliability and safety remain critical requirements, so adoption will continue to advance in stages as the technology proves itself in real-world environments.&lt;/p&gt;
+&lt;p&gt;&lt;iframe title="Humanoid Robot Safety: Navigating Functional Safety &amp;amp; Edge AI with Reynolds and More - NexCOBOT" width="740" height="416" src="https://www.youtube.com/embed/z36R6YJRhlY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Software can enable physical AI to scale, says NexCOBOT&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;Since &lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;software&lt;/a&gt; and AI development typically move faster than robotics hardware, how can Big Tech combine the strengths of each?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Shern: &lt;/strong&gt;Big Tech can help bridge this speed disparity while leveraging the strengths of both industries by separating software innovation from hardware development wherever possible.&lt;/p&gt;
+&lt;p&gt;AI models and software can be updated and improved continuously, while robotics hardware typically requires longer design, testing and deployment cycles to meet reliability and safety requirements.&lt;/p&gt;
+&lt;p&gt;By building on modular platforms and standardized interfaces, new AI capabilities can be deployed onto existing robotic systems without waiting for entirely new hardware generations. This allows robotics developers to take advantage of the pace of AI advancement while maintaining the stability and durability that industrial applications demand.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Can you give an example of where &lt;a href="https://www.therobotreport.com/category/ros-open-source" target="_blank" rel="noopener"&gt;open&lt;/a&gt; ecosystems have benefitted both the tech suppliers and the users?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Shern: &lt;/strong&gt;One recent example is the growing adoption of open robot &lt;a href="https://www.therobotreport.com/category/technologies/controllers/" target="_blank" rel="noopener"&gt;control&lt;/a&gt; platforms, which allows manufacturers to integrate components from different vendors versus relying on a single proprietary ecosystem. This gives users greater flexibility to choose the technologies that best fit their applications while reducing integration complexity.&lt;/p&gt;
+&lt;p&gt;Take a recent client case, for instance: By deploying our certified functional safety controller based on an open system, we helped the client shorten its development cycle from an estimated three to five years down to just two years.&lt;/p&gt;
+&lt;p&gt;For suppliers, open ecosystems expand market opportunities because their products can work across a wider range of platforms and industries. We are also seeing them drive increased collaboration around AI frameworks and software tools, which helps accelerate development while lowering barriers to adoption.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;NexCOBOT sees physical AI expanding&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;Are there particular segments where you see big tech companies moving into with physical AI – will it be in established industries or new applications for robots and automation?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Shern: &lt;/strong&gt;I expect activity in both segments. Established industries like &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;manufacturing&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/markets-industries/logistics-warehousing-asrs/" target="_blank" rel="noopener"&gt;logistics&lt;/a&gt;, and &lt;a href="https://www.automatedwarehouseonline.com/" target="_blank" rel="noopener"&gt;warehousing&lt;/a&gt; already have clear business use cases for automation, which makes them attractive opportunities for scaling physical AI.&lt;/p&gt;
+&lt;p&gt;At the same time, advances in AI are opening possibilities in less structured environments where robotics traditionally struggle, including &lt;a href="https://www.therobotreport.com/tag/service-robots/" target="_blank" rel="noopener"&gt;service&lt;/a&gt; applications and &lt;a href="https://www.therobotreport.com/category/markets-industries/biotechnology-medical-healthcare/" target="_blank" rel="noopener"&gt;healthcare&lt;/a&gt; support. The most immediate adoption will likely happen where there is already strong demand, but the long-term impact could extend far beyond traditional &lt;a href="https://www.therobotreport.com/category/robots-platforms/industrial-robots/" target="_blank" rel="noopener"&gt;industrial&lt;/a&gt; settings.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Are there certain types of robots that are more likely to get picked up by Big Tech – or not?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Shern: &lt;/strong&gt;Robots that generate large amounts of operational data and can benefit directly from advances in AI are likely to attract the most attention from Big Tech. &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;Humanoid&lt;/a&gt; robots, &lt;a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener"&gt;mobile robots&lt;/a&gt;, and systems designed for dynamic environments align closely with large technology companies’ strengths in AI, computing infrastructure and software development.&lt;/p&gt;
+&lt;p&gt;Highly specialized robots built for a narrow industrial process may be less attractive unless they provide unique intellectual property or address a particularly large market opportunity. Ultimately, companies will look for robotics technologies that can scale across multiple applications and create long-term business advantages.&lt;/p&gt;
+&lt;div id="attachment_583656" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-583656" class="size-full wp-image-583656" src="https://www.therobotreport.com/wp-content/uploads/2025/04/NexCOBOT_in_collaboration_with_German_partner_Sysgo_and_BOTFELLOWS_has_developed_a_high-safety-level_robotic_dynamic_safety_collaboration_space_featured.jpg" alt="NexCOBOT's Functional Safety system on display." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2025/04/NexCOBOT_in_collaboration_with_German_partner_Sysgo_and_BOTFELLOWS_has_developed_a_high-safety-level_robotic_dynamic_safety_collaboration_space_featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2025/04/NexCOBOT_in_collaboration_with_German_partner_Sysgo_and_BOTFELLOWS_has_developed_a_high-safety-level_robotic_dynamic_safety_collaboration_space_featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2025/04/NexCOBOT_in_collaboration_with_German_partner_Sysgo_and_BOTFELLOWS_has_developed_a_high-safety-level_robotic_dynamic_safety_collaboration_space_featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2025/04/NexCOBOT_in_collaboration_with_German_partner_Sysgo_and_BOTFELLOWS_has_developed_a_high-safety-level_robotic_dynamic_safety_collaboration_space_featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2025/04/NexCOBOT_in_collaboration_with_German_partner_Sysgo_and_BOTFELLOWS_has_developed_a_high-safety-level_robotic_dynamic_safety_collaboration_space_featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-583656" class="wp-caption-text"&gt;NexCOBOT&amp;#8217;s Functional Safety system, ROBASafe, shortens the overall development life cycle for customers and provides faster time-to-market solution. | Source: NexCOBOT&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/"&gt;NexCOBOT discusses physical AI market hurdles and acceleration&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>Learn why food is physical AI’s hardest problem at RoboBusiness</title>
 		<link>https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/</link>
 					<comments>https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/#respond</comments>
@@ -45,12 +126,12 @@
 					<description>&lt;p&gt;Rajat Bhageria, the founder and CEO of Chef Robotics, will explore what makes food such a demanding benchmark for physical AI.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/"&gt;Learn why food is physical AI&amp;#8217;s hardest problem at RoboBusiness&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_589397" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589397" class="size-full wp-image-589397" src="https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured.jpg" alt="Chef Robotics' robot picking up food." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589397" class="wp-caption-text"&gt;Chef Robotics has designed its robotic system to handle high-mix food preparation. | Source: Chef Robotics&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_589397" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589397" class="size-full wp-image-589397" src="https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured.jpg" alt="Chef Robotics' robot picking up food." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/chefrobotics-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589397" class="wp-caption-text"&gt;Chef Robotics has designed its robotic system to handle high-mix food preparation. | Source: Chef Robotics&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Physical AI has made remarkable strides, but most of the time, we use rigid objects to train foundation models. Food represents one of the most complex manipulation challenges in robotics, noted Chef Robotics. Every ingredient is deformable, inconsistent in weight and texture, sensitive to temperature, and must be handled with calibrated force across thousands of variations.&lt;/p&gt;
 &lt;p&gt;Chef Robotics said it has built the largest real-world dataset of deformable material manipulation. The &lt;a href="https://www.therobotreport.com/tag/chef-robotics/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; has completed over 118 million servings in production across over a dozen &lt;a href="https://www.therobotreport.com/category/markets-industries/food/" target="_blank" rel="noopener"&gt;food&lt;/a&gt; manufacturing facilities in North America and Europe. This data serves as the basis for its Food Foundation Model (FFM), which enables robots to generalize to new ingredients with minimal retraining.&lt;/p&gt;
 &lt;p&gt;At &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026 on Oct. 20 and 21 in Santa Clara, Calif., Rajat Bhageria, the founder and CEO of Chef Robotics, will give the talk, &amp;#8220;Why Food is Physical AI’s Hardest Problem and Most Promising Catalyst.&amp;#8221;&lt;/p&gt;
 &lt;h2&gt;Chef CEO to explore challenges, opportunities for food robotics&lt;/h2&gt;
-&lt;p&gt;&lt;iframe title="Chef Robotics physical AI system assembles a burrito bowl in under two minutes" width="740" height="416" src="https://www.youtube.com/embed/qp3I-RDuIpI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Chef Robotics physical AI system assembles a burrito bowl in under two minutes" width="740" height="416" src="https://www.youtube.com/embed/qp3I-RDuIpI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;This session will explore what makes food such a demanding benchmark for physical &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;. This includes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The sensor-fusion challenges of &lt;a href="https://www.therobotreport.com/category/technologies/grippers-end-effectors/" target="_blank" rel="noopener"&gt;grasping&lt;/a&gt; soft and unpredictable objects&lt;/li&gt;
@@ -58,7 +139,7 @@
 &lt;li&gt;Why real-world variation at scale is irreplaceable for training robust policies&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;More importantly, Bhageria will show why solving food unlocks progress far beyond this industry. The techniques developed at Chef Robotics &amp;#8212; such as adaptive grasping, tactile feedback integration, and high-variance training distributions &amp;#8212; may transfer to medical devices, flexible packaging, agriculture, and other domains involving deformable materials.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria.jpg"&gt;&lt;img decoding="async" class="wp-image-589398 size-thumbnail alignleft" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria-150x150.jpg" alt="Rajat Bhageria." width="150" height="150" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria-150x150.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria-300x300.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria-238x238.jpg 238w, https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria.jpg 600w" sizes="(max-width: 150px) 100vw, 150px" /&gt;&lt;/a&gt;Attendees will leave with a concrete framework for thinking about deformable material manipulation as the next frontier in physical AI, and evidence that real-world data at scale is what separates lab demos from deployable systems.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria.jpg"&gt;&lt;img loading="lazy" decoding="async" class="wp-image-589398 size-thumbnail alignleft" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria-150x150.jpg" alt="Rajat Bhageria." width="150" height="150" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria-150x150.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria-300x300.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria-238x238.jpg 238w, https://www.therobotreport.com/wp-content/uploads/2026/09/Rajat-Bhageria.jpg 600w" sizes="auto, (max-width: 150px) 100vw, 150px" /&gt;&lt;/a&gt;Attendees will leave with a concrete framework for thinking about deformable material manipulation as the next frontier in physical AI, and evidence that real-world data at scale is what separates lab demos from deployable systems.&lt;/p&gt;
 &lt;p&gt;San Francisco-based Chef Robotics is a physical AI company that automates food production. Previously, Bhageria was a founder and managing partner at Prototype Capital, a pre-seed venture capital fund investing in founders who apply new technology to old industries.&lt;/p&gt;
 &lt;p&gt;Before Prototype Capital, Bhageria founded ThirdEye, a company that developed assistive technology for the visually impaired. ThirdEye was ultimately acquired. Bhageria holds a master’s degree in robotics and machine learning and a bachelor’s degree in economics from the University of Pennsylvania.&lt;/p&gt;
 &lt;h2&gt;Register now for RoboBusiness 2026&lt;/h2&gt;
@@ -1023,73 +1104,6 @@ Middleware creates another exposure point. Vulnerabilities in ROS 2 and DDS-base
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>From teach and repeat to SelfPath AI: The next robotics leap</title>
-		<link>https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/</link>
-					<comments>https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/#respond</comments>
-		
-		<dc:creator>Mike Oitzman</dc:creator>
-		<pubDate>Fri, 28 Aug 2026 23:25:06 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Automated Warehouse</category>
-		<category>Logistics</category>
-		<category>News</category>
-		<category>Opinion</category>
-		<category>Podcast</category>
-		<category>Software</category>
-		<category>Startups</category>
-		<category>Brain Corp</category>
-		<category>Generalist</category>
-		<category>Nvidia</category>
-		<category>Symbotic</category>
-		<category>XPENG Robotics</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589353</guid>
-
-					<description>&lt;p&gt;John Black, chief technology officer at Brian Corp, shares insights on how to build trust for robotics fleets and AI.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/"&gt;From teach and repeat to SelfPath AI: The next robotics leap&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;p&gt;&lt;iframe loading="lazy" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2390500761&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true" width="100%" height="166" frameborder="no" scrolling="no"&gt;&lt;span style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" data-mce-type="bookmark" class="mce_SELRES_start"&gt;﻿&lt;/span&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;"&gt;&lt;a style="color: #cccccc; text-decoration: none;" title="The Robot Report Podcast" href="https://soundcloud.com/robot-report-podcast" target="_blank" rel="noopener"&gt;The Robot Report Podcast&lt;/a&gt; · &lt;a style="color: #cccccc; text-decoration: none;" title="From Teach-and-Repeat to SelfPath AI: The next robotics leap" href="https://soundcloud.com/robot-report-podcast/from-teach-and-repeat-to" target="_blank" rel="noopener"&gt;From Teach-and-Repeat to SelfPath AI: The next robotics leap&lt;/a&gt;&lt;/div&gt;
-&lt;div id="attachment_589354" style="width: 360px" class="wp-caption alignleft"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589354" class="size-full wp-image-589354" src="https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot.jpg" alt="headshot of john black." width="350" height="437" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot.jpg 350w, https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot-240x300.jpg 240w, https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/08/John-Black-Headshot-191x238.jpg 191w" sizes="auto, (max-width: 350px) 100vw, 350px" /&gt;&lt;p id="caption-attachment-589354" class="wp-caption-text"&gt;John Black, CTO, Brain Corp.&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;In Episode 259 of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, the topic is scaling robot fleets and building trust while operating in public spaces.&lt;/p&gt;
-&lt;p&gt;Our guest is John Black, chief technology officer at &lt;a href="https://www.therobotreport.com/tag/brain-corp/" target="_blank" rel="noopener"&gt;Brain Corp&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;He has commercialized a fleet of over 50,000 autonomous mobile robots (&lt;a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener"&gt;AMRs&lt;/a&gt;), which have logged more than 25 million hours of safe, real-world operation powered by BrainOS.&lt;/p&gt;
-&lt;p&gt;A Carnegie Mellon University graduate, Black is a TÜV Rheinland-certified functional safety engineer and serves as board chair for the &lt;a href="https://www.therobotreport.com/tag/university-of-california-san-diego/" target="_blank" rel="noopener"&gt;UC San Diego&lt;/a&gt; Jacobs School of Engineering Corporate Affiliates Program.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Show timeline&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;10:00 &amp;#8211; News of the week&lt;/li&gt;
-&lt;li&gt;25:43 &amp;#8211; &lt;a href="https://www.linkedin.com/in/john-b-22744b8/" target="_blank" rel="noopener"&gt;John Black&lt;/a&gt;, CTO, Brain Corp&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;News of the week&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/" target="_blank" rel="noopener"&gt;&lt;span class="TextRun SCXW20403845 BCX2" lang="EN-US" xml:lang="EN-US" data-contrast="none"&gt;&lt;span class="NormalTextRun SCXW20403845 BCX2" data-ccp-parastyle="heading 1"&gt;XPeng Motors humanoid robot unit &lt;/span&gt;&lt;span class="NormalTextRun SpellingErrorV2Themed SCXW20403845 BCX2" data-ccp-parastyle="heading 1"&gt;Dogotix&lt;/span&gt;&lt;span class="NormalTextRun SCXW20403845 BCX2" data-ccp-parastyle="heading 1"&gt; raises $900M&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class="TextRun SCXW175998906 BCX2" lang="EN-US" xml:lang="EN-US" data-contrast="auto"&gt;&lt;span class="NormalTextRun SCXW175998906 BCX2" data-ccp-parastyle="heading 2"&gt;&lt;a href="https://www.therobotreport.com/tag/generalist/" target="_blank" rel="noopener"&gt;Generalist&lt;/a&gt; &lt;a href="https://www.axios.com/2026/08/24/robotics-ai-generalist-200m" target="_blank" rel="noopener"&gt;brings in another $200M in funding&lt;/a&gt; &lt;a href="https://generalistai.com/blog/gen-1.5" target="_blank" rel="noopener"&gt;as it updates its model&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/" target="_blank" rel="noopener"&gt;&lt;span class="TextRun SCXW224563747 BCX2" lang="EN-US" xml:lang="EN-US" data-contrast="auto"&gt;&lt;span class="NormalTextRun SCXW224563747 BCX2" data-ccp-parastyle="heading 2"&gt;Jetson Orin Nano 2 doubles inference performance for robotics on the edge, says NVIDIA&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.automatedwarehouseonline.com/symbotic-takes-no-1-warehouse-automation-market-share-says-interact-analysis/" target="_blank" rel="noopener"&gt;&lt;span class="TextRun SCXW75379993 BCX2" lang="EN-US" xml:lang="EN-US" data-contrast="auto"&gt;&lt;span class="NormalTextRun SpellingErrorV2Themed SpellingErrorHighlight SCXW75379993 BCX2" data-ccp-parastyle="heading 2"&gt;Symbotic&lt;/span&gt;&lt;span class="NormalTextRun SCXW75379993 BCX2" data-ccp-parastyle="heading 2"&gt; takes No. 1 in warehouse automation, according to Interact Analysis&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Sponsors&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Thanks to our sponsors who make this content possible.&lt;/em&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;To learn how you can sponsor a future episode of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, contact Jami Brownlee at &lt;a href="mailto:jbrownlee@arrowfly.com" target="_blank" rel="noopener"&gt;jbrownlee@arrowfly.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Would you like to be a guest on a future episode? Contact Mike Oitzman at &lt;a href="mailto:moitzman@arrowfly.com" target="_blank" rel="noopener"&gt;moitzman@arrowfly.com&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/"&gt;From teach and repeat to SelfPath AI: The next robotics leap&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		

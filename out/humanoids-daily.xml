@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 02 Sep 2026 14:16:57 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 02 Sep 2026 20:01:21 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/sam-altman-confirms-openai-will-definitely-do-a-humanoid</guid>
+    <title>Sam Altman Confirms OpenAI "Will Definitely Do a Humanoid"</title>
+    <link>https://www.humanoidsdaily.com/news/sam-altman-confirms-openai-will-definitely-do-a-humanoid</link>
+    <description>In an appearance on the Sources podcast, OpenAI CEO Sam Altman unequivocally confirmed that the AI lab will build humanoid robots alongside specialized data center machines.</description>
+    <pubDate>Wed, 02 Sep 2026 20:01:21 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>1X-technologies</category><category>OpenAI</category><category>US</category><category>Figure</category><category>Sam Altman</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/minth-group-and-agibot-launch-europe-s-first-humanoid-mass-production-line-in-serbia</guid>
     <title>Minth Group and AGIBOT Launch Europe’s First Humanoid Mass Production Line in Serbia</title>
@@ -298,16 +308,6 @@
     <pubDate>Tue, 18 Aug 2026 13:15:00 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>EngineAI</category><category>REK</category><category>T800</category><category>China</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/no-robots-allowed-all-three-major-us-airlines-ban-humanoids-over-battery-fire-risks</guid>
-    <title>No Robots Allowed: All Three Major US Airlines Ban Humanoids Over Battery Fire Risks</title>
-    <link>https://www.humanoidsdaily.com/news/no-robots-allowed-all-three-major-us-airlines-ban-humanoids-over-battery-fire-risks</link>
-    <description>American Airlines has joined United, Delta, and Southwest in explicitly banning humanoid and animal-like robots from commercial flights, citing the severe fire hazards posed by massive lithium-ion batteries.</description>
-    <pubDate>Mon, 17 Aug 2026 21:50:15 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Booster Robotics</category>
   </item>
 
   </channel>
