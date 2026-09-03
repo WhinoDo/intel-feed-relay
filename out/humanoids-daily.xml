@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 03 Sep 2026 13:37:45 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 03 Sep 2026 19:26:32 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/how-to-think-about-the-robotics-market</guid>
+    <title>How to think about the robotics market</title>
+    <link>https://www.humanoidsdaily.com/news/how-to-think-about-the-robotics-market</link>
+    <description>RoboStrategy CMO Kevin McCordic lays out the case for physical AI: why AI finally makes humanoid labour possible, why it lands under $2 an hour, and why a roughly $200B market is aimed at a $60T one.</description>
+    <pubDate>Thu, 03 Sep 2026 19:26:32 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>RoboStrategy</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/figure-inks-multi-billion-dollar-compute-deal-with-nscale-to-deploy-100-000-next-gen-nvidia-gpus</guid>
     <title>Figure Inks Multi-Billion-Dollar Compute Deal With Nscale to Deploy 100,000 Next-Gen NVIDIA GPUs</title>
@@ -298,16 +308,6 @@
     <pubDate>Thu, 20 Aug 2026 07:42:52 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Unitree Robotics</category><category>Leju Robot</category><category>galbot</category><category>Business</category><category>China</category><category>AGIBOT</category><category>UBTECH Robotics</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/from-marathons-to-the-factory-floor-beijing-s-world-humanoid-robot-games-pivot-to-real-world-utility</guid>
-    <title>From Marathons to the Factory Floor: Beijing’s World Humanoid Robot Games Pivot to Real-World Utility</title>
-    <link>https://www.humanoidsdaily.com/news/from-marathons-to-the-factory-floor-beijing-s-world-humanoid-robot-games-pivot-to-real-world-utility</link>
-    <description>With over 2,000 robots descending on Beijing, the second World Humanoid Robot Games signal a critical industry shift from viral agility demonstrations to commercial viability and complex physical labor.</description>
-    <pubDate>Wed, 19 Aug 2026 20:43:55 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>China</category><category>WHRG</category>
   </item>
 
   </channel>
