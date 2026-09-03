@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 03 Sep 2026 10:57:25 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 03 Sep 2026 13:37:45 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/figure-inks-multi-billion-dollar-compute-deal-with-nscale-to-deploy-100-000-next-gen-nvidia-gpus</guid>
+    <title>Figure Inks Multi-Billion-Dollar Compute Deal With Nscale to Deploy 100,000 Next-Gen NVIDIA GPUs</title>
+    <link>https://www.humanoidsdaily.com/news/figure-inks-multi-billion-dollar-compute-deal-with-nscale-to-deploy-100-000-next-gen-nvidia-gpus</link>
+    <description>Figure AI has partnered with cloud infrastructure provider Nscale to deploy up to 100,000 NVIDIA Vera Rubin GPUs, committing an initial $3.5 billion to train its Helix robotics models.</description>
+    <pubDate>Thu, 03 Sep 2026 13:37:45 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Nscale</category><category>Figure</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/cj-logistics-puts-robotis-dual-arm-ai-worker-on-live-olive-young-fulfillment-lines</guid>
     <title>CJ Logistics Puts ROBOTIS Dual-Arm "AI Worker" on Live Olive Young Fulfillment Lines</title>
@@ -298,16 +308,6 @@
     <pubDate>Wed, 19 Aug 2026 20:43:55 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>China</category><category>WHRG</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/unitree-soars-over-600-in-shanghai-ipo-cements-china-s-lead-in-humanoid-hardware</guid>
-    <title>Unitree Soars Over 600% in Shanghai IPO, Cements China’s Lead in Humanoid Hardware</title>
-    <link>https://www.humanoidsdaily.com/news/unitree-soars-over-600-in-shanghai-ipo-cements-china-s-lead-in-humanoid-hardware</link>
-    <description>Unitree Robotics made its highly anticipated debut on the STAR Market, with shares surging as the company leverages massive scale, a DeepSeek AI partnership, and intense vertical integration to dominate the global robotics race.</description>
-    <pubDate>Wed, 19 Aug 2026 06:13:22 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>China</category><category>IPO</category>
   </item>
 
   </channel>
