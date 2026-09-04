@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 03 Sep 2026 19:26:32 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 04 Sep 2026 16:44:29 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/agibot-deepens-european-push-at-ifa-2026-with-t-v-rheinland-certification-and-tekpoint-retail-alliance</guid>
+    <title>AGIBOT Deepens European Push at IFA 2026 with TÜV Rheinland Certification and Tekpoint Retail Alliance</title>
+    <link>https://www.humanoidsdaily.com/news/agibot-deepens-european-push-at-ifa-2026-with-t-v-rheinland-certification-and-tekpoint-retail-alliance</link>
+    <description>Hot on the heels of launching its Serbian manufacturing hub, AGIBOT showcased its multi-robot lineup at IFA 2026 in Berlin, securing key safety certifications from TÜV Rheinland and partnering with distributor Tekpoint.</description>
+    <pubDate>Fri, 04 Sep 2026 16:44:29 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Europe</category><category>Market</category><category>China</category><category>AGIBOT</category>
+  </item>
+
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/nvidia-buys-hugging-face-for-12-9b-as-open-source-robotics-scales-up</guid>
+    <title>NVIDIA Buys Hugging Face for $12.9B as Open-Source Robotics Scales Up</title>
+    <link>https://www.humanoidsdaily.com/news/nvidia-buys-hugging-face-for-12-9b-as-open-source-robotics-scales-up</link>
+    <description>NVIDIA has agreed to acquire Hugging Face for $12.93 billion, bringing the open-source hub into its physical AI orbit just as Pollen Robotics launches the viral $399 Microduck.</description>
+    <pubDate>Fri, 04 Sep 2026 16:19:49 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>NVIDIA</category><category>Le Robot</category><category>US</category><category>Europe</category><category>pollen-robotics</category><category>hugging-face</category>
+  </item>
+
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/limx-and-zinova-put-tron-2-to-work-on-simulated-construction-sites</guid>
+    <title>LimX and ZINOVA Put TRON 2 to Work on Simulated Construction Sites</title>
+    <link>https://www.humanoidsdaily.com/news/limx-and-zinova-put-tron-2-to-work-on-simulated-construction-sites</link>
+    <description>A new proof-of-concept mounts LimX Dynamics’ modular TRON 2 torso onto heavy industrial arms to assemble formwork and tie rebar, testing ZINOVA’s "Tool Intelligence" framework in unstructured job sites.</description>
+    <pubDate>Fri, 04 Sep 2026 15:21:08 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>LimX Dynamics</category><category>China</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/how-to-think-about-the-robotics-market</guid>
     <title>How to think about the robotics market</title>
@@ -278,36 +308,6 @@
     <pubDate>Mon, 24 Aug 2026 10:59:29 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Market</category><category>China</category><category>XPeng</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/generalist-ai-unveils-gen-1-5-one-shot-robot-learning-and-the-end-of-heavy-fine-tuning</guid>
-    <title>Generalist AI Unveils GEN-1.5: One-Shot Robot Learning and the End of Heavy Fine-Tuning</title>
-    <link>https://www.humanoidsdaily.com/news/generalist-ai-unveils-gen-1-5-one-shot-robot-learning-and-the-end-of-heavy-fine-tuning</link>
-    <description>Generalist AI claims a GPT-3 moment for robotics, demonstrating a foundation model that learns new physical tasks in seconds from a single prompt.</description>
-    <pubDate>Thu, 20 Aug 2026 20:24:12 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Generalist AI</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/not-ready-to-scale-unitree-ceo-wang-xingxing-on-why-humanoids-still-aren-t-working-in-factories</guid>
-    <title>Not Ready to Scale: Unitree CEO Wang Xingxing on Why Humanoids Still Aren’t Working in Factories</title>
-    <link>https://www.humanoidsdaily.com/news/not-ready-to-scale-unitree-ceo-wang-xingxing-on-why-humanoids-still-aren-t-working-in-factories</link>
-    <description>Days after Unitree’s blockbuster listing, founder Wang Xingxing used his WRC 2026 stage time to explain why the company has held back from large-scale factory deployment — and laid out the generalization bottleneck, the "lossy" nature of physical AI, and a self-evolving software loop aimed at both.</description>
-    <pubDate>Thu, 20 Aug 2026 12:10:21 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>Wang Xing Xing</category><category>China</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/global-humanoid-shipments-surpass-22-000-in-h1-2026-as-agibot-leads-and-form-factor-debates-intensify</guid>
-    <title>Global Humanoid Shipments Surpass 22,000 in H1 2026 as AGIBOT Leads and Form-Factor Debates Intensify</title>
-    <link>https://www.humanoidsdaily.com/news/global-humanoid-shipments-surpass-22-000-in-h1-2026-as-agibot-leads-and-form-factor-debates-intensify</link>
-    <description>A new report from Counterpoint Research reveals global humanoid shipments surged nearly 300% in the first half of 2026, with AGIBOT capturing top market share while the industry grapples with how to define humanoid form factors.</description>
-    <pubDate>Thu, 20 Aug 2026 07:42:52 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>Leju Robot</category><category>galbot</category><category>Business</category><category>China</category><category>AGIBOT</category><category>UBTECH Robotics</category>
   </item>
 
   </channel>
