@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Thu, 03 Sep 2026 23:25:50 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 04 Sep 2026 14:32:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,140 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Lyte raises $165M to help robots better sense their surroundings</title>
+		<link>https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/</link>
+					<comments>https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Fri, 04 Sep 2026 14:32:52 +0000</pubDate>
+				<category>Artificial Intelligence</category>
+		<category>Artificial Intelligence / Cognition</category>
+		<category>Design / Development</category>
+		<category>Financial</category>
+		<category>Investments</category>
+		<category>News</category>
+		<category>Sensors / Sensing Systems</category>
+		<category>Technologies</category>
+		<category>Lyte</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589414</guid>
+
+					<description>&lt;p&gt;Lyte AI plans to use its second round of funding this year to scale production of its AI and perception capabilities.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/"&gt;Lyte raises $165M to help robots better sense their surroundings&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589415" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/LyteVision_Render-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589415" class="size-full wp-image-589415" src="https://www.therobotreport.com/wp-content/uploads/2026/09/LyteVision_Render-featured.jpg" alt="Lyte said its vision systems create a direct path from physical capture to simulation, training, and real-time inference." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/LyteVision_Render-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/09/LyteVision_Render-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/LyteVision_Render-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/LyteVision_Render-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/LyteVision_Render-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/LyteVision_Render-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/LyteVision_Render-featured-368x238.jpg 368w" sizes="(max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589415" class="wp-caption-text"&gt;Lyte said its vision systems create a direct path from physical capture to simulation, training, and real-time inference. | Source: Lyte&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Lyte AI Inc. this week said it has raised $165 million in Series C funding. The round valued the physical AI company at $1.6 billion post-money.&lt;/p&gt;
+&lt;p&gt;Founded in 2021, Lyte designs &lt;a href="https://www.therobotreport.com/category/technologies/microprocessors-socs/" target="_blank" rel="noopener"&gt;processors&lt;/a&gt;, multimodal &lt;a href="https://www.therobotreport.com/category/technologies/sensors-sensing/" target="_blank" rel="noopener"&gt;sensors&lt;/a&gt;, and &lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;software&lt;/a&gt; to enable robots to sense where they are and what is moving around them. The Sunnyvale, Calif.-based &lt;a href="https://lyte.ai/home" target="_blank" rel="noopener"&gt;company&lt;/a&gt; said it developed its stack and owns it from the transistor up.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Physical AI has a sensing problem before it has a model problem. A robot cannot act safely on data that does not faithfully describe the world,&amp;#8221; said Alexander Shpunt, co-founder and CEO of Lyte. &amp;#8220;We build the entire perception foundation, from custom silicon to the spatial data our systems produce. This financing will put LyteVision into more robots, across more environments, faster.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;Lyte has entered production and is shipping to leading robotics customers across the &lt;a href="https://www.therobotreport.com/tag/inspection" target="_blank" rel="noopener"&gt;inspection&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/markets-industries/logistics-warehousing-asrs/" target="_blank" rel="noopener"&gt;logistics&lt;/a&gt;, and &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;manufacturing&lt;/a&gt; industries. LyteVision, the company&amp;#8217;s perception platform, was named &lt;a href="https://www.therobotreport.com/tag/ces/" target="_blank" rel="noopener"&gt;CES&lt;/a&gt; 2026 &amp;#8220;Best of Innovation in Robotics.&amp;#8221;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;Lyte plans to scale production with the funding&lt;/h2&gt;
+&lt;p&gt;Maverick Silicon led Lyte&amp;#8217;s funding round. It included participation from Fidelity Management &amp;amp; Research Company, which led the startup&amp;#8217;s Series B, along with Atreides Management, Key1 Capital, Ora Global (formerly Exor Ventures), and additional existing and new investors.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Lyte is building a foundational sensing platform that enables a wide range of robots to perceive and understand the world around them. The breadth and diversity of early customer demand strengthen our conviction that Lyte is poised to become one of the defining technology companies of the robotics era,&amp;#8221; said Andrew Homan, the managing partner at Maverick Silicon, who has joined Lyte&amp;#8217;s board of directors.&lt;/p&gt;
+&lt;p&gt;Lyte said it will use the financing to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Scale production of its sensing silicon and LyteVision platform&lt;/li&gt;
+&lt;li&gt;Advance its &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; and perception capabilities&lt;/li&gt;
+&lt;li&gt;Expand deployments with robotics companies and industrial customers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;a href="https://www.therobotreport.com/tag/lyte/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; expects to grow its team substantially over the coming year. It is hiring across silicon, software, optics, manufacturing, operations, and go-to-market, including senior leadership roles.&lt;/p&gt;
+&lt;p&gt;Since it was founded in 2021, Lyte has raised $272 million in funding. This is also the second round Lyte has &lt;a href="https://www.therobotreport.com/lyte-brings-in-107m-to-build-perception-systems-for-ai-enabled-robots/" target="_blank" rel="noopener"&gt;announced&lt;/a&gt; this year. In January, it emerged from stealth with $107 million in aggregate funding.&lt;/p&gt;
+&lt;div style="width: 740px;" class="wp-video"&gt;&lt;video class="wp-video-shortcode" id="video-589414-1" width="740" height="416" preload="metadata" controls="controls"&gt;&lt;source type="video/mp4" src="https://www.therobotreport.com/wp-content/uploads/2026/09/daafb91e3_Lyte_Galaxy_video_2.mp4?_=1" /&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/daafb91e3_Lyte_Galaxy_video_2.mp4"&gt;https://www.therobotreport.com/wp-content/uploads/2026/09/daafb91e3_Lyte_Galaxy_video_2.mp4&lt;/a&gt;&lt;/video&gt;&lt;/div&gt;
+&lt;h2&gt;LyteVision creates one timeline for perception&lt;/h2&gt;
+&lt;p&gt;Most robotics platforms assemble perception from off-the-shelf components never designed to work as one system. They pay for it in latency, calibration drift, and data that is difficult to trust. LyteVision fuses 4D coherent &lt;a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener"&gt;vision&lt;/a&gt;, high-resolution imaging, and inertial sensing onto a single synchronized timeline.&lt;/p&gt;
+&lt;p&gt;Built on Lyte&amp;#8217;s own silicon, it measures position and motion natively rather than reconstructing them in software, producing data that robots can act on with confidence.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Owning the silicon separates companies that define a category from those that participate in one,&amp;#8221; stated Avigdor Willenz, Lyte&amp;#8217;s chairman. &amp;#8220;Lyte controls every layer of how a robot understands the world and is now taking that breakthrough engineering into production.&amp;#8221;&lt;/p&gt;
+&lt;div id="attachment_586591" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/01/lyte-featured.jpg"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-586591" class="size-full wp-image-586591" src="https://www.therobotreport.com/wp-content/uploads/2026/01/lyte-featured.jpg" alt="Lyte's LyteVision is a vertically integrated sensing block that fuses 4D vision, RGB, and IMU at the edge." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/01/lyte-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/01/lyte-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/01/lyte-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/01/lyte-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/01/lyte-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/01/lyte-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/01/lyte-featured-368x238.jpg 368w" sizes="(max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-586591" class="wp-caption-text"&gt;LyteVision is a vertically integrated sensing block that fuses 4D vision, RGB, and IMU at the edge. | Source: Lyte&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/"&gt;Lyte raises $165M to help robots better sense their surroundings&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		<enclosure url="https://www.therobotreport.com/wp-content/uploads/2026/09/daafb91e3_Lyte_Galaxy_video_2.mp4" length="22729852" type="video/mp4" />
+
+			</item>
+		<item>
+		<title>Robot.com partners with Sodexo to roll out more sidewalk delivery robots</title>
+		<link>https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/</link>
+					<comments>https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/#respond</comments>
+		
+		<dc:creator>Brianna Wessling &amp;#38; Eugene Demaitre</dc:creator>
+		<pubDate>Fri, 04 Sep 2026 14:15:23 +0000</pubDate>
+				<category>Autonomous Mobile Robots (AMRs)</category>
+		<category>Food / Beverage</category>
+		<category>Humanoids</category>
+		<category>Logistics</category>
+		<category>Markets / Industries</category>
+		<category>Mobility / Navigation</category>
+		<category>News</category>
+		<category>Retail / Wholesale</category>
+		<category>Robots / Platforms</category>
+		<category>Delivery Robots</category>
+		<category>food</category>
+		<category>Kiwibot</category>
+		<category>legged</category>
+		<category>Legged Robots</category>
+		<category>Robot.com</category>
+		<category>sodexo</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589420</guid>
+
+					<description>&lt;p&gt;Robot.com says college campuses will continue to be an important part of its strategy as it scales sidewalk delivery robots.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/"&gt;Robot.com partners with Sodexo to roll out more sidewalk delivery robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589421" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/sodexo-campus-autonomous-delivery-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589421" class="size-full wp-image-589421" src="https://www.therobotreport.com/wp-content/uploads/2026/09/sodexo-campus-autonomous-delivery-featured.jpg" alt="Robot.com's sidewalk delivery robot Kiwi has completed 2.4 million tasks across campuses and city sidewalks." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/sodexo-campus-autonomous-delivery-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/09/sodexo-campus-autonomous-delivery-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/sodexo-campus-autonomous-delivery-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/sodexo-campus-autonomous-delivery-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/sodexo-campus-autonomous-delivery-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/sodexo-campus-autonomous-delivery-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/sodexo-campus-autonomous-delivery-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589421" class="wp-caption-text"&gt;Robot.com&amp;#8217;s sidewalk delivery robot R-Kiwi has completed 2.4 million tasks across campuses and city sidewalks. | Source: Robot.com&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Robot.com recently announced a seven-year commercial agreement with Sodexo Group. This new agreement builds on a partnership that began in 2021 and that has expanded across select Sodexo-operated college campuses in North America.&lt;/p&gt;
+&lt;p&gt;“Sodexo is an amazing partner, and it has around 400,000 employees globally, and 120,000 full-time employees in the U.S.,” Felipe Chavez Cortes, the co-founder and CEO of Robot.com, told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;It’s one of the companies that is suffering from labor shortages and has been unable to fulfill its open positions.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;He noted that Robot.com and Sodexo&amp;#8217;s long-standing relationship paved the way for the seven-year contract.&lt;/p&gt;
+&lt;p&gt;“Seven-year contracts don’t come right away,” Cortes said. &amp;#8220;It was a learning process for both companies on what it takes to implement robotics, and what it takes to add value on both sides.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;This seven-year contract represents Robot.com’s largest single enterprise deployment. Cortes asserted that it also demonstrates Sodexo’s leadership in bringing practical, scalable technologies to complex &lt;a href="https://www.therobotreport.com/tag/service-robots/" target="_blank" rel="noopener"&gt;service&lt;/a&gt; environments.&lt;/p&gt;
+&lt;p&gt;“It’s important to say that Sodexo was the first company to implement food delivery robots on college campuses, and one of the first companies to scale up &lt;a href="https://www.therobotreport.com/tag/food" target="_blank" rel="noopener"&gt;food&lt;/a&gt; delivery in general,” Cortes said.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;How is Robot.com making sidewalk delivery work?&lt;/h2&gt;
+&lt;p&gt;College campuses have emerged as a proving ground for sidewalk &lt;a href="https://www.therobotreport.com/tag/delivery-robots/" target="_blank" rel="noopener"&gt;delivery robots&lt;/a&gt;. In recent years, however, some providers have pulled back from these deployments. For example, &lt;a href="https://www.therobotreport.com/tag/starship-technologies/" target="_blank" rel="noopener"&gt;Starship Technologies&lt;/a&gt; recently &lt;a href="https://www.starship.xyz/press/starship-technologies-doubles-down-on-grocery/?_sp=732d55b2-ceda-490c-aa8e-ab96bd176186.1788465973796" target="_blank" rel="noopener"&gt;announced plans&lt;/a&gt; to wind down its campus deliveries in favor of &lt;a href="https://www.therobotreport.com/tag/grocery/" target="_blank" rel="noopener"&gt;groceries&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;San Francisco-based Robot.com, founded in 2017 as &lt;a href="https://www.therobotreport.com/tag/kiwibot/" target="_blank" rel="noopener"&gt;Kiwibot&lt;/a&gt;, is taking a different route. “I do feel that college campuses are a very good staging environment. You’re outside. You have people, but it’s not as crazy as urban,” Cortes said.&lt;/p&gt;
+&lt;p&gt;So how is Robot.com making it economically viable? Cortes said it&amp;#8217;s all about the &lt;a href="https://www.robot.com/" target="_blank" rel="noopener"&gt;company&lt;/a&gt;&amp;#8216;s Remi implementation platform.&lt;/p&gt;
+&lt;p&gt;“Remi is our robot implementation intelligence, and it’s a product and platform that we have been developing for almost a decade,&amp;#8221; he explained. &amp;#8220;That allows us to bring the best classical robotics mixed with the best brain third-party software and very smart &lt;a href="https://www.robot.com/ads" target="_blank" rel="noopener"&gt;advertising&lt;/a&gt; technology. Remi is basically our secret sauce.”&lt;/p&gt;
+&lt;p&gt;“When we implement Remi, we basically get better economics on the costs of implementing the robots,&amp;#8221; added Cortes. &amp;#8220;Also, we can increase our revenue when we mix advertising in, so we don’t just get revenue from delivery.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="R kiwi" width="740" height="416" src="https://www.youtube.com/embed/ZpHnGfBGDPY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;R-Dog to join Robot.com robotic delivery fleet&lt;/h2&gt;
+&lt;p&gt;Right now, Robot.com deploys its sidewalk delivery robot, but it plans to add the &lt;a href="https://www.robot.com/r-dog" target="_blank" rel="noopener"&gt;R-Dog&lt;/a&gt; quadruped to its portfolio. Cortes said R-Dog is more versatile than the company&amp;#8217;s other delivery robots.&lt;/p&gt;
+&lt;p&gt;The wheeled and &lt;a href="https://www.therobotreport.com/tag/legged-robots" target="_blank" rel="noopener"&gt;legged robot&lt;/a&gt; can drop packages, unlike other systems. Most delivery robots require the person receiving the delivery to open up the robot’s compartment and retrieve items themselves.&lt;/p&gt;
+&lt;p&gt;With the ability to drop off packages, R-Dog could deliver a wider range of items, said Cortes. The &lt;a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener"&gt;mobile robot&lt;/a&gt; can also go upstairs or get into &lt;a href="https://www.therobotreport.com/category/robots-platforms/self-driving-vehicles/" target="_blank" rel="noopener"&gt;autonomous vehicles&lt;/a&gt; without needing to modify the vehicles.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Meet R-Dog | Robot for Delivery &amp;amp; Advertising" width="740" height="416" src="https://www.youtube.com/embed/MsciGVRlRgM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;How does Robot.com keep its robots running?&lt;/h2&gt;
+&lt;p&gt;Robot.com has already deployed more than 500 of its &lt;a href="https://www.robot.com/r-kiwi" target="_blank" rel="noopener"&gt;R-Kiwi&lt;/a&gt; delivery robots. With so many system running across the country, ensuring that they all keep running smoothly is a challenge. To keep up with the robots, Robot.com takes a layered approach.&lt;/p&gt;
+&lt;p&gt;“We actually have implementation intelligence that allows us to intervene in the right moment,&amp;#8221; Cortes said. &amp;#8220;There are different layers of intelligence, from on-site attention, &lt;a href="https://www.therobotreport.com/tag/teleoperation" target="_blank" rel="noopener"&gt;teleoperation&lt;/a&gt; attention, and even AI agent attention.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;To ensure the robots work safety, Robot.com has partnered with &lt;a href="https://www.therobotreport.com/tag/field-ai/" target="_blank" rel="noopener"&gt;Field AI&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/tag/physical-intelligence/" target="_blank" rel="noopener"&gt;Physical Intelligence&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;“As we deploy new embodiments and we go into more challenging environments, we are not just relying on our technology,&amp;#8221; acknowledged Cortes. &amp;#8220;We are also partnering with the best companies in the world that have world-class researchers and engineers to support us on those safety targets.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;When it comes to scaling in the years ahead, Cortes asserted that he is focusing on one metric: the number of hours his company&amp;#8217;s robots are operational.&lt;/p&gt;
+&lt;p&gt;“For this first half of the year, we already did a quarter of a million hours generating revenue,&amp;#8221; said Cortes. &amp;#8220;Our goal is to get to a million hours per year very soon.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Robot.com Advertising Platform" width="740" height="416" src="https://www.youtube.com/embed/TM4iQR7ps40?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Robots move from sidewalk delivery to industrial use cases&lt;/h2&gt;
+&lt;p&gt;Outdoor deliveries on college campuses are helping to prepare Robot.com for industrial use cases in the future. “When we jump into industrial cases, it’s actually much easier. You have normal access to Wi-Fi. The environment is much more controlled,” Cortes said.&lt;/p&gt;
+&lt;p&gt;“Our foundation is food delivery robots in college campuses,&amp;#8221; he continued. &amp;#8220;But that foundation is what basically allows us to build Remi, and on top of Remi, we are introducing industrial robots. We’re introducing humanoids. We also will introduce to the market the R-Dog for urban environments.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;Robot.com&amp;#8217;s humanoid robot, &lt;a href="https://www.robot.com/r-noid" target="_blank" rel="noopener"&gt;R-noid&lt;/a&gt;, features a wheeled base and two arms. Cortes said the company can sell its &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoids&lt;/a&gt; to the same customer base it&amp;#8217;s working with on sidewalk robots.&lt;/p&gt;
+&lt;p&gt;“There are some potential customers that could be incredible customers for humanoids, but maybe they’re not ready yet, or maybe they are still skeptic about humanoids,&amp;#8221; Cortes said. &amp;#8220;So, they start with delivery robots or they start with advertising, and in that way we start building up the business relationship.”&lt;/p&gt;
+&lt;p&gt;Down the road, Cortes also said there could be an opportunity where legs make sense and are more economically viable, but right now, a wheeled platform provides the performance, reliability, and economics that work for its customers.&lt;/p&gt;
+&lt;p&gt;“We measure carefully the number of hours that our robots are out there generating revenue, and how much it costs us to generate that revenue,&amp;#8221; Cortes said. &amp;#8220;So, the decision of wheels against legs is related to that. It’s basically, &amp;#8216;How can we ensure that when we deploy humanoids, they&amp;#8217;re going to be more affordable?'&amp;#8221;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/"&gt;Robot.com partners with Sodexo to roll out more sidewalk delivery robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>Medtronic invests $700M in surgical partner Cornerstone Robotics</title>
 		<link>https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/</link>
 					<comments>https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/#respond</comments>
@@ -42,13 +176,13 @@
 					<description>&lt;p&gt;Medtronic and Cornerstone Robotics are building a multi-port portfolio anchored by the Hugo surgical system and expanded by Sentire.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/"&gt;Medtronic invests $700M in surgical partner Cornerstone Robotics&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_589410" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/sentire-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589410" class="size-full wp-image-589410" src="https://www.therobotreport.com/wp-content/uploads/2026/09/sentire-featured.jpg" alt="Cornerstone Robotics Sentire system combines clinical workflows with integrated engineering, software, and imaging technologies." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/sentire-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/sentire-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/sentire-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/sentire-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/sentire-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589410" class="wp-caption-text"&gt;Sentire combines clinical workflows with integrated engineering, software, and imaging technologies. | Source: Cornerstone Robotics&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_589410" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/sentire-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589410" class="size-full wp-image-589410" src="https://www.therobotreport.com/wp-content/uploads/2026/09/sentire-featured.jpg" alt="Cornerstone Robotics Sentire system combines clinical workflows with integrated engineering, software, and imaging technologies." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/sentire-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/sentire-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/sentire-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/sentire-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/sentire-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589410" class="wp-caption-text"&gt;Sentire combines clinical workflows with integrated engineering, software, and imaging technologies. | Source: Cornerstone Robotics&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Medtronic PLC today announced a new partnership with Cornerstone Robotics Ltd. that includes a $700 million investment. Medtronic has also gained the rights to distribute Cornerstone Robotics&amp;#8217; Sentire surgical system in select markets outside the U.S. where the system is approved.&lt;/p&gt;
 &lt;p&gt;Medtronic will distribute Sentire alongside its own Hugo robotic-assisted surgery (RAS) system. The Minneapolis-based &lt;a href="https://www.therobotreport.com/tag/medtronic" target="_blank" rel="noopener"&gt;company&lt;/a&gt; said the two platforms will expand access to robotic-assisted &lt;a href="https://www.therobotreport.com/category/robots-platforms/surgical-intervention/" target="_blank" rel="noopener"&gt;surgery&lt;/a&gt; and offer surgeons more flexibility.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;Our strategy is focused on driving the next generation of minimally invasive surgery, one of our biggest growth opportunities,&amp;#8221; said Matt Anderson, the senior vice president and president of surgical at Medtronic. &amp;#8220;Surgeons, &lt;a href="https://www.therobotreport.com/category/markets-industries/biotechnology-medical-healthcare/" target="_blank" rel="noopener"&gt;health&lt;/a&gt; systems and markets have varying needs and preferences, which is why we are investing across robotic platforms, digital tools and platform-enhancing technologies.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;&amp;#8220;With Sentire complementing the Hugo RAS system, Medtronic will be the only company offering this two-platform portfolio combined with our surgical ecosystem—giving customers more access, more choice, and flexible solutions that fit their clinical and operational needs,&amp;#8221; he added.&lt;/p&gt;
 &lt;p&gt;Through this partnership, Medtronic and Cornerstone Robotics are building a multi-port portfolio anchored by Hugo and expanded by Sentire. Cornerstone&amp;#8217;s surgical system has completed multi-specialty clinical trials and received market approval across China, the European Union, and Singapore.&lt;/p&gt;
-&lt;p&gt;&lt;iframe title="How are surgical robotics impacting the future of surgery" width="740" height="416" src="https://www.youtube.com/embed/JxypjG_0PJM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="How are surgical robotics impacting the future of surgery" width="740" height="416" src="https://www.youtube.com/embed/JxypjG_0PJM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;More about the Sentire system&lt;/h2&gt;
 &lt;p&gt;Sentire&amp;#8217;s architecture and immersive console with dual-console capability offer a familiar configuration suited to varying surgeon preferences and clinical needs, said Cornerstone Robotics. The Hong Kong-based &lt;a href="https://www.therobotreport.com/tag/cornerstone-robotics/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; developed its &lt;a href="https://en.csrbtx.com/sentire/sentire-surgical-system" target="_blank" rel="noopener"&gt;system&lt;/a&gt; entirely in-house.&lt;/p&gt;
 &lt;p&gt;Sentire has completed multi-specialty clinical trials and &lt;a href="https://www.massdevice.com/cornerstone-robotics-ce-mark-sentire-robot/" target="_blank" rel="noopener"&gt;received&lt;/a&gt; CE Mark in May 2026 for use in minimally invasive general, gynecologic, thoracic, and urologic surgical procedures.&lt;/p&gt;
@@ -63,7 +197,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/"&gt;Medtronic invests $700M in surgical partner Cornerstone Robotics&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
@@ -643,7 +777,7 @@
 					<description>&lt;p&gt;Visko says Orbis streams 4K video at 24 frames per second, responds to user intervention, and sustains hour-scale generation without drift.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/"&gt;Visko launches Orbis live model and closes pre-seed funding round&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div style="width: 740px;" class="wp-video"&gt;&lt;video class="wp-video-shortcode" id="video-589379-1" width="740" height="416" preload="metadata" controls="controls"&gt;&lt;source type="video/webm" src="https://www.therobotreport.com/wp-content/uploads/2026/09/orbis-720p.webm?_=1" /&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/orbis-720p.webm"&gt;https://www.therobotreport.com/wp-content/uploads/2026/09/orbis-720p.webm&lt;/a&gt;&lt;/video&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div style="width: 740px;" class="wp-video"&gt;&lt;video class="wp-video-shortcode" id="video-589379-2" width="740" height="416" preload="metadata" controls="controls"&gt;&lt;source type="video/webm" src="https://www.therobotreport.com/wp-content/uploads/2026/09/orbis-720p.webm?_=2" /&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/orbis-720p.webm"&gt;https://www.therobotreport.com/wp-content/uploads/2026/09/orbis-720p.webm&lt;/a&gt;&lt;/video&gt;&lt;/div&gt;
 &lt;p&gt;To generate video with artificial intelligence, a user typically submits a prompt, waits, and then receives a finished clip that cannot be altered. Visko Platform Inc. today opened public access to Orbis, a foundation model that streams worlds in real time with persistent memory, interactivity, and physics-grounded generation for unlimited duration. The company has also raised $10 million in pre-seed funding led by Llama Ventures.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;Every real-time system before this faced the same wall: The longer a world runs, the more it falls apart,&amp;#8221; stated Qing (Will) Yin, founder and CEO of Visko. &amp;#8220;We built Orbis to hold together — physically, visually, and narratively — for as long as you want to stay inside it. Starting today, anyone can see that for themselves at &lt;em&gt;visko.ai&lt;/em&gt;.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;&amp;#8220;Most video models optimize every frame of a clip at once and show nothing until the whole thing resolves,&amp;#8221; Yin told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;Orbis finishes the first frame, streams it, then generates the next conditioned on what came before, closer to next-token prediction in a large language model.&amp;#8221;&lt;/p&gt;
@@ -877,140 +1011,6 @@ Middleware creates another exposure point. Vulnerabilities in ROS 2 and DDS-base
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/from-spreadsheets-ai-john-deeres-new-jd-operations-center-features/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Skild AI unveils S1 flagship robot foundation model</title>
-		<link>https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/</link>
-					<comments>https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/#respond</comments>
-		
-		<dc:creator>Brianna Wessling</dc:creator>
-		<pubDate>Mon, 31 Aug 2026 21:14:08 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Design / Development</category>
-		<category>News</category>
-		<category>Fetch</category>
-		<category>skild ai</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589369</guid>
-
-					<description>&lt;p&gt;Skild AI says its S1 robot foundation model enables robots to learn new tasks just by seeing a video of it being performed.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/"&gt;Skild AI unveils S1 flagship robot foundation model&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589372" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/skildAI-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589372" class="size-full wp-image-589372" src="https://www.therobotreport.com/wp-content/uploads/2026/08/skildAI-featured.jpg" alt="Skild AI said S1 enables in-context learning for robotics. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/skildAI-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/skildAI-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/skildAI-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/skildAI-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/skildAI-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589372" class="wp-caption-text"&gt;Skild AI said S1 enables in-context learning for robotics. | Source: Skild AI&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Skild AI recently unveiled S1, the company&amp;#8217;s flagship robot foundation model. Since it was founded in 2023, the company has raised nearly $1.7 billion in funding to create a general-purpose robot brain.&lt;/p&gt;
-&lt;p&gt;With S1, robots can learn new, complex tasks from watching a single video, Skild AI claimed. To do this, the &lt;a href="https://www.therobotreport.com/tag/skild-ai/" target="_blank" rel="noopener"&gt;company&lt;/a&gt;&amp;#8216;s model uses in-context learning, &lt;a href="https://www.linkedin.com/in/pathak22/" target="_blank" rel="noopener"&gt;Deepak Pathak&lt;/a&gt;, Skild AI co-founder and CEO, told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;“You just add a video of a human doing something in the prompt, also called the context of the model, and it can just follow it on the robot,” Pathak said. “The tasks we are showing are extremely complex and long horizon. They are not three-second, four-second tasks, not those tiny, simple tasks.”&lt;/p&gt;
-&lt;h2&gt;S1 pretrains on a range of data types&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Introducing S1: A robot model that learns from one example" width="740" height="416" src="https://www.youtube.com/embed/hr39FlEiCcQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Typically, when faced with new tasks, &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; models on robots need to be post-trained to handle them. This can be a lengthy process, and it holds robotics back from scaling. According to Pathak, there are four kinds of robot training data, and &lt;a href="https://www.therobotreport.com/tag/skild-AI/" target="_blank" rel="noopener"&gt;Skild&lt;/a&gt; makes use of all of them.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Teleoperation data:&lt;/strong&gt; This involves human directly controlling a robot&amp;#8217;s actions. Pathak said this type is slow to capture and doesn&amp;#8217;t provide a diverse range of data. However, its very high quality, as the data it gathers comes directly from a robot.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Human videos:&lt;/strong&gt; This involves a robot learning how to do a task by watching a video of a person doing it. Human video data is abundant and diverse, but it&amp;#8217;s difficult to apply directly to robots.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;Simulation&lt;/a&gt;:&lt;/strong&gt; Simulation is very common in robotics, and involves using a simulated environment to teach a robot a task. This is very scalable, as it all takes place on a computer, and very diverse. But there is still a gap between simulation and the real world.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Data-capture gloves:&lt;/strong&gt; For this method, humans wearing special data capture gloves performs a task to teach a robot. This is slightly more scalable than &lt;a href="https://www.therobotreport.com/tag/teleoperation" target="_blank" rel="noopener"&gt;teleoperation&lt;/a&gt;, but it is also slightly less directly applicable to robots.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;“If you look at any company out there, they are primarily focusing on one of these sources. But, if we think from first principles, we realize there is no golden path,&amp;#8221; Pathak said. &amp;#8220;We have to use all of them because the pros of one source compensates for the downside of another source.”&lt;/p&gt;
-&lt;p&gt;“Human videos are diverse, but far from a robot. You can combine that with glove or teleoperation data,” he continued. “This is how we combine our data sources for pre-training.”&lt;/p&gt;
-&lt;h2&gt;Skild AI targets a range of tasks and form factors&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Robot Cooking Eggs -- Live Demo" width="740" height="416" src="https://www.youtube.com/embed/GARywDrjbQw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Right now, Skild AI said it isn&amp;#8217;t focusing on any one specific task or industry. “Many people on social media have been asking questions, and we have been continuously replying with new tasks, because it’s pretty generalized,” Pathak said.&lt;/p&gt;
-&lt;p&gt;Importantly, Skild is focusing on longer tasks that can take up to 10 minutes, including things like repotting a plant, making a cup of coffee, or cooking pancakes.&lt;/p&gt;
-&lt;p&gt;“When the robot flipped the pancake, we were so paranoid that we went back and checked all of our millions of hours of data to look for any flipping example of any kind, and there was none,&amp;#8221; Pathak said. &amp;#8220;This flipping basically emerged by looking at how the spatula is moving and the robot could just do it.”&lt;/p&gt;
-&lt;p&gt;The Skild brain is also &amp;#8220;omni-bodied.&amp;#8221; Pathak said it can work on anything from a quadruped to a &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoid&lt;/a&gt; or a static &lt;a href="https://www.therobotreport.com/category/robots-platforms/collaborative-robot/" target="_blank" rel="noopener"&gt;arm&lt;/a&gt;. In the future, the company does plan to spend more time improving the model&amp;#8217;s performance on humanoids.&lt;/p&gt;
-&lt;p&gt;“We have these results where, if a humanoid is going, its limbs can break and it can adapt on the fly,” Pathak said. However, these results came from an earlier version of the model. So far, Skild simply hasn&amp;#8217;t has the time to scale the model to humanoids.&lt;/p&gt;
-&lt;h2&gt;Will robotics have its own &amp;#8216;ChatGPT moment?&amp;#8217;&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Robots doing Precision Task with Extreme Robustness!" width="740" height="416" src="https://www.youtube.com/embed/su8GxzTuviA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Its easy to compare what&amp;#8217;s happening with robot foundation models to what happened with large language models (LLMs).&lt;/p&gt;
-&lt;p&gt;“Language models, before this GPT-line of models, used to be fine-tuned for every single task. So, even after the transformers were discovered and invented, you still would have to fine tune that for every new benchmark, every math problem, any new scenarios,” Pathak said. “The big change in language came when you had this transition to ChatGPT, where you don’t have to fine-tune or train the network. You can just write in the prompt, and the model can follow it.”&lt;/p&gt;
-&lt;p&gt;While Pathak said he believes this is a step in the right direction, he doesn&amp;#8217;t think robotics is quite at its ChatGPT moment.&lt;/p&gt;
-&lt;p&gt;“Now, the question is: Is it completely ready to be rolled out to people’s homes? Not quite. But this is the first sign of what we believe might come,” he said.&lt;/p&gt;
-&lt;p&gt;Looking ahead, Pathak said Skild AI has more big releases coming. “You will see in the coming weeks, we’ll show how S1 is already helping in production,&amp;#8221; he said. &amp;#8220;It’s actually helping us move faster to acquire more customers.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Skild has its sights set on deployments, something its recent Fetch Robotics &lt;a href="https://www.therobotreport.com/skild-acquires-fetch-robotics-assets-from-zebra-automation/" target="_blank" rel="noopener"&gt;acquisition&lt;/a&gt; will help with, said Pathak. He said that acquiring Fetch was about getting the right talent to be able to deploy and scale.&lt;/p&gt;
-&lt;p&gt;“Of course, we’ll continue scaling the frontier research, but at the same time, deployment is a high priority,” Pathak said.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/"&gt;Skild AI unveils S1 flagship robot foundation model&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>How better grippers can unlock physical AI</title>
-		<link>https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/</link>
-					<comments>https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/#respond</comments>
-		
-		<dc:creator>Thomas Houden</dc:creator>
-		<pubDate>Mon, 31 Aug 2026 20:20:25 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Design / Development</category>
-		<category>End Effectors / Grippers</category>
-		<category>News</category>
-		<category>Technologies</category>
-		<category>OnRobot</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589365</guid>
-
-					<description>&lt;p&gt;Physical AI depends on smarter grippers to give robots the dexterity, sensing and adaptability needed to handle real-world tasks.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/"&gt;How better grippers can unlock physical AI&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589370" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589370" class="wp-image-589370 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/onrobot-gripper-physical-ai.jpg" alt="OnRoot gripper picking up a block." width="1000" height="800" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/onrobot-gripper-physical-ai.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/onrobot-gripper-physical-ai-300x240.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/onrobot-gripper-physical-ai-150x120.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/onrobot-gripper-physical-ai-768x614.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/onrobot-gripper-physical-ai-298x238.jpg 298w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-589370" class="wp-caption-text"&gt;Models can generate actions, but hardware must execute those actions. | Credit: OnRoot&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Physical AI promises robots that can perceive, act and adapt in the real world with far less task-specific engineering than traditional automation. It’s a compelling proposition: robots powered by AI models trained on vast amounts of data, capable of improving over time and operating effectively in far less structured environments. But how do we get there?&lt;/p&gt;
-&lt;p&gt;As AI systems move from the digital to the physical world, new requirements emerge. Intelligent models and policies remain essential, but they are only a part of the equation. Robots ultimately interact with the physical world through grippers, sensors and tools that make direct contact with objects.&lt;/p&gt;
-&lt;p&gt;For physical AI to deliver on its promise, it needs a reliable physical interaction layer: &lt;a href="https://www.therobotreport.com/category/end-of-arm-tooling/"&gt;End-of-arm tooling&lt;/a&gt; (EOAT) that combines adaptability, sensing and feedback so robots can respond effectively to uncertainty and variation.&lt;/p&gt;
-&lt;p&gt;In selecting the right EOAT for physical AI-driven robotic applications, these four requirements are critical.&lt;/p&gt;
-&lt;h2&gt;1. Ability to accommodate real-world variability&lt;/h2&gt;
-&lt;p&gt;In a real-world &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/"&gt;manufacturing&lt;/a&gt; environment, robots need to handle variation in parts, positioning and operating conditions. Physical AI promises to handle more of this variability with less effort. As advances in multimodal foundation models, world models, robot learning, simulation and other areas make robots increasingly capable, the execution layer grows in importance.&lt;/p&gt;
-&lt;p&gt;The handling is key here. If the EOAT cannot reliably handle variations in part sizes, shapes, and materials, then the model’s intelligence has limited practical value.&lt;/p&gt;
-&lt;p&gt;Grippers with adjustable gripping parameters and the flexibility to accommodate different parts and conditions give the system greater freedom to put that intelligence into practice.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;h2&gt;2. More capable models require a reliable execution layer&lt;/h2&gt;
-&lt;p&gt;Models can generate actions, but hardware must execute those actions. Models can infer that an object should be picked up, but a physical gripper must make contact, apply the right force, detect whether the object is secure, and respond if something changes. Every single time.&lt;/p&gt;
-&lt;p&gt;Robot motion is relatively mature compared with real-world manipulation. That’s because manipulation depends on physical variables that cannot be eliminated and cannot be modeled perfectly.&lt;/p&gt;
-&lt;p&gt;This makes basic execution feedback critical. Grip and part detection can confirm whether an object is present and whether a grasp has been successfully completed, giving the system a direct signal that the intended action actually occurred.&lt;/p&gt;
-&lt;p&gt;Grippers and tools shape what a robot can do and how it interacts with the physical world. Limited tools mean limited practical capabilities, whereas flexible, feedback-capable tools expand the range of options available to the system.&lt;/p&gt;
-&lt;h2&gt;3. Contact-rich data is needed to complement simulation and vision&lt;/h2&gt;
-&lt;p&gt;Simulation allows teams to train, test, and iterate quickly. Vision helps robots recognize objects, understand scenes, and plan actions. Both are important to physical AI, but neither fully captures what happens when a robot physically interacts with an object.&lt;/p&gt;
-&lt;p&gt;Reliable manipulation also requires physical feedback. How much force is needed to pick up the item? What are the contact dynamics &amp;#8211; including friction, slip and deformation? This type of critical feedback is very difficult to reproduce in simulation only. A grasp that works in simulation may still fail in practice due to the uncertainty and variability of the real world.&lt;/p&gt;
-&lt;div id="attachment_589371" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589371" class="wp-image-589371 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/08/rg2-ft-holding-bottle.jpg" alt="" width="1000" height="600" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/rg2-ft-holding-bottle.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/rg2-ft-holding-bottle-300x180.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/rg2-ft-holding-bottle-150x90.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/rg2-ft-holding-bottle-768x461.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/rg2-ft-holding-bottle-368x221.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-589371" class="wp-caption-text"&gt;OnRobot&amp;#8217;s RG2-FT combines gripping with built-in force/torque and proximity sensing at the fingertips. This feedback supports delicate handling, part hand-offs, insertion, alignment, and manipulation under uncertainty. | Credit: OnRobot&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;And while a camera can locate an object, it cannot always determine what is happening during physical interaction. It may also miss subtle slip, asymmetric contact, insertion resistance, and excessive force. These limitations make multimodal feedback from EOAT an important part of physical AI.&lt;/p&gt;
-&lt;p&gt;Different forms of sensing provide information at different stages of an interaction: Proximity sensing provides data before the robot makes contact. Force/torque sensing can provide information during contact. Together with grip detection and success or failure signals, this gives the system a richer picture of what is happening during manipulation.&lt;/p&gt;
-&lt;p&gt;For learning-based systems, receiving this interaction data can vastly improve training, validation, and failure analysis.&lt;/p&gt;
-&lt;h2&gt;4. Physical AI requires flexibility across the tooling layer&lt;/h2&gt;
-&lt;p&gt;Physical AI is often associated with general-purpose robots, but general-purpose does not mean that a single end-effector can perform every type of physical interaction.&lt;/p&gt;
-&lt;p&gt;Different objects and applications require different modes of interaction:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2-finger grippers suit a broad range of handling tasks&lt;/li&gt;
-&lt;li&gt;3-finger grippers provide auto-centering gripping for cylindrical parts across a wide gripping range&lt;/li&gt;
-&lt;li&gt;Vacuum and magnetic tools provide alternative gripping methods for suitable surfaces and materials&lt;/li&gt;
-&lt;li&gt;Force/torque sensors provide feedback for contact-rich tasks&lt;/li&gt;
-&lt;li&gt;Tool changers allow a robot to switch between end effectors&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In practice, physical AI requires hardware flexibility as well as software flexibility. A broad EOAT portfolio with a unified interface can accommodate different modes of interaction while making it easier for the robot to switch between tools.&lt;/p&gt;
-&lt;p&gt;Built for a world outside labs and fixed structures The next phase of physical AI will depend on stronger models, better data, improved simulation, and more capable robot platforms. It will also depend on the physical interaction layer consisting of grippers, sensors, tool changers, and end-of-arm technologies that enable models to act reliably in the real world.&lt;/p&gt;
-&lt;p&gt;End-of-arm tools are no longer simply the last component to be added to a robot. They are an integral part of advanced learning systems.&lt;/p&gt;
-&lt;p&gt;&lt;img loading="lazy" decoding="async" class="size-medium wp-image-589368 alignleft" src="https://www.therobotreport.com/wp-content/uploads/2026/08/Thomas-Houden-300x200.png" alt="" width="300" height="200" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/Thomas-Houden-300x200.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/Thomas-Houden-150x100.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/Thomas-Houden-357x238.png 357w, https://www.therobotreport.com/wp-content/uploads/2026/08/Thomas-Houden.png 757w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/p&gt;
-&lt;h2&gt;About the author&lt;/h2&gt;
-&lt;p&gt;Thomas Houden is Director of Global Business Development at OnRobot, where he leads business and market development for new automation offerings and their global commercialization. His work spans product strategy, partnerships and go-to-market execution, connecting market needs with new robotics technologies and solutions.&lt;/p&gt;
-&lt;p&gt;As OnRobot’s spokesperson on Physical AI, Thomas focuses on how robotic sensing, and manipulation can support more intelligent and adaptive robotic systems. He regularly represents OnRobot at international industry and educational events, speaking about Physical AI and the commercialization of emerging automation technologies.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/"&gt;How better grippers can unlock physical AI&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
