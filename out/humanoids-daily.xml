@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Sat, 05 Sep 2026 08:53:27 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 05 Sep 2026 11:02:18 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/openai-s-gpt-6-astra-hits-95-on-physical-manipulation-benchmark-but-precision-tasks-expose-familiar-bottlenecks</guid>
+    <title>OpenAI’s GPT-6 Astra Hits 95% on Physical Manipulation Benchmark, But Precision Tasks Expose Familiar Bottlenecks</title>
+    <link>https://www.humanoidsdaily.com/news/openai-s-gpt-6-astra-hits-95-on-physical-manipulation-benchmark-but-precision-tasks-expose-familiar-bottlenecks</link>
+    <description>RoboCurve benchmarked OpenAI’s new GPT-6 Astra on real robot arms, revealing dramatic efficiency and spatial reasoning gains on gross manipulation alongside a persistent 10% plateau on millimeter-precision tasks.</description>
+    <pubDate>Sat, 05 Sep 2026 11:02:18 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>OpenAI</category><category>US</category><category>Benchmark</category><category>Anthropic</category><category>RoboCurve</category>
+  </item>
+
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/galbot-opens-pre-orders-for-et1-bipedal-humanoid-aimed-at-entertainment-and-performance</guid>
+    <title>Galbot Opens Pre-Orders for ET1 Bipedal Humanoid Aimed at Entertainment and Performance</title>
+    <link>https://www.humanoidsdaily.com/news/galbot-opens-pre-orders-for-et1-bipedal-humanoid-aimed-at-entertainment-and-performance</link>
+    <description>Galbot has opened pre-orders for the ET1, a compact 1.25-meter bipedal robot designed for dynamic stage performance and interactive commercial venues, stepping directly into competition with Unitree and AGIBOT.</description>
+    <pubDate>Sat, 05 Sep 2026 09:53:36 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>ET1</category><category>galbot</category><category>Market</category><category>China</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/tuya-unveils-doova-an-ai-companion-robot-targeting-elder-care-and-smart-home-hubs</guid>
     <title>Tuya Unveils Doova: An AI Companion Robot Targeting Elder Care and Smart Home Hubs</title>
@@ -57,7 +77,7 @@
     <description>RoboStrategy CMO Kevin McCordic lays out the case for physical AI: why AI finally makes humanoid labour possible, why it lands under $2 an hour, and why a roughly $200B market is aimed at a $60T one.</description>
     <pubDate>Thu, 03 Sep 2026 19:26:32 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>RoboStrategy</category>
+    <category>market analysis</category><category>Market</category><category>RoboStrategy</category>
   </item>
 
   <item>
@@ -288,26 +308,6 @@
     <pubDate>Mon, 24 Aug 2026 20:34:45 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Dobot Robotics</category><category>China</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/figure-ai-demonstrates-15-foot-autonomous-ladder-ascent-and-descent-for-industrial-mezzanines</guid>
-    <title>Figure AI Demonstrates 15-Foot Autonomous Ladder Ascent and Descent for Industrial Mezzanines</title>
-    <link>https://www.humanoidsdaily.com/news/figure-ai-demonstrates-15-foot-autonomous-ladder-ascent-and-descent-for-industrial-mezzanines</link>
-    <description>Figure CEO Brett Adcock shared video of a Figure 03 humanoid autonomously climbing up and down a 15-foot ladder, confirming the vertical locomotion milestone maps directly to an active customer use case.</description>
-    <pubDate>Mon, 24 Aug 2026 20:04:48 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Figure</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/robots-outrun-usain-bolt-inside-the-record-shattering-spree-at-the-2nd-world-humanoid-robot-games</guid>
-    <title>Robots Outrun Usain Bolt: Inside the Record-Shattering Spree at the 2nd World Humanoid Robot Games</title>
-    <link>https://www.humanoidsdaily.com/news/robots-outrun-usain-bolt-inside-the-record-shattering-spree-at-the-2nd-world-humanoid-robot-games</link>
-    <description>Bipedal machines crossed a major athletic threshold in Beijing, smashing human sprinting and jumping benchmarks while facing persistent braking and autonomy challenges.</description>
-    <pubDate>Mon, 24 Aug 2026 19:38:06 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>TianGong Robotics</category><category>Honor</category><category>China</category><category>World Robot Contest</category><category>X-Humanoid</category>
   </item>
 
   </channel>
