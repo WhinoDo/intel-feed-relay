@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Sat, 05 Sep 2026 11:02:18 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 06 Sep 2026 08:31:59 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/beyond-mechanical-chatbots-galbot-unveils-robogesture-to-tackle-real-time-nonverbal-communication</guid>
+    <title>Beyond Mechanical Chatbots: Galbot Unveils RoboGesture to Tackle Real-Time Nonverbal Communication</title>
+    <link>https://www.humanoidsdaily.com/news/beyond-mechanical-chatbots-galbot-unveils-robogesture-to-tackle-real-time-nonverbal-communication</link>
+    <description>Galbot and researchers from Tsinghua University introduce RoboGesture, a streaming diffusion-based system that aligns speech with expressive, collision-free humanoid gestures.</description>
+    <pubDate>Sun, 06 Sep 2026 08:31:59 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>galbot</category><category>Research</category><category>China</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/openai-s-gpt-6-astra-hits-95-on-physical-manipulation-benchmark-but-precision-tasks-expose-familiar-bottlenecks</guid>
     <title>OpenAI’s GPT-6 Astra Hits 95% on Physical Manipulation Benchmark, But Precision Tasks Expose Familiar Bottlenecks</title>
@@ -298,16 +308,6 @@
     <pubDate>Tue, 25 Aug 2026 08:35:11 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Pink Robotics</category><category>Europe</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/adapt-bridges-sim-to-real-to-teach-humanoids-the-tennis-styles-of-federer-nadal-and-djokovic</guid>
-    <title>AdaPT Bridges Sim-to-Real to Teach Humanoids the Tennis Styles of Federer, Nadal, and Djokovic</title>
-    <link>https://www.humanoidsdaily.com/news/adapt-bridges-sim-to-real-to-teach-humanoids-the-tennis-styles-of-federer-nadal-and-djokovic</link>
-    <description>Researchers from Shanghai AI Lab, Dobot, SJTU, and Noitom introduce AdaPT, an adaptive planning and tracking framework that extracts stylized tennis rallying and serving from broadcast footage.</description>
-    <pubDate>Mon, 24 Aug 2026 20:34:45 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Dobot Robotics</category><category>China</category>
   </item>
 
   </channel>
