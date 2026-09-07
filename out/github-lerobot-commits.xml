@@ -4,7 +4,25 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-07T12:41:25Z</ns0:updated>
+  <ns0:updated>2026-09-07T12:52:13Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/2774d9bddcbbda50e697e162e89e7eaada8d7105</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/2774d9bddcbbda50e697e162e89e7eaada8d7105" />
+    <ns0:title>
+        fix(record): preserve compressed images during reset (#4527)
+    </ns0:title>
+    <ns0:updated>2026-09-07T12:52:13Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/281533835?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>timothyanderson096-ocdealcheck</ns0:name>
+      <ns0:uri>https://github.com/timothyanderson096-ocdealcheck</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(record): preserve compressed images during reset (#4527)
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/675c07664279659525b1d1e52b6e33538c957ee3</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/675c07664279659525b1d1e52b6e33538c957ee3" />
@@ -470,22 +488,6 @@ Add Lance storage support for LeRobot datasets
 * Add optional lancedb and lancedb-convert dependencies and tests covering
     reader parity, remote-root factory routing, multiprocessing, language
     columns, metadata safety, video/depth decoding, and backend selection.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/bf31dd794ffb4f87380aba3912f64421e8352d3c</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/bf31dd794ffb4f87380aba3912f64421e8352d3c" />
-    <ns0:title>
-        docs: correct calibration guide grammar (#4508)
-    </ns0:title>
-    <ns0:updated>2026-08-25T11:42:18Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/193373702?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>POPOXR</ns0:name>
-      <ns0:uri>https://github.com/POPOXR</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: correct calibration guide grammar (#4508)&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 07 Sep 2026 11:25:06 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 07 Sep 2026 16:04:49 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/agility-s-numbers-are-in-1-8m-in-sales-a-138m-loss-and-a-backlog-owed-to-an-insider</guid>
+    <title>Agility's Numbers Are In: $1.8M in Sales, a $138M Loss, and a Backlog Owed to an Insider</title>
+    <link>https://www.humanoidsdaily.com/news/agility-s-numbers-are-in-1-8m-in-sales-a-138m-loss-and-a-backlog-owed-to-an-insider</link>
+    <description>Agility Robotics' Form S-4 puts audited numbers behind the humanoid industry's first US listing: $1.78 million in 2025 sales, a $138.1 million net loss, and a going-concern warning. The headline $300 million backlog turns out to be a single contract with a related party, partly paid in warrants — and the competition section names eight rivals without mentioning a single Chinese manufacturer.</description>
+    <pubDate>Mon, 07 Sep 2026 16:04:49 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Market</category><category>Agility Robotics</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/wandercraft-signs-12-enterprise-customers-for-calvin-40-industrial-humanoid</guid>
     <title>Wandercraft Signs 12 Enterprise Customers for Calvin-40 Industrial Humanoid</title>
@@ -298,16 +308,6 @@
     <pubDate>Wed, 26 Aug 2026 20:53:02 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>open-source</category><category>Asimov</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/figure-ai-unveils-index-crowdsourcing-real-world-human-video-to-train-helix</guid>
-    <title>Figure AI Unveils Index: Crowdsourcing Real-World Human Video to Train Helix</title>
-    <link>https://www.humanoidsdaily.com/news/figure-ai-unveils-index-crowdsourcing-real-world-human-video-to-train-helix</link>
-    <description>Figure AI has exited stealth on Index, a crowdsourced data-collection platform that has gathered over 16 million video uploads across 108 countries to train its Helix neural network.</description>
-    <pubDate>Tue, 25 Aug 2026 18:16:57 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Figure</category><category>Figure AI Index</category>
   </item>
 
   </channel>
