@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Sun, 06 Sep 2026 08:31:59 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 07 Sep 2026 11:25:06 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/wandercraft-signs-12-enterprise-customers-for-calvin-40-industrial-humanoid</guid>
+    <title>Wandercraft Signs 12 Enterprise Customers for Calvin-40 Industrial Humanoid</title>
+    <link>https://www.humanoidsdaily.com/news/wandercraft-signs-12-enterprise-customers-for-calvin-40-industrial-humanoid</link>
+    <description>Parisian robotics pioneer Wandercraft has signed 12 enterprise clients across automotive, defense, logistics, and retail for its Calvin-40 humanoid, advancing its deliberate, payload-focused path to industrial scale.</description>
+    <pubDate>Mon, 07 Sep 2026 11:25:06 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Europe</category><category>Market</category><category>wandercraft</category>
+  </item>
+
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/neura-robotics-and-seco-team-up-to-scale-european-physical-ai-hardware</guid>
+    <title>NEURA Robotics and SECO Team Up to Scale European Physical AI Hardware</title>
+    <link>https://www.humanoidsdaily.com/news/neura-robotics-and-seco-team-up-to-scale-european-physical-ai-hardware</link>
+    <description>NEURA Robotics and Italian embedded systems specialist SECO partner to industrialize distributed compute modules powered by Qualcomm Dragonwing chips, eyeing scalable humanoid production and semiconductor automation.</description>
+    <pubDate>Mon, 07 Sep 2026 08:59:36 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Neura Robotics</category><category>Europe</category><category>Market</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/beyond-mechanical-chatbots-galbot-unveils-robogesture-to-tackle-real-time-nonverbal-communication</guid>
     <title>Beyond Mechanical Chatbots: Galbot Unveils RoboGesture to Tackle Real-Time Nonverbal Communication</title>
@@ -288,26 +308,6 @@
     <pubDate>Tue, 25 Aug 2026 18:16:57 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Figure</category><category>Figure AI Index</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/skild-ai-unveils-s1-in-context-learning-for-long-horizon-robot-manipulation</guid>
-    <title>Skild AI Unveils S1: In-Context Learning for Long-Horizon Robot Manipulation</title>
-    <link>https://www.humanoidsdaily.com/news/skild-ai-unveils-s1-in-context-learning-for-long-horizon-robot-manipulation</link>
-    <description>Skild AI has detailed S1, a foundation model that executes unseen, 10-minute manipulation tasks from a single video prompt without task-specific post-training.</description>
-    <pubDate>Tue, 25 Aug 2026 11:39:55 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>skild-ai</category><category>US</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/pink-robotics-emerges-in-germany-with-a-mission-to-revive-industrial-engineering</guid>
-    <title>Pink Robotics Emerges in Germany With a Mission to Revive Industrial Engineering</title>
-    <link>https://www.humanoidsdaily.com/news/pink-robotics-emerges-in-germany-with-a-mission-to-revive-industrial-engineering</link>
-    <description>Darmstadt-based startup Pink Robotics has unveiled its P0 humanoid prototype, aiming to tackle logistics sorting while mounting a sharp critique of Germany’s current robotics ecosystem.</description>
-    <pubDate>Tue, 25 Aug 2026 08:35:11 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Pink Robotics</category><category>Europe</category>
   </item>
 
   </channel>

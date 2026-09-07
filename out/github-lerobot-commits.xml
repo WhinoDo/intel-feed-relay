@@ -4,7 +4,188 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-03T13:43:17Z</ns0:updated>
+  <ns0:updated>2026-09-07T12:41:25Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/675c07664279659525b1d1e52b6e33538c957ee3</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/675c07664279659525b1d1e52b6e33538c957ee3" />
+    <ns0:title>
+        Make PI tokenizers configurable (#4506)
+    </ns0:title>
+    <ns0:updated>2026-09-07T12:41:25Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/22099722?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>algattik</ns0:name>
+      <ns0:uri>https://github.com/algattik</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Make PI tokenizers configurable (#4506)
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/ed00614903324ab19c52f8719f69633902ab2d1f</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ed00614903324ab19c52f8719f69633902ab2d1f" />
+    <ns0:title>
+        feat(wandb): expose resume and console settings (#4480)
+    </ns0:title>
+    <ns0:updated>2026-09-07T12:33:44Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/84391547?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>kkipngenokoech</ns0:name>
+      <ns0:uri>https://github.com/kkipngenokoech</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(wandb): expose resume and console settings (#4480)
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/c23698e27251a72dfdcef81c51fb6071367036c7</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c23698e27251a72dfdcef81c51fb6071367036c7" />
+    <ns0:title>
+        fix(stats): skip video download with image stats (#4396)
+    </ns0:title>
+    <ns0:updated>2026-09-07T12:30:33Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/80150109?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>sawhney17</ns0:name>
+      <ns0:uri>https://github.com/sawhney17</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(stats): skip video download with image stats (#4396)
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/ccddda2ae4fa1a39e2ffbc99fef2d5bfb7f8cac3</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ccddda2ae4fa1a39e2ffbc99fef2d5bfb7f8cac3" />
+    <ns0:title>
+        fix(robots): honour the configured sdk_url on EarthRover Mini Plus (#…
+    </ns0:title>
+    <ns0:updated>2026-09-07T12:27:39Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/9213230?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>cagataycali</ns0:name>
+      <ns0:uri>https://github.com/cagataycali</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(robots): honour the configured sdk_url on EarthRover Mini Plus (#4515)
+
+EarthRoverMiniPlusConfig.sdk_url is the only field that says which Frodobots
+SDK server this robot talks to, and __init__ assigned a hardcoded
+&amp;quot;http://localhost:8000&amp;quot; instead of reading it. The field had no other reader,
+so every configured URL was discarded.
+
+All six HTTP call sites build their URL from self.sdk_base_url, so a caller who
+points the robot at a remote SDK is served by whatever answers on the default
+port instead. With something listening there, connect() reports success and
+POST /control delivers a drive command to a different rover; with nothing
+listening, the refusal names http://localhost:8000 rather than the host the
+caller configured.
+
+Read config.sdk_url, whose default is the same &amp;quot;http://localhost:8000&amp;quot;, so the
+local workflow in the setup guide is unchanged.
+
+Adds tests/robots/test_earthrover_mini_plus.py: the configured URL is adopted,
+the default is unchanged, every endpoint the robot drives is built from the
+configured base, and an unreachable SDK is named by its configured URL.
+
+(cherry picked from commit a473c37ec165e6c443893b00e1f70b74821ceaad)
+
+Co-authored-by: strands-agent &amp;lt;strands-agent@users.noreply.github.com&amp;gt;
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/9758537d928ed2e315422e76d4f4c8050c0c6c00</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9758537d928ed2e315422e76d4f4c8050c0c6c00" />
+    <ns0:title>
+        fix(pi05): match time_mlp modules in default PEFT targets (#4494)
+    </ns0:title>
+    <ns0:updated>2026-09-07T12:16:11Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/17123223?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>jt-z</ns0:name>
+      <ns0:uri>https://github.com/jt-z</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(pi05): match time_mlp modules in default PEFT targets (#4494)
+
+PI05Pytorch names the action-expert time projections `time_mlp_in` and
+`time_mlp_out`, but `_get_default_peft_targets` inherited the pi0-style
+`action_time_mlp_*` names, so the LoRA adapter never targeted these
+projections during pi0.5 fine-tuning.
+
+Fix the regex and add a regression test.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/2ddba5384a75c16114ed3312b7e0a05dbbd7cd59</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/2ddba5384a75c16114ed3312b7e0a05dbbd7cd59" />
+    <ns0:title>
+        docs(reachy2): replace unavailable acquisition server workflow (#4418)
+    </ns0:title>
+    <ns0:updated>2026-09-07T12:14:53Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/110315314?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>ethanvillalovoz</ns0:name>
+      <ns0:uri>https://github.com/ethanvillalovoz</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(reachy2): replace unavailable acquisition server workflow (#4418)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/6a3a5ab374cd147ed4b365cbfddab9e2151127a0</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/6a3a5ab374cd147ed4b365cbfddab9e2151127a0" />
+    <ns0:title>
+        fix(envs): make MetaWorld task descriptions unique (#4410)
+    </ns0:title>
+    <ns0:updated>2026-09-07T12:13:51Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/80150109?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>sawhney17</ns0:name>
+      <ns0:uri>https://github.com/sawhney17</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(envs): make MetaWorld task descriptions unique (#4410)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/d60ad0d23bbd34a295077e76617da46daebd5262</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d60ad0d23bbd34a295077e76617da46daebd5262" />
+    <ns0:title>
+        docs: move optional encoder comments outside continued commands (#4461)
+    </ns0:title>
+    <ns0:updated>2026-09-07T12:09:25Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/97449751?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>A-lost-unicorn</ns0:name>
+      <ns0:uri>https://github.com/A-lost-unicorn</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: move optional encoder comments outside continued commands (#4461)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/776783975ec68f85b6016404f8ac0423f4d137b0</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/776783975ec68f85b6016404f8ac0423f4d137b0" />
+    <ns0:title>
+        keep --root as a string so object-store URIs are not mangled (#4566)
+    </ns0:title>
+    <ns0:updated>2026-09-07T12:04:28Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/15766192?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>AyushExel</ns0:name>
+      <ns0:uri>https://github.com/AyushExel</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;keep --root as a string so object-store URIs are not mangled (#4566)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/3f2c29ef7e44b1ddccbcda3b6a63939e53639e9e</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/3f2c29ef7e44b1ddccbcda3b6a63939e53639e9e" />
@@ -305,297 +486,6 @@ Add Lance storage support for LeRobot datasets
     </ns0:author>
     <ns0:content type="html">
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: correct calibration guide grammar (#4508)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/8b256a6c0d4769c3cc3e7e98f04940126398a391</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8b256a6c0d4769c3cc3e7e98f04940126398a391" />
-    <ns0:title>
-        fix(datasets): validate aggregate root count (#4488)
-    </ns0:title>
-    <ns0:updated>2026-08-24T14:43:43Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/127607634?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>tandede</ns0:name>
-      <ns0:uri>https://github.com/tandede</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): validate aggregate root count (#4488)
-
-Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/f2c548e24dfec216742c24d5934cac045885a416</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f2c548e24dfec216742c24d5934cac045885a416" />
-    <ns0:title>
-        fix(datasets): keep small splits from dropping episodes in split_data…
-    </ns0:title>
-    <ns0:updated>2026-08-24T06:28:20Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/72850668?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>VihaanAgarwal</ns0:name>
-      <ns0:uri>https://github.com/VihaanAgarwal</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): keep small splits from dropping episodes in split_dataset (#4001)
-
-* fix(datasets): keep small splits from dropping episodes in split_dataset
-
-Splitting by fractions rounded each split with int(total_episodes * fraction).
-When a fraction rounded down to zero the split was skipped, which dropped both
-the split and its episodes even when the fractions summed to 1.0. For example
-{&amp;quot;train&amp;quot;: 0.9, &amp;quot;val&amp;quot;: 0.1} on 5 episodes returned only a 4-episode train split
-and silently lost the fifth episode.
-
-Allocate the leftover so every episode lands in exactly one split, and borrow a
-single episode from the largest split to fill any positive-fraction split that
-rounds to zero. Splits with more requested splits than episodes now raise
-instead of dropping data.
-
-* fix(datasets): reject negative split fractions and warn on zero ones
-
-A negative fraction passed the sum &amp;lt;= 1.0 check and leaked a negative
-count into the leftover arithmetic, so validate that every fraction is
-non-negative next to that check.
-
-An explicit zero fraction (e.g. {&amp;quot;train&amp;quot;: 0.9, &amp;quot;val&amp;quot;: 0.1, &amp;quot;test&amp;quot;: 0.0})
-is still skipped, but now logs a warning instead of dropping the split
-silently, matching the rest of this function&amp;#39;s no-quiet-loss behavior.
-
-* refactor(datasets): trim split-fraction comments and tests per review&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/7427f31801f944f5ec9ce53cda02862ce7d1638b</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7427f31801f944f5ec9ce53cda02862ce7d1638b" />
-    <ns0:title>
-        fix(tests): fix peft cli test (#4477)
-    </ns0:title>
-    <ns0:updated>2026-08-22T20:38:38Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>HaomingSong</ns0:name>
-      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(tests): fix peft cli test (#4477)
-
-`--peft.method` is a strict prefix of `--peft.method_type`, so argparse&amp;#39;s
-`allow_abbrev` expanded it silently. draccus 0.11 sets `allow_abbrev = False`,
-so the flag stopped resolving when #4033 bumped the pin from 0.10.0 to 0.11.6
-and all three tests now exit at argument parsing.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/8a49b5c8e958d91919eed4f7479f4c838853eb6e</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8a49b5c8e958d91919eed4f7479f4c838853eb6e" />
-    <ns0:title>
-        fix(rl): guard learner checkpoint saving against non-positive save_fr…
-    </ns0:title>
-    <ns0:updated>2026-08-22T20:38:17Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>HaomingSong</ns0:name>
-      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(rl): guard learner checkpoint saving against non-positive save_freq (#4479)
-
-`save_freq` is documented as &amp;quot;a non-positive value disables periodic saving,
-keeping only the final checkpoint&amp;quot;, and the RL learner inherits the field from
-TrainPipelineConfig. Its raw `optimization_step % save_freq` never honoured
-that: 0 raises ZeroDivisionError, and -1 saves on every step because
-`step % -1` is always 0.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/223a8ad16c52dad961cc1104477ffc3369c5189a</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/223a8ad16c52dad961cc1104477ffc3369c5189a" />
-    <ns0:title>
-        perf(fastwam): add compiled cached inference (#4491)
-    </ns0:title>
-    <ns0:updated>2026-08-21T15:24:45Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/139144277?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>darthjaja6</ns0:name>
-      <ns0:uri>https://github.com/darthjaja6</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(fastwam): add compiled cached inference (#4491)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/c13d79e6e350c589babc5b7c5cf5ef05cb0fa58e</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c13d79e6e350c589babc5b7c5cf5ef05cb0fa58e" />
-    <ns0:title>
-        fix(molmoact2): align continuous training with official recipe (#4249)
-    </ns0:title>
-    <ns0:updated>2026-08-21T13:32:37Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/71356829?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>hq-fang</ns0:name>
-      <ns0:uri>https://github.com/hq-fang</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(molmoact2): align continuous training with official recipe (#4249)
-
-* align molmoact2 training with original recipe
-
-* simplify molmoact2 vlm training mode
-
-* fix(molmoact2): align training configuration
-
-* fix(molmoact2): align preprocessing and normalization
-
-* fix(molmoact2): align continuous HF model path
-
-* fix(molmoact2): align continuous policy training
-
-* docs(molmoact2): document matched training recipe
-
-* test(molmoact2): cover matched continuous training
-
-* fix(molmoact2): match official LoRA initialization
-
-* fix(molmoact2): preserve continuous inference mask
-
-* fix(molmoact2): match embedding optimizer group
-
-* perf(molmoact2): specialize compiled action shapes
-
-* refactor(molmoact2): decouple shared policy helpers
-
-* docs(molmoact2): align compile and augmentation guidance
-
-* style(molmoact2): apply upstream formatters
-
-* fix(molmoact2): preserve explicit flow tensor dtype
-
-* set libero reset wait steps to 50
-
-* refactor(molmoact2): keep one compiled training path
-
-* fix(molmoact2): load checkpoint processors through factory
-
-* fix(molmoact2): keep norm stats path initialization-only
-
-* fix(molmoact2): match official scheduler horizon
-
-* revert(libero): keep upstream reset wait default
-
-* fix(molmoact2): load LeRobot checkpoints strictly
-
-* fix(molmoact2): preserve gripper masks on checkpoint reuse
-
-* fix(molmoact2): trust saved norm tag metadata
-
-* docs(molmoact2): clarify strict topology loading
-
-* fix(molmoact2): keep norm metadata initialization-only&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/15b19df7dbdbe00781a3b4c0dd2fbad0571e76da</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/15b19df7dbdbe00781a3b4c0dd2fbad0571e76da" />
-    <ns0:title>
-        feat(pi05): add optional training-time RTC (#4056)
-    </ns0:title>
-    <ns0:updated>2026-08-21T12:37:37Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>pkooij</ns0:name>
-      <ns0:uri>https://github.com/pkooij</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(pi05): add optional training-time RTC (#4056)
-
-feat(pi05): add optional training-time RTC
-
-Adds opt-in training-time Real-Time Chunking to pi0.5 via
-policy.rtc_training_max_delay (defaults to 0). When enabled, training samples a fully denoised
-action prefix per example, accomplishing this by supplying per-action flow timesteps (1 for prefix, 0 for the rest), and
-computing the flow loss only on the generated postfix. Trained
-checkpoints run with --inference.rtc.mode=trained; guided
-RTC remains the default for ordinary checkpoints.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/d451fe4f1f1b00a812f95aa9534389b5e42ab155</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d451fe4f1f1b00a812f95aa9534389b5e42ab155" />
-    <ns0:title>
-        feat(policies): vla-jepa refactoring (#4425)
-    </ns0:title>
-    <ns0:updated>2026-08-20T14:02:37Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): vla-jepa refactoring (#4425)
-
-* vla-jepa relative actions
-
-* vla_jepa: per-sample loss reduction for RA-BC
-
-* device autocast
-
-* refactoring processors
-
-* load reinit checkpoints onto the current device and honor strict
-
-* skip the discarded full-vocab lm_head forward
-
-* derive action and state dims in the config instead of mutating it in __init__
-
-* only clip normalized actions under MIN_MAX
-
-* make the gripper post-steps serializable and safe outside LIBERO
-
-* separate the world-model view count from the JEPA tubelet size
-
-* wire up the config fields that were silently ignored
-
-* fix predictor attention dropout and drop its dead parameters
-
-* skip CPU autocast for dtypes it does not implement
-
-* add tests and docs for the gripper, clipping and view-count changes
-
-* keep each sample with its own camera views when merging world-model features
-
-* enable strided observations for long horizon chunks
-* instead of first N frames, spread them across the whole chunk
-
-* cleanup pre-commit
-
-* apply the view-merge fix to the causal world-model context path
-
-#4381&amp;#39;s causal_world_model_context branch merges views with the same
-chunk+cat pattern fixed in 9622b400, so it splices features from different
-samples for b &amp;gt; 1. Extract the merge into _merge_views and use it in both
-places, and parametrize the regression test over the flag.
-
-* trim the long baked-in explanations to their essentials
-
-* overwrite input_features with the right state dim&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/713a409faedd73bb5597481b8885f17fbee23330</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/713a409faedd73bb5597481b8885f17fbee23330" />
-    <ns0:title>
-        (add) SONIC whole-body controller
-    </ns0:title>
-    <ns0:updated>2026-08-17T20:40:13Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>nepyope</ns0:name>
-      <ns0:uri>https://github.com/nepyope</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;(add) SONIC whole-body controller&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
