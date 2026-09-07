@@ -22,6 +22,9 @@ NEW = feed("Mon, 31 Aug 2026 13:31:06 GMT")
 
 class RefreshTests(unittest.TestCase):
     def setUp(self):
+        output = patch("sys.stdout", new=io.StringIO())
+        output.start()
+        self.addCleanup(output.stop)
         self.directory = tempfile.TemporaryDirectory()
         self.addCleanup(self.directory.cleanup)
         self.path = Path(self.directory.name) / "import-ai.xml"
@@ -32,9 +35,9 @@ class RefreshTests(unittest.TestCase):
             "title": "Import AI 471", "canonical_url": "https://importai.substack.com/p/471",
             "post_date": "2026-08-31T13:31:06Z", "subtitle": "A & B",
         }]).encode()
-        fetch = Mock(side_effect=[TimeoutError(), archive])
+        fetch = Mock(side_effect=[TimeoutError(), TimeoutError(), archive])
         self.assertEqual(refresh(self.path, fetch), 0)
-        self.assertEqual(fetch.call_count, 2)
+        self.assertEqual(fetch.call_count, 3)
         self.assertEqual(validate(self.path.read_bytes())[1], validate(NEW)[1])
         self.assertIn(b"A &amp; B", self.path.read_bytes())
 
@@ -45,13 +48,13 @@ class RefreshTests(unittest.TestCase):
         self.assertEqual(self.path.read_bytes(), OLD)
 
     def test_error_pages_and_empty_archive_preserve_saved_snapshot(self):
-        fetch = Mock(side_effect=[b"<html>Blocked</html>", b"[]", b"<rss><channel/></rss>", b"invalid"])
+        fetch = Mock(side_effect=[b"<html>Blocked</html>", b"invalid", b"[]", b"<rss><channel/></rss>", b"invalid"])
         self.assertEqual(refresh(self.path, fetch), 1)
         self.assertEqual(self.path.read_bytes(), OLD)
 
     def test_candidate_cannot_roll_back_to_older_articles(self):
         self.path.write_bytes(NEW)
-        fetch = Mock(side_effect=[OLD, b"[]", OLD, OLD])
+        fetch = Mock(side_effect=[OLD, OLD, b"[]", OLD, OLD])
         self.assertEqual(refresh(self.path, fetch), 1)
         self.assertEqual(self.path.read_bytes(), NEW)
 
@@ -66,6 +69,16 @@ class RefreshTests(unittest.TestCase):
         self.path.unlink()
         self.assertEqual(refresh(self.path, Mock(side_effect=TimeoutError)), 1)
         self.assertFalse(self.path.exists())
+
+    def test_author_feed_fallback_keeps_original_official_link(self):
+        author_link = b"https://jack-clark.net/2026/08/31/import-ai-471/"
+        author_feed = NEW.replace(b"https://importai.substack.com/p/test", author_link)
+        fetch = Mock(side_effect=[TimeoutError(), author_feed])
+        self.assertEqual(refresh(self.path, fetch), 0)
+        self.assertEqual(fetch.call_count, 2)
+        self.assertEqual(fetch.call_args.args[0], "https://jack-clark.net/feed/")
+        self.assertIn(author_link, self.path.read_bytes())
+        self.assertEqual(validate(self.path.read_bytes())[1], validate(NEW)[1])
 
 
 class ResponseSizeTests(unittest.TestCase):

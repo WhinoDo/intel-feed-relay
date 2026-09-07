@@ -12,6 +12,7 @@ from pathlib import Path
 
 SOURCES = (
     ("https://importai.substack.com/feed", False),
+    ("https://jack-clark.net/feed/", False),
     ("https://importai.substack.com/api/v1/archive?sort=new&offset=0&limit=30", True),
     ("https://rsshub.app/substack/importai", False),
     ("https://morss.it/https://importai.substack.com/feed", False),
