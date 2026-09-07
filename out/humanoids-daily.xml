@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 07 Sep 2026 16:04:49 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 07 Sep 2026 20:53:35 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/supply-chain-rumors-hint-at-massive-optimus-order-as-fremont-production-line-ramps-up</guid>
+    <title>Supply Chain Rumors Hint at Massive Optimus Order as Fremont Production Line Ramps Up</title>
+    <link>https://www.humanoidsdaily.com/news/supply-chain-rumors-hint-at-massive-optimus-order-as-fremont-production-line-ramps-up</link>
+    <description>Chinese supply chain reports suggest Tesla has placed bulk component orders for roughly 5,000 Optimus units, fueling speculation about the humanoid robot’s path to commercial scale.</description>
+    <pubDate>Mon, 07 Sep 2026 20:53:35 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Optimus</category><category>Tesla</category><category>US</category><category>Optimus gen 3</category><category>manufacturing</category><category>China</category>
+  </item>
+
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/unitree-unveils-unifolm-x2-world-model-ai-powers-fully-autonomous-robot-combat</guid>
+    <title>Unitree Unveils UnifoLM-X2: World Model AI Powers Fully Autonomous Robot Combat</title>
+    <link>https://www.humanoidsdaily.com/news/unitree-unveils-unifolm-x2-world-model-ai-powers-fully-autonomous-robot-combat</link>
+    <description>Unitree Robotics has demonstrated its G1 humanoid sparring autonomously against a human, using the UnifoLM-X2-1.0 predictive world model to ditch teleoperation in high-speed combat.</description>
+    <pubDate>Mon, 07 Sep 2026 19:05:49 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Unitree Robotics</category><category>China</category><category>Autonomy</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/agility-s-numbers-are-in-1-8m-in-sales-a-138m-loss-and-a-backlog-owed-to-an-insider</guid>
     <title>Agility's Numbers Are In: $1.8M in Sales, a $138M Loss, and a Backlog Owed to an Insider</title>
@@ -288,26 +308,6 @@
     <pubDate>Thu, 27 Aug 2026 05:44:22 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>1X-technologies</category><category>US</category><category>Europe</category><category>Market</category><category>softbank</category><category>Japan</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/hyundai-says-atlas-will-not-replace-workers-one-day-after-settling-a-strike-over-exactly-that</guid>
-    <title>Hyundai Says Atlas Will Not Replace Workers — One Day After Settling a Strike Over Exactly That</title>
-    <link>https://www.humanoidsdaily.com/news/hyundai-says-atlas-will-not-replace-workers-one-day-after-settling-a-strike-over-exactly-that</link>
-    <description>At its 2026 CEO Investor Day, Hyundai put hard numbers behind Atlas for the first time: 30,000 units of annual US capacity from 2028, 25,000 already spoken for. It also went out of its way to insist robots are "in service of humans" — a line delivered 24 hours after its Korean union settled a walkout that demanded protection from automation.</description>
-    <pubDate>Wed, 26 Aug 2026 21:57:36 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>hyundai</category><category>US</category><category>Hyundai Motor Group</category><category>South Korea</category><category>Atlas</category><category>Boston Dynamics</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/asimov-1-diy-humanoid-kits-begin-shipping-as-team-details-final-costs</guid>
-    <title>Asimov 1 DIY Humanoid Kits Begin Shipping as Team Details Final Costs</title>
-    <link>https://www.humanoidsdaily.com/news/asimov-1-diy-humanoid-kits-begin-shipping-as-team-details-final-costs</link>
-    <description>Menlo Research and the Asimov team are shipping the first batch of their open-source Asimov 1 DIY humanoid kit, locking in a final delivered price of $20,000.</description>
-    <pubDate>Wed, 26 Aug 2026 20:53:02 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>open-source</category><category>Asimov</category>
   </item>
 
   </channel>
