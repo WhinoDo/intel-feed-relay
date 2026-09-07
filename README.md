@@ -8,3 +8,12 @@ Files:
 - out/import-ai.xml — Import AI (Substack) RSS
 - out/robot-report.xml — The Robot Report RSS
 - out/hf-daily-papers.json — HuggingFace daily papers API JSON
+
+Import AI tries its live RSS and archive API, then RSSHub and morss on failure.
+Each candidate must be a nonempty RSS feed with article dates at least as recent
+as the saved snapshot before it replaces that snapshot. If all candidates fail,
+the previous snapshot stays available. The workflow processes and commits other
+feeds, then reports failure so a stale Import AI snapshot cannot appear healthy.
+Responses larger than 8 MiB are rejected without replacing the saved feed. Archived
+Wayback responses are not treated as live updates. Run the offline regression
+checks with `python3 -m unittest discover -s tests`.
