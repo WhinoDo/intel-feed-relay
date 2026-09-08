@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 08 Sep 2026 10:55:19 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 08 Sep 2026 14:10:44 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/the-policy-is-a-video-how-markov-robotics-runs-dexterous-manipulation-on-ltx-2-5</guid>
+    <title>The Policy Is a Video: How Markov Robotics Runs Dexterous Manipulation on LTX-2.5</title>
+    <link>https://www.humanoidsdaily.com/news/the-policy-is-a-video-how-markov-robotics-runs-dexterous-manipulation-on-ltx-2-5</link>
+    <description>LTX-2.5 ships a raw pretrained checkpoint built for fine-tuning, and a robotics team is already using the open world model to generate the video of a task and execute what the video says.</description>
+    <pubDate>Tue, 08 Sep 2026 14:10:44 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>LTX</category><category>Markov Robotics</category>
+  </item>
+
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/dynamic-creatures-emerges-from-stealth-with-boston-dynamics-backing-to-build-expressive-guest-facing-robots</guid>
+    <title>Dynamic Creatures Emerges From Stealth With Boston Dynamics Backing to Build Expressive Guest-Facing Robots</title>
+    <link>https://www.humanoidsdaily.com/news/dynamic-creatures-emerges-from-stealth-with-boston-dynamics-backing-to-build-expressive-guest-facing-robots</link>
+    <description>Founded by former Boston Dynamics and Google leaders, Dynamic Creatures launches with a proprietary AI operating system, theme park partnerships, and a fresh take on character robotics.</description>
+    <pubDate>Tue, 08 Sep 2026 13:45:45 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Dynamic Creatures</category><category>Boston Dynamics</category>
+  </item>
+
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/from-stadiums-to-the-front-line-how-china-and-the-us-are-preparing-humanoids-for-combat</guid>
+    <title>From Stadiums to the Front Line: How China and the US Are Preparing Humanoids for Combat</title>
+    <link>https://www.humanoidsdaily.com/news/from-stadiums-to-the-front-line-how-china-and-the-us-are-preparing-humanoids-for-combat</link>
+    <description>An extensive investigation reveals China’s defense establishment is laying the operational groundwork for combat humanoids, spotlighting an asymmetric race against solitary US defense contenders like Foundation.</description>
+    <pubDate>Tue, 08 Sep 2026 12:31:44 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>China</category><category>foundation</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/tokyo-now-has-a-dedicated-911-service-for-busted-humanoid-robots</guid>
     <title>Tokyo Now Has a Dedicated 911 Service—for Busted Humanoid Robots</title>
@@ -278,36 +308,6 @@
     <pubDate>Sun, 30 Aug 2026 06:37:32 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Unitree Robotics</category><category>China</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/from-alphago-to-astratennis-galbot-humanoids-complete-100-consecutive-rallies-in-live-tennis-match</guid>
-    <title>From AlphaGo to AstraTennis: Galbot Humanoids Complete 100+ Consecutive Rallies in Live Tennis Match</title>
-    <link>https://www.humanoidsdaily.com/news/from-alphago-to-astratennis-galbot-humanoids-complete-100-consecutive-rallies-in-live-tennis-match</link>
-    <description>During the opening ceremony of the second World Humanoid Robot Games, Galbot showcased autonomous humanoids completing over 100 consecutive tennis rallies against and alongside human athletes.</description>
-    <pubDate>Sun, 30 Aug 2026 05:46:57 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>galbot</category><category>China</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/lightberry-unveils-lumi-a-40k-interactive-humanoid-built-on-a-unitree-core</guid>
-    <title>Lightberry Unveils Lumi: A $40k Interactive Humanoid Built on a Unitree Core</title>
-    <link>https://www.humanoidsdaily.com/news/lightberry-unveils-lumi-a-40k-interactive-humanoid-built-on-a-unitree-core</link>
-    <description>San Francisco startup Lightberry has opened reservations for Lumi, a $39,990 bipedal robot pairing a Unitree mechanical baseline with custom American sensing, NVIDIA Thor compute, and a modular interaction engine.</description>
-    <pubDate>Sat, 29 Aug 2026 11:46:16 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Lumi</category><category>Lightberry</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/south-korea-commits-krw-2-3-trillion-to-build-full-stack-humanoid-robotics-ecosystem-by-2030</guid>
-    <title>South Korea Commits KRW 2.3 Trillion to Build Full-Stack Humanoid Robotics Ecosystem by 2030</title>
-    <link>https://www.humanoidsdaily.com/news/south-korea-commits-krw-2-3-trillion-to-build-full-stack-humanoid-robotics-ecosystem-by-2030</link>
-    <description>South Korea is allocating $1.66 billion directly to humanoid robotics and $2.0 billion for physical AI field verification, targeting an 80% domestic component localization rate and state procurement of over 1,000 bipedal units.</description>
-    <pubDate>Sat, 29 Aug 2026 10:01:41 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>South Korea</category><category>Wonik Robotics</category>
   </item>
 
   </channel>
