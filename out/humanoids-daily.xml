@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 07 Sep 2026 21:28:21 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 08 Sep 2026 10:55:19 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/tokyo-now-has-a-dedicated-911-service-for-busted-humanoid-robots</guid>
+    <title>Tokyo Now Has a Dedicated 911 Service—for Busted Humanoid Robots</title>
+    <link>https://www.humanoidsdaily.com/news/tokyo-now-has-a-dedicated-911-service-for-busted-humanoid-robots</link>
+    <description>When your $50,000 robotic worker blows an actuator mid-shift, who do you call? GMO AI &amp; Robotics just unleashed Japan’s first "Humanoid Ambulance," complete with mobile triage and robot gurneys.</description>
+    <pubDate>Tue, 08 Sep 2026 10:55:19 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Japan</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/xpeng-launches-mass-production-of-iron-humanoid</guid>
     <title>XPENG Launches Mass Production of IRON Humanoid</title>
@@ -298,16 +308,6 @@
     <pubDate>Sat, 29 Aug 2026 10:01:41 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>South Korea</category><category>Wonik Robotics</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/agibot-tops-medal-table-at-2nd-world-humanoid-robot-games-as-beijing-showdown-concludes</guid>
-    <title>AGIBOT Tops Medal Table at 2nd World Humanoid Robot Games as Beijing Showdown Concludes</title>
-    <link>https://www.humanoidsdaily.com/news/agibot-tops-medal-table-at-2nd-world-humanoid-robot-games-as-beijing-showdown-concludes</link>
-    <description>AGIBOT secures first place with 46 medals at the 2nd World Humanoid Robot Games, narrowly edging out TianGong in a fierce multi-discipline competition showcasing mass-produced hardware.</description>
-    <pubDate>Thu, 27 Aug 2026 13:33:58 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>AGILINK</category><category>Beijing Humanoid Robot Innovation Center</category><category>China</category><category>AGIBOT</category><category>UBTECH Robotics</category><category>WHRG</category><category>X-Humanoid</category>
   </item>
 
   </channel>
