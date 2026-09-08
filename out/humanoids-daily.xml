@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 08 Sep 2026 14:10:44 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 08 Sep 2026 21:13:23 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/figure-ai-reports-rapid-growth-for-index-surpassing-69-000-weekly-active-users</guid>
+    <title>Figure AI Reports Rapid Growth for Index, Surpassing 69,000 Weekly Active Users</title>
+    <link>https://www.humanoidsdaily.com/news/figure-ai-reports-rapid-growth-for-index-surpassing-69-000-weekly-active-users</link>
+    <description>Two weeks after emerging from stealth, Figure AI CEO Brett Adcock shared growth metrics for Index, reporting nearly 70,000 weekly active users uploading 35 minutes of human interaction video every second.</description>
+    <pubDate>Tue, 08 Sep 2026 21:13:23 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Data Collection</category><category>US</category><category>Figure</category><category>Figure AI Index</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/the-policy-is-a-video-how-markov-robotics-runs-dexterous-manipulation-on-ltx-2-5</guid>
     <title>The Policy Is a Video: How Markov Robotics Runs Dexterous Manipulation on LTX-2.5</title>
@@ -298,16 +308,6 @@
     <pubDate>Mon, 31 Aug 2026 06:50:41 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Market</category><category>China</category><category>UBTECH Robotics</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/hack-one-robot-reach-the-next-how-unitree-s-g1-left-the-door-open-to-root-takeover</guid>
-    <title>Hack One Robot, Reach the Next: How Unitree’s G1 Left the Door Open to Root Takeover</title>
-    <link>https://www.humanoidsdaily.com/news/hack-one-robot-reach-the-next-how-unitree-s-g1-left-the-door-open-to-root-takeover</link>
-    <description>A new security disclosure reveals how proximity and a cloud flaw enabled unauthenticated root takeover of Unitree’s G1 humanoid, spotlighting the physical risks of software security in embodied robotics.</description>
-    <pubDate>Sun, 30 Aug 2026 06:37:32 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>China</category>
   </item>
 
   </channel>
