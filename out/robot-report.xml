@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Tue, 08 Sep 2026 17:02:30 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 08 Sep 2026 19:03:09 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,74 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>AI can’t outrun a humanoid’s hardware</title>
+		<link>https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/</link>
+					<comments>https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/#respond</comments>
+		
+		<dc:creator>Andreas P. Friedrich</dc:creator>
+		<pubDate>Tue, 08 Sep 2026 19:03:09 +0000</pubDate>
+				<category>Artificial Intelligence / Cognition</category>
+		<category>Design / Development</category>
+		<category>Humanoids</category>
+		<category>News</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589469</guid>
+
+					<description>&lt;p&gt;The remarkable progress in AI has brought robotics closer to machines capable of determining what they should do. The next major advance may depend on whether their physical systems can execute those decisions efficiently, precisely and safely.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/"&gt;AI can’t outrun a humanoid&amp;#8217;s hardware&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;p&gt;&lt;img fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-589471" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ai-humanoid-hardware.jpg" alt="" width="1000" height="774" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/ai-humanoid-hardware.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/ai-humanoid-hardware-300x232.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/ai-humanoid-hardware-150x116.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/ai-humanoid-hardware-768x594.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/ai-humanoid-hardware-307x238.jpg 307w, https://www.therobotreport.com/wp-content/uploads/2026/09/ai-humanoid-hardware-216x168.jpg 216w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Editor&amp;#8217;s Note:&lt;/strong&gt; Andreas Friedrich, Managing Director Technology &amp;amp; Strategy, Allegro MicroSystems, will be speaking at RoboBusiness (Oct. 20-21 in Santa Clara). His talk will dissect the critical technological advancements that are making next-generation robotic actuation possible. &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;Register for RoboBusiness today&lt;/a&gt;. RoboBusiness is produced by The Robot Report and parent company Arrowfly.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The more capable a &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/"&gt;humanoid robot&lt;/a&gt; becomes, the more difficult it is to accommodate the hardware required to make it move. The humanoid environment is one of articulated joints and degrees of freedom, where hardware faces stringent size and weight constraints, and motion requires a slew of motors, sensing, control, power and safety systems.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/"&gt;Artificial intelligence&lt;/a&gt; has helped humanoids better perceive their surroundings, interpret instructions and determine what actions to take. Translating those decisions into precise, fluid and safe physical movement presents a different engineering challenge.&lt;/p&gt;
+&lt;p&gt;That distinction matters more as humanoids move from laboratory prototypes to practical machines capable of operating alongside people. Continued advances in AI matter, but the physical limits of the robot determine how that intelligence is put to work.&lt;/p&gt;
+&lt;h2&gt;From fixed automation to autonomous machines&lt;/h2&gt;
+&lt;p&gt;Consider the difference between a traditional industrial robot and a humanoid. An industrial robotic arm may have six or seven axes and spend its entire working life bolted to a factory floor. Weight at its base may matter relatively little. Thick copper cables can deliver power. Motor drives can be housed outside the robot in control cabinets. If necessary, the system can accommodate substantial cooling infrastructure.&lt;/p&gt;
+&lt;p&gt;A humanoid with 30 or more degrees of freedom has none of those luxuries. Every additional joint introduces another combination of motors, power electronics, position and current sensing, control and safety functions. All of that hardware has to travel with the robot. Every gram contributes to the energy required to move it, and every millimeter occupied by electronics competes for space inside an arm, leg, hand or finger.&lt;/p&gt;
+&lt;p&gt;The electronics required to give a humanoid freedom of movement take up precious space and add weight that can actually restrict how freely the robot moves. This engineering paradox is particularly acute in dexterous hands, where multiple motors, sensors and control functions must fit into extremely tight spaces, making the joint itself a system-level design problem.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;When power architecture determines mobility&lt;/h2&gt;
+&lt;p&gt;The evolving power architecture of advanced robots demonstrates how closely electrical and mechanical design are connected. Early robotic systems were commonly designed around relatively low-voltage power distribution. More advanced mobile robots and humanoids are moving toward higher voltages, specifically 48V DC architectures.&lt;/p&gt;
+&lt;p&gt;Physics explains why. For the same amount of delivered power, moving from 12V to 48V reduces the required current by a factor of four. Designers can use thinner wiring, reducing copper weight throughout the machine. And because resistive losses scale with the square of current, reducing current by four reduces wiring losses by a factor of 16.&lt;/p&gt;
+&lt;p&gt;In a humanoid, those electrical gains have mechanical consequences. Less wiring weight reduces the energy required for movement, while lower thermal loads make it easier to package electronics into joints that cannot accommodate elaborate cooling systems.&lt;/p&gt;
+&lt;p&gt;Higher voltage, however, introduces its own engineering problem. Motors do not always consume energy. During rapid deceleration they can behave as generators, producing transient voltages considerably higher than the nominal DC bus voltage. The electronics controlling the joint must withstand those events without damage or loss of control.&lt;/p&gt;
+&lt;p&gt;Higher voltage reduces current, heat and wiring weight, but it also raises the demands placed on motor-control electronics. Changes in power, thermal performance, weight or reliability can directly affect the others. Similar tradeoffs appear throughout the humanoid.&lt;/p&gt;
+&lt;h2&gt;AI can decide, but the joint still has to execute&lt;/h2&gt;
+&lt;p&gt;A higher-level AI system may determine that a robot should pick up an object, turn a handle or hand someone a glass. But the instruction itself does not produce useful physical movement. Each joint must continuously determine where it is, how it is moving and how much force it is applying. Position, current and torque information feed a closed control loop that measures actual movement against commanded movement and continuously adjusts motor behavior.&lt;/p&gt;
+&lt;p&gt;Consider the seemingly simple task of handing someone a cup of tea. The robot cannot just move its arm toward a predetermined coordinate. It must know the position of its joints and control the torque being applied as the arm moves, while responding to changing physical conditions. This form of physical intelligence encompasses the sensing, actuation and feedback required to translate an AI decision into controlled movement.&lt;/p&gt;
+&lt;p&gt;More sophisticated motion also places greater demands on sensing. A shoulder and a finger, for example, have very different mechanical and packaging requirements. Large motors can create electromagnetic interference that sensing systems must tolerate, while smaller joints impose severe space limitations and still require precise position data.&lt;/p&gt;
+&lt;p&gt;No single sensing architecture is likely to address every joint. Precise, reliable feedback is part of the control loop that turns machine intelligence into physical action.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;Safety moves inside the control loop&lt;/h2&gt;
+&lt;p&gt;That control becomes even more consequential when robots begin working alongside people. Industrial automation environments often manage risk by separating humans and machines. A humanoid designed to collaborate with a factory worker or assist with tasks in the home cannot depend on that separation. Functional safety becomes part of the robot.&lt;/p&gt;
+&lt;p&gt;The control system must continuously monitor operating conditions, detect faults or anomalous behavior and quickly move the affected subsystem to an appropriate safe state when necessary. Building those capabilities from scratch can create hardware redundancy, software overhead and certification work.&lt;/p&gt;
+&lt;p&gt;Robotics designers can draw on engineering disciplines that have dealt with similar challenges. Automotive systems such as electronic steering and braking combine high-power electromechanical actuation with sensing, diagnostics and functional safety. Humanoids have different requirements, but the architectural lesson still applies: diagnostics, fault detection and safe-state behavior are easier to accommodate when designed into the system from the beginning rather than layered onto a finished design.&lt;/p&gt;
+&lt;h2&gt;The joint becomes a system&lt;/h2&gt;
+&lt;p&gt;At the scale required by advanced humanoids, sensing, motor control, power management, thermal performance and functional safety must be addressed as an integrated electromechanical subsystem capable of converting higher-level machine intelligence into controlled physical action.&lt;/p&gt;
+&lt;p&gt;Semiconductor integration can shorten the physical and electrical distances between sensing, control and actuation, reducing PCB routing complexity, thermal hotspots and parasitic effects. Robotics engineers can then dedicate more time to the software, kinematics and system behavior that differentiate the robot rather than solving lower-level electronics problems within every joint.&lt;/p&gt;
+&lt;p&gt;The joint becomes a critical interface between AI and the physical world.&lt;/p&gt;
+&lt;h2&gt;From seeing and moving to feeling&lt;/h2&gt;
+&lt;p&gt;Today&amp;#8217;s humanoids use sophisticated vision systems and powerful AI models to recognize objects. But when a person grips a tool or handles a fragile object, touch and force feedback modify the movement as it occurs. We do not simply calculate the position of our fingers and execute a predetermined trajectory. We feel the object and adjust.&lt;/p&gt;
+&lt;p&gt;Replicating human-like dexterity remains a significant challenge for robotics, particularly in the hand. Integrating force and touch sensing into fingers, fingertips and other surfaces gives machines information about what happens when they make contact with the physical world and allows them to adjust their movement in response.&lt;/p&gt;
+&lt;p&gt;The remarkable progress in AI has brought robotics closer to machines capable of determining what they should do. The next major advance may depend on whether their physical systems can execute those decisions efficiently, precisely and safely.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/"&gt;AI can’t outrun a humanoid&amp;#8217;s hardware&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>Why vision AI is the safety backbone of the automated job site</title>
 		<link>https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/</link>
 					<comments>https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/#respond</comments>
@@ -45,7 +113,7 @@
 					<description>&lt;p&gt;Vision AI doesn't replace robots or human judgement; it provides the continuous perception that allows both to operate safely together.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/"&gt;Why vision AI is the safety backbone of the automated job site&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_589454" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/visionworksites-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589454" class="wp-image-589454 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/09/visionworksites-featured.jpg" alt="ViAct offers viBOT, an autonomous vision AI monitor for construction." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/visionworksites-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/visionworksites-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/visionworksites-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/visionworksites-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/visionworksites-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589454" class="wp-caption-text"&gt;ViAct offers viBOT, an autonomous robotic monitor for construction. | Source: viAct&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_589454" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/visionworksites-featured.jpg"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-589454" class="wp-image-589454 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/09/visionworksites-featured.jpg" alt="ViAct offers viBOT, an autonomous vision AI monitor for construction." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/visionworksites-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/visionworksites-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/visionworksites-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/visionworksites-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/visionworksites-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589454" class="wp-caption-text"&gt;ViAct offers viBOT, an autonomous robotic monitor for construction. | Source: viAct&lt;/p&gt;&lt;/div&gt;
 &lt;p class="p1"&gt;Construction is entering a new era of automation. Autonomous earthmoving equipment is beginning to reshape excavation. Robotic layout systems are improving precision. Drones are inspecting hard-to-reach structures. Across the board, vision AI-powered machines are steadily moving from controlled pilots to active job sites.&lt;/p&gt;
 &lt;p class="p1"&gt;The global &lt;a href="https://www.therobotreport.com/category/markets-industries/construction-demolition" target="_blank" rel="noopener"&gt;construction&lt;/a&gt; robotics market is estimated to reach $3.66 billion by 2030, &lt;a href="https://www.grandviewresearch.com/industry-analysis/construction-robots-market-report" target="_blank" rel="noopener"&gt;&lt;span class="s1"&gt;according to&lt;/span&gt;&lt;/a&gt; Grand View Research.&lt;/p&gt;
 &lt;p class="p1"&gt;Yet the success of construction robots won&amp;#8217;t ultimately be determined by how capable the machines become. It will depend on something far less visible: how safely frontline workers and autonomous systems can work together.&lt;/p&gt;
@@ -54,13 +122,13 @@
 &lt;p class="p1"&gt;The challenge is that the job site has changed in a matter of seconds, and safe operations now depend on recognising that change before it becomes an incident.&lt;/p&gt;
 &lt;p class="p1"&gt;That layer of safety is brought by &lt;a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener"&gt;vision&lt;/a&gt; AI, and it&amp;#8217;s the quiet prerequisite the industry is currently excited about.&lt;/p&gt;
 &lt;h2 class="p1"&gt;&lt;b&gt;The transition zone, not full automation, is where construction risk concentrates&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;iframe title="AI Safety Solution for Petrochemical and Specialty Chemical Plants | viAct" width="740" height="416" src="https://www.youtube.com/embed/qajmQsoFqdk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="AI Safety Solution for Petrochemical and Specialty Chemical Plants | viAct" width="740" height="416" src="https://www.youtube.com/embed/qajmQsoFqdk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p class="p1"&gt;OSHA&amp;#8217;s &amp;#8220;Fatal Four,&amp;#8221; falls, struck-by, electrocution, and caught-in/between hazards, account for roughly 58% to 59% of U.S. construction deaths in recent years. Struck-by incidents alone &lt;a href="https://www.naspweb.com/blog/construction-safety-by-the-numbers/" target="_blank" rel="noopener"&gt;&lt;span class="s1"&gt;kill over 100 workers annually&lt;/span&gt;&lt;/a&gt;, with large majority of these incidents involving vehicles or moving equipment.&lt;/p&gt;
 &lt;p class="p1"&gt;An autonomous rover doesn&amp;#8217;t get tired or impatient the way a skid steer operator might late in a shift. But it also has no intuition for the fact that a worker just stepped behind a stack of rebar, or that a subcontractor&amp;#8217;s crew wandered into a zone its path planner assumed was clear five minutes ago.&lt;/p&gt;
 &lt;p class="p1"&gt;This is what robotics teams need to sit with before deployment, not after. The hard case is where excavation crews, electricians, and an autonomous compactor share the same 20 acres on a site that was never built with structured &lt;a href="https://www.therobotreport.com/category/robots-platforms/uav-drones/" target="_blank" rel="noopener"&gt;sensing&lt;/a&gt; in mind.&lt;/p&gt;
 &lt;p class="p1"&gt;This growing challenge is reflected in evolving safety standards like the &lt;a href="https://blog.ansi.org/ansi/ansi-itsdf-b56-5-2024-guided-industrial-vehicles/" target="_blank" rel="noopener"&gt;&lt;span class="s1"&gt;ANSI/RIA R15.08.&lt;/span&gt;&lt;/a&gt; This was developed to address autonomous mobile robots operating in dynamic environments, moving beyond earlier AGV standards that assumed fixed guide paths.&lt;/p&gt;
 &lt;h2 class="p1"&gt;&lt;b&gt;Every robot sees locally. Vision AI sees the whole job site&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;iframe title="viAct Integrated with NetworkOptix: Centralized Video Management for Sites" width="740" height="416" src="https://www.youtube.com/embed/ijX9hbDmpwI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="viAct Integrated with NetworkOptix: Centralized Video Management for Sites" width="740" height="416" src="https://www.youtube.com/embed/ijX9hbDmpwI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p class="p1"&gt;Every autonomous machine already relies on perception. &lt;a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener"&gt;Cameras&lt;/a&gt;, lidar, radar, ultrasonic sensors, GPS, and onboard &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; help it navigate, detect obstacles, and safely complete the task it has been assigned. These systems are exceptionally good at understanding what is happening immediately around the machine.&lt;/p&gt;
 &lt;p class="p1"&gt;Construction, however, demands a much broader perspective. Workers move between trades, temporary access routes are opened, materials are relocated, and heavy equipment is redirected throughout the day. No single robot, regardless of how advanced its onboard sensors are, can understand everything happening across an entire job site.&lt;/p&gt;
 &lt;p class="p1"&gt;That is where vision AI fits into the robotics ecosystem. Rather than being embedded inside one machine, vision AI acts as a site-wide perception layer. It continuously analyses live video streams from existing CCTV cameras, temporary site cameras, inspection drones, body-worn cameras, and increasingly &lt;a href="https://www.therobotreport.com/tag/lidar/" target="_blank" rel="noopener"&gt;lidar&lt;/a&gt; and other sensor feeds. This helps it understand how workers, vehicles, equipment, and autonomous machines are interacting in real time.&lt;/p&gt;
@@ -76,7 +144,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2 class="p1"&gt;&lt;b&gt;The future of robotics starts with better awareness&lt;/b&gt;&lt;/h2&gt;
@@ -134,7 +202,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;/div&gt;
@@ -243,7 +311,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/"&gt;MassRobotics shares member survey results around FCC restrictions&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
@@ -322,7 +390,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/"&gt;Eric Sivertson discusses FPGAs and robot security&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
@@ -364,7 +432,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;&lt;strong&gt;Pressure sensing versus force and tactile sensing in practice&lt;/strong&gt;&lt;/h2&gt;
@@ -468,7 +536,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/"&gt;ARM Institute gets $90M for 10 projects to modernize military manufacturing&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
@@ -522,7 +590,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/enovis-to-acquire-ecential-robotics-for-180m/"&gt;Enovis to acquire surgical tech provider eCential Robotics for $180M&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
@@ -597,7 +665,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-fpgas-become-the-gatekeepers-of-physical-ai-security/"&gt;How FPGAs become the gatekeepers of physical AI security&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
@@ -684,15 +752,15 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
             &lt;input type='hidden' class='gform_hidden' name='is_submit_35' value='1' /&gt;
             &lt;input type='hidden' class='gform_hidden' name='gform_submit' value='35' /&gt;
             
-            &lt;input type='hidden' class='gform_hidden' name='gform_currency' data-currency='USD' value='4jLQFSkp/ZMTU4tRU76NsPiaRKf+jwI4L112GIUfxNjGbuu7QDZsyEoBsOABb7dGzqMi4eqy3VorWPcc8roaJeBOi2DgsTuEtbswCK4FjOSoJ0c=' /&gt;
+            &lt;input type='hidden' class='gform_hidden' name='gform_currency' data-currency='USD' value='0oorElRLJxgGWvlbr1QdZyykP6H91D8pr4I76x7KBM95gEYSleIHbQ1cdFwwURVOPojk1l3PueVDZ8T+Z2siTImI8tjtaocABynpR3lxK1vC9qA=' /&gt;
             &lt;input type='hidden' class='gform_hidden' name='gform_unique_id' value='' /&gt;
-            &lt;input type='hidden' class='gform_hidden' name='state_35' value='WyJ7XCI0NlwiOltcImRiNWE1NTQyMjQ5ZjI0ZjhiYWEwOTIxYTkyZTM2YjNjXCIsXCI1ZjRlNTc1ZTI1ZDZkNzhjMWI4ZjE5YjQ5YjkxMzMzOFwiLFwiYjg0NmEzZWExYTA4MDZmODgxZTg4ZDY0ZDgyNjc2ZGZcIixcIjBkZmQxOGFiOTEzZmRkODViYmFkYTU5NzFkNGRjMjY3XCIsXCIyMmFjZWM2NWEwZDc0MmFlNzNlMzA4YzgwYzE0ZWNmNFwiXSxcIjQzLjFcIjpcIjQ2MjExMTA2YTA5ZTJiNTgxNTc0NWUxODIxZmY5ODk3XCIsXCI0My4yXCI6XCJhNGY0NDljMDk5MmU5MjVkNTA0NWM1NjliYTQyOTAxZVwiLFwiNDMuM1wiOlwiNTAxNjYzNDQzMWFhYmFkMTQyMGRhODEwZTVlZjA3YzBcIixcIjQzLjRcIjpcIjEwYjc2ODJkNTUxNmViZjI5YWNlN2QxMzZlNzcwNGUxXCIsXCI0My41XCI6XCIwYjMyM2NiNjg4OTZhMjkxYmNiNWZmYmRiNTQ1MzU2ZFwiLFwiNDMuNlwiOlwiZGQ2MmQ1Y2UwNmY3ZTg4ZmY2YzVhOTk4MzA3Yzc3NTBcIixcIjQzLjdcIjpcIjU3MTA0NDg5MDBiYjFkODAyYjMxZmYyOTQxMTgwZDlkXCIsXCI0My44XCI6XCI3OWRmMDIwOWFhODk1N2RlZDBmNjdjZDlkMmM2MjE1NVwiLFwiNDMuOVwiOlwiZTYxNTM0N2MyOTQxNTg1NzE3NTJhMmRmMmNkYTE4Y2RcIixcIjQzLjExXCI6XCJjNGZmOGJjNWExZWQwNGJhNzMyMjUwMzk4Yzk3OTYzYlwiLFwiNDMuMTJcIjpcImY3YTI2MGZiMTk5NGExZjI0ODU5N2IxYjBiZDcxM2E3XCIsXCJnZm9ybV9zdWJtaXNzaW9uX21ldGhvZFwiOltcImFmZDc2YjBjYWU4MGUwNmI4M2I0M2VmMzljNGU1N2RjXCIsXCI1NmMzZjk1ODhmNTc3MmU2NGVmYmE3OWNiZThkZmMwYVwiXSxcImdmb3JtX3RoZW1lXCI6XCIwNmNlOTczMTc1Mjg1OThjNzQ4YzJiNzFjZWJkZGUwOVwiLFwiZ2Zvcm1fc3R5bGVfc2V0dGluZ3NcIjpcIjBlODI4NTM2ZmRkNmNhZmI3ZGI1ZjFjYzIxMmIxY2Q2XCIsXCJmb3JtX2lkXCI6XCJjOTY3MzVjZmUwZDU3ZWIzY2E3MDY2MDY3YWM5ZjgxZVwiLFwidXJsXCI6XCIwYzhlOWJkNGQwOTE2ZDRhMmZkYzFiZWU0NGFhNDM5MlwiLFwic3RhdGVfdGltZXN0YW1wXCI6XCI4ZDhhMjZlOTA0MTAzOWI5MDIxNWM4Y2NhZWE3YmIxMlwifSIsImY3ZWVmZjRmMjVmYjZlOTMyNDU1ZDgzNzJmNTExMDViIiwxNzg4ODg3NDE0XQ==' /&gt;
+            &lt;input type='hidden' class='gform_hidden' name='state_35' value='WyJ7XCI0NlwiOltcImRiNWE1NTQyMjQ5ZjI0ZjhiYWEwOTIxYTkyZTM2YjNjXCIsXCI1ZjRlNTc1ZTI1ZDZkNzhjMWI4ZjE5YjQ5YjkxMzMzOFwiLFwiYjg0NmEzZWExYTA4MDZmODgxZTg4ZDY0ZDgyNjc2ZGZcIixcIjBkZmQxOGFiOTEzZmRkODViYmFkYTU5NzFkNGRjMjY3XCIsXCIyMmFjZWM2NWEwZDc0MmFlNzNlMzA4YzgwYzE0ZWNmNFwiXSxcIjQzLjFcIjpcIjQ2MjExMTA2YTA5ZTJiNTgxNTc0NWUxODIxZmY5ODk3XCIsXCI0My4yXCI6XCJhNGY0NDljMDk5MmU5MjVkNTA0NWM1NjliYTQyOTAxZVwiLFwiNDMuM1wiOlwiNTAxNjYzNDQzMWFhYmFkMTQyMGRhODEwZTVlZjA3YzBcIixcIjQzLjRcIjpcIjEwYjc2ODJkNTUxNmViZjI5YWNlN2QxMzZlNzcwNGUxXCIsXCI0My41XCI6XCIwYjMyM2NiNjg4OTZhMjkxYmNiNWZmYmRiNTQ1MzU2ZFwiLFwiNDMuNlwiOlwiZGQ2MmQ1Y2UwNmY3ZTg4ZmY2YzVhOTk4MzA3Yzc3NTBcIixcIjQzLjdcIjpcIjU3MTA0NDg5MDBiYjFkODAyYjMxZmYyOTQxMTgwZDlkXCIsXCI0My44XCI6XCI3OWRmMDIwOWFhODk1N2RlZDBmNjdjZDlkMmM2MjE1NVwiLFwiNDMuOVwiOlwiZTYxNTM0N2MyOTQxNTg1NzE3NTJhMmRmMmNkYTE4Y2RcIixcIjQzLjExXCI6XCJjNGZmOGJjNWExZWQwNGJhNzMyMjUwMzk4Yzk3OTYzYlwiLFwiNDMuMTJcIjpcImY3YTI2MGZiMTk5NGExZjI0ODU5N2IxYjBiZDcxM2E3XCIsXCJnZm9ybV9zdWJtaXNzaW9uX21ldGhvZFwiOltcImFmZDc2YjBjYWU4MGUwNmI4M2I0M2VmMzljNGU1N2RjXCIsXCI1NmMzZjk1ODhmNTc3MmU2NGVmYmE3OWNiZThkZmMwYVwiXSxcImdmb3JtX3RoZW1lXCI6XCIwNmNlOTczMTc1Mjg1OThjNzQ4YzJiNzFjZWJkZGUwOVwiLFwiZ2Zvcm1fc3R5bGVfc2V0dGluZ3NcIjpcIjBlODI4NTM2ZmRkNmNhZmI3ZGI1ZjFjYzIxMmIxY2Q2XCIsXCJmb3JtX2lkXCI6XCJjOTY3MzVjZmUwZDU3ZWIzY2E3MDY2MDY3YWM5ZjgxZVwiLFwidXJsXCI6XCIwYzhlOWJkNGQwOTE2ZDRhMmZkYzFiZWU0NGFhNDM5MlwiLFwic3RhdGVfdGltZXN0YW1wXCI6XCI2Y2MwMDg1OTI3YjlmNzJmNmE0MmUyOWExODY3ODQwZlwifSIsImYzMjg4NGE0Y2Y1NmU5YmM0OGRmNWU1ZjhjNjI4NjRiIiwxNzg4ODk0NjE4XQ==' /&gt;
             &lt;input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_35' id='gform_target_page_number_35' value='0' /&gt;
             &lt;input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_35' id='gform_source_page_number_35' value='1' /&gt;
             &lt;input type='hidden' name='gform_field_values' value='' /&gt;
             
         &lt;/div&gt;
-                        &lt;p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"&gt;&lt;label&gt;&amp;#916;&lt;textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"&gt;&lt;/textarea&gt;&lt;/label&gt;&lt;input type="hidden" id="ak_js_1" name="ak_js" value="38"/&gt;&lt;script&gt;
+                        &lt;p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"&gt;&lt;label&gt;&amp;#916;&lt;textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"&gt;&lt;/textarea&gt;&lt;/label&gt;&lt;input type="hidden" id="ak_js_1" name="ak_js" value="230"/&gt;&lt;script&gt;
 document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );
 &lt;/script&gt;
 &lt;/p&gt;&lt;/form&gt;
@@ -734,7 +802,7 @@ document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTi
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;Lyte plans to scale production with the funding&lt;/h2&gt;
@@ -801,7 +869,7 @@ document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTi
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;How is Robot.com making sidewalk delivery work?&lt;/h2&gt;
@@ -881,7 +949,7 @@ document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTi
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/"&gt;Medtronic invests $700M in surgical partner Cornerstone Robotics&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
@@ -925,7 +993,7 @@ document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTi
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;Teradyne responds&lt;/h2&gt;
@@ -964,68 +1032,6 @@ document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTi
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/jaka-hits-teradyne-robotics-back-over-patent-dispute/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>NVIDIA plans to acquire Hugging Face and keep AI development platform open</title>
-		<link>https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/</link>
-					<comments>https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/#respond</comments>
-		
-		<dc:creator>Eugene Demaitre</dc:creator>
-		<pubDate>Thu, 03 Sep 2026 15:28:02 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>China</category>
-		<category>Development Tools / SDKs / Libraries</category>
-		<category>Mergers &amp; Acquisitions</category>
-		<category>Microprocessors / SoC</category>
-		<category>News</category>
-		<category>ROS / Open Source Solutions</category>
-		<category>Software / Simulation</category>
-		<category>cybersecurity</category>
-		<category>Hugging Face</category>
-		<category>Nvidia</category>
-		<category>open source</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589405</guid>
-
-					<description>&lt;p&gt;NVIDIA is already a major model contributor to Hugging Face, which recently surpassed 1 million datasets.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/"&gt;NVIDIA plans to acquire Hugging Face and keep AI development platform open&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589408" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589408" class="size-full wp-image-589408" src="https://www.therobotreport.com/wp-content/uploads/2026/09/hugging-face-nvidia-robotics-copy.jpg" alt="NVIDIA robotics in simulation and a Hugging Face logo. NVIDIA is acquiring the open development platform." width="770" height="498" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/hugging-face-nvidia-robotics-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/hugging-face-nvidia-robotics-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/hugging-face-nvidia-robotics-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/hugging-face-nvidia-robotics-copy-768x497.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/hugging-face-nvidia-robotics-copy-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589408" class="wp-caption-text"&gt;NVIDIA and Hugging Face have collaborated on AI and robotics development. Source: NVIDIA&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;After a few weeks of anticipation, NVIDIA Corp. today said it is acquiring Hugging Face Inc., an open platform for AI developers, for $12.9 billion. Founded in 2016, Hugging Face provides an open platform for AI developers.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Ten years after starting Hugging Face, open-source AI is at an inflection point,&amp;#8221; Clément Delangue, co-founder and CEO of Hugging Face, &lt;a href="https://x.com/ClementDelangue/status/2095482998674112733" target="_blank" rel="noopener"&gt;posted on X&lt;/a&gt;. &amp;#8220;Thanks to the community, we’ve shown that it can be a complement, and even an alternative, to closed-source APIs. But for it to happen at larger scale, it needs more compute, more support, more collaboration and more visibility. That’s why we went to talk to Jensen, who offered to do exactly that with us.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;In May 2026, Brooklyn, N.Y.-based Hugging Face &lt;a href="https://www.therobotreport.com/hugging-face-launches-agentic-toolkit-for-reachy-mini/" target="_blank" rel="noopener"&gt;launched&lt;/a&gt; an agentic &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; toolkit for its Reachy Mini desktop platform. In July, the &lt;a href="https://www.therobotreport.com/tag/hugging-face/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; and NVIDIA &lt;a href="https://www.therobotreport.com/nvidia-hugging-face-bring-new-models-frameworks-lerobot/" target="_blank" rel="noopener"&gt;added&lt;/a&gt; Isaac GR00T 1.7 and the NVIDIA Isaac Teleop framework to the LeRobot &lt;a href="https://www.therobotreport.com/category/technologies/ros-open-source" target="_blank" rel="noopener"&gt;open-source&lt;/a&gt; library for training, running, and sharing robot datasets, models, policies, and workflows.&lt;/p&gt;
-&lt;p&gt;Also in July, AI agents in an &lt;a href="https://www.therobotreport.com/tag/openai/" target="_blank" rel="noopener"&gt;OpenAI&lt;/a&gt; &lt;a href="https://www.therobotreport.com/tag/cybersecurity" target="_blank" rel="noopener"&gt;cybersecurity&lt;/a&gt; experiment coordinated &lt;a href="https://www.pbs.org/newshour/science/ai-agents-are-hacking-systems-without-any-input-from-humans-how-did-we-get-here" target="_blank" rel="noopener"&gt;an attack&lt;/a&gt; on Hugging Face. Since then, the companies have &lt;a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/" target="_blank" rel="noopener"&gt;worked together&lt;/a&gt; to strengthen safeguards, and Delangue noted that an NVIDIA version of a Chinese model helped Hugging Face address the incident.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;We couldn’t defend ourselves with proprietary closed-source APIs, so we had to use open models to defend ourselves. So, it did show the importance of open-source,&amp;#8221; he &lt;a href="https://www.cnbc.com/2026/09/03/cnbc-exclusive-transcript-nvidia-founder-ceo-jensen-huang-and-hugging-face-ceo-clment-delangue-speak-with-cnbcs-becky-quick-on-squawk-box-today.html" target="_blank" rel="noopener"&gt;told&lt;/a&gt; CNBC.&lt;/p&gt;
-&lt;p&gt;When it announced passing 1 million datasets last month, Hugging Face &lt;a href="https://huggingface.co/blog/state-of-open-models-summer-2026" target="_blank" rel="noopener"&gt;noted&lt;/a&gt; that open models from &lt;a href="https://www.therobotreport.com/category/china" target="_blank" rel="noopener"&gt;Chinese&lt;/a&gt; labs had surpassed those of U.S. labs in terms of size and performance. The company also said that NVIDIA and &lt;a href="https://www.therobotreport.com/tag/amd/" target="_blank" rel="noopener"&gt;AMD&lt;/a&gt; were the leaders in publishing the most new open models and that attention and usage are not the same.&lt;/p&gt;
-&lt;p&gt;Hugging Face received multiple acquisition offers, but Delangue declined to identify other bidders. The company&amp;#8217;s founding team said it expects to stay after the acquisition.&lt;/p&gt;
-&lt;div id="attachment_589406" style="width: 1210px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589406" class="size-full wp-image-589406" src="https://www.therobotreport.com/wp-content/uploads/2026/09/frontier-ceiling-by-country-copy.jpg" alt="Frontier models from China have surpassed U.S. models in parameters, says Hugging Face." width="1200" height="701" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/frontier-ceiling-by-country-copy.jpg 1200w, https://www.therobotreport.com/wp-content/uploads/2026/09/frontier-ceiling-by-country-copy-300x175.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/frontier-ceiling-by-country-copy-1024x598.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/frontier-ceiling-by-country-copy-150x88.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/frontier-ceiling-by-country-copy-768x449.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/frontier-ceiling-by-country-copy-368x215.jpg 368w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /&gt;&lt;p id="caption-attachment-589406" class="wp-caption-text"&gt;Frontier models from China have surpassed U.S. models in parameters. Source: Hugging Face.&lt;/p&gt;&lt;/div&gt;
-&lt;h2&gt;Huang reiterates commitment to open weight models&lt;/h2&gt;
-&lt;p&gt;&amp;#8220;Hugging Face will remain an open platform for the entire AI ecosystem,&amp;#8221; stated Jensen Huang, CEO of NVIDIA. &amp;#8220;Developers will choose the models they want, the frameworks they want, the clouds and inference service providers they want, and the computing platforms they want. NVIDIA compute will not be required to build on or deploy through Hugging Face.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;More than 18 million developers, researchers and creators use Hugging Face to share more than 3 million models, 500,000 datasets, and 1 million applications,&amp;#8221; he added. &amp;#8220;More than 200,000 companies use the platform to discover, evaluate, customize and deploy AI.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Hugging Face will continue to support open-source and open-weight models from across the ecosystem, from every model builder,&amp;#8221; &lt;a href="https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/" target="_blank" rel="noopener"&gt;wrote&lt;/a&gt; Huang. &amp;#8220;It will continue to support multi-cloud and multi-accelerator development and deployment, so builders can use the hardware and infrastructure that best fit their work.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;NVIDIA remains committed to open-source platforms to broaden access to advanced AI across research institutions and businesses, according to Huang. &amp;#8220;That is how AI can advance safely, strengthen cybersecurity and sovereignty, accelerate innovation, and reach factories, hospitals, farms, classrooms and Main Street businesses around the world,&amp;#8221; he said.&lt;/p&gt;
-&lt;p&gt;The company believes that &amp;#8220;having a healthy ecosystem of closed models and open models leads to a world where you&amp;#8217;re going to continue to train these models and run these models at scale,&amp;#8221; said Justin Boitano, vice president for enterprise AI at NVIDIA, in a media call.&lt;/p&gt;
-&lt;p&gt;NVIDIA asserted that it is the largest contributor of data and open models to Hugging Face and that it has released more than 500 models and 250 open datasets on the platform. The Santa Clara, Calif.-based &lt;a href="https://www.therobotreport.com/tag/nvidia/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; has built its own open models, libraries, and tools to allow developers to modify, use, and build on top of them.&lt;/p&gt;
-&lt;div id="attachment_589407" style="width: 1210px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589407" class="size-full wp-image-589407" src="https://www.therobotreport.com/wp-content/uploads/2026/09/HuggingFace_repos.jpg" alt="NVIDIA has the most repos and the second-most homegrown models on Hugging Face." width="1200" height="738" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/HuggingFace_repos.jpg 1200w, https://www.therobotreport.com/wp-content/uploads/2026/09/HuggingFace_repos-300x185.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/HuggingFace_repos-1024x630.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/HuggingFace_repos-150x92.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/HuggingFace_repos-768x472.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/HuggingFace_repos-368x226.jpg 368w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /&gt;&lt;p id="caption-attachment-589407" class="wp-caption-text"&gt;NVIDIA has the most repos and the second-most homegrown models on Hugging Face. Source: Hugging Face, AI World&lt;/p&gt;&lt;/div&gt;
-&lt;h2&gt;Hugging Face part of NVIDIA&amp;#8217;s software, hardware play&lt;/h2&gt;
-&lt;p&gt;By supporting the open-source software community, NVIDIA is trying to ensure demand for its AI processors and architecture. At its GPU Technology Conference (&lt;a href="https://www.therobotreport.com/tag/gtc/" target="_blank" rel="noopener"&gt;GTC&lt;/a&gt;) in March, the company announced the Vera Rubin chip architecture and &lt;a href="https://www.therobotreport.com/3-robotics-trends-from-nvidia-gtc-2026/" target="_blank" rel="noopener"&gt;touted&lt;/a&gt; its expanding &lt;a href="https://www.therobotreport.com/nvidia-collaborates-global-robotics-leaders-make-physical-ai-reality/" target="_blank" rel="noopener"&gt;robotics partner&lt;/a&gt; ecosystem.&lt;/p&gt;
-&lt;p&gt;Last week, the company &lt;a href="https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027" target="_blank" rel="noopener"&gt;reported quarterly revenue&lt;/a&gt; of $96 billion, doubling sales year over year. NVIDIA also &lt;a href="https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/" target="_blank" rel="noopener"&gt;announced Jetson Orin Nano 2&lt;/a&gt;, which reportedly doubled inference performance over the prior entry-level computer for edge AI.&lt;/p&gt;
-&lt;p&gt;The acquisition could also help NVIDIA re-enter the cloud computing market and help Hugging Face, which has already raised $400 million, be competitive in the growing AI infrastructure market, &lt;a href="https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/" target="_blank" rel="noopener"&gt;noted&lt;/a&gt; &lt;em&gt;TechCrunch.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Cloud service providers represents only half of NVIDIA’s business, and yet the other half of our business are really largely driven by open models,&amp;#8221; Huang told CNBC. &amp;#8220;And so NVIDIA’s growing in both directions, and &amp;#8230; our fundamental goal is just to make sure that AI advances as quickly as possible.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Editor&amp;#8217;s note:&lt;/strong&gt; Physical AI will be among the session track topics at &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026, which will be on Oct. 20 and 21 in Santa Clara, Calif. &lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Register now to attend.&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and save on your pass to RoboBusiness 2026&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/"&gt;NVIDIA plans to acquire Hugging Face and keep AI development platform open&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
