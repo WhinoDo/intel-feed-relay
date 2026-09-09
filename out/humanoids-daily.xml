@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 08 Sep 2026 21:13:23 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 09 Sep 2026 10:18:27 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/nucleus-pivots-to-wheeled-base-for-nucleus-ii-following-factory-floor-pushback</guid>
+    <title>Nucleus Pivots to Wheeled Base for "Nucleus II" Following Factory Floor Pushback</title>
+    <link>https://www.humanoidsdaily.com/news/nucleus-pivots-to-wheeled-base-for-nucleus-ii-following-factory-floor-pushback</link>
+    <description>Just a month after breaking stealth with a legged Unitree platform, European robotics startup Nucleus has deployed Nucleus II on a wheeled mobile chassis, prioritizing payload, runtime, and stability.</description>
+    <pubDate>Wed, 09 Sep 2026 10:18:27 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>RaaS</category><category>Europe</category><category>Deployment</category><category>Nucleus</category>
+  </item>
+
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/inside-xpeng-s-bet-on-iron-he-xiaopeng-on-why-the-hardest-path-in-humanoid-robotics-is-never-crowded</guid>
+    <title>Inside XPENG’s Bet on IRON: He Xiaopeng on Why the Hardest Path in Humanoid Robotics Is Never Crowded</title>
+    <link>https://www.humanoidsdaily.com/news/inside-xpeng-s-bet-on-iron-he-xiaopeng-on-why-the-hardest-path-in-humanoid-robotics-is-never-crowded</link>
+    <description>In an unusually candid documentary-style essay following the commissioning of XPENG’s humanoid assembly line, CEO He Xiaopeng reflects on six years of failures, why the company avoids stage demos, and how EV intelligence translates to physical AI.</description>
+    <pubDate>Wed, 09 Sep 2026 06:45:50 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Xiaopeng He</category><category>China</category><category>XPeng</category><category>IRON</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/figure-ai-reports-rapid-growth-for-index-surpassing-69-000-weekly-active-users</guid>
     <title>Figure AI Reports Rapid Growth for Index, Surpassing 69,000 Weekly Active Users</title>
@@ -288,26 +308,6 @@
     <pubDate>Tue, 01 Sep 2026 12:22:07 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>MOS2</category><category>Lumos Robotics</category><category>Market</category><category>China</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/kinetic-blocks-opens-marketplace-for-humanoid-training-data</guid>
-    <title>Kinetic Blocks Opens Marketplace for Humanoid Training Data</title>
-    <link>https://www.humanoidsdaily.com/news/kinetic-blocks-opens-marketplace-for-humanoid-training-data</link>
-    <description>Oslo-based Kinetic Blocks launches a gated two-sided market to standardize licensing, pricing, and quality grading for physical AI datasets.</description>
-    <pubDate>Tue, 01 Sep 2026 11:48:29 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Data Collection</category><category>Kinetic Blocks</category><category>Dataset</category><category>Europe</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/ubtech-reports-104-revenue-surge-in-h1-2026-as-full-size-humanoids-drive-growth</guid>
-    <title>UBTECH Reports 104% Revenue Surge in H1 2026 as Full-Size Humanoids Drive Growth</title>
-    <link>https://www.humanoidsdaily.com/news/ubtech-reports-104-revenue-surge-in-h1-2026-as-full-size-humanoids-drive-growth</link>
-    <description>UBTECH Robotics generated RMB 1.27 billion in the first half of 2026, driven by a 1,445% revenue surge in full-size embodied humanoids, narrowing net losses as industrial deployments accelerate.</description>
-    <pubDate>Mon, 31 Aug 2026 06:50:41 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Market</category><category>China</category><category>UBTECH Robotics</category>
   </item>
 
   </channel>

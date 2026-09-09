@@ -4,7 +4,57 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-07T12:52:13Z</ns0:updated>
+  <ns0:updated>2026-09-09T10:36:19Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/a94fb8c0c88504fed0ebed49a5b36737398e8909</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/a94fb8c0c88504fed0ebed49a5b36737398e8909" />
+    <ns0:title>
+        chore(ci): refresh claude action to latest model (#4593)
+    </ns0:title>
+    <ns0:updated>2026-09-09T10:36:19Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(ci): refresh claude action to latest model (#4593)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/2edf1988f49186ddf7dda42a127b7f6a9729bc33</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/2edf1988f49186ddf7dda42a127b7f6a9729bc33" />
+    <ns0:title>
+        chore: update ai policy (#4590)
+    </ns0:title>
+    <ns0:updated>2026-09-09T09:41:43Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore: update ai policy (#4590)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/34e42ca56b72ab51246ae5a4e315201c2c5ab8bd</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/34e42ca56b72ab51246ae5a4e315201c2c5ab8bd" />
+    <ns0:title>
+        chore(dependencies): update uv.lock (#4318)
+    </ns0:title>
+    <ns0:updated>2026-09-09T09:25:53Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): update uv.lock (#4318)
+
+Co-authored-by: github-actions[bot] &amp;lt;github-actions[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/2774d9bddcbbda50e697e162e89e7eaada8d7105</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/2774d9bddcbbda50e697e162e89e7eaada8d7105" />
@@ -407,87 +457,6 @@ Co-authored-by: lucarp &amp;lt;lucarp@lucarp.com&amp;gt;&lt;/pre&gt;
     </ns0:author>
     <ns0:content type="html">
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;support lance datasets in foxglove playback (#4542)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/4aaff99be4a1d81568c08c8f0296b41b40c99ec4</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4aaff99be4a1d81568c08c8f0296b41b40c99ec4" />
-    <ns0:title>
-        add upper bounds for lancedb dependencies (#4532)
-    </ns0:title>
-    <ns0:updated>2026-08-28T14:15:16Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/15766192?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>AyushExel</ns0:name>
-      <ns0:uri>https://github.com/AyushExel</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;add upper bounds for lancedb dependencies (#4532)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/201bfe73901834ea068e4816592b010e1574375b</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/201bfe73901834ea068e4816592b010e1574375b" />
-    <ns0:title>
-        fix(security): remediate workflow vulnerability in .github/workflows/…
-    </ns0:title>
-    <ns0:updated>2026-08-28T12:38:52Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/25720743?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>hf-security-analysis</ns0:name>
-      <ns0:uri>https://github.com/hf-security-analysis</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(security): remediate workflow vulnerability in .github/workflows/full_tests.yml (#4531)
-
-Co-authored-by: hf-security-analysis[bot] &amp;lt;265538906+hf-security-analysis[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/f67b122dbbecbd01be8c2a36114dba8f453bcdd6</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f67b122dbbecbd01be8c2a36114dba8f453bcdd6" />
-    <ns0:title>
-        feat(datasets): native support for LeRobot datasets stored as LanceDB…
-    </ns0:title>
-    <ns0:updated>2026-08-28T12:25:00Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/15766192?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>AyushExel</ns0:name>
-      <ns0:uri>https://github.com/AyushExel</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(datasets): native support for LeRobot datasets stored as LanceDB datasets (#4363)
-
-Add Lance storage support for LeRobot datasets
-
-* Add a reader-level storage abstraction with BaseDatasetReader, keeping
-    LeRobotDataset as the single public dataset API. The existing
-    DatasetReader remains the default lerobot backend, while
-    LanceDatasetReader provides Lance-backed storage selected through
-    storage_format in meta/info.json.
-* Add batched Lance reads with support for delta timestamps, padding masks,
-    episode subsets, language columns, depth features, and parity with the
-    existing LeRobot reader semantics.
-* Add efficient local and remote video decoding from Lance blob columns.
-    Video byte indexes are used to issue coalesced, keyframe-aligned ranged
-    reads for each batch, backed by sparse seekable sources and decoder caches.
-    Video preparation and decoding are parallelized and work with RGB and
-    depth video paths.
-* Support local paths and remote dataset roots including s3://, gs://,
-    file://, and hf://buckets/.... Dataset metadata is stored in a Lance
-    meta table and materialized locally for compatibility with
-    LeRobotDatasetMetadata, with revision, authentication, cache consistency,
-    and path-safety handling.
-* Add dataset integrity validation for frame counts, episode boundaries, and
-    referenced video files, plus consistent float64 timestamp tolerance checks
-    across video decoders.
-* Integrate Lance readers with dataset factories, training/evaluation,
-    multiprocessing DataLoaders, Groot, depth output units, and repository
-    configuration while preserving the existing behavior for standard LeRobot
-    datasets.
-* Add optional lancedb and lancedb-convert dependencies and tests covering
-    reader parity, remote-root factory routing, multiprocessing, language
-    columns, metadata safety, video/depth decoding, and backend selection.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
