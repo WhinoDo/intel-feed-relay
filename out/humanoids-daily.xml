@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 09 Sep 2026 10:18:27 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 09 Sep 2026 20:24:38 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/the-openai-of-robotics-debate-reignites-as-gpt-6-astra-paints-in-real-life</guid>
+    <title>The "OpenAI of Robotics" Debate Reignites as GPT-6 Astra Paints in Real Life</title>
+    <link>https://www.humanoidsdaily.com/news/the-openai-of-robotics-debate-reignites-as-gpt-6-astra-paints-in-real-life</link>
+    <description>An impromptu painting demonstration using OpenAI’s GPT-6 Astra has triggered a wider industry clash over whether foundation models will commoditize physical AI or hit an unyielding hardware ceiling.</description>
+    <pubDate>Wed, 09 Sep 2026 20:24:38 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>skild-ai</category><category>OpenAI</category><category>Physical Intelligence</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/nucleus-pivots-to-wheeled-base-for-nucleus-ii-following-factory-floor-pushback</guid>
     <title>Nucleus Pivots to Wheeled Base for "Nucleus II" Following Factory Floor Pushback</title>
@@ -298,16 +308,6 @@
     <pubDate>Tue, 01 Sep 2026 13:39:41 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Nori Robotics</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/lumos-robotics-unveils-mos-2-mobile-manipulator-backed-by-mitsubishi-factory-deployment</guid>
-    <title>Lumos Robotics Unveils MOS 2 Mobile Manipulator Backed by Mitsubishi Factory Deployment</title>
-    <link>https://www.humanoidsdaily.com/news/lumos-robotics-unveils-mos-2-mobile-manipulator-backed-by-mitsubishi-factory-deployment</link>
-    <description>Lumos Robotics has launched MOS 2, a heavy-duty wheeled dual-arm "AI Worker" with a 50 kg payload capacity, deployed at Mitsubishi Electric facilities following a funding round exceeding 1 billion yuan.</description>
-    <pubDate>Tue, 01 Sep 2026 12:22:07 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>MOS2</category><category>Lumos Robotics</category><category>Market</category><category>China</category>
   </item>
 
   </channel>
