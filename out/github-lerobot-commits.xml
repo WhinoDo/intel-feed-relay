@@ -4,7 +4,23 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-09T10:36:19Z</ns0:updated>
+  <ns0:updated>2026-09-09T11:56:05Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/e715bbe321f525bfacb90d380845b3c8ccae95cf</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e715bbe321f525bfacb90d380845b3c8ccae95cf" />
+    <ns0:title>
+        chore(ci): increase max turns claude (#4597)
+    </ns0:title>
+    <ns0:updated>2026-09-09T11:56:05Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(ci): increase max turns claude (#4597)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/a94fb8c0c88504fed0ebed49a5b36737398e8909</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/a94fb8c0c88504fed0ebed49a5b36737398e8909" />
@@ -441,22 +457,6 @@ replay buffer populated.
 ---------
 
 Co-authored-by: lucarp &amp;lt;lucarp@lucarp.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/d36d404b65315139b7601a707f260a3db736462f</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d36d404b65315139b7601a707f260a3db736462f" />
-    <ns0:title>
-        support lance datasets in foxglove playback (#4542)
-    </ns0:title>
-    <ns0:updated>2026-08-31T16:36:28Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/15766192?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>AyushExel</ns0:name>
-      <ns0:uri>https://github.com/AyushExel</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;support lance datasets in foxglove playback (#4542)&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
