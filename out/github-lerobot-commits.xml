@@ -4,7 +4,33 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-09T16:07:45Z</ns0:updated>
+  <ns0:updated>2026-09-10T14:51:34Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/b6ec0060779550c0a157ae34feb89e0cf86012a8</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b6ec0060779550c0a157ae34feb89e0cf86012a8" />
+    <ns0:title>
+        feat(eo1): add language runtime and text supervision + base model (#4…
+    </ns0:title>
+    <ns0:updated>2026-09-10T14:51:34Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>pkooij</ns0:name>
+      <ns0:uri>https://github.com/pkooij</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(eo1): add language runtime and text supervision + base model (#4235)
+
+* feat(eo1): add recipe-backed language generation
+
+* fix(eo1): adopt merged recipe processor contract
+
+* refactor(eo1): move system prompt into recipe and clarify message step
+
+* fix(eo1): preserve rendered inputs without system messages
+
+* fix(eo1): condition text generation on projected robot state&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/71a11efe77f55e61f3ab2ce45b40da8cf626afa9</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/71a11efe77f55e61f3ab2ce45b40da8cf626afa9" />
@@ -426,26 +452,6 @@ previous transform would keep answering delta queries with it. Compare
 the transform recorded at view-build time and rebuild when it changes.
 
 Addresses review feedback on #4314.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/128d3324e3202ce1fca1340fb8d7941edecce9d3</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/128d3324e3202ce1fca1340fb8d7941edecce9d3" />
-    <ns0:title>
-         make eval_split format aware (#4543)
-    </ns0:title>
-    <ns0:updated>2026-09-01T11:41:19Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/15766192?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>AyushExel</ns0:name>
-      <ns0:uri>https://github.com/AyushExel</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt; make eval_split format aware (#4543)
-
-* allow eval_split for map-style formats on buckets
-
-* address review&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
