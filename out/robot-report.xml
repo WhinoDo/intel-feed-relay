@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Thu, 10 Sep 2026 00:10:11 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Sep 2026 18:49:08 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,57 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Comau automates picking, handling, and palletizing for Decathlon</title>
+		<link>https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/</link>
+					<comments>https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Thu, 10 Sep 2026 18:49:08 +0000</pubDate>
+				<category>Cobot Arms</category>
+		<category>Collaborative Robots</category>
+		<category>Logistics</category>
+		<category>Markets / Industries</category>
+		<category>News</category>
+		<category>Robots / Platforms</category>
+		<category>ROS / Open Source Solutions</category>
+		<category>Software / Simulation</category>
+		<category>comau</category>
+		<category>Europe</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589491</guid>
+
+					<description>&lt;p&gt;Comau's system incorporates its MyCo cobot, ROS2 software architecture, AI-powered vision systems, and a modular gripper.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/"&gt;Comau automates picking, handling, and palletizing for Decathlon&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589492" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/MASTERLY_header-scaled-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589492" class="size-full wp-image-589492" src="https://www.therobotreport.com/wp-content/uploads/2026/09/MASTERLY_header-scaled-featured.jpg" alt="Unveiled in 2025, Comau designed its MyCo family of cobots for quick installation, easy programming, and rapid redeployment." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/MASTERLY_header-scaled-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/MASTERLY_header-scaled-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/MASTERLY_header-scaled-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/MASTERLY_header-scaled-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/MASTERLY_header-scaled-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589492" class="wp-caption-text"&gt;Comau designed its MyCo family of cobots for quick installation, easy programming, and rapid redeployment. | Source: Comau&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Comau SpA yesterday said it has designed and validated an order-preparation system tested in Decathlon’s e-commerce fulfillment operations. The system is part of MASTERLY, a European initiative designed to accelerate the transition from traditional mass production to highly flexible, customized manufacturing systems.&lt;/p&gt;
+&lt;p&gt;The system uses the Turin, Italy-based &lt;a href="https://www.therobotreport.com/tag/comau/" target="_blank" rel="noopener"&gt;company&lt;/a&gt;&amp;#8216;s MyCo &lt;a href="https://www.therobotreport.com/category/robots-platforms/collaborative-robot/" target="_blank" rel="noopener"&gt;collaborative robot&lt;/a&gt; with a &lt;a href="https://www.therobotreport.com/category/ros-open-source" target="_blank" rel="noopener"&gt;ROS&lt;/a&gt; 2-based software architecture. It integrates an advanced modular gripper to autonomously manage &lt;a href="https://www.automatedwarehouseonline.com/category/manipulating/" target="_blank" rel="noopener"&gt;picking&lt;/a&gt;, &lt;a href="https://www.automatedwarehouseonline.com/category/move/" target="_blank" rel="noopener"&gt;handling&lt;/a&gt;, and &lt;a href="https://www.automatedwarehouseonline.com/tag/pallet/" target="_blank" rel="noopener"&gt;palletizing&lt;/a&gt; tasks across variable product flows.&lt;/p&gt;
+&lt;p&gt;“Comau’s role in the &lt;a href="https://cordis.europa.eu/project/id/101091800" target="_blank" rel="noopener"&gt;MASTERLY&lt;/a&gt; project is fully aligned with our commitment to advancing next-generation manufacturing by promoting reconfigurability, efficiency, and human-centric automation,” said Alessandro Piscioneri, the head of product and solution management of advanced automation solutions at Comau.&lt;/p&gt;
+&lt;p&gt;“The project also highlights the strategic value of combining intelligent robotics, digital technologies and systems integration to create highly flexible logistics and fulfillment operations capable of adapting to rapidly changing production and market demands while maintaining operational continuity, scalability and ease of use,&amp;#8221; he stated. &amp;#8220;Comau’s growing strategic focus on intralogistics includes strengthening our capabilities through acquisitions, including &lt;a href="https://www.therobotreport.com/comau-set-to-acquire-warehousing-automation-firm-automha-in-strategic-expansion/" target="_blank" rel="noopener"&gt;Automha&lt;/a&gt; and Invent, which enable us to deliver increasingly integrated and intelligent solutions across the entire warehouse and production value chain.”&lt;/p&gt;
+&lt;h2&gt;Comau designs system for complex fulfillment&lt;/h2&gt;
+&lt;p&gt;Comau said it engineered &lt;a href="https://www.comau.com/en/our-offer/products-and-solutions/robot-team/myco-cobots/" target="_blank" rel="noopener"&gt;MyCo&lt;/a&gt; to manipulate objects varying in shape, weight, and material. In addition to MyCo, the solution also incorporates advanced &lt;a href="https://www.therobotreport.com/category/technologies/sensors-sensing/" target="_blank" rel="noopener"&gt;sensors&lt;/a&gt;, vision-based object recognition, digital twin capabilities, and workflow orchestration tools.&lt;/p&gt;
+&lt;p&gt;The company said the system can manage the rigid, soft, and porous materials commonly found in &lt;a href="https://www.therobotreport.com/tag/ecommerce/" target="_blank" rel="noopener"&gt;e-commerce&lt;/a&gt; fulfillment environments. Comau also claimed that its system enables real-time optimization and smooth interaction between operators and the automated processes. This helps it ensure high flexibility while maintaining consistent throughput and operational reliability, it said.&lt;/p&gt;
+&lt;p&gt;Comau said the knowledge gained and functionalities validated during the project will contribute to the continued evolution of its MyCo platform. The company said it expects these improvements to become part of its broader portfolio of advanced &lt;a href="https://www.automatedwarehouseonline.com/category/intralogistics/" target="_blank" rel="noopener"&gt;intralogistics&lt;/a&gt; capabilities.&lt;/p&gt;
+&lt;p&gt;&lt;iframe title="MyCo Collaborative Family @Automatica 2025" width="740" height="416" src="https://www.youtube.com/embed/gaUQFSg-ez4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;MASTERLY uses AI, automation for supply chain resilience&lt;/h2&gt;
+&lt;p&gt;Comau noted that its role within the MASTERLY project reflects its use of advanced &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;-backed automation to address evolving production challenges. This includes increasing variability, supply chain disruptions, and the need for rapid reconfiguration.&lt;/p&gt;
+&lt;p&gt;The company acknowledged that it developed the intelligent warehousing and &lt;a href="https://www.therobotreport.com/category/markets-industries/logistics-warehousing-asrs/" target="_blank" rel="noopener"&gt;logistics&lt;/a&gt; system with the project&amp;#8217;s ecosystem of technology partners. Comau said its scalable and versatile automation is designed to improve workplace ergonomics, reduce physical strain, and enhance operational flexibility within human-centric production environments.&lt;/p&gt;
+&lt;p&gt;The project parameters were driven by Decathlon’s operational requirements within the targeted &lt;a href="https://www.automatedwarehouseonline.com/tag/fulfillment/" target="_blank" rel="noopener"&gt;fulfillment&lt;/a&gt; process, which has provided the foundation for implementing and validating several advanced functionalities. Key partners included Decathlon itself and STAM, a Genoa-based systems integrator, alongside the broader MASTERLY consortium.&lt;/p&gt;
+&lt;p&gt;Decathlon has worked with other robotics companies, including &lt;a href="https://www.automatedwarehouseonline.com/decathlon-uses-skyfleet-from-exotec-across-european-sites/" target="_blank" rel="noopener"&gt;Exotec&lt;/a&gt;, &lt;a href="https://www.automatedwarehouseonline.com/decathlon-makes-geek-robotics-partner-for-european-e-commerce-logistics-upgrade/" target="_blank" rel="noopener"&gt;Geek+&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/tag/pal-robotics/" target="_blank" rel="noopener"&gt;PAL Robotics&lt;/a&gt;, and &lt;a href="https://www.automatedwarehouseonline.com/simbe-robotics-marks-10-years-store-intelligence-tally/" target="_blank" rel="noopener"&gt;Simbe Robotics&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/"&gt;Comau automates picking, handling, and palletizing for Decathlon&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>What bricklaying has taught Monumental about robots in construction</title>
 		<link>https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/</link>
 					<comments>https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/#respond</comments>
@@ -42,13 +93,13 @@
 					<description>&lt;p&gt;The construction industry is rife with opportunity for robotics, but the technology hasn't broken in at scale yet. &lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/"&gt;What bricklaying has taught Monumental about robots in construction&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_589487" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/monumental-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589487" class="size-full wp-image-589487" src="https://www.therobotreport.com/wp-content/uploads/2026/09/monumental-featured.jpg" alt="Monumental's Pisa robot, which is in charge of laying bricks and mortar. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/monumental-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/monumental-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/monumental-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/monumental-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/monumental-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589487" class="wp-caption-text"&gt;Monumental&amp;#8217;s Pisa robot, which is in charge of laying bricks and mortar. | Source: Monumental&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_589487" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/monumental-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589487" class="size-full wp-image-589487" src="https://www.therobotreport.com/wp-content/uploads/2026/09/monumental-featured.jpg" alt="Monumental's Pisa robot, which is in charge of laying bricks and mortar. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/monumental-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/monumental-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/monumental-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/monumental-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/monumental-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589487" class="wp-caption-text"&gt;Monumental&amp;#8217;s Pisa robot, which is in charge of laying bricks and mortar. | Source: Monumental&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Currently, 92% of contractors have a difficult time filling roles in construction, according to the &lt;a href="https://www.agc.org/news/2025/08/28/construction-workforce-shortages-are-leading-cause-project-delays-immigration-enforcement-affects" target="_blank" rel="noopener"&gt;Association of General Contractors&lt;/a&gt;. At the same time, the U.S. is &lt;a href="https://www.zillow.com/research/the-national-housing-deficit-stopped-getting-worse-in-2024-holding-at-4-7-million-36511/" target="_blank" rel="noopener"&gt;short&lt;/a&gt; 4.5 million homes. Developers like Monumental are betting on robots to help bridge this gap.&lt;/p&gt;
 &lt;p&gt;Construction&amp;#8217;s labor issues will only continue to get worse, assuming the current trends continue. More and more people are retiring from the industry, while fewer young people are interested in getting into it. Salar al Khafaji, the founder and CEO of &lt;a href="http://therobotreport.com/tag/monumental" target="_blank" rel="noopener"&gt;Monumental&lt;/a&gt;, believes construction&amp;#8217;s labor shortage presents a unique opportunity for robotics.&lt;/p&gt;
 &lt;p&gt;“&lt;a href="https://www.therobotreport.com/category/markets-industries/construction-demolition/" target="_blank" rel="noopener"&gt;Construction&lt;/a&gt; is a really interesting use case for robots and &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;, because it’s one of the few industries where the narrative is really not AI and robots coming in to replace labor to make things cheaper or redundant,&amp;#8221; al Khafaji told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;It&amp;#8217;s literally there’s not enough people to do the work. We desperately need this technology.”&lt;/p&gt;
 &lt;p&gt;Monumental is developing a fleet of robots that can handle construction tasks. The &lt;a href="http://therobotreport.com/tag/monumental" target="_blank" rel="noopener"&gt;company&lt;/a&gt; decided to start with bricklaying for two main reasons. The first is because bricklaying is difficult work, said al Khafaji. He said he believes if the team can automate this task, it can likely take on a range of other tasks on a construction site.&lt;/p&gt;
 &lt;p&gt;The second reason goes back to labor. “If you look at Western Europe, bricklayers are literally the No. 1 job-shortage category in multiple countries, like the U.K., the Netherlands, and Germany,” al Khafaji said.&lt;/p&gt;
-&lt;p&gt;&lt;iframe title="Monumental | Are Bricklaying Robots Replacing Masons?" width="740" height="416" src="https://www.youtube.com/embed/-D3aPNQmGbk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Monumental | Are Bricklaying Robots Replacing Masons?" width="740" height="416" src="https://www.youtube.com/embed/-D3aPNQmGbk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;The three stages of construction, and where robotics is seeing traction&lt;/h2&gt;
 &lt;p&gt;You can break down the construction process of a typical home into three major stages, al Khafaji said. The first is in ground preparation, where you use excavators and ground movers to build the foundation of a building. This is the stage where we have seen the most momentum for robotics so far.&lt;/p&gt;
 &lt;p&gt;“We’re seeing a lot of autonomous construction robotics companies that are doing excavators, ground movers, Caterpillar-like machines,&amp;#8221; al Khafaji said. &amp;#8220;These are heavy machines, they’re not precise.”&lt;/p&gt;
@@ -56,7 +107,7 @@
 &lt;p&gt;Monumental doesn&amp;#8217;t see these companies as its competitors, as it works in the second phase of construction, building the shell. “We want to do brickwork, but also block work and other things just to build our shell,” al Khafaji said. &amp;#8220;That’s where I actually see not a lot of competition today.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;Then there is the finishing phase, where you have to put up drywall, lay flooring, and do all the things that turn a shell of a building into a home. This category, al Khafaji said, has had even less interest from robotics. There was &lt;a href="https://therobotreport.com/tag/canvas-robotics" target="_blank" rel="noopener"&gt;Canvas Robotics&lt;/a&gt;, which created drywall finishing robots. The company&amp;#8217;s core technology was &lt;a href="https://www.therobotreport.com/oshkosh-acquires-core-technology-developed-by-canvas/" target="_blank" rel="noopener"&gt;acquired&lt;/a&gt; by Oshkosh at the start of this year.&lt;/p&gt;
 &lt;h2&gt;Much of construction work boils down to material handling&lt;/h2&gt;
-&lt;p&gt;&lt;iframe title="Monumental | We&amp;amp;apos;re Building Beautiful Homes with Robots" width="740" height="416" src="https://www.youtube.com/embed/E47yaZA_YUU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Monumental | We&amp;amp;apos;re Building Beautiful Homes with Robots" width="740" height="416" src="https://www.youtube.com/embed/E47yaZA_YUU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;Monumental has built &lt;a href="https://www.monumental.co/fleet/" target="_blank" rel="noopener"&gt;three robots&lt;/a&gt; to handle the bricklaying process on construction sites.&lt;/p&gt;
 &lt;p&gt;“The main robot that you can see in our videos is called Pisa. That the pick and place and the bricklaying robot. It has two tiny tower cranes, basically with two arms. It’s non-&lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoid&lt;/a&gt;,” al Khafaji said. Pisa has one arm that picks and places the bricks while the other extrudes mortar to place in between the bricks.&lt;/p&gt;
 &lt;p&gt;The other two robots on the site are in charge of making sure Pisa has enough bricks and mortar to keep working. One, Petra, brings bricks, while the other, Panama, supplies mortar.&lt;/p&gt;
@@ -928,79 +979,6 @@
 		<enclosure url="https://www.therobotreport.com/wp-content/uploads/2026/09/video.mp4" length="2758882" type="video/mp4" />
 <enclosure url="https://www.therobotreport.com/wp-content/uploads/2026/09/ecentialrobotics.mp4" length="1616730" type="video/mp4" />
 
-			</item>
-		<item>
-		<title>How FPGAs become the gatekeepers of physical AI security</title>
-		<link>https://www.therobotreport.com/how-fpgas-become-the-gatekeepers-of-physical-ai-security/</link>
-					<comments>https://www.therobotreport.com/how-fpgas-become-the-gatekeepers-of-physical-ai-security/#respond</comments>
-		
-		<dc:creator>Mike Oitzman</dc:creator>
-		<pubDate>Fri, 04 Sep 2026 18:09:54 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Autonomous Mobile Robots (AMRs)</category>
-		<category>Humanoids</category>
-		<category>Manufacturing</category>
-		<category>Markets / Industries</category>
-		<category>Microprocessors / SoC</category>
-		<category>Microprocessors / SoCs</category>
-		<category>News</category>
-		<category>Opinion</category>
-		<category>Podcast</category>
-		<category>Safety &amp; Security</category>
-		<category>cybersecurity</category>
-		<category>Hugging Face</category>
-		<category>JAKA Robotics</category>
-		<category>John Deere</category>
-		<category>Lattice Semiconductor</category>
-		<category>Nvidia</category>
-		<category>skild ai</category>
-		<category>Teradyne</category>
-		<category>Teradyne Robotics</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589431</guid>
-
-					<description>&lt;p&gt;Eric Sivertson, vice president of security business at Lattice Semiconductor, explains how FPGAs can act as deterministic guardrails for robotic systems.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-fpgas-become-the-gatekeepers-of-physical-ai-security/"&gt;How FPGAs become the gatekeepers of physical AI security&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;p&gt;&lt;iframe loading="lazy" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2394558816&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true" width="100%" height="166" frameborder="no" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;"&gt;&lt;a style="color: #cccccc; text-decoration: none;" title="The Robot Report Podcast" href="https://soundcloud.com/robot-report-podcast" target="_blank" rel="noopener"&gt;The Robot Report Podcast&lt;/a&gt; · &lt;a style="color: #cccccc; text-decoration: none;" title="How FPGAs become the gatekeepers of Physical AI Security" href="https://soundcloud.com/robot-report-podcast/lattice-semiconductor" target="_blank" rel="noopener"&gt;How FPGAs become the gatekeepers of Physical AI Security&lt;/a&gt;&lt;/div&gt;
-&lt;div id="attachment_589432-2" style="width: 290px" class="wp-caption alignleft"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589432-2" class="size-full wp-image-589432" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Eric-Sivertson-headshot.jpg" alt="Eric Sivertson headshot." width="280" height="350" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Eric-Sivertson-headshot.jpg 280w, https://www.therobotreport.com/wp-content/uploads/2026/09/Eric-Sivertson-headshot-240x300.jpg 240w, https://www.therobotreport.com/wp-content/uploads/2026/09/Eric-Sivertson-headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/09/Eric-Sivertson-headshot-190x238.jpg 190w" sizes="auto, (max-width: 280px) 100vw, 280px" /&gt;&lt;p id="caption-attachment-589432-2" class="wp-caption-text"&gt;Eric Sivertson, VP at Lattice.&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;In Episode 260 of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, the topics are FPGAs (field-programmable gate arrays), physical AI, and building safe and secure robots.&lt;/p&gt;
-&lt;p&gt;Our guest is &lt;a href="https://www.linkedin.com/in/ericsivertson/" target="_blank" rel="noopener"&gt;Eric Sivertson&lt;/a&gt;, vice president of the security business at Lattice Semiconductor.&lt;/p&gt;
-&lt;p&gt;Sivertson is an experienced entrepreneur, executive, and engineer with more than 30 years of experience developing technologies that enhance trust and security in embedded systems, wireless connectivity, and high-performance, reconfigurable computing.&lt;/p&gt;
-&lt;p&gt;He focuses on building the business in this growth market for Hillsboro, Ore.-based Lattice, as well as supporting leading-edge solutions development within the organization.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Show timeline&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;8:24 &amp;#8211; News of the week&lt;/li&gt;
-&lt;li&gt;24:13 &amp;#8211; Eric Sivertson, VP of Security Business, &lt;a href="https://www.therobotreport.com/tag/lattice-semiconductor/" target="_blank" rel="noopener"&gt;Lattice Semiconductor&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;News of the week&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.therobotreport.com/from-spreadsheets-ai-john-deeres-new-jd-operations-center-features/" target="_blank" rel="noopener"&gt;From spreadsheets to AI: Deere gives farmers new features in Operations Center, JD&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/" target="_blank" rel="noopener"&gt;NVIDIA plans to acquire Hugging Face and keep AI development platform open&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/" target="_blank" rel="noopener"&gt;Skild AI unveils S1 flagship robot foundation model&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/" target="_blank" rel="noopener"&gt;Update on Teradyne Robotics/JAKA Robotics lawsuit&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Sponsors&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Thanks to our sponsors who make this content possible.&lt;/em&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;To learn how you can sponsor a future episode of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, contact Jami Brownlee at &lt;a href="mailto:jbrownlee@arrowfly.com" target="_blank" rel="noopener"&gt;jbrownlee@arrowfly.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Would you like to be a guest on a future episode? Contact Mike Oitzman at &lt;a href="mailto:moitzman@arrowfly.com" target="_blank" rel="noopener"&gt;moitzman@arrowfly.com&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-fpgas-become-the-gatekeepers-of-physical-ai-security/"&gt;How FPGAs become the gatekeepers of physical AI security&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/how-fpgas-become-the-gatekeepers-of-physical-ai-security/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
 			</item>
 	</channel>
 </rss>
