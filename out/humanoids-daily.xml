@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 09 Sep 2026 20:24:38 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 10 Sep 2026 10:07:57 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/unitree-open-sources-unifolm-wla-1-0-to-tackle-humanoid-generalization</guid>
+    <title>Unitree Open-Sources UnifoLM-WLA-1.0 to Tackle Humanoid Generalization</title>
+    <link>https://www.humanoidsdaily.com/news/unitree-open-sources-unifolm-wla-1-0-to-tackle-humanoid-generalization</link>
+    <description>Unitree Robotics has open-sourced UnifoLM-WLA-1.0, a 6-billion-parameter foundation model that combines an embodied reasoner, dynamic optical-flow world modeling, and an MMDiT action expert to drive whole-body manipulation.</description>
+    <pubDate>Thu, 10 Sep 2026 10:07:57 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Unitree Robotics</category><category>open-source</category><category>China</category>
+  </item>
+
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/agile-robots-ceo-predicts-physical-ai-will-surpass-automotive-by-10x</guid>
+    <title>Agile Robots CEO Predicts Physical AI Will Surpass Automotive by 10x</title>
+    <link>https://www.humanoidsdaily.com/news/agile-robots-ceo-predicts-physical-ai-will-surpass-automotive-by-10x</link>
+    <description>At its Munich Physical AI event, Agile Robots founder Zhaopeng Chen laid out a multi-trillion-dollar vision for humanoids while pushing back on "magic" AI shortcuts on the factory floor.</description>
+    <pubDate>Thu, 10 Sep 2026 09:20:37 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Agile ONE</category><category>Europe</category><category>Market</category><category>Agile Robots</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/the-openai-of-robotics-debate-reignites-as-gpt-6-astra-paints-in-real-life</guid>
     <title>The "OpenAI of Robotics" Debate Reignites as GPT-6 Astra Paints in Real Life</title>
@@ -288,26 +308,6 @@
     <pubDate>Wed, 02 Sep 2026 13:48:26 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Data Collection</category><category>China</category><category>xsquare</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/the-no-bot-of-theseus-challenge-scott-walter-proposes-a-strict-decathlon-benchmark-for-humanoids</guid>
-    <title>The "No Bot of Theseus" Challenge: Scott Walter Proposes a Strict Decathlon Benchmark for Humanoids</title>
-    <link>https://www.humanoidsdaily.com/news/the-no-bot-of-theseus-challenge-scott-walter-proposes-a-strict-decathlon-benchmark-for-humanoids</link>
-    <description>Robotics pioneer Dr. Scott Walter has drafted a rule book for an autonomous humanoid decathlon, targeting single-task optimization with strict rules on anthropomorphism, zero hardware swaps, and self-dressing.</description>
-    <pubDate>Tue, 01 Sep 2026 15:14:29 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Scott Walter</category><category>WHRG</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/the-1-688-appliance-bet-nori-robotics-launches-wheeled-bimanual-manipulator</guid>
-    <title>The $1,688 Appliance Bet: Nori Robotics Launches Wheeled Bimanual Manipulator</title>
-    <link>https://www.humanoidsdaily.com/news/the-1-688-appliance-bet-nori-robotics-launches-wheeled-bimanual-manipulator</link>
-    <description>Nori Robotics has debuted the A3, a sub-$1,700 bimanual mobile manipulator aimed at consumer homes. But technical papers and newly opened SDKs reveal the divide between appliance marketing and experimental developer hardware.</description>
-    <pubDate>Tue, 01 Sep 2026 13:39:41 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Nori Robotics</category>
   </item>
 
   </channel>
