@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 10 Sep 2026 10:07:57 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 10 Sep 2026 18:34:03 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid>https://www.humanoidsdaily.com/news/skild-ai-crosses-100m-arr-in-10-months-mounting-an-enterprise-assault-on-robotics-demo-culture</guid>
+    <title>Skild AI Crosses $100M ARR in 10 Months, Mounting an Enterprise Assault on Robotics "Demo Culture"</title>
+    <link>https://www.humanoidsdaily.com/news/skild-ai-crosses-100m-arr-in-10-months-mounting-an-enterprise-assault-on-robotics-demo-culture</link>
+    <description>Ten months after its first commercial rollout, Skild AI has scaled to $100 million in annual recurring revenue across more than 60 customers, using its deployment milestone to issue a sharp critique of cherry-picked robotics demonstrations.</description>
+    <pubDate>Thu, 10 Sep 2026 18:34:03 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>skild-ai</category><category>US</category><category>Deployment</category>
+  </item>
+
   <item>
     <guid>https://www.humanoidsdaily.com/news/unitree-open-sources-unifolm-wla-1-0-to-tackle-humanoid-generalization</guid>
     <title>Unitree Open-Sources UnifoLM-WLA-1.0 to Tackle Humanoid Generalization</title>
@@ -298,16 +308,6 @@
     <pubDate>Wed, 02 Sep 2026 14:16:57 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Europe</category><category>Market</category><category>Minth Group</category><category>China</category><category>AGIBOT</category>
-  </item>
-
-  <item>
-    <guid>https://www.humanoidsdaily.com/news/isomorphism-over-imitation-x-square-unveils-twindex-to-bridge-the-robot-free-data-gap</guid>
-    <title>Isomorphism Over Imitation: X Square Unveils TwinDEX to Bridge the Robot-Free Data Gap</title>
-    <link>https://www.humanoidsdaily.com/news/isomorphism-over-imitation-x-square-unveils-twindex-to-bridge-the-robot-free-data-gap</link>
-    <description>Shenzhen-based X Square Robot has introduced TwinDEX, an isomorphic three-finger, nine-DoF manipulation interface paired between a wearable exoskeleton and a robot end effector to accelerate real-world dexterous data collection.</description>
-    <pubDate>Wed, 02 Sep 2026 13:48:26 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Data Collection</category><category>China</category><category>xsquare</category>
   </item>
 
   </channel>
