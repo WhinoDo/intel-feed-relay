@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Thu, 10 Sep 2026 20:14:40 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Sep 2026 22:27:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,54 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Teradyne Robotics sues JAKA over 3 Universal Robots patents</title>
+		<link>https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/</link>
+					<comments>https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/#respond</comments>
+		
+		<dc:creator>Steve Crowe</dc:creator>
+		<pubDate>Thu, 10 Sep 2026 22:14:26 +0000</pubDate>
+				<category>China</category>
+		<category>Collaborative Robots</category>
+		<category>News</category>
+		<category>JAKA Robotics</category>
+		<category>Teradyne Robotics</category>
+		<category>Universal Robots</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589502</guid>
+
+					<description>&lt;p&gt;New details reveal the lawsuit involves three Universal Robots patents about robot interfaces, safety brakes, and joints.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/"&gt;Teradyne Robotics sues JAKA over 3 Universal Robots patents&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589336" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589336" class="size-full wp-image-589336" src="https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-teradyne-lawsuit.jpg" alt="" width="1000" height="658" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-teradyne-lawsuit.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-teradyne-lawsuit-300x197.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-teradyne-lawsuit-150x99.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-teradyne-lawsuit-768x505.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/08/jaka-teradyne-lawsuit-362x238.jpg 362w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-589336" class="wp-caption-text"&gt;Collaborative robot arms from JAKA Robotics (left) and Universal Robots.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;JAKA Robotics asked last week where the Teradyne Robotics lawsuit was. Well, safe to say JAKA found it.&lt;/p&gt;
+&lt;p&gt;The Unified Patent Court (UPC) docket shows Teradyne filed its patent infringement case against JAKA Robotics GmbH on Aug. 24, 2026 &amp;#8211; three days before Teradyne Robotics publicly announced the lawsuit.&lt;/p&gt;
+&lt;p&gt;Teradyne Robotics A/S, which owns &lt;a href="https://www.therobotreport.com/tag/universal-robots/"&gt;Universal Robots&lt;/a&gt;, is accusing JAKA’s German subsidiary of infringing the patents. Teradyne previously said the case covers both hardware and software and a broad range of JAKA collaborative robots sold in Europe. Teradyne is the world&amp;#8217;s leading developer of collaborative robot arms, having sold more than 100,000 robots since it was founded in 2005.&lt;/p&gt;
+&lt;h2&gt;3 patents involved&lt;/h2&gt;
+&lt;p&gt;The case, &lt;a href="https://www.unifiedpatentcourt.org/en/node/184204" target="_blank" rel="noopener"&gt;UPC-CFI-0003057/2026&lt;/a&gt;, was filed in the UPC’s Copenhagen Local Division and centers on three Universal Robots patents:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EP1996376 | Programmable Robot and User Interface: &lt;/strong&gt;covers a programmable robot system and user interface, including a touchscreen that displays a 3D representation of the robot and allows operators to control its movements. &lt;a href="https://patents.google.com/patent/EP1996376B1/en" target="_blank" rel="noopener"&gt;Read patent&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EP3045273 | Joint for a Robot:&lt;/strong&gt; covers a robot-joint safety brake involving a solenoid, ratchet and annular friction member associated with the motor axle. Additional claims cover encoder arrangements and other joint features. &lt;a href="https://patents.google.com/patent/EP3045273B1/en" target="_blank" rel="noopener"&gt;Read patent&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EP3530420 | Joint for a Robot:&lt;/strong&gt; covers aspects of robot-joint construction, including output flanges and structures connecting adjacent joints. &lt;a href="https://patents.google.com/patent/EP3530420B1/en" target="_blank" rel="noopener"&gt;Read patent&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;All three patents have a March 2006 priority date and are assigned to Universal Robots. The public docket does not yet show which specific JAKA cobot models Teradyne Robotics alleges infringe which patent claims, but both companies offer a larger variety of options.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;JAKA questioned the lawsuit&lt;/h2&gt;
+&lt;p&gt;After Teradyne Robotics &lt;a href="https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/"&gt;announced the case on Aug. 27&lt;/a&gt;, JAKA said it had not received official notification or communication from Teradyne Robotics. The company said it was seeking details about the allegations and pointed to two previous Freedom-to-Operate analyses that it said found no potential infringement involving Universal Robots.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.therobotreport.com/jaka-hits-teradyne-robotics-back-over-patent-dispute/"&gt;In a Sept. 3 statemen&lt;/a&gt;t, JAKA said its legal advisers had verified that, as of Sept. 2, “no court proceedings” concerning the alleged infringement had been filed or opened against JAKA. It also said it had received no legal documents or court notification. The discrepancy could simply be the timeframe between filing a case with the court and formally notifying or serving the defendant.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The docket currently lists 128 documents, but the filings remain unavailable to the public.&lt;/p&gt;
+&lt;p&gt;This lawsuit is Teradyne Robotics’ second major case involving a Chinese robotics company in Europe this year. In February 2026, the &lt;a href="https://www.therobotreport.com/tag/teradyne-robotics" target="_blank" rel="noopener"&gt;company&lt;/a&gt;&amp;nbsp;sued Elite Robots’ German subsidiary over alleged copyright infringement.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Editor’s note:&lt;/strong&gt;&amp;nbsp;James Davidson, chief AI officer at Teradyne Robotics,&amp;nbsp;will speak at&amp;nbsp;&lt;a href="http://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness 2026&lt;/a&gt;. The event takes place Oct. 20 and 21 in Santa Clara, Calif., and attract 1,500+ attends from the robotics development community.&amp;nbsp;&lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Register now to attend.&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/"&gt;Teradyne Robotics sues JAKA over 3 Universal Robots patents&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>Swarmer to acquire Ukrainian UGV maker Ratel Robotics for up to $224M</title>
 		<link>https://www.therobotreport.com/swarmer-to-acquire-ukrainian-ugv-maker-ratel-robotics-for-up-to-224m/</link>
 					<comments>https://www.therobotreport.com/swarmer-to-acquire-ukrainian-ugv-maker-ratel-robotics-for-up-to-224m/#respond</comments>
@@ -46,7 +94,7 @@
 					<description>&lt;p&gt;Swarmer, which has developed swarm software, plans to work with Ratel Robotics' unmanned ground vehicles in Ukraine.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/swarmer-to-acquire-ukrainian-ugv-maker-ratel-robotics-for-up-to-224m/"&gt;Swarmer to acquire Ukrainian UGV maker Ratel Robotics for up to $224M&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_589496" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589496" class="size-full wp-image-589496" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Ratel_UGV.jpg" alt="Ratel Robotics makes uncrewed ground vehicles for Ukrainian defense." width="770" height="497" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Ratel_UGV.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/Ratel_UGV-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Ratel_UGV-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Ratel_UGV-768x496.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/Ratel_UGV-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589496" class="wp-caption-text"&gt;Ratel Robotics makes uncrewed ground vehicles for Ukrainian defense. Credit: Viktor Kharyton, Swarmer&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_589496" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-589496" class="size-full wp-image-589496" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Ratel_UGV.jpg" alt="Ratel Robotics makes uncrewed ground vehicles for Ukrainian defense." width="770" height="497" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Ratel_UGV.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/Ratel_UGV-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Ratel_UGV-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Ratel_UGV-768x496.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/Ratel_UGV-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589496" class="wp-caption-text"&gt;Ratel Robotics makes uncrewed ground vehicles for Ukrainian defense. Credit: Viktor Kharyton, Swarmer&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Ukrainian companies have demonstrated their ability to develop and field autonomous systems at a fraction of the price of Western defense contractors, according to Swarmer Inc. The company today said it has signed an agreement to acquire Ratel Robotics, a leading manufacturer of uncrewed ground vehicles or UGVs.&lt;/p&gt;
 &lt;p&gt;“Ratel is a major provider of UGVs for Ukraine,” stated Alex Fink, co-founder, president, and U.S. CEO of Swarmer. “Combining a battle-tested launch platform with our combat-proven autonomy software is the key to creating versatile, interoperable solutions. We are excited to have [CEO] Taras Ostapchuk and his team at Ratel Robotics be the first to join Swarmer and grow our business in Ukraine and beyond.”&lt;/p&gt;
 &lt;p&gt;Founded in 2023, Swarmer said it specializes in vendor-agnostic software that allows one &lt;a href="https://www.therobotreport.com/tag/teleoperation" target="_blank" rel="noopener"&gt;operator&lt;/a&gt; to control hundreds of autonomous platforms in real time. The Austin, Texas-based &lt;a href="https://swarmer.com/" target="_blank" rel="noopener"&gt;company&lt;/a&gt;&amp;#8216;s primary mission areas include autonomous &lt;a href="https://www.therobotreport.com/tag/swarm" target="_blank" rel="noopener"&gt;swarm&lt;/a&gt; coordination, integration of multi-domain unmanned systems, and AI-powered autonomy software for distributed operations.&lt;/p&gt;
@@ -56,7 +104,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;Ratel Robotics develops robots for dangerous missions&lt;/h2&gt;
@@ -70,7 +118,7 @@
 &lt;p&gt;&amp;#8220;They&amp;#8217;re almost unique in the space because they have no salespeople, no government relations, no lobbying,&amp;#8221; he noted about Ratel Robotics. &amp;#8220;All of their sales are essentially driven by the combat units wanting their products because they are secure.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;Fink said during a press call that Swarmer was interested in Ratel because it could use UGVs to launch drones, interceptors, and swarm defense systems.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;We think that this unlocks the ability to run much larger swarmers in much larger quantities,&amp;#8221; he asserted. &amp;#8220;Our software already supports up to 690 drones per swarm. This allows the units to set them up fast enough to be able to launch this many as well.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&lt;iframe title="Пускова платформа дронів від Ratel | FPV на 100 км, оператор у безпеці" width="740" height="416" src="https://www.youtube.com/embed/TiQIs0O-X1w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Пускова платформа дронів від Ratel | FPV на 100 км, оператор у безпеці" width="740" height="416" src="https://www.youtube.com/embed/TiQIs0O-X1w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;Swarmer is building a platform for battle-tested products&lt;/h2&gt;
 &lt;p&gt;“In my recent &lt;a href="https://swarmer.com/news/swarmer-publishes-letter-from-its-chairman-erik-prince-outlining-strategy/" target="_blank" rel="noopener"&gt;letter to shareholders&lt;/a&gt;, I stated our objective to build a platform company for products that have been tested on the battlefield and proven effective under the most demanding operational conditions,” said Erik Prince, Swarmer’s chairman of the board. “Ratel precisely fits that mission. I believe Swarmer can accelerate its capabilities, scale its reach and integrate it with other proven technologies.”&lt;/p&gt;
 &lt;p&gt;The acquisition will include a mix of cash and stock worth up to $224 million if all earnout milestones are met, said Swarmer. Closing remains subject to customary conditions and any required legal, regulatory, and shareholder approvals.&lt;/p&gt;
@@ -937,58 +985,6 @@
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>ARM Institute gets $90M for 10 projects to modernize military manufacturing</title>
-		<link>https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/</link>
-					<comments>https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/#respond</comments>
-		
-		<dc:creator>The Robot Report Staff</dc:creator>
-		<pubDate>Sat, 05 Sep 2026 14:22:41 +0000</pubDate>
-				<category>Defense / Security</category>
-		<category>Financial</category>
-		<category>Investments</category>
-		<category>Manufacturing</category>
-		<category>Markets / Industries</category>
-		<category>News</category>
-		<category>ARM Institute</category>
-		<category>U.S. Department of Defense</category>
-		<category>workforce</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589440</guid>
-
-					<description>&lt;p&gt;Fifteen member organizations will deliver viable working solutions within a two-year timeframe, the ARM Institute said.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/"&gt;ARM Institute gets $90M for 10 projects to modernize military manufacturing&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589441" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/ARMinstitute-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589441" class="size-full wp-image-589441" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ARMinstitute-featured.jpg" alt="A robot arm welding behind a protective barrier." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/ARMinstitute-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/ARMinstitute-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/ARMinstitute-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/ARMinstitute-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/ARMinstitute-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589441" class="wp-caption-text"&gt;The ARM Institute has over 500 member organizations and partners across industry, academia, and government. | Source: ARM Institute&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;This week, the Advanced Robotics for Manufacturing, or ARM, Institute received nearly $90 million in funding for 10 projects led by the consortium and its members.&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://www.therobotreport.com/tag/arm-institute/" target="_blank" rel="noopener"&gt;institute&lt;/a&gt; was awarded the funding through an Organic Industrial Base (OIB) Modernization Challenge from the Office of the Undersecretary of War Manufacturing Technology Office (OSW ManTech). The challenge supports the U.S. Department of War (&lt;a href="https://www.therobotreport.com/tag/u-s-department-of-defense" target="_blank" rel="noopener"&gt;DoW&lt;/a&gt;)’s focus on modernizing &lt;a href="https://www.therobotreport.com/category/markets-industries/defense-security/" target="_blank" rel="noopener"&gt;defense&lt;/a&gt; manufacturing through practical technology and workforce innovations.&lt;/p&gt;
-&lt;p&gt;Fifteen member organizations will deliver viable working solutions within a two-year timeframe, said the ARM Institute. They will aim to solve complex automation and modernization challenges at 12 military &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;manufacturing&lt;/a&gt; sites, often referred to as the &amp;#8220;Organic Industrial Base&amp;#8221; (OIB), across the U.S.&lt;/p&gt;
-&lt;p&gt;“This funding award recognizes not only the leadership role the ARM Institute plays in modernizing manufacturing, but the key role our member consortium plays in these efforts,” stated Jorgen Pedersen, CEO of the ARM Institute. “We are honored to work on this important initiative for our nation, and we congratulate our members on the role they will play in this historic effort to modernize the Organic Industrial Base.”&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="ARM Institute: PennaFlame Use Case" src="https://player.vimeo.com/video/1188167028?dnt=1&amp;amp;app_id=122963" width="740" height="416" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;ARM Institute aims to improve safety and quality at OIB sites&lt;/h2&gt;
-&lt;p&gt;The OIB is a network of arsenals, depots, and ammunition plants that build and maintain the U.S. military&amp;#8217;s equipment. The DoW has embarked on an extensive strategic effort to modernize the operations at these facilities. It plans to do so through advanced technologies, such as robotics and physical &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The Pittsburgh-based ARM Institute said its members stepped up to this challenge by bridging innovation with practicality to propose solutions that would solve challenges affecting each branch of the U.S. military. The selected projects include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Improving safety in energetics production and increasing manufacturing quality using AI&lt;/li&gt;
-&lt;li&gt;Accelerating mission readiness using &lt;a href="https://www.therobotreport.com/category/robots-platforms/uav-drones/" target="_blank" rel="noopener"&gt;drones&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Removing bottlenecks through robotics&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Technology innovations will only have impact if there is a prepared workforce ready to work alongside new systems and processes. Each solution plan includes a &lt;a href="https://www.therobotreport.com/tag/workforce" target="_blank" rel="noopener"&gt;workforce&lt;/a&gt; readiness component that the Institute will lead with its workforce partners.&lt;/p&gt;
-&lt;p&gt;This work will center on identifying the skills workers need to operate these systems and, as necessary, identifying ways to upskill and/or recruit additional workers to support the new technologies.&lt;/p&gt;
-&lt;p&gt;“Innovation cannot exist in a vacuum. A skilled workforce is needed to support these technologies,” said Lisa Masciantonio, chief workforce officer at the ARM Institute. “We are thrilled that the Department of War recognizes the importance of the human workforce. We look forward to working with OIB sites across the nation to not only upgrade their technologies but also ensure that their workforce is ready for the forthcoming improvements to their operations.”&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/"&gt;ARM Institute gets $90M for 10 projects to modernize military manufacturing&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
