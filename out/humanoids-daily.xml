@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 10 Sep 2026 18:34:03 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 11 Sep 2026 15:35:32 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-open-sources-ge-act-2-0-challenging-unitree-in-the-open-embodied-ai-race</guid>
+    <title>AGIBOT Open-Sources GE-Act 2.0, Challenging Unitree in the Open Embodied AI Race</title>
+    <link>https://www.humanoidsdaily.com/news/agibot-open-sources-ge-act-2-0-challenging-unitree-in-the-open-embodied-ai-race</link>
+    <description>Hot on the heels of Unitree’s UnifoLM release, AGIBOT has open-sourced GE-Act 2.0, a native World-Action Model pretrained from scratch across 30,000 hours of manipulation data to eliminate the "validity gap."</description>
+    <pubDate>Fri, 11 Sep 2026 15:35:32 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>open-source</category><category>China</category><category>AGIBOT</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/maven-robotics-breaks-stealth-with-100m-to-tackle-industrial-mixed-palletizing</guid>
+    <title>Maven Robotics Breaks Stealth With $100M to Tackle Industrial Mixed Palletizing</title>
+    <link>https://www.humanoidsdaily.com/news/maven-robotics-breaks-stealth-with-100m-to-tackle-industrial-mixed-palletizing</link>
+    <description>Founded by Apple Special Projects Group veterans, Maven Robotics lands $100 million in Series A funding led by RoboStrategy to scale wheeled, dual-arm mobile manipulators across real-world logistics facilities.</description>
+    <pubDate>Fri, 11 Sep 2026 15:10:18 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Maven Robotics</category><category>RoboStrategy</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/skild-ai-crosses-100m-arr-in-10-months-mounting-an-enterprise-assault-on-robotics-demo-culture</guid>
     <title>Skild AI Crosses $100M ARR in 10 Months, Mounting an Enterprise Assault on Robotics "Demo Culture"</title>
@@ -288,26 +308,6 @@
     <pubDate>Thu, 03 Sep 2026 10:21:50 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Europe</category><category>Market</category><category>wandercraft</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/sam-altman-confirms-openai-will-definitely-do-a-humanoid</guid>
-    <title>Sam Altman Confirms OpenAI "Will Definitely Do a Humanoid"</title>
-    <link>https://www.humanoidsdaily.com/news/sam-altman-confirms-openai-will-definitely-do-a-humanoid</link>
-    <description>In an appearance on the Sources podcast, OpenAI CEO Sam Altman unequivocally confirmed that the AI lab will build humanoid robots alongside specialized data center machines.</description>
-    <pubDate>Wed, 02 Sep 2026 20:01:21 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>1X-technologies</category><category>OpenAI</category><category>US</category><category>Figure</category><category>Sam Altman</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/minth-group-and-agibot-launch-europe-s-first-humanoid-mass-production-line-in-serbia</guid>
-    <title>Minth Group and AGIBOT Launch Europe’s First Humanoid Mass Production Line in Serbia</title>
-    <link>https://www.humanoidsdaily.com/news/minth-group-and-agibot-launch-europe-s-first-humanoid-mass-production-line-in-serbia</link>
-    <description>Minth Group and AGIBOT have inaugurated Europe’s first mass-production base for humanoid robots in Šabac, backing a €20 million initial line ahead of a planned €200 million robotics hub in Inđija.</description>
-    <pubDate>Wed, 02 Sep 2026 14:16:57 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Europe</category><category>Market</category><category>Minth Group</category><category>China</category><category>AGIBOT</category>
   </item>
 
   </channel>

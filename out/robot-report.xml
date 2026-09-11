@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Fri, 11 Sep 2026 12:21:16 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 11 Sep 2026 15:02:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,57 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>How to select the right rack and pinion system for high-precision linear motion</title>
+		<link>https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/</link>
+					<comments>https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/#respond</comments>
+		
+		<dc:creator>Sana Kazilbash</dc:creator>
+		<pubDate>Fri, 11 Sep 2026 14:35:47 +0000</pubDate>
+				<category>Actuators / Motors / Servos</category>
+		<category>Motion Control</category>
+		<category>News</category>
+		<category>Sponsored Content</category>
+		<category>GAM</category>
+		<category>sponsored</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589384</guid>
+
+					<description>&lt;p&gt;GAM explains why robotics designers should consider pinion size when thinking about motion control for high-precision applications. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/"&gt;How to select the right rack and pinion system for high-precision linear motion&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;p&gt;&lt;em&gt;Sponsored by &lt;a href="https://www.gamweb.com/rack-and-pinion.html" target="_blank" rel="noopener"&gt;GAM&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;div id="attachment_589498" style="width: 1786px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589498" class="size-full wp-image-589498" src="https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system.jpg" alt="" width="1776" height="860" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system.jpg 1776w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-300x145.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-1024x496.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-150x73.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-768x372.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-1536x744.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-368x178.jpg 368w" sizes="(max-width: 1776px) 100vw, 1776px" /&gt;&lt;p id="caption-attachment-589498" class="wp-caption-text"&gt;GAM rack, pinion, and gearbox systems are optimized for high performance in all the components. (Image: GAM.)&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Picture a scissor car jack — the one in your trunk for changing a tire. The spinning motion as you turn the crank translates to the linear motion as the jack rises.&lt;/p&gt;
+&lt;p&gt;This is how a rack and pinion system works. The spinning part is the pinion, a gear that receives the rotational input. The toothed part being pushed along is the rack, a long bar with gear teeth that the pinion rides against. Depending on the application, either the rack moves back and forth while the pinion stays in place, or the rack stays fixed and whatever the pinion is attached to travels back and forth (or up and down).&lt;/p&gt;
+&lt;p&gt;It is important to select the right rack and pinion system, as a wrong decision can impact both performance and cost.&lt;/p&gt;
+&lt;p&gt;“If you go too small with your rack and pinion, it can break,” says Matt Ruggles, senior design engineer at GAM, a U.S.-based manufacturer of servo gear reducers and other motion control components. “If you go too large, you might run into space constraints, and you’ll be paying for more rack and pinion than you need.”&lt;/p&gt;
+&lt;p&gt;The pinion size relative to the rack has to be matched so the system can reach the required speed and deliver the necessary feed force. The overall size of the rack and pinion also plays into inertia matching between the motor and load, which affects how smoothly the system moves.&lt;/p&gt;
+&lt;p&gt;So, how does the selection process work?&lt;/p&gt;
+&lt;p&gt;“Usually when people are putting together a rack and pinion system, their primary concern is either speed or feed force, and so you start with that requirement and kind of work backwards,” says Ruggles.&lt;/p&gt;
+&lt;p&gt;When feed force is the priority, that means making sure the rack is big enough to transmit the required force, and that the pinion is sized to match the motor or gearbox driving it. Similarly, when speed takes precedence, the rack and pinion are selected to allow the system to reach the target speed based on the motor or gearbox input.&lt;/p&gt;
+&lt;p&gt;Sometimes the process runs in the other direction. If a customer already has a motor selected, sizing can start from that motor’s speed and the positioning accuracy needed. Applications that need better positional accuracy may call for a higher-precision rack.&lt;/p&gt;
+&lt;p&gt;From there, tooth size and shape come into play. “The larger the rack, the bigger and stronger the teeth,” says Ruggles. “A higher tooth quality is going to run quieter usually and will offer better linear positioning, be more accurate.”&lt;/p&gt;
+&lt;p&gt;Another consideration is whether the teeth are straight or helical. Helical teeth are cut at an angle so they engage progressively, producing smoother, quieter motion and slightly more strength. Straight teeth engage all at once, making the motion rougher and noisier by comparison. While there’s very little cost difference between the two, helical teeth do introduce an axial force on the pinion and rack, perpendicular to the direction of motion.&lt;/p&gt;
+&lt;div id="attachment_589500" style="width: 1610px" class="wp-caption aligncenter"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-589500" class="size-full wp-image-589500" src="https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis.jpg" alt="" width="1600" height="1221" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis.jpg 1600w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-300x229.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-1024x781.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-150x114.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-768x586.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-1536x1172.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-312x238.jpg 312w" sizes="(max-width: 1600px) 100vw, 1600px" /&gt;&lt;p id="caption-attachment-589500" class="wp-caption-text"&gt;A gearbox, pinion, and rack system provide the 7th axis, or lateral movement, for an articulated robot. Credit: GAM&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Pinion size plays a significant role as well. Smaller pinions are preferred for high-precision applications; for any rotational error or backlash in the gearbox or motor, the impact on linear position is a lot smaller.&lt;/p&gt;
+&lt;p&gt;“With a smaller pinion, the lost motion through your system has less of an effect on how that overall positioning works in a linear fashion, versus a large pinion which can almost amplify that slop in the system,” says Ruggles.&lt;/p&gt;
+&lt;p&gt;A smaller pinion also transmits torque more effectively and requires less of it from the motor and gearbox to deliver the same feed force, allowing for smaller, less expensive components. The higher ratio further improves inertia matching between the motor and load.&lt;/p&gt;
+&lt;p&gt;The downside is that the maximum speed the system can achieve is going to be a lot lower, or the motor and gearbox will have to spin much faster to compensate. When speed matters more than precision, a larger pinion covers more distance per rotation.&lt;/p&gt;
+&lt;p&gt;Once the rack and pinion are selected, that drives gearbox choice, which then determines motor sizing.&lt;/p&gt;
+&lt;p&gt;One consistent mistake Ruggles sees engineers making is sizing the system around only one variable — feed force, for example — and not accounting for others until it’s too late.&lt;/p&gt;
+&lt;p&gt;“All of a sudden, they need to go up a rack size, get a bigger gearbox, and suddenly everything’s doubled in cost,” says Ruggles.&lt;/p&gt;
+&lt;p&gt;The same happens with inertia: correcting a mismatch by increasing the gearbox ratio reduces output speed, which cascades back through the whole system.&lt;/p&gt;
+&lt;p&gt;GAM’s engineers can help with the selection of various components in rack and pinion systems.&lt;/p&gt;
+&lt;p&gt;“We have sizing software where the customer can give us their feed force, speed, moving mass, and we can calculate the gearbox size, motor size, inertia matching,” says Ruggles. “As we’re sizing all those things, we have different size racks that we can offer, different size pinions to go with those racks, and then a variety of different gearboxes that we can match with those pinions, to really optimize the system.”&lt;/p&gt;
+&lt;p&gt;To learn more, &lt;a href="https://www.gamweb.com/rack-and-pinion.html" target="_blank" rel="noopener"&gt;visit GAM&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/"&gt;How to select the right rack and pinion system for high-precision linear motion&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>How drone developers are navigating changing regulatory landscapes to help farmers</title>
 		<link>https://www.therobotreport.com/how-hylio-drone-developers-navigate-changing-regulatory-landscape-help-farmers/</link>
 					<comments>https://www.therobotreport.com/how-hylio-drone-developers-navigate-changing-regulatory-landscape-help-farmers/#respond</comments>
@@ -44,7 +95,7 @@
 					<description>&lt;p&gt;Before the FCC put restrictions on foreign-made robots, it had already set similar restrictions on drones last year, noted Hylio.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-hylio-drone-developers-navigate-changing-regulatory-landscape-help-farmers/"&gt;How drone developers are navigating changing regulatory landscapes to help farmers&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_589503" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589503" class="size-full wp-image-589503" src="https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured.jpg" alt="Hylio offers a range of drones that use digital flowmeters to spray fields at precise dosages." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-368x238.jpg 368w" sizes="(max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589503" class="wp-caption-text"&gt;Hylio offers a range of drones that use digital flowmeters to spray fields at precise dosages. | Source: Hylio&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_589503" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured.jpg"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-589503" class="size-full wp-image-589503" src="https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured.jpg" alt="Hylio offers a range of drones that use digital flowmeters to spray fields at precise dosages." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-368x238.jpg 368w" sizes="(max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589503" class="wp-caption-text"&gt;Hylio offers a range of drones that use digital flowmeters to spray fields at precise dosages. | Source: Hylio&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Earlier this year, the Federal Communication Commission threw much of the robotics industry into uncertainty when it &lt;a href="https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/" target="_blank" rel="noopener"&gt;announced&lt;/a&gt; new limits on imports of certain robots from foreign countries. For those building and operating drones such as Hylio, this is a familiar story.&lt;/p&gt;
 &lt;p&gt;In December 2025, the FCC added foreign-made drones and U.S.-assembled drones with major foreign-made parts, to its &lt;a href="https://docs.fcc.gov/public/attachments/DOC-416839A1.pdf" target="_blank" rel="noopener"&gt;Covered List&lt;/a&gt;. This list includes companies and technologies that the &lt;a href="https://www.therobotreport.com/tag/fcc/" target="_blank" rel="noopener"&gt;commission&lt;/a&gt; has prohibited. Arthur Erickson, the co-founder and CEO of agricultural drone developer Hylio, said the news didn&amp;#8217;t come as a surprise for him.&lt;/p&gt;
 &lt;p&gt;Erickson launched the Richmond, Texas-based &lt;a href="https://www.hyl.io/hardware" target="_blank" rel="noopener"&gt;company&lt;/a&gt; in 2015. Even then, he saw that &lt;a href="https://www.therobotreport.com/category/china/" target="_blank" rel="noopener"&gt;China&lt;/a&gt; had a clear advantage in the &lt;a href="https://www.therobotreport.com/category/robots-platforms/uav-drones/" target="_blank" rel="noopener"&gt;drone&lt;/a&gt; market. This is why he made manufacturing in the U.S. as much as possible a priority.&lt;/p&gt;
@@ -54,7 +105,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;Hylio helps farmers navigate changing drone regulations&lt;/h2&gt;
@@ -63,7 +114,7 @@
 &lt;p&gt;To navigate this, users need to have honest conversations with their technology provider, he explained.&lt;/p&gt;
 &lt;p&gt;“Make sure you have all the legal stuff in place, because especially right now, there’s a lot of change in terms of the way that these drones are regulated and licensed by the FCC and the &lt;a href="https://www.therobotreport.com/tag/faa/" target="_blank" rel="noopener"&gt;FAA&lt;/a&gt; and so on,” said Erickson. “Where your drone comes from matters. When you’re talking to dealers, distributors, whoever, when you’re in the market, ask these questions, and make sure you get a real answer.”&lt;/p&gt;
 &lt;p&gt;Some providers, like Hylio, provide their customers with a guide for how to navigate the process and help customers understand which licenses they need to apply for. “Make sure you have all of your licenses in place before you actually start doing any real commercial operations,” Erickson said.&lt;/p&gt;
-&lt;p&gt;&lt;iframe title="Hylio Ag Drones: Zero FAA Red Tape, Ready Day 1" width="740" height="416" src="https://www.youtube.com/embed/bJsIoSr6X-Q?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Hylio Ag Drones: Zero FAA Red Tape, Ready Day 1" width="740" height="416" src="https://www.youtube.com/embed/bJsIoSr6X-Q?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;Planned, phased deployments can yield strong results&lt;/h2&gt;
 &lt;p&gt;Despite the challenges, drones can still provide real value for farmers. But it&amp;#8217;s key for users to have a realistic understanding of what the process will look like. In &lt;a href="https://www.therobotreport.com/category/markets-industries/ag/" target="_blank" rel="noopener"&gt;agriculture&lt;/a&gt;, some users are already well positioned for deploying drones.&lt;/p&gt;
 &lt;p&gt;“We’ve had people come in that have a background in aerial application by helicopter and planes, so they are very regimented and disciplined,&amp;#8221; noted Erickson. &amp;#8220;They understand the importance of having safety checklists and SOPs clearly defined for their team,” Erickson said.&lt;/p&gt;
@@ -878,85 +929,6 @@
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Eric Sivertson discusses FPGAs and robot security</title>
-		<link>https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/</link>
-					<comments>https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/#respond</comments>
-		
-		<dc:creator>Mike Oitzman</dc:creator>
-		<pubDate>Sun, 06 Sep 2026 14:30:01 +0000</pubDate>
-				<category>Design / Development</category>
-		<category>Development Tools / SDKs / Libraries</category>
-		<category>Educational</category>
-		<category>Humanoids</category>
-		<category>Markets / Industries</category>
-		<category>Microprocessors / SoC</category>
-		<category>Microprocessors / SoCs</category>
-		<category>News</category>
-		<category>Opinion</category>
-		<category>Safety &amp; Security</category>
-		<category>Self-Driving Vehicles</category>
-		<category>Sensors / Sensing Systems</category>
-		<category>Lattice Semiconductor</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589434</guid>
-
-					<description>&lt;p&gt;An interview with Eric Sivertson of Lattice Semiconductor about FPGAs and how they can improve robot safety and security.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/"&gt;Eric Sivertson discusses FPGAs and robot security&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589432" style="width: 290px" class="wp-caption alignleft"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589432" class="wp-image-589432 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Eric-Sivertson-headshot.jpg" alt="Eric Sivertson headshot. He is an expert in FPGAs and security." width="280" height="350" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Eric-Sivertson-headshot.jpg 280w, https://www.therobotreport.com/wp-content/uploads/2026/09/Eric-Sivertson-headshot-240x300.jpg 240w, https://www.therobotreport.com/wp-content/uploads/2026/09/Eric-Sivertson-headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/09/Eric-Sivertson-headshot-190x238.jpg 190w" sizes="auto, (max-width: 280px) 100vw, 280px" /&gt;&lt;p id="caption-attachment-589432" class="wp-caption-text"&gt;Eric Sivertson, VP of Security Business, Lattice&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Eric Sivertson recently discussed field-programmable gate arrays, or FPGAs, on &lt;a href="https://www.therobotreport.com/how-fpgas-become-the-gatekeepers-of-physical-ai-security/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt; Podcast, Episode 260&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The vice president of the security business at &lt;a href="https://www.latticesemi.com/" target="_blank" rel="noopener"&gt;Lattice Semiconductor&lt;/a&gt; discussed how FPGAs are a critical component in security for robots. The conversation examined some of the security risk vectors and how FPGAs can help to lock down the system.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Where we are with physical &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; and robotics today?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Sivertson:&lt;/strong&gt; This is a good question, and I like to use &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoids&lt;/a&gt; as the standard-bearer of this intersection of AI and the physical world. You can look at robot [arms] too, but humanoids really highlight this situation. I like to say that you can&amp;#8217;t trust a humanoid if it&amp;#8217;s not both safe and secure.&lt;/p&gt;
-&lt;p&gt;This is really the big paradigm shift that&amp;#8217;s about to hit this industry. If you look at robots today, a lot of &lt;a href="https://www.therobotreport.com/category/robots-platforms/industrial-robots/" target="_blank" rel="noopener"&gt;robots are in a cage,&lt;/a&gt; or they&amp;#8217;re locked to the floor. So they have limited mobility.&lt;/p&gt;
-&lt;p&gt;When you get to a humanoid, some robots fall in this category too. You can think of a &lt;a href="https://www.therobotreport.com/category/robots-platforms/self-driving-vehicles/" target="_blank" rel="noopener"&gt;Tesla as&lt;/a&gt; really a rolling robot. So when you think about these intersections of what I would call cyber with the physical world, another term that&amp;#8217;s used is &amp;#8220;cyber-physical systems.&amp;#8221; The humanoid is an easy one for people to wrap their heads around because it really is this intersection of AI and the physical world.&lt;/p&gt;
-&lt;p&gt;And that&amp;#8217;s why I say it needs to be both &lt;a href="https://www.therobotreport.com/category/safety-security/" target="_blank" rel="noopener"&gt;safe and secure&lt;/a&gt;. In other words, if it follows the typical safety paradigm that it does certain functions within its limits, that&amp;#8217;s good. You have to have that.&lt;/p&gt;
-&lt;p&gt;We want the humanoid to be able to detect the force properly and have a way to stop when it might be going to bump into a human, and have some guardrails to keep it from doing bad behavior.&lt;/p&gt;
-&lt;p&gt;But because it&amp;#8217;s typically run by multiple different &lt;a href="https://www.therobotreport.com/category/safety-security/" target="_blank" rel="noopener"&gt;components&lt;/a&gt; &amp;#8212; some are software-based, some are FPGAs or hardware-based, or ASICs, particularly those that are programmable &amp;#8212; now the security part kicks in because it&amp;#8217;s very easy for bad guys now to come in and attack that software structure.&lt;/p&gt;
-&lt;p&gt;So you&amp;#8217;ve built all the safety parameters, but if someone can go in now and adjust the data set that those safety parameters are using to make decisions, it&amp;#8217;s not really safe anymore because this now could be used for bad purposes. So I think when you have a &lt;a href="https://www.therobotreport.com/tag/cybersecurity/" target="_blank" rel="noopener"&gt;cyberattack&lt;/a&gt; on infrastructure today, everyone thinks about my system going down, I lose my ransomware, I lose my data, I get locked out. I mean, that&amp;#8217;s not a good thing.&lt;/p&gt;
-&lt;p&gt;But imagine now there are a thousand humanoids working in a particular area, and they all get hacked, and now they start doing really bad behavior. And they&amp;#8217;re moving 50- to 100-kg things around, and now they turn into weapons.&lt;/p&gt;
-&lt;p&gt;So I think the intersection of AI with the physical is gonna drive this safe and secure concept. Whereas traditionally, we&amp;#8217;ve had secure systems and safe systems. But not everyone has really put those two together. And I think this new paradigm we&amp;#8217;re going to go into is going to force that.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;What are some of the issues that hardware developers might need to consider when it comes to securing &lt;a href="https://www.therobotreport.com/category/networking-connectivity" target="_blank" rel="noopener"&gt;communications&lt;/a&gt; in today&amp;#8217;s world?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Sivertson: &lt;/strong&gt;I think a couple of key security features need to happen. Attestation is a big one. Am I authorized?&lt;/p&gt;
-&lt;p&gt;Am I what I think the system looks out and says, &amp;#8220;Hey, is this PLC, or is this sensor the one I think it is?” So you need to be able to attest that these are trusted entities, and it goes the other direction as well.&lt;/p&gt;
-&lt;p&gt;That sensor needs to know: &amp;#8220;Am I talking to this manufacturer&amp;#8217;s true cloud?&amp;#8221; or, &amp;#8220;Wait a minute, I don&amp;#8217;t think this is who I think it is. I can&amp;#8217;t talk to them.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;And then the next thing is, are both ends running the right stuff? So this is where you get into digital signatures, and this is where [the question] is: “Is this the right authenticated code?”&lt;/p&gt;
-&lt;p&gt;So do I know who I&amp;#8217;m talking to? And think of it as a human process, right?&lt;/p&gt;
-&lt;p&gt;You go in, you&amp;#8217;re gonna get on an airplane, and a guy walks in, and he doesn&amp;#8217;t look like a pilot. He says, “I&amp;#8217;m your pilot,” and you&amp;#8217;re like, &amp;#8220;Wait a minute, there&amp;#8217;s no way that guy&amp;#8217;s the pilot for this plane.&amp;#8221; It&amp;#8217;s the same concept. But let&amp;#8217;s say, okay, now I know it&amp;#8217;s the pilot; then the next issue you&amp;#8217;ve got to know is whether all the systems are properly configured.&lt;/p&gt;
-&lt;p&gt;And so I need authentication. And if you notice a pilot, he&amp;#8217;ll go through a checklist. You sit there at the gate for a long time while they&amp;#8217;re going through a whole bunch of checklists. They&amp;#8217;re really authenticating the aircraft to make sure everything on the aircraft is set to perform properly.&lt;/p&gt;
-&lt;p&gt;So you need to do that process, and then once you have all that, now you can start to run. And the next layer in protecting the run is that we could actually encrypt that data.&lt;/p&gt;
-&lt;p&gt;It&amp;#8217;s hard to intercept that data or spoof that data and give bad input to the system. So we need to know the entities that are running the system or that the stuff it&amp;#8217;s running is what should be there.&lt;/p&gt;
-&lt;p&gt;And then once it&amp;#8217;s running, we have confidence that it&amp;#8217;s running properly and is safe and secure. So those are the concepts that you want to look at. And the beauty of the FPGA is that it can fit all of these pieces into the system.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Where FPGAs can help&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;What&amp;#8217;s the role, from an architecture perspective, of deploying FPGAs across the various subcomponents of a system like a humanoid robot?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Sivertson: &lt;/strong&gt;So in particular to Lattice, we call them our root-of-trust &amp;#8212; ROT &amp;#8212; products. And so in each of our major FPGA families, we have ROT components. And one of the key differentiators from most of our competitors, we have the non-volatile memory contained within the chip, and we have it in such a way that we can boot from two different flash images, and we can lock those flash images.&lt;/p&gt;
-&lt;p&gt;So effectively, once you have that chip leave your factory, you can lock down its configuration. It&amp;#8217;s reprogrammable, but you can lock it so it can&amp;#8217;t be corrupted. And then, because we have two of these flashes, once you have a known-good, working, secure, safe image. It can supervise the update of the other image. And so it&amp;#8217;s very difficult to attack that.&lt;/p&gt;
-&lt;p&gt;And now back to my cyber-resilience piece. Most of the main processors or the AI engines do not have internal flash. It&amp;#8217;s very hard to do that in these very small nanometer; you don&amp;#8217;t have a 3-nm flash today, right? But all the GPUs and all the CPUs that are the highest capacity are moving into those 2- and 3-nm geometries. So it&amp;#8217;s impossible for them to get flash into that same system.&lt;/p&gt;
-&lt;p&gt;Look at the memory wars that are happening. Memory is considered a commodity, whereas the GPUs, the CPUs, and the MCUs are not. They&amp;#8217;re distinguished by what their capabilities are. It&amp;#8217;s why &lt;a href="https://www.therobotreport.com/tag/nvidia/" target="_blank" rel="noopener"&gt;NVIDIA&lt;/a&gt; is what it is today. It&amp;#8217;s not a commodity product.&lt;/p&gt;
-&lt;p&gt;They all have to go and get their instructions because it&amp;#8217;s an instruction set architecture. They have to go get that software to run from an external non-volatile memory, typically flash, but it could come from the cloud as a system download. But that process is extremely vulnerable to attack. That is the place you can hit in a big, big way. So the &lt;a href="https://www.therobotreport.com/category/technologies/microprocessors-socs/" target="_blank" rel="noopener"&gt;GPU, MCU, CPU&lt;/a&gt; can securely boot itself, right? It can make sure I&amp;#8217;m not gonna run code that hasn&amp;#8217;t been signed for me to run.&lt;/p&gt;
-&lt;p&gt;But the bad guy is smart. He&amp;#8217;s like, &amp;#8220;I don&amp;#8217;t care about that. Let&amp;#8217;s just not let it run. Let&amp;#8217;s make sure that thing doesn&amp;#8217;t start.&amp;#8221; That&amp;#8217;s your classic ransomware. That&amp;#8217;s your denial of service. And you don&amp;#8217;t want denial of service when your car&amp;#8217;s driving down the road and is gonna automatically turn, and it keeps going off a cliff, right? So, the whole idea with cyber resilience, and why, particularly, Lattice FPGAs can be very helpful to these systems. We can stop that from happening.&lt;/p&gt;
-&lt;p&gt;So we can be monitoring, like I was saying earlier, that the GPU is reading its instructions. And if we see any behavioral issue where a problem is occurring, we can even have a channel to that GPU because it can boot securely. It can tell us, &amp;#8220;Hey, I&amp;#8217;m in a booted state, but I can&amp;#8217;t run because I&amp;#8217;m not getting authenticated code anymore.&amp;#8221; We can now take action thanks to our FPGAs.&lt;/p&gt;
-&lt;p&gt;And go recover the image for that GPU and get it back online. So even though that GPU is much more sophisticated than our FPGAs and even a lot more expensive, and some of our parts are sub-10, you can use our sub-10 parts to guarantee that a $100 or $1,000 part is always going to function and do what you want it to.&lt;/p&gt;
-&lt;div&gt;
-&lt;hr /&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Editor&amp;#8217;s note: &lt;/strong&gt;This conversation was edited for clarity and readability.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/"&gt;Eric Sivertson discusses FPGAs and robot security&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
