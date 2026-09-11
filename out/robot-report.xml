@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Fri, 11 Sep 2026 15:02:29 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 11 Sep 2026 21:09:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,123 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>One brick at a time: How Monumental uses robotics to build walls</title>
+		<link>https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/</link>
+					<comments>https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/#respond</comments>
+		
+		<dc:creator>Mike Oitzman</dc:creator>
+		<pubDate>Fri, 11 Sep 2026 21:09:01 +0000</pubDate>
+				<category>Artificial Intelligence</category>
+		<category>Autonomous Mobile Robots (AMRs)</category>
+		<category>Construction</category>
+		<category>News</category>
+		<category>Opinion</category>
+		<category>Podcast</category>
+		<category>Agility Robotics</category>
+		<category>Boston Dynamics</category>
+		<category>Dynamic Creatures</category>
+		<category>Figure</category>
+		<category>Monumental</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589510</guid>
+
+					<description>&lt;p&gt;CEO Salar al Khafaji introduces podcast listeners to how Monumental is using robotics to build walls.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/"&gt;One brick at a time: How Monumental uses robotics to build walls&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;p&gt;&lt;iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2398832382&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true" width="100%" height="166" frameborder="no" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;"&gt;&lt;a style="color: #cccccc; text-decoration: none;" title="The Robot Report Podcast" href="https://soundcloud.com/robot-report-podcast" target="_blank" rel="noopener"&gt;The Robot Report Podcast&lt;/a&gt; · &lt;a style="color: #cccccc; text-decoration: none;" title="One brick at a time: How Monumental uses robotics to build walls" href="https://soundcloud.com/robot-report-podcast/one-brick-at-a-time" target="_blank" rel="noopener"&gt;One brick at a time: How Monumental uses robotics to build walls&lt;/a&gt;&lt;/div&gt;
+&lt;div id="attachment_589511" style="width: 289px" class="wp-caption alignleft"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589511" class="size-full wp-image-589511" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Salar-al-Khafaji-headshot.jpg" alt="headshot of Salar al Khafaji." width="279" height="350" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Salar-al-Khafaji-headshot.jpg 279w, https://www.therobotreport.com/wp-content/uploads/2026/09/Salar-al-Khafaji-headshot-239x300.jpg 239w, https://www.therobotreport.com/wp-content/uploads/2026/09/Salar-al-Khafaji-headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/09/Salar-al-Khafaji-headshot-190x238.jpg 190w" sizes="(max-width: 279px) 100vw, 279px" /&gt;&lt;p id="caption-attachment-589511" class="wp-caption-text"&gt;Salar al Khafaji, founder and CEO of Monumental.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;In Episode 261 of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, we learn about &amp;#8220;Walls as a Service&amp;#8221; and the emerging construction opportunity for robotics and automation.&lt;/p&gt;
+&lt;p&gt;Our guest is &lt;a href="https://www.linkedin.com/in/salark/" target="_blank" rel="noopener"&gt;Salar al Khafaji&lt;/a&gt;, founder and CEO of Monumental. A recognized leader at the intersection of AI, robotics, and the built environment, he is focused on bringing scalable automation to &lt;a href="https://www.therobotreport.com/tag/construction" target="_blank" rel="noopener"&gt;construction&lt;/a&gt;, one of the world&amp;#8217;s largest and least digitized industries, by making it software-defined and hardware-enabled.&lt;/p&gt;
+&lt;p&gt;Previously, al Kafaji co-founded the data visualization platform Silk, which Palantir Technologies acquired in 2016.&lt;/p&gt;
+&lt;p&gt;Be sure to catch our &lt;a href="https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/" target="_blank" rel="noopener"&gt;prior coverage this week&lt;/a&gt; of Monumental.&lt;/p&gt;
+&lt;p&gt;&lt;iframe title="Monumental | Making Construction Autonomous" width="740" height="416" src="https://www.youtube.com/embed/QSJfdPZY2aM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Show timeline&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;7:05 &amp;#8211; News of the week&lt;/li&gt;
+&lt;li&gt;28:20- Salar al Khafaji, founder and CEO of &lt;a href="https://www.monumental.co" target="_blank" rel="noopener"&gt;Monumental&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;News of the week&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/" target="_blank" rel="noopener"&gt;&lt;span class="TextRun SCXW34064501 BCX2" lang="EN-US" xml:lang="EN-US" data-contrast="auto"&gt;&lt;span class="NormalTextRun SCXW34064501 BCX2" data-ccp-parastyle="heading 2"&gt;Agility Robotics reports $1.8M revenue ahead of humanoid SPAC&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.figure.ai/news/figure-and-nscale-sign-strategic-partnership" target="_blank" rel="noopener"&gt;Figure and Nscale sign strategic partnership for up to 100,000 GPUs on the NVIDIA Vera Rubin platform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/" target="_blank" rel="noopener"&gt;Boston Dynamics veteran launches Dynamic Creatures to bring characters to life with robotics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Sponsors&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Thanks to our sponsors who make this content possible.&lt;/em&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;To learn how you can sponsor a future episode of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, contact Jami Brownlee at &lt;a href="mailto:jbrownlee@arrowfly.com" target="_blank" rel="noopener"&gt;jbrownlee@arrowfly.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Would you like to be a guest on a future episode? Contact Mike Oitzman at &lt;a href="mailto:moitzman@arrowfly.com" target="_blank" rel="noopener"&gt;moitzman@arrowfly.com&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/"&gt;One brick at a time: How Monumental uses robotics to build walls&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
+		<title>Learn how AVs and robotics are laying the groundwork for field deployments at RoboBusiness</title>
+		<link>https://www.therobotreport.com/learn-how-avs-robotics-are-laying-groundwork-field-deployments-robobusiness/</link>
+					<comments>https://www.therobotreport.com/learn-how-avs-robotics-are-laying-groundwork-field-deployments-robobusiness/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Fri, 11 Sep 2026 19:49:40 +0000</pubDate>
+				<category>Agriculture</category>
+		<category>Construction</category>
+		<category>Events</category>
+		<category>Markets / Industries</category>
+		<category>News</category>
+		<category>asi</category>
+		<category>Autonomous Solutions Inc</category>
+		<category>robobusiness</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589506</guid>
+
+					<description>&lt;p&gt;ASI CEO Mel Torrie will explore why the intersection of autonomous vehicles and robotics will further revolutionize field deployments.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/learn-how-avs-robotics-are-laying-groundwork-field-deployments-robobusiness/"&gt;Learn how AVs and robotics are laying the groundwork for field deployments at RoboBusiness&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589514" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589514" class="wp-image-589514 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ASI_Field_robots.jpg" alt="ASI is providing autonomy to existing equipment for field robotics." width="770" height="499" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/ASI_Field_robots.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/ASI_Field_robots-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/ASI_Field_robots-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/ASI_Field_robots-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/ASI_Field_robots-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589514" class="wp-caption-text"&gt;ASI is providing autonomy to existing field equipment. Source; Autonomous Solutions Inc.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Today’s autonomous vehicle fleets are successfully addressing pain points in geographically remote or rugged locations. Everyday, the technology is improving worker safety and operational efficiency. But, in the next 10 years, we&amp;#8217;ll see a massive leap forward in field robotics, according to Mel Torrie, the founder and CEO of Autonomous Solutions Inc., or ASI.&lt;/p&gt;
+&lt;p&gt;The use of mobile robotics in outdoor applications is poised to advance significantly over the decade. To unlock the next level of productivity, developers must design &lt;a href="https://www.therobotreport.com/category/robots-platforms/self-driving-vehicles/" target="_blank" rel="noopener"&gt;autonomous vehicles&lt;/a&gt; to support that integration and foster collaborative relationships among platforms.&lt;/p&gt;
+&lt;p&gt;At &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/tag/ASI/" target="_blank" rel="noopener"&gt;ASI&lt;/a&gt;&amp;#8216;s Torrie will lead the session, &amp;#8220;Designing the Robotics Ecosystem for Outdoor Autonomy.&amp;#8221; He will explore why the intersection of autonomous vehicles and advanced robotics will further revolutionize field deployments.&lt;/p&gt;
+&lt;p&gt;Torrie will also share insights on how building a unified, cooperative ecosystem where physical robotics seamlessly accompany and work alongside autonomous vehicles will compound operational benefits. Attendees will gain a strategic roadmap for navigating this shifting landscape, learning how the symbiosis of rugged vehicle platforms and intelligent robotics will redefine predictable productivity and safety in the world&amp;#8217;s most challenging work environments.&lt;/p&gt;
+&lt;h2&gt;Meet field robotics veteran Mel Torrie&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/08/mel-torrie-019fcdc2-a81f-7736-a265-0bd8d6d8a3b7.jpg"&gt;&lt;img loading="lazy" decoding="async" class="alignleft wp-image-589256 size-thumbnail" src="https://www.therobotreport.com/wp-content/uploads/2026/08/mel-torrie-019fcdc2-a81f-7736-a265-0bd8d6d8a3b7-150x150.jpg" alt="Mel Torrie." width="150" height="150" srcset="https://www.therobotreport.com/wp-content/uploads/2026/08/mel-torrie-019fcdc2-a81f-7736-a265-0bd8d6d8a3b7-150x150.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/08/mel-torrie-019fcdc2-a81f-7736-a265-0bd8d6d8a3b7-300x300.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/08/mel-torrie-019fcdc2-a81f-7736-a265-0bd8d6d8a3b7-238x238.jpg 238w, https://www.therobotreport.com/wp-content/uploads/2026/08/mel-torrie-019fcdc2-a81f-7736-a265-0bd8d6d8a3b7.jpg 600w" sizes="auto, (max-width: 150px) 100vw, 150px" /&gt;&lt;/a&gt;Mel Torrie is a global leader in vendor-agnostic vehicle automation. With over two decades of robotics leadership, he has pioneered autonomous technologies across the mining, agriculture, construction, and logistics industries.&lt;/p&gt;
+&lt;p&gt;Torrie grew up on a farm in Alberta, Canada, which motivated him to get an education and automate his tractors. He earned an MS degree in electrical engineering at Utah State University and began robotics research 28 years ago.&lt;/p&gt;
+&lt;p&gt;Torrie and his team founded ASI in 2000 and have bootstrapped the company through partnerships with the world’s largest field robotics OEMs.&lt;/p&gt;
+&lt;h2&gt;Register now for RoboBusiness&lt;/h2&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Best Moments of RoboBusiness 2025" width="740" height="416" src="https://www.youtube.com/embed/sA7R9PGhCog?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;RoboBusiness 2026 is the leading event for commercial robotics developers. Attendees will gain the latest insights from experts in robotics and AI on cutting-edge research; industry trends; and innovative applications in sectors such as manufacturing, healthcare, agriculture, logistics, and more.&lt;/p&gt;
+&lt;p&gt;The show also features a number of &lt;a href="https://www.robobusiness.com/networking-events/" target="_blank" rel="noopener"&gt;networking opportunities&lt;/a&gt; to give attendees the chance to connect with other experts in the industry. This will include the Mix and Mingle reception on the first day of the show.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Buy your full conference pass&lt;/a&gt; and gain full access to all keynotes, technical sessions, networking receptions, and special events. Discounts are also available for academia, associations, and corporate groups. Please email events[at]arrowfly.com for more details about our discount programs.&lt;/p&gt;
+&lt;article class="type-post entry" aria-label="Registration is open for RoboBusiness 2026"&gt;
+&lt;div class="entry-content"&gt;
+&lt;p&gt;For information about sponsorship and exhibition opportunities, &lt;a href="https://www.robobusiness.com/sponsor/" target="_blank" rel="noopener"&gt;download the prospectus&lt;/a&gt;. Questions regarding sponsorship opportunities should be directed to Colleen Sepich at csepich[AT]arrowfly.com.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/learn-how-avs-robotics-are-laying-groundwork-field-deployments-robobusiness/"&gt;Learn how AVs and robotics are laying the groundwork for field deployments at RoboBusiness&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/learn-how-avs-robotics-are-laying-groundwork-field-deployments-robobusiness/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>How to select the right rack and pinion system for high-precision linear motion</title>
 		<link>https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/</link>
 					<comments>https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/#respond</comments>
@@ -40,7 +157,7 @@
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/"&gt;How to select the right rack and pinion system for high-precision linear motion&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
 										<ns3:encoded>&lt;p&gt;&lt;em&gt;Sponsored by &lt;a href="https://www.gamweb.com/rack-and-pinion.html" target="_blank" rel="noopener"&gt;GAM&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-&lt;div id="attachment_589498" style="width: 1786px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589498" class="size-full wp-image-589498" src="https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system.jpg" alt="" width="1776" height="860" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system.jpg 1776w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-300x145.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-1024x496.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-150x73.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-768x372.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-1536x744.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-368x178.jpg 368w" sizes="(max-width: 1776px) 100vw, 1776px" /&gt;&lt;p id="caption-attachment-589498" class="wp-caption-text"&gt;GAM rack, pinion, and gearbox systems are optimized for high performance in all the components. (Image: GAM.)&lt;/p&gt;&lt;/div&gt;
+&lt;div id="attachment_589498" style="width: 1786px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589498" class="size-full wp-image-589498" src="https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system.jpg" alt="" width="1776" height="860" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system.jpg 1776w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-300x145.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-1024x496.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-150x73.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-768x372.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-1536x744.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/gearbox-rack-pinion_system-368x178.jpg 368w" sizes="auto, (max-width: 1776px) 100vw, 1776px" /&gt;&lt;p id="caption-attachment-589498" class="wp-caption-text"&gt;GAM rack, pinion, and gearbox systems are optimized for high performance in all the components. (Image: GAM.)&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Picture a scissor car jack — the one in your trunk for changing a tire. The spinning motion as you turn the crank translates to the linear motion as the jack rises.&lt;/p&gt;
 &lt;p&gt;This is how a rack and pinion system works. The spinning part is the pinion, a gear that receives the rotational input. The toothed part being pushed along is the rack, a long bar with gear teeth that the pinion rides against. Depending on the application, either the rack moves back and forth while the pinion stays in place, or the rack stays fixed and whatever the pinion is attached to travels back and forth (or up and down).&lt;/p&gt;
 &lt;p&gt;It is important to select the right rack and pinion system, as a wrong decision can impact both performance and cost.&lt;/p&gt;
@@ -52,7 +169,7 @@
 &lt;p&gt;Sometimes the process runs in the other direction. If a customer already has a motor selected, sizing can start from that motor’s speed and the positioning accuracy needed. Applications that need better positional accuracy may call for a higher-precision rack.&lt;/p&gt;
 &lt;p&gt;From there, tooth size and shape come into play. “The larger the rack, the bigger and stronger the teeth,” says Ruggles. “A higher tooth quality is going to run quieter usually and will offer better linear positioning, be more accurate.”&lt;/p&gt;
 &lt;p&gt;Another consideration is whether the teeth are straight or helical. Helical teeth are cut at an angle so they engage progressively, producing smoother, quieter motion and slightly more strength. Straight teeth engage all at once, making the motion rougher and noisier by comparison. While there’s very little cost difference between the two, helical teeth do introduce an axial force on the pinion and rack, perpendicular to the direction of motion.&lt;/p&gt;
-&lt;div id="attachment_589500" style="width: 1610px" class="wp-caption aligncenter"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-589500" class="size-full wp-image-589500" src="https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis.jpg" alt="" width="1600" height="1221" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis.jpg 1600w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-300x229.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-1024x781.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-150x114.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-768x586.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-1536x1172.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-312x238.jpg 312w" sizes="(max-width: 1600px) 100vw, 1600px" /&gt;&lt;p id="caption-attachment-589500" class="wp-caption-text"&gt;A gearbox, pinion, and rack system provide the 7th axis, or lateral movement, for an articulated robot. Credit: GAM&lt;/p&gt;&lt;/div&gt;
+&lt;div id="attachment_589500" style="width: 1610px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589500" class="size-full wp-image-589500" src="https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis.jpg" alt="" width="1600" height="1221" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis.jpg 1600w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-300x229.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-1024x781.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-150x114.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-768x586.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-1536x1172.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/articulated-robot-7th-axis-312x238.jpg 312w" sizes="auto, (max-width: 1600px) 100vw, 1600px" /&gt;&lt;p id="caption-attachment-589500" class="wp-caption-text"&gt;A gearbox, pinion, and rack system provide the 7th axis, or lateral movement, for an articulated robot. Credit: GAM&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Pinion size plays a significant role as well. Smaller pinions are preferred for high-precision applications; for any rotational error or backlash in the gearbox or motor, the impact on linear position is a lot smaller.&lt;/p&gt;
 &lt;p&gt;“With a smaller pinion, the lost motion through your system has less of an effect on how that overall positioning works in a linear fashion, versus a large pinion which can almost amplify that slop in the system,” says Ruggles.&lt;/p&gt;
 &lt;p&gt;A smaller pinion also transmits torque more effectively and requires less of it from the motor and gearbox to deliver the same feed force, allowing for smaller, less expensive components. The higher ratio further improves inertia matching between the motor and load.&lt;/p&gt;
@@ -95,7 +212,7 @@
 					<description>&lt;p&gt;Before the FCC put restrictions on foreign-made robots, it had already set similar restrictions on drones last year, noted Hylio.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-hylio-drone-developers-navigate-changing-regulatory-landscape-help-farmers/"&gt;How drone developers are navigating changing regulatory landscapes to help farmers&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_589503" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured.jpg"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-589503" class="size-full wp-image-589503" src="https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured.jpg" alt="Hylio offers a range of drones that use digital flowmeters to spray fields at precise dosages." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-368x238.jpg 368w" sizes="(max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589503" class="wp-caption-text"&gt;Hylio offers a range of drones that use digital flowmeters to spray fields at precise dosages. | Source: Hylio&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_589503" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589503" class="size-full wp-image-589503" src="https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured.jpg" alt="Hylio offers a range of drones that use digital flowmeters to spray fields at precise dosages." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/hyliodrone-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589503" class="wp-caption-text"&gt;Hylio offers a range of drones that use digital flowmeters to spray fields at precise dosages. | Source: Hylio&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Earlier this year, the Federal Communication Commission threw much of the robotics industry into uncertainty when it &lt;a href="https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/" target="_blank" rel="noopener"&gt;announced&lt;/a&gt; new limits on imports of certain robots from foreign countries. For those building and operating drones such as Hylio, this is a familiar story.&lt;/p&gt;
 &lt;p&gt;In December 2025, the FCC added foreign-made drones and U.S.-assembled drones with major foreign-made parts, to its &lt;a href="https://docs.fcc.gov/public/attachments/DOC-416839A1.pdf" target="_blank" rel="noopener"&gt;Covered List&lt;/a&gt;. This list includes companies and technologies that the &lt;a href="https://www.therobotreport.com/tag/fcc/" target="_blank" rel="noopener"&gt;commission&lt;/a&gt; has prohibited. Arthur Erickson, the co-founder and CEO of agricultural drone developer Hylio, said the news didn&amp;#8217;t come as a surprise for him.&lt;/p&gt;
 &lt;p&gt;Erickson launched the Richmond, Texas-based &lt;a href="https://www.hyl.io/hardware" target="_blank" rel="noopener"&gt;company&lt;/a&gt; in 2015. Even then, he saw that &lt;a href="https://www.therobotreport.com/category/china/" target="_blank" rel="noopener"&gt;China&lt;/a&gt; had a clear advantage in the &lt;a href="https://www.therobotreport.com/category/robots-platforms/uav-drones/" target="_blank" rel="noopener"&gt;drone&lt;/a&gt; market. This is why he made manufacturing in the U.S. as much as possible a priority.&lt;/p&gt;
@@ -822,113 +939,6 @@
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Agility Robotics reports $1.8M revenue ahead of humanoid SPAC</title>
-		<link>https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/</link>
-					<comments>https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/#respond</comments>
-		
-		<dc:creator>Steve Crowe</dc:creator>
-		<pubDate>Mon, 07 Sep 2026 13:17:45 +0000</pubDate>
-				<category>Financial</category>
-		<category>Humanoids</category>
-		<category>News</category>
-		<category>Agility Robotics</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589464</guid>
-
-					<description>&lt;p&gt;Agility Robotics’ S-4 filing reveals $1.8 million in 2025 revenue, a $140 million operating loss and plans to scale its Digit humanoid robot business.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/"&gt;Agility Robotics reports $1.8M revenue ahead of humanoid SPAC&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div align="center"&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Precision in Motion: Five Humanoid Material Handling Workflows" width="740" height="416" src="https://www.youtube.com/embed/3xQVCQ7_zZk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Agility Robotics said it has deployed its Digit humanoid at 9 customer sites as it gears up to go public via a proposed SPAC merger with Churchill Capital Corp. XI. Now we’re getting a first look at Agility’s financials thanks to a new S-4 filing with the SEC.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sec.gov/ix?doc=/Archives/edgar/data/0002074973/000121390026097764/ea0297114-04.htm" target="_blank" rel="noopener"&gt;According to the S-4&lt;/a&gt;, Agility generated $1.8 million in net sales in 2025, against a $140 million operating loss. The company spent $111 million on operations, up from $71 million in 2024. Agility burned about $100 million in cash in 2025.&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/"&gt;SPAC deal values Agility at $2.5 billion&lt;/a&gt; and is expected to generate more than $620 million in gross proceeds. That includes about $420 million from Churchill&amp;#8217;s trust and $200 million from a PIPE led by Foxconn.&lt;/p&gt;
-&lt;p&gt;Compared with 2025 revenue of $1.8 million, Agility&amp;#8217;s valuation equals roughly 1,400 times annual revenue. A SPAC lets a private company go public based heavily on future expectations and projections, rather than having to demonstrate a long history of public-company financial performance.&lt;/p&gt;
-&lt;p&gt;The gap between revenue and valuation is not unique to Agility. Other U.S.-based humanoid makers, including Figure, Apptronik, 1X and others, have also raised large funding rounds at high valuations. But because they’re not public (yet), these companies haven’t opened their books.&lt;/p&gt;
-&lt;p&gt;Chinese robot maker &lt;a href="https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/"&gt;Unitree went public&lt;/a&gt; on Shanghai’s STAR Market in mid-August. It closed its first day of trading 460% higher. The company raised 6.1 billion yuan, around $905 million U.S., with its initial public offering. Unitree said it is the first major legged robotics company to go pubic.&lt;/p&gt;
-&lt;p&gt;Agility said Digit humanoids have logged more than 65,000 operating hours across 9 customer sites. The company also said it has more than $300 million in multi-year Digit v5 orders from one customer that it expects to fulfill over the coming years. Those deployments and orders have not yet turned into revenue that comes close to supporting today’s valuation.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;The Robot Report&lt;/em&gt; named Digit its inaugural &lt;a href="https://www.therobotreport.com/rbr50-2024/"&gt;Robot of the Year in 2024&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
-&lt;div id="attachment_589465" style="width: 1316px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589465" class="wp-image-589465 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Screenshot-2026-09-07-at-8.40.26-AM.png" alt="Snapshot of Agility's financials via the recent S-4 filing. " width="1306" height="830" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Screenshot-2026-09-07-at-8.40.26-AM.png 1306w, https://www.therobotreport.com/wp-content/uploads/2026/09/Screenshot-2026-09-07-at-8.40.26-AM-300x191.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Screenshot-2026-09-07-at-8.40.26-AM-1024x651.png 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/Screenshot-2026-09-07-at-8.40.26-AM-150x95.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Screenshot-2026-09-07-at-8.40.26-AM-768x488.png 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/Screenshot-2026-09-07-at-8.40.26-AM-268x170.png 268w, https://www.therobotreport.com/wp-content/uploads/2026/09/Screenshot-2026-09-07-at-8.40.26-AM-368x234.png 368w" sizes="auto, (max-width: 1306px) 100vw, 1306px" /&gt;&lt;p id="caption-attachment-589465" class="wp-caption-text"&gt;Snapshot of Agility&amp;#8217;s financials via the recent S-4 filing.&lt;/p&gt;&lt;/div&gt;
-&lt;h2&gt;Two ways to monetize Digit&lt;/h2&gt;
-&lt;p&gt;According to the S-4, Agility has two business models for Digit v5: Robots-as-a-Service (RaaS) and outright robot sales. The graphic below explains the two approaches.&lt;/p&gt;
-&lt;p&gt;Under RaaS, Agility retains ownership of the robot and charges customers about $8,500 per month, roughly $102,000 annually, for access to the robot, software and maintenance, plus a $25,000 deployment fee. Based on the company&amp;#8217;s assumptions, that works out to about $535,000 in revenue per robot over its five-year lifespan.&lt;/p&gt;
-&lt;p&gt;Under direct ownership, customers pay about $200,000 upfront, plus a $20,000 deployment fee and roughly $36,000 a year for software and maintenance. Over five years, Agility estimates that would produce about $400,000 in revenue per robot.&lt;/p&gt;
-&lt;div id="attachment_589466" style="width: 1960px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589466" class="size-full wp-image-589466" src="https://www.therobotreport.com/wp-content/uploads/2026/09/agility-deployment-options.jpg" alt="" width="1950" height="990" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/agility-deployment-options.jpg 1950w, https://www.therobotreport.com/wp-content/uploads/2026/09/agility-deployment-options-300x152.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/agility-deployment-options-1024x520.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/agility-deployment-options-150x76.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/agility-deployment-options-768x390.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/agility-deployment-options-1536x780.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/agility-deployment-options-368x187.jpg 368w" sizes="auto, (max-width: 1950px) 100vw, 1950px" /&gt;&lt;p id="caption-attachment-589466" class="wp-caption-text"&gt;Deployment options for Agility&amp;#8217;s Digit humanoid. | Credit: Agility Robotics via S-4 filing&lt;/p&gt;&lt;/div&gt;
-&lt;h2&gt;Long-term growth needed&lt;/h2&gt;
-&lt;p&gt;Agility&amp;#8217;s S-4 lays out an ambitious deployment trajectory of around 800 Digit v5 units in 2027, 7,000 by 2030 and up to 25,000 by 2035. At the $8,500 monthly RaaS rate, 25,000 robots would translate to roughly $2.55 billion in annual subscription revenue.&lt;/p&gt;
-&lt;p&gt;Agility sees RaaS as central to its long-term growth story. At its illustrative rate of $8,500 per month, 1,000 deployed robots would generate about $102 million in annual subscription revenue. At 5,000 robots, that would rise to roughly $510 million; at 10,000, to about $1 billion.&lt;/p&gt;
-&lt;p&gt;Agility cautions that the unit economics depend on many assumptions. Actual contracts, deployment timing, pricing and utilization could all differ. Agility would need to grow annual revenue roughly 57-fold just to match the revenue from 1,000 RaaS robots. The 25,000-robot scenario would be more than 1,400 times larger than the company’s 2025 revenue.&lt;/p&gt;
-&lt;p&gt;Getting there means moving from today&amp;#8217;s small commercial footprint to thousands of revenue-generating robots in the field, all while driving down Digit&amp;#8217;s manufacturing costs and proving that customers will use humanoids at scale.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Editor&amp;#8217;s Note:&lt;/strong&gt; Agility&amp;#8217;s Jonathan Hurst and Pras Velagapudi will be speaking at &lt;a href="http://www.robobusiness.com" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt;, which is produced by &lt;em&gt;The Robot Report&lt;/em&gt;, on Oct. 20-21 in Santa Clara.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/"&gt;Agility Robotics reports $1.8M revenue ahead of humanoid SPAC&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>MassRobotics shares member survey results around FCC restrictions</title>
-		<link>https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/</link>
-					<comments>https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/#respond</comments>
-		
-		<dc:creator>Eugene Demaitre</dc:creator>
-		<pubDate>Mon, 07 Sep 2026 12:30:16 +0000</pubDate>
-				<category>Autonomous Mobile Robots (AMRs)</category>
-		<category>China</category>
-		<category>Defense / Security</category>
-		<category>Drones</category>
-		<category>Humanoids</category>
-		<category>Manufacturing</category>
-		<category>Networking / Connectivity</category>
-		<category>News</category>
-		<category>Regulatory &amp; Compliance</category>
-		<category>Unmanned Aerial Systems / Drones</category>
-		<category>FCC</category>
-		<category>government</category>
-		<category>MassRobotics</category>
-		<category>reshoring</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589446</guid>
-
-					<description>&lt;p&gt;MassRobotics has found that companies were split on the FCC ban on new foreign-produced mobile robots.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/"&gt;MassRobotics shares member survey results around FCC restrictions&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589457" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589457" class="size-full wp-image-589457" src="https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-copy.jpg" alt="Respondents were evenly split between favorable and unfavorable views of the FCC robotics ban, found MassRobotics." width="770" height="400" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-copy-300x156.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-copy-150x78.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-copy-768x399.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-copy-368x191.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589457" class="wp-caption-text"&gt;Respondents were evenly split between favorable and unfavorable views of the FCC robotics ban. Source: MassRobotics&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;In July 2026, the Federal Communications Commission, or FCC, said it has determined that foreign-made &amp;#8220;advanced robotic devices,&amp;#8221; including certain mobile robots and humanoids, could create supply chain vulnerabilities and pose cybersecurity risks. It banned new models of such devices, with exceptions for federal purchases and companies that obtain waivers through the U.S. Department of War or DoW.&lt;/p&gt;
-&lt;p&gt;The rule &lt;a href="https://www.arcweb.com/blog/robot-ban-what-new-us-restrictions-mean-industrial-robotics" target="_blank" rel="noopener"&gt;covers&lt;/a&gt; ground-based, connected robots that weigh more than 4.4 lb. (1.9 kg), have environmental sensors such as lidar or cameras, include connectivity of at least 200 kbps, and rely on navigation and perception software. The FCC has also said that 65% of the total cost of a robot&amp;#8217;s components must be domestic-made to qualify as U.S.-produced. It plans to increase that threshold to 75% in 2029.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/" target="_blank" rel="noopener"&gt;The policy&lt;/a&gt; initially caused confusion among some robotics suppliers and users. While it applies to imports from any country, it was widely understood to address competition from &lt;a href="https://www.therobotreport.com/tag/china/" target="_blank" rel="noopener"&gt;China&lt;/a&gt;, which has installed &lt;a href="https://www.nytimes.com/2025/09/25/business/china-factory-robots.html" target="_blank" rel="noopener"&gt;more than half&lt;/a&gt; of the world&amp;#8217;s industrial robots.&lt;/p&gt;
-&lt;p&gt;Along with &lt;a href="https://www.therobotreport.com/industry-experts-react-u-s-robotics-tariff-proposal/" target="_blank" rel="noopener"&gt;potential tariffs&lt;/a&gt; on robotics, the &lt;a href="https://www.therobotreport.com/tag/fcc/" target="_blank" rel="noopener"&gt;FCC&lt;/a&gt; restrictions also highlighted the need for a &lt;a href="https://www.therobotreport.com/effort-establish-national-commission-on-robotics-advances-congress/" target="_blank" rel="noopener"&gt;national robotics strategy&lt;/a&gt;, noted industry advocates. Since the initial announcement, various organizations have been trying to figure out how to respond to these policies and inform the community about them. The Association for Advancing Automation (&lt;a href="https://www.therobotreport.com/tag/association-for-advancing-automation" target="_blank" rel="noopener"&gt;A3&lt;/a&gt;) &lt;a href="https://lnkd.in/p/g-TEPiHf" target="_blank" rel="noopener"&gt;hosted a webinar&lt;/a&gt; with DLA Piper for its members.&lt;/p&gt;
-&lt;h2&gt;MassRobotics finds an even split among member organizations&lt;/h2&gt;
-&lt;p&gt;Last month, MassRobotics surveyed its resident startups, corporate sponsors, and the robotics ecosystem to get feedback on the FCC ban. The Boston-based &lt;a href="https://www.therobotreport.com/tag/massrobotics" target="_blank" rel="noopener"&gt;organization&lt;/a&gt; said it spoke with 14 companies ranging &amp;#8220;from solo-founder teams to organizations with 200+ members.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;MassRobotics reported that 43% of companies viewed the FCC ruling as &amp;#8220;beneficial&amp;#8221; or &amp;#8220;very beneficial,&amp;#8221; with the same percentage calling it &amp;#8220;detrimental&amp;#8221; or &amp;#8220;very detrimental.&amp;#8221; Fourteen percent said they expected &amp;#8220;no impact.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Sentiment tracks closely with a company’s manufacturing footprint,&amp;#8221; observed MassRobotics. &amp;#8220;Companies already producing domestically tend to view the ruling as a competitive advantage; companies with foreign-dependent supply chains, even partially, tend to view it as a costly disruption.&amp;#8221;&lt;/p&gt;
-&lt;div id="attachment_589450" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589450" class="wp-image-589450 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-1.png" alt="Sentiment toward the FCC determination depended on where a company has its supply chain." width="770" height="400" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-1.png 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-1-300x156.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-1-150x78.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-1-768x399.png 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-1-368x191.png 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589450" class="wp-caption-text"&gt;Sentiment toward the FCC ban depended on where a company has its production. Source: MassRobotics&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;When asked how the FCC ruling would affect their fundraising plans and product roadmaps, respondents also said they expected benefits or disruptions. However, one company said it expected &amp;#8220;a severe positive boost,&amp;#8221; while another complained that it would have to relocate its headquarters to the U.S.&lt;/p&gt;
-&lt;p&gt;Twenty-nine percent of those surveyed said they have onshoring plans but have yet to start them.&lt;/p&gt;
-&lt;div id="attachment_589451" style="width: 778px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589451" class="size-full wp-image-589451" src="https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-3.png" alt="The FCC policy has prompted some companies to examine their onshoring plans, says MassRobotics." width="768" height="400" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-3.png 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-3-300x156.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-3-150x78.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/FCC-Graphs-3-368x192.png 368w" sizes="auto, (max-width: 768px) 100vw, 768px" /&gt;&lt;p id="caption-attachment-589451" class="wp-caption-text"&gt;The FCC policy has prompted some companies to examine their supply chains, says MassRobotics.&lt;/p&gt;&lt;/div&gt;
-&lt;h2&gt;Companies want clarity, vetted onshoring networks&lt;/h2&gt;
-&lt;p&gt;In open-ended responses, several companies noted that components such as motors, sensors, power supplies and DC/DC converters, and robot arms are largely supplied by East Asia. Some also wondered about the DoW&amp;#8217;s &amp;#8220;conditional approval&amp;#8221; process, which can take four to eight weeks, and worried about the potential for regulatory whiplash around U.S. midterm elections.&lt;/p&gt;
-&lt;p&gt;In addition, MassRobotics found that companies were concerned about retaliation from China and being outmaneuvered by foreign companies that already have an American footprint. &amp;#8220;Vetted onshoring supply networks&amp;#8221; were the single most-requested form of support, said the nonprofit organization.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Messaging and support should be tailored by manufacturing footprint rather than treated as a single industry position,&amp;#8221; noted MassRobotics, which is one of the top robotics clusters and accelerators in the country.&lt;/p&gt;
-&lt;p&gt;Since the initial ruling, the FCC &lt;a href="https://www.consumerreports.org/appliances/vacuum-cleaners/foreign-made-robot-vacuums-fcc-ban-a9842224597/" target="_blank" rel="noopener"&gt;has also banned&lt;/a&gt; new consumer robot vacuum cleaners. Proponents of the trade restrictions have noted that offshoring the &lt;a href="https://www.therobotreport.com/category/robots-platforms/uav-drones/" target="_blank" rel="noopener"&gt;drone&lt;/a&gt; industry weakened U.S. industry and national security.&lt;/p&gt;
-&lt;p&gt;In a related dispute, North Reading, Mass.-based Teradyne Robotics &lt;a href="https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/" target="_blank" rel="noopener"&gt;has sued&lt;/a&gt; the German subsidiary of Chinese force- and power-limited robot supplier JAKA for infringing the patents of its Universal Robots unit.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Editor&amp;#8217;s note:&lt;/strong&gt; Reshoring production with automation will be the topic of a panel discussion at &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026, which will be on Oct. 20 and 21 in Santa Clara, Calif. &lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Register now to attend.&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/"&gt;MassRobotics shares member survey results around FCC restrictions&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
