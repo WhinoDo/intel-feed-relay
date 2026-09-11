@@ -11,7 +11,7 @@
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
   <item>
-    <guid>https://www.humanoidsdaily.com/news/skild-ai-crosses-100m-arr-in-10-months-mounting-an-enterprise-assault-on-robotics-demo-culture</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/skild-ai-crosses-100m-arr-in-10-months-mounting-an-enterprise-assault-on-robotics-demo-culture</guid>
     <title>Skild AI Crosses $100M ARR in 10 Months, Mounting an Enterprise Assault on Robotics "Demo Culture"</title>
     <link>https://www.humanoidsdaily.com/news/skild-ai-crosses-100m-arr-in-10-months-mounting-an-enterprise-assault-on-robotics-demo-culture</link>
     <description>Ten months after its first commercial rollout, Skild AI has scaled to $100 million in annual recurring revenue across more than 60 customers, using its deployment milestone to issue a sharp critique of cherry-picked robotics demonstrations.</description>
@@ -21,7 +21,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/unitree-open-sources-unifolm-wla-1-0-to-tackle-humanoid-generalization</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-open-sources-unifolm-wla-1-0-to-tackle-humanoid-generalization</guid>
     <title>Unitree Open-Sources UnifoLM-WLA-1.0 to Tackle Humanoid Generalization</title>
     <link>https://www.humanoidsdaily.com/news/unitree-open-sources-unifolm-wla-1-0-to-tackle-humanoid-generalization</link>
     <description>Unitree Robotics has open-sourced UnifoLM-WLA-1.0, a 6-billion-parameter foundation model that combines an embodied reasoner, dynamic optical-flow world modeling, and an MMDiT action expert to drive whole-body manipulation.</description>
@@ -31,7 +31,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/agile-robots-ceo-predicts-physical-ai-will-surpass-automotive-by-10x</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agile-robots-ceo-predicts-physical-ai-will-surpass-automotive-by-10x</guid>
     <title>Agile Robots CEO Predicts Physical AI Will Surpass Automotive by 10x</title>
     <link>https://www.humanoidsdaily.com/news/agile-robots-ceo-predicts-physical-ai-will-surpass-automotive-by-10x</link>
     <description>At its Munich Physical AI event, Agile Robots founder Zhaopeng Chen laid out a multi-trillion-dollar vision for humanoids while pushing back on "magic" AI shortcuts on the factory floor.</description>
@@ -41,7 +41,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/the-openai-of-robotics-debate-reignites-as-gpt-6-astra-paints-in-real-life</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/the-openai-of-robotics-debate-reignites-as-gpt-6-astra-paints-in-real-life</guid>
     <title>The "OpenAI of Robotics" Debate Reignites as GPT-6 Astra Paints in Real Life</title>
     <link>https://www.humanoidsdaily.com/news/the-openai-of-robotics-debate-reignites-as-gpt-6-astra-paints-in-real-life</link>
     <description>An impromptu painting demonstration using OpenAI’s GPT-6 Astra has triggered a wider industry clash over whether foundation models will commoditize physical AI or hit an unyielding hardware ceiling.</description>
@@ -51,7 +51,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/nucleus-pivots-to-wheeled-base-for-nucleus-ii-following-factory-floor-pushback</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/nucleus-pivots-to-wheeled-base-for-nucleus-ii-following-factory-floor-pushback</guid>
     <title>Nucleus Pivots to Wheeled Base for "Nucleus II" Following Factory Floor Pushback</title>
     <link>https://www.humanoidsdaily.com/news/nucleus-pivots-to-wheeled-base-for-nucleus-ii-following-factory-floor-pushback</link>
     <description>Just a month after breaking stealth with a legged Unitree platform, European robotics startup Nucleus has deployed Nucleus II on a wheeled mobile chassis, prioritizing payload, runtime, and stability.</description>
@@ -61,7 +61,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/inside-xpeng-s-bet-on-iron-he-xiaopeng-on-why-the-hardest-path-in-humanoid-robotics-is-never-crowded</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/inside-xpeng-s-bet-on-iron-he-xiaopeng-on-why-the-hardest-path-in-humanoid-robotics-is-never-crowded</guid>
     <title>Inside XPENG’s Bet on IRON: He Xiaopeng on Why the Hardest Path in Humanoid Robotics Is Never Crowded</title>
     <link>https://www.humanoidsdaily.com/news/inside-xpeng-s-bet-on-iron-he-xiaopeng-on-why-the-hardest-path-in-humanoid-robotics-is-never-crowded</link>
     <description>In an unusually candid documentary-style essay following the commissioning of XPENG’s humanoid assembly line, CEO He Xiaopeng reflects on six years of failures, why the company avoids stage demos, and how EV intelligence translates to physical AI.</description>
@@ -71,7 +71,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/figure-ai-reports-rapid-growth-for-index-surpassing-69-000-weekly-active-users</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-ai-reports-rapid-growth-for-index-surpassing-69-000-weekly-active-users</guid>
     <title>Figure AI Reports Rapid Growth for Index, Surpassing 69,000 Weekly Active Users</title>
     <link>https://www.humanoidsdaily.com/news/figure-ai-reports-rapid-growth-for-index-surpassing-69-000-weekly-active-users</link>
     <description>Two weeks after emerging from stealth, Figure AI CEO Brett Adcock shared growth metrics for Index, reporting nearly 70,000 weekly active users uploading 35 minutes of human interaction video every second.</description>
@@ -81,7 +81,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/the-policy-is-a-video-how-markov-robotics-runs-dexterous-manipulation-on-ltx-2-5</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/the-policy-is-a-video-how-markov-robotics-runs-dexterous-manipulation-on-ltx-2-5</guid>
     <title>The Policy Is a Video: How Markov Robotics Runs Dexterous Manipulation on LTX-2.5</title>
     <link>https://www.humanoidsdaily.com/news/the-policy-is-a-video-how-markov-robotics-runs-dexterous-manipulation-on-ltx-2-5</link>
     <description>LTX-2.5 ships a raw pretrained checkpoint built for fine-tuning, and a robotics team is already using the open world model to generate the video of a task and execute what the video says.</description>
@@ -91,7 +91,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/dynamic-creatures-emerges-from-stealth-with-boston-dynamics-backing-to-build-expressive-guest-facing-robots</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/dynamic-creatures-emerges-from-stealth-with-boston-dynamics-backing-to-build-expressive-guest-facing-robots</guid>
     <title>Dynamic Creatures Emerges From Stealth With Boston Dynamics Backing to Build Expressive Guest-Facing Robots</title>
     <link>https://www.humanoidsdaily.com/news/dynamic-creatures-emerges-from-stealth-with-boston-dynamics-backing-to-build-expressive-guest-facing-robots</link>
     <description>Founded by former Boston Dynamics and Google leaders, Dynamic Creatures launches with a proprietary AI operating system, theme park partnerships, and a fresh take on character robotics.</description>
@@ -101,7 +101,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/from-stadiums-to-the-front-line-how-china-and-the-us-are-preparing-humanoids-for-combat</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/from-stadiums-to-the-front-line-how-china-and-the-us-are-preparing-humanoids-for-combat</guid>
     <title>From Stadiums to the Front Line: How China and the US Are Preparing Humanoids for Combat</title>
     <link>https://www.humanoidsdaily.com/news/from-stadiums-to-the-front-line-how-china-and-the-us-are-preparing-humanoids-for-combat</link>
     <description>An extensive investigation reveals China’s defense establishment is laying the operational groundwork for combat humanoids, spotlighting an asymmetric race against solitary US defense contenders like Foundation.</description>
@@ -111,7 +111,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/tokyo-now-has-a-dedicated-911-service-for-busted-humanoid-robots</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tokyo-now-has-a-dedicated-911-service-for-busted-humanoid-robots</guid>
     <title>Tokyo Now Has a Dedicated 911 Service—for Busted Humanoid Robots</title>
     <link>https://www.humanoidsdaily.com/news/tokyo-now-has-a-dedicated-911-service-for-busted-humanoid-robots</link>
     <description>When your $50,000 robotic worker blows an actuator mid-shift, who do you call? GMO AI &amp; Robotics just unleashed Japan’s first "Humanoid Ambulance," complete with mobile triage and robot gurneys.</description>
@@ -121,7 +121,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/xpeng-launches-mass-production-of-iron-humanoid</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xpeng-launches-mass-production-of-iron-humanoid</guid>
     <title>XPENG Launches Mass Production of IRON Humanoid</title>
     <link>https://www.humanoidsdaily.com/news/xpeng-launches-mass-production-of-iron-humanoid</link>
     <description>XPENG has officially launched its automotive-grade assembly line for the IRON humanoid, achieving a world-first autonomous walk-off milestone</description>
@@ -131,7 +131,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/supply-chain-rumors-hint-at-massive-optimus-order-as-fremont-production-line-ramps-up</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/supply-chain-rumors-hint-at-massive-optimus-order-as-fremont-production-line-ramps-up</guid>
     <title>Supply Chain Rumors Hint at Massive Optimus Order as Fremont Production Line Ramps Up</title>
     <link>https://www.humanoidsdaily.com/news/supply-chain-rumors-hint-at-massive-optimus-order-as-fremont-production-line-ramps-up</link>
     <description>Chinese supply chain reports suggest Tesla has placed bulk component orders for roughly 5,000 Optimus units, fueling speculation about the humanoid robot’s path to commercial scale.</description>
@@ -141,7 +141,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/unitree-unveils-unifolm-x2-world-model-ai-powers-fully-autonomous-robot-combat</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-unveils-unifolm-x2-world-model-ai-powers-fully-autonomous-robot-combat</guid>
     <title>Unitree Unveils UnifoLM-X2: World Model AI Powers Fully Autonomous Robot Combat</title>
     <link>https://www.humanoidsdaily.com/news/unitree-unveils-unifolm-x2-world-model-ai-powers-fully-autonomous-robot-combat</link>
     <description>Unitree Robotics has demonstrated its G1 humanoid sparring autonomously against a human, using the UnifoLM-X2-1.0 predictive world model to ditch teleoperation in high-speed combat.</description>
@@ -151,7 +151,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/agility-s-numbers-are-in-1-8m-in-sales-a-138m-loss-and-a-backlog-owed-to-an-insider</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-s-numbers-are-in-1-8m-in-sales-a-138m-loss-and-a-backlog-owed-to-an-insider</guid>
     <title>Agility's Numbers Are In: $1.8M in Sales, a $138M Loss, and a Backlog Owed to an Insider</title>
     <link>https://www.humanoidsdaily.com/news/agility-s-numbers-are-in-1-8m-in-sales-a-138m-loss-and-a-backlog-owed-to-an-insider</link>
     <description>Agility Robotics' Form S-4 puts audited numbers behind the humanoid industry's first US listing: $1.78 million in 2025 sales, a $138.1 million net loss, and a going-concern warning. The headline $300 million backlog turns out to be a single contract with a related party, partly paid in warrants — and the competition section names eight rivals without mentioning a single Chinese manufacturer.</description>
@@ -161,7 +161,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/wandercraft-signs-12-enterprise-customers-for-calvin-40-industrial-humanoid</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/wandercraft-signs-12-enterprise-customers-for-calvin-40-industrial-humanoid</guid>
     <title>Wandercraft Signs 12 Enterprise Customers for Calvin-40 Industrial Humanoid</title>
     <link>https://www.humanoidsdaily.com/news/wandercraft-signs-12-enterprise-customers-for-calvin-40-industrial-humanoid</link>
     <description>Parisian robotics pioneer Wandercraft has signed 12 enterprise clients across automotive, defense, logistics, and retail for its Calvin-40 humanoid, advancing its deliberate, payload-focused path to industrial scale.</description>
@@ -171,7 +171,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/neura-robotics-and-seco-team-up-to-scale-european-physical-ai-hardware</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/neura-robotics-and-seco-team-up-to-scale-european-physical-ai-hardware</guid>
     <title>NEURA Robotics and SECO Team Up to Scale European Physical AI Hardware</title>
     <link>https://www.humanoidsdaily.com/news/neura-robotics-and-seco-team-up-to-scale-european-physical-ai-hardware</link>
     <description>NEURA Robotics and Italian embedded systems specialist SECO partner to industrialize distributed compute modules powered by Qualcomm Dragonwing chips, eyeing scalable humanoid production and semiconductor automation.</description>
@@ -181,7 +181,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/beyond-mechanical-chatbots-galbot-unveils-robogesture-to-tackle-real-time-nonverbal-communication</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/beyond-mechanical-chatbots-galbot-unveils-robogesture-to-tackle-real-time-nonverbal-communication</guid>
     <title>Beyond Mechanical Chatbots: Galbot Unveils RoboGesture to Tackle Real-Time Nonverbal Communication</title>
     <link>https://www.humanoidsdaily.com/news/beyond-mechanical-chatbots-galbot-unveils-robogesture-to-tackle-real-time-nonverbal-communication</link>
     <description>Galbot and researchers from Tsinghua University introduce RoboGesture, a streaming diffusion-based system that aligns speech with expressive, collision-free humanoid gestures.</description>
@@ -191,7 +191,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/openai-s-gpt-6-astra-hits-95-on-physical-manipulation-benchmark-but-precision-tasks-expose-familiar-bottlenecks</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/openai-s-gpt-6-astra-hits-95-on-physical-manipulation-benchmark-but-precision-tasks-expose-familiar-bottlenecks</guid>
     <title>OpenAI’s GPT-6 Astra Hits 95% on Physical Manipulation Benchmark, But Precision Tasks Expose Familiar Bottlenecks</title>
     <link>https://www.humanoidsdaily.com/news/openai-s-gpt-6-astra-hits-95-on-physical-manipulation-benchmark-but-precision-tasks-expose-familiar-bottlenecks</link>
     <description>RoboCurve benchmarked OpenAI’s new GPT-6 Astra on real robot arms, revealing dramatic efficiency and spatial reasoning gains on gross manipulation alongside a persistent 10% plateau on millimeter-precision tasks.</description>
@@ -201,7 +201,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/galbot-opens-pre-orders-for-et1-bipedal-humanoid-aimed-at-entertainment-and-performance</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/galbot-opens-pre-orders-for-et1-bipedal-humanoid-aimed-at-entertainment-and-performance</guid>
     <title>Galbot Opens Pre-Orders for ET1 Bipedal Humanoid Aimed at Entertainment and Performance</title>
     <link>https://www.humanoidsdaily.com/news/galbot-opens-pre-orders-for-et1-bipedal-humanoid-aimed-at-entertainment-and-performance</link>
     <description>Galbot has opened pre-orders for the ET1, a compact 1.25-meter bipedal robot designed for dynamic stage performance and interactive commercial venues, stepping directly into competition with Unitree and AGIBOT.</description>
@@ -211,7 +211,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/tuya-unveils-doova-an-ai-companion-robot-targeting-elder-care-and-smart-home-hubs</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tuya-unveils-doova-an-ai-companion-robot-targeting-elder-care-and-smart-home-hubs</guid>
     <title>Tuya Unveils Doova: An AI Companion Robot Targeting Elder Care and Smart Home Hubs</title>
     <link>https://www.humanoidsdaily.com/news/tuya-unveils-doova-an-ai-companion-robot-targeting-elder-care-and-smart-home-hubs</link>
     <description>Announced at IFA 2026, Tuya Smart’s new mobile companion robot combines fall detection, multimodal LLM conversations, and AIoT control tailored for seniors living alone.</description>
@@ -221,7 +221,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/agibot-deepens-european-push-at-ifa-2026-with-t-v-rheinland-certification-and-tekpoint-retail-alliance</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-deepens-european-push-at-ifa-2026-with-t-v-rheinland-certification-and-tekpoint-retail-alliance</guid>
     <title>AGIBOT Deepens European Push at IFA 2026 with TÜV Rheinland Certification and Tekpoint Retail Alliance</title>
     <link>https://www.humanoidsdaily.com/news/agibot-deepens-european-push-at-ifa-2026-with-t-v-rheinland-certification-and-tekpoint-retail-alliance</link>
     <description>Hot on the heels of launching its Serbian manufacturing hub, AGIBOT showcased its multi-robot lineup at IFA 2026 in Berlin, securing key safety certifications from TÜV Rheinland and partnering with distributor Tekpoint.</description>
@@ -231,7 +231,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/nvidia-buys-hugging-face-for-12-9b-as-open-source-robotics-scales-up</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/nvidia-buys-hugging-face-for-12-9b-as-open-source-robotics-scales-up</guid>
     <title>NVIDIA Buys Hugging Face for $12.9B as Open-Source Robotics Scales Up</title>
     <link>https://www.humanoidsdaily.com/news/nvidia-buys-hugging-face-for-12-9b-as-open-source-robotics-scales-up</link>
     <description>NVIDIA has agreed to acquire Hugging Face for $12.93 billion, bringing the open-source hub into its physical AI orbit just as Pollen Robotics launches the viral $399 Microduck.</description>
@@ -241,7 +241,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/limx-and-zinova-put-tron-2-to-work-on-simulated-construction-sites</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/limx-and-zinova-put-tron-2-to-work-on-simulated-construction-sites</guid>
     <title>LimX and ZINOVA Put TRON 2 to Work on Simulated Construction Sites</title>
     <link>https://www.humanoidsdaily.com/news/limx-and-zinova-put-tron-2-to-work-on-simulated-construction-sites</link>
     <description>A new proof-of-concept mounts LimX Dynamics’ modular TRON 2 torso onto heavy industrial arms to assemble formwork and tie rebar, testing ZINOVA’s "Tool Intelligence" framework in unstructured job sites.</description>
@@ -251,9 +251,9 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/how-to-think-about-the-robotics-market</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/how-to-think-about-the-robotics-market</guid>
     <title>How to think about the robotics market</title>
-    <link>https://www.humanoidsdaily.com/news/how-to-think-about-the-robotics-market</link>
+    <link>https://www.humanoidsdaily.com/features/how-to-think-about-the-robotics-market</link>
     <description>RoboStrategy CMO Kevin McCordic lays out the case for physical AI: why AI finally makes humanoid labour possible, why it lands under $2 an hour, and why a roughly $200B market is aimed at a $60T one.</description>
     <pubDate>Thu, 03 Sep 2026 19:26:32 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
@@ -261,7 +261,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/figure-inks-multi-billion-dollar-compute-deal-with-nscale-to-deploy-100-000-next-gen-nvidia-gpus</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-inks-multi-billion-dollar-compute-deal-with-nscale-to-deploy-100-000-next-gen-nvidia-gpus</guid>
     <title>Figure Inks Multi-Billion-Dollar Compute Deal With Nscale to Deploy 100,000 Next-Gen NVIDIA GPUs</title>
     <link>https://www.humanoidsdaily.com/news/figure-inks-multi-billion-dollar-compute-deal-with-nscale-to-deploy-100-000-next-gen-nvidia-gpus</link>
     <description>Figure AI has partnered with cloud infrastructure provider Nscale to deploy up to 100,000 NVIDIA Vera Rubin GPUs, committing an initial $3.5 billion to train its Helix robotics models.</description>
@@ -271,7 +271,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/cj-logistics-puts-robotis-dual-arm-ai-worker-on-live-olive-young-fulfillment-lines</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/cj-logistics-puts-robotis-dual-arm-ai-worker-on-live-olive-young-fulfillment-lines</guid>
     <title>CJ Logistics Puts ROBOTIS Dual-Arm "AI Worker" on Live Olive Young Fulfillment Lines</title>
     <link>https://www.humanoidsdaily.com/news/cj-logistics-puts-robotis-dual-arm-ai-worker-on-live-olive-young-fulfillment-lines</link>
     <description>Moving beyond experimental pilots, South Korean logistics giant CJ Logistics has integrated two ROBOTIS semi-humanoids into an active e-commerce packing workflow to feed its Physical AI foundation models.</description>
@@ -281,7 +281,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/wandercraft-seeks-100m-at-750m-valuation-to-scale-industrial-humanoid-ambitions</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/wandercraft-seeks-100m-at-750m-valuation-to-scale-industrial-humanoid-ambitions</guid>
     <title>Wandercraft Seeks €100M at €750M Valuation to Scale Industrial Humanoid Ambitions</title>
     <link>https://www.humanoidsdaily.com/news/wandercraft-seeks-100m-at-750m-valuation-to-scale-industrial-humanoid-ambitions</link>
     <description>Backed by Renault and working with Goldman Sachs, French robotics pioneer Wandercraft is targeting €100 million in fresh capital to ramp up its dual focus on industrial humanoids and medical exoskeletons.</description>
@@ -291,7 +291,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/sam-altman-confirms-openai-will-definitely-do-a-humanoid</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/sam-altman-confirms-openai-will-definitely-do-a-humanoid</guid>
     <title>Sam Altman Confirms OpenAI "Will Definitely Do a Humanoid"</title>
     <link>https://www.humanoidsdaily.com/news/sam-altman-confirms-openai-will-definitely-do-a-humanoid</link>
     <description>In an appearance on the Sources podcast, OpenAI CEO Sam Altman unequivocally confirmed that the AI lab will build humanoid robots alongside specialized data center machines.</description>
@@ -301,7 +301,7 @@
   </item>
 
   <item>
-    <guid>https://www.humanoidsdaily.com/news/minth-group-and-agibot-launch-europe-s-first-humanoid-mass-production-line-in-serbia</guid>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/minth-group-and-agibot-launch-europe-s-first-humanoid-mass-production-line-in-serbia</guid>
     <title>Minth Group and AGIBOT Launch Europe’s First Humanoid Mass Production Line in Serbia</title>
     <link>https://www.humanoidsdaily.com/news/minth-group-and-agibot-launch-europe-s-first-humanoid-mass-production-line-in-serbia</link>
     <description>Minth Group and AGIBOT have inaugurated Europe’s first mass-production base for humanoid robots in Šabac, backing a €20 million initial line ahead of a planned €200 million robotics hub in Inđija.</description>
