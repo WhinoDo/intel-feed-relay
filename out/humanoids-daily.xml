@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Fri, 11 Sep 2026 15:35:32 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 12 Sep 2026 10:32:54 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/the-humanoids-of-europe</guid>
+    <title>The Humanoids of Europe: Built by Their Customers</title>
+    <link>https://www.humanoidsdaily.com/features/the-humanoids-of-europe</link>
+    <description>While the coverage stays fixed on China and the United States, seven European companies have quietly signed deployment commitments running into the thousands of units. Europe's humanoid sector is being built by its buyers.</description>
+    <pubDate>Sat, 12 Sep 2026 10:32:54 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Calvin</category><category>Generative Bionics</category><category>Uma</category><category>aeon</category><category>4NE-1</category><category>Neura Robotics</category><category>Agile ONE</category><category>Europe</category><category>Schaeffler</category><category>GENE01</category><category>HMND-01</category><category>wandercraft</category><category>Agile Robots</category><category>hexagon</category><category>Humanoid</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-open-sources-ge-act-2-0-challenging-unitree-in-the-open-embodied-ai-race</guid>
     <title>AGIBOT Open-Sources GE-Act 2.0, Challenging Unitree in the Open Embodied AI Race</title>
@@ -298,16 +308,6 @@
     <pubDate>Thu, 03 Sep 2026 10:57:25 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>ROBOTIS</category><category>South Korea</category><category>CJ Logistics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/wandercraft-seeks-100m-at-750m-valuation-to-scale-industrial-humanoid-ambitions</guid>
-    <title>Wandercraft Seeks €100M at €750M Valuation to Scale Industrial Humanoid Ambitions</title>
-    <link>https://www.humanoidsdaily.com/news/wandercraft-seeks-100m-at-750m-valuation-to-scale-industrial-humanoid-ambitions</link>
-    <description>Backed by Renault and working with Goldman Sachs, French robotics pioneer Wandercraft is targeting €100 million in fresh capital to ramp up its dual focus on industrial humanoids and medical exoskeletons.</description>
-    <pubDate>Thu, 03 Sep 2026 10:21:50 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Europe</category><category>Market</category><category>wandercraft</category>
   </item>
 
   </channel>
