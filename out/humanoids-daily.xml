@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Sat, 12 Sep 2026 10:32:54 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 13 Sep 2026 06:32:43 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/inside-ubtech-s-10-000-unit-super-factory-how-robots-are-building-humanoids-in-liuzhou</guid>
+    <title>Inside UBTECH’s 10,000-Unit Super Factory: How Robots Are Building Humanoids in Liuzhou</title>
+    <link>https://www.humanoidsdaily.com/news/inside-ubtech-s-10-000-unit-super-factory-how-robots-are-building-humanoids-in-liuzhou</link>
+    <description>UBTECH has commissioned a 14,000-square-meter smart manufacturing facility in Guangxi engineered to produce a humanoid every 10 minutes, scaling up the industry’s hardware volume race.</description>
+    <pubDate>Sun, 13 Sep 2026 06:32:43 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Market</category><category>manufacturing</category><category>China</category><category>UBTECH Robotics</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/the-humanoids-of-europe</guid>
     <title>The Humanoids of Europe: Built by Their Customers</title>
@@ -17,7 +27,7 @@
     <description>While the coverage stays fixed on China and the United States, seven European companies have quietly signed deployment commitments running into the thousands of units. Europe's humanoid sector is being built by its buyers.</description>
     <pubDate>Sat, 12 Sep 2026 10:32:54 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Calvin</category><category>Generative Bionics</category><category>Uma</category><category>aeon</category><category>4NE-1</category><category>Neura Robotics</category><category>Agile ONE</category><category>Europe</category><category>Schaeffler</category><category>GENE01</category><category>HMND-01</category><category>wandercraft</category><category>Agile Robots</category><category>hexagon</category><category>Humanoid</category>
+    <category>Calvin</category><category>Generative Bionics</category><category>Uma</category><category>AEON</category><category>4NE-1</category><category>Neura Robotics</category><category>Agile ONE</category><category>Europe</category><category>Schaeffler</category><category>GENE01</category><category>HMND-01</category><category>Wandercraft</category><category>Agile Robots</category><category>Hexagon</category><category>Humanoid</category>
   </item>
 
   <item>
@@ -47,7 +57,7 @@
     <description>Ten months after its first commercial rollout, Skild AI has scaled to $100 million in annual recurring revenue across more than 60 customers, using its deployment milestone to issue a sharp critique of cherry-picked robotics demonstrations.</description>
     <pubDate>Thu, 10 Sep 2026 18:34:03 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>skild-ai</category><category>US</category><category>Deployment</category>
+    <category>Skild AI</category><category>US</category><category>Deployment</category>
   </item>
 
   <item>
@@ -77,7 +87,7 @@
     <description>An impromptu painting demonstration using OpenAI’s GPT-6 Astra has triggered a wider industry clash over whether foundation models will commoditize physical AI or hit an unyielding hardware ceiling.</description>
     <pubDate>Wed, 09 Sep 2026 20:24:38 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>skild-ai</category><category>OpenAI</category><category>Physical Intelligence</category>
+    <category>Skild AI</category><category>OpenAI</category><category>Physical Intelligence</category>
   </item>
 
   <item>
@@ -97,7 +107,7 @@
     <description>In an unusually candid documentary-style essay following the commissioning of XPENG’s humanoid assembly line, CEO He Xiaopeng reflects on six years of failures, why the company avoids stage demos, and how EV intelligence translates to physical AI.</description>
     <pubDate>Wed, 09 Sep 2026 06:45:50 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Xiaopeng He</category><category>China</category><category>XPeng</category><category>IRON</category>
+    <category>Xiaopeng He</category><category>China</category><category>XPENG</category><category>IRON</category>
   </item>
 
   <item>
@@ -137,7 +147,7 @@
     <description>An extensive investigation reveals China’s defense establishment is laying the operational groundwork for combat humanoids, spotlighting an asymmetric race against solitary US defense contenders like Foundation.</description>
     <pubDate>Tue, 08 Sep 2026 12:31:44 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>China</category><category>foundation</category>
+    <category>US</category><category>China</category><category>Foundation</category>
   </item>
 
   <item>
@@ -157,7 +167,7 @@
     <description>XPENG has officially launched its automotive-grade assembly line for the IRON humanoid, achieving a world-first autonomous walk-off milestone</description>
     <pubDate>Mon, 07 Sep 2026 21:28:21 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>China</category><category>XPeng</category><category>IRON</category>
+    <category>China</category><category>XPENG</category><category>IRON</category>
   </item>
 
   <item>
@@ -197,7 +207,7 @@
     <description>Parisian robotics pioneer Wandercraft has signed 12 enterprise clients across automotive, defense, logistics, and retail for its Calvin-40 humanoid, advancing its deliberate, payload-focused path to industrial scale.</description>
     <pubDate>Mon, 07 Sep 2026 11:25:06 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Europe</category><category>Market</category><category>wandercraft</category>
+    <category>Europe</category><category>Market</category><category>Wandercraft</category>
   </item>
 
   <item>
@@ -217,7 +227,7 @@
     <description>Galbot and researchers from Tsinghua University introduce RoboGesture, a streaming diffusion-based system that aligns speech with expressive, collision-free humanoid gestures.</description>
     <pubDate>Sun, 06 Sep 2026 08:31:59 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>galbot</category><category>Research</category><category>China</category>
+    <category>Galbot</category><category>Research</category><category>China</category>
   </item>
 
   <item>
@@ -237,7 +247,7 @@
     <description>Galbot has opened pre-orders for the ET1, a compact 1.25-meter bipedal robot designed for dynamic stage performance and interactive commercial venues, stepping directly into competition with Unitree and AGIBOT.</description>
     <pubDate>Sat, 05 Sep 2026 09:53:36 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>ET1</category><category>galbot</category><category>Market</category><category>China</category>
+    <category>ET1</category><category>Galbot</category><category>Market</category><category>China</category>
   </item>
 
   <item>
@@ -298,16 +308,6 @@
     <pubDate>Thu, 03 Sep 2026 13:37:45 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Nscale</category><category>Figure</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/cj-logistics-puts-robotis-dual-arm-ai-worker-on-live-olive-young-fulfillment-lines</guid>
-    <title>CJ Logistics Puts ROBOTIS Dual-Arm "AI Worker" on Live Olive Young Fulfillment Lines</title>
-    <link>https://www.humanoidsdaily.com/news/cj-logistics-puts-robotis-dual-arm-ai-worker-on-live-olive-young-fulfillment-lines</link>
-    <description>Moving beyond experimental pilots, South Korean logistics giant CJ Logistics has integrated two ROBOTIS semi-humanoids into an active e-commerce packing workflow to feed its Physical AI foundation models.</description>
-    <pubDate>Thu, 03 Sep 2026 10:57:25 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>ROBOTIS</category><category>South Korea</category><category>CJ Logistics</category>
   </item>
 
   </channel>
