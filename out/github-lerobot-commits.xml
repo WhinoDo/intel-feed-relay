@@ -4,7 +4,23 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-10T14:51:34Z</ns0:updated>
+  <ns0:updated>2026-09-13T19:09:15Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/8c894413c0967d83624d17a440afd70754fddb01</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8c894413c0967d83624d17a440afd70754fddb01" />
+    <ns0:title>
+        fix: preserve frame_index through processors (#4585)
+    </ns0:title>
+    <ns0:updated>2026-09-13T19:09:15Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/73610213?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>philippguevorguian</ns0:name>
+      <ns0:uri>https://github.com/philippguevorguian</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix: preserve frame_index through processors (#4585)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/b6ec0060779550c0a157ae34feb89e0cf86012a8</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b6ec0060779550c0a157ae34feb89e0cf86012a8" />
@@ -412,46 +428,6 @@ Signed-off-by: 0o8o0-blip &amp;lt;johnwertthere@proton.me&amp;gt;
 Signed-off-by: 0o8o0-blip &amp;lt;johnwertthere@proton.me&amp;gt;
 Co-authored-by: 0o8o0-blip &amp;lt;flyme2moon@protonmail.com&amp;gt;
 Co-authored-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/fbb811fca92504439792b97d216f0d00c2268382</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/fbb811fca92504439792b97d216f0d00c2268382" />
-    <ns0:title>
-        fix(datasets): answer delta queries through cached single-column view…
-    </ns0:title>
-    <ns0:updated>2026-09-01T20:56:02Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/35650394?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Rick0525</ns0:name>
-      <ns0:uri>https://github.com/Rick0525</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): answer delta queries through cached single-column views (#4314)
-
-* fix(datasets): answer delta queries through cached single-column views
-
-Since datasets 4.4, a custom transform disables the lazy-Column fast
-path, so both hf_dataset[key][indices] and hf_dataset[indices][key]
-fetch and decode entire rows. On image datasets this decodes every
-embedded camera image of every queried row just to read a
-low-dimensional column like action.
-
-Route delta queries (and the video timestamp lookup) through cached
-select_columns views instead: a zero-copy schema projection that
-restores true column access. ~200x faster on the query, 46x per sample
-end-to-end on an image dataset with a 50-step action chunk.
-
-Fixes #2895
-
-* fix(datasets): include the transform in the column-view cache key
-
-set_transform() mutates hf_dataset in place, so dataset identity alone
-cannot invalidate the cached single-column views: a view built under the
-previous transform would keep answering delta queries with it. Compare
-the transform recorded at view-build time and rebuild when it changes.
-
-Addresses review feedback on #4314.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
