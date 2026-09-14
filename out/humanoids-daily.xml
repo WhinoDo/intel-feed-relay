@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Sun, 13 Sep 2026 06:32:43 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 14 Sep 2026 16:10:03 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/brett-adcock-shares-clip-of-figure-robot-stepping-out-of-vehicle</guid>
+    <title>Brett Adcock’s vehicle clip echoes Figure 03’s delivery demo</title>
+    <link>https://www.humanoidsdaily.com/news/brett-adcock-shares-clip-of-figure-robot-stepping-out-of-vehicle</link>
+    <description>A short clip of a Figure robot stepping out of a vehicle recalls its earlier parcel-delivery footage, but no delivery service has been announced in the post.</description>
+    <pubDate>Mon, 14 Sep 2026 16:10:03 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Brett Adcock</category><category>US</category><category>Figure</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-launches-g1-plus-humanoid-with-stronger-motors-and-moving-neck</guid>
+    <title>Unitree launches G1+ with stronger motors, a moving neck and a $15,000 price</title>
+    <link>https://www.humanoidsdaily.com/news/unitree-launches-g1-plus-humanoid-with-stronger-motors-and-moving-neck</link>
+    <description>Unitree’s G1+ adds two neck joints, stronger motors and revised sensing. The base model lists at $15,000 before tax and shipping.</description>
+    <pubDate>Mon, 14 Sep 2026 14:16:37 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Unitree Robotics</category><category>China</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/sharpa-wave-hand-guide</guid>
+    <title>Sharpa Wave: the robotic hand used by NVIDIA and DeepMind</title>
+    <link>https://www.humanoidsdaily.com/features/sharpa-wave-hand-guide</link>
+    <description>How Sharpa Wave gained a place in NVIDIA and DeepMind’s robotics programs, with a guide to its tactile sensing, specifications and software.</description>
+    <pubDate>Mon, 14 Sep 2026 14:11:33 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Sharpa Robotics</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/inside-ubtech-s-10-000-unit-super-factory-how-robots-are-building-humanoids-in-liuzhou</guid>
     <title>Inside UBTECH’s 10,000-Unit Super Factory: How Robots Are Building Humanoids in Liuzhou</title>
@@ -278,36 +308,6 @@
     <pubDate>Fri, 04 Sep 2026 16:19:49 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>NVIDIA</category><category>Le Robot</category><category>US</category><category>Europe</category><category>pollen-robotics</category><category>hugging-face</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/limx-and-zinova-put-tron-2-to-work-on-simulated-construction-sites</guid>
-    <title>LimX and ZINOVA Put TRON 2 to Work on Simulated Construction Sites</title>
-    <link>https://www.humanoidsdaily.com/news/limx-and-zinova-put-tron-2-to-work-on-simulated-construction-sites</link>
-    <description>A new proof-of-concept mounts LimX Dynamics’ modular TRON 2 torso onto heavy industrial arms to assemble formwork and tie rebar, testing ZINOVA’s "Tool Intelligence" framework in unstructured job sites.</description>
-    <pubDate>Fri, 04 Sep 2026 15:21:08 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>LimX Dynamics</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/how-to-think-about-the-robotics-market</guid>
-    <title>How to think about the robotics market</title>
-    <link>https://www.humanoidsdaily.com/features/how-to-think-about-the-robotics-market</link>
-    <description>RoboStrategy CMO Kevin McCordic lays out the case for physical AI: why AI finally makes humanoid labour possible, why it lands under $2 an hour, and why a roughly $200B market is aimed at a $60T one.</description>
-    <pubDate>Thu, 03 Sep 2026 19:26:32 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>market analysis</category><category>Market</category><category>RoboStrategy</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-inks-multi-billion-dollar-compute-deal-with-nscale-to-deploy-100-000-next-gen-nvidia-gpus</guid>
-    <title>Figure Inks Multi-Billion-Dollar Compute Deal With Nscale to Deploy 100,000 Next-Gen NVIDIA GPUs</title>
-    <link>https://www.humanoidsdaily.com/news/figure-inks-multi-billion-dollar-compute-deal-with-nscale-to-deploy-100-000-next-gen-nvidia-gpus</link>
-    <description>Figure AI has partnered with cloud infrastructure provider Nscale to deploy up to 100,000 NVIDIA Vera Rubin GPUs, committing an initial $3.5 billion to train its Helix robotics models.</description>
-    <pubDate>Thu, 03 Sep 2026 13:37:45 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Nscale</category><category>Figure</category>
   </item>
 
   </channel>
