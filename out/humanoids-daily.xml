@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 14 Sep 2026 16:10:03 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 14 Sep 2026 20:45:04 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/reward-ai-exits-stealth-with-om-1-pitching-zero-shot-human-to-robot-manipulation</guid>
+    <title>Reward AI Exits Stealth with OM-1, Pitching Zero-Shot Human-to-Robot Manipulation</title>
+    <link>https://www.humanoidsdaily.com/news/reward-ai-exits-stealth-with-om-1-pitching-zero-shot-human-to-robot-manipulation</link>
+    <description>Spun out of Stanford’s DexCap project, Reward AI has introduced OM-1, an embodied foundation model trained exclusively on wearable human data that transfers zero-shot across arms and humanoids.</description>
+    <pubDate>Mon, 14 Sep 2026 20:45:04 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Reward AI</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/munich-stealth-humanoid-startup-shows-kyle-prototype-targets-2027-reveal</guid>
+    <title>Munich stealth startup shows walking humanoid “Kyle,” targets early 2027 reveal</title>
+    <link>https://www.humanoidsdaily.com/news/munich-stealth-humanoid-startup-shows-kyle-prototype-targets-2027-reveal</link>
+    <description>Synapticon co-founder Nikolai Ensslen’s new venture has shown its humanoid development platform, with former DeepMind researcher Oliver Groth on the team.</description>
+    <pubDate>Mon, 14 Sep 2026 19:42:19 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Europe</category><category>stealth startup</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/brett-adcock-shares-clip-of-figure-robot-stepping-out-of-vehicle</guid>
     <title>Brett Adcock’s vehicle clip echoes Figure 03’s delivery demo</title>
@@ -288,26 +308,6 @@
     <pubDate>Sat, 05 Sep 2026 08:53:27 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>China</category><category>Tuya</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-deepens-european-push-at-ifa-2026-with-t-v-rheinland-certification-and-tekpoint-retail-alliance</guid>
-    <title>AGIBOT Deepens European Push at IFA 2026 with TÜV Rheinland Certification and Tekpoint Retail Alliance</title>
-    <link>https://www.humanoidsdaily.com/news/agibot-deepens-european-push-at-ifa-2026-with-t-v-rheinland-certification-and-tekpoint-retail-alliance</link>
-    <description>Hot on the heels of launching its Serbian manufacturing hub, AGIBOT showcased its multi-robot lineup at IFA 2026 in Berlin, securing key safety certifications from TÜV Rheinland and partnering with distributor Tekpoint.</description>
-    <pubDate>Fri, 04 Sep 2026 16:44:29 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Europe</category><category>Market</category><category>China</category><category>AGIBOT</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/nvidia-buys-hugging-face-for-12-9b-as-open-source-robotics-scales-up</guid>
-    <title>NVIDIA Buys Hugging Face for $12.9B as Open-Source Robotics Scales Up</title>
-    <link>https://www.humanoidsdaily.com/news/nvidia-buys-hugging-face-for-12-9b-as-open-source-robotics-scales-up</link>
-    <description>NVIDIA has agreed to acquire Hugging Face for $12.93 billion, bringing the open-source hub into its physical AI orbit just as Pollen Robotics launches the viral $399 Microduck.</description>
-    <pubDate>Fri, 04 Sep 2026 16:19:49 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>NVIDIA</category><category>Le Robot</category><category>US</category><category>Europe</category><category>pollen-robotics</category><category>hugging-face</category>
   </item>
 
   </channel>

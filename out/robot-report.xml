@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Mon, 14 Sep 2026 16:44:23 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 14 Sep 2026 21:45:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,108 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Why RaaS needs more than a subscription model </title>
+		<link>https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/</link>
+					<comments>https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/#respond</comments>
+		
+		<dc:creator>Mike Oitzman</dc:creator>
+		<pubDate>Mon, 14 Sep 2026 21:45:57 +0000</pubDate>
+				<category>Business Resources</category>
+		<category>Events</category>
+		<category>News</category>
+		<category>Startups</category>
+		<category>Aescape</category>
+		<category>Locus Robotics</category>
+		<category>RaaS</category>
+		<category>robobusiness</category>
+		<category>roboworx</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589536</guid>
+
+					<description>&lt;p&gt;At RoboBusiness 2026, a panel of robotics business leaders will examine the practical playbook behind Robots-as-a-Service or RaaS offerings. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/"&gt;Why RaaS needs more than a subscription model &lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589537" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589537" class="wp-image-589537 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/09/rb26-raas-panel-featured.jpg" alt="headshot of bill booth, rick faulk and Alex Linde, all experts in the robotics as a service, or RaaS, model." width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/rb26-raas-panel-featured.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/rb26-raas-panel-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/rb26-raas-panel-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/rb26-raas-panel-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/rb26-raas-panel-featured-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589537" class="wp-caption-text"&gt;RaaS panelists, from left to right: Bill Booth, RoboWorx; Rick Faulk, Locus Robotics; Eric Linde, Aescape.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Robots as a service, or RaaS, has become one of the most closely watched business models in commercial robotics, and for good reason. By shifting automation from a large capital investment to a recurring operating expense, RaaS can make robotics more accessible to customers while giving providers a path to more predictable revenue and longer-term customer relationships.&lt;/p&gt;
+&lt;p&gt;But the RaaS &lt;a href="https://www.therobotreport.com/?s=raas" target="_blank" rel="noopener"&gt;model&lt;/a&gt; is also more demanding than it may at first appear. A successful RaaS business is not just a robot sold on subscription, nor is it simply a rental financing model. It requires careful decisions about pricing, financing, deployment, service coverage, uptime guarantees, customer success, and the operating costs that come with supporting fleets in the field.&lt;/p&gt;
+&lt;p&gt;Building a RaaS organization from the ground up requires a different strategy from a pure engineering OEM or CAPEX-based business. Successful services businesses understand product design, organizational structure, sales compensation, service-level agreements, and service delivery requirements.&lt;/p&gt;
+&lt;p&gt;Those questions will be front and center during &amp;#8220;The RaaS Playbook: Pricing, Service, and Scale,&amp;#8221; a &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026 session scheduled for Oct. 20 from 3:30 to 4:15 p.m. PT in Room 207 of the Santa Clara Convention Center.&lt;/p&gt;
+&lt;h2&gt;RaaS experts to participate in RoboBusiness panel&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.therobotreport.com/author/moitzman/" target="_blank" rel="noopener"&gt;Mike Oitzman&lt;/a&gt;, senior editor at &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;, will moderate the discussion. It will feature Rick Faulk, CEO of &lt;a href="http://www.therobotreport.com/tag/locus-robotics" target="_blank" rel="noopener"&gt;Locus Robotics&lt;/a&gt;; Bill Booth, technology sales, marketing, and business development at &lt;a href="https://www.therobotreport.com/tag/roboworx/" target="_blank" rel="noopener"&gt;Roboworx&lt;/a&gt;; and Alex Linde, chief product officer at &lt;a href="https://www.therobotreport.com/tag/Aescape/" target="_blank" rel="noopener"&gt;Aescape&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The panel will move beyond the high-level promise of recurring revenue to explore what it takes to make RaaS work in practice. Attendees can expect insights on structuring contracts, setting service-level expectations, defining customer success metrics, managing maintenance programs, and deciding when a RaaS &lt;a href="https://www.automatedwarehouseonline.com/category/raas/" target="_blank" rel="noopener"&gt;model&lt;/a&gt; is the right fit compared with a traditional capital purchase.&lt;/p&gt;
+&lt;p&gt;For robotics founders and executives, the session offers a chance to pressure-test assumptions about unit economics, service obligations, and scale. For product, sales, and customer success teams, it will provide a clearer view of how RaaS changes the customer relationship after deployment. And for investors and end users, it will help clarify what separates a durable service business from a compelling pitch.&lt;/p&gt;
+&lt;p&gt;As commercial robotics companies continue to search for scalable paths to adoption, RaaS remains both an opportunity and an operational challenge. Anyone building, selling, funding, or evaluating robotics services should attend this session to hear directly from leaders who are working through those challenges in the market today.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Register now to attend&lt;/a&gt; RoboBusiness 2026.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/"&gt;Why RaaS needs more than a subscription model &lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
+		<title>Report covers advances in surgical robots, deploying warehouse automation in the real world</title>
+		<link>https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/</link>
+					<comments>https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Mon, 14 Sep 2026 21:01:59 +0000</pubDate>
+				<category>Autonomous Mobile Robots (AMRs)</category>
+		<category>Case Study</category>
+		<category>Controllers</category>
+		<category>Digital Issues</category>
+		<category>Healthcare Robotics</category>
+		<category>Logistics</category>
+		<category>Motion Control</category>
+		<category>News</category>
+		<category>Surgical / Interventional Systems</category>
+		<category>Surgical Systems</category>
+		<category>CS Hyde</category>
+		<category>da vinci surgical system</category>
+		<category>Endine</category>
+		<category>ForwardX</category>
+		<category>Intuitive Surgical</category>
+		<category>KHK</category>
+		<category>maxon</category>
+		<category>omron</category>
+		<category>surgical robotics</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589539</guid>
+
+					<description>&lt;p&gt;Learn from a surgical robotics case study and a discussion of how to best deploy mobile robots in the warehouse in this issue.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/"&gt;Report covers advances in surgical robots, deploying warehouse automation in the real world&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div style="position: relative; padding-top: max(60%,326px); height: 0; width: 100%;"&gt;&lt;iframe style="position: absolute; border: none; width: 100%; height: 100%; left: 0; right: 0; top: 0; bottom: 0;" title="The Robot Report September 2026" src="https://e.issuu.com/embed.html?d=the_robot_report_september_2026&amp;amp;u=wtwhmedia" sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms" allowfullscreen="allowfullscreen"&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The September 2026 digital issue of &lt;em&gt;The Robot Report&lt;/em&gt; looks at two of the more successful areas for automation: surgical robots and warehouse logistics. This free download shares real-world use cases to help guide commercial robotics developers, suppliers integrators, and end users.&lt;/p&gt;
+&lt;p&gt;The first article looks at how clinicians at El Camino Health and Heart Vascular Institute use the da Vinci system from Intuitive Surgical for coronary artery bypass grafting. Just because the robot-assisted procedure is relatively common doesn&amp;#8217;t mean that it is easy &amp;#8212; on the healthcare side or on the engineering side.&lt;/p&gt;
+&lt;p&gt;Precise &lt;a href="https://www.therobotreport.com/category/robot-components/motioncontrol/" target="_blank" rel="noopener"&gt;motion control&lt;/a&gt; is needed to ensure that minimally invasive procedures, unlike many open surgeries, lead to faster healing with fewer complications for patients. Read how El Camino Health implemented &lt;a href="https://www.therobotreport.com/tag/surgical/" target="_blank" rel="noopener"&gt;robotic&lt;/a&gt; surgery to relieve the cognitive burden on its staffers and improve the consistency and accessibility of care.&lt;/p&gt;
+&lt;h2&gt;Like surgical systems, AMRs also require smart controls&lt;/h2&gt;
+&lt;p&gt;In the second half of this report, &lt;a href="https://www.automatedwarehouseonline.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;Automated Warehouse&lt;/em&gt;&lt;/a&gt; examines how to tie autonomous mobile robots (&lt;a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener"&gt;AMRs&lt;/a&gt;) into existing material handling operations. Unlike automated guided vehicles (AGVs) and some automated forklifts, AMRs are capable of more independent action, which still requires planning and coordination.&lt;/p&gt;
+&lt;p&gt;Warehouse operators should be able to answer questions like &amp;#8220;Which AMRs are safe around workers?&amp;#8221; and &amp;#8220;Who is responsible for maintenance?&amp;#8221; even before deploying fleets of mobile robots in their facilities. The freelance author also cites examples of successful deployments to glean lessons learned.&lt;/p&gt;
+&lt;p&gt;As AMRs scale within and across the third-party logistics providers (&lt;a href="https://www.automatedwarehouseonline.com/tag/3pl/" target="_blank" rel="noopener"&gt;3PLs&lt;/a&gt;), retailers, and manufacturing supply chains, business can learn best practices from one another for improved efficiency and returns on their investments.&lt;/p&gt;
+&lt;p&gt;The common theme between both the surgical robot and mobile robot applications in this &lt;em&gt;Design World &lt;/em&gt;insert is that robots need similar conditions for success. They include user understanding of their own processes, precise motion control, reliable software, and a clear plan for implementation and management.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Editor&amp;#8217;s note:&lt;/strong&gt; Enabling Technologies and Business &amp;amp; Deployment are among the session tracks at &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026, which will be on Oct. 20 and 21 in Santa Clara, Calif. &lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Register now to attend.&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/"&gt;Report covers advances in surgical robots, deploying warehouse automation in the real world&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>Arm to discuss scaling physical AI at RoboBusiness</title>
 		<link>https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/</link>
 					<comments>https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/#respond</comments>
@@ -39,7 +141,7 @@
 					<description>&lt;p&gt;Dermot O'Driscoll, the VP of go-to-market for physical AI at Arm, will examine key compute principles behind trusted physical AI.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/"&gt;Arm to discuss scaling physical AI at RoboBusiness&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_589530" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589530" class="size-full wp-image-589530" src="https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured.jpg" alt="Arm recently released Total Design which brings together expertise across the technology stack to reduce integration complexity and accelerate autonomous system development." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured-368x238.jpg 368w" sizes="(max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589530" class="wp-caption-text"&gt;Arm recently released Total Design which brings together expertise across the technology stack to reduce integration complexity and accelerate autonomous system development. | Source: Arm&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_589530" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589530" class="size-full wp-image-589530" src="https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured.jpg" alt="Arm recently released Total Design which brings together expertise across the technology stack to reduce integration complexity and accelerate autonomous system development." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/armimage-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589530" class="wp-caption-text"&gt;Arm recently released Total Design which brings together expertise across the technology stack to reduce integration complexity and accelerate autonomous system development. | Source: Arm&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Recent advances in foundation models, vision-language-action systems, and edge AI are expanding what robots can sense, reason about, and do. The next challenge, according to Arm, is turning those capabilities into autonomous systems people can trust in the real world, whether restoring mobility through intelligent prosthetics, delivering critical medical supplies, or helping workers operate more safely and productively alongside intelligent machines.&lt;/p&gt;
 &lt;p&gt;Dermot O&amp;#8217;Driscoll, VP of go-to-market for physical AI at &lt;a href="https://www.arm.com/" target="_blank" rel="noopener"&gt;Arm&lt;/a&gt;, is giving a talk at RoboBusiness called &amp;#8220;Building Physical AI that Scales.&amp;#8221; &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; takes place October 20-21 in Santa Clara, Calif. and is produced by &lt;em&gt;The Robot Report&lt;/em&gt;. This year marks the 20th anniversary of RoboBusiness.&lt;/p&gt;
 &lt;p&gt;As robots become more capable, engineering priorities increasingly shift toward system-level design. Success will depend on how intelligence is distributed across the robot, how learned and deterministic behaviors interact and how compute platforms balance real-time responsiveness, efficiency, and safety. Drawing on lessons from across the robotics ecosystem, O&amp;#8217;Driscoll will examine key compute principles behind trusted &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;physical AI&lt;/a&gt;. This will include:&lt;/p&gt;
@@ -51,7 +153,7 @@
 &lt;p&gt;Attendees will leave with a practical framework for building trusted physical AI systems that extend human capability while meeting the real-world demands of safety, efficiency, and scale.&lt;/p&gt;
 &lt;p&gt;With more than 20 years at Arm, O&amp;#8217;Driscoll has held a range of engineering and leadership roles spanning IT, EDA, CPU and SoC design. His deep technical background and commercial experience help bridge technology and ecosystem adoption across emerging physical AI markets. O&amp;#8217;Driscoll received his bachelor’s degree in Electronics Engineering and a master’s degree in Microelectronics from the University of Edinburgh, Scotland.&lt;/p&gt;
 &lt;h2&gt;Register now for RoboBusiness&lt;/h2&gt;
-&lt;p&gt;&lt;iframe title="Best Moments of RoboBusiness 2025" width="740" height="416" src="https://www.youtube.com/embed/sA7R9PGhCog?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Best Moments of RoboBusiness 2025" width="740" height="416" src="https://www.youtube.com/embed/sA7R9PGhCog?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;RoboBusiness 2026 is the leading event for commercial robotics developers. Attendees will gain the latest insights from experts in robotics and AI on cutting-edge research; industry trends; and innovative applications in sectors such as manufacturing, healthcare, agriculture, logistics, and more.&lt;/p&gt;
 &lt;p&gt;The show also features a number of&amp;nbsp;&lt;a href="https://www.robobusiness.com/networking-events/" target="_blank" rel="noopener"&gt;networking opportunities&lt;/a&gt; to give attendees the chance to connect with other experts in the industry.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Buy your full conference pass&lt;/a&gt;&amp;nbsp;and gain full access to all keynotes, technical sessions, networking receptions, and special events. Discounts are also available for academia, associations, and corporate groups. Please email events[at]arrowfly.com for more details about our discount programs.&lt;/p&gt;
@@ -61,7 +163,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;/div&gt;
@@ -842,133 +944,6 @@
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness</title>
-		<link>https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/</link>
-					<comments>https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/#respond</comments>
-		
-		<dc:creator>The Robot Report Staff</dc:creator>
-		<pubDate>Wed, 09 Sep 2026 16:43:28 +0000</pubDate>
-				<category>Events</category>
-		<category>Humanoids</category>
-		<category>News</category>
-		<category>Robots / Platforms</category>
-		<category>AgiBot</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589477</guid>
-
-					<description>&lt;p&gt;AGIBOT plans to give attendees actionable insights on identifying high-value robotics use cases and building sustainable developer ecosystems.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/"&gt;AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589478" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/agibotrobots-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589478" class="size-full wp-image-589478" src="https://www.therobotreport.com/wp-content/uploads/2026/09/agibotrobots-featured.jpg" alt="AGIBOT's semi-humanoid robot working in a pilot at Longcheer Technology's Nanchang factory. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/agibotrobots-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/agibotrobots-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/agibotrobots-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/agibotrobots-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/agibotrobots-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589478" class="wp-caption-text"&gt;AGIBOT&amp;#8217;s semi-humanoid robot working in a pilot at Longcheer Technology&amp;#8217;s Nanchang factory. | Source: AGIBOT&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;While generative AI has redefined the digital world, the true frontier lies in the physical realm in translating embodied AI into scalable, commercial reality. For global enterprises and scaling startups alike, the bottleneck is no longer just algorithm training. The bottleneck is the systemic deployment of hardware capable of execution in complex human environments.&lt;/p&gt;
-&lt;p&gt;At &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026, &lt;a href="https://www.linkedin.com/in/yinghao-song/" target="_blank" rel="noopener"&gt;Yinghao Song&lt;/a&gt;, the head of North America and product lead at AGIBOT, will talk about &amp;#8220;Scaling Humanoids from Lab to Real-World Deployment.&amp;#8221; The event will take place on Oct. 20 and 21 in Santa Clara, Calif. Song will give his talk on the first day of the show at 1:15 p.m. PT.&lt;/p&gt;
-&lt;p&gt;In this session, Song will break down the strategic blueprint for taking advanced robotics from pilot projects to global go-to-market (GTM) execution. He will draw from his &lt;a href="http://therobotreport.com/tag/agibot" target="_blank" rel="noopener"&gt;company&lt;/a&gt;&amp;#8216;s experience with rapid scaling and discuss:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The unique investment logic driving the &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoid&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/tag/legged-robots" target="_blank" rel="noopener"&gt;quadruped&lt;/a&gt; sectors&lt;/li&gt;
-&lt;li&gt;The core supply chain dynamics required to achieve mass-production inflection points&lt;/li&gt;
-&lt;li&gt;The return on investment (ROI) frameworks that enterprises demand before integration.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Yinghao will also address the critical &amp;#8220;software-hardware gap.&amp;#8221; He will explain how modular software stacks and open software development kits (SDKs) empower partners to deploy full-size humanoids and highly dexterous hands across &lt;a href="https://www.therobotreport.com/category/markets-industries/automotive" target="_blank" rel="noopener"&gt;automotive&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;manufacturing&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/markets-industries/logistics-warehousing-asrs/" target="_blank" rel="noopener"&gt;logistics&lt;/a&gt;, and unstructured research environments.&lt;/p&gt;
-&lt;p&gt;Attendees will gain actionable insights on identifying high-value robotics use cases, building sustainable developer ecosystems, and mastering the cross-border scaling strategies necessary to win in the 2026 embodied &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; landscape.&lt;/p&gt;
-&lt;div class="wtwh-speaker-bio outside-container"&gt;
-&lt;div class="wtwh-speaker-content inner-container"&gt;
-&lt;p&gt;AGIBOT is a global developer in embodied AI and full-spectrum robotic systems. Yinghao has an MBA from the Kellogg School of Management at Northwestern University, melding technical acumen with commercial strategy for industrial hardware and software.&lt;/p&gt;
-&lt;p&gt;He orchestrates AGIBOT&amp;#8217;s international GTM execution, product positioning, and developer ecosystem architecture. Yinghao said he focuses on accelerating the commercial deployment of full-size humanoids, advanced quadrupeds, and dexterous robotic hands across industrial and research sectors, bridging the gap between cutting-edge intelligence and enterprise-grade scaling.&lt;/p&gt;
-&lt;h2&gt;Register now for RoboBusiness&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Best Moments of RoboBusiness 2025" width="740" height="416" src="https://www.youtube.com/embed/sA7R9PGhCog?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;RoboBusiness 2026 is the leading event for commercial robotics developers. Attendees will gain the latest insights from experts in robotics and AI on cutting-edge research; industry trends; and innovative applications in sectors such as manufacturing, healthcare, agriculture, logistics, and more.&lt;/p&gt;
-&lt;p&gt;The show also features a number of &lt;a href="https://www.robobusiness.com/networking-events/" target="_blank" rel="noopener"&gt;networking opportunities&lt;/a&gt; to give attendees the chance to connect with other experts in the industry. This will include the Mix and Mingle reception on the first day of the show.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Buy your full conference pass&lt;/a&gt; and gain full access to all keynotes, technical sessions, networking receptions, and special events. Discounts are also available for academia, associations, and corporate groups. Please email events[at]arrowfly.com for more details about our discount programs.&lt;/p&gt;
-&lt;article class="type-post entry" aria-label="Registration is open for RoboBusiness 2026"&gt;
-&lt;div class="entry-content"&gt;
-&lt;p&gt;For information about sponsorship and exhibition opportunities, &lt;a href="https://www.robobusiness.com/sponsor/" target="_blank" rel="noopener"&gt;download the prospectus&lt;/a&gt;. Questions regarding sponsorship opportunities should be directed to Colleen Sepich at csepich[AT]arrowfly.com.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;/div&gt;
-&lt;/article&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/"&gt;AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Vention opens Physical AI Lab for manufacturing in Montreal</title>
-		<link>https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/</link>
-					<comments>https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/#respond</comments>
-		
-		<dc:creator>Eugene Demaitre</dc:creator>
-		<pubDate>Wed, 09 Sep 2026 15:41:50 +0000</pubDate>
-				<category>Arms / Manipulators</category>
-		<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Assembly</category>
-		<category>Automotive</category>
-		<category>Cameras / Imaging / Vision</category>
-		<category>Controllers</category>
-		<category>Development Tools / SDKs / Libraries</category>
-		<category>Manufacturing</category>
-		<category>News</category>
-		<category>Packaging &amp; Palletizing • Pick-Place</category>
-		<category>ROS / Open Source Solutions</category>
-		<category>Software / Simulation</category>
-		<category>vention</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589479</guid>
-
-					<description>&lt;p&gt;Vention's new Physical AI Lab will focus on advancing robotic manipulation from research to scalable production-line deployment.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/"&gt;Vention opens Physical AI Lab for manufacturing in Montreal&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589481" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589481" class="size-full wp-image-589481" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Physical-AI-Lab-Vention-Space-copy.jpg" alt="Vention and its partners have invested in space and equipment for its new physical AI lab." width="770" height="499" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Physical-AI-Lab-Vention-Space-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/Physical-AI-Lab-Vention-Space-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Physical-AI-Lab-Vention-Space-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Physical-AI-Lab-Vention-Space-copy-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/Physical-AI-Lab-Vention-Space-copy-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589481" class="wp-caption-text"&gt;Vention and its partners have invested in space and equipment for its new physical AI lab. Source: Vention&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;To generate high-quality data for training the AI models that operate next-generation robots, you need scale. Vention Inc. today opened its Physical AI Lab in Montreal. The company said the new laboratory focuses on robotic manipulation in manufacturing.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Any physical AI foundation model is data-hungry,&amp;#8221; &lt;a href="https://www.linkedin.com/in/etiennelacroix/" target="_blank" rel="noopener"&gt;Etienne Lacroix&lt;/a&gt;, founder and CEO of Vention, told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;We move several hundred robot cells a year, and they all collect high-quality industrial manipulation data. It was a massive asset that was not properly leveraged until now.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Vention said its technology stack includes hardware, software, and physical AI. The Montreal-based &lt;a href="https://www.therobotreport.com/tag/vention/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; claimed that it enables businesses to design, program, and deploy turnkey or custom automation in days. It has deployed more than 28,000 machines worldwide and a community of more than 6,000 factories.&lt;/p&gt;
-&lt;h2&gt;Vention addresses manufacturing challenges&lt;/h2&gt;
-&lt;p&gt;With its technology deployed across &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;manufacturers&lt;/a&gt; globally, including 90 of the Fortune 500, Vention said its scale gives researchers direct access to real environments and a continuous stream of data to post-train physical &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; models.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Physical AI will fundamentally expand what manufacturers can automate, but the challenge is no longer simply proving that a robot can perform a task in a lab,&amp;#8221; stated Lacroix. &amp;#8220;The real opportunity is making these capabilities reliable, economical, and deployable across thousands of factories. By combining Canada&amp;#8217;s world-class AI ecosystem with Vention&amp;#8217;s deep robotics expertise, industrial data, and full-stack automation platform, we have a unique foundation to close that gap.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Revenue related to physical AI has increased by 400% over the past year, reported Vention. The company&amp;#8217;s mandate is to enable scalable deployment by validating new AI capabilities against the reliability, cost, and variability requirements of real production lines.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;We know about &lt;a href="https://www.therobotreport.com/tag/skild-ai" target="_blank" rel="noopener"&gt;Skild&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/tag/generalist" target="_blank" rel="noopener"&gt;Generalist&lt;/a&gt;, and &lt;a href="https://www.therobotreport.com/tag/physical-intelligence" target="_blank" rel="noopener"&gt;Physical Intelligence&lt;/a&gt; &amp;#8212; there are many models and policies,&amp;#8221; Lacroix observed. &amp;#8220;The base model is not the problem; some models are better for certain tasks. We can add value and shape the research agenda with efficient learning, data collection, and post-training capabilities.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Editor&amp;#8217;s note: &lt;/strong&gt;Physical AI is among the session topic tracks at &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026, which will be on Oct. 20 and 21 in Santa Clara, Calif. &lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Register now to attend.&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;h2&gt;Physical AI Lab takes research to the factory floor&lt;/h2&gt;
-&lt;p&gt;Vention said its new lab includes industrial data collection, robotics &lt;a href="https://www.therobotreport.com/category/technologies/controllers/" target="_blank" rel="noopener"&gt;control&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/robot-components/motioncontrol/" target="_blank" rel="noopener"&gt;motion&lt;/a&gt; planning, classical computer &lt;a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener"&gt;vision&lt;/a&gt;, vision foundation models, learning from demonstration, and reinforcement learning. It focuses on complex and unstructured manufacturing tasks.&lt;/p&gt;
-&lt;p&gt;The company noted that while model development is shaped by research and benchmarks, it also relies on industry feedback and day-to-day deployment conversations.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;What makes this lab different is the loop we&amp;#8217;ve built: academic research feeding directly into live production problems, and production feedback feeding back into the research,&amp;#8221; said &lt;a href="https://www.linkedin.com/in/jimmy-li-68861334/" target="_blank" rel="noopener"&gt;Dr. Jimmy Li&lt;/a&gt;, director of physical AI at Vention. &amp;#8220;Our clients aren&amp;#8217;t waiting for a finished product to test; they&amp;#8217;re in the room while we build it. That&amp;#8217;s unique in this field, and it&amp;#8217;s what lets us move faster from a research result to something that actually runs on a factory floor.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Li, head of Vention&amp;#8217;s Physical AI Lab, is a robotics and machine learning researcher from McGill University who has more than a decade of experience with peer-reviewed research in computer vision, robot perception, autonomous systems, and AI-powered robotic manipulation. Over the past two years, he has led Vention&amp;#8217;s physical AI strategy and its collaboration with &lt;a href="https://www.therobotreport.com/tag/nvidia" target="_blank" rel="noopener"&gt;NVIDIA&lt;/a&gt;, translating advances in AI research into commercial robotic applications.&lt;/p&gt;
-&lt;div id="attachment_589480" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589480" class="size-full wp-image-589480" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Physical-AI-Lab-Dr-Jimmy-Li-copy.jpg" alt="Jimmy Li, director of Vention's new Physical AI Lab." width="770" height="498" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Physical-AI-Lab-Dr-Jimmy-Li-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/Physical-AI-Lab-Dr-Jimmy-Li-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Physical-AI-Lab-Dr-Jimmy-Li-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Physical-AI-Lab-Dr-Jimmy-Li-copy-768x497.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/Physical-AI-Lab-Dr-Jimmy-Li-copy-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589480" class="wp-caption-text"&gt;Jimmy Li, director of the new Physical AI Lab in Montreal. Source: Vention&lt;/p&gt;&lt;/div&gt;
-&lt;h2&gt;Innovation under way for industrial applications&lt;/h2&gt;
-&lt;p&gt;Vention said its new lab has already generated new intellectual property and plans to continue to do so. It launched &lt;a href="https://vention.com/physical-ai-pipeline" target="_blank" rel="noopener"&gt;GRIIP&lt;/a&gt; (Generalized Robotic Industrial Intelligence Pipeline) in February 2026. The modular physical AI &lt;a href="https://www.therobotreport.com/vention-releases-rapid-operator-ai-automate-deep-bin-picking/" target="_blank" rel="noopener"&gt;pipeline&lt;/a&gt; spans scene digitalization, object segmentation, pose estimation, grasp selection, and collision-free motion planning.&lt;/p&gt;
-&lt;p&gt;GRIIP uses foundation models from technology leaders such as NVIDIA as well as Vention&amp;#8217;s proprietary models. The company plans to release a public GRIIP Software Development Kit (SDK).&lt;/p&gt;
-&lt;p&gt;&amp;#8220;We will put GRIIP in open source and show it alongside our other AI-defined automation at &lt;a href="https://www.therobotreport.com/?s=imts&amp;amp;classic=true&amp;amp;sort=desc" target="_blank" rel="noopener"&gt;IMTS&lt;/a&gt;,&amp;#8221; said Lacroix. Vention plans to introduce physical AI and agentic AI capabilities unified in a single platform.&lt;/p&gt;
-&lt;p&gt;The company is also working with global industrial and electronics manufacturers, including a large &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/automotive/" target="_blank" rel="noopener"&gt;automotive&lt;/a&gt; OEM on high-complexity, unstructured robotic tasks in final assembly.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;We&amp;#8217;ve always been in applied use cases, learning from demonstrations and data collection, using tens of millions of dollars in R&amp;amp;D, and fine-fine tuning models for industrial automation,&amp;#8221; said Lacroix. &amp;#8220;Kitting is one of our top applied research use cases, which is horizontal &amp;#8212; it&amp;#8217;s in automotive, in &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/aerospace" target="_blank" rel="noopener"&gt;aerospace&lt;/a&gt;, and in consumer.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Electronics contract manufacturers have all those pieces of hardware coming from various vendors and various packaging, They need to be opened and reassembled into a kit that will go at a specific station on the assembly line,&amp;#8221; he explained. &amp;#8220;If you&amp;#8217;re a car manufacturer, it could be headlamps with a harness, a mounting bracket, and a screw, and they need to be prepared so Position 7 on the line has the right kit for the right car. Kitting was a use case where those new class of policies are relevant.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Physical AI : Picking the Impossible Parts with GRIIP" width="740" height="416" src="https://www.youtube.com/embed/Zl_KhE1_9SM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;External advisor brings connections to physical AI community&lt;/h2&gt;
-&lt;p&gt;In addition, Vention named &lt;a href="https://www.linkedin.com/in/joelle-pineau-371574141/" target="_blank" rel="noopener"&gt;Dr. Joelle Pineau&lt;/a&gt;, chief AI officer at &lt;a href="https://cohere.com/" target="_blank" rel="noopener"&gt;Cohere&lt;/a&gt;, as external technical advisor for the Physical AI Lab. She will contribute to model architecture decisions, research prioritization, and connections into the broader AI community.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Dr. Pineau was a former VP of research at Meta, and she did her Ph.D. at CMU,&amp;#8221; said Lacroix. &amp;#8220;She managed the teams that developed the SAM 2 model for segmentation.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;As foundation models mature, Vention said it expects the complexity and costs of deploying robots to drop, widening the range of manufacturers that can put them to work.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Factory Expansion at Scale: Build and Deploy Faster with Vention" width="740" height="416" src="https://www.youtube.com/embed/b-ab0P1TXsk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/"&gt;Vention opens Physical AI Lab for manufacturing in Montreal&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
