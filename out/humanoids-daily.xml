@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 14 Sep 2026 20:45:04 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 15 Sep 2026 10:55:08 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-unveils-digit-5-designed-to-work-closer-to-people</guid>
+    <title>Agility unveils Digit 5, designed to work closer to people</title>
+    <link>https://www.humanoidsdaily.com/news/agility-unveils-digit-5-designed-to-work-closer-to-people</link>
+    <description>Agility’s Digit 5 adds a 50 lb payload, nine-minute charging and a new safety architecture. Early access is planned for 2027, with EU and UK deployment ahead.</description>
+    <pubDate>Tue, 15 Sep 2026 10:55:08 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Digit</category><category>Agility Robotics</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/reward-ai-exits-stealth-with-om-1-pitching-zero-shot-human-to-robot-manipulation</guid>
     <title>Reward AI Exits Stealth with OM-1, Pitching Zero-Shot Human-to-Robot Manipulation</title>
@@ -298,16 +308,6 @@
     <pubDate>Sat, 05 Sep 2026 09:53:36 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>ET1</category><category>Galbot</category><category>Market</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tuya-unveils-doova-an-ai-companion-robot-targeting-elder-care-and-smart-home-hubs</guid>
-    <title>Tuya Unveils Doova: An AI Companion Robot Targeting Elder Care and Smart Home Hubs</title>
-    <link>https://www.humanoidsdaily.com/news/tuya-unveils-doova-an-ai-companion-robot-targeting-elder-care-and-smart-home-hubs</link>
-    <description>Announced at IFA 2026, Tuya Smart’s new mobile companion robot combines fall detection, multimodal LLM conversations, and AIoT control tailored for seniors living alone.</description>
-    <pubDate>Sat, 05 Sep 2026 08:53:27 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>China</category><category>Tuya</category>
   </item>
 
   </channel>
