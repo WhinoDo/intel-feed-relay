@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 15 Sep 2026 10:55:08 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 15 Sep 2026 18:54:30 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/uncaged-agility-ceo-peggy-johnson-and-co-founder-jonathan-hurst-detail-digit-5-architecture-ai-stack-and-supply-chains</guid>
+    <title>Uncaged: Agility CEO Peggy Johnson and Co-Founder Jonathan Hurst Detail Digit 5 Architecture, AI Stack, and Supply Chains</title>
+    <link>https://www.humanoidsdaily.com/news/uncaged-agility-ceo-peggy-johnson-and-co-founder-jonathan-hurst-detail-digit-5-architecture-ai-stack-and-supply-chains</link>
+    <description>Hours after introducing Digit 5, Agility leadership unpacked the technical and commercial mechanics behind breaking the safety cage, from 360-degree vision failsafes to a four-layer physical AI stack.</description>
+    <pubDate>Tue, 15 Sep 2026 18:54:30 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Digit</category><category>Agility Robotics</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-unveils-digit-5-designed-to-work-closer-to-people</guid>
     <title>Agility unveils Digit 5, designed to work closer to people</title>
@@ -298,16 +308,6 @@
     <pubDate>Sat, 05 Sep 2026 11:02:18 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>OpenAI</category><category>US</category><category>Benchmark</category><category>Anthropic</category><category>RoboCurve</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/galbot-opens-pre-orders-for-et1-bipedal-humanoid-aimed-at-entertainment-and-performance</guid>
-    <title>Galbot Opens Pre-Orders for ET1 Bipedal Humanoid Aimed at Entertainment and Performance</title>
-    <link>https://www.humanoidsdaily.com/news/galbot-opens-pre-orders-for-et1-bipedal-humanoid-aimed-at-entertainment-and-performance</link>
-    <description>Galbot has opened pre-orders for the ET1, a compact 1.25-meter bipedal robot designed for dynamic stage performance and interactive commercial venues, stepping directly into competition with Unitree and AGIBOT.</description>
-    <pubDate>Sat, 05 Sep 2026 09:53:36 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>ET1</category><category>Galbot</category><category>Market</category><category>China</category>
   </item>
 
   </channel>
