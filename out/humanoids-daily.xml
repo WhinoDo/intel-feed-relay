@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 15 Sep 2026 18:54:30 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 15 Sep 2026 20:58:14 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/rhoda-tests-whether-scaling-web-video-pretraining-makes-robots-better-at-real-work</guid>
+    <title>Rhoda Tests Whether Scaling Web-Video Pretraining Makes Robots Better at Real Work</title>
+    <link>https://www.humanoidsdaily.com/news/rhoda-tests-whether-scaling-web-video-pretraining-makes-robots-better-at-real-work</link>
+    <description>Rhoda’s latest study puts video pretraining to an industrial test, adding evidence to the debate over how robots should learn.</description>
+    <pubDate>Tue, 15 Sep 2026 20:58:14 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>rhoda-ai</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/odyssey-unveils-odyssey-3-with-flexion-building-humanoid-control-on-its-world-model</guid>
+    <title>Odyssey Unveils Odyssey-3, With Flexion Building Humanoid Control on Its World Model</title>
+    <link>https://www.humanoidsdaily.com/news/odyssey-unveils-odyssey-3-with-flexion-building-humanoid-control-on-its-world-model</link>
+    <description>Flexion has built humanoid policies on Odyssey’s new foundation world model using tens of hours of teleoperation data, with reported gains in resilience to lighting changes.</description>
+    <pubDate>Tue, 15 Sep 2026 20:38:43 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Europe</category><category>Flexion</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/uncaged-agility-ceo-peggy-johnson-and-co-founder-jonathan-hurst-detail-digit-5-architecture-ai-stack-and-supply-chains</guid>
     <title>Uncaged: Agility CEO Peggy Johnson and Co-Founder Jonathan Hurst Detail Digit 5 Architecture, AI Stack, and Supply Chains</title>
@@ -18,6 +38,16 @@
     <pubDate>Tue, 15 Sep 2026 18:54:30 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Digit</category><category>Agility Robotics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/the-umi-effect-why-robotics-companies-are-building-the-data-collector-first</guid>
+    <title>The UMI Effect: Why Robotics Companies Are Building the Data Collector First</title>
+    <link>https://www.humanoidsdaily.com/features/the-umi-effect-why-robotics-companies-are-building-the-data-collector-first</link>
+    <description>From a handheld GoPro gripper to Sunday’s Skill Capture Glove, Reward AI’s Omnibody Hand and X Square’s TwinDEX, a growing school of robot development starts with the device humans use to teach the machine.</description>
+    <pubDate>Tue, 15 Sep 2026 14:24:22 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Data Collection</category><category>Sunday Robotics</category><category>Reward AI</category><category>XSquare</category>
   </item>
 
   <item>
@@ -278,36 +308,6 @@
     <pubDate>Mon, 07 Sep 2026 11:25:06 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Europe</category><category>Market</category><category>Wandercraft</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/neura-robotics-and-seco-team-up-to-scale-european-physical-ai-hardware</guid>
-    <title>NEURA Robotics and SECO Team Up to Scale European Physical AI Hardware</title>
-    <link>https://www.humanoidsdaily.com/news/neura-robotics-and-seco-team-up-to-scale-european-physical-ai-hardware</link>
-    <description>NEURA Robotics and Italian embedded systems specialist SECO partner to industrialize distributed compute modules powered by Qualcomm Dragonwing chips, eyeing scalable humanoid production and semiconductor automation.</description>
-    <pubDate>Mon, 07 Sep 2026 08:59:36 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Neura Robotics</category><category>Europe</category><category>Market</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/beyond-mechanical-chatbots-galbot-unveils-robogesture-to-tackle-real-time-nonverbal-communication</guid>
-    <title>Beyond Mechanical Chatbots: Galbot Unveils RoboGesture to Tackle Real-Time Nonverbal Communication</title>
-    <link>https://www.humanoidsdaily.com/news/beyond-mechanical-chatbots-galbot-unveils-robogesture-to-tackle-real-time-nonverbal-communication</link>
-    <description>Galbot and researchers from Tsinghua University introduce RoboGesture, a streaming diffusion-based system that aligns speech with expressive, collision-free humanoid gestures.</description>
-    <pubDate>Sun, 06 Sep 2026 08:31:59 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Galbot</category><category>Research</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/openai-s-gpt-6-astra-hits-95-on-physical-manipulation-benchmark-but-precision-tasks-expose-familiar-bottlenecks</guid>
-    <title>OpenAI’s GPT-6 Astra Hits 95% on Physical Manipulation Benchmark, But Precision Tasks Expose Familiar Bottlenecks</title>
-    <link>https://www.humanoidsdaily.com/news/openai-s-gpt-6-astra-hits-95-on-physical-manipulation-benchmark-but-precision-tasks-expose-familiar-bottlenecks</link>
-    <description>RoboCurve benchmarked OpenAI’s new GPT-6 Astra on real robot arms, revealing dramatic efficiency and spatial reasoning gains on gross manipulation alongside a persistent 10% plateau on millimeter-precision tasks.</description>
-    <pubDate>Sat, 05 Sep 2026 11:02:18 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>OpenAI</category><category>US</category><category>Benchmark</category><category>Anthropic</category><category>RoboCurve</category>
   </item>
 
   </channel>
