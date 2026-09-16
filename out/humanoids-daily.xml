@@ -162,9 +162,9 @@
 
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-open-sources-unifolm-wla-1-0-to-tackle-humanoid-generalization</guid>
-    <title>Unitree Open-Sources UnifoLM-WLA-1.0 to Tackle Humanoid Generalization</title>
+    <title>Unitree Begins Open Release of UnifoLM-WLA-1.0 to Tackle Humanoid Generalization</title>
     <link>https://www.humanoidsdaily.com/news/unitree-open-sources-unifolm-wla-1-0-to-tackle-humanoid-generalization</link>
-    <description>Unitree Robotics has open-sourced UnifoLM-WLA-1.0, a 6-billion-parameter foundation model that combines an embodied reasoner, dynamic optical-flow world modeling, and an MMDiT action expert to drive whole-body manipulation.</description>
+    <description>Unitree’s UnifoLM-WLA-1.0 combines visual understanding and whole-body control for humanoid tasks. Reasoning-model weights are available, with the full action model still to come.</description>
     <pubDate>Thu, 10 Sep 2026 10:07:57 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Unitree Robotics</category><category>open-source</category><category>China</category>
