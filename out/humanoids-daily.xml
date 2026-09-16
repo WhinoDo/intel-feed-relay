@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 15 Sep 2026 20:58:14 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 16 Sep 2026 06:27:12 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-ai-models-unifolm-explained</guid>
+    <title>Unitree’s AI models explained: UniFoLM, WLA and X2</title>
+    <link>https://www.humanoidsdaily.com/features/unitree-ai-models-unifolm-explained</link>
+    <description>From autonomous sparring to handling laundry, Unitree is building the AI behind its humanoids. Here is how its UniFoLM models differ—and what developers can actually download.</description>
+    <pubDate>Wed, 16 Sep 2026 06:27:12 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Unitree Robotics</category><category>China</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/our-investment-in-maven-robotics</guid>
+    <title>RoboStrategy: Our Investment in Maven Robotics</title>
+    <link>https://www.humanoidsdaily.com/features/our-investment-in-maven-robotics</link>
+    <description>RoboStrategy’s Jack Pearson explains why the firm led Maven Robotics’ Series A, outlining its thesis on industrial teams, enterprise deployment, and general-purpose robotics.</description>
+    <pubDate>Wed, 16 Sep 2026 06:10:53 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>market analysis</category><category>Maven Robotics</category><category>RoboStrategy</category><category>Investment</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/rhoda-tests-whether-scaling-web-video-pretraining-makes-robots-better-at-real-work</guid>
     <title>Rhoda Tests Whether Scaling Web-Video Pretraining Makes Robots Better at Real Work</title>
@@ -288,26 +308,6 @@
     <pubDate>Mon, 07 Sep 2026 19:05:49 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Unitree Robotics</category><category>China</category><category>Autonomy</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-s-numbers-are-in-1-8m-in-sales-a-138m-loss-and-a-backlog-owed-to-an-insider</guid>
-    <title>Agility's Numbers Are In: $1.8M in Sales, a $138M Loss, and a Backlog Owed to an Insider</title>
-    <link>https://www.humanoidsdaily.com/news/agility-s-numbers-are-in-1-8m-in-sales-a-138m-loss-and-a-backlog-owed-to-an-insider</link>
-    <description>Agility Robotics' Form S-4 puts audited numbers behind the humanoid industry's first US listing: $1.78 million in 2025 sales, a $138.1 million net loss, and a going-concern warning. The headline $300 million backlog turns out to be a single contract with a related party, partly paid in warrants — and the competition section names eight rivals without mentioning a single Chinese manufacturer.</description>
-    <pubDate>Mon, 07 Sep 2026 16:04:49 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Market</category><category>Agility Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/wandercraft-signs-12-enterprise-customers-for-calvin-40-industrial-humanoid</guid>
-    <title>Wandercraft Signs 12 Enterprise Customers for Calvin-40 Industrial Humanoid</title>
-    <link>https://www.humanoidsdaily.com/news/wandercraft-signs-12-enterprise-customers-for-calvin-40-industrial-humanoid</link>
-    <description>Parisian robotics pioneer Wandercraft has signed 12 enterprise clients across automotive, defense, logistics, and retail for its Calvin-40 humanoid, advancing its deliberate, payload-focused path to industrial scale.</description>
-    <pubDate>Mon, 07 Sep 2026 11:25:06 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Europe</category><category>Market</category><category>Wandercraft</category>
   </item>
 
   </channel>
