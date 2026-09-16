@@ -4,7 +4,55 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-14T13:33:07Z</ns0:updated>
+  <ns0:updated>2026-09-16T11:15:19Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/d6039b8376a3ee099a6f0f64c1bb8599ca743ae3</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d6039b8376a3ee099a6f0f64c1bb8599ca743ae3" />
+    <ns0:title>
+        feat(eval): report success counts and 95% Wilson intervals at every a…
+    </ns0:title>
+    <ns0:updated>2026-09-16T11:15:19Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/67662988?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Rahillasne</ns0:name>
+      <ns0:uri>https://github.com/Rahillasne</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(eval): report success counts and 95% Wilson intervals at every aggregation level (#4628)
+
+* feat(eval): report success counts and 95% Wilson intervals at every aggregation level
+
+A success rate over 10 to 50 episodes is a binomial estimate with a wide
+interval (9/10 is compatible with roughly 60% to 98%), and lerobot-eval
+reported it as a bare number. Every success rate in eval_info.json now
+carries n_success, n_episodes and pc_success_ci95 (percent), at task, suite
+and overall level, and lerobot-eval logs the overall interval.
+
+lerobot.utils.eval_stats adds wilson_interval, success_summary and a
+two-sided fisher_exact, standard library only. Reference values in the tests
+were checked against scipy.
+
+Existing keys and values are unchanged. Roadmap EVAL-01 (#3832).
+
+* docs: run the eval_stats docstring examples in CI (first entry in the doctest allowlist)
+
+* fix(eval): drop the unused confidence argument from success_summary
+
+Addresses review finding 1. success_summary took a confidence argument but
+always wrote the result under pc_success_ci95, so success_summary(flags,
+confidence=0.9) returned a 90% interval under a key that says 95. Nothing
+passed it, so the argument is gone and the coverage is fixed at 95%, which
+makes the key name always true. wilson_interval keeps the argument for callers
+that want a different level.
+
+Also rewords the test comment (finding 5): eval_policy yields Python bools
+today, and the test accepts 0/1 ints so a future change to the reduction cannot
+silently change what gets counted. The old wording sent readers looking for a
+backend that does not exist.
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/89236ea0f4f81a81ca566081e20dd1ff5f823cbe</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/89236ea0f4f81a81ca566081e20dd1ff5f823cbe" />
@@ -402,22 +450,6 @@ Fix the regex and add a regression test.&lt;/pre&gt;
     </ns0:author>
     <ns0:content type="html">
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(envs): make MetaWorld task descriptions unique (#4410)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/d60ad0d23bbd34a295077e76617da46daebd5262</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d60ad0d23bbd34a295077e76617da46daebd5262" />
-    <ns0:title>
-        docs: move optional encoder comments outside continued commands (#4461)
-    </ns0:title>
-    <ns0:updated>2026-09-07T12:09:25Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/97449751?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>A-lost-unicorn</ns0:name>
-      <ns0:uri>https://github.com/A-lost-unicorn</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: move optional encoder comments outside continued commands (#4461)&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
