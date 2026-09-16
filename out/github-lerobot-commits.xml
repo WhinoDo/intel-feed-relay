@@ -4,7 +4,143 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-16T11:15:19Z</ns0:updated>
+  <ns0:updated>2026-09-16T14:52:20Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/30074f7f1358b3c015ae1750017200e86e9c4eb6</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/30074f7f1358b3c015ae1750017200e86e9c4eb6" />
+    <ns0:title>
+        fix(processors): make relative actions work with a stacked observatio…
+    </ns0:title>
+    <ns0:updated>2026-09-16T14:52:20Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(processors): make relative actions work with a stacked observation state (#4656)
+
+* fix(processor): anchor relative actions on the current frame of a stacked state
+
+* fix(eval): reset the processors between rollout batches
+
+* adding reset override for relative action&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/77de23890bec5fb3887c5ba8404d6e51be7bfb72</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/77de23890bec5fb3887c5ba8404d6e51be7bfb72" />
+    <ns0:title>
+        feat(g1): select end effector and camera options through config (#4645)
+    </ns0:title>
+    <ns0:updated>2026-09-16T14:46:07Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>nepyope</ns0:name>
+      <ns0:uri>https://github.com/nepyope</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(g1): select end effector and camera options through config (#4645)
+
+* feat(g1): select the end effector by hardware name
+
+Add an `end_effector` field to UnitreeG1Config taking &amp;quot;dex1&amp;quot;, &amp;quot;dex3&amp;quot; or
+&amp;quot;dummy&amp;quot;. In simulation it selects the MuJoCo model, and with it the finger
+actuators and which wrist cameras exist; on the real robot it is for now only a
+declaration of what is bolted on, reusing the same name for both paths.
+
+Reaching it needs `make_env` to forward unknown keyword arguments to a hub
+env&amp;#39;s own `make_env`, since options like this one are defined by the env rather
+than by lerobot.
+
+* fix(envs): reject extra make_env arguments for local EnvConfigs
+
+Forwarding unknown keyword arguments to a hub env made them silently harmless
+everywhere else: make_env(cfg, n_env=4) used to raise TypeError and instead
+built one env, so a misspelt argument became a no-op. Only the hub path has
+somewhere to forward to, so the local path now rejects leftovers.
+
+* refactor(envs): carry the G1 end effector in a HubEnvConfig
+
+The flag reached the sim as an extra make_env keyword, which pushed one
+env&amp;#39;s option into the shared factory signature. Give the sim a
+UnitreeG1MujocoEnv config instead: the robot config holds it, make_env
+passes it to the hub env untouched, and the sim reads the option off it.
+factory.py and utils.py go back to their original signatures, and the
+Literal makes the CLI list the three choices and reject anything else.
+
+* feat(envs): carry the G1 sim&amp;#39;s camera and viewer options in its config
+
+The sim reads publish_images, camera_port and onscreen off the config the
+same way it reads the end effector, so declaring them is all it takes to
+reach them from the CLI. onscreen follows publish_images unless it is set,
+because the two cannot coexist: the offscreen renderers are bound to the
+thread that creates them, and asking for both segfaults the process once
+the viewer starts driving MuJoCo.
+
+* docs(g1): document the sim&amp;#39;s end effector and camera options
+
+* feat(g1): name the end effector on the robot config
+
+What the arms carry is a property of the robot, not of the simulated world, so
+--robot.end_effector is the flag and the hardware paths have somewhere to read
+it from once they need to. The sim still takes it off the config it is handed,
+which the robot config now keeps in step rather than asking for it twice.
+
+* docs(g1): point at --robot.end_effector
+
+* refactor(g1): fold the end effector into the sim config at the call site
+
+* refactor(g1): set the sim&amp;#39;s end effector directly
+
+* refactor(g1): keep the sim&amp;#39;s end effector in step from __post_init__
+
+* refactor(envs): make the G1 end effector an enum
+
+Follows ColorMode rather than a Literal alias, so an unknown name reports the
+ones that exist. draccus takes either spelling on the CLI, and the member is a
+str, which is all the sim asks of it -- it only compares and keys dicts.
+
+* Update docs/source/unitree_g1.mdx
+
+Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;
+Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
+
+* Update src/lerobot/envs/configs.py
+
+Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;
+Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
+
+* fix(g1): keep the sim world off the robot&amp;#39;s command line
+
+A RobotConfig that reaches an EnvConfig closes a loop in the parser tree: draccus
+descends into every choice of every registry it meets, and the gym_manipulator env
+carries a RobotConfig of its own. Building the tree then never ends, which broke
+every robot CLI, not just the G1&amp;#39;s.
+
+Assemble the sim world in __post_init__ instead, from flags that live on the robot,
+and cover it with a parse that fails fast if the loop comes back.
+
+* style(g1): tighten the comments on the sim config fields
+
+* Update src/lerobot/envs/configs.py
+
+Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;
+Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
+
+* Update src/lerobot/robots/unitree_g1/config_unitree_g1.py
+
+Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;
+Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
+
+* feat(g1): expose sim viewer toggle
+
+---------
+
+Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
+Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/d6039b8376a3ee099a6f0f64c1bb8599ca743ae3</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d6039b8376a3ee099a6f0f64c1bb8599ca743ae3" />
@@ -418,38 +554,6 @@ PI05Pytorch names the action-expert time projections `time_mlp_in` and
 projections during pi0.5 fine-tuning.
 
 Fix the regex and add a regression test.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/2ddba5384a75c16114ed3312b7e0a05dbbd7cd59</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/2ddba5384a75c16114ed3312b7e0a05dbbd7cd59" />
-    <ns0:title>
-        docs(reachy2): replace unavailable acquisition server workflow (#4418)
-    </ns0:title>
-    <ns0:updated>2026-09-07T12:14:53Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/110315314?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>ethanvillalovoz</ns0:name>
-      <ns0:uri>https://github.com/ethanvillalovoz</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(reachy2): replace unavailable acquisition server workflow (#4418)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/6a3a5ab374cd147ed4b365cbfddab9e2151127a0</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/6a3a5ab374cd147ed4b365cbfddab9e2151127a0" />
-    <ns0:title>
-        fix(envs): make MetaWorld task descriptions unique (#4410)
-    </ns0:title>
-    <ns0:updated>2026-09-07T12:13:51Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/80150109?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>sawhney17</ns0:name>
-      <ns0:uri>https://github.com/sawhney17</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(envs): make MetaWorld task descriptions unique (#4410)&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

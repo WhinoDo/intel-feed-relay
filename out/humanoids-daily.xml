@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 16 Sep 2026 06:27:12 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 16 Sep 2026 07:01:35 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/gpt-6-beats-specialist-models-robotics-tests</guid>
+    <title>GPT-6 Is Beating Specialist Models in Robotics Tests</title>
+    <link>https://www.humanoidsdaily.com/news/gpt-6-beats-specialist-models-robotics-tests</link>
+    <description>GPT-6 Astra leads specialist models on selected simulation tasks. New robot-arm demos add to the promise, while tougher tests expose its limits.</description>
+    <pubDate>Wed, 16 Sep 2026 07:01:35 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>OpenAI</category><category>Benchmark</category><category>Research</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-ai-models-unifolm-explained</guid>
     <title>Unitree’s AI models explained: UniFoLM, WLA and X2</title>
@@ -298,16 +308,6 @@
     <pubDate>Mon, 07 Sep 2026 20:53:35 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Optimus</category><category>Tesla</category><category>US</category><category>Optimus gen 3</category><category>manufacturing</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-unveils-unifolm-x2-world-model-ai-powers-fully-autonomous-robot-combat</guid>
-    <title>Unitree Unveils UnifoLM-X2: World Model AI Powers Fully Autonomous Robot Combat</title>
-    <link>https://www.humanoidsdaily.com/news/unitree-unveils-unifolm-x2-world-model-ai-powers-fully-autonomous-robot-combat</link>
-    <description>Unitree Robotics has demonstrated its G1 humanoid sparring autonomously against a human, using the UnifoLM-X2-1.0 predictive world model to ditch teleoperation in high-speed combat.</description>
-    <pubDate>Mon, 07 Sep 2026 19:05:49 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>China</category><category>Autonomy</category>
   </item>
 
   </channel>
