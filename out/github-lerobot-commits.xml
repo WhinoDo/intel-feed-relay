@@ -4,7 +4,47 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-16T14:52:20Z</ns0:updated>
+  <ns0:updated>2026-09-17T11:51:46Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/c73cec56b04f50ebe9286c79905103866d970169</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c73cec56b04f50ebe9286c79905103866d970169" />
+    <ns0:title>
+        feat(policies): add LaWAM policy (#3999)
+    </ns0:title>
+    <ns0:updated>2026-09-17T11:51:46Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/49668980?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Nemo-1024</ns0:name>
+      <ns0:uri>https://github.com/Nemo-1024</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): add LaWAM policy (#3999)
+
+* feat(policies): add LaWAM policy
+
+* fix(policies): finalize LaWAM checkpoint scope
+
+* refactor(policies): streamline LaWAM integration
+
+* fix(policies): address LaWAM review feedback
+
+* fix(policies): preserve LaWAM GPU inference
+
+* refactor(policies): use native safetensors for LaWAM
+
+* docs(policies): document LaWAM integration
+
+* refactor(policies): move LaWAM preprocessing to processors
+
+* fix(policies): align LaWAM fine-tuning pipeline
+
+* fix(lawam): guard optional processor dependencies and repair CI tests
+
+* refactor(lawam): use specialized processor steps
+
+* test(lawam): remove redundant optional dependency test&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/30074f7f1358b3c015ae1750017200e86e9c4eb6</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/30074f7f1358b3c015ae1750017200e86e9c4eb6" />
@@ -531,29 +571,6 @@ configured base, and an unreachable SDK is named by its configured URL.
 
 Co-authored-by: strands-agent &amp;lt;strands-agent@users.noreply.github.com&amp;gt;
 Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/9758537d928ed2e315422e76d4f4c8050c0c6c00</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9758537d928ed2e315422e76d4f4c8050c0c6c00" />
-    <ns0:title>
-        fix(pi05): match time_mlp modules in default PEFT targets (#4494)
-    </ns0:title>
-    <ns0:updated>2026-09-07T12:16:11Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/17123223?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>jt-z</ns0:name>
-      <ns0:uri>https://github.com/jt-z</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(pi05): match time_mlp modules in default PEFT targets (#4494)
-
-PI05Pytorch names the action-expert time projections `time_mlp_in` and
-`time_mlp_out`, but `_get_default_peft_targets` inherited the pi0-style
-`action_time_mlp_*` names, so the LoRA adapter never targeted these
-projections during pi0.5 fine-tuning.
-
-Fix the regex and add a regression test.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
