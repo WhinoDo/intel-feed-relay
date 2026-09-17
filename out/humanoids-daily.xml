@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 16 Sep 2026 18:46:27 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 17 Sep 2026 14:17:20 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xpeng-xpace-iron-human-videos-simulated-recovery</guid>
+    <title>XPENG’s XPACE Trains IRON With Human Videos and Simulated Mistakes</title>
+    <link>https://www.humanoidsdaily.com/news/xpeng-xpace-iron-human-videos-simulated-recovery</link>
+    <description>XPENG’s XPACE combines human demonstrations and simulated recoveries to improve IRON’s manipulation skills, with gains in small real-robot tests.</description>
+    <pubDate>Thu, 17 Sep 2026 14:17:20 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Robotics Research</category><category>Artificial Intelligence</category><category>XPENG</category><category>IRON</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/kist-korea-third-humanoid-power</guid>
+    <title>KIST Chief Says Korea Can Join the US and China as a Humanoid Power</title>
+    <link>https://www.humanoidsdaily.com/news/kist-korea-third-humanoid-power</link>
+    <description>KIST’s president sees a path to a three-way humanoid race. Korea’s KAPEX and research strategy support that ambition, while Europe is pursuing its own industrial route.</description>
+    <pubDate>Thu, 17 Sep 2026 13:31:14 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>South Korea</category><category>kapex</category><category>Europe</category><category>kist</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-a3-ultra-hotels-shops-metro-inspection</guid>
+    <title>AGIBOT Says A3 Ultra Is Going to Work in Hotels, Shops and Metro Inspection</title>
+    <link>https://www.humanoidsdaily.com/news/agibot-a3-ultra-hotels-shops-metro-inspection</link>
+    <description>AGIBOT’s latest promotional video highlights A3 Ultra deployments across service and inspection settings, with custom development still part of the equation.</description>
+    <pubDate>Thu, 17 Sep 2026 11:41:50 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Business</category><category>Market</category><category>China</category><category>AGIBOT</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-ipo-unlikely-2027</guid>
     <title>Boston Dynamics IPO Unlikely in 2027, Hyundai Executive Says</title>
@@ -278,36 +308,6 @@
     <pubDate>Wed, 09 Sep 2026 06:45:50 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Xiaopeng He</category><category>China</category><category>XPENG</category><category>IRON</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-ai-reports-rapid-growth-for-index-surpassing-69-000-weekly-active-users</guid>
-    <title>Figure AI Reports Rapid Growth for Index, Surpassing 69,000 Weekly Active Users</title>
-    <link>https://www.humanoidsdaily.com/news/figure-ai-reports-rapid-growth-for-index-surpassing-69-000-weekly-active-users</link>
-    <description>Two weeks after emerging from stealth, Figure AI CEO Brett Adcock shared growth metrics for Index, reporting nearly 70,000 weekly active users uploading 35 minutes of human interaction video every second.</description>
-    <pubDate>Tue, 08 Sep 2026 21:13:23 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Data Collection</category><category>US</category><category>Figure</category><category>Figure AI Index</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/the-policy-is-a-video-how-markov-robotics-runs-dexterous-manipulation-on-ltx-2-5</guid>
-    <title>The Policy Is a Video: How Markov Robotics Runs Dexterous Manipulation on LTX-2.5</title>
-    <link>https://www.humanoidsdaily.com/features/the-policy-is-a-video-how-markov-robotics-runs-dexterous-manipulation-on-ltx-2-5</link>
-    <description>LTX-2.5 ships a raw pretrained checkpoint built for fine-tuning, and a robotics team is already using the open world model to generate the video of a task and execute what the video says.</description>
-    <pubDate>Tue, 08 Sep 2026 14:10:44 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>LTX</category><category>Markov Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/dynamic-creatures-emerges-from-stealth-with-boston-dynamics-backing-to-build-expressive-guest-facing-robots</guid>
-    <title>Dynamic Creatures Emerges From Stealth With Boston Dynamics Backing to Build Expressive Guest-Facing Robots</title>
-    <link>https://www.humanoidsdaily.com/news/dynamic-creatures-emerges-from-stealth-with-boston-dynamics-backing-to-build-expressive-guest-facing-robots</link>
-    <description>Founded by former Boston Dynamics and Google leaders, Dynamic Creatures launches with a proprietary AI operating system, theme park partnerships, and a fresh take on character robotics.</description>
-    <pubDate>Tue, 08 Sep 2026 13:45:45 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Dynamic Creatures</category><category>Boston Dynamics</category>
   </item>
 
   </channel>

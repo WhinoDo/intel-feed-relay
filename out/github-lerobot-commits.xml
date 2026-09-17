@@ -4,7 +4,25 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-17T11:51:46Z</ns0:updated>
+  <ns0:updated>2026-09-17T13:03:19Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/5aa74557f84c54d4b458f8b9643c5aa2982acfed</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/5aa74557f84c54d4b458f8b9643c5aa2982acfed" />
+    <ns0:title>
+        fix(rollout): carry --duration to dataset.episode_time_s for episodic…
+    </ns0:title>
+    <ns0:updated>2026-09-17T13:03:19Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(rollout): carry --duration to dataset.episode_time_s for episodic (#4448)
+
+Co-authored-by: Steven Palma &amp;lt;steven.palma@huggingface.co&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/c73cec56b04f50ebe9286c79905103866d970169</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c73cec56b04f50ebe9286c79905103866d970169" />
@@ -530,46 +548,6 @@ Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;
     <ns0:content type="html">
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(stats): skip video download with image stats (#4396)
 
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/ccddda2ae4fa1a39e2ffbc99fef2d5bfb7f8cac3</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ccddda2ae4fa1a39e2ffbc99fef2d5bfb7f8cac3" />
-    <ns0:title>
-        fix(robots): honour the configured sdk_url on EarthRover Mini Plus (#…
-    </ns0:title>
-    <ns0:updated>2026-09-07T12:27:39Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/9213230?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>cagataycali</ns0:name>
-      <ns0:uri>https://github.com/cagataycali</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(robots): honour the configured sdk_url on EarthRover Mini Plus (#4515)
-
-EarthRoverMiniPlusConfig.sdk_url is the only field that says which Frodobots
-SDK server this robot talks to, and __init__ assigned a hardcoded
-&amp;quot;http://localhost:8000&amp;quot; instead of reading it. The field had no other reader,
-so every configured URL was discarded.
-
-All six HTTP call sites build their URL from self.sdk_base_url, so a caller who
-points the robot at a remote SDK is served by whatever answers on the default
-port instead. With something listening there, connect() reports success and
-POST /control delivers a drive command to a different rover; with nothing
-listening, the refusal names http://localhost:8000 rather than the host the
-caller configured.
-
-Read config.sdk_url, whose default is the same &amp;quot;http://localhost:8000&amp;quot;, so the
-local workflow in the setup guide is unchanged.
-
-Adds tests/robots/test_earthrover_mini_plus.py: the configured URL is adopted,
-the default is unchanged, every endpoint the robot drives is built from the
-configured base, and an unreachable SDK is named by its configured URL.
-
-(cherry picked from commit a473c37ec165e6c443893b00e1f70b74821ceaad)
-
-Co-authored-by: strands-agent &amp;lt;strands-agent@users.noreply.github.com&amp;gt;
 Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
