@@ -5,7 +5,7 @@
 	<ns0:link href="https://lexfridman.com/feed/podcast/" rel="self" type="application/rss+xml" />
 	<link>https://lexfridman.com/</link>
 	<description>Conversations that explore technology, history, philosophy, physics, mathematics, biology, chemistry, engineering, AI, robotics, programming, music, film, art, sports, psychology, neuroscience, geopolitics, business, economics, religion, astronomy, and the human condition with people from all walks of life.</description>
-	<lastBuildDate>Fri, 28 Aug 2026 21:32:51 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 17 Sep 2026 00:40:49 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>hourly</ns1:updatePeriod>
 	<ns1:updateFrequency>1</ns1:updateFrequency>
@@ -33,6 +33,70 @@
 	<ns3:podping usesPodping="true" />
 	<ns3:guid>7eeae9d1-141e-5133-9e8f-6c1da695e40c</ns3:guid>
 	<ns4:subscribe feed="https://lexfridman.com/feed/podcast/" itunes="https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584" tunein="https://tunein.com/podcasts/Technology-Podcasts/Artificial-Intelligence-p1153019/" spotify="https://open.spotify.com/show/2MAi0BvDc6GTFvKFPXnkCL" />
+	<item>
+		<title>#502 – Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud &amp; Jung</title>
+		<link>https://lexfridman.com/andrew-scull/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=andrew-scull</link>
+		<pubDate>Thu, 17 Sep 2026 00:40:49 +0000</pubDate>
+		<guid isPermaLink="false">https://lexfridman.com/?p=6554</guid>
+		<comments>https://lexfridman.com/andrew-scull/#respond</comments>
+		<ns5:commentRss>https://lexfridman.com/andrew-scull/feed/</ns5:commentRss>
+		<ns6:comments>0</ns6:comments>
+		<category>ai</category>
+		<description>&lt;p&gt;Andrew Scull is a historian of psychiatry.&lt;br /&gt;
+Thank you for listening ❤ Check out our sponsors: &lt;a href="https://lexfridman.com/sponsors/ep502-sc"&gt;https://lexfridman.com/sponsors/ep502-sc&lt;/a&gt;&lt;br /&gt;
+See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Transcript:&lt;/b&gt;&lt;br /&gt;
+&lt;a href="https://lexfridman.com/andrew-scull-transcript"&gt;https://lexfridman.com/andrew-scull-transcript&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;CONTACT LEX:&lt;/b&gt;&lt;br /&gt;
+&lt;b&gt;Feedback&lt;/b&gt; &amp;#8211; give feedback to Lex: &lt;a href="https://lexfridman.com/survey"&gt;https://lexfridman.com/survey&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;AMA&lt;/b&gt; &amp;#8211; submit questions, videos or call-in: &lt;a href="https://lexfridman.com/ama"&gt;https://lexfridman.com/ama&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Hiring&lt;/b&gt; &amp;#8211; join our team: &lt;a href="https://lexfridman.com/hiring"&gt;https://lexfridman.com/hiring&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Other&lt;/b&gt; &amp;#8211; other ways to get in touch: &lt;a href="https://lexfridman.com/contact"&gt;https://lexfridman.com/contact&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EPISODE LINKS:&lt;/b&gt;&lt;br /&gt;
+Andrew&amp;#8217;s Website (UCSD faculty page): &lt;a href="https://sociology.ucsd.edu/people/faculty/emeritus/andrew-scull.html"&gt;https://sociology.ucsd.edu/people/faculty/emeritus/andrew-scull.html&lt;/a&gt;&lt;br /&gt;
+Desperate Remedies (book): &lt;a href="https://amzn.to/4vmBquI"&gt;https://amzn.to/4vmBquI&lt;/a&gt;&lt;br /&gt;
+Madness in Civilization (book): &lt;a href="https://amzn.to/3SZhd0I"&gt;https://amzn.to/3SZhd0I&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SPONSORS:&lt;/b&gt;&lt;br /&gt;
+To support this podcast, check out our sponsors &amp;#38; get discounts:&lt;br /&gt;
+&lt;b&gt;Wispr Flow:&lt;/b&gt; AI-powered voice dictation app.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/wispr_flow-ep502-sc"&gt;https://wisprflow.ai/lex&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Fin:&lt;/b&gt; AI agent for customer service.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/fin-ep502-sc"&gt;https://fin.ai/lex&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;LMNT:&lt;/b&gt; Zero-sugar electrolyte drink mix.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/lmnt-ep502-sc"&gt;https://drinkLMNT.com/lex&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Shopify:&lt;/b&gt; Sell stuff online.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/shopify-ep502-sc"&gt;https://shopify.com/lex&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;BetterHelp:&lt;/b&gt; Online therapy and counseling.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/betterhelp-ep502-sc"&gt;https://betterhelp.com/lex&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Perplexity:&lt;/b&gt; AI-powered answer engine.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/perplexity-ep502-sc"&gt;https://perplexity.ai/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;OUTLINE:&lt;/b&gt;&lt;br /&gt;
+(00:00) &amp;#8211; Introduction&lt;br /&gt;
+(01:07) &amp;#8211; Sponsors, Comments, and Reflections&lt;br /&gt;
+(08:10) &amp;#8211; Crisis in Psychiatry&lt;br /&gt;
+(37:48) &amp;#8211; Categories of Mental Illness&lt;br /&gt;
+(45:07) &amp;#8211; Asylums, Eugenics, and the Nazis&lt;br /&gt;
+(57:13) &amp;#8211; The Ice Pick Lobotomy&lt;br /&gt;
+(1:03:26) &amp;#8211; Malaria &amp;#8220;Cure&amp;#8221; for Syphilis&lt;br /&gt;
+(1:21:42) &amp;#8211; Insulin Coma Therapy&lt;br /&gt;
+(1:29:34) &amp;#8211; Electroconvulsive Therapy (ECT)&lt;br /&gt;
+(1:49:03) &amp;#8211; One Flew Over the Cuckoo&amp;#8217;s Nest&lt;br /&gt;
+(2:06:35) &amp;#8211; Freud and Psychoanalysis&lt;br /&gt;
+(2:36:30) &amp;#8211; WWII and Cognitive behavioral therapy (CBT)&lt;br /&gt;
+(2:57:04) &amp;#8211; Antipsychotics&lt;br /&gt;
+(3:20:24) &amp;#8211; Antidepressants&lt;br /&gt;
+(3:33:18) &amp;#8211; Future of Psychiatry&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;PODCAST LINKS:&lt;/b&gt;&lt;br /&gt;
+&amp;#8211; Podcast Website: &lt;a href="https://lexfridman.com/podcast"&gt;https://lexfridman.com/podcast&lt;/a&gt;&lt;br /&gt;
+&amp;#8211; Apple Podcasts: &lt;a href="https://apple.co/2lwqZIr"&gt;https://apple.co/2lwqZIr&lt;/a&gt;&lt;br /&gt;
+&amp;#8211; Spotify: &lt;a href="https://spoti.fi/2nEwCF8"&gt;https://spoti.fi/2nEwCF8&lt;/a&gt;&lt;br /&gt;
+&amp;#8211; RSS: &lt;a href="https://lexfridman.com/feed/podcast/"&gt;https://lexfridman.com/feed/podcast/&lt;/a&gt;&lt;br /&gt;
+&amp;#8211; Podcast Playlist: &lt;a href="https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4"&gt;https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4&lt;/a&gt;&lt;br /&gt;
+&amp;#8211; Clips Channel: &lt;a href="https://www.youtube.com/lexclips"&gt;https://www.youtube.com/lexclips&lt;/a&gt;&lt;/p&gt;</description>
+		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_andrew_scull.mp3" length="5242880" type="audio/mpeg" />
+		<ns2:episodeType>full</ns2:episodeType>
+		<ns4:pid>155149992</ns4:pid>
+	</item>
 	<item>
 		<title>#501 – DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding &amp; Linux</title>
 		<link>https://lexfridman.com/dhh-2/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dhh-2</link>
@@ -2053,79 +2117,6 @@ Go to &lt;a href="https://lexfridman.com/s/lmnt-ep473-sc"&gt;https://drinkLMNT.c
 		<enclosure url="https://media.blubrry.com/takeituneasy/content.blubrry.com/takeituneasy/lex_ai_iran_israel_debate.mp3" length="180816969" type="audio/mpeg" />
 		<ns2:episodeType>full</ns2:episodeType>
 		<ns2:duration>4:11:08</ns2:duration>
-		<ns4:pid>146296512</ns4:pid>
-	</item>
-	<item>
-		<title>#472 – Terence Tao: Hardest Problems in Mathematics, Physics &amp; the Future of AI</title>
-		<link>https://lexfridman.com/terence-tao/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=terence-tao</link>
-		<pubDate>Sun, 15 Jun 2025 00:25:41 +0000</pubDate>
-		<guid isPermaLink="false">https://lexfridman.com/?p=6249</guid>
-		<comments>https://lexfridman.com/terence-tao/#respond</comments>
-		<ns5:commentRss>https://lexfridman.com/terence-tao/feed/</ns5:commentRss>
-		<ns6:comments>0</ns6:comments>
-		<category>ai</category>
-		<description>&lt;p&gt;Terence Tao is widely considered to be one of the greatest mathematicians in history. He won the Fields Medal and the Breakthrough Prize in Mathematics, and has contributed to a wide range of fields from fluid dynamics with Navier-Stokes equations to mathematical physics &amp;#38; quantum mechanics, prime numbers &amp;#38; analytics number theory, harmonic analysis, compressed sensing, random matrix theory, combinatorics, and progress on many of the hardest problems in the history of mathematics.&lt;br /&gt;
-Thank you for listening ❤ Check out our sponsors: &lt;a href="https://lexfridman.com/sponsors/ep472-sc"&gt;https://lexfridman.com/sponsors/ep472-sc&lt;/a&gt;&lt;br /&gt;
-See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Transcript:&lt;/b&gt;&lt;br /&gt;
-&lt;a href="https://lexfridman.com/terence-tao-transcript"&gt;https://lexfridman.com/terence-tao-transcript&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;CONTACT LEX:&lt;/b&gt;&lt;br /&gt;
-&lt;b&gt;Feedback&lt;/b&gt; &amp;#8211; give feedback to Lex: &lt;a href="https://lexfridman.com/survey"&gt;https://lexfridman.com/survey&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;AMA&lt;/b&gt; &amp;#8211; submit questions, videos or call-in: &lt;a href="https://lexfridman.com/ama"&gt;https://lexfridman.com/ama&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;Hiring&lt;/b&gt; &amp;#8211; join our team: &lt;a href="https://lexfridman.com/hiring"&gt;https://lexfridman.com/hiring&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;Other&lt;/b&gt; &amp;#8211; other ways to get in touch: &lt;a href="https://lexfridman.com/contact"&gt;https://lexfridman.com/contact&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;EPISODE LINKS:&lt;/b&gt;&lt;br /&gt;
-Terence&amp;#8217;s Blog: &lt;a href="https://terrytao.wordpress.com/"&gt;https://terrytao.wordpress.com/&lt;/a&gt;&lt;br /&gt;
-Terence&amp;#8217;s YouTube: &lt;a href="https://www.youtube.com/@TerenceTao27"&gt;https://www.youtube.com/@TerenceTao27&lt;/a&gt;&lt;br /&gt;
-Terence&amp;#8217;s Books: &lt;a href="https://amzn.to/43H9Aiq"&gt;https://amzn.to/43H9Aiq&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;SPONSORS:&lt;/b&gt;&lt;br /&gt;
-To support this podcast, check out our sponsors &amp;#38; get discounts:&lt;br /&gt;
-&lt;b&gt;Notion:&lt;/b&gt; Note-taking and team collaboration.&lt;br /&gt;
-Go to &lt;a href="https://lexfridman.com/s/notion-ep472-sc"&gt;https://notion.com/lex&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;Shopify:&lt;/b&gt; Sell stuff online.&lt;br /&gt;
-Go to &lt;a href="https://lexfridman.com/s/shopify-ep472-sc"&gt;https://shopify.com/lex&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;NetSuite:&lt;/b&gt; Business management software.&lt;br /&gt;
-Go to &lt;a href="https://lexfridman.com/s/netsuite-ep472-sc"&gt;http://netsuite.com/lex&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;LMNT:&lt;/b&gt; Zero-sugar electrolyte drink mix.&lt;br /&gt;
-Go to &lt;a href="https://lexfridman.com/s/lmnt-ep472-sc"&gt;https://drinkLMNT.com/lex&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;AG1:&lt;/b&gt; All-in-one daily nutrition drink.&lt;br /&gt;
-Go to &lt;a href="https://lexfridman.com/s/ag1-ep472-sc"&gt;https://drinkag1.com/lex&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;OUTLINE:&lt;/b&gt;&lt;br /&gt;
-(00:00) &amp;#8211; Introduction&lt;br /&gt;
-(00:36) &amp;#8211; Sponsors, Comments, and Reflections&lt;br /&gt;
-(09:49) &amp;#8211; First hard problem&lt;br /&gt;
-(15:16) &amp;#8211; Navier–Stokes singularity&lt;br /&gt;
-(35:25) &amp;#8211; Game of life&lt;br /&gt;
-(42:00) &amp;#8211; Infinity&lt;br /&gt;
-(47:07) &amp;#8211; Math vs Physics&lt;br /&gt;
-(53:26) &amp;#8211; Nature of reality&lt;br /&gt;
-(1:16:08) &amp;#8211; Theory of everything&lt;br /&gt;
-(1:22:09) &amp;#8211; General relativity&lt;br /&gt;
-(1:25:37) &amp;#8211; Solving difficult problems&lt;br /&gt;
-(1:29:00) &amp;#8211; AI-assisted theorem proving&lt;br /&gt;
-(1:41:50) &amp;#8211; Lean programming language&lt;br /&gt;
-(1:51:50) &amp;#8211; DeepMind&amp;#8217;s AlphaProof&lt;br /&gt;
-(1:56:45) &amp;#8211; Human mathematicians vs AI&lt;br /&gt;
-(2:06:37) &amp;#8211; AI winning the Fields Medal&lt;br /&gt;
-(2:13:47) &amp;#8211; Grigori Perelman&lt;br /&gt;
-(2:26:29) &amp;#8211; Twin Prime Conjecture&lt;br /&gt;
-(2:43:04) &amp;#8211; Collatz conjecture&lt;br /&gt;
-(2:49:50) &amp;#8211; P = NP&lt;br /&gt;
-(2:52:43) &amp;#8211; Fields Medal&lt;br /&gt;
-(3:00:18) &amp;#8211; Andrew Wiles and Fermat&amp;#8217;s Last Theorem&lt;br /&gt;
-(3:04:15) &amp;#8211; Productivity&lt;br /&gt;
-(3:06:54) &amp;#8211; Advice for young people&lt;br /&gt;
-(3:15:17) &amp;#8211; The greatest mathematician of all time&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;PODCAST LINKS:&lt;/b&gt;&lt;br /&gt;
-&amp;#8211; Podcast Website: &lt;a href="https://lexfridman.com/podcast"&gt;https://lexfridman.com/podcast&lt;/a&gt;&lt;br /&gt;
-&amp;#8211; Apple Podcasts: &lt;a href="https://apple.co/2lwqZIr"&gt;https://apple.co/2lwqZIr&lt;/a&gt;&lt;br /&gt;
-&amp;#8211; Spotify: &lt;a href="https://spoti.fi/2nEwCF8"&gt;https://spoti.fi/2nEwCF8&lt;/a&gt;&lt;br /&gt;
-&amp;#8211; RSS: &lt;a href="https://lexfridman.com/feed/podcast/"&gt;https://lexfridman.com/feed/podcast/&lt;/a&gt;&lt;br /&gt;
-&amp;#8211; Podcast Playlist: &lt;a href="https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4"&gt;https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4&lt;/a&gt;&lt;br /&gt;
-&amp;#8211; Clips Channel: &lt;a href="https://www.youtube.com/lexclips"&gt;https://www.youtube.com/lexclips&lt;/a&gt;&lt;/p&gt;</description>
-		<enclosure url="https://media.blubrry.com/takeituneasy/content.blubrry.com/takeituneasy/lex_ai_terence_tao.mp3" length="146657921" type="audio/mpeg" />
-		<ns2:episodeType>full</ns2:episodeType>
-		<ns2:duration>3:23:41</ns2:duration>
 		<ns4:pid>146296512</ns4:pid>
 	</item>
 	</channel>
