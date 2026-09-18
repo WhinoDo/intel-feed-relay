@@ -7,9 +7,49 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Fri, 18 Sep 2026 08:52:36 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 18 Sep 2026 12:46:14 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/spirit-ai-robot-brain-breakthrough-2027</guid>
+    <title>Spirit AI Predicts a Robot-Brain Breakthrough in 2027</title>
+    <link>https://www.humanoidsdaily.com/news/spirit-ai-robot-brain-breakthrough-2027</link>
+    <description>Co-founder Gao Yang expects a mid-2027 leap in robots’ ability to follow spoken instructions, while warning that useful household robots remain much further away.</description>
+    <pubDate>Fri, 18 Sep 2026 12:46:14 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Artificial Intelligence</category><category>Spirit AI</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/ubtech-walker-c1-slovenia-balkan-expansion</guid>
+    <title>UBTECH Brings Walker C1 to Slovenia in Balkan Expansion Push</title>
+    <link>https://www.humanoidsdaily.com/news/ubtech-walker-c1-slovenia-balkan-expansion</link>
+    <description>Walker C1’s Slovenian showcase follows a five-country distribution and integration agreement with Hiproject, adding to Chinese humanoid makers’ European presence.</description>
+    <pubDate>Fri, 18 Sep 2026 12:29:43 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Europe</category><category>UBTECH Robotics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-optimus-texas-factory-steel-frame</guid>
+    <title>Tesla’s Optimus Factory Nears a Steel-Frame Milestone in Texas</title>
+    <link>https://www.humanoidsdaily.com/news/tesla-optimus-texas-factory-steel-frame</link>
+    <description>A new drone update shows steel and concrete work advancing at Tesla’s Texas robot factory, while production timing remains less certain than the construction progress.</description>
+    <pubDate>Fri, 18 Sep 2026 12:00:15 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Optimus</category><category>Tesla</category><category>Optimus gen 3</category><category>manufacturing</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/watney-80-million-data-center-robots</guid>
+    <title>Watney Raises $80 Million to Put Robots to Work in Data Centers</title>
+    <link>https://www.humanoidsdaily.com/news/watney-80-million-data-center-robots</link>
+    <description>Watney’s Series A takes funding above $100 million as it targets data-center work, starting with cabling, and claims more than 99.99% reliability.</description>
+    <pubDate>Fri, 18 Sep 2026 11:56:11 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Industrial Automation</category><category>fundraising</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/lumos-nexcore-robot-skills-weeks-to-days</guid>
     <title>Lumos Says NexCore Can Teach Robots New Skills in Days</title>
@@ -268,46 +308,6 @@
     <pubDate>Fri, 11 Sep 2026 15:35:32 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>open-source</category><category>China</category><category>AGIBOT</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/maven-robotics-breaks-stealth-with-100m-to-tackle-industrial-mixed-palletizing</guid>
-    <title>Maven Robotics Breaks Stealth With $100M to Tackle Industrial Mixed Palletizing</title>
-    <link>https://www.humanoidsdaily.com/news/maven-robotics-breaks-stealth-with-100m-to-tackle-industrial-mixed-palletizing</link>
-    <description>Founded by Apple Special Projects Group veterans, Maven Robotics lands $100 million in Series A funding led by RoboStrategy to scale wheeled, dual-arm mobile manipulators across real-world logistics facilities.</description>
-    <pubDate>Fri, 11 Sep 2026 15:10:18 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Maven Robotics</category><category>RoboStrategy</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/skild-ai-crosses-100m-arr-in-10-months-mounting-an-enterprise-assault-on-robotics-demo-culture</guid>
-    <title>Skild AI Crosses $100M ARR in 10 Months, Mounting an Enterprise Assault on Robotics "Demo Culture"</title>
-    <link>https://www.humanoidsdaily.com/news/skild-ai-crosses-100m-arr-in-10-months-mounting-an-enterprise-assault-on-robotics-demo-culture</link>
-    <description>Ten months after its first commercial rollout, Skild AI has scaled to $100 million in annual recurring revenue across more than 60 customers, using its deployment milestone to issue a sharp critique of cherry-picked robotics demonstrations.</description>
-    <pubDate>Thu, 10 Sep 2026 18:34:03 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Skild AI</category><category>US</category><category>Deployment</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-open-sources-unifolm-wla-1-0-to-tackle-humanoid-generalization</guid>
-    <title>Unitree Begins Open Release of UnifoLM-WLA-1.0 to Tackle Humanoid Generalization</title>
-    <link>https://www.humanoidsdaily.com/news/unitree-open-sources-unifolm-wla-1-0-to-tackle-humanoid-generalization</link>
-    <description>Unitree’s UnifoLM-WLA-1.0 combines visual understanding and whole-body control for humanoid tasks. Reasoning-model weights are available, with the full action model still to come.</description>
-    <pubDate>Thu, 10 Sep 2026 10:07:57 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>open-source</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agile-robots-ceo-predicts-physical-ai-will-surpass-automotive-by-10x</guid>
-    <title>Agile Robots CEO Predicts Physical AI Will Surpass Automotive by 10x</title>
-    <link>https://www.humanoidsdaily.com/news/agile-robots-ceo-predicts-physical-ai-will-surpass-automotive-by-10x</link>
-    <description>At its Munich Physical AI event, Agile Robots founder Zhaopeng Chen laid out a multi-trillion-dollar vision for humanoids while pushing back on "magic" AI shortcuts on the factory floor.</description>
-    <pubDate>Thu, 10 Sep 2026 09:20:37 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Agile ONE</category><category>Europe</category><category>Market</category><category>Agile Robots</category>
   </item>
 
   </channel>
