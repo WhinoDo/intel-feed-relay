@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 17 Sep 2026 18:53:35 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 18 Sep 2026 08:52:36 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/lumos-nexcore-robot-skills-weeks-to-days</guid>
+    <title>Lumos Says NexCore Can Teach Robots New Skills in Days</title>
+    <link>https://www.humanoidsdaily.com/news/lumos-nexcore-robot-skills-weeks-to-days</link>
+    <description>Lumos pitches NexCore as a faster route from task descriptions to factory-ready robot skills, citing Mitsubishi Electric applications but offering limited benchmark detail.</description>
+    <pubDate>Fri, 18 Sep 2026 08:52:36 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Lumos Robotics</category><category>Industrial Automation</category><category>Artificial Intelligence</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/brett-adcock-four-chapters-figure-04</guid>
+    <title>Brett Adcock Says Figure 04 Will Be Figure’s Biggest Hardware Leap</title>
+    <link>https://www.humanoidsdaily.com/news/brett-adcock-four-chapters-figure-04</link>
+    <description>On RoboStrategy, Figure’s CEO outlines four chapters for humanoid robotics, explains the limits of Helix 2.5 and teases a major Figure 04 redesign.</description>
+    <pubDate>Fri, 18 Sep 2026 08:17:37 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Figure-04</category><category>Figure</category><category>helix</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-helix-2-5-30-unseen-homes</guid>
     <title>Figure’s Helix 2.5 Takes on Chores in 30 Unseen Homes</title>
@@ -288,26 +308,6 @@
     <pubDate>Thu, 10 Sep 2026 09:20:37 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Agile ONE</category><category>Europe</category><category>Market</category><category>Agile Robots</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/the-openai-of-robotics-debate-reignites-as-gpt-6-astra-paints-in-real-life</guid>
-    <title>The "OpenAI of Robotics" Debate Reignites as GPT-6 Astra Paints in Real Life</title>
-    <link>https://www.humanoidsdaily.com/news/the-openai-of-robotics-debate-reignites-as-gpt-6-astra-paints-in-real-life</link>
-    <description>An impromptu painting demonstration using OpenAI’s GPT-6 Astra has triggered a wider industry clash over whether foundation models will commoditize physical AI or hit an unyielding hardware ceiling.</description>
-    <pubDate>Wed, 09 Sep 2026 20:24:38 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Skild AI</category><category>OpenAI</category><category>Physical Intelligence</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/nucleus-pivots-to-wheeled-base-for-nucleus-ii-following-factory-floor-pushback</guid>
-    <title>Nucleus Pivots to Wheeled Base for "Nucleus II" Following Factory Floor Pushback</title>
-    <link>https://www.humanoidsdaily.com/news/nucleus-pivots-to-wheeled-base-for-nucleus-ii-following-factory-floor-pushback</link>
-    <description>Just a month after breaking stealth with a legged Unitree platform, European robotics startup Nucleus has deployed Nucleus II on a wheeled mobile chassis, prioritizing payload, runtime, and stability.</description>
-    <pubDate>Wed, 09 Sep 2026 10:18:27 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>RaaS</category><category>Europe</category><category>Deployment</category><category>Nucleus</category>
   </item>
 
   </channel>
