@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Fri, 18 Sep 2026 12:46:14 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 18 Sep 2026 14:14:44 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-optimus-supplier-audits-china</guid>
+    <title>Tesla Reportedly Begins New Optimus Supplier Audits in China</title>
+    <link>https://www.humanoidsdaily.com/news/tesla-optimus-supplier-audits-china</link>
+    <description>Reports point to a new round of Optimus supplier inspections in Ningbo, while company representatives confirm ongoing robotics work but stop short of verifying the latest visits.</description>
+    <pubDate>Fri, 18 Sep 2026 14:14:44 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Optimus</category><category>Tesla</category><category>Optimus gen 3</category><category>manufacturing</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/spirit-ai-robot-brain-breakthrough-2027</guid>
     <title>Spirit AI Predicts a Robot-Brain Breakthrough in 2027</title>
@@ -298,16 +308,6 @@
     <pubDate>Sat, 12 Sep 2026 10:32:54 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Calvin</category><category>Generative Bionics</category><category>Uma</category><category>AEON</category><category>4NE-1</category><category>Neura Robotics</category><category>Agile ONE</category><category>Europe</category><category>Schaeffler</category><category>GENE01</category><category>HMND-01</category><category>Wandercraft</category><category>Agile Robots</category><category>Hexagon</category><category>Humanoid</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-open-sources-ge-act-2-0-challenging-unitree-in-the-open-embodied-ai-race</guid>
-    <title>AGIBOT Open-Sources GE-Act 2.0, Challenging Unitree in the Open Embodied AI Race</title>
-    <link>https://www.humanoidsdaily.com/news/agibot-open-sources-ge-act-2-0-challenging-unitree-in-the-open-embodied-ai-race</link>
-    <description>Hot on the heels of Unitree’s UnifoLM release, AGIBOT has open-sourced GE-Act 2.0, a native World-Action Model pretrained from scratch across 30,000 hours of manipulation data to eliminate the "validity gap."</description>
-    <pubDate>Fri, 11 Sep 2026 15:35:32 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>open-source</category><category>China</category><category>AGIBOT</category>
   </item>
 
   </channel>
