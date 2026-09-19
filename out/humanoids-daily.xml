@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Fri, 18 Sep 2026 14:14:44 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 19 Sep 2026 10:27:00 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/1x-50000-robots-bornich-production-data</guid>
+    <title>1X Aims to Ship 50,000 Robots—But Keeping Them Working Is the Test</title>
+    <link>https://www.humanoidsdaily.com/news/1x-50000-robots-bornich-production-data</link>
+    <description>Bernt Børnich outlines 1X’s shipment ambitions, a mix of home and enterprise deployments, and why he expects broader robot intelligence to gain ground in 2027.</description>
+    <pubDate>Sat, 19 Sep 2026 10:27:00 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>1X Technologies</category><category>US</category><category>manufacturing</category><category>NEO</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-optimus-supplier-audits-china</guid>
     <title>Tesla Reportedly Begins New Optimus Supplier Audits in China</title>
@@ -298,16 +308,6 @@
     <pubDate>Sun, 13 Sep 2026 06:32:43 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Market</category><category>manufacturing</category><category>China</category><category>UBTECH Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/the-humanoids-of-europe</guid>
-    <title>The Humanoids of Europe: Built by Their Customers</title>
-    <link>https://www.humanoidsdaily.com/features/the-humanoids-of-europe</link>
-    <description>While the coverage stays fixed on China and the United States, seven European companies have quietly signed deployment commitments running into the thousands of units. Europe's humanoid sector is being built by its buyers.</description>
-    <pubDate>Sat, 12 Sep 2026 10:32:54 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Calvin</category><category>Generative Bionics</category><category>Uma</category><category>AEON</category><category>4NE-1</category><category>Neura Robotics</category><category>Agile ONE</category><category>Europe</category><category>Schaeffler</category><category>GENE01</category><category>HMND-01</category><category>Wandercraft</category><category>Agile Robots</category><category>Hexagon</category><category>Humanoid</category>
   </item>
 
   </channel>
