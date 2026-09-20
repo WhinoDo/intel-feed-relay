@@ -4,7 +4,50 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-17T13:03:19Z</ns0:updated>
+  <ns0:updated>2026-09-20T21:02:18Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/d20a4538016d9fe0374a34011aebc1c8cddf3e0d</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d20a4538016d9fe0374a34011aebc1c8cddf3e0d" />
+    <ns0:title>
+        docs: document lancedb dataset backend (#4567)
+    </ns0:title>
+    <ns0:updated>2026-09-20T21:02:18Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/15766192?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>AyushExel</ns0:name>
+      <ns0:uri>https://github.com/AyushExel</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: document lancedb dataset backend (#4567)
+
+* document the lance storage format
+
+* lead the lance section with what it gives you
+
+* call it the LanceDB dataset backend and mention foxglove
+
+* lead the backend section with what lancedb is
+
+* drop the example run and rename the bullet
+
+* Update LeRobotDataset example in documentation
+
+Co-authored-by: Copilot Autofix powered by AI &amp;lt;175728472+Copilot@users.noreply.github.com&amp;gt;
+Signed-off-by: Ayush Chaurasia &amp;lt;ayush.chaurarsia@gmail.com&amp;gt;
+
+* note that the reader needs video-backed camera features
+
+* mention zero-copy feature engineering and tighten the section
+
+* address review: move the section under other formats, HF-native examples, both viewers
+
+* drop the remote-root and plugin notes
+
+---------
+
+Signed-off-by: Ayush Chaurasia &amp;lt;ayush.chaurarsia@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/5aa74557f84c54d4b458f8b9643c5aa2982acfed</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/5aa74557f84c54d4b458f8b9643c5aa2982acfed" />
@@ -529,24 +572,6 @@ Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;
     </ns0:author>
     <ns0:content type="html">
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(wandb): expose resume and console settings (#4480)
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/c23698e27251a72dfdcef81c51fb6071367036c7</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c23698e27251a72dfdcef81c51fb6071367036c7" />
-    <ns0:title>
-        fix(stats): skip video download with image stats (#4396)
-    </ns0:title>
-    <ns0:updated>2026-09-07T12:30:33Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/80150109?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>sawhney17</ns0:name>
-      <ns0:uri>https://github.com/sawhney17</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(stats): skip video download with image stats (#4396)
 
 Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
