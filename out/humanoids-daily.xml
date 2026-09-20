@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Sat, 19 Sep 2026 10:27:00 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 20 Sep 2026 07:03:00 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-app-optimus-charger-home-integration</guid>
+    <title>Tesla App Code Hints at Optimus Charging and Home Integration</title>
+    <link>https://www.humanoidsdaily.com/news/tesla-app-optimus-charger-home-integration</link>
+    <description>A decompilation of Tesla app 4.61.0 identifies Optimus charger IDs and an energy-site entry, suggesting software preparation without confirming a consumer launch.</description>
+    <pubDate>Sun, 20 Sep 2026 07:03:00 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Optimus</category><category>Tesla</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/gpt-6-astra-roboharm-unsafe-robot-commands</guid>
+    <title>GPT-6 Astra Rarely Refused Unsafe Robot Commands in New Test</title>
+    <link>https://www.humanoidsdaily.com/news/gpt-6-astra-roboharm-unsafe-robot-commands</link>
+    <description>RoboHarm adds a safety test to Astra’s robotics results: 97 attempts and 60 completions across 100 unsafe-instruction trials, with only two safety refusals.</description>
+    <pubDate>Sun, 20 Sep 2026 06:52:09 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>OpenAI</category><category>Benchmark</category><category>Robotics Research</category><category>Research</category><category>RoboCurve</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/1x-50000-robots-bornich-production-data</guid>
     <title>1X Aims to Ship 50,000 Robots—But Keeping Them Working Is the Test</title>
@@ -288,26 +308,6 @@
     <pubDate>Mon, 14 Sep 2026 14:16:37 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Unitree Robotics</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/sharpa-wave-hand-guide</guid>
-    <title>Sharpa Wave: the robotic hand used by NVIDIA and DeepMind</title>
-    <link>https://www.humanoidsdaily.com/features/sharpa-wave-hand-guide</link>
-    <description>How Sharpa Wave gained a place in NVIDIA and DeepMind’s robotics programs, with a guide to its tactile sensing, specifications and software.</description>
-    <pubDate>Mon, 14 Sep 2026 14:11:33 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Sharpa Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/inside-ubtech-s-10-000-unit-super-factory-how-robots-are-building-humanoids-in-liuzhou</guid>
-    <title>Inside UBTECH’s 10,000-Unit Super Factory: How Robots Are Building Humanoids in Liuzhou</title>
-    <link>https://www.humanoidsdaily.com/news/inside-ubtech-s-10-000-unit-super-factory-how-robots-are-building-humanoids-in-liuzhou</link>
-    <description>UBTECH has commissioned a 14,000-square-meter smart manufacturing facility in Guangxi engineered to produce a humanoid every 10 minutes, scaling up the industry’s hardware volume race.</description>
-    <pubDate>Sun, 13 Sep 2026 06:32:43 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Market</category><category>manufacturing</category><category>China</category><category>UBTECH Robotics</category>
   </item>
 
   </channel>
