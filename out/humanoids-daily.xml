@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Sun, 20 Sep 2026 07:03:00 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 20 Sep 2026 19:02:02 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/x-square-robot-lululemon-wuhan-warehouse</guid>
+    <title>X Square’s Robot Starts Work at Lululemon’s Wuhan Warehouse</title>
+    <link>https://www.humanoidsdaily.com/news/x-square-robot-lululemon-wuhan-warehouse</link>
+    <description>X Square says its QUANTA X1 Pro is handling parcels at lululemon’s new Wuhan distribution center, adding a named warehouse deployment to its logistics push.</description>
+    <pubDate>Sun, 20 Sep 2026 19:02:02 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>logistics</category><category>Deployment</category><category>XSquare</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/why-ningbo-matters-tesla-optimus</guid>
+    <title>Why Ningbo Matters to Tesla’s Optimus Ambitions</title>
+    <link>https://www.humanoidsdaily.com/news/why-ningbo-matters-tesla-optimus</link>
+    <description>Tesla’s reported supplier audits put Ningbo’s automotive expertise in focus, as Georg Stieler highlights the Yangtze River Delta’s role in humanoid robotics.</description>
+    <pubDate>Sun, 20 Sep 2026 16:11:02 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Optimus</category><category>Tesla</category><category>manufacturing</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-app-optimus-charger-home-integration</guid>
     <title>Tesla App Code Hints at Optimus Charging and Home Integration</title>
@@ -288,26 +308,6 @@
     <pubDate>Mon, 14 Sep 2026 19:42:19 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Europe</category><category>stealth startup</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/brett-adcock-shares-clip-of-figure-robot-stepping-out-of-vehicle</guid>
-    <title>Brett Adcock’s vehicle clip echoes Figure 03’s delivery demo</title>
-    <link>https://www.humanoidsdaily.com/news/brett-adcock-shares-clip-of-figure-robot-stepping-out-of-vehicle</link>
-    <description>A short clip of a Figure robot stepping out of a vehicle recalls its earlier parcel-delivery footage, but no delivery service has been announced in the post.</description>
-    <pubDate>Mon, 14 Sep 2026 16:10:03 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Brett Adcock</category><category>US</category><category>Figure</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-launches-g1-plus-humanoid-with-stronger-motors-and-moving-neck</guid>
-    <title>Unitree launches G1+ with stronger motors, a moving neck and a $15,000 price</title>
-    <link>https://www.humanoidsdaily.com/news/unitree-launches-g1-plus-humanoid-with-stronger-motors-and-moving-neck</link>
-    <description>Unitree’s G1+ adds two neck joints, stronger motors and revised sensing. The base model lists at $15,000 before tax and shipping.</description>
-    <pubDate>Mon, 14 Sep 2026 14:16:37 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>China</category>
   </item>
 
   </channel>
