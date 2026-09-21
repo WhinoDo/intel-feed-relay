@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 21 Sep 2026 08:51:14 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 21 Sep 2026 18:16:41 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-atlas-rmac-training-center</guid>
+    <title>Boston Dynamics Opens Atlas Training Center at Hyundai’s Georgia Factory</title>
+    <link>https://www.humanoidsdaily.com/news/boston-dynamics-atlas-rmac-training-center</link>
+    <description>The Georgia center is training Atlas for manufacturing tasks, ahead of Hyundai’s planned 2028 rollout. A tenfold expansion is scheduled for 2027.</description>
+    <pubDate>Mon, 21 Sep 2026 18:16:41 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Deployment</category><category>Atlas</category><category>manufacturing</category><category>Boston Dynamics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/softbank-rai-acquisition-marc-raibert</guid>
+    <title>SoftBank Reportedly Agrees to Buy Marc Raibert’s Robotics Institute</title>
+    <link>https://www.humanoidsdaily.com/news/softbank-rai-acquisition-marc-raibert</link>
+    <description>The reported RAI acquisition would add robotics research capacity as Hyundai pursues SoftBank’s Boston Dynamics stake and SoftBank explores other humanoid investments.</description>
+    <pubDate>Mon, 21 Sep 2026 17:59:58 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Hyundai Motor Group</category><category>Business</category><category>Market</category><category>Research</category><category>softbank</category><category>RAI</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-dex5-s-robot-hand</guid>
+    <title>Unitree Unveils Human-Sized Robot Hand Starting at $6,500</title>
+    <link>https://www.humanoidsdaily.com/news/unitree-dex5-s-robot-hand</link>
+    <description>Unitree’s Dex5-S promises 22 degrees of freedom and backdrivable joints at human-hand scale. Its launch leaves key specifications and complete-task performance unverified.</description>
+    <pubDate>Mon, 21 Sep 2026 16:50:06 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Unitree Robotics</category><category>Dexterity</category><category>product-launch</category><category>China</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/primebot-q1-t1-personal-robots-launch</guid>
     <title>PrimeBOT Launches Personal Robots at 19,999 Yuan, Betting on Apps and Companionship</title>
@@ -278,36 +308,6 @@
     <pubDate>Wed, 16 Sep 2026 06:10:53 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>market analysis</category><category>Maven Robotics</category><category>RoboStrategy</category><category>Investment</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/rhoda-tests-whether-scaling-web-video-pretraining-makes-robots-better-at-real-work</guid>
-    <title>Rhoda Tests Whether Scaling Web-Video Pretraining Makes Robots Better at Real Work</title>
-    <link>https://www.humanoidsdaily.com/news/rhoda-tests-whether-scaling-web-video-pretraining-makes-robots-better-at-real-work</link>
-    <description>Rhoda’s latest study puts video pretraining to an industrial test, adding evidence to the debate over how robots should learn.</description>
-    <pubDate>Tue, 15 Sep 2026 20:58:14 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>rhoda-ai</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/odyssey-unveils-odyssey-3-with-flexion-building-humanoid-control-on-its-world-model</guid>
-    <title>Odyssey Unveils Odyssey-3, With Flexion Building Humanoid Control on Its World Model</title>
-    <link>https://www.humanoidsdaily.com/news/odyssey-unveils-odyssey-3-with-flexion-building-humanoid-control-on-its-world-model</link>
-    <description>Flexion has built humanoid policies on Odyssey’s new foundation world model using tens of hours of teleoperation data, with reported gains in resilience to lighting changes.</description>
-    <pubDate>Tue, 15 Sep 2026 20:38:43 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Europe</category><category>Flexion</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/uncaged-agility-ceo-peggy-johnson-and-co-founder-jonathan-hurst-detail-digit-5-architecture-ai-stack-and-supply-chains</guid>
-    <title>Uncaged: Agility CEO Peggy Johnson and Co-Founder Jonathan Hurst Detail Digit 5 Architecture, AI Stack, and Supply Chains</title>
-    <link>https://www.humanoidsdaily.com/news/uncaged-agility-ceo-peggy-johnson-and-co-founder-jonathan-hurst-detail-digit-5-architecture-ai-stack-and-supply-chains</link>
-    <description>Hours after introducing Digit 5, Agility leadership unpacked the technical and commercial mechanics behind breaking the safety cage, from 360-degree vision failsafes to a four-layer physical AI stack.</description>
-    <pubDate>Tue, 15 Sep 2026 18:54:30 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Digit</category><category>Agility Robotics</category>
   </item>
 
   </channel>

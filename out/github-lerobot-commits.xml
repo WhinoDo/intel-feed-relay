@@ -4,7 +4,39 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-21T09:38:21Z</ns0:updated>
+  <ns0:updated>2026-09-21T20:05:24Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/b5683b6591989597591cee2412633d9afae61426</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b5683b6591989597591cee2412633d9afae61426" />
+    <ns0:title>
+        refactor(processors): one path for building processors from a checkpo…
+    </ns0:title>
+    <ns0:updated>2026-09-21T20:05:24Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(processors): one path for building processors from a checkpoint (#4701)
+
+* add a shared loader for pretrained policy processors
+
+* route groot and molmoact2 through the generic pretrained dispatch
+
+* load evo1 pretrained processors through a from_pretrained hook
+
+* reuse the shared processor loader in groot and molmoact2
+
+* resolve sibling policy modules through a single helper
+
+* merge get_policy_class with its private helper
+
+* resolve processor config filenames once
+
+* document the from_pretrained processor hook in the policy guide&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/8352ca62d88ab4464001d427267a6a0758e6cb99</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8352ca62d88ab4464001d427267a6a0758e6cb99" />
@@ -568,24 +600,6 @@ Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): update uv.lock (#4318)
 
 Co-authored-by: github-actions[bot] &amp;lt;github-actions[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/2774d9bddcbbda50e697e162e89e7eaada8d7105</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/2774d9bddcbbda50e697e162e89e7eaada8d7105" />
-    <ns0:title>
-        fix(record): preserve compressed images during reset (#4527)
-    </ns0:title>
-    <ns0:updated>2026-09-07T12:52:13Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/281533835?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>timothyanderson096-ocdealcheck</ns0:name>
-      <ns0:uri>https://github.com/timothyanderson096-ocdealcheck</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(record): preserve compressed images during reset (#4527)
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
