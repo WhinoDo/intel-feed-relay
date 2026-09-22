@@ -4,7 +4,140 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-22T03:03:41Z</ns0:updated>
+  <ns0:updated>2026-09-22T09:55:08Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/0120909ed1e1df860217fefa78755015b0315744</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/0120909ed1e1df860217fefa78755015b0315744" />
+    <ns0:title>
+        fix(rollout): align sync and rtc action/state ordering (#4452)
+    </ns0:title>
+    <ns0:updated>2026-09-22T09:55:08Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(rollout): align sync and rtc action/state ordering (#4452)
+
+* fix(rollout): align sync and rtc action/state ordering
+
+* give the sync ordering stubs a real queued_action_count
+
+* adapt ordering tests to count_queued_actions and step-side anchor binding
+
+* collapse rollout feature-order helpers into one primitive&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/697ceebd7696fa66f5e831f573c475cb9fe3367a</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/697ceebd7696fa66f5e831f573c475cb9fe3367a" />
+    <ns0:title>
+        perf(unitree_g1): cap ONNX Runtime thread pool for the G1 controllers…
+    </ns0:title>
+    <ns0:updated>2026-09-22T09:48:15Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>nepyope</ns0:name>
+      <ns0:uri>https://github.com/nepyope</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(unitree_g1): cap ONNX Runtime thread pool for the G1 controllers (#4264)
+
+Add make_ort_session_options() to g1_utils and use it in every controller that
+opens an ONNX session: GR00T (balance + walk), Holosoma, and the SONIC decoder.
+These are small MLPs stepped at 50 Hz from a background thread alongside the torch
+upper-body/VLA policy and IK; by default ORT spins up a thread per core, which
+starves the real-time control loop and makes rollouts stutter. Cap the pool to
+1 intra / 1 inter thread -- lowest-latency for per-step inference -- and quiet
+ORT logging.
+
+Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/464bda45a43c7c141988f78fd3a3d088373b6d6a</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/464bda45a43c7c141988f78fd3a3d088373b6d6a" />
+    <ns0:title>
+        perf(pi05): batch cameras and autocast siglip inference (#4426)
+    </ns0:title>
+    <ns0:updated>2026-09-22T09:44:38Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>nepyope</ns0:name>
+      <ns0:uri>https://github.com/nepyope</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(pi05): batch cameras and autocast siglip inference (#4426)
+
+* feat(pi05) speed up siglip inference by batching + autocast
+
+* Reword a comment the typos hook rejects
+
+* perf(pi0): batch cameras and autocast siglip inference
+
+Same change as pi0.5: at inference, embed all cameras in one vision-tower
+call and run the tower under bfloat16 autocast when the checkpoint is
+bfloat16. Training keeps one call per camera and float32, unchanged.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/7c98c1b2ce309f94e542bd4b9ee3fe176301edbf</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7c98c1b2ce309f94e542bd4b9ee3fe176301edbf" />
+    <ns0:title>
+        feat(rollout): add-relative-action support to the synchronous inferen…
+    </ns0:title>
+    <ns0:updated>2026-09-22T09:39:45Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(rollout): add-relative-action support to the synchronous inference engine (#4057)
+
+* adding relative actions to sync engine
+
+* adding relative joint exclude test
+
+* replace predict_action_chunk probe with PreTrainedPolicy.queued_action_count()
+
+* relative action anchoring for lerobot eval
+
+* adding guard for the tests requiring datasets
+
+* change responsability to policy and not caller
+
+* fix: only reach for queued_action_count when there is a step to bind
+
+* adressing nits
+* rename queued_action_count to count_queued_actions
+* removing extra comment
+* removing test_eval_relative_actions
+
+* format test_relative_actions with the pinned ruff
+
+* type bind_relative_anchor with a TYPE_CHECKING policy import&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/240ea44cf9f887df944019cf46e18a0d496e1a56</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/240ea44cf9f887df944019cf46e18a0d496e1a56" />
+    <ns0:title>
+        fix(train): only record gpu_mem_gb when the tracker declares it (#4714)
+    </ns0:title>
+    <ns0:updated>2026-09-22T06:50:53Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(train): only record gpu_mem_gb when the tracker declares it (#4714)
+
+fix the red CI run: https://github.com/huggingface/lerobot/actions/runs/35681760312/job/106601550470&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/b64fe1ed9f11eeac53ee821356d2797601701054</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b64fe1ed9f11eeac53ee821356d2797601701054" />
@@ -503,110 +636,6 @@ Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
 * fix(eo1): preserve rendered inputs without system messages
 
 * fix(eo1): condition text generation on projected robot state&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/71a11efe77f55e61f3ab2ce45b40da8cf626afa9</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/71a11efe77f55e61f3ab2ce45b40da8cf626afa9" />
-    <ns0:title>
-        docs(docker): add community-maintained Jetson Dockerfile and installa…
-    </ns0:title>
-    <ns0:updated>2026-09-09T16:07:45Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/3657419?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>ravediamond</ns0:name>
-      <ns0:uri>https://github.com/ravediamond</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(docker): add community-maintained Jetson Dockerfile and installation note (#4599)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/83d184ef1b8d024d45787acd3a0f51cade706697</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/83d184ef1b8d024d45787acd3a0f51cade706697" />
-    <ns0:title>
-        feat(policies): make the training recipe the language contract (#4183)
-    </ns0:title>
-    <ns0:updated>2026-09-09T16:04:40Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>pkooij</ns0:name>
-      <ns0:uri>https://github.com/pkooij</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): make the training recipe the language contract (#4183)
-
-* feat(policies): add recipe-backed text generation contract
-
-* fix(language): preserve runtime processor contracts
-
-* fix(policies): reconnect relative actions after processor overrides
-
-* refactor(language): split training and runtime message processors
-
-* refactor(language): move recipe API out of configs
-
-* refactor(language): keep message routing out of policy factory
-
-* fix(language): limit fresh processor construction to recipe training
-
-* test(language): guard optional training dependencies
-
-* refactor: move language recipes into datasets
-
-* refactor: simplify recipe processor configuration
-
----------
-
-Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/e715bbe321f525bfacb90d380845b3c8ccae95cf</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e715bbe321f525bfacb90d380845b3c8ccae95cf" />
-    <ns0:title>
-        chore(ci): increase max turns claude (#4597)
-    </ns0:title>
-    <ns0:updated>2026-09-09T11:56:05Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(ci): increase max turns claude (#4597)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/a94fb8c0c88504fed0ebed49a5b36737398e8909</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/a94fb8c0c88504fed0ebed49a5b36737398e8909" />
-    <ns0:title>
-        chore(ci): refresh claude action to latest model (#4593)
-    </ns0:title>
-    <ns0:updated>2026-09-09T10:36:19Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(ci): refresh claude action to latest model (#4593)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/2edf1988f49186ddf7dda42a127b7f6a9729bc33</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/2edf1988f49186ddf7dda42a127b7f6a9729bc33" />
-    <ns0:title>
-        chore: update ai policy (#4590)
-    </ns0:title>
-    <ns0:updated>2026-09-09T09:41:43Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore: update ai policy (#4590)&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
