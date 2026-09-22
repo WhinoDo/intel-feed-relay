@@ -4,7 +4,32 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-21T20:05:24Z</ns0:updated>
+  <ns0:updated>2026-09-22T03:03:41Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/b64fe1ed9f11eeac53ee821356d2797601701054</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b64fe1ed9f11eeac53ee821356d2797601701054" />
+    <ns0:title>
+        feat(train): add support for fp16 mixed precision (#4652)
+    </ns0:title>
+    <ns0:updated>2026-09-22T03:03:41Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(train): add support for fp16 mixed precision (#4652)
+
+* feat(train): support fp16 mixed precision on every topology
+
+Enable fp16 under FSDP2/HSDP. accelerate builds a plain
+`torch.amp.GradScaler` for FSDP2 and torch reduces the scaler&amp;#39;s
+found-inf flag across the device mesh, so an overflow on one rank skips the
+optimizer update on all of them.
+
+Finish the scaler integration, which also fixes single-GPU and DDP under fp16 training.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/b5683b6591989597591cee2412633d9afae61426</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b5683b6591989597591cee2412633d9afae61426" />
@@ -582,24 +607,6 @@ Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
     </ns0:author>
     <ns0:content type="html">
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore: update ai policy (#4590)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/34e42ca56b72ab51246ae5a4e315201c2c5ab8bd</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/34e42ca56b72ab51246ae5a4e315201c2c5ab8bd" />
-    <ns0:title>
-        chore(dependencies): update uv.lock (#4318)
-    </ns0:title>
-    <ns0:updated>2026-09-09T09:25:53Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): update uv.lock (#4318)
-
-Co-authored-by: github-actions[bot] &amp;lt;github-actions[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
