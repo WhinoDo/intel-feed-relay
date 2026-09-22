@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 22 Sep 2026 08:26:28 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 22 Sep 2026 11:12:05 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xpeng-iron-showroom-interaction-memory</guid>
+    <title>XPENG’s IRON Remembers Car Buyers in New Interaction Demo</title>
+    <link>https://www.humanoidsdaily.com/news/xpeng-iron-showroom-interaction-memory</link>
+    <description>XPENG shows IRON tracking speakers, switching languages and recalling customer preferences in a showroom-style R&amp;D test, ahead of its planned store deployments.</description>
+    <pubDate>Tue, 22 Sep 2026 11:12:05 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>China</category><category>XPENG</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/south-korea-robot-ai-2027-logistics</guid>
+    <title>South Korea Plans Robot AI Push in 2027, Starting With Logistics</title>
+    <link>https://www.humanoidsdaily.com/news/south-korea-robot-ai-2027-logistics</link>
+    <description>A planned 2027 program would combine robot AI research, a physical-data library and early postal and logistics trials. Its budget is still being finalized.</description>
+    <pubDate>Tue, 22 Sep 2026 09:39:20 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Data Collection</category><category>South Korea</category><category>Research</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/robros-igris-c-full-body-teleoperation</guid>
     <title>Robros Adds Full-Body Teleoperation to Its Korean Humanoid</title>
@@ -288,26 +308,6 @@
     <pubDate>Wed, 16 Sep 2026 17:46:26 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Digit</category><category>Agility Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/gpt-6-beats-specialist-models-robotics-tests</guid>
-    <title>GPT-6 Is Beating Specialist Models in Robotics Tests</title>
-    <link>https://www.humanoidsdaily.com/news/gpt-6-beats-specialist-models-robotics-tests</link>
-    <description>GPT-6 Astra leads specialist models on selected simulation tasks. New robot-arm demos add to the promise, while tougher tests expose its limits.</description>
-    <pubDate>Wed, 16 Sep 2026 07:01:35 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>OpenAI</category><category>Benchmark</category><category>Research</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-ai-models-unifolm-explained</guid>
-    <title>Unitree’s AI models explained: UniFoLM, WLA and X2</title>
-    <link>https://www.humanoidsdaily.com/features/unitree-ai-models-unifolm-explained</link>
-    <description>From autonomous sparring to handling laundry, Unitree is building the AI behind its humanoids. Here is how its UniFoLM models differ—and what developers can actually download.</description>
-    <pubDate>Wed, 16 Sep 2026 06:27:12 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>China</category>
   </item>
 
   </channel>
