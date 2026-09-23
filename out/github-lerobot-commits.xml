@@ -4,7 +4,27 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-23T17:46:08Z</ns0:updated>
+  <ns0:updated>2026-09-23T21:00:36Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/73ab890324b303424a8a5f07272f22c36be5d269</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/73ab890324b303424a8a5f07272f22c36be5d269" />
+    <ns0:title>
+        fix(tests): restore TF32 after Flux training tests (#4740)
+    </ns0:title>
+    <ns0:updated>2026-09-23T21:00:36Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>pkooij</ns0:name>
+      <ns0:uri>https://github.com/pkooij</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(tests): restore TF32 after Flux training tests (#4740)
+
+* fix(tests): restore TF32 after Flux training tests
+
+* test(flux3): scope TF32 cleanup to the training test&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/f6c0f192952d0dfe5a48805f9688711294461bff</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f6c0f192952d0dfe5a48805f9688711294461bff" />
@@ -510,32 +530,6 @@ without their defaults, unlike the Common Flags / Interactive tables
 further down. Notably --display_data defaults to false and isn&amp;#39;t set
 in the Quick Start example, so a reader following it gets no Rerun
 visualization unless they know to pass --display_data=true explicitly.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/262d2fd07e32224d46dca8ba8bcdef5a0b3a9c3b</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/262d2fd07e32224d46dca8ba8bcdef5a0b3a9c3b" />
-    <ns0:title>
-        LanceDB loader quick wins: fail-closed open, lazy blob handles, row i…
-    </ns0:title>
-    <ns0:updated>2026-09-21T06:55:46Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/15766192?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>AyushExel</ns0:name>
-      <ns0:uri>https://github.com/AyushExel</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;LanceDB loader quick wins: fail-closed open, lazy blob handles, row ids resolved once (#4565)
-
-* lance reader: publish handles last so a failed open can retry
-
-* lance reader: resolve blob handles on the first fallback read
-
-* lance reader: resolve video row ids once at construction
-
-* address review: create pools after the open succeeds, cover the recovery paths
-
-* lance reader: default to 256 cached decoders per worker, expose video_decoder_cache_size on LeRobotDataset&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
