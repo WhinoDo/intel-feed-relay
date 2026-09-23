@@ -4,7 +4,250 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-22T13:24:27Z</ns0:updated>
+  <ns0:updated>2026-09-23T13:38:59Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/c2e066898599b3f30d8f7d0845f1aa26e6bcd98c</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c2e066898599b3f30d8f7d0845f1aa26e6bcd98c" />
+    <ns0:title>
+        chore(mypy): cover common (#4737)
+    </ns0:title>
+    <ns0:updated>2026-09-23T13:38:59Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover common (#4737)
+
+Enable ignore_errors = false for lerobot.common.* (9 gate errors in 2 files -&amp;gt; 0).
+train_utils: narrow cfg.checkpoint_path once via a private _resume_checkpoint_dir()
+helper shared by both resume phases (ValueError naming the --config_path vs
+--policy.path/--reward_model.path precedence when unset); annotate build_card_context
+with dict[str, PolicyFeature] features and a dict[str, Any] Jinja template context.
+wandb_utils: cfg_to_group reads the active config through cfg.trainable_config (never
+Optional); match.group(1) instead of groups(0)[0]; run-id resolution restructured so the
+output_dir narrowing only guards the resume branch. Test cfg mocks swap the unread
+`policy` for `trainable_config`; a new test pins the resume-without-output_dir ValueError.
+No new TypedDict/Protocol; 0 type: ignore, 0 casts.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/47e7d4b3faf70c76570f6ea8d01dec5112f3d7d5</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/47e7d4b3faf70c76570f6ea8d01dec5112f3d7d5" />
+    <ns0:title>
+        chore(mypy): cover teleoperators (#4736)
+    </ns0:title>
+    <ns0:updated>2026-09-23T13:38:38Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover teleoperators (#4736)
+
+Enable the `lerobot.teleoperators.*` mypy override and fix the 109 errors it
+surfaced. Annotated attributes and returns at the source (RobotAction, Optional
+device handles, TeleopEvents-keyed event dicts, raw-int vs smoothed-float EMA
+state), aligned connect()/is_calibrated with the Teleoperator ABC (gamepad,
+phone, keyboard), narrowed Optionals with DeviceNotConnectedError guards, made
+_read_current_pose return a tuple-or-None, and wrapped raw encoder ticks in
+int() at the MotorCalibration boundary. Review pass: keyboard key events are
+typed `str | Key | None` (pynput yields None for unmapped keys), the dead
+KeyboardTeleop.action_features raises NotImplementedError instead of carrying
+two type: ignore, and the exo_ik optional-dependency types all live under
+TYPE_CHECKING. 0 type: ignore, 1 cast (keyboard get_action -&amp;gt; RobotAction).&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/bed246ed34b0cb6ee1abbfd3285eed94cf8767bc</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/bed246ed34b0cb6ee1abbfd3285eed94cf8767bc" />
+    <ns0:title>
+        chore(mypy): cover utils (#4735)
+    </ns0:title>
+    <ns0:updated>2026-09-23T13:31:08Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover utils (#4735)
+
+Enable the lerobot.utils.* mypy override (ignore_errors = false); the CI gate
+went from 31 errors in 9 files to 0.
+
+- import_utils: @overload is_package_available so the _foo_available flags type as bool
+  (tuple[bool, str] with a keyword return_version=True, the union for a runtime bool);
+  order-preserving dedup via dict.fromkeys.
+- utils: sys.platform == &amp;quot;win32&amp;quot; narrowing for the Windows-only msvcrt / CREATE_NO_WINDOW
+  paths; flatten_dict/unflatten_dict typed dict[str, Any]; enter_pressed returns a real bool.
+- transition: move_transition_to_device binds torch.device to a new local and indexes the
+  TypedDict with the literal &amp;quot;action&amp;quot; key so the file type-checks on its own under the
+  pre-commit hook (pass_filenames + follow_imports=skip); Transition.reward/done/truncated
+  widened to `| torch.Tensor`, matching the body&amp;#39;s isinstance branches and EnvTransition.
+- feature_utils: hw_to_dataset_features takes Mapping[str, type | tuple[int, ...] | PolicyFeature]
+  (pipeline_features passes PolicyFeature values; Mapping because dict is invariant) and
+  returns dict[str, dict[str, Any]].
+- process / keyboard_input: multiprocessing.synchronize.Event imported at module level (stdlib,
+  as in transport/utils.py); TYPE_CHECKING-guarded pynput import replaces the conflicting
+  runtime re-import; precise locals (collate, feature_utils); `-&amp;gt; None` on touched signatures.
+- random_utils: isinstance narrowing on numpy&amp;#39;s dict | tuple RNG state (local mypy: 0 residual).
+- 8 type: ignore[attr-defined] for function-attribute live-stream state in foxglove/rerun; 0 casts.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/2b42920501c2419d36c01b445edb6c108fae3748</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/2b42920501c2419d36c01b445edb6c108fae3748" />
+    <ns0:title>
+        chore(mypy): cover datasets (#4734)
+    </ns0:title>
+    <ns0:updated>2026-09-23T13:16:46Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover datasets (#4734)
+
+Enable the lerobot.datasets.* mypy override and fix the 114 errors it
+surfaced: Optional narrowing (video_path / revision / hf_dataset / lazily
+opened lance resources), precise container annotations for stats, plan and
+kwargs dicts, __getitem__ overloads on LeRobotDataset, and a few wrong
+annotations (aggregate_feature_stats, get_episodes_file_paths, dtype).
+New private types: _SamplePlan (TypedDict), _RangeReader (Protocol), an
+_opened[T] narrowing helper and ImageWriterItem/ImageWriterQueue aliases.
+No type: ignore added (one removed); 3 commented casts; LANGUAGE_* made Final.
+Inputs that already failed (no video_path template, unopened lance resources,
+unloaded hf_dataset, None delta indices) now raise ValueError/RuntimeError
+instead of AttributeError/TypeError; no path that worked before changes.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/c1158f4320f3db78f40ab3cecdbf5f4230c23bbc</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c1158f4320f3db78f40ab3cecdbf5f4230c23bbc" />
+    <ns0:title>
+        Pin GitHub Actions to commit SHAs (#4732)
+    </ns0:title>
+    <ns0:updated>2026-09-23T13:14:21Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/25720743?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>hf-security-analysis</ns0:name>
+      <ns0:uri>https://github.com/hf-security-analysis</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Pin GitHub Actions to commit SHAs (#4732)
+
+A tag is mutable: whoever controls the action&amp;#39;s repository can move
+`v4` to different code, and the next run picks it up with no diff to
+review. Pinning to the commit SHA freezes the code that runs today.
+
+Co-authored-by: hf-security-analysis[bot] &amp;lt;265538906+hf-security-analysis[bot]@users.noreply.github.com&amp;gt;
+Co-authored-by: Pauline Bailly-Masson &amp;lt;155966238+paulinebm@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/8f5da7cae165e07698a48dcc7e83e443f9a48ec9</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8f5da7cae165e07698a48dcc7e83e443f9a48ec9" />
+    <ns0:title>
+        chore(mypy): cover lerobot_types (#4733)
+    </ns0:title>
+    <ns0:updated>2026-09-23T12:57:46Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover lerobot_types (#4733)
+
+Replace `TransitionKey(str, Enum)` with a `@final` constants class whose members
+are `Final[Literal[...]]` strings, and rewrite `EnvTransition` as a class-based
+`TypedDict` with the seven literal keys (all required). mypy cannot index a
+TypedDict with a str-Enum member (it reports the member NAME as a missing key)
+and rejects non-literal field names in the functional `TypedDict(...)` form, so
+the old definitions left `EnvTransition` with no usable fields for every module
+that handles transitions. With the new spelling `td[TransitionKey.X]`,
+`.get(...)`, `.copy()` and dict literals keyed by `TransitionKey.X` type-check
+with no call-site changes. The explicit `Final[Literal[&amp;quot;x&amp;quot;]]` form (rather than
+the implicit `Final = &amp;quot;x&amp;quot;`) keeps the literal type when a member is bound to a
+local or a tuple variable; only a `list` of members widens to `list[str]`.
+`PolicyAction` and `EnvAction` get an explicit `TypeAlias` because their
+torch/numpy targets resolve to `Any` under the CI mypy config
+(`follow_imports = skip`, no stubs); a PEP 695 `type` statement is not usable
+since both are `isinstance` targets.
+
+Enable the `lerobot.lerobot_types` mypy override in pyproject.toml and drop the
+Enum-only `.value` accesses and the `isinstance(k, TransitionKey)` assertion in
+tests: tests/processor/{test_act,test_diffusion,test_gaussian_actor,
+test_smolvla,test_tdmpc,test_vqbet}_processor.py, tests/processor/test_pipeline.py,
+tests/rewards/test_classifier_processor.py, tests/test_interactive_rollout.py.
+
+BREAKING (intentional, no compat shim): `TransitionKey` is no longer an `Enum`.
+`TransitionKey(&amp;quot;observation&amp;quot;)`, `TransitionKey[&amp;quot;OBSERVATION&amp;quot;]`,
+`list(TransitionKey)`, `&amp;quot;observation&amp;quot; in TransitionKey`, `.value` / `.name` and
+`__members__` now raise; `isinstance(x, TransitionKey)` is always False; `str()`
+/ f-strings render `&amp;quot;observation&amp;quot;` instead of `&amp;quot;TransitionKey.OBSERVATION&amp;quot;`.
+Nothing in src/, tests/, examples/ or docs/ used these. Consequences:
+- Pickles of transitions written by older versions fail to load with
+  `TypeError: TransitionKey() takes no arguments` (Enum reduce calls the class);
+  no in-repo cross-version path exists. `torch.load(weights_only=True)` of a
+  transition, which failed on Enum keys, now works.
+- `ValueError(&amp;quot;Cannot filter batched field ...&amp;quot;)` in
+  processor/render_messages_processor.py now names `&amp;#39;observation.foo&amp;#39;` /
+  `&amp;#39;action&amp;#39;` instead of `&amp;#39;TransitionKey.OBSERVATION.foo&amp;#39;`; no test pins the text.
+- `EnvTransition.__annotations__` holds lazy strings (the module already uses
+  `from __future__ import annotations`); use `typing.get_type_hints`.
+
+Left for the not-yet-gated modules&amp;#39; own PRs: rewards/{topreward,robometer}/
+compute_rabc_weights.py and policies/lawam/processor_lawam.py pass partial dict
+literals where an `EnvTransition` is expected (mypy: Missing keys), and
+processor/device_processor.py iterates *lists* of keys, which widen to `str`.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/587e2736b086df7f07fb34bffb76fe512d7692f7</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/587e2736b086df7f07fb34bffb76fe512d7692f7" />
+    <ns0:title>
+        Scope GITHUB_TOKEN permissions per job (#4731)
+    </ns0:title>
+    <ns0:updated>2026-09-23T12:55:36Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/25720743?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>hf-security-analysis</ns0:name>
+      <ns0:uri>https://github.com/hf-security-analysis</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Scope GITHUB_TOKEN permissions per job (#4731)
+
+A job with no `permissions:` block inherits whatever the repository
+hands out. Each block added here grants what that job&amp;#39;s own steps
+need and nothing more.
+
+Co-authored-by: hf-security-analysis[bot] &amp;lt;265538906+hf-security-analysis[bot]@users.noreply.github.com&amp;gt;
+Co-authored-by: Pauline Bailly-Masson &amp;lt;155966238+paulinebm@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/46506e57beee1000625bd10fe930f37242e655fa</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/46506e57beee1000625bd10fe930f37242e655fa" />
+    <ns0:title>
+        chore(dependencies): update uv.lock (#4600)
+    </ns0:title>
+    <ns0:updated>2026-09-23T12:44:29Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): update uv.lock (#4600)
+
+Co-authored-by: github-actions[bot] &amp;lt;github-actions[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/9a6bb61043bac8c14353fcb6ea513b7473c118e3</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9a6bb61043bac8c14353fcb6ea513b7473c118e3" />
@@ -316,316 +559,6 @@ Signed-off-by: Ayush Chaurasia &amp;lt;ayush.chaurarsia@gmail.com&amp;gt;
 ---------
 
 Signed-off-by: Ayush Chaurasia &amp;lt;ayush.chaurarsia@gmail.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/5aa74557f84c54d4b458f8b9643c5aa2982acfed</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/5aa74557f84c54d4b458f8b9643c5aa2982acfed" />
-    <ns0:title>
-        fix(rollout): carry --duration to dataset.episode_time_s for episodic…
-    </ns0:title>
-    <ns0:updated>2026-09-17T13:03:19Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(rollout): carry --duration to dataset.episode_time_s for episodic (#4448)
-
-Co-authored-by: Steven Palma &amp;lt;steven.palma@huggingface.co&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/c73cec56b04f50ebe9286c79905103866d970169</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c73cec56b04f50ebe9286c79905103866d970169" />
-    <ns0:title>
-        feat(policies): add LaWAM policy (#3999)
-    </ns0:title>
-    <ns0:updated>2026-09-17T11:51:46Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/49668980?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Nemo-1024</ns0:name>
-      <ns0:uri>https://github.com/Nemo-1024</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): add LaWAM policy (#3999)
-
-* feat(policies): add LaWAM policy
-
-* fix(policies): finalize LaWAM checkpoint scope
-
-* refactor(policies): streamline LaWAM integration
-
-* fix(policies): address LaWAM review feedback
-
-* fix(policies): preserve LaWAM GPU inference
-
-* refactor(policies): use native safetensors for LaWAM
-
-* docs(policies): document LaWAM integration
-
-* refactor(policies): move LaWAM preprocessing to processors
-
-* fix(policies): align LaWAM fine-tuning pipeline
-
-* fix(lawam): guard optional processor dependencies and repair CI tests
-
-* refactor(lawam): use specialized processor steps
-
-* test(lawam): remove redundant optional dependency test&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/30074f7f1358b3c015ae1750017200e86e9c4eb6</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/30074f7f1358b3c015ae1750017200e86e9c4eb6" />
-    <ns0:title>
-        fix(processors): make relative actions work with a stacked observatio…
-    </ns0:title>
-    <ns0:updated>2026-09-16T14:52:20Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(processors): make relative actions work with a stacked observation state (#4656)
-
-* fix(processor): anchor relative actions on the current frame of a stacked state
-
-* fix(eval): reset the processors between rollout batches
-
-* adding reset override for relative action&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/77de23890bec5fb3887c5ba8404d6e51be7bfb72</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/77de23890bec5fb3887c5ba8404d6e51be7bfb72" />
-    <ns0:title>
-        feat(g1): select end effector and camera options through config (#4645)
-    </ns0:title>
-    <ns0:updated>2026-09-16T14:46:07Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>nepyope</ns0:name>
-      <ns0:uri>https://github.com/nepyope</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(g1): select end effector and camera options through config (#4645)
-
-* feat(g1): select the end effector by hardware name
-
-Add an `end_effector` field to UnitreeG1Config taking &amp;quot;dex1&amp;quot;, &amp;quot;dex3&amp;quot; or
-&amp;quot;dummy&amp;quot;. In simulation it selects the MuJoCo model, and with it the finger
-actuators and which wrist cameras exist; on the real robot it is for now only a
-declaration of what is bolted on, reusing the same name for both paths.
-
-Reaching it needs `make_env` to forward unknown keyword arguments to a hub
-env&amp;#39;s own `make_env`, since options like this one are defined by the env rather
-than by lerobot.
-
-* fix(envs): reject extra make_env arguments for local EnvConfigs
-
-Forwarding unknown keyword arguments to a hub env made them silently harmless
-everywhere else: make_env(cfg, n_env=4) used to raise TypeError and instead
-built one env, so a misspelt argument became a no-op. Only the hub path has
-somewhere to forward to, so the local path now rejects leftovers.
-
-* refactor(envs): carry the G1 end effector in a HubEnvConfig
-
-The flag reached the sim as an extra make_env keyword, which pushed one
-env&amp;#39;s option into the shared factory signature. Give the sim a
-UnitreeG1MujocoEnv config instead: the robot config holds it, make_env
-passes it to the hub env untouched, and the sim reads the option off it.
-factory.py and utils.py go back to their original signatures, and the
-Literal makes the CLI list the three choices and reject anything else.
-
-* feat(envs): carry the G1 sim&amp;#39;s camera and viewer options in its config
-
-The sim reads publish_images, camera_port and onscreen off the config the
-same way it reads the end effector, so declaring them is all it takes to
-reach them from the CLI. onscreen follows publish_images unless it is set,
-because the two cannot coexist: the offscreen renderers are bound to the
-thread that creates them, and asking for both segfaults the process once
-the viewer starts driving MuJoCo.
-
-* docs(g1): document the sim&amp;#39;s end effector and camera options
-
-* feat(g1): name the end effector on the robot config
-
-What the arms carry is a property of the robot, not of the simulated world, so
---robot.end_effector is the flag and the hardware paths have somewhere to read
-it from once they need to. The sim still takes it off the config it is handed,
-which the robot config now keeps in step rather than asking for it twice.
-
-* docs(g1): point at --robot.end_effector
-
-* refactor(g1): fold the end effector into the sim config at the call site
-
-* refactor(g1): set the sim&amp;#39;s end effector directly
-
-* refactor(g1): keep the sim&amp;#39;s end effector in step from __post_init__
-
-* refactor(envs): make the G1 end effector an enum
-
-Follows ColorMode rather than a Literal alias, so an unknown name reports the
-ones that exist. draccus takes either spelling on the CLI, and the member is a
-str, which is all the sim asks of it -- it only compares and keys dicts.
-
-* Update docs/source/unitree_g1.mdx
-
-Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;
-Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
-
-* Update src/lerobot/envs/configs.py
-
-Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;
-Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
-
-* fix(g1): keep the sim world off the robot&amp;#39;s command line
-
-A RobotConfig that reaches an EnvConfig closes a loop in the parser tree: draccus
-descends into every choice of every registry it meets, and the gym_manipulator env
-carries a RobotConfig of its own. Building the tree then never ends, which broke
-every robot CLI, not just the G1&amp;#39;s.
-
-Assemble the sim world in __post_init__ instead, from flags that live on the robot,
-and cover it with a parse that fails fast if the loop comes back.
-
-* style(g1): tighten the comments on the sim config fields
-
-* Update src/lerobot/envs/configs.py
-
-Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;
-Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
-
-* Update src/lerobot/robots/unitree_g1/config_unitree_g1.py
-
-Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;
-Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
-
-* feat(g1): expose sim viewer toggle
-
----------
-
-Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
-Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/d6039b8376a3ee099a6f0f64c1bb8599ca743ae3</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d6039b8376a3ee099a6f0f64c1bb8599ca743ae3" />
-    <ns0:title>
-        feat(eval): report success counts and 95% Wilson intervals at every a…
-    </ns0:title>
-    <ns0:updated>2026-09-16T11:15:19Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/67662988?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Rahillasne</ns0:name>
-      <ns0:uri>https://github.com/Rahillasne</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(eval): report success counts and 95% Wilson intervals at every aggregation level (#4628)
-
-* feat(eval): report success counts and 95% Wilson intervals at every aggregation level
-
-A success rate over 10 to 50 episodes is a binomial estimate with a wide
-interval (9/10 is compatible with roughly 60% to 98%), and lerobot-eval
-reported it as a bare number. Every success rate in eval_info.json now
-carries n_success, n_episodes and pc_success_ci95 (percent), at task, suite
-and overall level, and lerobot-eval logs the overall interval.
-
-lerobot.utils.eval_stats adds wilson_interval, success_summary and a
-two-sided fisher_exact, standard library only. Reference values in the tests
-were checked against scipy.
-
-Existing keys and values are unchanged. Roadmap EVAL-01 (#3832).
-
-* docs: run the eval_stats docstring examples in CI (first entry in the doctest allowlist)
-
-* fix(eval): drop the unused confidence argument from success_summary
-
-Addresses review finding 1. success_summary took a confidence argument but
-always wrote the result under pc_success_ci95, so success_summary(flags,
-confidence=0.9) returned a 90% interval under a key that says 95. Nothing
-passed it, so the argument is gone and the coverage is fixed at 95%, which
-makes the key name always true. wilson_interval keeps the argument for callers
-that want a different level.
-
-Also rewords the test comment (finding 5): eval_policy yields Python bools
-today, and the test accepts 0/1 ints so a future change to the reduction cannot
-silently change what gets counted. The old wording sent readers looking for a
-backend that does not exist.
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/89236ea0f4f81a81ca566081e20dd1ff5f823cbe</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/89236ea0f4f81a81ca566081e20dd1ff5f823cbe" />
-    <ns0:title>
-        feat(wall-x): add language runtime and text supervision (#4234)
-    </ns0:title>
-    <ns0:updated>2026-09-14T13:33:07Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>pkooij</ns0:name>
-      <ns0:uri>https://github.com/pkooij</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(wall-x): add language runtime and text supervision (#4234)
-
-* feat(wall-x): add recipe-backed language generation
-
-* test(wall-x): cover rendered VQA generation
-
-* fix(wall-x): adopt merged recipe processor contract
-
-* refactor(wall-x): split prompt rendering from tokenization
-
-* chore(wall-x): remove unused processing config
-
-* fix(wall-x): align training and runtime prompts
-
----------
-
-Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/b641727abd531f8e85afe43cc40f807a0e384c18</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b641727abd531f8e85afe43cc40f807a0e384c18" />
-    <ns0:title>
-        fix: synchronize rollout and policy devices (#4586)
-    </ns0:title>
-    <ns0:updated>2026-09-14T13:32:51Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/73610213?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>philippguevorguian</ns0:name>
-      <ns0:uri>https://github.com/philippguevorguian</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix: synchronize rollout and policy devices (#4586)
-
-* fix: synchronize rollout and policy devices
-
-* fix(rollout): validate policy before access&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/78e9066ce4ea27d2738c29e4b6777140f4cc01af</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/78e9066ce4ea27d2738c29e4b6777140f4cc01af" />
-    <ns0:title>
-        fix: flatten grouped action feature names (#4587)
-    </ns0:title>
-    <ns0:updated>2026-09-14T12:48:08Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/73610213?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>philippguevorguian</ns0:name>
-      <ns0:uri>https://github.com/philippguevorguian</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix: flatten grouped action feature names (#4587)&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
