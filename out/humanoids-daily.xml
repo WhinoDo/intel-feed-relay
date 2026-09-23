@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 22 Sep 2026 11:12:05 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 23 Sep 2026 09:30:04 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/brett-adcock-humanoids-data-compute-llms</guid>
+    <title>Brett Adcock Says Humanoids Will Need More Data and Compute Than LLMs</title>
+    <link>https://www.humanoidsdaily.com/news/brett-adcock-humanoids-data-compute-llms</link>
+    <description>Sharing Humanoids Daily’s interview clip, Figure’s CEO expands his four-stage roadmap and predicts hundreds of billions in spending to scale robot intelligence and manufacturing.</description>
+    <pubDate>Wed, 23 Sep 2026 09:30:04 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Figure</category><category>AI</category><category>manufacturing</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/apptronik-cardenas-us-humanoid-parts-shortage</guid>
+    <title>Apptronik CEO Warns America Is Missing the Parts to Build Humanoids</title>
+    <link>https://www.humanoidsdaily.com/news/apptronik-cardenas-us-humanoid-parts-shortage</link>
+    <description>Jeff Cardenas singles out U.S. gear shortages and says actuators can account for 60% of robot parts costs, as Apptronik works to build domestic supply capacity.</description>
+    <pubDate>Wed, 23 Sep 2026 07:02:02 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Supply Chain</category><category>manufacturing</category><category>Apptronik</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/beijing-robot-warrior-rescue-challenge-october</guid>
+    <title>Beijing Sets Humanoids a Rescue Challenge for October</title>
+    <link>https://www.humanoidsdaily.com/news/beijing-robot-warrior-rescue-challenge-october</link>
+    <description>An October competition will test robots on practical tasks and simulated hazards, with separate categories for remote operation and autonomous navigation.</description>
+    <pubDate>Tue, 22 Sep 2026 11:51:34 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>China</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xpeng-iron-showroom-interaction-memory</guid>
     <title>XPENG’s IRON Remembers Car Buyers in New Interaction Demo</title>
@@ -278,36 +308,6 @@
     <pubDate>Wed, 16 Sep 2026 18:46:27 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Business</category><category>Market</category><category>Boston Dynamics</category><category>IPO</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-robot-integration-company</guid>
-    <title>Unitree Says It Won’t Become a Robot Integration Company</title>
-    <link>https://www.humanoidsdaily.com/news/unitree-robot-integration-company</link>
-    <description>Unitree’s industrial solutions lead says it will focus on robots and core components, leaving a key question about who delivers complete factory applications.</description>
-    <pubDate>Wed, 16 Sep 2026 18:30:40 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>Business</category><category>Market</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-stock-slump-china-robot-ipos</guid>
-    <title>Unitree’s Stock Slump Puts China’s Robot IPOs Under Scrutiny</title>
-    <link>https://www.humanoidsdaily.com/news/unitree-stock-slump-china-robot-ipos</link>
-    <description>Unitree is down 44% from its debut close. Reports point to closer scrutiny of robotics IPOs, but confirmed listing postponements remain elusive.</description>
-    <pubDate>Wed, 16 Sep 2026 18:06:02 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>Dobot Robotics</category><category>Leju Robot</category><category>Business</category><category>Deep Robotics</category><category>China</category><category>IPO</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-digit-5-wheeled-robot-concept</guid>
-    <title>Agility’s Digit 5 Reveal Includes a Wheeled Robot Concept</title>
-    <link>https://www.humanoidsdaily.com/news/agility-digit-5-wheeled-robot-concept</link>
-    <description>Animations spotted in Agility’s Digit 5 launch material have a written counterpart: its website lists a Wheeled Base Concept. Product details remain unannounced.</description>
-    <pubDate>Wed, 16 Sep 2026 17:46:26 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Digit</category><category>Agility Robotics</category>
   </item>
 
   </channel>
