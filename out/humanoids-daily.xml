@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 23 Sep 2026 14:02:46 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 23 Sep 2026 17:00:00 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/skild-ai-s1-learns-soccer-through-140-years-of-simulated-self-play</guid>
+    <title>Skild AI’s S1 Learns Soccer Through More Than 140 Years of Simulated Self-Play</title>
+    <link>https://www.humanoidsdaily.com/news/skild-ai-s1-learns-soccer-through-140-years-of-simulated-self-play</link>
+    <description>Skild reports real-world soccer play after more than 140 years of simulated self-play. Its published account details human-referenced drills before the goal-driven self-play stage.</description>
+    <pubDate>Wed, 23 Sep 2026 17:00:00 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>reinforcement-learning</category><category>NVIDIA</category><category>Skild AI</category><category>Research</category><category>simulation</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xpeng-iron-supply-chain-partner-conference</guid>
+    <title>XPENG Lines Up Humanoid Suppliers Ahead of Year-End Production Target</title>
+    <link>https://www.humanoidsdaily.com/news/xpeng-iron-supply-chain-partner-conference</link>
+    <description>XPENG says it has signed supplier agreements and is scheduling robot production after its first partner conference, as humanoid developers confront the challenge of securing consistent components at scale.</description>
+    <pubDate>Wed, 23 Sep 2026 15:46:10 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Supply Chain</category><category>China</category><category>XPENG</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/vesoma-emerges-stealth-humanoid-robot</guid>
     <title>Vesoma Emerges From Stealth With a Humanoid Built to Learn</title>
@@ -288,26 +308,6 @@
     <pubDate>Fri, 18 Sep 2026 08:17:37 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Figure-04</category><category>Figure</category><category>helix</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-helix-2-5-30-unseen-homes</guid>
-    <title>Figure’s Helix 2.5 Takes on Chores in 30 Unseen Homes</title>
-    <link>https://www.humanoidsdaily.com/news/figure-helix-2-5-30-unseen-homes</link>
-    <description>Figure reports 56% full-task success for Helix 2.5 across 30 unfamiliar homes, testing whether human-data pretraining transfers to household chores.</description>
-    <pubDate>Thu, 17 Sep 2026 18:53:35 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Figure</category><category>Artificial Intelligence</category><category>helix</category><category>Figure AI Index</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xpeng-xpace-iron-human-videos-simulated-recovery</guid>
-    <title>XPENG’s XPACE Trains IRON With Human Videos and Simulated Mistakes</title>
-    <link>https://www.humanoidsdaily.com/news/xpeng-xpace-iron-human-videos-simulated-recovery</link>
-    <description>XPENG’s XPACE combines human demonstrations and simulated recoveries to improve IRON’s manipulation skills, with gains in small real-robot tests.</description>
-    <pubDate>Thu, 17 Sep 2026 14:17:20 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Robotics Research</category><category>Artificial Intelligence</category><category>XPENG</category><category>IRON</category>
   </item>
 
   </channel>

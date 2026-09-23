@@ -4,7 +4,27 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-23T13:38:59Z</ns0:updated>
+  <ns0:updated>2026-09-23T17:46:08Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/f6c0f192952d0dfe5a48805f9688711294461bff</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f6c0f192952d0dfe5a48805f9688711294461bff" />
+    <ns0:title>
+        feat(flux3): add FLUX 3 Action policy (#4739)
+    </ns0:title>
+    <ns0:updated>2026-09-23T17:46:08Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/33654656?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>ASchwad</ns0:name>
+      <ns0:uri>https://github.com/ASchwad</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(flux3): add FLUX 3 Action policy (#4739)
+
+Add FLUX 3 Action inference, processors, shared encoder loading, and PEFT adaptation with EMA and deterministic checkpoint resume. Include policy tests, packaging, examples, and documentation.
+
+Squash collab PR #4 at b8c9e3928480cdb1a5ea5a3581ce712e6c2f918d onto upstream main c2e066898599b3f30d8f7d0845f1aa26e6bcd98c. Preserve upstream optimizer-overflow handling alongside PEFT EMA parameter selection.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/c2e066898599b3f30d8f7d0845f1aa26e6bcd98c</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c2e066898599b3f30d8f7d0845f1aa26e6bcd98c" />
@@ -516,49 +536,6 @@ visualization unless they know to pass --display_data=true explicitly.&lt;/pre&g
 * address review: create pools after the open succeeds, cover the recovery paths
 
 * lance reader: default to 256 cached decoders per worker, expose video_decoder_cache_size on LeRobotDataset&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/d20a4538016d9fe0374a34011aebc1c8cddf3e0d</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d20a4538016d9fe0374a34011aebc1c8cddf3e0d" />
-    <ns0:title>
-        docs: document lancedb dataset backend (#4567)
-    </ns0:title>
-    <ns0:updated>2026-09-20T21:02:18Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/15766192?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>AyushExel</ns0:name>
-      <ns0:uri>https://github.com/AyushExel</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: document lancedb dataset backend (#4567)
-
-* document the lance storage format
-
-* lead the lance section with what it gives you
-
-* call it the LanceDB dataset backend and mention foxglove
-
-* lead the backend section with what lancedb is
-
-* drop the example run and rename the bullet
-
-* Update LeRobotDataset example in documentation
-
-Co-authored-by: Copilot Autofix powered by AI &amp;lt;175728472+Copilot@users.noreply.github.com&amp;gt;
-Signed-off-by: Ayush Chaurasia &amp;lt;ayush.chaurarsia@gmail.com&amp;gt;
-
-* note that the reader needs video-backed camera features
-
-* mention zero-copy feature engineering and tighten the section
-
-* address review: move the section under other formats, HF-native examples, both viewers
-
-* drop the remote-root and plugin notes
-
----------
-
-Signed-off-by: Ayush Chaurasia &amp;lt;ayush.chaurarsia@gmail.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
