@@ -4,7 +4,194 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-24T11:51:10Z</ns0:updated>
+  <ns0:updated>2026-09-24T16:51:19Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/e624f3f7f8411ec3a02635d06e79373341e5ef35</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e624f3f7f8411ec3a02635d06e79373341e5ef35" />
+    <ns0:title>
+        chore(mypy): one ruleset for the whole codebase and mypy 2.3.1 (#4766)
+    </ns0:title>
+    <ns0:updated>2026-09-24T16:51:19Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): one ruleset for the whole codebase and mypy 2.3.1 (#4766)
+
+* chore(mypy): collapse per-module overrides into one ruleset
+
+Every module except lerobot.rl now passes the gate, so the 25 per-module override blocks are replaced by a single [tool.mypy] ruleset for all checked code. The only exceptions are lerobot.rl (not typed yet) and the vendored molmoact2_hf_model. The package root (__init__, __version__) is now checked too and already passes.
+
+The disallow_untyped_defs / disallow_incomplete_defs / check_untyped_defs flags that only five modules carried are dropped; stricter settings will be adopted repo-wide instead of per module. The obsolete &amp;quot;enable mypy gradually&amp;quot; TODO is removed and the AGENTS.md mypy note is updated.
+
+* chore(mypy): enable the strictness checks that already pass everywhere
+
+warn_redundant_casts, extra_checks and strict_bytes (the mypy 2.x default) plus the deprecated, exhaustive-match, redundant-self, truthy-iterable and unused-awaitable error codes report nothing on the current code, so they are adopted repo-wide at no cost and guard new code from now on.
+
+* chore(mypy): run the pre-commit hook on the whole tree
+
+The hook passed only the staged files, and with follow_imports = skip every other module became Any, so local commits reported about 43 errors that CI (--all-files) never sees, e.g. &amp;quot;Cannot determine type of calibration&amp;quot; on a robot file checked without robot.py. The hook now sets pass_filenames: false and [tool.mypy] lists the checked paths, so a clean checkout analyses the same 557 files locally and in CI. exclude_gitignore keeps ignored scratch files out; untracked files under those paths are still checked.
+
+The hook&amp;#39;s files pattern mirrors that list and includes pyproject.toml, so config-only changes run it too. The generated gRPC modules (_pb2.py, _pb2_grpc.py) are excluded, as they already are from ruff. The stale &amp;quot;Uncomment when ready to use&amp;quot; TODO above the hook is removed, and AGENTS.md now says what the gate checks and how to run it.
+
+* chore(mypy): enable strict_equality
+
+strict_equality reports comparisons that can never be true. Its only hit was LiberoProcessorStep.transform_features, which compared PipelineFeatureType keys against FeatureType.STATE: the filter never matched, a stray FeatureType.STATE key was added and the observation group never got observation.state. It now rebuilds the observation group around the flattened 8-dim state, like the xvla LiberoProcessorStep. Nothing in src calls this method today; a test pins the corrected output.
+
+* chore(mypy): enable local_partial_types
+
+local_partial_types stops mypy from inferring a module-level None variable&amp;#39;s type from uses in other scopes; mypy 2.x enables it by default. Its only hit was wall_x PRIORITY_ORDER, now annotated as the OrderedDict | None that get_task_instruction accepts.
+
+* chore(mypy): enable the truthy-bool error code
+
+truthy-bool reports objects used in a boolean context although they are always truthy (no __bool__/__len__), which is how an `if obj:` meant as a None check silently passes. Both hits were dead checks: create_camera_instance tested `if instance:` after every branch had assigned a camera (its trailing return was unreachable), and the rollout teleop log line re-checked cfg.teleop inside an `is not None` block.
+
+* chore(mypy): disable implicit re-exports
+
+With implicit_reexport = false a name is only importable from a module that defines it or lists it in __all__, which enforces canonical imports. Six importers reached a name through a module that merely imported it and now import it from where it is defined (lerobot_types, utils.import_utils, utils.io_utils, fastwam wan.model, bi_so_leader&amp;#39;s config module).
+
+wall_x.qwen_model drops the transformers Qwen2_5_VLVisionConfig from its imports and __all__. Its config module never re-exported the class and nothing imports it from there, but it was a declared public name: import it from transformers instead.
+
+* chore(mypy): warn about unused type: ignore comments
+
+warn_unused_ignores reports suppressions that no longer suppress anything, so stale ignores cannot pile up or hide a later real error on the same line. It flagged 36, 32 of them already stale on main:
+- 18 import-line ignores (incl. the camera &amp;#39;TODO: add type stubs&amp;#39; ones) made redundant by ignore_missing_imports; the two after a noqa on the VLABench imports, which mypy never parsed, go too;
+- 3 protobuf attr-defined ignores, redundant now that the generated _pb2 modules are excluded;
+- 8 for error codes the ruleset does not enable: no-untyped-def (reader.frames_df gets a return annotation), type-arg (the *_delta_indices properties return list[int]) and no-any-return;
+- 7 on expressions or class lines whose operand is Any in the gate (the push_to_hub shadowing keeps its rename TODO).
+
+The six yaml/requests import ignores move to a per-module ignore_missing_imports override: mypy 1.19.1 needs it and mypy 2.x accepts it, so bumping the pinned mypy will not report them as unused.
+
+* chore(mypy): require error codes on type: ignore comments
+
+The ignore-without-code error code rejects a bare `# type: ignore`, which silences every error on its line instead of the one intended. After the unused-ignore cleanup a single bare ignore remained, on spec.loader in the hub env loader; spec.loader is None is now part of the existing ImportError guard, so the ignore is gone. spec_from_file_location always sets a loader when it returns a spec, so behaviour is unchanged.
+
+* chore(mypy): list the next strictness candidates in the ruleset
+
+warn_unreachable, strict_equality_for_none and check_untyped_defs are worth enabling next but each needs a fix PR first; the ruleset now records them with their current error counts and the caveat that matters for each.
+
+* chore(mypy): bump mypy to 2.3.1
+
+pre-commit ran mypy 1.19.1 while the dev extra (mypy&amp;gt;=1.19.1) already resolved to 2.3.1, so `pre-commit` and `uv run mypy` could disagree. The hook now pins mirrors-mypy v2.3.1 and the dev extra allows the whole 2.x line (&amp;gt;=2.0.0,&amp;lt;3.0.0); the lockfile keeps 2.3.1.
+
+2.3.1 reports two errors that 1.19.1 missed, both fixed without changing behaviour:
+- OpenCVCamera._validate_fourcc unpacked the Optional config.fourcc; it now binds it locally and raises if it is None (both callers already check it).
+- DatasetReader&amp;#39;s column-view cache compared hf_dataset against an Optional attribute with `is not`, which newer mypy uses to re-widen hf_dataset; the comparison now goes through a local.
+
+mypy 2.x no longer reports yaml/requests as untyped under the global ignore_missing_imports, so their override is dropped, and the warn_unreachable candidate count is updated to what 2.3.1 reports (40).&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/957aa2c09e6de23c7eb9aa650ae5ce504fffee09</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/957aa2c09e6de23c7eb9aa650ae5ce504fffee09" />
+    <ns0:title>
+        refactor(datasets): use module loggers consistently (#4744)
+    </ns0:title>
+    <ns0:updated>2026-09-24T15:44:58Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/2283778?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>yanghua</ns0:name>
+      <ns0:uri>https://github.com/yanghua</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(datasets): use module loggers consistently (#4744)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/87db15c88afc98824ffb182aaa789a81d4262fc4</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/87db15c88afc98824ffb182aaa789a81d4262fc4" />
+    <ns0:title>
+        chore(mypy): cover scripts (#4762)
+    </ns0:title>
+    <ns0:updated>2026-09-24T13:38:09Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover scripts (#4762)
+
+Enable the lerobot.scripts.* mypy override (89 errors across 16 files under the CI gate).
+Fixes are Optional narrowing (ValueError guards on programming-error paths, isinstance on
+cfg.trainable_config, a typed multi-teleop tuple in record_loop), precise parameter/local/return
+annotations (make_dataloaders takes LeRobotDataset | StreamingLeRobotDataset and narrows to the
+map-style class before building EpisodeAwareSampler), and a typed device property on
+CalibrateConfig/SetupConfig.
+Cross-module: @overload on LeRobotDataset.__getitem__, Sequence[Path | str] in
+concatenate_video_files, pretrained_path widened to str | Path through the policy/processor
+factories (every caller already passed a Path), and make_dataset/make_train_eval_datasets return
+LeRobotDataset | StreamingLeRobotDataset (MultiLeRobotDataset sits behind a NotImplementedError).
+8 type: ignore (3 call-arg on parser.wrap() entrypoints, 2 import-untyped on requests, 3
+attr-defined: robot.bus, robot.cameras and the LeKiwi-only _from_keyboard_to_base_action, none of
+which the Robot base declares), 0 casts. Runtime changes are limited to the narrowing guards
+(ValueError instead of AttributeError/TypeError on programming-error paths) and the read-only
+device property; lerobot-record&amp;#39;s robot registry is unchanged.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/cc2fbf08976c6edd14edb001616ae79f3121de96</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/cc2fbf08976c6edd14edb001616ae79f3121de96" />
+    <ns0:title>
+        chore(mypy): cover policies (#4763)
+    </ns0:title>
+    <ns0:updated>2026-09-24T13:34:37Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover policies (#4763)
+
+Enable the mypy gate for lerobot.policies (ignore_errors = false; the vendored
+molmoact2_hf_model stays excluded). 409 errors -&amp;gt; 0 under the CI gate, fixed at the
+source: Optional feature/device narrowing (ValueError guards), honest return types
+(get_optim_params -&amp;gt; OptimizerParams, delta-index properties, EnvTransition copies),
+attribute/local annotations, and Liskov-compatible overrides. New types: shared
+RTCActionSelectKwargs (replaces five per-policy copies), diffusion _ResidualBlockKwargs,
+wall_x ResolvedVisionAttentionBackend; norm_map and render-step recipe fields widened in
+lerobot.processor. 7 type: ignore (all coded, with reasons), 5 casts.
+
+Beyond annotations: AlternateVLDiT.forward takes image_mask/vlm_mask keyword-only (all
+callers already pass keywords); xvla LiberoProcessorStep.transform_features, previously
+dead always-raising code, now returns the OBSERVATION group with a (20,) observation.state;
+FastWAMConfig rejects a non-2-element image_size at construction rather than in
+validate_features. diffusion._make_noise_scheduler keeps a quoted return annotation so
+lerobot.policies still imports without the diffusion extra.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/171ce62850ffd1ef11e6f24a4f11dce727fe1fb6</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/171ce62850ffd1ef11e6f24a4f11dce727fe1fb6" />
+    <ns0:title>
+        chore(mypy): cover async_inference (#4760)
+    </ns0:title>
+    <ns0:updated>2026-09-24T11:58:39Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover async_inference (#4760)
+
+Enable the lerobot.async_inference.* mypy override and fix the 20 errors it surfaced.
+Replace the module-local Action/RawObservation aliases with the shared PolicyAction/RobotObservation
+from lerobot.lerobot_types (public-name removal: `from lerobot.async_inference.helpers import Action`
+now raises ImportError; no users in src/tests/docs/examples). LeRobotObservation is now
+dict[str, np.ndarray] (what build_dataset_frame returns), Observation is dict[str, torch.Tensor | str]
+(the policy-ready dict also carries the VLA `task` string) and RemotePolicyConfig.lerobot_features is
+dict[str, dict] (what the client actually sends).
+Annotate PolicyServer/RobotClient handshake state and queues (T | None, Queue[TimedAction], set[int]),
+narrow the Optional server state with a RuntimeError guard at the four consumption points (these fail
+before any inference or last_processed_obs update, where the old code raised AttributeError/TypeError
+mid-pipeline), and fix wrong signatures (torch.tensor -&amp;gt; torch.Tensor, control_loop return types).
+2 type: ignore[attr-defined] on dynamically built services_pb2 message classes; 2 bare ignores dropped.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/c0126fb7e4f5f91754277709c32d2af75919d8c2</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c0126fb7e4f5f91754277709c32d2af75919d8c2" />
@@ -483,106 +670,6 @@ need and nothing more.
 
 Co-authored-by: hf-security-analysis[bot] &amp;lt;265538906+hf-security-analysis[bot]@users.noreply.github.com&amp;gt;
 Co-authored-by: Pauline Bailly-Masson &amp;lt;155966238+paulinebm@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/46506e57beee1000625bd10fe930f37242e655fa</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/46506e57beee1000625bd10fe930f37242e655fa" />
-    <ns0:title>
-        chore(dependencies): update uv.lock (#4600)
-    </ns0:title>
-    <ns0:updated>2026-09-23T12:44:29Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): update uv.lock (#4600)
-
-Co-authored-by: github-actions[bot] &amp;lt;github-actions[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/9a6bb61043bac8c14353fcb6ea513b7473c118e3</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9a6bb61043bac8c14353fcb6ea513b7473c118e3" />
-    <ns0:title>
-        feat(calibration): show the homing position as an ASCII diagram - #46…
-    </ns0:title>
-    <ns0:updated>2026-09-22T13:24:27Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/60154720?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>cetiennec</ns0:name>
-      <ns0:uri>https://github.com/cetiennec</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(calibration): show the homing position as an ASCII diagram - #4669 (#4669)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/7af6936589215ea0d2457de43530bc6322c7cea6</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7af6936589215ea0d2457de43530bc6322c7cea6" />
-    <ns0:title>
-        fix(rtc): chunk-splice jump and mean-action seam (#4454)
-    </ns0:title>
-    <ns0:updated>2026-09-22T10:19:45Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(rtc): chunk-splice jump and mean-action seam (#4454)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/0120909ed1e1df860217fefa78755015b0315744</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/0120909ed1e1df860217fefa78755015b0315744" />
-    <ns0:title>
-        fix(rollout): align sync and rtc action/state ordering (#4452)
-    </ns0:title>
-    <ns0:updated>2026-09-22T09:55:08Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(rollout): align sync and rtc action/state ordering (#4452)
-
-* fix(rollout): align sync and rtc action/state ordering
-
-* give the sync ordering stubs a real queued_action_count
-
-* adapt ordering tests to count_queued_actions and step-side anchor binding
-
-* collapse rollout feature-order helpers into one primitive&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/697ceebd7696fa66f5e831f573c475cb9fe3367a</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/697ceebd7696fa66f5e831f573c475cb9fe3367a" />
-    <ns0:title>
-        perf(unitree_g1): cap ONNX Runtime thread pool for the G1 controllers…
-    </ns0:title>
-    <ns0:updated>2026-09-22T09:48:15Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>nepyope</ns0:name>
-      <ns0:uri>https://github.com/nepyope</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(unitree_g1): cap ONNX Runtime thread pool for the G1 controllers (#4264)
-
-Add make_ort_session_options() to g1_utils and use it in every controller that
-opens an ONNX session: GR00T (balance + walk), Holosoma, and the SONIC decoder.
-These are small MLPs stepped at 50 Hz from a background thread alongside the torch
-upper-body/VLA policy and IK; by default ORT spins up a thread per core, which
-starves the real-time control loop and makes rollouts stutter. Cap the pool to
-1 intra / 1 inter thread -- lowest-latency for per-step inference -- and quiet
-ORT logging.
-
-Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 24 Sep 2026 07:27:21 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 24 Sep 2026 14:00:00 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/o-id-modular-humanoid-robot-funding</guid>
+    <title>O-ID Raises $1.2M to Build Humanoids With Swappable Parts</title>
+    <link>https://www.humanoidsdaily.com/news/o-id-modular-humanoid-robot-funding</link>
+    <description>The Tokyo startup is designing modular industrial robots for on-site repairs in minutes, with Japanese automotive manufacturing and logistics as its first targets.</description>
+    <pubDate>Thu, 24 Sep 2026 14:00:00 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Japan</category><category>O-ID</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-chimelong-theme-park-300-robots</guid>
     <title>AGIBOT Brings 300-Plus Robots to Chimelong Theme Park</title>
@@ -298,16 +308,6 @@
     <pubDate>Fri, 18 Sep 2026 11:56:11 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Industrial Automation</category><category>fundraising</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/lumos-nexcore-robot-skills-weeks-to-days</guid>
-    <title>Lumos Says NexCore Can Teach Robots New Skills in Days</title>
-    <link>https://www.humanoidsdaily.com/news/lumos-nexcore-robot-skills-weeks-to-days</link>
-    <description>Lumos pitches NexCore as a faster route from task descriptions to factory-ready robot skills, citing Mitsubishi Electric applications but offering limited benchmark detail.</description>
-    <pubDate>Fri, 18 Sep 2026 08:52:36 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Lumos Robotics</category><category>Industrial Automation</category><category>Artificial Intelligence</category>
   </item>
 
   </channel>
