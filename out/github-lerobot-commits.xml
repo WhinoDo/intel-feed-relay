@@ -4,7 +4,222 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-23T21:00:36Z</ns0:updated>
+  <ns0:updated>2026-09-24T11:51:10Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/c0126fb7e4f5f91754277709c32d2af75919d8c2</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c0126fb7e4f5f91754277709c32d2af75919d8c2" />
+    <ns0:title>
+        chore(mypy): cover rewards (#4759)
+    </ns0:title>
+    <ns0:updated>2026-09-24T11:51:10Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover rewards (#4759)
+
+Enable the mypy gate for lerobot.rewards.* (71 errors -&amp;gt; 0 across 11 files).
+Precise attribute types on PreTrainedRewardModel (config_class/name) and a
+class-level covariant `config:` attribute on every reward model; Optional
+narrowing via ValueError/KeyError guards in the processor steps and RA-BC
+scripts; full signatures on touched functions; @overload on sarm_utils helpers
+and on LeRobotDataset.__getitem__ (int -&amp;gt; dict, slice -&amp;gt; list[dict],
+cross-module, typing only); SubtaskNames/SubtaskFrames aliases
+(Sequence | np.ndarray) for the episode annotations pandas hands to
+find_stage_and_tau; create_transition() replaces the partial EnvTransition dict
+literals; FeatureType-keyed norm_map at the NormalizerProcessorStep call-sites.
+No type: ignore and no casts added.
+
+Signed-off-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/b7265d07e97a79a4b8a06352b5705eedb4e83683</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b7265d07e97a79a4b8a06352b5705eedb4e83683" />
+    <ns0:title>
+        chore(mypy): cover processor (#4757)
+    </ns0:title>
+    <ns0:updated>2026-09-24T11:43:31Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover processor (#4757)
+
+Enable the lerobot.processor.* mypy override and fix the 65 errors it surfaced under the CI gate.
+- isinstance(x, PolicyAction/EnvAction) -&amp;gt; concrete torch.Tensor/np.ndarray (the aliases collapse to Any without stubs); annotations keep the aliases. GripperPenaltyProcessorStep only rejects dict actions, so every input it accepted before still passes.
+- Tuple literals for the TransitionKey groups in DeviceProcessorStep so the Literal key union survives; Optional info/complementary_data are narrowed with `if x is None: x = {}`, which keeps the caller&amp;#39;s dict identity; create_transition params widened to match EnvTransition.
+- ValueError guards (the module convention) in make_default_policy_processor_steps and the relative/gripper action steps; all seven DataProcessorPipeline.process_* methods share _require_component, so a step that nulls the requested component raises instead of returning None under a non-Optional return type.
+- Typed ProcessorStepRegistry (dict[str, type[ProcessorStep]], generic register, _registry_name: ClassVar[str]); the HasTeleopEvents protocol replaces the misused TeleopWithEvents TypeVar, which is removed (no users in src/tests/docs/examples); a private _TeleopInfo alias bridges the Enum-keyed HIL info dict with two casts.
+- Two new type: ignores: [override] on RenderTrainingMessagesStep.__call__ (returns None to drop a sample) and [index] on a latent LiberoProcessorStep key bug kept for behaviour parity. Two stale [assignment] ignores in normalize_processor.py dropped (--warn-unused-ignores), and DeviceProcessorStep.__post_init__ annotated so the gate checks its body.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/7609119999a91d9147b7a9704b36148e5d2624c0</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7609119999a91d9147b7a9704b36148e5d2624c0" />
+    <ns0:title>
+        chore(mypy): cover rollout (#4756)
+    </ns0:title>
+    <ns0:updated>2026-09-24T11:31:52Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover rollout (#4756)
+
+Enable the `lerobot.rollout.*` mypy override and fix the 113 errors it surfaced.
+Optional narrowing is consolidated on `RolloutStrategy._require_{engine,interpolator,dataset_cfg,dataset,teleop}`,
+which raise RuntimeError naming the violated setup()/dataset_mode/requires_teleop contract, replacing
+`# never None` comments and bare Optional attribute access. Recording loops now fail fast at entry (and
+`EpisodicStrategy.setup()` when propagating --duration) if the context violates those declarations;
+`RolloutConfig.__post_init__` already rejects such configs, so no CLI path changes. Every touched def gets a
+full signature using the shared `RobotAction`/`RobotObservation` aliases. New types: `_RTCPredictActionChunk`
+Protocol (static twin of `supports_rtc_inference`) and `ActuatedTeleoperator` Protocol with a `TypeGuard` on
+`teleop_supports_feedback` (common/control_utils.py); `pretrained_path` widened to `str | Path` in the
+policy/processor factories; `LatencyTracker.max()` corrected to `-&amp;gt; float` (it never returns None).
+One `type: ignore[method-assign]` (torch.compile monkeypatch), one `cast`; 4 defs still lack return annotations.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/70a0bf63da117a8585dcc13abf58ac5d12c121c5</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/70a0bf63da117a8585dcc13abf58ac5d12c121c5" />
+    <ns0:title>
+        chore(mypy): cover robot (#4754)
+    </ns0:title>
+    <ns0:updated>2026-09-24T10:27:25Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover robot (#4754)
+
+* chore(mypy): cover lerobot_types
+
+Replace `TransitionKey(str, Enum)` with a `@final` constants class whose members
+are `Final[Literal[...]]` strings, and rewrite `EnvTransition` as a class-based
+`TypedDict` with the seven literal keys (all required). mypy cannot index a
+TypedDict with a str-Enum member (it reports the member NAME as a missing key)
+and rejects non-literal field names in the functional `TypedDict(...)` form, so
+the old definitions left `EnvTransition` with no usable fields for every module
+that handles transitions. With the new spelling `td[TransitionKey.X]`,
+`.get(...)`, `.copy()` and dict literals keyed by `TransitionKey.X` type-check
+with no call-site changes. The explicit `Final[Literal[&amp;quot;x&amp;quot;]]` form (rather than
+the implicit `Final = &amp;quot;x&amp;quot;`) keeps the literal type when a member is bound to a
+local or a tuple variable; only a `list` of members widens to `list[str]`.
+`PolicyAction` and `EnvAction` get an explicit `TypeAlias` because their
+torch/numpy targets resolve to `Any` under the CI mypy config
+(`follow_imports = skip`, no stubs); a PEP 695 `type` statement is not usable
+since both are `isinstance` targets.
+
+Enable the `lerobot.lerobot_types` mypy override in pyproject.toml and drop the
+Enum-only `.value` accesses and the `isinstance(k, TransitionKey)` assertion in
+tests: tests/processor/{test_act,test_diffusion,test_gaussian_actor,
+test_smolvla,test_tdmpc,test_vqbet}_processor.py, tests/processor/test_pipeline.py,
+tests/rewards/test_classifier_processor.py, tests/test_interactive_rollout.py.
+
+BREAKING (intentional, no compat shim): `TransitionKey` is no longer an `Enum`.
+`TransitionKey(&amp;quot;observation&amp;quot;)`, `TransitionKey[&amp;quot;OBSERVATION&amp;quot;]`,
+`list(TransitionKey)`, `&amp;quot;observation&amp;quot; in TransitionKey`, `.value` / `.name` and
+`__members__` now raise; `isinstance(x, TransitionKey)` is always False; `str()`
+/ f-strings render `&amp;quot;observation&amp;quot;` instead of `&amp;quot;TransitionKey.OBSERVATION&amp;quot;`.
+Nothing in src/, tests/, examples/ or docs/ used these. Consequences:
+- Pickles of transitions written by older versions fail to load with
+  `TypeError: TransitionKey() takes no arguments` (Enum reduce calls the class);
+  no in-repo cross-version path exists. `torch.load(weights_only=True)` of a
+  transition, which failed on Enum keys, now works.
+- `ValueError(&amp;quot;Cannot filter batched field ...&amp;quot;)` in
+  processor/render_messages_processor.py now names `&amp;#39;observation.foo&amp;#39;` /
+  `&amp;#39;action&amp;#39;` instead of `&amp;#39;TransitionKey.OBSERVATION.foo&amp;#39;`; no test pins the text.
+- `EnvTransition.__annotations__` holds lazy strings (the module already uses
+  `from __future__ import annotations`); use `typing.get_type_hints`.
+
+Left for the not-yet-gated modules&amp;#39; own PRs: rewards/{topreward,robometer}/
+compute_rabc_weights.py and policies/lawam/processor_lawam.py pass partial dict
+literals where an `EnvTransition` is expected (mypy: Missing keys), and
+processor/device_processor.py iterates *lists* of keys, which widen to `str`.
+
+* chore(mypy): cover robots
+
+Enable the lerobot.robots.* mypy override (54 CI-gate errors -&amp;gt; 0).
+
+Optional connection state (zmq context/sockets, threads, the B601 motor bus) is now
+annotated at declaration and narrowed with DeviceNotConnectedError guards; calibration
+ticks are coerced to int for MotorCalibration; the kinematic processor copies the total
+EnvTransition TypedDict as one and keeps tolerant .get() reads of complementary_data;
+robot locals/attributes use the shared RobotObservation/RobotAction/Camera types. New
+DepthCamera runtime-checkable Protocol in lerobot.cameras replaces getattr(cam, &amp;quot;use_depth&amp;quot;)
+duck typing at the eight depth-read sites and in so_follower._cameras_ft, so observation
+features and get_observation() share one predicate (regression test added). lekiwi_client
+uses the module-top _zmq_available/require_package guard. One type: ignore[import-untyped]
+(requests stubs absent from the pre-commit env).&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/cc907f252f6f7e189f6bd8807183fb877f796f97</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/cc907f252f6f7e189f6bd8807183fb877f796f97" />
+    <ns0:title>
+        chore(mypy): cover jobs (#4753)
+    </ns0:title>
+    <ns0:updated>2026-09-24T10:21:52Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover jobs (#4753)
+
+Enable the mypy override for lerobot.jobs.* (ignore_errors = false) and fix the
+6 errors it surfaced in hf.py under the CI gate:
+- resolve_job_tags: replace the set-add-in-comprehension dedup (func-returns-value)
+  with list(dict.fromkeys(...)); same order-stable output.
+- _build_resume_job: narrow parser.parse_arg&amp;#39;s str | None and cfg.checkpoint_path
+  with explicit ValueErrors. Both are reachable from the CLI when --policy.path is
+  combined with --resume (validate() then skips the checkpoint resolution), so the
+  messages name that clash; previously these paths crashed with TypeError from
+  Path(None). Path(cfg.checkpoint_path) is kept so a str still coerces.
+- submit_to_hf: split on &amp;#39;fresh_repo_id is None&amp;#39; (equivalent to cfg.resume) so the
+  fresh branch sees a str. No TypedDict/Protocol added, 0 type: ignore, 0 casts.
+- tests/jobs: pin the two new raise paths and the resume dispatch of submit_to_hf.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/c5f762b4f7f15ceac27468701c703628a28871c0</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c5f762b4f7f15ceac27468701c703628a28871c0" />
+    <ns0:title>
+        chore(mypy): cover data_processing (#4752)
+    </ns0:title>
+    <ns0:updated>2026-09-24T10:21:19Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover data_processing (#4752)
+
+Enable mypy for lerobot.data_processing.* and fix the 5 errors it surfaced in
+sarm_annotations/subtask_annotation.py: annotate() raises ValueError after the
+retry loop (only when max_retries &amp;lt; 1) instead of implicitly returning None;
+visualize_annotations() indexes annotations[ep_idx] under the existing membership
+guard instead of .get() and gains -&amp;gt; None; worker_process_episodes() keeps
+dense_annotations a plain dict, Optional only at the return boundary, with the
+return type tightened to tuple[dict[int, SubtaskAnnotation], dict[...] | None].
+Review follow-ups: compute_temporal_proportions() takes dict[int, SubtaskAnnotation]
+instead of dict[int, Any] (the module&amp;#39;s only Any; matches its docstring and both
+callers), and the stale &amp;#39;# noqa: F821&amp;#39; on VideoAnnotator.__init__&amp;#39;s model/processor
+annotations are dropped (both names are imported at module top). No new shared
+types, casts or type: ignore comments introduced.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/73ab890324b303424a8a5f07272f22c36be5d269</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/73ab890324b303424a8a5f07272f22c36be5d269" />
@@ -368,168 +583,6 @@ starves the real-time control loop and makes rollouts stutter. Cap the pool to
 ORT logging.
 
 Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/464bda45a43c7c141988f78fd3a3d088373b6d6a</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/464bda45a43c7c141988f78fd3a3d088373b6d6a" />
-    <ns0:title>
-        perf(pi05): batch cameras and autocast siglip inference (#4426)
-    </ns0:title>
-    <ns0:updated>2026-09-22T09:44:38Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>nepyope</ns0:name>
-      <ns0:uri>https://github.com/nepyope</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(pi05): batch cameras and autocast siglip inference (#4426)
-
-* feat(pi05) speed up siglip inference by batching + autocast
-
-* Reword a comment the typos hook rejects
-
-* perf(pi0): batch cameras and autocast siglip inference
-
-Same change as pi0.5: at inference, embed all cameras in one vision-tower
-call and run the tower under bfloat16 autocast when the checkpoint is
-bfloat16. Training keeps one call per camera and float32, unchanged.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/7c98c1b2ce309f94e542bd4b9ee3fe176301edbf</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7c98c1b2ce309f94e542bd4b9ee3fe176301edbf" />
-    <ns0:title>
-        feat(rollout): add-relative-action support to the synchronous inferen…
-    </ns0:title>
-    <ns0:updated>2026-09-22T09:39:45Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(rollout): add-relative-action support to the synchronous inference engine (#4057)
-
-* adding relative actions to sync engine
-
-* adding relative joint exclude test
-
-* replace predict_action_chunk probe with PreTrainedPolicy.queued_action_count()
-
-* relative action anchoring for lerobot eval
-
-* adding guard for the tests requiring datasets
-
-* change responsability to policy and not caller
-
-* fix: only reach for queued_action_count when there is a step to bind
-
-* adressing nits
-* rename queued_action_count to count_queued_actions
-* removing extra comment
-* removing test_eval_relative_actions
-
-* format test_relative_actions with the pinned ruff
-
-* type bind_relative_anchor with a TYPE_CHECKING policy import&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/240ea44cf9f887df944019cf46e18a0d496e1a56</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/240ea44cf9f887df944019cf46e18a0d496e1a56" />
-    <ns0:title>
-        fix(train): only record gpu_mem_gb when the tracker declares it (#4714)
-    </ns0:title>
-    <ns0:updated>2026-09-22T06:50:53Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>HaomingSong</ns0:name>
-      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(train): only record gpu_mem_gb when the tracker declares it (#4714)
-
-fix the red CI run: https://github.com/huggingface/lerobot/actions/runs/35681760312/job/106601550470&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/b64fe1ed9f11eeac53ee821356d2797601701054</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b64fe1ed9f11eeac53ee821356d2797601701054" />
-    <ns0:title>
-        feat(train): add support for fp16 mixed precision (#4652)
-    </ns0:title>
-    <ns0:updated>2026-09-22T03:03:41Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>HaomingSong</ns0:name>
-      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(train): add support for fp16 mixed precision (#4652)
-
-* feat(train): support fp16 mixed precision on every topology
-
-Enable fp16 under FSDP2/HSDP. accelerate builds a plain
-`torch.amp.GradScaler` for FSDP2 and torch reduces the scaler&amp;#39;s
-found-inf flag across the device mesh, so an overflow on one rank skips the
-optimizer update on all of them.
-
-Finish the scaler integration, which also fixes single-GPU and DDP under fp16 training.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/b5683b6591989597591cee2412633d9afae61426</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b5683b6591989597591cee2412633d9afae61426" />
-    <ns0:title>
-        refactor(processors): one path for building processors from a checkpo…
-    </ns0:title>
-    <ns0:updated>2026-09-21T20:05:24Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(processors): one path for building processors from a checkpoint (#4701)
-
-* add a shared loader for pretrained policy processors
-
-* route groot and molmoact2 through the generic pretrained dispatch
-
-* load evo1 pretrained processors through a from_pretrained hook
-
-* reuse the shared processor loader in groot and molmoact2
-
-* resolve sibling policy modules through a single helper
-
-* merge get_policy_class with its private helper
-
-* resolve processor config filenames once
-
-* document the from_pretrained processor hook in the policy guide&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/8352ca62d88ab4464001d427267a6a0758e6cb99</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8352ca62d88ab4464001d427267a6a0758e6cb99" />
-    <ns0:title>
-        docs: show default values for rollout display_data and sentry flags (…
-    </ns0:title>
-    <ns0:updated>2026-09-21T09:38:21Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/60154720?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>cetiennec</ns0:name>
-      <ns0:uri>https://github.com/cetiennec</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: show default values for rollout display_data and sentry flags (#4667)
-
-The Base and Sentry strategy tables in inference.mdx listed flags
-without their defaults, unlike the Common Flags / Interactive tables
-further down. Notably --display_data defaults to false and isn&amp;#39;t set
-in the Quick Start example, so a reader following it gets no Rerun
-visualization unless they know to pass --display_data=true explicitly.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

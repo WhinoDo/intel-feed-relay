@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 23 Sep 2026 17:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 24 Sep 2026 07:27:21 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-chimelong-theme-park-300-robots</guid>
+    <title>AGIBOT Brings 300-Plus Robots to Chimelong Theme Park</title>
+    <link>https://www.humanoidsdaily.com/news/agibot-chimelong-theme-park-300-robots</link>
+    <description>AGIBOT and Chimelong have launched a robot deployment spanning performances, visitor guidance and hotel services at the existing Spaceship Park in Zhuhai, alongside a joint tourism research institute.</description>
+    <pubDate>Thu, 24 Sep 2026 07:27:21 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Deployment</category><category>China</category><category>AGIBOT</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/skild-ai-s1-learns-soccer-through-140-years-of-simulated-self-play</guid>
     <title>Skild AI’s S1 Learns Soccer Through More Than 140 Years of Simulated Self-Play</title>
@@ -298,16 +308,6 @@
     <pubDate>Fri, 18 Sep 2026 08:52:36 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Lumos Robotics</category><category>Industrial Automation</category><category>Artificial Intelligence</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/brett-adcock-four-chapters-figure-04</guid>
-    <title>Brett Adcock Says Figure 04 Will Be Figure’s Biggest Hardware Leap</title>
-    <link>https://www.humanoidsdaily.com/news/brett-adcock-four-chapters-figure-04</link>
-    <description>On RoboStrategy, Figure’s CEO outlines four chapters for humanoid robotics, explains the limits of Helix 2.5 and teases a major Figure 04 redesign.</description>
-    <pubDate>Fri, 18 Sep 2026 08:17:37 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Figure-04</category><category>Figure</category><category>helix</category>
   </item>
 
   </channel>
