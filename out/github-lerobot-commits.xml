@@ -4,7 +4,23 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-24T16:51:19Z</ns0:updated>
+  <ns0:updated>2026-09-25T13:40:35Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/1bc0bdfb20ad4f4f76dc8a68a0e0746d54f50de9</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1bc0bdfb20ad4f4f76dc8a68a0e0746d54f50de9" />
+    <ns0:title>
+        chore(ci): use 2 instead of 4 gpus for multi-gpu test to prepare for …
+    </ns0:title>
+    <ns0:updated>2026-09-25T13:40:35Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(ci): use 2 instead of 4 gpus for multi-gpu test to prepare for the upgrade of the runner (#4771)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/e624f3f7f8411ec3a02635d06e79373341e5ef35</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e624f3f7f8411ec3a02635d06e79373341e5ef35" />
@@ -647,29 +663,6 @@ Left for the not-yet-gated modules&amp;#39; own PRs: rewards/{topreward,robomete
 compute_rabc_weights.py and policies/lawam/processor_lawam.py pass partial dict
 literals where an `EnvTransition` is expected (mypy: Missing keys), and
 processor/device_processor.py iterates *lists* of keys, which widen to `str`.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/587e2736b086df7f07fb34bffb76fe512d7692f7</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/587e2736b086df7f07fb34bffb76fe512d7692f7" />
-    <ns0:title>
-        Scope GITHUB_TOKEN permissions per job (#4731)
-    </ns0:title>
-    <ns0:updated>2026-09-23T12:55:36Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/25720743?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>hf-security-analysis</ns0:name>
-      <ns0:uri>https://github.com/hf-security-analysis</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Scope GITHUB_TOKEN permissions per job (#4731)
-
-A job with no `permissions:` block inherits whatever the repository
-hands out. Each block added here grants what that job&amp;#39;s own steps
-need and nothing more.
-
-Co-authored-by: hf-security-analysis[bot] &amp;lt;265538906+hf-security-analysis[bot]@users.noreply.github.com&amp;gt;
-Co-authored-by: Pauline Bailly-Masson &amp;lt;155966238+paulinebm@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
