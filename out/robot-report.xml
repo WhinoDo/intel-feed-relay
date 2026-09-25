@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Fri, 25 Sep 2026 14:25:55 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 25 Sep 2026 19:00:17 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,119 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Amazon to invest $100M in new Indiana manufacturing facility</title>
+		<link>https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/</link>
+					<comments>https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Fri, 25 Sep 2026 18:59:01 +0000</pubDate>
+				<category>Autonomous Mobile Robots (AMRs)</category>
+		<category>Collaborative Robots</category>
+		<category>Manufacturing</category>
+		<category>Markets / Industries</category>
+		<category>News</category>
+		<category>Robots / Platforms</category>
+		<category>Amazon</category>
+		<category>RIVR</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589680</guid>
+
+					<description>&lt;p&gt;The new facility will produce products that power Amazon's fulfillment and robotics network across North America.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/"&gt;Amazon to invest $100M in new Indiana manufacturing facility&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589681" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/amazon-robotics-manufacturing-line-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589681" class="wp-image-589681 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/09/amazon-robotics-manufacturing-line-featured.jpg" alt="A Proteus mobile robot on an Amazon manufacturing line. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/amazon-robotics-manufacturing-line-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/amazon-robotics-manufacturing-line-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/amazon-robotics-manufacturing-line-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/amazon-robotics-manufacturing-line-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/amazon-robotics-manufacturing-line-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589681" class="wp-caption-text"&gt;A Proteus mobile robot on an Amazon manufacturing line. | Source: Amazon&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Amazon this week announced plans to invest more than $100 million in a new 585,000-square-foot advanced manufacturing facility located in Greenwood, Indiana. The company claimed the facility will result in 300 skilled manufacturing and engineering jobs.&lt;/p&gt;
+&lt;p&gt;The facility will produce products that power &lt;a href="https://www.therobotreport.com/tag/amazon/" target="_blank" rel="noopener"&gt;Amazon&amp;#8217;s&lt;/a&gt; fulfillment and robotics network across North America. Amazon expects to launch the site by 2028.&lt;/p&gt;
+&lt;p&gt;Amazon has built one of the largest industrial robotics &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;manufacturing&lt;/a&gt; operations in the world at its facilities in Massachusetts. So far, the company has manufactured more than one million robots in the U.S. to date. Those robots are now deployed across more than 300 facilities globally. Amazon said they assist employees with 75% of all customer orders the company delivers worldwide.&lt;/p&gt;
+&lt;p&gt;The Greenwood facility follows an August announcement of a new robotics manufacturing investment in Texas, as Amazon continues to expand its domestic manufacturing footprint. Amazon selected the Greenwood site based on Indiana&amp;#8217;s manufacturing workforce, competitive cost structure, logistics infrastructure, and business-friendly environment, it claimed.&lt;/p&gt;
+&lt;p&gt;The approximately 585,000-square-foot facility will integrate advanced fabrication, robotic welding, automated powder coating, and assembly capabilities under one roof. AWS and &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;-powered smart manufacturing systems and robotics will support these. The facility will produce products used in Amazon fulfillment centers across North America.&lt;/p&gt;
+&lt;p&gt;&lt;iframe title="Inside look at Amazon&amp;amp;apos;s robotics lab in Massachusetts" width="740" height="416" src="https://www.youtube.com/embed/r98fdSJ9lfw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Amazon continues to invest in robotics&lt;/h2&gt;
+&lt;p&gt;In recent years, Amazon has been investing in robotics across many parts of its business. The company has more than 1 million robots operating in its fulfillment centers, helping with stowing, picking, sorting, and intra-facility transport. Outside of its fulfillment centers, the company has also invested in modernizing its delivery network.&lt;/p&gt;
+&lt;p&gt;Earlier this year, &lt;a href="https://www.therobotreport.com/amazon-acquires-robotic-doorstep-delivery-provider-rivr/" target="_blank" rel="noopener"&gt;Amazon acquired RIVR&lt;/a&gt;, a developer of quadruped wheeled robots for doorstep &lt;a href="https://www.therobotreport.com/tag/delivery-robots" target="_blank" rel="noopener"&gt;delivery&lt;/a&gt;. RIVR had been on Amazon’s radar since 2024, when Jeff Bezos led the company’s $22 million &lt;a href="https://www.therobotreport.com/swiss-mile-raises-22m-for-wheeled-quadruped/" target="_blank" rel="noopener"&gt;seed round&lt;/a&gt; through Bezos Expeditions and HongShan. Amazon shut down its own Scout delivery robot program back in 2022; and the company could be looking for a new robotic doorstep delivery option.&lt;/p&gt;
+&lt;p&gt;Additionally, the company recently &lt;a href="https://www.therobotreport.com/amazon-plans-expand-prime-air-nearly-500-cities-by-end-2026/" target="_blank" rel="noopener"&gt;announced plans to expand its Prime Air service&lt;/a&gt; to nearly 500 cities and towns in the U.S. by the end of 2026. The company said this is a sixfold increase from its current footprint. It would give tens of millions of customers access to drone delivery.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Editor&amp;#8217;s Note: &lt;/strong&gt;Bhavana Chandrashekhar, a senior manager of applied science at Amazon Robotics, will be taking part in two talks at RoboBusiness, which takes place Oct. 20-21, 2026, in Santa Clara, Calif. Chandrashekhar will be part of the keynote, “Beyond the Demo: AI in Production Robots,” and in the Women in Robotics Luncheon. This year marks the 20th anniversary of the event, which is produced by The Robot Report and Arrowfly. &lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Buy your full conference pass&lt;/a&gt; to the show now.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/"&gt;Amazon to invest $100M in new Indiana manufacturing facility&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
+		<title>General Robotics is betting on modular intelligence, not one robot brain</title>
+		<link>https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/</link>
+					<comments>https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/#respond</comments>
+		
+		<dc:creator>Mike Oitzman</dc:creator>
+		<pubDate>Fri, 25 Sep 2026 18:43:22 +0000</pubDate>
+				<category>Artificial Intelligence</category>
+		<category>Markets / Industries</category>
+		<category>News</category>
+		<category>Opinion</category>
+		<category>Podcast</category>
+		<category>Software</category>
+		<category>Startups</category>
+		<category>Agility Robotics</category>
+		<category>Boston Dynamics</category>
+		<category>cognex</category>
+		<category>General Robotics</category>
+		<category>PickNik Robotics</category>
+		<category>Qualcomm</category>
+		<category>RealSense</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589686</guid>
+
+					<description>&lt;p&gt;Rather than training one model to do everything, General Robotics composes specialized capabilities—helping robots adapt across tasks and form factors.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/"&gt;General Robotics is betting on modular intelligence, not one robot brain&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;p&gt;&lt;iframe loading="lazy" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2407748343&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true" width="100%" height="166" frameborder="no" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;"&gt;&lt;a style="color: #cccccc; text-decoration: none;" title="The Robot Report Podcast" href="https://soundcloud.com/robot-report-podcast" target="_blank" rel="noopener"&gt;The Robot Report Podcast&lt;/a&gt; · &lt;a style="color: #cccccc; text-decoration: none;" title="General Robotics Is Betting on Modular Intelligence, Not One Robot Brain" href="https://soundcloud.com/robot-report-podcast/modular-intelligence" target="_blank" rel="noopener"&gt;General Robotics Is Betting on Modular Intelligence, Not One Robot Brain&lt;/a&gt;&lt;/div&gt;
+&lt;div id="attachment_589688" style="width: 249px" class="wp-caption alignleft"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589688" class="size-medium wp-image-589688" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Sai-Vemprala-headshot-239x300.jpg" alt="Headshot of Sai Vemprala, CTO of General Robotics." width="239" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Sai-Vemprala-headshot-239x300.jpg 239w, https://www.therobotreport.com/wp-content/uploads/2026/09/Sai-Vemprala-headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/09/Sai-Vemprala-headshot-190x238.jpg 190w, https://www.therobotreport.com/wp-content/uploads/2026/09/Sai-Vemprala-headshot.jpg 279w" sizes="auto, (max-width: 239px) 100vw, 239px" /&gt;&lt;p id="caption-attachment-589688" class="wp-caption-text"&gt;Sai Vemprala, CTO of General Robotics.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;In Episode 263 of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, we interview Sai Vemprala, CTO of &lt;a href="https://www.therobotreport.com/tag/general-robotics/" target="_blank" rel="noopener"&gt;General Robotics&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sai Vemprala is the co-founder and CTO of General Robotics, leading the development and architecture of GRID. Vemprala is an expert in simulation-based robotics and scalable physical &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; systems.&lt;/p&gt;
+&lt;p&gt;Before General Robotics, Vemprala served as a senior researcher at Microsoft Research (MSR). He holds a PhD in robotics from Texas A&amp;amp;M.&lt;/p&gt;
+&lt;div&gt;If you enjoy this conversation, listen to &lt;a href="https://www.therobotreport.com/plug-and-play-ai-transforming-robotics-with-modular-skills/" target="_blank" rel="noopener"&gt;Episode 234 of The Robot Report Podcast, featuring Dinesh Narayanan&lt;/a&gt;, head of commercialization at General Robotics.&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Show timeline&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;4:06 &amp;#8211; News of the week&lt;/li&gt;
+&lt;li&gt;24:40 &amp;#8211; &lt;span class="TextRun SCXW21713252 BCX2" lang="EN-US" xml:lang="EN-US" data-contrast="auto"&gt;&lt;a href="https://www.linkedin.com/in/saihv/" target="_blank" rel="noopener"&gt;&lt;span class="NormalTextRun SCXW21713252 BCX2"&gt;Sai &lt;/span&gt;&lt;span class="NormalTextRun SpellingErrorV2Themed SCXW21713252 BCX2"&gt;Vemprala&lt;/span&gt;&lt;/a&gt;&lt;span class="NormalTextRun SCXW21713252 BCX2"&gt;, CTO of General Robotics&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;News of the week&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/" target="_blank" rel="noopener"&gt;Agility Robotics, maker of Digit humanoid, exploring wheeled robots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/"&gt;Boston Dynamics opens Metaplant Application Center to train Atlas humanoids&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cognex.com/en/company/press-releases/cognex-to-acquire-realsense"&gt;Cognex to Acquire RealSense (Cognex PR)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/" target="_blank" rel="noopener"&gt;Qualcomm to acquire PickNik Robotics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Sponsors&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Thanks to our sponsors who make this content possible.&lt;/em&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;To learn how you can sponsor a future episode of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, contact Jami Brownlee at &lt;a href="mailto:jbrownlee@arrowfly.com" target="_blank" rel="noopener"&gt;jbrownlee@arrowfly.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Would you like to be a guest on a future episode? Contact Mike Oitzman at &lt;a href="mailto:moitzman@arrowfly.com" target="_blank" rel="noopener"&gt;moitzman@arrowfly.com&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/"&gt;General Robotics is betting on modular intelligence, not one robot brain&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>Agility Robotics, maker of Digit humanoid, exploring wheeled robots</title>
 		<link>https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/</link>
 					<comments>https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/#respond</comments>
@@ -38,7 +151,7 @@
 					<description>&lt;p&gt;Agility Robotics is exploring a range of robot designs and form factors, including wheels, to address different operating environments and customer needs.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/"&gt;Agility Robotics, maker of Digit humanoid, exploring wheeled robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_589677" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589677" class="size-full wp-image-589677" src="https://www.therobotreport.com/wp-content/uploads/2026/09/agility-robotics-wheeled-robot.png" alt="" width="1000" height="764" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/agility-robotics-wheeled-robot.png 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/agility-robotics-wheeled-robot-300x229.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/agility-robotics-wheeled-robot-150x115.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/agility-robotics-wheeled-robot-768x587.png 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/agility-robotics-wheeled-robot-312x238.png 312w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-589677" class="wp-caption-text"&gt;This wheeled robot rendering appeared in Agility Robotics&amp;#8217; recent Digit 5 launch video. | Credit: Agility Robotics&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_589677" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589677" class="size-full wp-image-589677" src="https://www.therobotreport.com/wp-content/uploads/2026/09/agility-robotics-wheeled-robot.png" alt="" width="1000" height="764" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/agility-robotics-wheeled-robot.png 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/agility-robotics-wheeled-robot-300x229.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/agility-robotics-wheeled-robot-150x115.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/agility-robotics-wheeled-robot-768x587.png 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/agility-robotics-wheeled-robot-312x238.png 312w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-589677" class="wp-caption-text"&gt;This wheeled robot rendering appeared in Agility Robotics&amp;#8217; recent Digit 5 launch video. | Credit: Agility Robotics&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;When &lt;a href="https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/"&gt;Agility Robotics unveiled Digit 5 last week&lt;/a&gt;, one detail near the end of the launch video caught our attention: a humanoid robot on wheels. Why would a company that has spent so much time touting the benefits of legged robots choose to show a wheeled robot?&lt;/p&gt;
 &lt;p&gt;We reached out to Agility Robotics CEO and chief robot officer Jonathan Hurst to ask why. His answer confirmed what we had speculated about on &lt;a href="https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/"&gt;&lt;em&gt;The Robot Report Podcast&lt;/em&gt;&lt;/a&gt;: Agility was planting a seed about what could come next.&lt;/p&gt;
 &lt;p&gt;Hurst told &lt;em&gt;The Robot Report&lt;/em&gt; that Agility is indeed exploring wheeled robots.&lt;/p&gt;
@@ -46,7 +159,7 @@
 &lt;p&gt;We then asked whether Agility envisions a wheeled version of Digit or an entirely new robot with a different name and form factor, such as a one-armed mobile manipulator. There is also no timeline for if and when a wheeled robot would come to market.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;Too early to say!,&amp;#8221; Hurst said. &amp;#8220;I have guesses and inclinations, but really we&amp;#8217;re just starting.&amp;#8221;&lt;/p&gt;
 &lt;div align="center"&gt;
-&lt;p&gt;&lt;iframe title="Introducing Digit 5" width="740" height="416" src="https://www.youtube.com/embed/oyq9BOwK5XI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Introducing Digit 5" width="740" height="416" src="https://www.youtube.com/embed/oyq9BOwK5XI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2&gt;Legs vs. wheels&lt;/h2&gt;
 &lt;p&gt;The legs-versus-wheels debate has been one of the most common conversations in robotics the last few years. Wheels offer greater stability, simpler mechanics and lower energy consumption in flat, predictable environments. Legs remain valuable in environments designed for humans, where robots need to navigate stairs, obstacles and other uneven terrain.&lt;/p&gt;
@@ -91,7 +204,7 @@
 					<description>&lt;p&gt;Labor availability, costs, productivity, and efficiency are common concerns of farmers that technology can address, according to CNH. &lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/farmers-are-facing-more-pressure-cnh-says-robotics-can-help/"&gt;Farmers are facing more pressure; CNH says robotics can help&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_589672" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured.jpg"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-589672" class="wp-image-589672 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured.jpg" alt="CNH Industrial's R4 robot is designed to help vineyard, orchard and specialty crop growers overcome sector challenges." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured-368x238.jpg 368w" sizes="(max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589672" class="wp-caption-text"&gt;The R4 robot is designed to help vineyard, orchard and specialty crop growers overcome sector challenges. | Source: CNH Industrial&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_589672" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589672" class="wp-image-589672 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured.jpg" alt="CNH Industrial's R4 robot is designed to help vineyard, orchard and specialty crop growers overcome sector challenges." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/CNHR4-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589672" class="wp-caption-text"&gt;The R4 robot is designed to help vineyard, orchard and specialty crop growers overcome sector challenges. | Source: CNH Industrial&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;2026 has been a tumultuous year for farmers in America. Global trade wars mean farmers&amp;#8217; supplies are growing more expensive, while many crop prices have dropped. At the same time, changing weather conditions mean getting a good harvest is increasingly tricky. These pressures result in a need for a change in how we farm, and robotics could be the answer.&lt;/p&gt;
 &lt;p&gt;Luca Ferrari, a senior manager of robotics a breakthrough technologies at CNH Industrial, said labor availability, costs, productivity, and efficiency are common concerns from the &lt;a href="https://www.therobotreport.com/tag/cnh-industrial/" target="_blank" rel="noopener"&gt;company&lt;/a&gt;&amp;#8216;s customers.&lt;/p&gt;
 &lt;p&gt;“Our users need to get more done with fewer resources. They want something, and we see it with robotics but not just robotics, that is solving a real problem, that is easy to use, and that can create value,” he told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. “Labor availability is one of the main challenges that our farmer and our growers are experiencing, especially during some critical operations like planting, spraying, and also harvesting.”&lt;/p&gt;
@@ -679,7 +792,7 @@
 		<link>https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/</link>
 					<comments>https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/#respond</comments>
 		
-		<dc:creator>Brianna Wessling</dc:creator>
+		<dc:creator>The Robot Report Staff</dc:creator>
 		<pubDate>Tue, 22 Sep 2026 21:31:19 +0000</pubDate>
 				<category>Artificial Intelligence</category>
 		<category>Artificial Intelligence / Cognition</category>
@@ -838,141 +951,6 @@
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Intrinsic open sources key parts of its platform for easier development</title>
-		<link>https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development/</link>
-					<comments>https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development/#respond</comments>
-		
-		<dc:creator>Brianna Wessling</dc:creator>
-		<pubDate>Tue, 22 Sep 2026 11:55:37 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Cobot Arms</category>
-		<category>Collaborative Robots</category>
-		<category>Design / Development</category>
-		<category>Industrial Robots</category>
-		<category>Manufacturing</category>
-		<category>Markets / Industries</category>
-		<category>News</category>
-		<category>Robots / Platforms</category>
-		<category>ROS / Open Source Solutions</category>
-		<category>Software</category>
-		<category>Software / Simulation</category>
-		<category>Intrinsic</category>
-		<category>Open Robotics</category>
-		<category>ROSCon</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589605</guid>
-
-					<description>&lt;p&gt;With Intrinsic Core, the company is making key parts of its manipulation platform available to robotics developers. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development/"&gt;Intrinsic open sources key parts of its platform for easier development&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589609" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/intrinsic-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589609" class="size-full wp-image-589609" src="https://www.therobotreport.com/wp-content/uploads/2026/09/intrinsic-featured.jpg" alt="Intrinsic also released the Open Machine Tending Solution, an open reference design for CNC machine tending. " width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/intrinsic-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/09/intrinsic-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/intrinsic-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/intrinsic-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/intrinsic-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/intrinsic-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/intrinsic-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589609" class="wp-caption-text"&gt;Intrinsic also released the Open Machine Tending Solution, an open reference design for CNC machine tending. | Source: Intrinsic&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Today, Intrinsic, an AI robotics group that joined Google this year, released Intrinsic Core, an open-source set of Robot Operating System-compatible capabilities for building robotic applications. With the release, Intrinsic said more of the world&amp;#8217;s developers will be able to build with foundational parts of the Intrinsic platform.&lt;/p&gt;
-&lt;p&gt;Robotics teams currently spend hundreds of hours coding robotic capabilities or infrastructure from scratch, according to Intrinsic. The company&amp;nbsp;said it took the capabilities it developed for real manufacturing deployments and turned them into a pre-configured software environment that runs on local hardware. The capabilities act like the building blocks of robot behavior. Users can quickly and easily combine them to achieve adaptive &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; systems, it claimed.&lt;/p&gt;
-&lt;p&gt;“From Intrinsic’s perspective, I can say this is something that we’re committing to,&amp;#8221; Brian Gerkey, chief technology officer at Intrinsic and co-founder and board chair of &lt;a href="https://www.therobotreport.com/tag/open-robotics" target="_blank" rel="noopener"&gt;Open Robotics&lt;/a&gt;, told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;This is not us coming by and dropping off some code and saying, &amp;#8216;Have fun.&amp;#8217; What we’re sharing this week is the core of our own software stack, this is a thing that we’re also depending on. This represents a durable commitment from Intrinsic to share this with the community.”&lt;/p&gt;
-&lt;p&gt;By design, these capabilities are &lt;a href="https://www.therobotreport.com/category/technologies/ros-open-source" target="_blank" rel="noopener"&gt;ROS&lt;/a&gt;-compatible and offer more ways to improve existing applications, or build new ones.&lt;/p&gt;
-&lt;p&gt;“The release of Intrinsic Core is both the first step and a demonstration of where I think robotics is going to go and where developing robotics is going to go. We’re going to see robots being so much easier to produce, thanks to platforms like Intrinsic Core coming out,” Geoffrey Biggs, CTO of the &lt;a href="https://www.therobotreport.com/tag/open-source-robotics-foundation/" target="_blank" rel="noopener"&gt;Open Source Robotics Foundation&lt;/a&gt;, told&amp;nbsp;&lt;em&gt;The Robot Report&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Intrinsic announced Intrinsic Core at ROSCon 2026 in Toronto. &lt;span data-olk-copy-source="MessageBody"&gt;Intrinsic Core is available on Intrinsic&amp;#8217;s &lt;a href="https://github.com/intrinsic-ai/intrinsic-core" target="_blank" rel="noopener"&gt;GitHub&lt;/a&gt; today. &lt;/span&gt;Intrinsic released the capabilities under a permissive Apache 2.0 license.&lt;/p&gt;
-&lt;h2&gt;How did Intrinsic decide what to include in Intrinsic Core?&lt;/h2&gt;
-&lt;div id="attachment_589610" style="width: 1355px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/image3.png"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589610" class="size-full wp-image-589610" src="https://www.therobotreport.com/wp-content/uploads/2026/09/image3.png" alt="Some of the key capabilities included in Intrinsic Core. " width="1345" height="960" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/image3.png 1345w, https://www.therobotreport.com/wp-content/uploads/2026/09/image3-300x214.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/image3-1024x731.png 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/image3-150x107.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/image3-768x548.png 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/image3-333x238.png 333w" sizes="auto, (max-width: 1345px) 100vw, 1345px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589610" class="wp-caption-text"&gt;Some of the key capabilities included in Intrinsic Core. | Source: Intrinsic&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;“The way we thought about it is, we’ve built a lot of software; which parts of it do we think are filling in gaps that exist in the ROS ecosystem?” said Gerkey. “The ROS ecosystem is very strong. There’s a tremendous amount of things that you can do with it, and we know we’ll see a bunch of exhibitors here at ROSCon this week who are showing off the things that you can do with ROS. That doesn’t mean it’s complete or perfect.”&lt;/p&gt;
-&lt;p&gt;At the center of Intrinsic Core is Intrinsic Control, a hardware-agnostic, real-time control framework. Intrinsic said it delivers fast, sensor-based control, and allows the robot to dynamically adapt its behavior mid-trajectory based on changes in the environment. It allows users to swap out different robot arms, grippers, sensors, and more without needing to rewrite drivers.&lt;/p&gt;
-&lt;p&gt;The release also includes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Pose estimation&lt;/strong&gt;: Intrinsic used &lt;a href="https://therobotreport.com/tag/nvidia" target="_blank" rel="noopener"&gt;NVIDIA&lt;/a&gt;&amp;#8216;s FoundationPose to provide a six degree-of-freedom (6 DoF) pose estimation of 3D parts. This enables robots to detect and handle parts, and it removes the need for rigid, expensive physical fixtures. With built-in compatibility with NVIDIA FoundationPose, a unified foundation model for 6D object pose estimation and tracking, developers can use this feature out of the box and without needing to write custom pipeline wrappers.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.therobotreport.com/category/robot-components/motioncontrol/" target="_blank" rel="noopener"&gt;Motion&lt;/a&gt; planning:&lt;/strong&gt; This replaces the need to program robots manually, joint by joint, in a position-controlled way. Intrinsic said that easy-to-integrate logic auto-generates efficient paths while avoiding collisions &amp;#8212; making it fast and easy to use a variety of robots.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Grasp planning:&lt;/strong&gt; This enables various &lt;a href="https://www.therobotreport.com/category/technologies/grippers-end-effectors/" target="_blank" rel="noopener"&gt;grippers&lt;/a&gt; to automatically and dynamically adapt to the location and orientation of a part, and grasp it with a higher probability of success. It leverages real time &lt;a href="https://www.therobotreport.com/category/technologies/sensors-sensing/" target="_blank" rel="noopener"&gt;sensor&lt;/a&gt; feedback to pick parts, wherever they’re located.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;Simulation&lt;/a&gt; services:&lt;/strong&gt; Powered by Gazebo, this provides users with a way for testing and troubleshooting robotic solutions that update as they build. With visualization, developers can debug and validate application logic, state machines and workcell behaviors from one place.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener"&gt;Camera&lt;/a&gt; calibration:&lt;/strong&gt; This automates how a robot’s camera can be calibrated and physically aligned, streamlining its setup and the configuration of a robot&amp;#8217;s vision system.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ROS drivers:&lt;/strong&gt; Intrinsic offers pre-configured, ROS-compatible drivers for supported robots, grippers, and 3D cameras. Through tight coupling between sensor calibration and controls, a pre-tuned setup improves the speed for getting sensors and robots talking to each other more quickly when building solutions, it said.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Intrinsic Core can make it faster, easier to build reliable robot applications&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="NEWSTON builds with Intrinsic to deliver an AI-enabled optical inspection solution to Burkert" width="740" height="416" src="https://www.youtube.com/embed/x49ugKI6ud0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;According to Intrinsic, Intrinsic Core can help its users with two things: faster development and building more reliable robots.&lt;/p&gt;
-&lt;p&gt;“We’ve seen this from the start with ROS, that having all these tools available right from the start really accelerated robotics,&amp;#8221; said Biggs. &amp;#8220;When ROS came out and started being used in academia, research started speeding up, and then people started using it in startup companies to produce new products. We saw such a massive acceleration of development.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;When it comes to reliability, Gerkey said it&amp;#8217;s important to remember that reliability needs to be thought about in every step of development.&lt;/p&gt;
-&lt;p&gt;“It’s really important to recognize that I don’t have a store of reliability in the back, where we can bring some and sprinkle it on top,&amp;#8221; he noted. &amp;#8220;Reliability is about the process and approach and diligence. It’s a long-running activity that you have to be really committed to.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;There are companies that have build reliable systems and scaled on top of ROS, but they all had to build that infrastructure on their own and spend a lot of effort doing this, Gerkey said. So Intrinsic isn&amp;#8217;t building something entirely new.&lt;/p&gt;
-&lt;p&gt;“We’re bringing in standard Linux containerization combined with Kubernetes to allow you to basically bring that together in a way that fits naturally with your ROS workflows,” Gerkey said.&lt;/p&gt;
-&lt;p&gt;“The Intrinsic Core is a step towards the point in the future where we get to have the equivalent of the red hats and the canonicals of robotics,&amp;#8221; added Biggs. &amp;#8220;They’re providing platforms upon which you can product a robot product at production quality, deployment quality, with minimal effort, because they provide all the stuff you need that builds on ROS.&amp;#8221;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;h2&gt;Open Machine Tending Solution gives developers a jump start&lt;/h2&gt;
-&lt;p&gt;To give developers and integrators an early head start with Intrinsic Core, the company is also releasing the Open Machine Tending Solution (OMTS). This runs both on Intrinsic Core and with the ROS Suite. OMTS is a ready-made reference design for a real-world machine shop use case.&lt;/p&gt;
-&lt;p&gt;“It’s important to have those well-lit paths that show you this is not just a box of parts with some potential,&amp;#8221; said Gerkey. &amp;#8220;It’s a box of parts with some things that we’ve gone through the trouble to build, so you can be confident that you can build a thing like that.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Also built to be open, OMTS makes customization possible for different assets, including models from &lt;a href="https://www.therobotreport.com/tag/fanuc" target="_blank" rel="noopener"&gt;FANUC&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/tag/universal-robots" target="_blank" rel="noopener"&gt;Universal Robots&lt;/a&gt;. For fabricators and machine shops around the world, intelligently-adaptive &lt;a href="https://www.therobotreport.com/tag/machine-tending/" target="_blank" rel="noopener"&gt;machine tending&lt;/a&gt; systems can assist operators day to day while helping improve machine utilization and automating lower value tasks.&lt;/p&gt;
-&lt;p&gt;“We really want to give people a clear starting point, and also give them a strong value proposition,” Gerkey said. “I think having that reference application gives more value to the user, and also, frankly, it keeps us as the developers of the system honest, because it’s a way to prove to ourselves that the system is complete enough to allow us to build a system like that.”&lt;/p&gt;
-&lt;h2&gt;Intrinsic starts with a specific user, but hopes to expand with time&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Accelerating Physical AI: Accelerate innovation with Intrinsic Flowstate" width="740" height="416" src="https://www.youtube.com/embed/itUzBDqm5og?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Right now, Gerkey said the ideal user for Intrinsic Core is someone already familiar with ROS who is interested in doing manipulation-based work. In addition, Intrinsic Core is a platform for robotic arms; it doesn’t support mobile robots or humanoids. It&amp;#8217;s also aimed at commercial deployments.&lt;/p&gt;
-&lt;p&gt;“When we launched ROS in the late 2000s, it was squarely targeted at a researcher,&amp;#8221; recalled Gerkey. &amp;#8220;We always had in mind, what does the best grad student in the best robotics lab in the world need to do their work?”&lt;/p&gt;
-&lt;p&gt;“We pretty quickly went way beyond that with ROS and got to domains that were not just the mobile manipulators that we had created at Willow Garage, but also many other types of robots and many other applications,&amp;#8221; he added. &amp;#8220;I think there’s an opportunity here for Intrinsic Core to have a similar expansion.”&lt;/p&gt;
-&lt;p&gt;Gerkey said he hopes that as Intrinsic gains trust with users in one area, it can expand to new areas.&lt;/p&gt;
-&lt;p&gt;“If you come out of the gates and say, &amp;#8216;We intend to be all things to all people,&amp;#8217; the chances that you’re going to succeed there are pretty slim,&amp;#8221; he acknowledged. &amp;#8220;I think it’s important to come out and say, &amp;#8216;Here’s who we’re targeting; here’s the value proposition that we think we have for them.&amp;#8217; Then, once we show traction there, and we’ve earned the credibility to expand, then let’s expand beyond that.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;In the meantime, Biggs said Open Robotics hopes to see more platforms like Intrinsic Core come out in the future.&lt;/p&gt;
-&lt;p&gt;“There’s going to be so much more you can do in so much shorter time, which is going to be great for accelerating the breadth of applications that robots start taking on,&amp;#8221; Biggs said. &amp;#8220;Intrinsic Core is going to demonstrate that in industrial manipulation.”&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development/"&gt;Intrinsic open sources key parts of its platform for easier development&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>IAC completes autonomous racing event at Laguna Seca</title>
-		<link>https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/</link>
-					<comments>https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/#respond</comments>
-		
-		<dc:creator>Mike Oitzman</dc:creator>
-		<pubDate>Mon, 21 Sep 2026 18:02:09 +0000</pubDate>
-				<category>Academia / Research</category>
-		<category>Artificial Intelligence</category>
-		<category>Automotive</category>
-		<category>Mobility / Navigation</category>
-		<category>News</category>
-		<category>Self-Driving Vehicles</category>
-		<category>Indy Autonomous Challenge</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589606</guid>
-
-					<description>&lt;p&gt;At Laguna Seca, Unimore Racing won the Indy Autonomous Challenge, marking the IAC's first autonomous car overtakes on a road course.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/"&gt;IAC completes autonomous racing event at Laguna Seca&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589607" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589607" class="size-full wp-image-589607" src="https://www.therobotreport.com/wp-content/uploads/2026/09/iac-laguna-seca-2026-featured.jpg" alt="two race cars come through the famous corkscrew turn at Laguna Seca raceway." width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/iac-laguna-seca-2026-featured.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/iac-laguna-seca-2026-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/iac-laguna-seca-2026-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/iac-laguna-seca-2026-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/iac-laguna-seca-2026-featured-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589607" class="wp-caption-text"&gt;The corkscrew turn at Laguna Seca Raceway was the site of multiple overtakes at this year&amp;#8217;s autonomous race. | Credit: IAC&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;The latest Indy Autonomous Challenge, or IAC, university race took place on Sept. 3, prior to the annual Grand Prix of Monterey weekend. This year&amp;#8217;s event featured the first time in IAC history that the autonomous racecars overtook one another on a road course.&lt;/p&gt;
-&lt;p&gt;The winning team was &lt;a href="https://www.indyautonomouschallenge.com/euroracing" target="_blank" rel="noopener"&gt;Unimore Racing&lt;/a&gt; from the University of Modena and Reggio Emilia. The final heat featured a race between Unimore and &lt;a href="https://www.indyautonomouschallenge.com/purdue-university-united-states-military-academy-west-point" target="_blank" rel="noopener"&gt;Purdue AI Racing&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Nine university teams from North America, Europe, and Asia competed in this event, with their AI driver software piloting AV-24s provided by IAC. The &lt;a href="https://www.therobotreport.com/tag/indy-autonomous-challenge/" target="_blank" rel="noopener"&gt;organization&lt;/a&gt; has held six passing competitions since 2022, all on oval tracks, including the historic Las Vegas Motor Speedway, Texas Motor Speedway, and Indianapolis Motor Speedway.&lt;/p&gt;
-&lt;p&gt;I attended the &lt;a href="https://www.therobotreport.com/indy-autonomous-challenge-makes-autonomous-driving-history-laguna-seca/" target="_blank" rel="noopener"&gt;2025 IAC event at Monterey&lt;/a&gt;, where the IAC demonstrated &lt;a href="https://www.therobotreport.com/category/robots-platforms/self-driving-vehicles/" target="_blank" rel="noopener"&gt;autonomous vehicle&lt;/a&gt; racing on a road track for the first time in North America. At that event, the teams competed for the fastest lap times, with only one vehicle on the course at a time.&lt;/p&gt;
-&lt;h2&gt;One-on-one heats feature overtaking&lt;/h2&gt;
-&lt;p&gt;This year&amp;#8217;s competition consisted of one-on-one heats in which the overtaking car had two laps to overtake the lead vehicle. The teams then swapped positions and increased the power limits for the engines.&lt;/p&gt;
-&lt;p&gt;While on course, the &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; drivers made all of the decisions about when and where to pass on the race course, once the heat started. The human crews monitored vehicle data and could tweak the parameters before the start of the next overtake lap. They also kept their hands on the e-stop button in case of a malfunction or collision.&lt;/p&gt;
-&lt;p&gt;Most of the work for each team happens away from the track, where the teams modify and test the AI driving algorithms in &lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;simulation&lt;/a&gt; throughout the rest of the year.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;h2&gt;Qualification occurs in simulation&lt;/h2&gt;
-&lt;p&gt;The teams qualified for the event a few months earlier, in a &lt;a href="https://www.dspace.com/en/pub/home/news/dspace_pressroom/press/from-simulation-to-speedway.cfm" target="_blank" rel="noopener"&gt;simulation race event hosted by D-Space&lt;/a&gt;. This is the first time that participating teams have been required to qualify for an autonomous race within a virtual testing environment before being allowed to compete on a physical track.&lt;/p&gt;
-&lt;p&gt;The IAC event is primarily an AI driver software event, as the vehicles all have the same Dallara base design, Honda engine, Luminar sensors, and NVIDIA GPU.&lt;/p&gt;
-&lt;p&gt;Within the D-Space software-in-the-loop environment, the teams validated vehicle behavior, race strategy, and overtaking performance in a realistic digital twin of Laguna Seca raceway. This ensured that any algorithm anomalies wouldn&amp;#8217;t lead to an on-track collision resulting in damage to a race car.&lt;/p&gt;
-&lt;p&gt;The teams typically consist of Ph.D. and master&amp;#8217;s students, all of whom are working on autonomous driving or vehicle-related research. The IAC event started in &lt;a href="https://www.therobotreport.com/tum-autonomous-motorsport-wins-the-indy-autonomous-challenge/" target="_blank" rel="noopener"&gt;2021 at the Indianapolis Motor Speedway&lt;/a&gt;, with an international lineup of university teams.&lt;/p&gt;
-&lt;p&gt;Each team is supported by sponsors and donors in the automotive and physical AI market, as the research and event directly influence the pace of innovation for autonomous driving, according to the IAC.&lt;/p&gt;
-&lt;p&gt;Several team members have started new companies in the automotive space after completing their research programs and working with the IAC race program. Examples include &lt;a href="https://www.aidoptation.com/" target="_blank" rel="noopener"&gt;Aidoptation&lt;/a&gt;, &lt;a href="https://www.driveblocks.ai/" target="_blank" rel="noopener"&gt;driveblocks&lt;/a&gt;, and &lt;a href="https://getautonoma.com/" target="_blank" rel="noopener"&gt;Autonoma AI&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Race Highlights | Indy Autonomous Challenge at WeatherTech Raceway Laguna Seca 2026" width="740" height="416" src="https://www.youtube.com/embed/d1fkCSmIgtw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/"&gt;IAC completes autonomous racing event at Laguna Seca&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		

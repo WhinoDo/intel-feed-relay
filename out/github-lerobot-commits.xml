@@ -4,7 +4,131 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-25T13:40:35Z</ns0:updated>
+  <ns0:updated>2026-09-25T20:19:57Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/e595b7902714ba51f91e47523f66f89c5181b649</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e595b7902714ba51f91e47523f66f89c5181b649" />
+    <ns0:title>
+        Feat/rebot b601 motor family (#4535)
+    </ns0:title>
+    <ns0:updated>2026-09-25T20:19:57Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/13318497?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>s1lent4gnt</ns0:name>
+      <ns0:uri>https://github.com/s1lent4gnt</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Feat/rebot b601 motor family (#4535)
+
+* test(rebot): lock in legacy DM behavior
+
+* build(rebot): upgrade MotorBridge to 0.5
+
+* feat(rebot): unify DM and RS motor families
+
+* fix: prevent partial reBot actions moving wrist yaw
+
+* fix(rebot): improve startup and bimanual failure safety
+
+* refactor(rebot): use shared bimanual lifecycle cleanup
+
+* fix(rebot): validate only device ID in RS startup ping
+
+* fix(rebot): align bimanual cleanup with shared lifecycle API
+
+* docs(rebot): simplify hardware setup guidance
+
+* fix(rebot): use standard bimanual lifecycle behavior
+
+* fix(rebot): remove unnecessary python-can dependency
+
+* refactor(rebot): delegate MIT gain limits to MotorBridge
+
+* refactor(rebot): remove duplicate torque ceiling handling
+
+* refactor(rebot): simplify MotorBridge mode selection
+
+* refactor(rebot): simplify motor family profiles
+
+* docs(rebot): clarify cross-platform CAN transport
+
+* refactor(rebot): use profiles for CAN adapter validation
+
+* refactor(rebot): remove unused profile property
+
+* refactor(rebot): keep motor profiles internal
+
+* refactor(rebot): use shared MIT control mode default
+
+* refactor(rebot): simplify profile set definitions
+
+* refactor(rebot): remove connection cleanup wrapper
+
+* refactor(rebot): remove unused public joint limits helper
+
+* refactor(rebot): simplify present position reads
+
+* refactor(rebot): remove redundant config exports
+
+* refactor(rebot): share MIT mode constant
+
+* refactor(rebot): use mutable internal motor profiles
+
+* refactor(rebot): derive motor family from profile lookup
+
+* refactor(rebot): select motor profiles directly
+
+* refactor(rebot): inline control mode selection
+
+* refactor(rebot): delegate transport validation to MotorBridge
+
+* refactor(rebot): delegate port validation to MotorBridge
+
+* refactor(rebot): delegate MIT gain validation to MotorBridge
+
+* refactor(rebot): delegate command validation to MotorBridge
+
+* refactor(rebot): keep follower directions internal
+
+* refactor(rebot): internalize runtime safety tuning
+
+* refactor(rebot): simplify mode-specific defaults
+
+* refactor(rebot): simplify MotorBridge lifecycle
+
+* refactor(rebot): simplify family configuration
+
+* refactor(rebot): simplify bimanual configuration
+
+* test(rebot): simplify motor family coverage
+
+* docs(rebot): streamline motor family guide
+
+* refactor(rebot): simplify per-joint configuration
+
+* refactor(rebot): streamline follower configuration
+
+* refactor(rebot): simplify motor family profiles
+
+* refactor(rebot): simplify follower MotorBridge handling
+
+* test(rebot): strengthen motor family and lifecycle coverage
+
+* docs(rebot): clarify CAN setup and gripper behavior
+
+* docs(rebot): expand DM and RS setup and recording guide
+
+* docs(rebot): nit
+
+* refactor(rebot): address review feedback
+
+* fix(rebot): merge partial joint limit overrides
+
+* refactor(rebot): validate control config before connecting
+
+* fix(rebot): warn when feedback loss disables torque&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/1bc0bdfb20ad4f4f76dc8a68a0e0746d54f50de9</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1bc0bdfb20ad4f4f76dc8a68a0e0746d54f50de9" />
@@ -604,65 +728,6 @@ review. Pinning to the commit SHA freezes the code that runs today.
 
 Co-authored-by: hf-security-analysis[bot] &amp;lt;265538906+hf-security-analysis[bot]@users.noreply.github.com&amp;gt;
 Co-authored-by: Pauline Bailly-Masson &amp;lt;155966238+paulinebm@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/8f5da7cae165e07698a48dcc7e83e443f9a48ec9</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8f5da7cae165e07698a48dcc7e83e443f9a48ec9" />
-    <ns0:title>
-        chore(mypy): cover lerobot_types (#4733)
-    </ns0:title>
-    <ns0:updated>2026-09-23T12:57:46Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover lerobot_types (#4733)
-
-Replace `TransitionKey(str, Enum)` with a `@final` constants class whose members
-are `Final[Literal[...]]` strings, and rewrite `EnvTransition` as a class-based
-`TypedDict` with the seven literal keys (all required). mypy cannot index a
-TypedDict with a str-Enum member (it reports the member NAME as a missing key)
-and rejects non-literal field names in the functional `TypedDict(...)` form, so
-the old definitions left `EnvTransition` with no usable fields for every module
-that handles transitions. With the new spelling `td[TransitionKey.X]`,
-`.get(...)`, `.copy()` and dict literals keyed by `TransitionKey.X` type-check
-with no call-site changes. The explicit `Final[Literal[&amp;quot;x&amp;quot;]]` form (rather than
-the implicit `Final = &amp;quot;x&amp;quot;`) keeps the literal type when a member is bound to a
-local or a tuple variable; only a `list` of members widens to `list[str]`.
-`PolicyAction` and `EnvAction` get an explicit `TypeAlias` because their
-torch/numpy targets resolve to `Any` under the CI mypy config
-(`follow_imports = skip`, no stubs); a PEP 695 `type` statement is not usable
-since both are `isinstance` targets.
-
-Enable the `lerobot.lerobot_types` mypy override in pyproject.toml and drop the
-Enum-only `.value` accesses and the `isinstance(k, TransitionKey)` assertion in
-tests: tests/processor/{test_act,test_diffusion,test_gaussian_actor,
-test_smolvla,test_tdmpc,test_vqbet}_processor.py, tests/processor/test_pipeline.py,
-tests/rewards/test_classifier_processor.py, tests/test_interactive_rollout.py.
-
-BREAKING (intentional, no compat shim): `TransitionKey` is no longer an `Enum`.
-`TransitionKey(&amp;quot;observation&amp;quot;)`, `TransitionKey[&amp;quot;OBSERVATION&amp;quot;]`,
-`list(TransitionKey)`, `&amp;quot;observation&amp;quot; in TransitionKey`, `.value` / `.name` and
-`__members__` now raise; `isinstance(x, TransitionKey)` is always False; `str()`
-/ f-strings render `&amp;quot;observation&amp;quot;` instead of `&amp;quot;TransitionKey.OBSERVATION&amp;quot;`.
-Nothing in src/, tests/, examples/ or docs/ used these. Consequences:
-- Pickles of transitions written by older versions fail to load with
-  `TypeError: TransitionKey() takes no arguments` (Enum reduce calls the class);
-  no in-repo cross-version path exists. `torch.load(weights_only=True)` of a
-  transition, which failed on Enum keys, now works.
-- `ValueError(&amp;quot;Cannot filter batched field ...&amp;quot;)` in
-  processor/render_messages_processor.py now names `&amp;#39;observation.foo&amp;#39;` /
-  `&amp;#39;action&amp;#39;` instead of `&amp;#39;TransitionKey.OBSERVATION.foo&amp;#39;`; no test pins the text.
-- `EnvTransition.__annotations__` holds lazy strings (the module already uses
-  `from __future__ import annotations`); use `typing.get_type_hints`.
-
-Left for the not-yet-gated modules&amp;#39; own PRs: rewards/{topreward,robometer}/
-compute_rabc_weights.py and policies/lawam/processor_lawam.py pass partial dict
-literals where an `EnvTransition` is expected (mypy: Missing keys), and
-processor/device_processor.py iterates *lists* of keys, which widen to `str`.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
