@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Fri, 25 Sep 2026 06:47:02 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 26 Sep 2026 08:37:41 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/asimov-open-source-locomotion-policy-training</guid>
+    <title>Asimov Open-Sources the Training Code Behind Its Humanoid’s Walk</title>
+    <link>https://www.humanoidsdaily.com/news/asimov-open-source-locomotion-policy-training</link>
+    <description>The Asimov 1 release exposes locomotion rewards, actuator settings and simulation training code, giving developers tools to adapt the walking controller for the open-source humanoid.</description>
+    <pubDate>Sat, 26 Sep 2026 08:37:41 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>open-source</category><category>Asimov</category><category>locomotion</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-20000-robots-production-milestone</guid>
+    <title>AGIBOT Has Built 20,000 Robots—Twice Its March Total</title>
+    <link>https://www.humanoidsdaily.com/news/agibot-20000-robots-production-milestone</link>
+    <description>AGIBOT says cumulative robot production has reached 20,000, with its latest milestone machine delivered to Chimelong. Recent checkpoints suggest roughly 5,000 additional units per quarter across a mixed fleet.</description>
+    <pubDate>Sat, 26 Sep 2026 08:35:42 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>China</category><category>AGIBOT</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/peek-humanoid-robots-barclays-kingfa-hype</guid>
     <title>Analysts See a PEEK Boom in Humanoid Robots. Kingfa’s Robotics Lead Says Most of It Is Hype</title>
@@ -288,26 +308,6 @@
     <pubDate>Fri, 18 Sep 2026 14:14:44 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Optimus</category><category>Tesla</category><category>Optimus gen 3</category><category>manufacturing</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/spirit-ai-robot-brain-breakthrough-2027</guid>
-    <title>Spirit AI Predicts a Robot-Brain Breakthrough in 2027</title>
-    <link>https://www.humanoidsdaily.com/news/spirit-ai-robot-brain-breakthrough-2027</link>
-    <description>Co-founder Gao Yang expects a mid-2027 leap in robots’ ability to follow spoken instructions, while warning that useful household robots remain much further away.</description>
-    <pubDate>Fri, 18 Sep 2026 12:46:14 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Artificial Intelligence</category><category>Spirit AI</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/ubtech-walker-c1-slovenia-balkan-expansion</guid>
-    <title>UBTECH Brings Walker C1 to Slovenia in Balkan Expansion Push</title>
-    <link>https://www.humanoidsdaily.com/news/ubtech-walker-c1-slovenia-balkan-expansion</link>
-    <description>Walker C1’s Slovenian showcase follows a five-country distribution and integration agreement with Hiproject, adding to Chinese humanoid makers’ European presence.</description>
-    <pubDate>Fri, 18 Sep 2026 12:29:43 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Europe</category><category>UBTECH Robotics</category>
   </item>
 
   </channel>
