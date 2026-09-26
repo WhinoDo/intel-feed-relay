@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Sat, 26 Sep 2026 08:37:41 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 26 Sep 2026 09:31:20 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-optimus-production-hundreds-per-week-report</guid>
+    <title>Tesla Reportedly Builds Hundreds of Optimus Robots a Week</title>
+    <link>https://www.humanoidsdaily.com/news/tesla-optimus-production-hundreds-per-week-report</link>
+    <description>The Information reports a roughly tenfold Optimus production increase, but says current V3 units are not the final customer version and details hardware, supplier and AI challenges.</description>
+    <pubDate>Sat, 26 Sep 2026 09:31:20 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Tesla</category><category>US</category><category>Optimus gen 3</category><category>Supply Chain</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/asimov-open-source-locomotion-policy-training</guid>
     <title>Asimov Open-Sources the Training Code Behind Its Humanoid’s Walk</title>
@@ -298,16 +308,6 @@
     <pubDate>Sat, 19 Sep 2026 10:27:00 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>1X Technologies</category><category>US</category><category>manufacturing</category><category>NEO</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-optimus-supplier-audits-china</guid>
-    <title>Tesla Reportedly Begins New Optimus Supplier Audits in China</title>
-    <link>https://www.humanoidsdaily.com/news/tesla-optimus-supplier-audits-china</link>
-    <description>Reports point to a new round of Optimus supplier inspections in Ningbo, while company representatives confirm ongoing robotics work but stop short of verifying the latest visits.</description>
-    <pubDate>Fri, 18 Sep 2026 14:14:44 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Optimus</category><category>Tesla</category><category>Optimus gen 3</category><category>manufacturing</category>
   </item>
 
   </channel>
