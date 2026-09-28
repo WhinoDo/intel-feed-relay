@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 28 Sep 2026 07:55:53 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 28 Sep 2026 16:21:13 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/dyna-robotics-new-robot-teaser</guid>
+    <title>Dyna Robotics Teases a New Robot Built for Real Work</title>
+    <link>https://www.humanoidsdaily.com/news/dyna-robotics-new-robot-teaser</link>
+    <description>Dyna promises a first look at a new robot, following its Dyna-2 model release and reported customer expansion. Specifications and a launch date remain undisclosed.</description>
+    <pubDate>Mon, 28 Sep 2026 16:21:13 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Dyna Robotics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-nvidia-open-agent-safety-platform</guid>
+    <title>Figure Joins NVIDIA’s Open Agent Safety Platform as Humanoid Deployment Approaches</title>
+    <link>https://www.humanoidsdaily.com/news/figure-nvidia-open-agent-safety-platform</link>
+    <description>Figure backs NVIDIA’s agent-safety initiative, while Gecko’s CEO outlines inspection robots working within human-set limits. How the platform will be integrated into Figure’s robots remains undisclosed.</description>
+    <pubDate>Mon, 28 Sep 2026 15:29:06 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Brett Adcock</category><category>NVIDIA</category><category>Jensen Huang</category><category>Figure</category><category>cybersecurity</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/sharpa-d01-w02-ae01-iros-2026</guid>
+    <title>Sharpa Launches D01 Robot, W02 Hand and AE01 Haptic Glove at IROS 2026</title>
+    <link>https://www.humanoidsdaily.com/news/sharpa-d01-w02-ae01-iros-2026</link>
+    <description>Sharpa expands its manipulation hardware lineup with a tactile-sensing robot, a sub-750-gram dexterous hand and an exoskeleton glove for teleoperation and training data.</description>
+    <pubDate>Mon, 28 Sep 2026 15:11:44 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>teleoperation</category><category>SharpaWave</category><category>Dexterity</category><category>Sharpa Robotics</category><category>robotic hand</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/niantic-spatial-places-library-robot-training</guid>
     <title>Niantic Spatial Launches Places Library With 100 Real Environments for Robot Training</title>
@@ -278,36 +308,6 @@
     <pubDate>Mon, 21 Sep 2026 06:39:26 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Hyundai Motor Group</category><category>Deployment</category><category>Atlas</category><category>manufacturing</category><category>Boston Dynamics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/x-square-robot-lululemon-wuhan-warehouse</guid>
-    <title>X Square’s Robot Starts Work at Lululemon’s Wuhan Warehouse</title>
-    <link>https://www.humanoidsdaily.com/news/x-square-robot-lululemon-wuhan-warehouse</link>
-    <description>X Square says its QUANTA X1 Pro is handling parcels at lululemon’s new Wuhan distribution center, adding a named warehouse deployment to its logistics push.</description>
-    <pubDate>Sun, 20 Sep 2026 19:02:02 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>logistics</category><category>Deployment</category><category>XSquare</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/why-ningbo-matters-tesla-optimus</guid>
-    <title>Why Ningbo Matters to Tesla’s Optimus Ambitions</title>
-    <link>https://www.humanoidsdaily.com/news/why-ningbo-matters-tesla-optimus</link>
-    <description>Tesla’s reported supplier audits put Ningbo’s automotive expertise in focus, as Georg Stieler highlights the Yangtze River Delta’s role in humanoid robotics.</description>
-    <pubDate>Sun, 20 Sep 2026 16:11:02 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Optimus</category><category>Tesla</category><category>manufacturing</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-app-optimus-charger-home-integration</guid>
-    <title>Tesla App Code Hints at Optimus Charging and Home Integration</title>
-    <link>https://www.humanoidsdaily.com/news/tesla-app-optimus-charger-home-integration</link>
-    <description>A decompilation of Tesla app 4.61.0 identifies Optimus charger IDs and an energy-site entry, suggesting software preparation without confirming a consumer launch.</description>
-    <pubDate>Sun, 20 Sep 2026 07:03:00 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Optimus</category><category>Tesla</category>
   </item>
 
   </channel>
