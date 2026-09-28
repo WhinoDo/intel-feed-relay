@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Fri, 25 Sep 2026 19:00:17 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 28 Sep 2026 14:45:28 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,68 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Raise Robotics to discuss scaling field robots at RoboBusiness</title>
+		<link>https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/</link>
+					<comments>https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Mon, 28 Sep 2026 13:22:53 +0000</pubDate>
+				<category>Actuators / Motors / Servos</category>
+		<category>Construction</category>
+		<category>Events</category>
+		<category>Markets / Industries</category>
+		<category>News</category>
+		<category>Technologies</category>
+		<category>Raise Robotics</category>
+		<category>robobusiness</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589683</guid>
+
+					<description>&lt;p&gt;Raise Robotics said attendees will learn a decision rule for allocating engineering capacity and a vocabulary for two hidden failure modes.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/"&gt;Raise Robotics to discuss scaling field robots at RoboBusiness&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589684" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/raiserobotics-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589684" class="wp-image-589684 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/09/raiserobotics-featured.jpg" alt="Two robot arms working on the side of a building under construction. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/raiserobotics-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/09/raiserobotics-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/raiserobotics-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/raiserobotics-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/raiserobotics-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589684" class="wp-caption-text"&gt;The Autonomous Mobile Fabricator operates as a ground-level AGV or mounts directly onto any Genie MEWP platform. | Source: Raise Robotics&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Most autonomous systems work in the lab and stall in the field. An early-stage construction robot reaches a customer at roughly 80% of the capability that the customer needs. Whether that program crosses to 120% is not a hardware problem; it’s a leadership decision. Where do you spend finite engineering capacity, and where do you build operator discipline instead?&lt;/p&gt;
+&lt;p&gt;At &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026, Kenrick Tjandra, who leads robotics deployment at Raise Robotics, will talk about &amp;#8220;Closing the Capability Gap: A Leadership Framework for Scaling Field Robotics.&amp;#8221; RoboBusiness takes place Oct. 20 and 21 in Santa Clara, Calif. The session will start at 1:15 p.m. ET on the first day of the show.&lt;/p&gt;
+&lt;p&gt;Raise Robotics holds the U.S. commercial record for autonomous robots installing building envelopes at the leading edge of buildings under construction. The San Francisco-based &lt;a href="https://www.therobotreport.com/tag/raise-robotics/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; has completed 10 projects across eight states, as well as over 4,528 robot-hours, with zero safety incidents.&lt;/p&gt;
+&lt;p&gt;From that record, Tjandra has built a repeatable decision framework, now peer-reviewed by Project Production Institute, which answers the question every scaling robotics team faces: Do you build the product fix, or write the operator playbook?&lt;/p&gt;
+&lt;p&gt;Kenrick will ground his talk in two failures that shaped the framework, then walk through the framework:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li style="list-style-type: none;"&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Sampling bias:&lt;/strong&gt; Your first three sites don&amp;#8217;t represent your next 30.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Margin stacking:&lt;/strong&gt; Independently-defensible tolerances consume each other in series (truck → forklift → hoist → doorway → floor) until a comfortable margin is gone.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The framework itself:&lt;/strong&gt; It includes a resource taxonomy, a three-tier build-vs-workaround model, and a capability-envelope-versus-observed- variance method for anticipating where a system breaks next.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Attendees leave with a decision rule for allocating engineering capacity, a vocabulary for two hidden failure modes, and the pre-mobilization gates that keep field programs from stalling; the discipline that separates a demo from a system that scales.&lt;/p&gt;
+&lt;h2&gt;Meet Kenrick Tjandra&lt;/h2&gt;
+&lt;div class="wtwh-speaker-bio outside-container"&gt;
+&lt;div class="wtwh-speaker-content inner-container"&gt;
+&lt;p&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/kenricktjandra.jpg"&gt;&lt;img decoding="async" class="alignleft wp-image-589685 size-medium" src="https://www.therobotreport.com/wp-content/uploads/2026/09/kenricktjandra-300x300.jpg" alt="headshot of Kenrick Tjandra." width="300" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/kenricktjandra-300x300.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/kenricktjandra-150x150.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/kenricktjandra-238x238.jpg 238w, https://www.therobotreport.com/wp-content/uploads/2026/09/kenricktjandra.jpg 500w" sizes="(max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;Tjandra leads robotics deployment at Raise Robotics. Raise is U.S. company with a commercial record of autonomous robots working at the leading edge of buildings under &lt;a href="https://www.therobotreport.com/category/markets-industries/construction-demolition/" target="_blank" rel="noopener"&gt;construction&lt;/a&gt;. He directed deployment across 10 commercial projects in eight states.&lt;/p&gt;
+&lt;p&gt;Tjandra also authored the company&amp;#8217;s peer-reviewed decision framework for scaling early-stage robotics (Project Production Institute, 2026). He built the operator-training curriculum adopted by the International Union of Painters and Allied Trades and taught across more than 100 training centers in the U.S. and Canada.&lt;/p&gt;
+&lt;p&gt;Kenrick holds an M.S. in mechanical engineering from Carnegie Mellon and was an invited speaker at ICRA 2026 and Stanford.&lt;/p&gt;
+&lt;h2&gt;Register now for RoboBusiness&lt;/h2&gt;
+&lt;p&gt;RoboBusiness 2026 is the leading event for commercial robotics developers. Attendees will gain the latest insights from experts in robotics and AI on cutting-edge research; industry trends; and innovative applications in sectors such as manufacturing, healthcare, agriculture, logistics, and more.&lt;/p&gt;
+&lt;p&gt;The show also features a number of &lt;a href="https://www.robobusiness.com/networking-events/" target="_blank" rel="noopener"&gt;networking opportunities&lt;/a&gt; to give attendees a chance to connect with other experts in the industry.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Buy your full conference pass&lt;/a&gt; and gain full access to all keynotes, technical sessions, networking receptions, and special events. Discounts are also available for academia, associations, and corporate groups. Please email events[at]arrowfly.com for more details about our discount programs.&lt;/p&gt;
+&lt;article class="type-post entry" aria-label="Registration is open for RoboBusiness 2026"&gt;
+&lt;div class="entry-content"&gt;
+&lt;p&gt;For information about sponsorship and exhibition opportunities, &lt;a href="https://www.robobusiness.com/sponsor/" target="_blank" rel="noopener"&gt;download the prospectus&lt;/a&gt;. Questions regarding sponsorship opportunities should be directed to Colleen Sepich at csepich[AT]arrowfly.com.&lt;/p&gt;
+&lt;p&gt;&lt;iframe title="Best Moments of RoboBusiness 2025" width="740" height="416" src="https://www.youtube.com/embed/sA7R9PGhCog?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/"&gt;Raise Robotics to discuss scaling field robots at RoboBusiness&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>Asimov’s laws are not enough to keep robotics and AI safe</title>
 		<link>https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/</link>
 					<comments>https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/#respond</comments>
@@ -43,7 +105,7 @@
 					<description>&lt;p&gt;Asimov's fictional Three Laws of Robotics famously set safeguards, and tech observers today raise similar concerns about AI.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/"&gt;Asimov&amp;#8217;s laws are not enough to keep robotics and AI safe&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_589679" style="width: 1682px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589679" class="size-full wp-image-589679" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Asimov-Article-Image.jpg" alt="Automation continues to progress, but some tech leaders and lawmakers are mirroring Asimov's concern about potential threats to society." width="1672" height="941" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Asimov-Article-Image.jpg 1672w, https://www.therobotreport.com/wp-content/uploads/2026/09/Asimov-Article-Image-300x169.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Asimov-Article-Image-1024x576.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/Asimov-Article-Image-150x84.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Asimov-Article-Image-768x432.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/Asimov-Article-Image-1536x864.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/Asimov-Article-Image-368x207.jpg 368w" sizes="(max-width: 1672px) 100vw, 1672px" /&gt;&lt;p id="caption-attachment-589679" class="wp-caption-text"&gt;Some tech leaders and lawmakers are mirroring Asimov&amp;#8217;s concern about threats that robotics and AI pose to society. Source: Rinaldo Brutoco, AI&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_589679" style="width: 1682px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589679" class="size-full wp-image-589679" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Asimov-Article-Image.jpg" alt="Automation continues to progress, but some tech leaders and lawmakers are mirroring Asimov's concern about potential threats to society." width="1672" height="941" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Asimov-Article-Image.jpg 1672w, https://www.therobotreport.com/wp-content/uploads/2026/09/Asimov-Article-Image-300x169.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Asimov-Article-Image-1024x576.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/Asimov-Article-Image-150x84.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Asimov-Article-Image-768x432.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/Asimov-Article-Image-1536x864.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/Asimov-Article-Image-368x207.jpg 368w" sizes="auto, (max-width: 1672px) 100vw, 1672px" /&gt;&lt;p id="caption-attachment-589679" class="wp-caption-text"&gt;Some tech leaders and lawmakers are mirroring Asimov&amp;#8217;s concern about threats that robotics and AI pose to society. Source: Rinaldo Brutoco, AI&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Most science fiction fans are aware that Isaac Asimov propounded his Three Laws of Robotics in the March 1942 issue of &lt;em&gt;Astounding Science Fiction&lt;/em&gt; magazine and later republished them in his famous 1950 collection, &lt;a href="https://www.penguinrandomhouse.com/books/5681/i-robot-by-isaac-asimov/" target="_blank" rel="noopener"&gt;&lt;em&gt;I, Robot&lt;/em&gt;&lt;/a&gt;. Since then, readers have been thinking through both the obvious and the not-so-obvious implications of his dicta. In an era when people fear that AI threatens all of human civilization, Asimov&amp;#8217;s observations about robots&amp;#8217; dangers to humans feel even more prescient.&lt;/p&gt;
 &lt;p&gt;Asimov&amp;#8217;s Three Laws of Robotics are as follows:&lt;/p&gt;
 &lt;ol&gt;
@@ -58,7 +120,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;Tech leaders worry about social risks of AI&lt;/h2&gt;
@@ -72,7 +134,7 @@
 &lt;p&gt;The signatories claimed that waiting much longer will leave insufficient time to provide the guidance software developers need to moderate the otherwise disruptive capacity of robots to replace human workers without allowing adequate time for transition and institution-building.&lt;/p&gt;
 &lt;p&gt;We must act now if we are to provide sufficient guidance for the development of robotics so that human society as a whole is not adversely affected. We also must begin designing the transition tools needed to manage the coming changes.&lt;/p&gt;
 &lt;p&gt;As a counterpoint, Jensen Huang, CEO of NVIDIA, said that concerns about AI dangers are overblown.&lt;/p&gt;
-&lt;p&gt;&lt;iframe title="Nvidia CEO Jensen Huang accuses those warning about AI apocalypse of &amp;quot;doing it for ulterior reasons&amp;quot;" width="740" height="416" src="https://www.youtube.com/embed/XlY7DI5v4ZU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Nvidia CEO Jensen Huang accuses those warning about AI apocalypse of &amp;quot;doing it for ulterior reasons&amp;quot;" width="740" height="416" src="https://www.youtube.com/embed/XlY7DI5v4ZU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;Proposed legislation follows Asimov&amp;#8217;s lead&lt;/h2&gt;
 &lt;p&gt;On July 21, 2026, Senator Mark Warner, vice chairman of the Senate Intelligence Committee, introduced comprehensive legislation entitled &amp;#8220;&lt;a href="https://www.warner.senate.gov/wp-content/uploads/2026/07/FINAL-AI-Framework-Booklet.pdf" target="_blank" rel="noopener"&gt;A Framework for America&amp;#8217;s AI Future&lt;/a&gt;,&amp;#8221; consisting of three major components.&lt;/p&gt;
 &lt;p&gt;Approximately two-thirds of Sen. Warner&amp;#8217;s proposal focuses on the general requirements he said must be put in place now to avoid future harm. He is particularly concerned about the potential negative effects that robotics could have on human civilization if adequate guardrails are not established for future AI development, as well as the need to prevent unauthorized commercial exploitation and protect consumer data security.&lt;/p&gt;
@@ -927,57 +989,6 @@
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness</title>
-		<link>https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/</link>
-					<comments>https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/#respond</comments>
-		
-		<dc:creator>The Robot Report Staff</dc:creator>
-		<pubDate>Tue, 22 Sep 2026 21:31:19 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Design / Development</category>
-		<category>Events</category>
-		<category>Intel</category>
-		<category>robobusiness</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589620</guid>
-
-					<description>&lt;p&gt;Intel's Nagesh Puppala will discuss why the next phase of robotics innovation depends on more than bigger models or better simulations.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/"&gt;Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589624" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/intelrobotics-june-2026-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589624" class="wp-image-589624 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/09/intelrobotics-june-2026-featured.jpg" alt="Intel's Robotics AI Suite is an open robotics development platform optimized for physical AI on Intel Core and Intel Core Ultra processors." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/intelrobotics-june-2026-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/09/intelrobotics-june-2026-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/intelrobotics-june-2026-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/intelrobotics-june-2026-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/intelrobotics-june-2026-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/intelrobotics-june-2026-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/intelrobotics-june-2026-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589624" class="wp-caption-text"&gt;Intel&amp;#8217;s Robotics AI Suite is an open development platform for physical AI on Intel Core and Intel Core Ultra processors. | Source: Intel&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;AI is moving from digital environments into the physical world, where robots and autonomous systems must sense, reason, and act in real time. For robotics developers, this shift creates a new challenge, according to Intel Corp. Now, success isn&amp;#8217;t defined by model performance alone, but by the ability to deploy AI into systems that are responsive, reliable, safe, and scalable.&lt;/p&gt;
-&lt;p&gt;At &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026, Nagesh Puppala, general manager of physical AI and robotics at Intel, will give the talk, &amp;#8220;From Models to Machines: Building the Open Infrastructure for Physical AI.&amp;#8221; The event will take place on Oct. 20 and 21 in Santa Clara, Calif., and Puppala will present at 1:15 p.m. PT on the first day of the show.&lt;/p&gt;
-&lt;p&gt;The session will explore the infrastructure required to move physical &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; from prototype to production in real-world robotics systems. It will examine how open, edge-first architectures can help robotics teams integrate perception, sensor fusion, motion planning, deterministic control, and real-time AI across diverse hardware and software environments.&lt;/p&gt;
-&lt;p&gt;Attendees will learn why the next phase of robotics innovation depends on more than bigger models or better simulations. It requires a practical deployment foundation that supports flexibility, interoperability, and measurable outcomes across &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;manufacturing&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/markets-industries/logistics-warehousing-asrs/" target="_blank" rel="noopener"&gt;logistics&lt;/a&gt;, field robotics, &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoids&lt;/a&gt;, and autonomous systems.&lt;/p&gt;
-&lt;h2&gt;Meet Intel physical AI expert Nagesh Puppala&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/nageshpuppala.png"&gt;&lt;img loading="lazy" decoding="async" class="alignleft wp-image-589625 size-medium" src="https://www.therobotreport.com/wp-content/uploads/2026/09/nageshpuppala-300x300.png" alt="" width="300" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/nageshpuppala-300x300.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/nageshpuppala-150x150.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/nageshpuppala-238x238.png 238w, https://www.therobotreport.com/wp-content/uploads/2026/09/nageshpuppala.png 500w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;Nagesh Puppala is general manager of Intel’s Physical AI &amp;amp; Robotics Segment within the Client Computing and Physical AI Group. He leads the &lt;a href="https://www.therobotreport.com/tag/intel/" target="_blank" rel="noopener"&gt;company&lt;/a&gt;&amp;#8216;s strategy and execution to accelerate growth, strengthen industry leadership, and scale the business.&lt;/p&gt;
-&lt;p&gt;With more than 25 years of experience, Puppala has built platform businesses by aligning technical innovation with commercial impact. Previously, he led Intel’s media business, growing it from an early-stage initiative into a scaled platform.&lt;/p&gt;
-&lt;p&gt;Today, he is focused on advancing physical AI through open, scalable robotics platforms and ecosystem collaboration. Nagesh holds an MBA from NYU Stern, a master’s in computer science, and a bachelor’s in mechanical engineering.&lt;/p&gt;
-&lt;h2&gt;Register for RoboBusiness now&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Best Moments of RoboBusiness 2025" width="740" height="416" src="https://www.youtube.com/embed/sA7R9PGhCog?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;RoboBusiness 2026 is the leading event for commercial robotics developers. Attendees will gain the latest insights from experts in robotics and AI on cutting-edge research; industry trends; and innovative applications in sectors such as manufacturing, healthcare, agriculture, logistics, and more.&lt;/p&gt;
-&lt;p&gt;The show also features a number of &lt;a href="https://www.robobusiness.com/networking-events/" target="_blank" rel="noopener"&gt;networking opportunities&lt;/a&gt; to give attendees a chance to connect with other experts in the industry.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Buy your full conference pass&lt;/a&gt; and gain full access to all keynotes, technical sessions, networking receptions, and special events. Discounts are also available for academia, associations, and corporate groups. Please email events[at]arrowfly.com for more details about our discount programs.&lt;/p&gt;
-&lt;article class="type-post entry" aria-label="Registration is open for RoboBusiness 2026"&gt;
-&lt;div class="entry-content"&gt;
-&lt;p&gt;For information about sponsorship and exhibition opportunities, &lt;a href="https://www.robobusiness.com/sponsor/" target="_blank" rel="noopener"&gt;download the prospectus&lt;/a&gt;. Questions regarding sponsorship opportunities should be directed to Colleen Sepich at csepich[AT]arrowfly.com.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;/div&gt;
-&lt;/article&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/"&gt;Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		

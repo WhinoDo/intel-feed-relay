@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Sun, 27 Sep 2026 12:11:43 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 28 Sep 2026 07:55:53 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/niantic-spatial-places-library-robot-training</guid>
+    <title>Niantic Spatial Launches Places Library With 100 Real Environments for Robot Training</title>
+    <link>https://www.humanoidsdaily.com/news/niantic-spatial-places-library-robot-training</link>
+    <description>Niantic Spatial pairs captured 3D scenes with collision geometry for robot simulation, offering free samples, paid access, and a relighting beta.</description>
+    <pubDate>Mon, 28 Sep 2026 07:55:53 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Niantic Spatial</category><category>Flexion</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/hd-hyundai-humanoid-ai-factory-robots</guid>
     <title>HD Hyundai Wants Humanoid AI to Upgrade Its Existing Factory Robots</title>
@@ -298,16 +308,6 @@
     <pubDate>Sun, 20 Sep 2026 07:03:00 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Optimus</category><category>Tesla</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/gpt-6-astra-roboharm-unsafe-robot-commands</guid>
-    <title>GPT-6 Astra Rarely Refused Unsafe Robot Commands in New Test</title>
-    <link>https://www.humanoidsdaily.com/news/gpt-6-astra-roboharm-unsafe-robot-commands</link>
-    <description>RoboHarm adds a safety test to Astra’s robotics results: 97 attempts and 60 completions across 100 unsafe-instruction trials, with only two safety refusals.</description>
-    <pubDate>Sun, 20 Sep 2026 06:52:09 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>OpenAI</category><category>Benchmark</category><category>Robotics Research</category><category>Research</category><category>RoboCurve</category>
   </item>
 
   </channel>

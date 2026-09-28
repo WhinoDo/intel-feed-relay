@@ -4,7 +4,23 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-09-25T20:19:57Z</ns0:updated>
+  <ns0:updated>2026-09-28T13:50:08Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/eb7a54c6ff4983fc86075442bf4fa61503e7b5d1</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/eb7a54c6ff4983fc86075442bf4fa61503e7b5d1" />
+    <ns0:title>
+        fix(datasets): preserve Lance batch metadata during cache eviction (#…
+    </ns0:title>
+    <ns0:updated>2026-09-28T13:50:08Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/2283778?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>yanghua</ns0:name>
+      <ns0:uri>https://github.com/yanghua</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): preserve Lance batch metadata during cache eviction (#4755)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/e595b7902714ba51f91e47523f66f89c5181b649</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e595b7902714ba51f91e47523f66f89c5181b649" />
@@ -705,29 +721,6 @@ No type: ignore added (one removed); 3 commented casts; LANGUAGE_* made Final.
 Inputs that already failed (no video_path template, unopened lance resources,
 unloaded hf_dataset, None delta indices) now raise ValueError/RuntimeError
 instead of AttributeError/TypeError; no path that worked before changes.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/c1158f4320f3db78f40ab3cecdbf5f4230c23bbc</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c1158f4320f3db78f40ab3cecdbf5f4230c23bbc" />
-    <ns0:title>
-        Pin GitHub Actions to commit SHAs (#4732)
-    </ns0:title>
-    <ns0:updated>2026-09-23T13:14:21Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/25720743?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>hf-security-analysis</ns0:name>
-      <ns0:uri>https://github.com/hf-security-analysis</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Pin GitHub Actions to commit SHAs (#4732)
-
-A tag is mutable: whoever controls the action&amp;#39;s repository can move
-`v4` to different code, and the next run picks it up with no diff to
-review. Pinning to the commit SHA freezes the code that runs today.
-
-Co-authored-by: hf-security-analysis[bot] &amp;lt;265538906+hf-security-analysis[bot]@users.noreply.github.com&amp;gt;
-Co-authored-by: Pauline Bailly-Masson &amp;lt;155966238+paulinebm@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
