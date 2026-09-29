@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 28 Sep 2026 16:21:13 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 28 Sep 2026 20:53:00 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-02-terminator-melting-sendoff</guid>
+    <title>Hasta La Vista, Figure 02: Adcock Teases a Terminator-Style Sendoff</title>
+    <link>https://www.humanoidsdaily.com/news/figure-02-terminator-melting-sendoff</link>
+    <description>An AI-generated teaser points to September 30 after Arnold Schwarzenegger suggested melting Figure’s retired robots—overruling, perhaps, a poll that favored blowing them up.</description>
+    <pubDate>Mon, 28 Sep 2026 20:53:00 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Brett Adcock</category><category>US</category><category>Figure</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/delta-intelligence-delta-0-energy-infrastructure</guid>
+    <title>Delta Intelligence Targets Energy and Infrastructure Beyond Its Household Robot Demo</title>
+    <link>https://www.humanoidsdaily.com/news/delta-intelligence-delta-0-energy-infrastructure</link>
+    <description>In answers to Humanoids Daily, Delta founder Xiaojian Ma outlines a cross-brand head-and-backpack system, whole-body data collection and a commercial focus on harsh industrial environments.</description>
+    <pubDate>Mon, 28 Sep 2026 16:36:05 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Delta Intelligence</category><category>China</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/dyna-robotics-new-robot-teaser</guid>
     <title>Dyna Robotics Teases a New Robot Built for Real Work</title>
@@ -288,26 +308,6 @@
     <pubDate>Mon, 21 Sep 2026 07:40:17 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Faraday Future</category><category>Research</category><category>product-launch</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/ifr-humanoid-sales-2025-research-deployment</guid>
-    <title>IFR Counts 7,000 Humanoid Sales in 2025—Many for Research</title>
-    <link>https://www.humanoidsdaily.com/news/ifr-humanoid-sales-2025-research-deployment</link>
-    <description>Reuters reports IFR counted around 7,000 humanoid sales for industrial and professional use in 2025, highlighting the distinction between robot purchases and productive deployment.</description>
-    <pubDate>Mon, 21 Sep 2026 07:01:06 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>market analysis</category><category>Market</category><category>Research</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/hyundai-atlas-czech-factory-europe</guid>
-    <title>Hyundai Eyes Czech Factory for Atlas Humanoid</title>
-    <link>https://www.humanoidsdaily.com/news/hyundai-atlas-czech-factory-europe</link>
-    <description>Hyundai’s Nošovice plant is discussing Atlas with Boston Dynamics and headquarters, but a European deployment date remains unannounced.</description>
-    <pubDate>Mon, 21 Sep 2026 06:39:26 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Hyundai Motor Group</category><category>Deployment</category><category>Atlas</category><category>manufacturing</category><category>Boston Dynamics</category>
   </item>
 
   </channel>
