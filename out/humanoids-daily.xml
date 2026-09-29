@@ -7,9 +7,49 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 29 Sep 2026 10:10:15 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 29 Sep 2026 17:28:26 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-asd-100-x2-retail-stores</guid>
+    <title>AGIBOT Says 100 X2 Humanoids Are Working Across 100 ASD Retail Stores</title>
+    <link>https://www.humanoidsdaily.com/news/agibot-asd-100-x2-retail-stores</link>
+    <description>The cookware retailer is using X2 robots for greetings and product recommendations, while human staff handle transactions. A three-day livestream offers a look at selected stores.</description>
+    <pubDate>Tue, 29 Sep 2026 17:28:26 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>China</category><category>AGIBOT</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/chestnut-aero-hand-umi-iros-2026</guid>
+    <title>Chestnut Launches Aero Hand and Aero UMI, Pairing Dexterous Hardware With Its Data Collector</title>
+    <link>https://www.humanoidsdaily.com/news/chestnut-aero-hand-umi-iros-2026</link>
+    <description>The IROS 2026 launch pairs an 18-DOF robotic hand with a wearable capture and teleoperation rig, aiming to reduce the gap between human demonstrations and robot execution.</description>
+    <pubDate>Tue, 29 Sep 2026 17:10:11 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Chestnut Robotics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/dyna-taku-dyna-2-1-autonomous-laundry</guid>
+    <title>Dyna Reveals Taku Robot and Dyna-2.1 With an Hour-Long Autonomous Laundry Demo</title>
+    <link>https://www.humanoidsdaily.com/news/dyna-taku-dyna-2-1-autonomous-laundry</link>
+    <description>Dyna’s new wheeled semi-humanoid combines manipulation, whole-body control and workflow reasoning. Customer-site deployment is the next step after its uncut laundry demonstration.</description>
+    <pubDate>Tue, 29 Sep 2026 16:28:51 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Dyna Robotics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/t-robotics-humanoid-display-factory-project</guid>
+    <title>T-Robotics to Lead KRW 4.5 Billion Humanoid Project for Korean Display Factories</title>
+    <link>https://www.humanoidsdaily.com/news/t-robotics-humanoid-display-factory-project</link>
+    <description>The project pairs T-Robotics with KAIST and a major display manufacturer for development and production-line trials through 2030, adding an industrial application to South Korea’s humanoid push.</description>
+    <pubDate>Tue, 29 Sep 2026 14:11:50 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>South Korea</category><category>T-Robotics</category><category>KAIST</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/amd-world-labs-acquisition-spatial-ai</guid>
     <title>AMD Agrees to Buy World Labs for $8.2 Billion, Bringing Spatial AI In-House</title>
@@ -268,46 +308,6 @@
     <pubDate>Tue, 22 Sep 2026 08:26:28 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Robros</category><category>teleoperation</category><category>South Korea</category><category>Deployment</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-atlas-rmac-training-center</guid>
-    <title>Boston Dynamics Opens Atlas Training Center at Hyundai’s Georgia Factory</title>
-    <link>https://www.humanoidsdaily.com/news/boston-dynamics-atlas-rmac-training-center</link>
-    <description>The Georgia center is training Atlas for manufacturing tasks, ahead of Hyundai’s planned 2028 rollout. A tenfold expansion is scheduled for 2027.</description>
-    <pubDate>Mon, 21 Sep 2026 18:16:41 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Deployment</category><category>Atlas</category><category>manufacturing</category><category>Boston Dynamics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/softbank-rai-acquisition-marc-raibert</guid>
-    <title>SoftBank Reportedly Agrees to Buy Marc Raibert’s Robotics Institute</title>
-    <link>https://www.humanoidsdaily.com/news/softbank-rai-acquisition-marc-raibert</link>
-    <description>The reported RAI acquisition would add robotics research capacity as Hyundai pursues SoftBank’s Boston Dynamics stake and SoftBank explores other humanoid investments.</description>
-    <pubDate>Mon, 21 Sep 2026 17:59:58 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Hyundai Motor Group</category><category>Business</category><category>Market</category><category>Research</category><category>softbank</category><category>RAI</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-dex5-s-robot-hand</guid>
-    <title>Unitree Unveils Human-Sized Robot Hand Starting at $6,500</title>
-    <link>https://www.humanoidsdaily.com/news/unitree-dex5-s-robot-hand</link>
-    <description>Unitree’s Dex5-S promises 22 degrees of freedom and backdrivable joints at human-hand scale. Its launch leaves key specifications and complete-task performance unverified.</description>
-    <pubDate>Mon, 21 Sep 2026 16:50:06 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>Dexterity</category><category>product-launch</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/primebot-q1-t1-personal-robots-launch</guid>
-    <title>PrimeBOT Launches Personal Robots at 19,999 Yuan, Betting on Apps and Companionship</title>
-    <link>https://www.humanoidsdaily.com/news/primebot-q1-t1-personal-robots-launch</link>
-    <description>PrimeBOT opens Chinese sales of Q1 and T1, with October deliveries planned and a business model built around companionship, customization and future content revenue.</description>
-    <pubDate>Mon, 21 Sep 2026 08:51:14 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>product-launch</category><category>China</category><category>Consumer Tech</category><category>PrimeBOT</category>
   </item>
 
   </channel>

@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Tue, 29 Sep 2026 13:22:56 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 29 Sep 2026 14:55:03 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,22 +22,88 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents</title>
+		<link>https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/</link>
+					<comments>https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/#respond</comments>
+		
+		<dc:creator>Mike Oitzman</dc:creator>
+		<pubDate>Tue, 29 Sep 2026 14:00:12 +0000</pubDate>
+				<category>Arms / Manipulators</category>
+		<category>Artificial Intelligence</category>
+		<category>Artificial Intelligence / Cognition</category>
+		<category>Autonomous Mobile Robots (AMRs)</category>
+		<category>Cameras / Imaging / Vision</category>
+		<category>Consumer Robotics</category>
+		<category>End Effectors / Grippers</category>
+		<category>Grippers</category>
+		<category>Human Robot Interaction / Haptics</category>
+		<category>Humanoids</category>
+		<category>News</category>
+		<category>Flourish</category>
+		<category>mobile manipulation</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589692</guid>
+
+					<description>&lt;p&gt;Flourish is releasing a $3,555 phone-trainable home robot, targeting busy parents with personalized, cloud-trained chore automation.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/"&gt;Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589701" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589701" class="wp-image-589701 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/09/flourish-featured.jpg" alt="flourish one humanoid robot." width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/flourish-featured.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/flourish-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/flourish-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/flourish-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/flourish-featured-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589701" class="wp-caption-text"&gt;Flourish One is now available. The company is promising an easy-to-use training interface. | Credit: Flourish&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Flourish, a startup straddling San Francisco and Paris, is set to open sales for Flourish One, a $3,555 wheeled humanoid-style home robot that early adopters can teach new chores in under 30 minutes using only a smartphone.&lt;/p&gt;
+&lt;p&gt;Aiming squarely at busy parents rather than factories, founder &lt;a href="https://www.linkedin.com/in/antoine-marcel/" target="_blank" rel="noopener"&gt;Antoine Marcel&lt;/a&gt; is betting that per-home, cloud-trained skills and phone-based &lt;a href="https://www.therobotreport.com/tag/teleoperation/" target="_blank" rel="noopener"&gt;teleoperation&lt;/a&gt; will make this first batch of 50 robots a proving ground for practical &lt;a href="https://www.therobotreport.com/tag/household" target="_blank" rel="noopener"&gt;domestic&lt;/a&gt; robotics.&lt;/p&gt;
+&lt;p&gt;Most &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoid&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/tag/mobile-manipulation" target="_blank" rel="noopener"&gt;mobile-manipulator&lt;/a&gt; startups are chasing &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;factory&lt;/a&gt; or &lt;a href="https://www.automatedwarehouseonline.com" target="_blank" rel="noopener"&gt;warehouse&lt;/a&gt; work, where environments are structured, and data is plentiful. Flourish is deliberately taking on the messier challenge of the home.&lt;/p&gt;
+&lt;p&gt;Marcel’s thesis is that every household’s routines, layouts, and standards of cleanliness are too idiosyncratic for a one-size-fits-all generalist model, so Flourish One fine-tunes its skills task by task, home by home, using motion data captured from the owner’s phone and &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; models running in the cloud.&lt;/p&gt;
+&lt;p&gt;The result, if it works, could be one of the first commercially available robots that busy families can actually train to handle real chores, even as a tiny team hand-builds the initial 50 units to learn what domestic robotics really looks like outside the lab.&lt;/p&gt;
+&lt;p&gt;The company was founded in January of this year and represents another humanoid company coming to market in less than 12 months.&lt;/p&gt;
+&lt;p&gt;Marcel is obsessed with time management and told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;, “I’ve automated everything in my computer. &amp;#8230; But when I came home, the most painful stuff in my life was still there.”&lt;/p&gt;
+&lt;p&gt;When asked why start with the home rather than an industrial application, Marcel replied that every home is different—organization and routines are personal. Instead of waiting for a generalist AI model, Flourish fine-tunes per-task, per-home.&lt;/p&gt;
+&lt;p&gt;“The way I tidy my apartment is not the same as you do in your house. You’re going to show it for 30 minutes how to water your plants,&amp;#8221; he said. &amp;#8220;We’re going to fine-tune an AI model for that… now the robot is able to do that in your house.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Editor’s note: &lt;/strong&gt;Physical AI and humanoids are among the session topic tracks at &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026, which will be on Oct. 20 and 21 in Santa Clara, Calif. &lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Register now to attend.&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;Flourish One has a wheeled base and two arms&lt;/h2&gt;
+&lt;p&gt;The Flourish One robot is built on a mobile base with six wheels for stability. Each of the two arms has a payload capacity of 1.5 kg (4 lb.). The battery has been designed for 12 hours of arm operation.&lt;/p&gt;
+&lt;p&gt;“We chose 1.5 kg because in homes, the majority of tasks don’t need a huge payload,” noted Marcel.&lt;/p&gt;
+&lt;p&gt;For obstacle detection, the robot uses a small lidar, located on the base near the floor. Each of the two-fingered grippers has a wrist-mounted camera for manipulation tasks.&lt;/p&gt;
+&lt;div id="attachment_589702" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-589702" class="wp-image-589702 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/09/flourish-grippers.jpg" alt="close up of the flourish one grippers." width="770" height="616" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/flourish-grippers.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/flourish-grippers-300x240.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/flourish-grippers-150x120.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/flourish-grippers-768x614.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/flourish-grippers-298x238.jpg 298w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589702" class="wp-caption-text"&gt;This closeup of a prototype Flourish One shows the wrist camera orientation. | Credit: Flourish&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Flourish One is not waterproof; it won’t do any dishes or wash the dog in its first generation. The robot has limited dexterity but is suitable for tidying, trash, and basic cleaning such as wiping a table, but not intricate assembly.&lt;/p&gt;
+&lt;p&gt;The robot is coming to market with a &lt;a href="https://flourish-robots.com/" target="_blank" rel="noopener"&gt;$3,555 price tag&lt;/a&gt;, and Flourish said it hopes to ship before Christmas. To help keep the bill of materials (BOM) cost down, the unit is powered by a &lt;a href="https://www.therobotreport.com/?s=Raspberry+Pi&amp;amp;classic=true&amp;amp;sort=desc" target="_blank" rel="noopener"&gt;Raspberry Pi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The architecture will use cloud GPUs for the training of skill models and inference for higher–level behaviors. It will require a network connection for “thinking,” or users can optionally run workloads on their own computers.&lt;/p&gt;
+&lt;p&gt;Marcel said he is optimistic that this architecture is the optimal solution for an affordable home robot. &amp;#8220;If we were to put an NVIDIA GPU in the robot, it would immediately double the cost,&amp;#8221; he said.&lt;/p&gt;
+&lt;h2&gt;Smartphone app to enable robot training&lt;/h2&gt;
+&lt;p&gt;The company is developing a smartphone app that will use the inertial measurement units (IMUs) inside the phone for teaching and teleoperation. The user holds the phone and moves it as if performing the task, while the robot mirrors the action.&lt;/p&gt;
+&lt;p&gt;“That’s what is magical with Flourish,&amp;#8221; according to Marcel. &amp;#8220;When you are training your robot to water your plants, you just take your phone, move your phone, and it will move the arms. We don’t need any more other hardware.”&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Flourish launches humanoid robot for the home" width="740" height="416" src="https://www.youtube.com/embed/OgB1F0lETZQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/"&gt;Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>State of Robots in Manufacturing</title>
 		<link>https://www.therobotreport.com/state-of-robots-in-manufacturing/</link>
 					<comments>https://www.therobotreport.com/state-of-robots-in-manufacturing/#respond</comments>
 		
 		<dc:creator>The Robot Report Staff</dc:creator>
 		<pubDate>Tue, 29 Sep 2026 13:22:56 +0000</pubDate>
-				<category>Uncategorized</category>
+				<category>eBooks</category>
+		<category>Industrial Robots</category>
+		<category>Manufacturing</category>
+		<category>News</category>
 		<guid isPermaLink="false">https://www.therobotreport.com/?p=589703</guid>
 
-					<description>&lt;p&gt;Report looks at advances in robots for manufacturing Robotics in manufacturing has evolved from the days of rigidly programmed robot arms on automotive production lines. Robot models are diversifying, widening applications for industrial automation are changing with improvements in perception, autonomy, and actuation. In addition, widespread shortages of skilled labor are driving demand in diverse&amp;#8230;&lt;/p&gt;
+					<description>&lt;p&gt;The Robot Report looks at recent advances in automation for manufacturing, from improvements in technologies and use cases to the potential of humanoids and AI.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/state-of-robots-in-manufacturing/"&gt;State of Robots in Manufacturing&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
 										<ns3:encoded>&lt;p&gt;&lt;strong&gt;Report looks at advances in robots for manufacturing&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Robotics in manufacturing has evolved from the days of rigidly programmed robot arms on automotive production lines. Robot models are diversifying, widening applications for industrial automation are changing with improvements in perception, autonomy, and actuation.&lt;/p&gt;
 &lt;p&gt;In addition, widespread shortages of skilled labor are driving demand in diverse sectors, ranging from electronics and metals to food and beverage and pharmaceuticals.&lt;/p&gt;
-&lt;p&gt;&lt;img fetchpriority="high" decoding="async" class=" wp-image-589704 alignright" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO-August_State-of-Robots-in-Manfucaturing-FC-Outline-791x1024.jpg" alt="" width="227" height="294" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO-August_State-of-Robots-in-Manfucaturing-FC-Outline-791x1024.jpg 791w, https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO-August_State-of-Robots-in-Manfucaturing-FC-Outline-232x300.jpg 232w, https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO-August_State-of-Robots-in-Manfucaturing-FC-Outline-116x150.jpg 116w, https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO-August_State-of-Robots-in-Manfucaturing-FC-Outline-768x994.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO-August_State-of-Robots-in-Manfucaturing-FC-Outline-1187x1536.jpg 1187w, https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO-August_State-of-Robots-in-Manfucaturing-FC-Outline-184x238.jpg 184w, https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO-August_State-of-Robots-in-Manfucaturing-FC-Outline.jpg 1275w" sizes="(max-width: 227px) 100vw, 227px" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading="lazy" decoding="async" class=" wp-image-589704 alignright" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO-August_State-of-Robots-in-Manfucaturing-FC-Outline-791x1024.jpg" alt="" width="227" height="294" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO-August_State-of-Robots-in-Manfucaturing-FC-Outline-791x1024.jpg 791w, https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO-August_State-of-Robots-in-Manfucaturing-FC-Outline-232x300.jpg 232w, https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO-August_State-of-Robots-in-Manfucaturing-FC-Outline-116x150.jpg 116w, https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO-August_State-of-Robots-in-Manfucaturing-FC-Outline-768x994.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO-August_State-of-Robots-in-Manfucaturing-FC-Outline-1187x1536.jpg 1187w, https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO-August_State-of-Robots-in-Manfucaturing-FC-Outline-184x238.jpg 184w, https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO-August_State-of-Robots-in-Manfucaturing-FC-Outline.jpg 1275w" sizes="auto, (max-width: 227px) 100vw, 227px" /&gt;&lt;/p&gt;
 &lt;p&gt;According to the International Federation of Robotics, industrial robot installations doubled in the decade that ended in 2024. The organization has also recorded increasing robot density, or the number of robots per 10,000 workers. The global leaders are South Korea, Singapore, Germany, and Japan, where workforces are aging.&lt;/p&gt;
 &lt;p&gt;At the same time, the rise of force- and power-limited or collaborative robots, autonomous mobile robots, and physical AI is enabling factories to automate more tasks. Cobots, mobile manipulators, and humanoids promise new levels of flexibility in operations and spaces designed around humans. While interest in humanoids is high, they are just beginning commercial trials, and other form factors are already available.&lt;/p&gt;
 &lt;p&gt;Identifying the right applications and tools, plus fully integrating them and ensuring a return on investment, remain challenging.&lt;/p&gt;
@@ -92,7 +158,7 @@
 					<description>&lt;p&gt;Gecko Robotics is using the new NVIDIA Open Agent Safety Platform to ensure the secure autonomous control of systems.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/"&gt;Gecko Robotics works with NVIDIA to add AI agent security and control&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_589696" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-589696" class="size-full wp-image-589696" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Gecko_NVIDIA.jpg" alt="Gecko Robotics is using NVIDIA's new agentic AI security layer in its inspection robots." width="770" height="495" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Gecko_NVIDIA.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/Gecko_NVIDIA-300x193.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Gecko_NVIDIA-150x96.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Gecko_NVIDIA-768x494.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/Gecko_NVIDIA-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589696" class="wp-caption-text"&gt;Gecko is using NVIDIA&amp;#8217;s new agentic AI security layer in its inspection robots. Source: Gecko Robotics&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_589696" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589696" class="size-full wp-image-589696" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Gecko_NVIDIA.jpg" alt="Gecko Robotics is using NVIDIA's new agentic AI security layer in its inspection robots." width="770" height="495" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Gecko_NVIDIA.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/09/Gecko_NVIDIA-300x193.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Gecko_NVIDIA-150x96.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Gecko_NVIDIA-768x494.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/Gecko_NVIDIA-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589696" class="wp-caption-text"&gt;Gecko is using NVIDIA&amp;#8217;s new agentic AI security layer in its inspection robots. Source: Gecko Robotics&lt;/p&gt;&lt;/div&gt;
 &lt;p dir="ltr"&gt;NVIDIA Corp. today announced its Open Agent Safety Platform, which consists of the OpenShell open-source software and Sentry reference system design. They are intended to strengthen governance and control across hardware, compute, and software for robots that run AI agents. Among the more than 100 organizations working with NVIDIA&amp;#8217;s technology is Gecko Robotics Inc.&lt;/p&gt;
 &lt;p dir="ltr"&gt;After recent incidents including &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; agents from &lt;a href="https://www.therobotreport.com/tag/openai" target="_blank" rel="noopener"&gt;OpenAI&lt;/a&gt; going around application-level controls &lt;a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/" target="_blank" rel="noopener"&gt;to attack&lt;/a&gt; &lt;a href="https://www.therobotreport.com/tag/hugging-face" target="_blank" rel="noopener"&gt;Hugging Face&lt;/a&gt;, AI and robotics developers have been working on traceability, accountability, and preventative measures.&lt;/p&gt;
 &lt;p dir="ltr"&gt;&amp;#8220;As we continue to discover the frontier of AI capabilities, we must accelerate discovery at the frontier of AI safety,&amp;#8221; stated Jensen Huang, CEO of NVIDIA. &amp;#8220;Safety and security require full-stack engineering. &lt;a title="https://nvidianews.nvidia.com/news/open-agent-security-platform" href="https://nvidianews.nvidia.com/news/open-agent-security-platform" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" data-linkindex="16"&gt;NVIDIA Open Agent Safety Platform&lt;/a&gt; brings together industry, researchers, and public-sector organizations to share best practices, align on resolution methods, and foster international cooperation.&amp;#8221;&lt;/p&gt;
@@ -100,7 +166,7 @@
 &lt;p dir="ltr"&gt;&lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2 dir="ltr"&gt;NVIDIA OpenShell and Sentry enforce policy&lt;/h2&gt;
@@ -301,7 +367,7 @@
 		<item>
 		<title>Asimov’s laws are not enough to keep robotics and AI safe</title>
 		<link>https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/</link>
-					<comments>https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/#respond</comments>
+					<comments>https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/#comments</comments>
 		
 		<dc:creator>Rinaldo Brutoco</dc:creator>
 		<pubDate>Sun, 27 Sep 2026 12:26:44 +0000</pubDate>
@@ -368,7 +434,7 @@
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
+			<ns5:comments>1</ns5:comments>
 		
 		
 			</item>
@@ -937,79 +1003,6 @@
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>With the new VENTUNO Q board, Arduino hopes to make robotics development easier</title>
-		<link>https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/</link>
-					<comments>https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/#respond</comments>
-		
-		<dc:creator>Brianna Wessling</dc:creator>
-		<pubDate>Wed, 23 Sep 2026 18:04:35 +0000</pubDate>
-				<category>Development Tools / SDKs / Libraries</category>
-		<category>Mechanical</category>
-		<category>Microprocessors / SoC</category>
-		<category>News</category>
-		<category>Robot Components</category>
-		<category>Technologies</category>
-		<category>arduino</category>
-		<category>Qualcomm</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589639</guid>
-
-					<description>&lt;p&gt;While this is the first intentional step by Arduino into robotics, the company has over 20 years of experience working with robotics developers.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/"&gt;With the new VENTUNO Q board, Arduino hopes to make robotics development easier&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589640" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/arduinoVENTUNOQ-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589640" class="size-full wp-image-589640" src="https://www.therobotreport.com/wp-content/uploads/2026/09/arduinoVENTUNOQ-featured.jpg" alt="Arduino VENTUNO Q's dual-brain architecture pairs a Qualcomm Dragonwing IQ8 Series Processor with a real-time STM32H5 microcontroller." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/arduinoVENTUNOQ-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/09/arduinoVENTUNOQ-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/arduinoVENTUNOQ-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/arduinoVENTUNOQ-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/arduinoVENTUNOQ-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/arduinoVENTUNOQ-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/arduinoVENTUNOQ-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589640" class="wp-caption-text"&gt;Arduino VENTUNO Q&amp;#8217;s dual-brain architecture pairs a Qualcomm Dragonwing IQ8 Sprocessor with a real-time STM32H5 microcontroller. | Source: Qualcomm&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Arduino S.r.l., a subsidiary of Qualcomm Technologies Inc., recently opened pre-orders for VENTUNO Q, a edge AI platform powered by the Qualcomm Dragonwing IQ8 Series. Arduino built the board for developers, prioritizing familiarity and ease of use with the right software, accessories, and extensions.&lt;/p&gt;
-&lt;p&gt;While this is Arduino&amp;#8217;s first intentional step into robotics, Marcello Majonchi, chief product officer of Arduino at Qualcomm, said the company has more than 20 years of experience working with robotics developers.&lt;/p&gt;
-&lt;p&gt;“This is the first intentional step for a product that is meant to be used as a single point of control of a modern robotics platform,&amp;#8221; he told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;At the same time, Arduino is extensively used in the robotics domain, and there are thousands of different types of robots that, over the past 20 years, have been developed by the community and powered either in some features or in entirety with an Arduino product.”&lt;/p&gt;
-&lt;h2&gt;Qualcomm integrates Arduino technology&lt;/h2&gt;
-&lt;p&gt;Last year, Arduino was acquired by &lt;a href="http://therobotreport.com/tag/qualcomm" target="_blank" rel="noopener"&gt;Qualcomm&lt;/a&gt;, which quickly gave the Monza, Italy-based company access to more resources and a new base of customers. This, along with recent advances in generative &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/category/technologies/microprocessors-socs/" target="_blank" rel="noopener"&gt;processor&lt;/a&gt; sizes, made the new board feel like a natural evolution, said Majonchi.&lt;/p&gt;
-&lt;p&gt;“We have this amazing computing power. We have this ecosystem that is just waiting for something with an easier way for people to be able to translate their vision into reality,&amp;#8221; he noted. &amp;#8220;What is the gap that we need to bridge from a hardware perspective and from a software tooling and frameworks perspective so that you don’t need five different Ph.D.s to figure out how to build up an &lt;a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener"&gt;AMR&lt;/a&gt;?&amp;#8221;&lt;/p&gt;
-&lt;h2&gt;Technical details of the VENTUNO Q&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Exploring Arduino VENTUNO Q: Specs and Capabilities" width="740" height="416" src="https://www.youtube.com/embed/LfNe5u4kBDk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.qualcomm.com/news/releases/2026/08/arduino.cc/product-ventuno-q" target="_blank" rel="noopener"&gt;VENTUNO Q&lt;/a&gt; has a dual-brain architecture. It pairs a &lt;a href="https://www.qualcomm.com/internet-of-things/products/iq8-series/iq-8275" target="_blank" rel="noopener"&gt;Dragonwing IQ-8275 processor&lt;/a&gt;, delivering up to 40 dense TOPS of AI performance, with 16 GB LPDDR5 memory, 64 GB eMMC, and expandable M.2 NVMe storage alongside a dedicated STM32H5 real-time microcontroller. Arduino said this enables systems that don&amp;#8217;t just interpret sensor data, but also respond to it physically, immediately, and offline.&lt;/p&gt;
-&lt;p&gt;The board ships with pre-loaded Ubuntu, distributed by Canonical. The &lt;a href="https://docs.arduino.cc/software/app-lab/" target="_blank" rel="noopener"&gt;Arduino App Lab&lt;/a&gt; offers a fast path to a working prototype. Developers can also choose VS Code, native Linux tools, or any existing workflow. On the MCU side, the Arduino Core on Zephyr RTOS is designed to provide deterministic, real-time control of motors, CAN-FD, PWM, and high-speed GPIO.&lt;/p&gt;
-&lt;p&gt;When building the board, Arduino said it wanted to ensure that much of the things customers expect from any of its other boards carries over into the VENTUNO Q. This is because there is a large ecosystem of accessories and add-ons that are compatible with a standard Arduino board. Replicating that system gives customers an option they’re familiar with, making it easier to assemble different components, the company claimed.&lt;/p&gt;
-&lt;p&gt;“It’s all about accessibility in the sense of bringing down the access barrier to this technology and demystify it both on the software and on the hardware side, so that almost anybody who has an idea has a path to bringing that idea to life,” Majonchi said.&lt;/p&gt;
-&lt;h2&gt;Edge computing will be key for real world deployments&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Arduino VENTUNO Q: Build AI for the Physical World" width="740" height="416" src="https://www.youtube.com/embed/jOs37MSag6A?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;A key aspect of the VENTUNO Q board is its ability to provide edge computing for robots.&lt;/p&gt;
-&lt;p&gt;“One of the blockers of the robotics industry to get into the AI era was the fact that models, until just a couple of years back, were stuck on the cloud,” Majonchi said. &amp;#8220;If you want to run a robot, you need more than just near-real-time response. You need real-time response, and you need to have, ideally in the same platform, the sensing, the reasoning, and the actuation in order to orchestrate all the behaviors.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;“[Edge computing] is the only way to really fulfill many of the constraints of real-world deployments of these robots that might end up in warehouses or manufacturing sites that are offshore, where you cannot expect even close to a reliable high-speed connection to the internet,” he continued.&lt;/p&gt;
-&lt;p&gt;The technology has advanced to make this level of computing on the edge possible, observed Majonchi. In combination with the high power-to-computation performance ratio, this created a good starting point for Arduino, he said.&lt;/p&gt;
-&lt;h2&gt;Arduino&amp;#8217;s App Labs lets customers build robot applications one brick at a time&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Build Your Own Custom Bricks in Arduino App Lab" width="740" height="416" src="https://www.youtube.com/embed/mNnSiacwLrQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Through Arduino App Lab, developers can run a curated library of NPU-optimized models out of the box. These span large language models (LLMs), vision-language models (VLMs), speech recognition, and object and gesture detection.&lt;/p&gt;
-&lt;p&gt;Developers can also bring their own GGUF-format model from &lt;a href="https://www.therobotreport.com/tag/hugging-face/" target="_blank" rel="noopener"&gt;Hugging Face&lt;/a&gt;, or train and quantize custom models via the integrated Edge Impulse Studio. LLMs and VLMs can also be deployed in just a few lines of code using the Qualcomm Gen AI Developer Tool (GenieX), Qualcomm&amp;#8217;s open-source on-device Gen AI runtime.&lt;/p&gt;
-&lt;p&gt;Majonchi compared App Lab to building with Legos. “You just need to assemble those bricks and recreate connecting code, which is orders of magnitude simpler than what you would do in a normal platform out there,” he said.&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://www.therobotreport.com/tag/arduino/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; has designed and validated the platform for commercial deployment across robotics, industrial edge AI, smart cities, AI vision systems, and education.&lt;/p&gt;
-&lt;p&gt;“We created a developer environment that was not inventing new technologies, but was just abstracting existing technologies, containers, ROS, and AI models into a single place where people would find inspirations and a framework that is easy to approach, and at the same time not constraining,” Majonchi said.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Unboxing the Brand New Arduino VENTUNO Q! First Look and AI Features" width="740" height="416" src="https://www.youtube.com/embed/N0h1LNbRuHA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;Works with Arduino hopes to make commercial deployments possible&lt;/h2&gt;
-&lt;p&gt;Once a VENTUNO Q design is ready for commercial deployment, the same Dragonwing IQ8 processor will soon be available in production-grade SOM form factors from partners, preserving the software stack, AI models, and application logic built during prototyping.&lt;/p&gt;
-&lt;p&gt;SECO, a leading provider of edge computing and AI industrial solutions, and Toradex, a specialist in industrial-grade SOMs, are among the first to support this pathway under the &amp;#8220;Works with Arduino&amp;#8221; program.&lt;/p&gt;
-&lt;p&gt;“Arduino is the ultimate prototyping platform,&amp;#8221; said Majonchi. &amp;#8216;Enthusiasts, teachers, and professionals have been standardizing in many different industries, from automotive to space, the way that they are prototyping.”&lt;/p&gt;
-&lt;p&gt;&amp;#8220;At the same time, there are some specificities of a production setup that are slightly different from a prototyping setup,&amp;#8221; he added. &amp;#8220;There is an optimization side. There is long-term availability of components, and so on.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;So, thanks to the fact that we are now part of the Qualcomm family, we have created a program that we announced together with the release of the VENTUNO Q that is trying to really support end customers that want to have the freedom and ease of prototyping, but then want a reliable path to scale into production in the most optimized way,” Majonchi said.&lt;/p&gt;
-&lt;p&gt;Beyond prototyping, VENTUNO Q has been designed for commercial deployment, powering everything from autonomous mobile robots and predictive maintenance to real-time quality inspection and hands-on STEM learning.&lt;/p&gt;
-&lt;p&gt;“Works with Arduino is really targeting OEMs out there that can basically take the same chipset from Qualcomm that is featured in our developer boards and build any type of solution, from system and modules to industrial computer and industrial gateways that can be featured in any type of robot, and be certified against the Arduino platform,” Majonchi said.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;h2&gt;Arduino to continue growing with Qualcomm&lt;/h2&gt;
-&lt;p&gt;Looking ahead, Majonchi said Arduino is interested in continuing to learn from and grow within the robotics industry. It parent company, Qualcomm, will be a big part of this.&lt;/p&gt;
-&lt;p&gt;“Our expertise lays in providing this abstraction layer for people to be able to take advantage of the technology. What we have been historically missing is access to cutting-edge technologies that we could take and bring to the masses. Together with Qualcomm, we now have both sides of the equation, so that we can solve the problem,” Majonchi said.&lt;/p&gt;
-&lt;p&gt;Qualcomm is also showing more interest in robotics. The company today said &lt;a href="https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/" target="_blank" rel="noopener"&gt;it is acquiring PickNik Inc.&lt;/a&gt;, the curator of the MoveIt open-source framework. The companies plan to integrate MoveIt with Arduino VENTUNO Q and Qualcomm Dragonfly to give developers an easier path from AI models to planning, manipulation, and real-time control.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/"&gt;With the new VENTUNO Q board, Arduino hopes to make robotics development easier&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
