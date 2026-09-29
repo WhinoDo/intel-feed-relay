@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 28 Sep 2026 20:53:00 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 29 Sep 2026 10:10:15 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/amd-world-labs-acquisition-spatial-ai</guid>
+    <title>AMD Agrees to Buy World Labs for $8.2 Billion, Bringing Spatial AI In-House</title>
+    <link>https://www.humanoidsdaily.com/news/amd-world-labs-acquisition-spatial-ai</link>
+    <description>Fei-Fei Li will become AMD’s chief scientist under an acquisition agreement that brings world models and robotics simulation research closer to the chipmaker’s hardware roadmap.</description>
+    <pubDate>Tue, 29 Sep 2026 10:10:15 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>World Labs</category><category>AMD</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-02-terminator-melting-sendoff</guid>
     <title>Hasta La Vista, Figure 02: Adcock Teases a Terminator-Style Sendoff</title>
@@ -298,16 +308,6 @@
     <pubDate>Mon, 21 Sep 2026 08:51:14 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>product-launch</category><category>China</category><category>Consumer Tech</category><category>PrimeBOT</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/faraday-future-master-mini-booster-robot-lineup</guid>
-    <title>Faraday Future Expands Robot Lineup With $9,990 Master Mini</title>
-    <link>https://www.humanoidsdaily.com/news/faraday-future-master-mini-booster-robot-lineup</link>
-    <description>Faraday Future adds nine configurations across five robot models, while its Master Mini documentation points to Booster hardware behind the $9,990 education humanoid.</description>
-    <pubDate>Mon, 21 Sep 2026 07:40:17 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Faraday Future</category><category>Research</category><category>product-launch</category>
   </item>
 
   </channel>
