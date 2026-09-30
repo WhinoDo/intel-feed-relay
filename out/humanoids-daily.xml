@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 29 Sep 2026 20:38:52 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 30 Sep 2026 05:41:15 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/mindon-mind-1-human-speed-robot-demo</guid>
+    <title>MindOn Targets Human Speed in New Mind-1 Robot Demo</title>
+    <link>https://www.humanoidsdaily.com/news/mindon-mind-1-human-speed-robot-demo</link>
+    <description>MindOn’s latest demo shows parcel handling, shirt folding and laundry collection at what it labels real-time speed, following last year’s viral household-chore video.</description>
+    <pubDate>Wed, 30 Sep 2026 05:41:15 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>MindOn</category><category>China</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/matic-humanoid-teaser-manipulation-sunday-design</guid>
     <title>Matic Teases a Humanoid as It Looks Beyond Floor Cleaning</title>
@@ -298,16 +308,6 @@
     <pubDate>Tue, 22 Sep 2026 11:51:34 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xpeng-iron-showroom-interaction-memory</guid>
-    <title>XPENG’s IRON Remembers Car Buyers in New Interaction Demo</title>
-    <link>https://www.humanoidsdaily.com/news/xpeng-iron-showroom-interaction-memory</link>
-    <description>XPENG shows IRON tracking speakers, switching languages and recalling customer preferences in a showroom-style R&amp;D test, ahead of its planned store deployments.</description>
-    <pubDate>Tue, 22 Sep 2026 11:12:05 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>China</category><category>XPENG</category>
   </item>
 
   </channel>
