@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 30 Sep 2026 13:05:13 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 30 Sep 2026 15:59:53 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-02-melted-arnold-schwarzenegger-finland</guid>
+    <title>Figure Melts Figure 02 With Arnold Schwarzenegger in a Terminator-Style Sendoff</title>
+    <link>https://www.humanoidsdaily.com/news/figure-02-melted-arnold-schwarzenegger-finland</link>
+    <description>Figure’s farewell film takes its retired humanoids to a furnace in Finland, with Arnold Schwarzenegger, a final thumbs-up and bonus jumps into the molten metal.</description>
+    <pubDate>Wed, 30 Sep 2026 15:59:53 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Brett Adcock</category><category>US</category><category>Figure</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/military-humanoids-alex-titan-joule-foundation</guid>
+    <title>Military Humanoids: Army Trials, New Entrants and the Gap Between Ambition and Deployment</title>
+    <link>https://www.humanoidsdaily.com/news/military-humanoids-alex-titan-joule-foundation</link>
+    <description>IHMC’s Army competition win, Vision One’s Titan and Si Robotics’ tracked JOULE show different approaches to military robotics, as Foundation’s claims face scrutiny.</description>
+    <pubDate>Wed, 30 Sep 2026 14:43:19 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Skylark Labs</category><category>Foundation</category><category>IHMC</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-nscale-compute-data-center-buildout</guid>
     <title>Figure’s Multibillion-Dollar Compute Deal Meets Nscale’s Data-Center Buildout Challenge</title>
@@ -288,26 +308,6 @@
     <pubDate>Wed, 23 Sep 2026 15:46:10 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Supply Chain</category><category>China</category><category>XPENG</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/vesoma-emerges-stealth-humanoid-robot</guid>
-    <title>Vesoma Emerges From Stealth With a Humanoid Built to Learn</title>
-    <link>https://www.humanoidsdaily.com/news/vesoma-emerges-stealth-humanoid-robot</link>
-    <description>The European team behind the Kyle prototype reveals Vesoma, led by Synapticon and Easybrain co-founders, with former DeepMind research director Martin Riedmiller heading AI and its first Vesoma 1 units under construction.</description>
-    <pubDate>Wed, 23 Sep 2026 14:02:46 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Vesoma</category><category>Europe</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-app-optimus-gen3-renders</guid>
-    <title>Tesla App Contains Optimus Gen 3 Renders—Here’s What They Show</title>
-    <link>https://www.humanoidsdaily.com/news/tesla-app-optimus-gen3-renders</link>
-    <description>Optimus renders labeled gen3 first appeared in Tesla’s Android app on August 27, a four-build comparison shows. Higher-resolution versions arrived September 5, but the assets do not confirm final hardware or a working robot interface.</description>
-    <pubDate>Wed, 23 Sep 2026 13:00:57 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Optimus</category><category>Tesla</category><category>US</category><category>Optimus gen 3</category>
   </item>
 
   </channel>
