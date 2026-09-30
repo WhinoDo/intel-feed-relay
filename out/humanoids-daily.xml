@@ -7,9 +7,49 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 30 Sep 2026 05:41:15 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 30 Sep 2026 13:05:13 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-nscale-compute-data-center-buildout</guid>
+    <title>Figure’s Multibillion-Dollar Compute Deal Meets Nscale’s Data-Center Buildout Challenge</title>
+    <link>https://www.humanoidsdaily.com/news/figure-nscale-compute-data-center-buildout</link>
+    <description>New reporting highlights the financing and construction behind Nscale’s expansion, adding context to Figure’s future GPU capacity without establishing a delay to its deal.</description>
+    <pubDate>Wed, 30 Sep 2026 13:05:13 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Nscale</category><category>Figure</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-atlas-film-two-year-payback</guid>
+    <title>Boston Dynamics Makes Its Case for Atlas and a Two-Year Payback Target</title>
+    <link>https://www.humanoidsdaily.com/news/boston-dynamics-atlas-film-two-year-payback</link>
+    <description>A new short film argues that experience with Spot and Stretch, plus Hyundai’s factories and supply chain, gives Boston Dynamics an edge in commercializing Atlas.</description>
+    <pubDate>Wed, 30 Sep 2026 09:10:19 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>South Korea</category><category>Atlas</category><category>Boston Dynamics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/neura-healthtech-mipa-hospital-robotics</guid>
+    <title>NEURA Launches HealthTech Unit, With MiPA on Its Healthcare Roadmap</title>
+    <link>https://www.humanoidsdaily.com/news/neura-healthtech-mipa-hospital-robotics</link>
+    <description>NEURA’s dedicated healthcare unit starts with autonomous empty-bed transport, while its wheeled MiPA robot trains for patient-room assistance and medication support.</description>
+    <pubDate>Wed, 30 Sep 2026 08:57:07 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Neura Robotics</category><category>Europe</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/idc-h1-2026-humanoid-shipments-agibot</guid>
+    <title>IDC Puts H1 Humanoid Shipments Near 25,000, With AGIBOT Leading</title>
+    <link>https://www.humanoidsdaily.com/news/idc-h1-2026-humanoid-shipments-agibot</link>
+    <description>IDC estimates nearly 25,000 humanoid shipments in H1 2026, with AGIBOT citing a 35% share. The new tally differs from earlier estimates for the same period.</description>
+    <pubDate>Wed, 30 Sep 2026 08:40:17 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Market</category><category>China</category><category>AGIBOT</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/mindon-mind-1-human-speed-robot-demo</guid>
     <title>MindOn Targets Human Speed in New Mind-1 Robot Demo</title>
@@ -268,46 +308,6 @@
     <pubDate>Wed, 23 Sep 2026 13:00:57 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Optimus</category><category>Tesla</category><category>US</category><category>Optimus gen 3</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-berlin-workers-optimus-training-data</guid>
-    <title>Tesla Looks to Berlin Factory Workers to Help Train Optimus</title>
-    <link>https://www.humanoidsdaily.com/news/tesla-berlin-workers-optimus-training-data</link>
-    <description>July reporting described plans for Grünheide workers to wear cameras for Optimus training. A new post revives the story, but the program’s current scale remains unclear.</description>
-    <pubDate>Wed, 23 Sep 2026 11:19:44 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Data Collection</category><category>Tesla</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/brett-adcock-humanoids-data-compute-llms</guid>
-    <title>Brett Adcock Says Humanoids Will Need More Data and Compute Than LLMs</title>
-    <link>https://www.humanoidsdaily.com/news/brett-adcock-humanoids-data-compute-llms</link>
-    <description>Sharing Humanoids Daily’s interview clip, Figure’s CEO expands his four-stage roadmap and predicts hundreds of billions in spending to scale robot intelligence and manufacturing.</description>
-    <pubDate>Wed, 23 Sep 2026 09:30:04 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Figure</category><category>AI</category><category>manufacturing</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/apptronik-cardenas-us-humanoid-parts-shortage</guid>
-    <title>Apptronik CEO Warns America Is Missing the Parts to Build Humanoids</title>
-    <link>https://www.humanoidsdaily.com/news/apptronik-cardenas-us-humanoid-parts-shortage</link>
-    <description>Jeff Cardenas singles out U.S. gear shortages and says actuators can account for 60% of robot parts costs, as Apptronik works to build domestic supply capacity.</description>
-    <pubDate>Wed, 23 Sep 2026 07:02:02 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Supply Chain</category><category>manufacturing</category><category>Apptronik</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/beijing-robot-warrior-rescue-challenge-october</guid>
-    <title>Beijing Sets Humanoids a Rescue Challenge for October</title>
-    <link>https://www.humanoidsdaily.com/news/beijing-robot-warrior-rescue-challenge-october</link>
-    <description>An October competition will test robots on practical tasks and simulated hazards, with separate categories for remote operation and autonomous navigation.</description>
-    <pubDate>Tue, 22 Sep 2026 11:51:34 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>China</category>
   </item>
 
   </channel>
