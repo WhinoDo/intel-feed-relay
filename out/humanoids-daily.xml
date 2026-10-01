@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 01 Oct 2026 18:51:08 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 01 Oct 2026 19:10:00 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/clone-torso-3-hand-demo-torso-4-november</guid>
+    <title>Clone Shows Torso 3 Hand Demo, Targets November Launch for Redesigned Torso 4</title>
+    <link>https://www.humanoidsdaily.com/news/clone-torso-3-hand-demo-torso-4-november</link>
+    <description>Clone’s teleoperated hand demo shows its legacy design, while the company says a redesigned Torso 4 will target stationary two-arm enterprise tasks in November.</description>
+    <pubDate>Thu, 01 Oct 2026 19:10:00 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>clone</category><category>Europe</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/nucleus-factory-demo-60-percent-autonomous</guid>
     <title>Nucleus Shares Nearly Two Hours of Factory Work, Says Demo Is 60% Autonomous</title>
@@ -298,16 +308,6 @@
     <pubDate>Mon, 28 Sep 2026 16:36:05 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Delta Intelligence</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/dyna-robotics-new-robot-teaser</guid>
-    <title>Dyna Robotics Teases a New Robot Built for Real Work</title>
-    <link>https://www.humanoidsdaily.com/news/dyna-robotics-new-robot-teaser</link>
-    <description>Dyna promises a first look at a new robot, following its Dyna-2 model release and reported customer expansion. Specifications and a launch date remain undisclosed.</description>
-    <pubDate>Mon, 28 Sep 2026 16:21:13 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Dyna Robotics</category>
   </item>
 
   </channel>

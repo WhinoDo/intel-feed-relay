@@ -9,7 +9,7 @@
 	<language>en-US</language>
 	<ns1:updatePeriod>hourly</ns1:updatePeriod>
 	<ns1:updateFrequency>1</ns1:updateFrequency>
-	<generator>Blubrry PowerPress/11.17.9</generator>
+	<generator>Blubrry PowerPress/11.17.11</generator>
 		<ns0:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
 	<ns2:new-feed-url>https://lexfridman.com/feed/podcast/</ns2:new-feed-url>
 	<ns2:author>Lex Fridman</ns2:author>
