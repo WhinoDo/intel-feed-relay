@@ -7,9 +7,69 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 30 Sep 2026 21:06:41 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 01 Oct 2026 09:38:37 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/eni-generative-bionics-humanoids-footwear-computing</guid>
+    <title>Eni and Generative Bionics Explore Industrial Humanoids, Smart Footwear and AI Computing</title>
+    <link>https://www.humanoidsdaily.com/news/eni-generative-bionics-humanoids-footwear-computing</link>
+    <description>An exploratory MoU covers GENE.01 inspection and remote-assistance uses, robot footwear materials, and potential access to Eni’s industrial sites and computing capacity.</description>
+    <pubDate>Thu, 01 Oct 2026 09:38:37 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Generative Bionics</category><category>Europe</category><category>GENE01</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agile-robots-hitachi-physical-ai-manufacturing</guid>
+    <title>Agile Robots and Hitachi Partner on Physical AI for Manufacturing</title>
+    <link>https://www.humanoidsdaily.com/news/agile-robots-hitachi-physical-ai-manufacturing</link>
+    <description>The partnership spans Agile ONE, robot arms and mobile robots, combining Hitachi’s AI and edge chips with plans to sell factory solutions through HMAX Industry.</description>
+    <pubDate>Thu, 01 Oct 2026 09:25:50 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Europe</category><category>Agile Robots</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/astribot-t1-north-america-iros-18000</guid>
+    <title>Astribot Brings Its $18,000 T1 Robot to North America at IROS</title>
+    <link>https://www.humanoidsdaily.com/news/astribot-t1-north-america-iros-18000</link>
+    <description>Astribot pairs its cable-driven T1 platform with Lumo AI models and an embodied OS, offering US researchers and developers a starting price of $18,000.</description>
+    <pubDate>Thu, 01 Oct 2026 09:07:16 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>AstriBot</category><category>China</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/singapore-htx-h2rc-humanoid-public-safety-2028</guid>
+    <title>Singapore Opens Humanoid Training Centre, Targets Public-Safety Deployment by 2028</title>
+    <link>https://www.humanoidsdaily.com/news/singapore-htx-h2rc-humanoid-public-safety-2028</link>
+    <description>HTX’s new H2RC facility will train and test humanoids for hazardous-material handling, ambulance resupply, post-blast investigation and prison-cell searches.</description>
+    <pubDate>Thu, 01 Oct 2026 08:51:11 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>HTX</category><category>Singapore</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/rek-california-cease-desist-human-humanoid-fight</guid>
+    <title>REK Founder Shares California Cease-and-Desist After Human–Humanoid Fight</title>
+    <link>https://www.humanoidsdaily.com/news/rek-california-cease-desist-human-humanoid-fight</link>
+    <description>Cix Liv posted a notice bearing California State Athletic Commission letterhead after Frankie LaPenna faced an EngineAI T800 in a San Francisco cage fight.</description>
+    <pubDate>Thu, 01 Oct 2026 08:23:18 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>REK</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tangent-robotics-4-5-million-pre-seed-dexterity</guid>
+    <title>Tangent Robotics Raises $4.5 Million to Give Robot Hands Fine Motor Skills</title>
+    <link>https://www.humanoidsdaily.com/news/tangent-robotics-4-5-million-pre-seed-dexterity</link>
+    <description>Fly Ventures and Toyota Ventures co-led the Columbia spinout’s pre-seed round, backing robot hands that combine touch sensing and learned control for intricate factory tasks.</description>
+    <pubDate>Thu, 01 Oct 2026 07:16:40 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Tangent Robotics</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/flourish-1-affordable-home-robot</guid>
     <title>Flourish 1 Brings a $3,555 Wheeled Semi-Humanoid to Household Chores</title>
@@ -248,66 +308,6 @@
     <pubDate>Sat, 26 Sep 2026 09:31:20 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Tesla</category><category>US</category><category>Optimus gen 3</category><category>Supply Chain</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/asimov-open-source-locomotion-policy-training</guid>
-    <title>Asimov Open-Sources the Training Code Behind Its Humanoid’s Walk</title>
-    <link>https://www.humanoidsdaily.com/news/asimov-open-source-locomotion-policy-training</link>
-    <description>The Asimov 1 release exposes locomotion rewards, actuator settings and simulation training code, giving developers tools to adapt the walking controller for the open-source humanoid.</description>
-    <pubDate>Sat, 26 Sep 2026 08:37:41 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>open-source</category><category>Asimov</category><category>locomotion</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-20000-robots-production-milestone</guid>
-    <title>AGIBOT Has Built 20,000 Robots—Twice Its March Total</title>
-    <link>https://www.humanoidsdaily.com/news/agibot-20000-robots-production-milestone</link>
-    <description>AGIBOT says cumulative robot production has reached 20,000, with its latest milestone machine delivered to Chimelong. Recent checkpoints suggest roughly 5,000 additional units per quarter across a mixed fleet.</description>
-    <pubDate>Sat, 26 Sep 2026 08:35:42 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>China</category><category>AGIBOT</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/peek-humanoid-robots-barclays-kingfa-hype</guid>
-    <title>Analysts See a PEEK Boom in Humanoid Robots. Kingfa’s Robotics Lead Says Most of It Is Hype</title>
-    <link>https://www.humanoidsdaily.com/news/peek-humanoid-robots-barclays-kingfa-hype</link>
-    <description>Barclays says one million humanoids by 2030 could mean 10,000 tons of PEEK demand. Kingfa’s robotics technical lead questions most current applications, highlighting the gap between today’s designs and future forecasts.</description>
-    <pubDate>Fri, 25 Sep 2026 06:47:02 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Europe</category><category>Actuators</category><category>Schaeffler</category><category>Supply Chain</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/o-id-modular-humanoid-robot-funding</guid>
-    <title>O-ID Raises $1.2M to Build Humanoids With Swappable Parts</title>
-    <link>https://www.humanoidsdaily.com/news/o-id-modular-humanoid-robot-funding</link>
-    <description>The Tokyo startup is designing modular industrial robots for on-site repairs in minutes, with Japanese automotive manufacturing and logistics as its first targets.</description>
-    <pubDate>Thu, 24 Sep 2026 14:00:00 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Japan</category><category>O-ID</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/feather-launches-30000-wheeled-humanoid-developers-7-6m-funding</guid>
-    <title>Feather launches a $30,000 wheeled humanoid for developers, announces $7.6M funding</title>
-    <link>https://www.humanoidsdaily.com/news/feather-launches-30000-wheeled-humanoid-developers-7-6m-funding</link>
-    <description>The startup is betting on simple hardware and an open platform that lets customers choose their own AI.</description>
-    <pubDate>Thu, 24 Sep 2026 10:00:00 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>product-launch</category><category>Feather</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-chimelong-theme-park-300-robots</guid>
-    <title>AGIBOT Brings 300-Plus Robots to Chimelong Theme Park</title>
-    <link>https://www.humanoidsdaily.com/news/agibot-chimelong-theme-park-300-robots</link>
-    <description>AGIBOT and Chimelong have launched a robot deployment spanning performances, visitor guidance and hotel services at the existing Spaceship Park in Zhuhai, alongside a joint tourism research institute.</description>
-    <pubDate>Thu, 24 Sep 2026 07:27:21 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Deployment</category><category>China</category><category>AGIBOT</category>
   </item>
 
   </channel>
