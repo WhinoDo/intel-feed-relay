@@ -7,9 +7,59 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 01 Oct 2026 09:38:37 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 01 Oct 2026 18:51:08 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/nucleus-factory-demo-60-percent-autonomous</guid>
+    <title>Nucleus Shares Nearly Two Hours of Factory Work, Says Demo Is 60% Autonomous</title>
+    <link>https://www.humanoidsdaily.com/news/nucleus-factory-demo-60-percent-autonomous</link>
+    <description>CEO Melvin Schwarz tells Humanoids Daily the demo is 60% autonomous and 40% teleoperated, as Nucleus reports regular four-to-six-hour factory shifts.</description>
+    <pubDate>Thu, 01 Oct 2026 18:51:08 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Europe</category><category>Nucleus</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/ubtech-factory-tour-1500-robots-monthly-capacity</guid>
+    <title>UBTECH CEO Tours Robot Factory, Says Monthly Output Could Reach 1,500 Units</title>
+    <link>https://www.humanoidsdaily.com/news/ubtech-factory-tour-1500-robots-monthly-capacity</link>
+    <description>The first episode of UBTECH’s factory-tour series shows robots supporting production as CEO James Zhou outlines capacity of up to 1,500 units per month.</description>
+    <pubDate>Thu, 01 Oct 2026 16:25:35 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>China</category><category>UBTECH Robotics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-atlas-four-finger-hands-13-dof</guid>
+    <title>Boston Dynamics Gives Atlas Four-Finger Hands Built for Tools and AI Training</title>
+    <link>https://www.humanoidsdaily.com/news/boston-dynamics-atlas-four-finger-hands-13-dof</link>
+    <description>Atlas’s new hands increase dexterity from seven to 13 degrees of freedom, combining tactile sensing and direct actuation with a design built for simulation-based learning.</description>
+    <pubDate>Thu, 01 Oct 2026 14:08:46 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>South Korea</category><category>Atlas</category><category>Boston Dynamics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoid-europe-2026-munich-robot-demos-real-deployment</guid>
+    <title>Humanoid Europe 2026: From Robot Demos to Real Deployment in Munich</title>
+    <link>https://www.humanoidsdaily.com/features/humanoid-europe-2026-munich-robot-demos-real-deployment</link>
+    <description>Humanoid Europe 2026 comes to Munich on November 5–6, with a programme covering embodied AI, manufacturing, safety and commercial adoption. Here is what to expect.</description>
+    <pubDate>Thu, 01 Oct 2026 13:14:20 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Europe</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-fort-digit-5-offboard-safety-bridge</guid>
+    <title>Agility and FORT Extend Digit 5’s Safety Systems Beyond the Robot</title>
+    <link>https://www.humanoidsdaily.com/news/agility-fort-digit-5-offboard-safety-bridge</link>
+    <description>Agility and FORT expand their partnership around a safety pendant, on-robot communications and an Offboard Safety Bridge connecting Digit 5 to external safety systems.</description>
+    <pubDate>Thu, 01 Oct 2026 12:44:19 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>FORT Robotics</category><category>US</category><category>Agility Robotics</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/eni-generative-bionics-humanoids-footwear-computing</guid>
     <title>Eni and Generative Bionics Explore Industrial Humanoids, Smart Footwear and AI Computing</title>
@@ -258,56 +308,6 @@
     <pubDate>Mon, 28 Sep 2026 16:21:13 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Dyna Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-nvidia-open-agent-safety-platform</guid>
-    <title>Figure Joins NVIDIA’s Open Agent Safety Platform as Humanoid Deployment Approaches</title>
-    <link>https://www.humanoidsdaily.com/news/figure-nvidia-open-agent-safety-platform</link>
-    <description>Figure backs NVIDIA’s agent-safety initiative, while Gecko’s CEO outlines inspection robots working within human-set limits. How the platform will be integrated into Figure’s robots remains undisclosed.</description>
-    <pubDate>Mon, 28 Sep 2026 15:29:06 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Brett Adcock</category><category>NVIDIA</category><category>Jensen Huang</category><category>Figure</category><category>cybersecurity</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/sharpa-d01-w02-ae01-iros-2026</guid>
-    <title>Sharpa Launches D01 Robot, W02 Hand and AE01 Haptic Glove at IROS 2026</title>
-    <link>https://www.humanoidsdaily.com/news/sharpa-d01-w02-ae01-iros-2026</link>
-    <description>Sharpa expands its manipulation hardware lineup with a tactile-sensing robot, a sub-750-gram dexterous hand and an exoskeleton glove for teleoperation and training data.</description>
-    <pubDate>Mon, 28 Sep 2026 15:11:44 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>teleoperation</category><category>SharpaWave</category><category>Dexterity</category><category>Sharpa Robotics</category><category>robotic hand</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/niantic-spatial-places-library-robot-training</guid>
-    <title>Niantic Spatial Launches Places Library With 100 Real Environments for Robot Training</title>
-    <link>https://www.humanoidsdaily.com/news/niantic-spatial-places-library-robot-training</link>
-    <description>Niantic Spatial pairs captured 3D scenes with collision geometry for robot simulation, offering free samples, paid access, and a relighting beta.</description>
-    <pubDate>Mon, 28 Sep 2026 07:55:53 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Niantic Spatial</category><category>Flexion</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/hd-hyundai-humanoid-ai-factory-robots</guid>
-    <title>HD Hyundai Wants Humanoid AI to Upgrade Its Existing Factory Robots</title>
-    <link>https://www.humanoidsdaily.com/news/hd-hyundai-humanoid-ai-factory-robots</link>
-    <description>HD Hyundai Robotics plans to bring humanoid perception and manipulation technology to existing factory robots, alongside hand development with AIDIN and its Persona AI welding partnership.</description>
-    <pubDate>Sun, 27 Sep 2026 12:11:43 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>South Korea</category><category>manufacturing</category><category>Persona AI</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-optimus-production-hundreds-per-week-report</guid>
-    <title>Tesla Reportedly Builds Hundreds of Optimus Robots a Week</title>
-    <link>https://www.humanoidsdaily.com/news/tesla-optimus-production-hundreds-per-week-report</link>
-    <description>The Information reports a roughly tenfold Optimus production increase, but says current V3 units are not the final customer version and details hardware, supplier and AI challenges.</description>
-    <pubDate>Sat, 26 Sep 2026 09:31:20 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Tesla</category><category>US</category><category>Optimus gen 3</category><category>Supply Chain</category>
   </item>
 
   </channel>
