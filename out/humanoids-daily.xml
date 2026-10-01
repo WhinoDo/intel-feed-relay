@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 30 Sep 2026 15:59:53 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 30 Sep 2026 21:06:41 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/flourish-1-affordable-home-robot</guid>
+    <title>Flourish 1 Brings a $3,555 Wheeled Semi-Humanoid to Household Chores</title>
+    <link>https://www.humanoidsdaily.com/news/flourish-1-affordable-home-robot</link>
+    <description>Flourish Robots opens orders for 50 home robots, pairing lightweight hardware with tasks taught by owners. December deliveries are planned, with reliability and compute costs still important limits.</description>
+    <pubDate>Wed, 30 Sep 2026 21:06:41 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Flourish Robots</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/microagi-animesh-garg-robot-post-training</guid>
+    <title>Microagi Hires Animesh Garg to Turn Robot Models Into Reliable Workers</title>
+    <link>https://www.humanoidsdaily.com/news/microagi-animesh-garg-robot-post-training</link>
+    <description>The former NVIDIA researcher and Apptronik chief scientist joins Microagi with the Usable Robots team, linking robot post-training with industrial deployments and large-scale data collection.</description>
+    <pubDate>Wed, 30 Sep 2026 20:22:36 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>microagi</category><category>Europe</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-02-melted-arnold-schwarzenegger-finland</guid>
     <title>Figure Melts Figure 02 With Arnold Schwarzenegger in a Terminator-Style Sendoff</title>
@@ -288,26 +308,6 @@
     <pubDate>Thu, 24 Sep 2026 07:27:21 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Deployment</category><category>China</category><category>AGIBOT</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/skild-ai-s1-learns-soccer-through-140-years-of-simulated-self-play</guid>
-    <title>Skild AI’s S1 Learns Soccer Through More Than 140 Years of Simulated Self-Play</title>
-    <link>https://www.humanoidsdaily.com/news/skild-ai-s1-learns-soccer-through-140-years-of-simulated-self-play</link>
-    <description>Skild reports real-world soccer play after more than 140 years of simulated self-play. Its published account details human-referenced drills before the goal-driven self-play stage.</description>
-    <pubDate>Wed, 23 Sep 2026 17:00:00 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>reinforcement-learning</category><category>NVIDIA</category><category>Skild AI</category><category>Research</category><category>simulation</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xpeng-iron-supply-chain-partner-conference</guid>
-    <title>XPENG Lines Up Humanoid Suppliers Ahead of Year-End Production Target</title>
-    <link>https://www.humanoidsdaily.com/news/xpeng-iron-supply-chain-partner-conference</link>
-    <description>XPENG says it has signed supplier agreements and is scheduling robot production after its first partner conference, as humanoid developers confront the challenge of securing consistent components at scale.</description>
-    <pubDate>Wed, 23 Sep 2026 15:46:10 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Supply Chain</category><category>China</category><category>XPENG</category>
   </item>
 
   </channel>
