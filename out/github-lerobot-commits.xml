@@ -4,7 +4,46 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-02T08:26:36Z</ns0:updated>
+  <ns0:updated>2026-10-02T13:56:33Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/ff71cae1ae2d09fd035553c35da65888ed6c8304</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ff71cae1ae2d09fd035553c35da65888ed6c8304" />
+    <ns0:title>
+        refactor(dtype): unify the dtype configuration of policies (#4786)
+    </ns0:title>
+    <ns0:updated>2026-10-02T13:56:33Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(dtype): unify the dtype configuration of policies (#4786)
+
+* feat(configs): make PreTrainedConfig.dtype a real torch.dtype
+
+`dtype` was a bare string that every policy had to convert back into a
+`torch.dtype` at its own call site. Nine such converters had drifted apart:
+they disagreed on which dtypes they accepted and on what an invalid value
+does — `ValueError`, `KeyError`, or a silent fall-through to a different
+precision. Nothing in the base class owned the conversion, so each new
+policy reinvented it.
+
+Declare the field as `torch.dtype | None` and teach draccus the type once,
+through the codecs registered on `PreTrainedConfig`. The on-disk form is
+unchanged: `config.json` still stores the plain name `&amp;quot;bfloat16&amp;quot;`, and
+`--policy.dtype=bfloat16` still works, so no checkpoint changes shape.
+Names resolve against `torch` itself rather than a hardcoded allow-list,
+so aliases such as `half` and any dtype a future torch release adds are
+supported for free. Strings remain a serialization detail — the Python
+API takes the `torch.dtype`.
+
+Per-policy dtype restrictions are kept, with their literals translated;
+they encode which precisions a policy was actually validated at, which the
+base class cannot know. MolmoAct2&amp;#39;s optimizer grouping, for one, still
+assumes parameters are either bf16 or not.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/6e1fa4faf2a42927d463591aebaa0f62c2e654b7</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/6e1fa4faf2a42927d463591aebaa0f62c2e654b7" />
@@ -689,26 +728,6 @@ instead of dict[int, Any] (the module&amp;#39;s only Any; matches its docstring 
 callers), and the stale &amp;#39;# noqa: F821&amp;#39; on VideoAnnotator.__init__&amp;#39;s model/processor
 annotations are dropped (both names are imported at module top). No new shared
 types, casts or type: ignore comments introduced.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/73ab890324b303424a8a5f07272f22c36be5d269</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/73ab890324b303424a8a5f07272f22c36be5d269" />
-    <ns0:title>
-        fix(tests): restore TF32 after Flux training tests (#4740)
-    </ns0:title>
-    <ns0:updated>2026-09-23T21:00:36Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>pkooij</ns0:name>
-      <ns0:uri>https://github.com/pkooij</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(tests): restore TF32 after Flux training tests (#4740)
-
-* fix(tests): restore TF32 after Flux training tests
-
-* test(flux3): scope TF32 cleanup to the training test&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

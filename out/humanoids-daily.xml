@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Fri, 02 Oct 2026 06:05:04 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 02 Oct 2026 10:31:51 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/galbot-et1-price-three-versions</guid>
+    <title>Galbot Prices ET1 Humanoid From 79,000 Yuan Across Three Versions</title>
+    <link>https://www.humanoidsdaily.com/news/galbot-et1-price-three-versions</link>
+    <description>Galbot’s ET1 starts at 79,000 yuan, with Pro and Flagship versions adding compute and advertised learning capabilities at higher prices.</description>
+    <pubDate>Fri, 02 Oct 2026 10:31:51 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>ET1</category><category>Galbot</category><category>China</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-ai5-ai6-ram-cuts-optimus-production</guid>
     <title>Musk Says Tesla Halved AI5 RAM to Secure Memory for Optimus Production</title>
@@ -298,16 +308,6 @@
     <pubDate>Tue, 29 Sep 2026 10:10:15 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>World Labs</category><category>AMD</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-02-terminator-melting-sendoff</guid>
-    <title>Hasta La Vista, Figure 02: Adcock Teases a Terminator-Style Sendoff</title>
-    <link>https://www.humanoidsdaily.com/news/figure-02-terminator-melting-sendoff</link>
-    <description>An AI-generated teaser points to September 30 after Arnold Schwarzenegger suggested melting Figure’s retired robots—overruling, perhaps, a poll that favored blowing them up.</description>
-    <pubDate>Mon, 28 Sep 2026 20:53:00 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Brett Adcock</category><category>US</category><category>Figure</category>
   </item>
 
   </channel>
