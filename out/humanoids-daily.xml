@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 01 Oct 2026 19:10:00 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 02 Oct 2026 06:05:04 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-ai5-ai6-ram-cuts-optimus-production</guid>
+    <title>Musk Says Tesla Halved AI5 RAM to Secure Memory for Optimus Production</title>
+    <link>https://www.humanoidsdaily.com/news/tesla-ai5-ai6-ram-cuts-optimus-production</link>
+    <description>Tesla cut AI5 memory to 72GB and AI6 to 144GB, Musk says, citing Optimus supply needs and lower costs while keeping bandwidth unchanged.</description>
+    <pubDate>Fri, 02 Oct 2026 06:05:04 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Optimus</category><category>Tesla</category><category>US</category><category>Optimus gen 3</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/clone-torso-3-hand-demo-torso-4-november</guid>
     <title>Clone Shows Torso 3 Hand Demo, Targets November Launch for Redesigned Torso 4</title>
@@ -298,16 +308,6 @@
     <pubDate>Mon, 28 Sep 2026 20:53:00 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Brett Adcock</category><category>US</category><category>Figure</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/delta-intelligence-delta-0-energy-infrastructure</guid>
-    <title>Delta Intelligence Targets Energy and Infrastructure Beyond Its Household Robot Demo</title>
-    <link>https://www.humanoidsdaily.com/news/delta-intelligence-delta-0-energy-infrastructure</link>
-    <description>In answers to Humanoids Daily, Delta founder Xiaojian Ma outlines a cross-brand head-and-backpack system, whole-body data collection and a commercial focus on harsh industrial environments.</description>
-    <pubDate>Mon, 28 Sep 2026 16:36:05 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Delta Intelligence</category><category>China</category>
   </item>
 
   </channel>
