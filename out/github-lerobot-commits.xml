@@ -4,7 +4,23 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-02T13:56:33Z</ns0:updated>
+  <ns0:updated>2026-10-03T16:44:21Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/8c920c4270460851cedd2737657584586d3dc66f</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8c920c4270460851cedd2737657584586d3dc66f" />
+    <ns0:title>
+        chore(ci): increase timeout and max-turns claude action (#4841)
+    </ns0:title>
+    <ns0:updated>2026-10-03T16:44:21Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(ci): increase timeout and max-turns claude action (#4841)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/ff71cae1ae2d09fd035553c35da65888ed6c8304</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ff71cae1ae2d09fd035553c35da65888ed6c8304" />
@@ -699,35 +715,6 @@ Enable the mypy override for lerobot.jobs.* (ignore_errors = false) and fix the
 - submit_to_hf: split on &amp;#39;fresh_repo_id is None&amp;#39; (equivalent to cfg.resume) so the
   fresh branch sees a str. No TypedDict/Protocol added, 0 type: ignore, 0 casts.
 - tests/jobs: pin the two new raise paths and the resume dispatch of submit_to_hf.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/c5f762b4f7f15ceac27468701c703628a28871c0</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c5f762b4f7f15ceac27468701c703628a28871c0" />
-    <ns0:title>
-        chore(mypy): cover data_processing (#4752)
-    </ns0:title>
-    <ns0:updated>2026-09-24T10:21:19Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover data_processing (#4752)
-
-Enable mypy for lerobot.data_processing.* and fix the 5 errors it surfaced in
-sarm_annotations/subtask_annotation.py: annotate() raises ValueError after the
-retry loop (only when max_retries &amp;lt; 1) instead of implicitly returning None;
-visualize_annotations() indexes annotations[ep_idx] under the existing membership
-guard instead of .get() and gains -&amp;gt; None; worker_process_episodes() keeps
-dense_annotations a plain dict, Optional only at the return boundary, with the
-return type tightened to tuple[dict[int, SubtaskAnnotation], dict[...] | None].
-Review follow-ups: compute_temporal_proportions() takes dict[int, SubtaskAnnotation]
-instead of dict[int, Any] (the module&amp;#39;s only Any; matches its docstring and both
-callers), and the stale &amp;#39;# noqa: F821&amp;#39; on VideoAnnotator.__init__&amp;#39;s model/processor
-annotations are dropped (both names are imported at module top). No new shared
-types, casts or type: ignore comments introduced.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
