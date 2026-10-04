@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Sat, 03 Oct 2026 10:11:06 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 04 Oct 2026 09:04:35 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/roboparty-rp1-humanoid-iros-open-source</guid>
+    <title>RoboParty Unveils RP1 Humanoid at IROS, Plans Broader Open-Source Release in Q4</title>
+    <link>https://www.humanoidsdaily.com/news/roboparty-rp1-humanoid-iros-open-source</link>
+    <description>RoboParty’s RP1 debuted with balance-recovery demonstrations at IROS. The developer-focused humanoid builds on ROBOTO ORIGIN, with broader hardware and software releases planned for Q4.</description>
+    <pubDate>Sun, 04 Oct 2026 09:04:35 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>open-source</category><category>China</category><category>ROBOTO ORIGIN</category><category>RoboParty</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-optimus-texas-plant-steel-40-percent</guid>
     <title>Tesla Optimus Plant Takes Shape in Texas, With Steel Structure Estimated at 40%</title>
@@ -298,16 +308,6 @@
     <pubDate>Tue, 29 Sep 2026 16:28:51 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Dyna Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/t-robotics-humanoid-display-factory-project</guid>
-    <title>T-Robotics to Lead KRW 4.5 Billion Humanoid Project for Korean Display Factories</title>
-    <link>https://www.humanoidsdaily.com/news/t-robotics-humanoid-display-factory-project</link>
-    <description>The project pairs T-Robotics with KAIST and a major display manufacturer for development and production-line trials through 2030, adding an industrial application to South Korea’s humanoid push.</description>
-    <pubDate>Tue, 29 Sep 2026 14:11:50 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>South Korea</category><category>T-Robotics</category><category>KAIST</category>
   </item>
 
   </channel>
