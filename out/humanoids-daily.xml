@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Sun, 04 Oct 2026 09:04:35 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 05 Oct 2026 08:51:59 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/panasonic-humanoid-robots-2029-battery-safety</guid>
+    <title>Panasonic Targets Humanoid Robot Production by 2029, Citing Battery Safety</title>
+    <link>https://www.humanoidsdaily.com/news/panasonic-humanoid-robots-2029-battery-safety</link>
+    <description>Panasonic plans humanoids for factories and warehouses, with a new AI and robotics R&amp;D division leading development and battery safety presented as a potential advantage.</description>
+    <pubDate>Mon, 05 Oct 2026 08:51:59 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Panasonic</category><category>Japan</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/superclue-september-2026-robot-brain-planning-gap</guid>
+    <title>GPT-6 Astra Leads SuperCLUE’s Robot-Brain Benchmark, With a Wide Planning Advantage</title>
+    <link>https://www.humanoidsdaily.com/news/superclue-september-2026-robot-brain-planning-gap</link>
+    <description>GPT-6 Astra scores highest among ten models in SuperCLUE’s September evaluation, with a 21.42-point lead in interaction and planning over Gemini-3.8-Flash.</description>
+    <pubDate>Mon, 05 Oct 2026 06:52:42 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>OpenAI</category><category>China</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/roboparty-rp1-humanoid-iros-open-source</guid>
     <title>RoboParty Unveils RP1 Humanoid at IROS, Plans Broader Open-Source Release in Q4</title>
@@ -288,26 +308,6 @@
     <pubDate>Tue, 29 Sep 2026 17:28:26 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>China</category><category>AGIBOT</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/chestnut-aero-hand-umi-iros-2026</guid>
-    <title>Chestnut Launches Aero Hand and Aero UMI, Pairing Dexterous Hardware With Its Data Collector</title>
-    <link>https://www.humanoidsdaily.com/news/chestnut-aero-hand-umi-iros-2026</link>
-    <description>The IROS 2026 launch pairs an 18-DOF robotic hand with a wearable capture and teleoperation rig, aiming to reduce the gap between human demonstrations and robot execution.</description>
-    <pubDate>Tue, 29 Sep 2026 17:10:11 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Chestnut Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/dyna-taku-dyna-2-1-autonomous-laundry</guid>
-    <title>Dyna Reveals Taku Robot and Dyna-2.1 With an Hour-Long Autonomous Laundry Demo</title>
-    <link>https://www.humanoidsdaily.com/news/dyna-taku-dyna-2-1-autonomous-laundry</link>
-    <description>Dyna’s new wheeled semi-humanoid combines manipulation, whole-body control and workflow reasoning. Customer-site deployment is the next step after its uncut laundry demonstration.</description>
-    <pubDate>Tue, 29 Sep 2026 16:28:51 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Dyna Robotics</category>
   </item>
 
   </channel>
