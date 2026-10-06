@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 06 Oct 2026 15:11:44 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 06 Oct 2026 19:15:53 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-investor-day-digit-5-launch-costs-and-a-300m-order-that-unlocks-skill-by-skill</guid>
+    <title>Agility's Investor Day: Digit 5 Launches at a $150,000 Bill of Materials, and Its $300M Order Unlocks Skill by Skill</title>
+    <link>https://www.humanoidsdaily.com/news/agility-investor-day-digit-5-launch-costs-and-a-300m-order-that-unlocks-skill-by-skill</link>
+    <description>At its Analyst &amp; Investor Day, Agility put Digit 5's launch bill of materials at about $150,000, above Digit 4's, for RaaS product margins near 50% until production reaches 1,000 units a year. Executives said the $300 million, 1,000-robot order releases robots in tranches as Digit 5 proves specific use cases, described general availability as end of 2027 and early 2028, and said the leased fleet will be funded with debt.</description>
+    <pubDate>Tue, 06 Oct 2026 19:15:53 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>foxconn</category><category>Market</category><category>Schaeffler</category><category>Digit</category><category>Agility Robotics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/deep-robotics-dr02-rain-traffic-test-ip66</guid>
+    <title>Deep Robotics Tests IP66-Rated DR02 on Traffic Duty in the Rain</title>
+    <link>https://www.humanoidsdaily.com/news/deep-robotics-dr02-rain-traffic-test-ip66</link>
+    <description>A new video shows DR02 testing traffic reminders and pedestrian interaction in Hangzhou, highlighting the humanoid’s claimed all-weather protection.</description>
+    <pubDate>Tue, 06 Oct 2026 15:46:51 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Deep Robotics</category><category>China</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-6-minerva-atlas</guid>
     <title>Our Latest Newsletter: The Minerva Interview, Atlas Hands and More</title>
@@ -288,26 +308,6 @@
     <pubDate>Wed, 30 Sep 2026 15:59:53 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Brett Adcock</category><category>US</category><category>Figure</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/military-humanoids-alex-titan-joule-foundation</guid>
-    <title>Military Humanoids: Army Trials, New Entrants and the Gap Between Ambition and Deployment</title>
-    <link>https://www.humanoidsdaily.com/news/military-humanoids-alex-titan-joule-foundation</link>
-    <description>IHMC’s Army competition win, Vision One’s Titan and Si Robotics’ tracked JOULE show different approaches to military robotics, as Foundation’s claims face scrutiny.</description>
-    <pubDate>Wed, 30 Sep 2026 14:43:19 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Skylark Labs</category><category>Foundation</category><category>IHMC</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-nscale-compute-data-center-buildout</guid>
-    <title>Figure’s Multibillion-Dollar Compute Deal Meets Nscale’s Data-Center Buildout Challenge</title>
-    <link>https://www.humanoidsdaily.com/news/figure-nscale-compute-data-center-buildout</link>
-    <description>New reporting highlights the financing and construction behind Nscale’s expansion, adding context to Figure’s future GPU capacity without establishing a delay to its deal.</description>
-    <pubDate>Wed, 30 Sep 2026 13:05:13 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Nscale</category><category>Figure</category>
   </item>
 
   </channel>
