@@ -4,7 +4,317 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-03T16:44:21Z</ns0:updated>
+  <ns0:updated>2026-10-06T14:14:17Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/11f9967b2a936aeccdff1a7c70ff206d81aa48b2</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/11f9967b2a936aeccdff1a7c70ff206d81aa48b2" />
+    <ns0:title>
+        feat: add FineART-VLA policy built on pi0.5 (#4184)
+    </ns0:title>
+    <ns0:updated>2026-10-06T14:14:17Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>pkooij</ns0:name>
+      <ns0:uri>https://github.com/pkooij</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat: add FineART-VLA policy built on pi0.5 (#4184)
+
+* feat(pi052): add language-supervised policy
+
+* fix(pi0_fast): align FAST semantics with OpenPI
+
+Use OpenPI-compatible normalization, token boundaries, balanced loss, and strict full-chunk decoding so training and inference share one sequence contract.
+
+* fix(pi0_fast): apply CI formatting
+
+Keep the parity tests compatible with the repository&amp;#39;s current Ruff hooks and remove the requested migration warning from the docs.
+
+* test(pi0_fast): cover shared tokenizer contract
+
+* docs(pi052): shorten configuration descriptions
+
+* refactor(pi052): remove redundant policy code
+
+* refactor(pi052): load native base checkpoint
+
+* feat(pi052): train memory and subtask as one recipe target
+
+* feat(pi052): align scratchpad prompts with one-second history
+
+* fix(pi052): integrate current recipe and interactive runtime contracts
+
+* fix(pi052): decode from the last unmasked prompt token
+
+* Keep PI052 recipe and training extensions policy-local
+
+* Remove obsolete PI052 policy-side rollout planning
+
+* Migrate PI052 checkpoint fields before standard CLI parsing
+
+* fix(pi052): use stable SDPA for joint action attention
+
+* fix(pi05): preserve FP32 arithmetic in joint SDPA
+
+* fix(pi05): use math SDPA for stable low-time gradients
+
+* feat(fineart_vla): rename policy and credit Physical Intelligence pi0.5
+
+* Fix FineART inference compatibility and add opt-in training stabilization
+
+* fix(tests): make FineART-VLA suites honour the optional-dependency tiers
+
+Tier 1 of the fast-tests workflow installs only the base extras, so the seven
+modules that reach lerobot.datasets (recipes, eval sampling) failed at import.
+Guard those with pytest.importorskip like the rest of the suite, and import the
+recipe lazily in the FineART-VLA processor factory (as eo1/wall_x already do) so
+the policy modules themselves stay importable without lerobot[dataset].
+
+Also align tests/utils/test_train_utils.py with this branch: eval frames are now
+chosen by balanced_eval_indices, not head truncation.
+
+Validation: tier 1 (base+test) 1650 passed / 460 skipped; tier 2 (+dataset) 2981
+passed / 429 skipped. pre-commit clean except the 83 mypy diagnostics that clean
+main already reports.
+
+* test: trim FineART-VLA PR to the existing forward-parity suites
+
+Drop the policy-specific unit tests added in this PR and revert the extra
+cases added to existing test files. The original-vs-LeRobot forward parity
+tests remain, along with the fixes existing tests need for the new behavior.
+
+* refactor(fineart_vla): drop legacy pi052 aliases
+
+Remove the pi052 config/processor registry aliases and the pi052
+compatibility package, and point the docs at lerobot/fineart_vla_base.
+
+* refactor: keep PI0-FAST and PI0.5 behavior unchanged in the FineART-VLA PR
+
+Move the PI0-FAST openpi alignment and the PI0.5 behavior changes to
+codex/pi0fast-openpi-alignment so they can be reviewed and evaluated on
+their own:
+
+- pi0_fast: restore main (config, modeling, processor, docs, golden tests).
+- pi05: joint-layer FP32 math attention is now opt-in (fp32_joint_attention,
+  enabled by FineART-VLA), and the legacy checkpoint loader keeps main&amp;#39;s
+  behavior. Only subclass hooks with behavior-preserving defaults remain.
+- pi_gemma: keep the SDPA helper, drop the process-wide mask dtype cast.
+
+* fix(fineart_vla): flow-only forward, optional kernels, recipe fallbacks
+
+- Accept PI05&amp;#39;s prefix_mask/states/state_masks in the flow-only forward and
+  delegate RTC/memory training inputs to PI0.5 instead of raising TypeError.
+- Guard liger-kernel and kernels with _liger_kernel_available/require_package,
+  add fineart_vla and fineart_vla_kernels extras, pin the FlashRT flex-attention
+  kernel to v1, and gate the process-wide Liger patch behind use_liger_kernels.
+- sample_task() falls back to the canonical task when an episode has no
+  task_aug rows.
+- Truncate over-long FAST targets with a warning instead of stopping training.
+- auto_fit_fast_tokenizer reads the dataset source from dataset_meta.
+- Document subtask_joint.yaml as training-only and remove the unused
+  encode_prompt_with_targets helper.
+- Rename the core model to FineARTVLAPytorch.
+
+* test(fineart_vla): add policy tests; docs, model card and extras
+
+- tests/policies/fineart_vla/test_fineart_vla.py: registration, config and
+  processor save/load round-trips, joint-checkpoint rejection, and a CUDA
+  forward/predict_action_chunk parity test against PI05Policy with the text,
+  FAST and KI paths off.
+- Model card template entry, policy README (docs/source/policy_fineart_vla_README.md
+  with the usual symlink), citation and license sections in fineart_vla.mdx,
+  install instructions for the new extras, and current rollout flags in
+  troubleshooting.
+- Credit Physical Intelligence in the openpi-derived modeling header.
+- Relock with the CI-pinned uv 0.11.30.
+
+* refactor(fineart_vla): remove FlashRT FP8 MLP inference kernels
+
+Drops flashrt_fp8.py, the use_flashrt_fp8_mlp option and its calibration
+hook in predict_action_chunk. It was opt-in, inference-only, unused by the
+FineART training run, and changed numerics without a task-level check.
+
+* docs(fineart_vla): drop the reported training benchmarks table
+
+* refactor: drop shared-code changes FineART-VLA does not need
+
+Revert to main:
+- configs/policies.py: _migrate_pretrained_config hook (and FineART-VLA&amp;#39;s
+  override). The base checkpoint&amp;#39;s configs no longer carry the legacy options.
+- datasets/language_render.py: the sample_task() binding.
+- scripts/lerobot_train.py: balanced eval subsets and per-group gradient
+  clipping; remove datasets/eval_sampling.py and optim/grad_clip.py, plus the
+  conditioning/action-expert grad-clip options they served.
+
+None of these were used by the FineART training run.
+
+* refactor(fineart_vla): drop prompt dropout; fold text modules into processor/modeling
+
+- Remove plan/memory/subtask/interjection prompt dropout and its seed; the
+  FineART training run left all of them at 0.
+- Move the text tokenizer step and message formatting from
+  text_processor_fineart_vla.py into processor_fineart_vla.py, and the
+  &amp;lt;loc&amp;gt;-tokenizer cache from text_generation.py into modeling_fineart_vla.py.
+
+* refactor: drop the render_messages_processor compatibility step
+
+FineART-VLA pipelines use main&amp;#39;s split runtime/training renderers; the base
+checkpoint&amp;#39;s preprocessor has been updated to match.
+
+* feat(fineart_vla): fit the FAST tokenizer on the training dataset by default
+
+auto_fit_fast_tokenizer now defaults to True and the processor factory reads the
+training dataset from dataset_meta or the config&amp;#39;s _runtime_dataset_meta (set by
+make_policy, as GR00T/LaWAM/MolmoAct2 do). Fine-tuning from a checkpoint
+therefore fits a new tokenizer on the new dataset, starting from
+action_tokenizer_name. Without a dataset source it warns and uses the base
+tokenizer instead of raising.
+
+* fix(fineart_vla): pin kernels below 0.15 in fineart_vla_kernels
+
+kernels&amp;gt;=0.15 makes `import transformers.activations` fail with
+&amp;quot;Either a revision or a version must be specified&amp;quot; under the pinned
+transformers, so installing the extra broke every transformers-based
+policy in the environment. 0.14.1 keeps get_kernel(..., revision=...).
+
+* refactor(fineart_vla): run knowledge insulation through PI0.5&amp;#39;s joint layer
+
+FineART-VLA kept its own copy of the PI0.5 joint layer (_compute_layer_ki)
+and monkeypatched PaliGemmaWithExpertModel.forward to use it, so fixes to
+the PI0.5 layer such as the opt-in FP32 joint attention never reached it.
+
+compute_layer_complete now takes keyword-only knowledge_insulation,
+suppress_prefix_grads, attention_fn and norm_backend; the backbone gets a
+knowledge_insulation switch and forwards the hooks. With the defaults
+PI0.5 runs the same operations (outputs and gradients are bit-identical).
+FineART sets the switch and passes FlexAttention/manual attention as
+attention_fn and the FlashRT AdaRMS kernels as norm_backend; its copied
+layer, forward and monkeypatch are gone. FineART&amp;#39;s default KI training
+now uses the FP32 joint attention it opts into.
+
+Also move FineART&amp;#39;s function-level imports to module level, guarding the
+optional liger-kernel, kernels and pyarrow imports.
+
+* fix(fineart_vla): pi05_base loading, config side effects and processor nits
+
+- Load lerobot/pi05_base into FineART-VLA: a FineART-VLA
+  _load_as_safetensor override converts OpenPI-format checkpoints (no
+  &amp;quot;model.&amp;quot; prefix) through PI0.5&amp;#39;s conversion, now extracted into
+  _convert_openpi_state_dict, and loads them strictly. FineART&amp;#39;s state
+  dict hook now chains to PI0.5&amp;#39;s (keeps MEM&amp;#39;s proprio init) and only
+  seeds lm_head from the embeddings. Drop the unreachable
+  eval_after_pretrained_load / show_openpi_disclaimer hooks; PI0.5&amp;#39;s own
+  loading matches main again.
+- Docs: fine-tune from lerobot/fineart_vla_base with --policy.path so the
+  base&amp;#39;s FAST layout and recipe are kept, and document starting from
+  lerobot/pi05_base.
+- use_liger_kernels is opt-in: it patches transformers process-wide.
+- recipe_path is cleared once resolved into recipe, so saved checkpoints
+  keep their recipe instead of re-reading a file that may change.
+- Text and FAST supervision train the VLM: train_expert_only=true with
+  either now raises instead of being silently overridden, and the no-op
+  _unfreeze_lm_head is gone (unfreeze_lm_head stays as an ignored field
+  so existing configs load).
+- Use config.text_tokenizer_name instead of hardcoded PaliGemma names.
+- Build text-target labels with one vectorized span overlap instead of a
+  per-token Python loop.
+
+* test(fineart_vla): pass torch dtypes after the policy dtype unification
+
+main&amp;#39;s #4786 made PreTrainedConfig.dtype and PaliGemmaWithExpertModel&amp;#39;s
+precision real torch.dtype values; the knowledge-insulation backbone
+fixture and the FineART/PI0.5 GPU parity test still passed &amp;quot;float32&amp;quot;.
+
+* test(fineart_vla): keep one 3B policy on the GPU in the PI0.5 parity test
+
+The CUDA parity test held a PI0.5 and a FineART-VLA policy in fp32 on the
+GPU at once (~26 GB), which runs out of memory on the 24 GB L4 GPU-test
+runner. The failure kept both models alive through the stored traceback,
+so later GPU tests (flux3, lingbot_va, molmoact2, pi0_fast) failed with
+CUDA OOM/unknown errors too.
+
+Run PI0.5 first, keep its weights on the CPU, free the GPU, then build
+FineART-VLA from the same weights; always release GPU memory on exit.
+
+---------
+
+Co-authored-by: Jade Choghari &amp;lt;chogharijade@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/156ca6e741e2167d46b9051c2e58193842d0fbb9</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/156ca6e741e2167d46b9051c2e58193842d0fbb9" />
+    <ns0:title>
+        fix(pi0): cast the timestep embedding to the action dtype (#4078)
+    </ns0:title>
+    <ns0:updated>2026-10-06T13:34:11Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>nepyope</ns0:name>
+      <ns0:uri>https://github.com/nepyope</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(pi0): cast the timestep embedding to the action dtype (#4078)
+
+fix(pi0): cast the timestep embedding to the action dtype&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/d40e8709cffb93644db66e30604ef50fdec003cb</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d40e8709cffb93644db66e30604ef50fdec003cb" />
+    <ns0:title>
+        feat(hub): take the model card base_model and license from the Hub pa…
+    </ns0:title>
+    <ns0:updated>2026-10-06T09:37:38Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(hub): take the model card base_model and license from the Hub parent, and keep it across resumes (#4792)
+
+* Take the model card base_model and license from the Hub parent like transformers
+
+* Keep the fine-tuned-from model across resumes and only trust Hub-confirmed parents in model cards
+
+* Derive the resume weight source from checkpoint_path instead of a new config property&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/4aabd9c679e0085dff9fbe1434a7e8c823e14183</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4aabd9c679e0085dff9fbe1434a7e8c823e14183" />
+    <ns0:title>
+        feat(flow-matching): share sampling primitives across policies (groot…
+    </ns0:title>
+    <ns0:updated>2026-10-06T08:50:20Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>nepyope</ns0:name>
+      <ns0:uri>https://github.com/nepyope</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(flow-matching): share sampling primitives across policies (groot, evo1, wall_x) (#4077)
+
+* feat(flow-matching): share sampling primitives across policies
+
+Part of a larger refactor targeting flow matching heads, we make the beta/noise samplers reusable by evo1, groot and wall_x while preserving byte-identical outputs
+
+- pin the cached Beta concentrations to CPU, so one construction under an
+  ambient default-device context cannot poison every later draw
+- add a dtype argument to sample_noise (FP32 default) and a uniform option
+  for evo1, so groot/evo1 sample directly in the action dtype
+- keep each policy&amp;#39;s order of sampling, casting and transformation at its
+  own call site, since those choices are baked into released checkpoints
+- preserve wall_x&amp;#39;s device-side RNG stream through a sampler adapter
+- document that scale/offset default to the identity transform; .999/.001
+  is the pi-family recipe, not a helper default
+
+---------
+
+Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/8c920c4270460851cedd2737657584586d3dc66f</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8c920c4270460851cedd2737657584586d3dc66f" />
@@ -559,162 +869,6 @@ literals; FeatureType-keyed norm_map at the NormalizerProcessorStep call-sites.
 No type: ignore and no casts added.
 
 Signed-off-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/b7265d07e97a79a4b8a06352b5705eedb4e83683</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b7265d07e97a79a4b8a06352b5705eedb4e83683" />
-    <ns0:title>
-        chore(mypy): cover processor (#4757)
-    </ns0:title>
-    <ns0:updated>2026-09-24T11:43:31Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover processor (#4757)
-
-Enable the lerobot.processor.* mypy override and fix the 65 errors it surfaced under the CI gate.
-- isinstance(x, PolicyAction/EnvAction) -&amp;gt; concrete torch.Tensor/np.ndarray (the aliases collapse to Any without stubs); annotations keep the aliases. GripperPenaltyProcessorStep only rejects dict actions, so every input it accepted before still passes.
-- Tuple literals for the TransitionKey groups in DeviceProcessorStep so the Literal key union survives; Optional info/complementary_data are narrowed with `if x is None: x = {}`, which keeps the caller&amp;#39;s dict identity; create_transition params widened to match EnvTransition.
-- ValueError guards (the module convention) in make_default_policy_processor_steps and the relative/gripper action steps; all seven DataProcessorPipeline.process_* methods share _require_component, so a step that nulls the requested component raises instead of returning None under a non-Optional return type.
-- Typed ProcessorStepRegistry (dict[str, type[ProcessorStep]], generic register, _registry_name: ClassVar[str]); the HasTeleopEvents protocol replaces the misused TeleopWithEvents TypeVar, which is removed (no users in src/tests/docs/examples); a private _TeleopInfo alias bridges the Enum-keyed HIL info dict with two casts.
-- Two new type: ignores: [override] on RenderTrainingMessagesStep.__call__ (returns None to drop a sample) and [index] on a latent LiberoProcessorStep key bug kept for behaviour parity. Two stale [assignment] ignores in normalize_processor.py dropped (--warn-unused-ignores), and DeviceProcessorStep.__post_init__ annotated so the gate checks its body.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/7609119999a91d9147b7a9704b36148e5d2624c0</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7609119999a91d9147b7a9704b36148e5d2624c0" />
-    <ns0:title>
-        chore(mypy): cover rollout (#4756)
-    </ns0:title>
-    <ns0:updated>2026-09-24T11:31:52Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover rollout (#4756)
-
-Enable the `lerobot.rollout.*` mypy override and fix the 113 errors it surfaced.
-Optional narrowing is consolidated on `RolloutStrategy._require_{engine,interpolator,dataset_cfg,dataset,teleop}`,
-which raise RuntimeError naming the violated setup()/dataset_mode/requires_teleop contract, replacing
-`# never None` comments and bare Optional attribute access. Recording loops now fail fast at entry (and
-`EpisodicStrategy.setup()` when propagating --duration) if the context violates those declarations;
-`RolloutConfig.__post_init__` already rejects such configs, so no CLI path changes. Every touched def gets a
-full signature using the shared `RobotAction`/`RobotObservation` aliases. New types: `_RTCPredictActionChunk`
-Protocol (static twin of `supports_rtc_inference`) and `ActuatedTeleoperator` Protocol with a `TypeGuard` on
-`teleop_supports_feedback` (common/control_utils.py); `pretrained_path` widened to `str | Path` in the
-policy/processor factories; `LatencyTracker.max()` corrected to `-&amp;gt; float` (it never returns None).
-One `type: ignore[method-assign]` (torch.compile monkeypatch), one `cast`; 4 defs still lack return annotations.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/70a0bf63da117a8585dcc13abf58ac5d12c121c5</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/70a0bf63da117a8585dcc13abf58ac5d12c121c5" />
-    <ns0:title>
-        chore(mypy): cover robot (#4754)
-    </ns0:title>
-    <ns0:updated>2026-09-24T10:27:25Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover robot (#4754)
-
-* chore(mypy): cover lerobot_types
-
-Replace `TransitionKey(str, Enum)` with a `@final` constants class whose members
-are `Final[Literal[...]]` strings, and rewrite `EnvTransition` as a class-based
-`TypedDict` with the seven literal keys (all required). mypy cannot index a
-TypedDict with a str-Enum member (it reports the member NAME as a missing key)
-and rejects non-literal field names in the functional `TypedDict(...)` form, so
-the old definitions left `EnvTransition` with no usable fields for every module
-that handles transitions. With the new spelling `td[TransitionKey.X]`,
-`.get(...)`, `.copy()` and dict literals keyed by `TransitionKey.X` type-check
-with no call-site changes. The explicit `Final[Literal[&amp;quot;x&amp;quot;]]` form (rather than
-the implicit `Final = &amp;quot;x&amp;quot;`) keeps the literal type when a member is bound to a
-local or a tuple variable; only a `list` of members widens to `list[str]`.
-`PolicyAction` and `EnvAction` get an explicit `TypeAlias` because their
-torch/numpy targets resolve to `Any` under the CI mypy config
-(`follow_imports = skip`, no stubs); a PEP 695 `type` statement is not usable
-since both are `isinstance` targets.
-
-Enable the `lerobot.lerobot_types` mypy override in pyproject.toml and drop the
-Enum-only `.value` accesses and the `isinstance(k, TransitionKey)` assertion in
-tests: tests/processor/{test_act,test_diffusion,test_gaussian_actor,
-test_smolvla,test_tdmpc,test_vqbet}_processor.py, tests/processor/test_pipeline.py,
-tests/rewards/test_classifier_processor.py, tests/test_interactive_rollout.py.
-
-BREAKING (intentional, no compat shim): `TransitionKey` is no longer an `Enum`.
-`TransitionKey(&amp;quot;observation&amp;quot;)`, `TransitionKey[&amp;quot;OBSERVATION&amp;quot;]`,
-`list(TransitionKey)`, `&amp;quot;observation&amp;quot; in TransitionKey`, `.value` / `.name` and
-`__members__` now raise; `isinstance(x, TransitionKey)` is always False; `str()`
-/ f-strings render `&amp;quot;observation&amp;quot;` instead of `&amp;quot;TransitionKey.OBSERVATION&amp;quot;`.
-Nothing in src/, tests/, examples/ or docs/ used these. Consequences:
-- Pickles of transitions written by older versions fail to load with
-  `TypeError: TransitionKey() takes no arguments` (Enum reduce calls the class);
-  no in-repo cross-version path exists. `torch.load(weights_only=True)` of a
-  transition, which failed on Enum keys, now works.
-- `ValueError(&amp;quot;Cannot filter batched field ...&amp;quot;)` in
-  processor/render_messages_processor.py now names `&amp;#39;observation.foo&amp;#39;` /
-  `&amp;#39;action&amp;#39;` instead of `&amp;#39;TransitionKey.OBSERVATION.foo&amp;#39;`; no test pins the text.
-- `EnvTransition.__annotations__` holds lazy strings (the module already uses
-  `from __future__ import annotations`); use `typing.get_type_hints`.
-
-Left for the not-yet-gated modules&amp;#39; own PRs: rewards/{topreward,robometer}/
-compute_rabc_weights.py and policies/lawam/processor_lawam.py pass partial dict
-literals where an `EnvTransition` is expected (mypy: Missing keys), and
-processor/device_processor.py iterates *lists* of keys, which widen to `str`.
-
-* chore(mypy): cover robots
-
-Enable the lerobot.robots.* mypy override (54 CI-gate errors -&amp;gt; 0).
-
-Optional connection state (zmq context/sockets, threads, the B601 motor bus) is now
-annotated at declaration and narrowed with DeviceNotConnectedError guards; calibration
-ticks are coerced to int for MotorCalibration; the kinematic processor copies the total
-EnvTransition TypedDict as one and keeps tolerant .get() reads of complementary_data;
-robot locals/attributes use the shared RobotObservation/RobotAction/Camera types. New
-DepthCamera runtime-checkable Protocol in lerobot.cameras replaces getattr(cam, &amp;quot;use_depth&amp;quot;)
-duck typing at the eight depth-read sites and in so_follower._cameras_ft, so observation
-features and get_observation() share one predicate (regression test added). lekiwi_client
-uses the module-top _zmq_available/require_package guard. One type: ignore[import-untyped]
-(requests stubs absent from the pre-commit env).&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/cc907f252f6f7e189f6bd8807183fb877f796f97</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/cc907f252f6f7e189f6bd8807183fb877f796f97" />
-    <ns0:title>
-        chore(mypy): cover jobs (#4753)
-    </ns0:title>
-    <ns0:updated>2026-09-24T10:21:52Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover jobs (#4753)
-
-Enable the mypy override for lerobot.jobs.* (ignore_errors = false) and fix the
-6 errors it surfaced in hf.py under the CI gate:
-- resolve_job_tags: replace the set-add-in-comprehension dedup (func-returns-value)
-  with list(dict.fromkeys(...)); same order-stable output.
-- _build_resume_job: narrow parser.parse_arg&amp;#39;s str | None and cfg.checkpoint_path
-  with explicit ValueErrors. Both are reachable from the CLI when --policy.path is
-  combined with --resume (validate() then skips the checkpoint resolution), so the
-  messages name that clash; previously these paths crashed with TypeError from
-  Path(None). Path(cfg.checkpoint_path) is kept so a str still coerces.
-- submit_to_hf: split on &amp;#39;fresh_repo_id is None&amp;#39; (equivalent to cfg.resume) so the
-  fresh branch sees a str. No TypedDict/Protocol added, 0 type: ignore, 0 casts.
-- tests/jobs: pin the two new raise paths and the resume dispatch of submit_to_hf.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

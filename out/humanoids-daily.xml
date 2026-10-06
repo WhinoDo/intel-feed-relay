@@ -7,9 +7,49 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 05 Oct 2026 12:19:25 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 06 Oct 2026 12:02:48 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/minerva-roger-humanoid-10-million-hazardous-work</guid>
+    <title>Minerva Emerges From Stealth With $10M for Humanoids Built for Dangerous Work</title>
+    <link>https://www.humanoidsdaily.com/news/minerva-roger-humanoid-10-million-hazardous-work</link>
+    <description>The startup is developing Roger for hazardous energy and public safety work. CEO Sandor Felber explains why a human operator remains central to its approach.</description>
+    <pubDate>Tue, 06 Oct 2026 12:02:48 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Minerva Humanoids</category><category>US</category><category>Europe</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/meta-job-listing-humanoid-robot-hardware</guid>
+    <title>Meta Job Listing Explicitly References Its Humanoid Robot Hardware</title>
+    <link>https://www.humanoidsdaily.com/news/meta-job-listing-humanoid-robot-hardware</link>
+    <description>A Redmond engineering role describes failure analysis, assembly improvements and ongoing support for Meta’s humanoid hardware, adding detail to its previously reported robotics program.</description>
+    <pubDate>Tue, 06 Oct 2026 09:31:53 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Meta</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/donut-robotics-charm-care-cinnamon-eldercare</guid>
+    <title>Donut Robotics Secures ¥300 Million Charm Care Alliance for Eldercare Humanoids</title>
+    <link>https://www.humanoidsdaily.com/news/donut-robotics-charm-care-cinnamon-eldercare</link>
+    <description>Charm Care will invest ¥300 million in Donut Robotics as the companies trial cinnamon in a nursing home and develop future nurse-call support.</description>
+    <pubDate>Tue, 06 Oct 2026 07:46:52 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>donut robotics</category><category>Japan</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-analyst-investor-day-october-6-2026</guid>
+    <title>Agility Hosts Analyst &amp; Investor Day Today, With Digit 5 and Scaling Plans in Focus</title>
+    <link>https://www.humanoidsdaily.com/news/agility-analyst-investor-day-october-6-2026</link>
+    <description>Agility will outline its technology and business plans in a webcast beginning at 12:30 p.m. ET, ahead of its proposed public listing.</description>
+    <pubDate>Tue, 06 Oct 2026 07:11:25 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Digit</category><category>Agility Robotics</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-peggy-johnson-project-meridian-defense-logistics</guid>
     <title>Agility CEO Peggy Johnson Joins Project Meridian, Bringing Humanoid Logistics Expertise to Defense Study</title>
@@ -268,46 +308,6 @@
     <pubDate>Wed, 30 Sep 2026 09:10:19 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>South Korea</category><category>Atlas</category><category>Boston Dynamics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/neura-healthtech-mipa-hospital-robotics</guid>
-    <title>NEURA Launches HealthTech Unit, With MiPA on Its Healthcare Roadmap</title>
-    <link>https://www.humanoidsdaily.com/news/neura-healthtech-mipa-hospital-robotics</link>
-    <description>NEURA’s dedicated healthcare unit starts with autonomous empty-bed transport, while its wheeled MiPA robot trains for patient-room assistance and medication support.</description>
-    <pubDate>Wed, 30 Sep 2026 08:57:07 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Neura Robotics</category><category>Europe</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/idc-h1-2026-humanoid-shipments-agibot</guid>
-    <title>IDC Puts H1 Humanoid Shipments Near 25,000, With AGIBOT Leading</title>
-    <link>https://www.humanoidsdaily.com/news/idc-h1-2026-humanoid-shipments-agibot</link>
-    <description>IDC estimates nearly 25,000 humanoid shipments in H1 2026, with AGIBOT citing a 35% share. The new tally differs from earlier estimates for the same period.</description>
-    <pubDate>Wed, 30 Sep 2026 08:40:17 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Market</category><category>China</category><category>AGIBOT</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/mindon-mind-1-human-speed-robot-demo</guid>
-    <title>MindOn Targets Human Speed in New Mind-1 Robot Demo</title>
-    <link>https://www.humanoidsdaily.com/news/mindon-mind-1-human-speed-robot-demo</link>
-    <description>MindOn’s latest demo shows parcel handling, shirt folding and laundry collection at what it labels real-time speed, following last year’s viral household-chore video.</description>
-    <pubDate>Wed, 30 Sep 2026 05:41:15 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>MindOn</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/matic-humanoid-teaser-manipulation-sunday-design</guid>
-    <title>Matic Teases a Humanoid as It Looks Beyond Floor Cleaning</title>
-    <link>https://www.humanoidsdaily.com/news/matic-humanoid-teaser-manipulation-sunday-design</link>
-    <description>Matic previews a cap-wearing humanoid and says manipulation comes next, with an earlier Sunday design comparison adding a backstory to the teaser.</description>
-    <pubDate>Tue, 29 Sep 2026 20:38:52 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Matic</category>
   </item>
 
   </channel>
