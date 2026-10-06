@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 06 Oct 2026 12:02:48 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 06 Oct 2026 15:11:44 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-6-minerva-atlas</guid>
+    <title>Our Latest Newsletter: The Minerva Interview, Atlas Hands and More</title>
+    <link>https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-6-minerva-atlas</link>
+    <description>Our October 6 briefing brings together our Minerva interview, Atlas’s new hands, Galbot pricing and more. Read the edition and subscribe for free.</description>
+    <pubDate>Tue, 06 Oct 2026 15:11:44 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Newsletter</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/minerva-roger-humanoid-10-million-hazardous-work</guid>
     <title>Minerva Emerges From Stealth With $10M for Humanoids Built for Dangerous Work</title>
@@ -298,16 +308,6 @@
     <pubDate>Wed, 30 Sep 2026 13:05:13 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Nscale</category><category>Figure</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-atlas-film-two-year-payback</guid>
-    <title>Boston Dynamics Makes Its Case for Atlas and a Two-Year Payback Target</title>
-    <link>https://www.humanoidsdaily.com/news/boston-dynamics-atlas-film-two-year-payback</link>
-    <description>A new short film argues that experience with Spot and Stretch, plus Hyundai’s factories and supply chain, gives Boston Dynamics an edge in commercializing Atlas.</description>
-    <pubDate>Wed, 30 Sep 2026 09:10:19 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>South Korea</category><category>Atlas</category><category>Boston Dynamics</category>
   </item>
 
   </channel>

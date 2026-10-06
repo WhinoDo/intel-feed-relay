@@ -4,7 +4,238 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-06T14:14:17Z</ns0:updated>
+  <ns0:updated>2026-10-06T16:16:43Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/200ee53596d464bd28f6595cdb31be69a2b5e379</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/200ee53596d464bd28f6595cdb31be69a2b5e379" />
+    <ns0:title>
+        feat(flow-matching): share training-input construction across policie…
+    </ns0:title>
+    <ns0:updated>2026-10-06T16:16:43Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>nepyope</ns0:name>
+      <ns0:uri>https://github.com/nepyope</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(flow-matching): share training-input construction across policies (#4631)
+
+* feat(flow-matching): share training-input construction across policies
+
+Inference-time integration and sampling are shared, but every policy still
+hand-rolled the training-time noising. Promote pi05&amp;#39;s private
+`_build_flow_matching_inputs` into `common/flow_matching` as
+`make_flow_matching_inputs`, generalized over `FlowConvention`.
+
+The helper centralizes the three things the convention decides: the
+interpolation, the sign of the velocity target, and the time given to clean
+prefix tokens.
+
+- NOISE_AT_ONE: x_t = t * noise + (1 - t) * actions, v = noise - actions
+- NOISE_AT_ZERO: x_t = (1 - t) * noise + t * actions, v = actions - noise
+
+`prefix_mask` gives clean action-prefix positions the model time at the clean
+end of the schedule, which makes the interpolation itself return the clean
+action there. This is the training-time counterpart of `euler_integrate`&amp;#39;s
+`hard_prefix`/`hard_prefix_mask`.
+
+Training and inference stay consistent as long as a policy hands both halves
+the same convention. That remains the caller&amp;#39;s responsibility: the convention
+is an argument to each function, not a property of the policy, and nothing
+here rejects a pair that disagrees.
+
+Adopted for training-time noising by all seven flow-matching policies: pi0,
+pi05, smolvla, eo1, groot, wall_x and evo1. Each call site is pinned
+bit-identical against a verbatim copy of the expression it replaces.
+
+Two things deliberately stay with each policy:
+
+- Loss masking and reduction, including pi05&amp;#39;s `_reduce_training_rtc_loss`,
+  since their semantics differ.
+- evo1&amp;#39;s velocity target. It takes the shared interpolation but still builds
+  `actions.float() - noise.float()` locally, because it regresses in fp32
+  outside its autocast block; the bf16 difference the helper returns is a
+  different number. Sharing that too would need a precision-aware target
+  helper, which is out of scope here.
+
+Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
+
+* Update src/lerobot/policies/common/flow_matching.py
+
+Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;
+Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
+
+* Update src/lerobot/policies/common/flow_matching.py
+
+Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;
+Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
+
+* Update src/lerobot/policies/common/flow_matching.py
+
+Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;
+Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
+
+* Update src/lerobot/policies/common/flow_matching.py
+
+Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;
+Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
+
+* refactor(flow-matching): require passing explicit convention and validate inputs
+
+- make convention required and keyword-only, so a NOISE_AT_ZERO policy cannot
+  silently inherit the openpi default, and update every call site
+- reject a convention that is not a FlowConvention, and time / prefix_mask
+  shapes that would otherwise broadcast silently
+- correct the evo1 comment on why it keeps its own target, and drop the test
+  that only compared bf16 and fp32 subtraction
+
+* chore(flow-matching): drop unused NamedTuple import
+
+---------
+
+Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
+Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
+Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/1407688454de92dd03666408c822a183f4043e65</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1407688454de92dd03666408c822a183f4043e65" />
+    <ns0:title>
+        feat(flow-matching): explicit flow convention for the shared Euler so…
+    </ns0:title>
+    <ns0:updated>2026-10-06T16:16:43Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>nepyope</ns0:name>
+      <ns0:uri>https://github.com/nepyope</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(flow-matching): explicit flow convention for the shared Euler solver (groot, evo1, wall_x) (#4075)
+
+* feat(flow-matching): give the shared solver an explicit flow convention
+
+euler_integrate only described the openpi schedule (noise at t=1). Name the
+convention explicitly and migrate the forward-convention policies onto it:
+
+- add FlowConvention.NOISE_AT_ONE (default, unchanged for pi0/pi05/smolvla/
+  eo1) and NOISE_AT_ZERO for groot/evo1/wall_x
+- convert to RTCProcessor&amp;#39;s convention under NOISE_AT_ZERO by passing 1 - t
+  and negating the velocity entering and leaving the processor; track() thus
+  always reports in the NOISE_AT_ONE convention
+- assign clean prefix tokens the model time at the clean end of the schedule,
+  per convention, keeping the existing hard-prefix clamping intact
+- add time_grid for wall_x&amp;#39;s explicit non-uniform linspace and
+  velocity_scale for groot&amp;#39;s frozen-prefix velocity weights, rather than
+  approximating either
+
+groot and evo1 pick their timestep bucket from a discrete index, not from the
+continuous time, so the solver hands them the one it already has via
+step_aware rather than making them recover it from time_tensor: on an
+accelerator that readback is a device sync on every Euler step. For the same
+reason the time_grid path now slices the grid on-device instead of reading
+each entry back as a Python float.
+
+evo1, groot and wall_x drop their hand-rolled loops. Each migration is pinned
+against a verbatim copy of the loop it replaces.
+
+Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
+
+* chore(wall_x): drop torchdiffeq, now unused after the solver migration
+
+* fix(flow-matching): satisfy mypy in euler_integrate
+
+---------
+
+Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/2577da0ef39b47f870592d62d81edc8bce922cc4</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/2577da0ef39b47f870592d62d81edc8bce922cc4" />
+    <ns0:title>
+        feat(policies): add DM05 policy (#4721)
+    </ns0:title>
+    <ns0:updated>2026-10-06T15:11:50Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): add DM05 policy (#4721)
+
+* feat(policies): add DM05 policy
+
+Integrate OpenDM DM0.5 with LeRobot checkpoint, processor, training, inference, documentation, and focused integration-test support.
+
+* fix(dm05): avoid tensor device roundtrips in converter
+
+* refactor(dm05): rename stats contract helpers
+
+* docs(dm05): add docstrings for coverage gate
+
+* docs(dm05): clarify adapter semantics
+
+* refactor(dm05): streamline processor pipeline
+
+* refactor(dm05): align checkpoint handling with policy base
+
+* refactor(dm05): move tokenization and image prep into a registered processor step
+
+* refactor(dm05): clip quantile-normalized state and action in the pipeline
+
+* fix(dm05): pin the camera set from input_features instead of sniffing the batch
+
+* refactor(dm05): rely on the shared relative-action anchoring instead of policy-side probes
+
+* style: realign the README policy table
+
+* refactor(dm05): drop the policy-specific dataset statistics machinery
+
+* docs(dm05): point the checkpoint examples at the lerobot mirrors
+
+* feat(dm05): reconcile a loaded pipeline with the active policy config
+
+* fix(dm05): keep pretrained feature keys so rename_map applies
+
+* docs(dm05): explain where the camera set comes from
+
+* documentation suggestion docs/source/dm05.mdx
+
+relative action stats
+
+Co-authored-by: hbzfeng &amp;lt;hbzfeng@gmail.com&amp;gt;
+Signed-off-by: Maxime Ellerbach &amp;lt;maxime@ellerbach.net&amp;gt;
+
+* use lerobot/libero in docs/source/dm05.mdx
+
+Co-authored-by: Xingdong Zuo &amp;lt;zuoxingdong@users.noreply.github.com&amp;gt;
+Signed-off-by: Maxime Ellerbach &amp;lt;maxime@ellerbach.net&amp;gt;
+
+* fix(dm05): satisfy the stricter mypy ruleset
+
+* fix(dm05): adopt the typed dtype field from #4786
+
+* refactor(dm05): move the processor steps and constants into processor_dm05.py
+
+* fix(dm05): address review: letterbox non-square cameras, drop dead transformers fallbacks, point docs and base_model at lerobot repos
+
+* refactor(dm05): additional dead code removal
+
+* docs(dm05): rename LIBERO cameras in the training recipe to match the eval command
+
+* test(dm05): drop the base_model mapping assertion removed by #4792
+
+---------
+
+Signed-off-by: Maxime Ellerbach &amp;lt;maxime.ellerbach@huggingface.co&amp;gt;
+Co-authored-by: zhanghaibin &amp;lt;zhanghaibin@dexmal.com&amp;gt;
+Co-authored-by: hbzfeng &amp;lt;hbzfeng@gmail.com&amp;gt;
+Co-authored-by: Xingdong Zuo &amp;lt;zuoxingdong@users.noreply.github.com&amp;gt;
+Co-authored-by: HaomingSong &amp;lt;haomingsong24@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/11f9967b2a936aeccdff1a7c70ff206d81aa48b2</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/11f9967b2a936aeccdff1a7c70ff206d81aa48b2" />
@@ -778,97 +1009,6 @@ attr-defined: robot.bus, robot.cameras and the LeKiwi-only _from_keyboard_to_bas
 which the Robot base declares), 0 casts. Runtime changes are limited to the narrowing guards
 (ValueError instead of AttributeError/TypeError on programming-error paths) and the read-only
 device property; lerobot-record&amp;#39;s robot registry is unchanged.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/cc2fbf08976c6edd14edb001616ae79f3121de96</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/cc2fbf08976c6edd14edb001616ae79f3121de96" />
-    <ns0:title>
-        chore(mypy): cover policies (#4763)
-    </ns0:title>
-    <ns0:updated>2026-09-24T13:34:37Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover policies (#4763)
-
-Enable the mypy gate for lerobot.policies (ignore_errors = false; the vendored
-molmoact2_hf_model stays excluded). 409 errors -&amp;gt; 0 under the CI gate, fixed at the
-source: Optional feature/device narrowing (ValueError guards), honest return types
-(get_optim_params -&amp;gt; OptimizerParams, delta-index properties, EnvTransition copies),
-attribute/local annotations, and Liskov-compatible overrides. New types: shared
-RTCActionSelectKwargs (replaces five per-policy copies), diffusion _ResidualBlockKwargs,
-wall_x ResolvedVisionAttentionBackend; norm_map and render-step recipe fields widened in
-lerobot.processor. 7 type: ignore (all coded, with reasons), 5 casts.
-
-Beyond annotations: AlternateVLDiT.forward takes image_mask/vlm_mask keyword-only (all
-callers already pass keywords); xvla LiberoProcessorStep.transform_features, previously
-dead always-raising code, now returns the OBSERVATION group with a (20,) observation.state;
-FastWAMConfig rejects a non-2-element image_size at construction rather than in
-validate_features. diffusion._make_noise_scheduler keeps a quoted return annotation so
-lerobot.policies still imports without the diffusion extra.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/171ce62850ffd1ef11e6f24a4f11dce727fe1fb6</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/171ce62850ffd1ef11e6f24a4f11dce727fe1fb6" />
-    <ns0:title>
-        chore(mypy): cover async_inference (#4760)
-    </ns0:title>
-    <ns0:updated>2026-09-24T11:58:39Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover async_inference (#4760)
-
-Enable the lerobot.async_inference.* mypy override and fix the 20 errors it surfaced.
-Replace the module-local Action/RawObservation aliases with the shared PolicyAction/RobotObservation
-from lerobot.lerobot_types (public-name removal: `from lerobot.async_inference.helpers import Action`
-now raises ImportError; no users in src/tests/docs/examples). LeRobotObservation is now
-dict[str, np.ndarray] (what build_dataset_frame returns), Observation is dict[str, torch.Tensor | str]
-(the policy-ready dict also carries the VLA `task` string) and RemotePolicyConfig.lerobot_features is
-dict[str, dict] (what the client actually sends).
-Annotate PolicyServer/RobotClient handshake state and queues (T | None, Queue[TimedAction], set[int]),
-narrow the Optional server state with a RuntimeError guard at the four consumption points (these fail
-before any inference or last_processed_obs update, where the old code raised AttributeError/TypeError
-mid-pipeline), and fix wrong signatures (torch.tensor -&amp;gt; torch.Tensor, control_loop return types).
-2 type: ignore[attr-defined] on dynamically built services_pb2 message classes; 2 bare ignores dropped.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/c0126fb7e4f5f91754277709c32d2af75919d8c2</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c0126fb7e4f5f91754277709c32d2af75919d8c2" />
-    <ns0:title>
-        chore(mypy): cover rewards (#4759)
-    </ns0:title>
-    <ns0:updated>2026-09-24T11:51:10Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover rewards (#4759)
-
-Enable the mypy gate for lerobot.rewards.* (71 errors -&amp;gt; 0 across 11 files).
-Precise attribute types on PreTrainedRewardModel (config_class/name) and a
-class-level covariant `config:` attribute on every reward model; Optional
-narrowing via ValueError/KeyError guards in the processor steps and RA-BC
-scripts; full signatures on touched functions; @overload on sarm_utils helpers
-and on LeRobotDataset.__getitem__ (int -&amp;gt; dict, slice -&amp;gt; list[dict],
-cross-module, typing only); SubtaskNames/SubtaskFrames aliases
-(Sequence | np.ndarray) for the episode annotations pandas hands to
-find_stage_and_tau; create_transition() replaces the partial EnvTransition dict
-literals; FeatureType-keyed norm_map at the NormalizerProcessorStep call-sites.
-No type: ignore and no casts added.
-
-Signed-off-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
