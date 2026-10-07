@@ -4,7 +4,388 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-06T16:16:43Z</ns0:updated>
+  <ns0:updated>2026-10-07T11:26:44Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/ca69a2068462a37f7cdcb74180927a2f863d2bf7</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ca69a2068462a37f7cdcb74180927a2f863d2bf7" />
+    <ns0:title>
+        feat(datasets): disk-less episode-pool video streaming (#3917)
+    </ns0:title>
+    <ns0:updated>2026-10-07T11:26:44Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>pkooij</ns0:name>
+      <ns0:uri>https://github.com/pkooij</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(datasets): disk-less episode-pool video streaming (#3917)
+
+* Add episode video streaming byte cache
+
+* Pin Hub range cache and datasets main sources
+
+* Make episode cache benchmark fetch-only by default
+
+* Retry transient native HTTP range failures
+
+* Use full MP4 sidecar for episode cache benchmark
+
+* Report full dataset estimate in episode cache benchmark
+
+* Report episode cache fill stage timings
+
+* Add random frame range fetch benchmark
+
+* Report memory usage in cache benchmarks
+
+* Use HfFileSystem for sidecar episode benchmark
+
+* Remove random frame benchmark path
+
+* Report range read timing breakdown
+
+* Allow native HTTP sidecar range diagnostics
+
+* Tune native HTTP range diagnostics
+
+* Log episode cache fill progress
+
+* Report native HTTP chunk timing
+
+* Allow dynamic range timing counters
+
+* Track native HTTP failed attempt timing
+
+* Retry native HTTP timeout statuses
+
+* Clarify native HTTP exception timing
+
+* Instrument HfFileSystem range requests
+
+* Log failed HTTP range attempts
+
+* Add GOP window range benchmark
+
+* Benchmark random sampling from episode pool
+
+* Fix pool sampling camera timestamps
+
+* Add distributed episode pool benchmark summaries
+
+* Fix episode pool stream benchmark pacing
+
+* perf(streaming): sub-range parallel fetch + non-blocking pool replacement
+
+The 64-vs-128-worker benchmark pair proved a per-host throughput ceiling
+(~270 MiB/s) on the HF bucket path: doubling connections exactly halved
+per-connection speed (4.8 -&amp;gt; 2.2 MiB/s) and left the aggregate flat,
+while per-episode latency doubled (5.7s -&amp;gt; 12s) and keep-up worsened.
+Steady-state demand (148 MiB/s) is well below the ceiling; the keep-up
+misses come entirely from consumer stalls (refill_wait 14-19s of ~84s):
+the sim blocks the training hot path on ensure_ready() for the FIFO-head
+replacement while episodes take 5.7-12s to arrive.
+
+Two fixes:
+
+- Non-blocking replacements: EpisodeByteCache.is_ready() (all cameras
+  cached or futures done, no blocking) and the stream sim now swaps a
+  replacement only when it is already resident, deferring otherwise;
+  fetch capacity (~2x demand) repays the debt on later batches. A
+  deferred_swaps metric is reported.
+- Sub-range parallel fetch (native-http): --range-subranges N splits one
+  camera GET into N concurrent sub-range GETs. Under a per-host ceiling
+  this adds no bandwidth but divides per-episode latency by ~N. Keep
+  workers x subranges near the ~64-connection saturation point (e.g.
+  --workers 16 --range-subranges 4).
+
+Verified: sub-range span math + order-preserving concat and is_ready
+semantics (unit-level, network stubbed).
+
+* feat(streaming): exact-once epoch coverage for the byte-cache episode pool
+
+The pool path sampled frames with replacement and never guaranteed a full
+epoch (episodes rotated on a fixed cadence; frames drawn randomly, none
+tracked). Add ExactCoveragePool: a deterministic planner that enumerates
+every frame of every episode exactly once per epoch while keeping at most
+pool_size episodes resident, so batch mixing stays high (uniform draw over
+all remaining frames in the pool) but coverage is complete and reproducible.
+
+Mechanics (the &amp;quot;evict only when all frames sampled&amp;quot; model): episodes are
+admitted in a seeded global permutation; each resident episode carries a
+seeded frame-index shuffle; each draw picks a resident episode with
+probability proportional to its remaining frames and pops one; an episode
+is evicted only when its last frame is emitted, then a new one is admitted;
+the epoch ends when admission is exhausted and every resident episode drains.
+Order is a pure function of (seed, epoch) -&amp;gt; resumable by deterministic
+fast-forward. The planner does no I/O and exposes admission_order so callers
+can prefetch episodes ahead of the sampling frontier.
+
+Wired into the benchmark as --coverage {sampled,exact}: run_exact_coverage_stream
+prefetches stream_prefetch_episodes beyond the frontier so a freshly admitted
+episode&amp;#39;s bytes are resident before it is drawn, then decodes each frame once,
+paced to target.
+
+Tests: 7 planner unit tests (exact-once coverage incl. a 45k-frame epoch,
+pool-size bound, per-(seed,epoch) determinism with coverage preserved,
+admission/eviction events, coupon-collector mixing, zero-length episodes) and
+a mocked-cache structural test of run_exact_coverage_stream asserting
+every-frame-once-per-camera plus the prefetch-before-decode invariant.
+
+* refactor(streaming): exact coverage is the only pool mode
+
+Drop the with-replacement sampled path: delete run_pool_stream_simulation
+and the --coverage flag; the streaming keep-up sim always uses
+run_exact_coverage_stream (ExactCoveragePool), so every frame of every
+episode is decoded exactly once per epoch. --pool-samples-per-episode is
+kept as a deprecated no-op so existing commands still parse (exact mode
+evicts an episode only when all its frames are emitted, so a turnover
+cadence no longer applies).
+
+* feat(dataset): integrate episode streaming into training
+
+* refactor(dataset): make streaming pool rank-owned
+
+* refactor(streaming): split episode data plane
+
+* chore(streaming): remove obsolete benchmark flags
+
+* Fix streaming Parquet imports and video fallback
+
+* Preserve private Hub auth in streaming readers
+
+* Harden production dataset streaming pipeline
+
+* Derive streaming decoder cap from episode pool
+
+* Remove streaming benchmark prototypes
+
+* feat(datasets): write videos with faststart for seekable playback
+
+Pass movflags=faststart when opening MP4 outputs so the moov atom is
+placed at the front of the file. Decoders can then seek without reading
+the whole file, which speeds up random-access frame decoding.
+
+* refactor(datasets): batch DatasetReader access in get_items
+
+Make _query_hf_dataset, _get_query_timestamps and _query_videos
+batch-aware (list-of-items) so get_items gathers tabular rows in a
+single Arrow read and groups video decoding by physical MP4 file across
+the whole batch. Update the Groot caller for the new signature and add a
+batched-vs-single equivalence test.
+
+* perf(datasets): drop nearest-match re-stack in torchcodec decode
+
+get_frames_at returns exactly one frame per requested index, in order,
+so frame i already corresponds to timestamps[i]. Index the batch
+directly and compare timestamps elementwise instead of running a cdist
+nearest-match and re-stacking the frames — that redundant copy dominated
+decode overhead.
+
+* perf(datasets): pin one row group per episode for large episodes
+
+Pass row_group_size &amp;gt;= episode length so episodes exceeding PyArrow&amp;#39;s
+default 1Mi-row split threshold still map to exactly one row group,
+preserving episode&amp;lt;-&amp;gt;row-group alignment.
+
+* chore(format): formatting code
+
+* docs(streaming): document public primitives
+
+* fix(streaming): preserve video timing and bound episode payloads
+
+* perf(streaming): project columns before temporal reads
+
+* perf(streaming): share mapped indexes and prune parquet row groups
+
+* feat(streaming): Add opt-in shuffled round-robin sampling
+
+Preserve remaining-frame weighting by default and expose round-robin through the training config. Reuse byte-aware admission and frame coverage while deferring new residents until the next round.
+
+Cover deterministic replay, byte leases, temporal and RGB parity, factory wiring, rank sharding and worker resume. Document finite-prefix mixing and throughput trade-offs.
+
+* fix(streaming): stabilize regression tests and preserve map-style decoding
+
+* fix(streaming): Harden lifecycle and resume contracts
+
+Pin source identities, bound resource lifetimes, and preserve deterministic resume. Simplify bucket configuration and document typed streaming interfaces. Regenerate lockfile markers without upgrading dependencies.
+
+* fix(streaming): Identify index generations from open files
+
+* perf(streaming): Read sidecar arrays by archive member
+
+* perf(streaming): Retain validated indexes during sidecar install
+
+* perf(streaming): Bound parallel sidecar decompression
+
+* perf(streaming): Prepare numeric episode columns once
+
+* perf(streaming): Keep startup index reads file-local
+
+Project metadata once, combine span and admission-size preparation, and count mini-MP4 bytes without serializing per-sample tables. Preserve planner order and exact compressed-byte accounting.
+
+* test(streaming): Guard optional dataset imports before collection
+
+* fix(streaming): Protect concurrent ZIP header reads
+
+Hold the ZIP reader&amp;#39;s source lock across member opening on older Python versions. Keep array decompression outside the lock and verify parallel output parity and cleanup.
+
+* fix(streaming): Refresh expired signed URLs on unauthorized reads
+
+* fix(streaming): Address final review findings and remove legacy helpers
+
+* fix(batch decoding): removing batch video decoding to avoid competition with the mutliple DataLoader workers
+
+* perf(streaming): cache per-episode metadata and check PTS tolerance with floats
+
+Read dataset_from_index and each camera&amp;#39;s from_timestamp once when an
+episode joins the pool instead of formatting a full meta.episodes row
+(including every stats column) twice per sample. Compare decoded PTS
+against query timestamps with plain floats instead of building small
+torch tensors per camera. Same rule (abs(query - decoded) &amp;lt;= tolerance_s,
+NaN still fails), byte-identical output, less GIL time per sample.
+
+Co-authored-by: Hadrien Cornier &amp;lt;29749923+Hadrien-Cornier@users.noreply.github.com&amp;gt;
+Signed-off-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;
+
+* refactor(streaming): address review feedback on config, validation and docs
+
+- Accept an hf://buckets/OWNER/BUCKET root in StreamingLeRobotDataset and
+  the streaming factory path (is_bucket_root in storage.py), mirroring how
+  LeRobotDataset derives that URI from repo_type=&amp;quot;bucket&amp;quot;.
+- Replace the sampling-strategy string literals with a
+  StreamingSamplingStrategy str-enum.
+- Reuse the video_decoder_cache_size name (LeRobotDataset) instead of
+  streaming_max_open_decoders, and expose it on DatasetConfig.
+- Drop duplicated argument validation from StreamingLeRobotDataset and
+  EpisodeByteCache; DatasetConfig stays the single CLI validation point.
+- Select episodes with resolve_episode_indices.
+- Rename streaming/_mapped_index.py to streaming/sidecar_utils.py.
+- Docs: shorten the dataset-v3 streaming section and link to the streaming
+  page; explain workers, shards and in-process concurrency; add
+  max_num_shards to the options table; troubleshooting as a table.
+
+* refactor(datasets): share one root parser between storage and streaming
+
+Add StorageLocation (lerobot/streaming/location.py) to classify dataset
+roots once: local path, hf://datasets, hf://buckets, other hf:// URIs
+and generic fsspec URLs, with the repo id, revision, in-repo path,
+pinned commit, Hub storage options and byte-range backend. It stays free
+of the datasets extra so the streaming primitives can use it, and
+storage.py re-exports it with dataset_location(), is_remote_uri() and
+is_bucket_root() built on top.
+
+This replaces the hand-written bucket splitting in range_fetch and
+streaming_sidecar, the three copies of the pinned-commit regex, the
+three token-to-storage-options copies, range_backend_for_root and
+_pin_hub_root, and the hf:// URI builders in dataset metadata,
+LeRobotDataset and the Lance backend. Data roots, published sidecar
+URLs and sidecar cache keys are unchanged.
+
+* perf(streaming): read MP4 sidecar headers with exact-size probes
+
+Start indexing each source MP4 with a 512 KiB read instead of 4 MiB.
+A truncated box header gives its exact size, so the next read fetches
+only the rest of that box instead of doubling from byte 0, and when the
+media payload comes first the movie box is read from the file tail
+straight away. The parsed index is unchanged; sidecar builds read far
+fewer bytes, especially for datasets that store moov after mdat.
+
+Co-authored-by: Hadrien Cornier &amp;lt;29749923+Hadrien-Cornier@users.noreply.github.com&amp;gt;
+Signed-off-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;
+
+* perf(streaming): apply image transforms on the decode threads
+
+Augmentations ran on the loader&amp;#39;s main thread after each decode, which
+made them the serial bottleneck when image transforms are enabled. Run
+them inside the decode task instead so they parallelize with decoding.
+
+RandomSubsetApply now iterates a local copy of its selection, so
+concurrent calls from different decode threads cannot apply each
+other&amp;#39;s subset. Because draws from the global torch RNG now interleave
+across threads, a fixed seed no longer reproduces the same random
+augmentations; the docs say so.
+
+Co-authored-by: Hadrien Cornier &amp;lt;29749923+Hadrien-Cornier@users.noreply.github.com&amp;gt;
+Signed-off-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;
+
+* refactor(streaming): drop debug instrumentation and dead cache helpers
+
+- Remove the timing counters and timing_summary() from both range
+  fetchers and EpisodeByteCache, and the LEROBOT_HTTP_FAILURE_LOG
+  JSONL failure log with its request-id header. Retries, backoff and
+  signed-URL refresh behave exactly as before.
+- Remove EpisodeByteCache.ensure_ready/is_ready/get_decoder and the
+  open_decoders flag; production decodes through get_frames only.
+- Drop the per-row episode check in EpisodeParquetReader, already
+  guaranteed by the episode filter just before it.
+- Drop __all__ from storage.py; callers import the location helpers
+  from lerobot.streaming.location directly.
+
+* refactor(datasets): share item-assembly helpers between map-style and streaming
+
+Move the code both DatasetReader and StreamingLeRobotDataset duplicated
+into shared helpers, so both readers assemble items the same way:
+
+- datasets/utils.py: delta_window (clamped window + padding mask, for
+  absolute or episode-local rows), shift_timestamps and task_name.
+- video_utils.py: depth_encoder_configs, image_depth_units,
+  dequantize_depth_frames, convert_image_depth_units,
+  normalize_rgb_frames (also used by both video decoders) and
+  apply_rgb_transforms.
+
+Delta validation stays in feature_utils (check_delta_timestamps /
+get_delta_indices), which both readers already share. Outputs are
+unchanged for map-style and streaming loading.
+
+Deprecate the no-op StreamingLeRobotDataset(streaming=...) argument: it
+now warns, and streaming is chosen through dataset.streaming instead.
+
+* fix(streaming): key mapped sidecar indexes on archive checksums too
+
+The derived memory-mapped index was keyed only on the sidecar&amp;#39;s
+(dev, inode, size, mtime_ns, ctime_ns). On Linux, file timestamps move
+in coarse ticks and a rewritten file can reuse the freed inode, so a
+same-size sidecar replaced within a few milliseconds got the old key
+and was served the previous generation&amp;#39;s index. That is what made
+test_sidecar_payload_does_not_reuse_stale_path_generation fail on the
+GPU CI container while passing on macOS.
+
+Add a digest of the ZIP central directory (member names, sizes and
+CRC-32s) to the key. It is read once from the opened descriptor, never
+decompressing arrays; mid-conversion checks still compare stat identity
+because workers share that descriptor. A new test reproduces the
+repeated-identity case on any filesystem.
+
+* perf(streaming): assemble items with NumPy and open decoders on bytes
+
+Under the GIL, the small torch ops in item assembly (indexing, clone,
+item) release the GIL and wait to take it back behind the decode
+threads. Following Hadrien&amp;#39;s profiling on PR 3917:
+
+- Keep each resident episode&amp;#39;s numeric columns as NumPy arrays and wrap
+  copied rows/windows with torch.from_numpy; read task names from a
+  list built once, and run the episode/index checks on the arrays.
+- Make the shared delta_window NumPy-based, so map-style and streaming
+  keep one clamping and padding rule.
+- Hand TorchCodec the raw bytes, so FFmpeg reads memory directly instead
+  of through a Python read callback that needs the GIL.
+
+Outputs are unchanged. On lerobot/svla_so101_pickplace (Apple M-series,
+decode_threads=2, 5 paired runs each) the streamed samples are
+byte-identical and throughput rises by a median 6.5% per item and 5%
+through a 1-worker DataLoader with batch 8; Hadrien measured 1.30x on
+8-vCPU EPYC machines with AV1 data.
+
+Co-Authored-By: Hadrien Cornier &amp;lt;29749923+Hadrien-Cornier@users.noreply.github.com&amp;gt;
+Signed-off-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;
+
+---------
+
+Signed-off-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;
+Co-authored-by: CarolinePascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;
+Co-authored-by: Hadrien Cornier &amp;lt;29749923+Hadrien-Cornier@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/200ee53596d464bd28f6595cdb31be69a2b5e379</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/200ee53596d464bd28f6595cdb31be69a2b5e379" />
@@ -977,38 +1358,6 @@ mypy 2.x no longer reports yaml/requests as untyped under the global ignore_miss
     </ns0:author>
     <ns0:content type="html">
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(datasets): use module loggers consistently (#4744)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/87db15c88afc98824ffb182aaa789a81d4262fc4</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/87db15c88afc98824ffb182aaa789a81d4262fc4" />
-    <ns0:title>
-        chore(mypy): cover scripts (#4762)
-    </ns0:title>
-    <ns0:updated>2026-09-24T13:38:09Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(mypy): cover scripts (#4762)
-
-Enable the lerobot.scripts.* mypy override (89 errors across 16 files under the CI gate).
-Fixes are Optional narrowing (ValueError guards on programming-error paths, isinstance on
-cfg.trainable_config, a typed multi-teleop tuple in record_loop), precise parameter/local/return
-annotations (make_dataloaders takes LeRobotDataset | StreamingLeRobotDataset and narrows to the
-map-style class before building EpisodeAwareSampler), and a typed device property on
-CalibrateConfig/SetupConfig.
-Cross-module: @overload on LeRobotDataset.__getitem__, Sequence[Path | str] in
-concatenate_video_files, pretrained_path widened to str | Path through the policy/processor
-factories (every caller already passed a Path), and make_dataset/make_train_eval_datasets return
-LeRobotDataset | StreamingLeRobotDataset (MultiLeRobotDataset sits behind a NotImplementedError).
-8 type: ignore (3 call-arg on parser.wrap() entrypoints, 2 import-untyped on requests, 3
-attr-defined: robot.bus, robot.cameras and the LeKiwi-only _from_keyboard_to_base_action, none of
-which the Robot base declares), 0 casts. Runtime changes are limited to the narrowing guards
-(ValueError instead of AttributeError/TypeError on programming-error paths) and the read-only
-device property; lerobot-record&amp;#39;s robot registry is unchanged.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
