@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 07 Oct 2026 06:57:55 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 07 Oct 2026 16:09:04 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/nvidia-figure-billion-investment-talks-report</guid>
+    <title>Nvidia Has Discussed Another $1 Billion Investment in Figure, The Information Reports</title>
+    <link>https://www.humanoidsdaily.com/news/nvidia-figure-billion-investment-talks-report</link>
+    <description>The reported talks come as Figure pursues its multibillion-dollar Nscale compute agreement and Index training-data project. No completed deal has been established.</description>
+    <pubDate>Wed, 07 Oct 2026 16:09:04 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>NVIDIA</category><category>Figure</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-rohit-prasad-ceo</guid>
     <title>Boston Dynamics Names Former Amazon AI Leader Rohit Prasad as CEO</title>
@@ -298,16 +308,6 @@
     <pubDate>Wed, 30 Sep 2026 21:06:41 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Flourish Robots</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/microagi-animesh-garg-robot-post-training</guid>
-    <title>Microagi Hires Animesh Garg to Turn Robot Models Into Reliable Workers</title>
-    <link>https://www.humanoidsdaily.com/news/microagi-animesh-garg-robot-post-training</link>
-    <description>The former NVIDIA researcher and Apptronik chief scientist joins Microagi with the Usable Robots team, linking robot post-training with industrial deployments and large-scale data collection.</description>
-    <pubDate>Wed, 30 Sep 2026 20:22:36 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>microagi</category><category>Europe</category>
   </item>
 
   </channel>
