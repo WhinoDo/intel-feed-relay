@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 07 Oct 2026 16:09:04 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 07 Oct 2026 19:47:36 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/rek-deathmatch-humanoid-robot-swords</guid>
+    <title>REK Adds Swords to Humanoid Robot Fights With “Deathmatch”</title>
+    <link>https://www.humanoidsdaily.com/news/rek-deathmatch-humanoid-robot-swords</link>
+    <description>Humanoid boxing was apparently just the warm-up. REK’s October 9 Deathmatch adds blade-equipped robots and a Rektile-versus-T-REK main event.</description>
+    <pubDate>Wed, 07 Oct 2026 19:47:36 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>REK</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/faraday-future-built-in-usa-robots-sourced-hardware</guid>
+    <title>Faraday Future’s “Built in USA” Robot Plan Starts With Assembly—and Sourced Hardware</title>
+    <link>https://www.humanoidsdaily.com/news/faraday-future-built-in-usa-robots-sourced-hardware</link>
+    <description>FF targets U.S. robot production in February 2027, while its current catalog points to Booster and AGIBOT platforms. Here is what its localization plan establishes.</description>
+    <pubDate>Wed, 07 Oct 2026 19:35:28 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Faraday Future</category><category>US</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/mecka-60-million-series-b-robot-training-data</guid>
+    <title>Mecka Raises $60M Series B to Expand Robot Training Data and Deployment</title>
+    <link>https://www.humanoidsdaily.com/news/mecka-60-million-series-b-robot-training-data</link>
+    <description>The Sequoia-led round includes Nvidia and Microsoft’s M12 as Mecka expands human-demonstration data collection and commercial robot deployment.</description>
+    <pubDate>Wed, 07 Oct 2026 18:54:40 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Mecka</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/nvidia-figure-billion-investment-talks-report</guid>
     <title>Nvidia Has Discussed Another $1 Billion Investment in Figure, The Information Reports</title>
@@ -278,36 +308,6 @@
     <pubDate>Thu, 01 Oct 2026 08:51:11 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>HTX</category><category>Singapore</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/rek-california-cease-desist-human-humanoid-fight</guid>
-    <title>REK Founder Shares California Cease-and-Desist After Human–Humanoid Fight</title>
-    <link>https://www.humanoidsdaily.com/news/rek-california-cease-desist-human-humanoid-fight</link>
-    <description>Cix Liv posted a notice bearing California State Athletic Commission letterhead after Frankie LaPenna faced an EngineAI T800 in a San Francisco cage fight.</description>
-    <pubDate>Thu, 01 Oct 2026 08:23:18 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>REK</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tangent-robotics-4-5-million-pre-seed-dexterity</guid>
-    <title>Tangent Robotics Raises $4.5 Million to Give Robot Hands Fine Motor Skills</title>
-    <link>https://www.humanoidsdaily.com/news/tangent-robotics-4-5-million-pre-seed-dexterity</link>
-    <description>Fly Ventures and Toyota Ventures co-led the Columbia spinout’s pre-seed round, backing robot hands that combine touch sensing and learned control for intricate factory tasks.</description>
-    <pubDate>Thu, 01 Oct 2026 07:16:40 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Tangent Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/flourish-1-affordable-home-robot</guid>
-    <title>Flourish 1 Brings a $3,555 Wheeled Semi-Humanoid to Household Chores</title>
-    <link>https://www.humanoidsdaily.com/news/flourish-1-affordable-home-robot</link>
-    <description>Flourish Robots opens orders for 50 home robots, pairing lightweight hardware with tasks taught by owners. December deliveries are planned, with reliability and compute costs still important limits.</description>
-    <pubDate>Wed, 30 Sep 2026 21:06:41 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Flourish Robots</category>
   </item>
 
   </channel>
