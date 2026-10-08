@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 08 Oct 2026 08:42:26 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 08 Oct 2026 12:44:18 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-patent-flexible-touch-sensors-robot-hands</guid>
+    <title>Tesla Patent Application Details Flexible Touch Sensors for Robot Hands</title>
+    <link>https://www.humanoidsdaily.com/news/tesla-patent-flexible-touch-sensors-robot-hands</link>
+    <description>The filing describes curved tactile sensor arrays and ways to manufacture them, offering a likely glimpse into Optimus development without confirming their use in its new hand.</description>
+    <pubDate>Thu, 08 Oct 2026 12:44:18 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Tesla</category><category>US</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/ubtech-faw-volkswagen-humanoid-robots-logistics</guid>
     <title>UBTECH and FAW-Volkswagen Expand Humanoid Robot Partnership Into Factory Logistics</title>
@@ -298,16 +308,6 @@
     <pubDate>Thu, 01 Oct 2026 09:25:50 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Europe</category><category>Agile Robots</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/astribot-t1-north-america-iros-18000</guid>
-    <title>Astribot Brings Its $18,000 T1 Robot to North America at IROS</title>
-    <link>https://www.humanoidsdaily.com/news/astribot-t1-north-america-iros-18000</link>
-    <description>Astribot pairs its cable-driven T1 platform with Lumo AI models and an embodied OS, offering US researchers and developers a starting price of $18,000.</description>
-    <pubDate>Thu, 01 Oct 2026 09:07:16 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>AstriBot</category><category>China</category>
   </item>
 
   </channel>
