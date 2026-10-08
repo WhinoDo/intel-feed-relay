@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 07 Oct 2026 19:47:36 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 08 Oct 2026 08:42:26 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/ubtech-faw-volkswagen-humanoid-robots-logistics</guid>
+    <title>UBTECH and FAW-Volkswagen Expand Humanoid Robot Partnership Into Factory Logistics</title>
+    <link>https://www.humanoidsdaily.com/news/ubtech-faw-volkswagen-humanoid-robots-logistics</link>
+    <description>The companies will develop and test logistics applications, building on Walker S Lite quality-inspection trials at FAW-Volkswagen’s Qingdao plant.</description>
+    <pubDate>Thu, 08 Oct 2026 08:42:26 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>China</category><category>UBTECH Robotics</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/rek-deathmatch-humanoid-robot-swords</guid>
     <title>REK Adds Swords to Humanoid Robot Fights With “Deathmatch”</title>
@@ -298,16 +308,6 @@
     <pubDate>Thu, 01 Oct 2026 09:07:16 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>AstriBot</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/singapore-htx-h2rc-humanoid-public-safety-2028</guid>
-    <title>Singapore Opens Humanoid Training Centre, Targets Public-Safety Deployment by 2028</title>
-    <link>https://www.humanoidsdaily.com/news/singapore-htx-h2rc-humanoid-public-safety-2028</link>
-    <description>HTX’s new H2RC facility will train and test humanoids for hazardous-material handling, ambulance resupply, post-blast investigation and prison-cell searches.</description>
-    <pubDate>Thu, 01 Oct 2026 08:51:11 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>HTX</category><category>Singapore</category>
   </item>
 
   </channel>
