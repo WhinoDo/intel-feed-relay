@@ -4,7 +4,148 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-08T16:09:52Z</ns0:updated>
+  <ns0:updated>2026-10-08T21:24:13Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/b9cb121cb7d4e3e26ec5c906d08dda68d151ba52</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b9cb121cb7d4e3e26ec5c906d08dda68d151ba52" />
+    <ns0:title>
+        perf(datasets): run image transforms on the GPU with image_transforms…
+    </ns0:title>
+    <ns0:updated>2026-10-08T21:24:13Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/63133702?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>brysonjones</ns0:name>
+      <ns0:uri>https://github.com/brysonjones</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(datasets): run image transforms on the GPU with image_transforms.backend=gpu (#4627)
+
+* feat(datasets): run image transforms on the GPU with image_transforms.backend=gpu
+
+Image augmentation runs per sample inside the DataLoader workers, and on a machine with few
+CPU cores per GPU it is the most expensive thing they do: on an H100 with 8 workers, ACT on
+LIBERO trains at 425 smp/s with the GPU idle 63% of the time. image_transforms.backend=gpu
+leaves the workers to decode only and applies the same transforms to each batch on the policy
+device, once per batch instead of once per sample. Opt-in; nothing changes by default.
+
+ACT, LIBERO, batch 160, seven transforms with max_num_transforms=4, dataloader -&amp;gt; gpu backend:
+H100 425 -&amp;gt; 1200 smp/s (2.8x), A100 188 -&amp;gt; 615 (3.3x), L4 with 2 workers 60 -&amp;gt; 179 (3.0x);
+GPU idle 63-68% -&amp;gt; 0%. On an L4 whose 8 workers keep up, the gpu backend costs its own 35 ms
+per step (192 -&amp;gt; 182). Peak allocated memory was 13 GB in every arm.
+
+- ImageTransformsConfig.backend (&amp;quot;dataloader&amp;quot; default, &amp;quot;gpu&amp;quot;), plus gpu_compile and
+  gpu_chunk_size for the gpu path.
+- Batched, per-sample counterparts of every LeRobot transform except JPEGCompression, and of
+  torchvision&amp;#39;s ColorJitter, RandomAffine, RandomRotation and Identity. Each sample draws its
+  own subset and parameters; the frames of one camera&amp;#39;s history share them. Randomness lives
+  in make_params, drawn from an explicit torch.Generator seeded with seed + process_index;
+  transform is pure math, which is what torch.compile and chunking act on, so neither knob
+  changes the augmentation and the policy&amp;#39;s own random stream is never consumed.
+- ImageAugmentationProcessorStep, a plain registered ObservationProcessorStep. lerobot-train
+  puts it in a one-step pipeline and applies it to training batches before the policy
+  preprocessor. Eval batches, rollouts, checkpoints and the policy&amp;#39;s preprocessor are
+  untouched. A dataset that already carries its own image_transforms callable is refused.
+- Both dataset-factory sites check backend before building worker transforms.
+- Docs: a section in the dataset guide, including the one behaviour change: the custom
+  transforms are silent uint8 no-ops on the dataloader backend today and apply on the gpu one.
+
+Tests: a parity harness over the batched registry (12 types x 25 draws, coverage-asserted),
+chunking asserted bit-equal to the whole batch, seeded reproducibility with the default RNG
+untouched, compiled equals eager on CUDA, and the trainer wiring (keys, per-rank seed,
+training-only application, refusal of worker transforms and of a CPU device, every factory
+site walked by AST).
+
+* refactor(transforms): keep only the batched transforms; augment the batch dict directly
+
+Review follow-up for #4627.
+
+**Only the batched transforms remain.** `ImageTransforms` is now a thin wrapper over
+`BatchedImageTransforms` (unsqueeze, transform, squeeze), so the dataloader and gpu
+backends run the same code and a sample augmented on one equals a batch of one on the
+other. The per-sample classes existed only to lend their argument validation to their
+batched twins; that validation now lives in the batched classes (`_check_pair`).
+`PerSampleTransform` keeps the &amp;quot;any torchvision v2 transform by name&amp;quot; contract
+(`JPEGCompression`, `RandomResizedCrop`, `GaussianBlur`, `Resize`, ...) by looping over
+the batch, seeding the default generators per sample from the batch generator under
+`fork_rng`, and is excluded from torch.compile. `BatchedRandomSubsetApply` gets a
+batch-of-one path that runs only the selected transforms in sequence, which is what a
+DataLoader worker needs and the only place a size-changing transform can run; the masked
+path now refuses a shape change with a clear error. `max_num_transforms`, weights and
+`random_order` semantics are unchanged.
+
+**The removed names stay importable for one release.** The eight per-sample
+augmentations, `RandomSubsetApply` and `make_transform_from_config` were public API in
+v0.6.1, so `lerobot/transforms/deprecated.py` keeps them as front ends that warn with
+`FutureWarning` naming their `Batched*` replacement. They hold no augmentation logic;
+deleting that file and its exports removes them. A bare alias would not have been
+equivalent: the batched classes take float `(B, N, C, H, W)` frames, so an elementwise
+transform broadcasts a three-dimensional image against per-sample parameters and returns a
+five-dimensional tensor with no error, and the geometric ones read the height and width
+from the wrong axes. `RandomSubsetApply` additionally wraps any child that is not a
+batched transform in `PerSampleTransform`. Configurations are unaffected either way, since
+`ImageTransformConfig.type` never named these classes.
+
+**Behaviour change, now documented in the guide.** The dataloader backend sees `uint8`
+frames and the LeRobot transforms returned non-float input unchanged, so they were silent
+no-ops there; they now apply on both backends, and a recipe enabling them trains
+differently than it did before. Results are computed in float with one rounding at the
+end. `tests/artifacts/image_transforms/single_transforms` still matches at the default
+tolerance; `default_transforms.safetensors` pins the RNG consumption order, which the
+batched `make_params` changes, so it was regenerated from the stored original frame with
+the configuration the test uses.
+
+**lerobot-train no longer wraps the augmentation step in a `PolicyProcessorPipeline`:**
+the pipeline&amp;#39;s batch-to-transition conversion keeps only `observation.*` and a fixed key
+list, dropping un-prefixed camera keys (`camera_keys` selects by dtype, so `image`
+qualifies) and custom columns before `rename_map` sees them. The step is called on the
+batch dict directly; the wrapper was never saved, so it bought nothing.
+
+Co-Authored-By: Claude Opus 5 &amp;lt;noreply@anthropic.com&amp;gt;
+
+* fix(transforms): interpret fill in the input&amp;#39;s pixel scale, and seed unseeded gpu steps
+
+uint8 frames are scaled to [0, 1] for the batched math, but fill stayed in 0-255, so
+RandomRotation(fill=255) wrote 255.0 into the float frame and the uint8 cast wrapped it
+to 1. The per-sample fallback had the same cause: it handed torchvision transforms the
+float working copy, so their pixel-scale arguments (fill, a solarize threshold) no longer
+matched the uint8 frames they were configured for, and RandomSolarize(threshold=128)
+raised where main applied it.
+
+One function, apply_to_frames, now owns the dtype handling for both the batched entry
+point and the deprecated per-sample front end, which had kept its own copy of the
+conversion and missed the fix. It records in the drawn parameters whether the frames
+were uint8; the affine transforms divide fill by 255 for them, as torchvision interprets
+fill in the input&amp;#39;s scale, and the per-sample fallback hands the wrapped transform the
+input&amp;#39;s own dtype. JPEGCompression encodes uint8 frames directly so it still applies on
+that path, and the uint8 output is clamped before the cast so nothing can wrap.
+
+A fresh torch.Generator starts from a fixed seed, so with --seed unset every rank and
+every run of the gpu backend drew the same augmentation; an unseeded step now seeds its
+generator nondeterministically.
+
+Also gives the language-processor test&amp;#39;s fake accelerator a process_index and its fake
+config a dataset block, which train() now reads to build the gpu-backend augmentation.
+
+* fix(transforms): only reseed the default generators when the caller passed a generator
+
+The torchvision fallback seeded the process-wide default generators per sample, under
+fork_rng, so that a sample&amp;#39;s augmentation was reproducible from the batch generator.
+main&amp;#39;s streaming dataset now applies the image transforms on its decode threads, several
+at once in one process, and two threads reseeding and restoring the same global
+generators can take each other&amp;#39;s seeds or rewind each other&amp;#39;s draws.
+
+Only the gpu-backend step passes a generator, from the single-threaded training loop,
+and it keeps the seeded, reproducible path. Without a generator (DataLoader workers and
+the streaming decode threads) the wrapped transform now draws from the default
+generators at call time, exactly as on main.
+
+---------
+
+Co-authored-by: Claude Opus 5 &amp;lt;noreply@anthropic.com&amp;gt;
+Co-authored-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/c441ebb785b7a1008203b85a241e610bec0a0711</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c441ebb785b7a1008203b85a241e610bec0a0711" />
@@ -1194,130 +1335,6 @@ Co-authored-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&
     </ns0:author>
     <ns0:content type="html">
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): preserve Lance batch metadata during cache eviction (#4755)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/e595b7902714ba51f91e47523f66f89c5181b649</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e595b7902714ba51f91e47523f66f89c5181b649" />
-    <ns0:title>
-        Feat/rebot b601 motor family (#4535)
-    </ns0:title>
-    <ns0:updated>2026-09-25T20:19:57Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/13318497?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>s1lent4gnt</ns0:name>
-      <ns0:uri>https://github.com/s1lent4gnt</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Feat/rebot b601 motor family (#4535)
-
-* test(rebot): lock in legacy DM behavior
-
-* build(rebot): upgrade MotorBridge to 0.5
-
-* feat(rebot): unify DM and RS motor families
-
-* fix: prevent partial reBot actions moving wrist yaw
-
-* fix(rebot): improve startup and bimanual failure safety
-
-* refactor(rebot): use shared bimanual lifecycle cleanup
-
-* fix(rebot): validate only device ID in RS startup ping
-
-* fix(rebot): align bimanual cleanup with shared lifecycle API
-
-* docs(rebot): simplify hardware setup guidance
-
-* fix(rebot): use standard bimanual lifecycle behavior
-
-* fix(rebot): remove unnecessary python-can dependency
-
-* refactor(rebot): delegate MIT gain limits to MotorBridge
-
-* refactor(rebot): remove duplicate torque ceiling handling
-
-* refactor(rebot): simplify MotorBridge mode selection
-
-* refactor(rebot): simplify motor family profiles
-
-* docs(rebot): clarify cross-platform CAN transport
-
-* refactor(rebot): use profiles for CAN adapter validation
-
-* refactor(rebot): remove unused profile property
-
-* refactor(rebot): keep motor profiles internal
-
-* refactor(rebot): use shared MIT control mode default
-
-* refactor(rebot): simplify profile set definitions
-
-* refactor(rebot): remove connection cleanup wrapper
-
-* refactor(rebot): remove unused public joint limits helper
-
-* refactor(rebot): simplify present position reads
-
-* refactor(rebot): remove redundant config exports
-
-* refactor(rebot): share MIT mode constant
-
-* refactor(rebot): use mutable internal motor profiles
-
-* refactor(rebot): derive motor family from profile lookup
-
-* refactor(rebot): select motor profiles directly
-
-* refactor(rebot): inline control mode selection
-
-* refactor(rebot): delegate transport validation to MotorBridge
-
-* refactor(rebot): delegate port validation to MotorBridge
-
-* refactor(rebot): delegate MIT gain validation to MotorBridge
-
-* refactor(rebot): delegate command validation to MotorBridge
-
-* refactor(rebot): keep follower directions internal
-
-* refactor(rebot): internalize runtime safety tuning
-
-* refactor(rebot): simplify mode-specific defaults
-
-* refactor(rebot): simplify MotorBridge lifecycle
-
-* refactor(rebot): simplify family configuration
-
-* refactor(rebot): simplify bimanual configuration
-
-* test(rebot): simplify motor family coverage
-
-* docs(rebot): streamline motor family guide
-
-* refactor(rebot): simplify per-joint configuration
-
-* refactor(rebot): streamline follower configuration
-
-* refactor(rebot): simplify motor family profiles
-
-* refactor(rebot): simplify follower MotorBridge handling
-
-* test(rebot): strengthen motor family and lifecycle coverage
-
-* docs(rebot): clarify CAN setup and gripper behavior
-
-* docs(rebot): expand DM and RS setup and recording guide
-
-* docs(rebot): nit
-
-* refactor(rebot): address review feedback
-
-* fix(rebot): merge partial joint limit overrides
-
-* refactor(rebot): validate control config before connecting
-
-* fix(rebot): warn when feedback loss disables torque&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

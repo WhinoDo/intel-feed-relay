@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 08 Oct 2026 12:44:18 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 08 Oct 2026 20:46:09 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoid-hub-conference-2026-devang-adhyaru</guid>
+    <title>From X to San Francisco: Devang Adhyaru Brings Humanoid Hub Together</title>
+    <link>https://www.humanoidsdaily.com/news/humanoid-hub-conference-2026-devang-adhyaru</link>
+    <description>Ahead of the October 15–16 Humanoid Hub Conference, Devang Adhyaru discusses bringing robotics offline, the promise of robot hands, and the road to useful home humanoids.</description>
+    <pubDate>Thu, 08 Oct 2026 20:46:09 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>The Humanoid Hub</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/aether-ai-cris0-causal-robot-intelligence</guid>
+    <title>Aether AI Unveils CRIS-0, a Robot AI System That Checks Its Own Actions</title>
+    <link>https://www.humanoidsdaily.com/news/aether-ai-cris0-causal-robot-intelligence</link>
+    <description>In a written interview, Aether explains how CRIS-0 combines causal prediction with action verification, and why generalization remains its biggest challenge.</description>
+    <pubDate>Thu, 08 Oct 2026 18:30:00 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Aether AI</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-patent-flexible-touch-sensors-robot-hands</guid>
     <title>Tesla Patent Application Details Flexible Touch Sensors for Robot Hands</title>
@@ -288,26 +308,6 @@
     <pubDate>Thu, 01 Oct 2026 12:44:19 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>FORT Robotics</category><category>US</category><category>Agility Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/eni-generative-bionics-humanoids-footwear-computing</guid>
-    <title>Eni and Generative Bionics Explore Industrial Humanoids, Smart Footwear and AI Computing</title>
-    <link>https://www.humanoidsdaily.com/news/eni-generative-bionics-humanoids-footwear-computing</link>
-    <description>An exploratory MoU covers GENE.01 inspection and remote-assistance uses, robot footwear materials, and potential access to Eni’s industrial sites and computing capacity.</description>
-    <pubDate>Thu, 01 Oct 2026 09:38:37 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Generative Bionics</category><category>Europe</category><category>GENE01</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agile-robots-hitachi-physical-ai-manufacturing</guid>
-    <title>Agile Robots and Hitachi Partner on Physical AI for Manufacturing</title>
-    <link>https://www.humanoidsdaily.com/news/agile-robots-hitachi-physical-ai-manufacturing</link>
-    <description>The partnership spans Agile ONE, robot arms and mobile robots, combining Hitachi’s AI and edge chips with plans to sell factory solutions through HMAX Industry.</description>
-    <pubDate>Thu, 01 Oct 2026 09:25:50 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Europe</category><category>Agile Robots</category>
   </item>
 
   </channel>
