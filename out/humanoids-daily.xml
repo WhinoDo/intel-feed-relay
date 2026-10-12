@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Sun, 11 Oct 2026 12:04:25 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 12 Oct 2026 06:55:26 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/aws-physical-ai-toolchain-robot-training-simulation</guid>
+    <title>AWS Introduces Physical AI Toolchain to Connect Robot Training and Simulation</title>
+    <link>https://www.humanoidsdaily.com/news/aws-physical-ai-toolchain-robot-training-simulation</link>
+    <description>AWS’s new toolchain connects NVIDIA robotics software with cloud infrastructure, offering reusable development modules while parts of the deployment workflow remain planned.</description>
+    <pubDate>Mon, 12 Oct 2026 06:55:26 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>AWS</category><category>Amazon</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/china-humanoid-robot-rental-prices-service-costs</guid>
+    <title>China’s Humanoid Robot Rental Prices Fall as Operators Face the Cost of Service</title>
+    <link>https://www.humanoidsdaily.com/news/china-humanoid-robot-rental-prices-service-costs</link>
+    <description>Chinese reports show falling humanoid rental prices, but advertised bargains obscure the staffing and service costs behind commercial deployments.</description>
+    <pubDate>Mon, 12 Oct 2026 06:17:57 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Market</category><category>China</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xpeng-iron-europe-rollout-h2-2027</guid>
+    <title>XPENG Targets H2 2027 European Rollout for IRON Humanoid Robot</title>
+    <link>https://www.humanoidsdaily.com/news/xpeng-iron-europe-rollout-h2-2027</link>
+    <description>XPENG’s Paris presentation sets out late-2026 mass production, H1 2027 deliveries and a European rollout in H2 2027, with commercial applications first.</description>
+    <pubDate>Mon, 12 Oct 2026 05:42:25 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Europe</category><category>China</category><category>XPENG</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/robotera-vpp2-robodojo-simulation-benchmark</guid>
     <title>Robotera’s VPP2 Tops RoboDojo Simulation Benchmark by Linking Video Prediction to Robot Actions</title>
@@ -278,36 +308,6 @@
     <pubDate>Mon, 05 Oct 2026 06:52:42 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>OpenAI</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/roboparty-rp1-humanoid-iros-open-source</guid>
-    <title>RoboParty Unveils RP1 Humanoid at IROS, Plans Broader Open-Source Release in Q4</title>
-    <link>https://www.humanoidsdaily.com/news/roboparty-rp1-humanoid-iros-open-source</link>
-    <description>RoboParty’s RP1 debuted with balance-recovery demonstrations at IROS. The developer-focused humanoid builds on ROBOTO ORIGIN, with broader hardware and software releases planned for Q4.</description>
-    <pubDate>Sun, 04 Oct 2026 09:04:35 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>open-source</category><category>China</category><category>ROBOTO ORIGIN</category><category>RoboParty</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-optimus-texas-plant-steel-40-percent</guid>
-    <title>Tesla Optimus Plant Takes Shape in Texas, With Steel Structure Estimated at 40%</title>
-    <link>https://www.humanoidsdaily.com/news/tesla-optimus-texas-plant-steel-40-percent</link>
-    <description>Joe Tegtmeyer’s latest Giga Texas update details advancing steelwork and upper-floor concrete at the Optimus factory, with substantial construction still ahead.</description>
-    <pubDate>Sat, 03 Oct 2026 10:11:06 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Tesla</category><category>US</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/galbot-et1-price-three-versions</guid>
-    <title>Galbot Prices ET1 Humanoid From 79,000 Yuan Across Three Versions</title>
-    <link>https://www.humanoidsdaily.com/news/galbot-et1-price-three-versions</link>
-    <description>Galbot’s ET1 starts at 79,000 yuan, with Pro and Flagship versions adding compute and advertised learning capabilities at higher prices.</description>
-    <pubDate>Fri, 02 Oct 2026 10:31:51 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>ET1</category><category>Galbot</category><category>China</category>
   </item>
 
   </channel>
