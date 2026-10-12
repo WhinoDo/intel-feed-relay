@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 12 Oct 2026 06:55:26 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 12 Oct 2026 14:16:04 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/archon-robotics-debut-whole-body-intelligence</guid>
+    <title>Archon Robotics Shares Debut Demo of Its Whole-Body Humanoid Intelligence</title>
+    <link>https://www.humanoidsdaily.com/news/archon-robotics-debut-whole-body-intelligence</link>
+    <description>Archon Robotics introduces its Whole-Body Intelligence approach, combining human-data pretraining, robot training and coordinated motion control for legged humanoids.</description>
+    <pubDate>Mon, 12 Oct 2026 14:16:04 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Archon Robotics</category><category>China</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/mindon-mind-1-folding-142-garments-per-hour</guid>
+    <title>MindOn Claims 142 Garments per Hour in Hour-Long Mind-1 Folding Demo</title>
+    <link>https://www.humanoidsdaily.com/news/mindon-mind-1-folding-142-garments-per-hour</link>
+    <description>MindOn’s latest Mind-1 video shows an extended dual-arm clothes-folding demonstration, with a counter reaching 142 and a claimed throughput of 142 garments per hour.</description>
+    <pubDate>Mon, 12 Oct 2026 09:18:55 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>MindOn</category><category>China</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-wang-xingxing-gpt-6-embodied-ai-tipping-point</guid>
+    <title>Unitree’s Wang Xingxing Says GPT-6 Tests Strengthen His Optimism for Embodied AI</title>
+    <link>https://www.humanoidsdaily.com/news/unitree-wang-xingxing-gpt-6-embodied-ai-tipping-point</link>
+    <description>Wang says Unitree’s GPT-6 robot tests produced encouraging results and suggests an embodied AI tipping point could arrive within one or two years in a fast scenario.</description>
+    <pubDate>Mon, 12 Oct 2026 08:52:39 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Unitree Robotics</category><category>OpenAI</category><category>Wang Xing Xing</category><category>China</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/aws-physical-ai-toolchain-robot-training-simulation</guid>
     <title>AWS Introduces Physical AI Toolchain to Connect Robot Training and Simulation</title>
@@ -278,36 +308,6 @@
     <pubDate>Mon, 05 Oct 2026 12:19:25 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Agility Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/kawasaki-kaleido-noetra-2030-staged-autonomy</guid>
-    <title>Kawasaki Plans Noetra-Powered Kaleido Rollout Around 2030, With Autonomy Expanding in Stages</title>
-    <link>https://www.humanoidsdaily.com/news/kawasaki-kaleido-noetra-2030-staged-autonomy</link>
-    <description>Kaleido is the first planned adopter of Noetra’s physical AI, Nikkei reports. Kawasaki envisions initial patrol and transport tasks, with remote control and AI giving way to broader autonomy.</description>
-    <pubDate>Mon, 05 Oct 2026 09:19:26 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Kawasaki</category><category>Japan</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/panasonic-humanoid-robots-2029-battery-safety</guid>
-    <title>Panasonic Targets Humanoid Robot Production by 2029, Citing Battery Safety</title>
-    <link>https://www.humanoidsdaily.com/news/panasonic-humanoid-robots-2029-battery-safety</link>
-    <description>Panasonic plans humanoids for factories and warehouses, with a new AI and robotics R&amp;D division leading development and battery safety presented as a potential advantage.</description>
-    <pubDate>Mon, 05 Oct 2026 08:51:59 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Panasonic</category><category>Japan</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/superclue-september-2026-robot-brain-planning-gap</guid>
-    <title>GPT-6 Astra Leads SuperCLUE’s Robot-Brain Benchmark, With a Wide Planning Advantage</title>
-    <link>https://www.humanoidsdaily.com/news/superclue-september-2026-robot-brain-planning-gap</link>
-    <description>GPT-6 Astra scores highest among ten models in SuperCLUE’s September evaluation, with a 21.42-point lead in interaction and planning over Gemini-3.8-Flash.</description>
-    <pubDate>Mon, 05 Oct 2026 06:52:42 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>OpenAI</category><category>China</category>
   </item>
 
   </channel>

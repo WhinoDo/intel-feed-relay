@@ -4,7 +4,170 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-12T09:22:06Z</ns0:updated>
+  <ns0:updated>2026-10-12T14:46:48Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/24f15b92b556cb861ca65e989462e23505a701bd</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/24f15b92b556cb861ca65e989462e23505a701bd" />
+    <ns0:title>
+        perf(datasets): optimize Lance RGB batch decoding (#4804)
+    </ns0:title>
+    <ns0:updated>2026-10-12T14:46:48Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/2283778?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>yanghua</ns0:name>
+      <ns0:uri>https://github.com/yanghua</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(datasets): optimize Lance RGB batch decoding (#4804)
+
+* perf(datasets): optimize Lance RGB batch decoding
+
+* minor fix
+
+* minor fix
+
+* address review comments&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/d0bb6ba102bcd294a08f7bd94111378873e1edc9</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d0bb6ba102bcd294a08f7bd94111378873e1edc9" />
+    <ns0:title>
+        fix(motors): remove trailing space from Feetech Acceleration_Multipli…
+    </ns0:title>
+    <ns0:updated>2026-10-12T13:12:34Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29749923?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Hadrien-Cornier</ns0:name>
+      <ns0:uri>https://github.com/Hadrien-Cornier</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(motors): remove trailing space from Feetech Acceleration_Multiplier name (#4926)
+
+The STS/SMS control table named register 86 &amp;quot;Acceleration_Multiplier &amp;quot;
+with a trailing space. bus.read(&amp;quot;Acceleration_Multiplier&amp;quot;, motor) and
+bus.write(...) raised KeyError, and only the spelling with the space worked.
+
+Rename the key to &amp;quot;Acceleration_Multiplier&amp;quot;. No code in the repository used
+the old spelling. Add a test that reads and writes register 86 by name through
+the mocked serial port, and a test that no key in any motor control table
+starts or ends with whitespace.
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/d5866cfdb995e44dee83754613bdba6f0a762bde</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d5866cfdb995e44dee83754613bdba6f0a762bde" />
+    <ns0:title>
+        fix(pi05): drop dead state_proj from PEFT default targets (#4751)
+    </ns0:title>
+    <ns0:updated>2026-10-12T12:59:12Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/3657419?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>ravediamond</ns0:name>
+      <ns0:uri>https://github.com/ravediamond</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(pi05): drop dead state_proj from PEFT default targets (#4751)
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/7e60cd26f7f8a38bb8df8fc5e2966a93f1364f47</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7e60cd26f7f8a38bb8df8fc5e2966a93f1364f47" />
+    <ns0:title>
+        Revert "feat(rollout): add remote inference engine (#4836)" (#4936)
+    </ns0:title>
+    <ns0:updated>2026-10-12T11:56:21Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Revert &amp;quot;feat(rollout): add remote inference engine (#4836)&amp;quot; (#4936)
+
+This reverts commit 75d187889a8eb72960f3ce0aecec810860d646a2.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/75d187889a8eb72960f3ce0aecec810860d646a2</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/75d187889a8eb72960f3ce0aecec810860d646a2" />
+    <ns0:title>
+        feat(rollout): add remote inference engine (#4836)
+    </ns0:title>
+    <ns0:updated>2026-10-12T11:54:14Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(rollout): add remote inference engine (#4836)
+
+* feat(rollout): add remote inference draft
+
+* feat(remote-inference): integrate validated rollout and retire legacy async
+
+* docs(rollout): policy support study + hf space goal
+
+* documenting progress
+
+* feat(rollout): prepare for review
+
+* refactor(rollout): address review comments
+
+* refactor(rollout): address review comments 2
+
+* refacotr(rollout): address review comments 3
+
+* refactor(rollout): address review veredit
+
+* fix(ci): rollout stages
+
+* fix(ci): inference rollout
+
+* fix(ci): rollout timer
+
+* refactor(rollout): address second review 1
+
+* refactor(rollout): last changes before HW validation
+
+* docs(rollout): add documents for remote tracking
+
+* refactor(rollout): different improvements for remote
+
+* docs(rollout): log progress remote
+
+* chore(rollout): integrate minor review additions
+
+* docs(rollout): update main document of remote inference
+
+* chore(test): reduce test amplitude
+
+* chore(test): reduce tests even more
+
+* chore(test): reduce tests remote inference
+
+* refactor(rollout): clean entry-point scripts for remote inference
+
+* chore(rolllout): document tests remote inference
+
+* chore(docs): keep track of progress
+
+* continue last feedback
+
+* docs(remote-inference): reconcile completed validation checklist
+
+* docs(rollout): add readme to remote inference module
+
+* docs(rollout): precomit
+
+* refactor(rollout): split hold semantics + trim diagnosis + imports and docs&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/75cd2ba0ce9ff47686bb2bd7b7f65840606c02ee</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/75cd2ba0ce9ff47686bb2bd7b7f65840606c02ee" />
@@ -1251,134 +1414,6 @@ Per-policy dtype restrictions are kept, with their literals translated;
 they encode which precisions a policy was actually validated at, which the
 base class cannot know. MolmoAct2&amp;#39;s optimizer grouping, for one, still
 assumes parameters are either bf16 or not.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/6e1fa4faf2a42927d463591aebaa0f62c2e654b7</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/6e1fa4faf2a42927d463591aebaa0f62c2e654b7" />
-    <ns0:title>
-        fix(annotations): store VQA bbox and keypoint coordinates as [0, 1] i…
-    </ns0:title>
-    <ns0:updated>2026-10-02T08:26:36Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(annotations): store VQA bbox and keypoint coordinates as [0, 1] image fractions (#4819)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/e0d50211ef236143ae867228662b7dfaba554f02</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e0d50211ef236143ae867228662b7dfaba554f02" />
-    <ns0:title>
-        docs: align tutorial training dataset with recording (#4799)
-    </ns0:title>
-    <ns0:updated>2026-09-29T11:31:07Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/110315314?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>ethanvillalovoz</ns0:name>
-      <ns0:uri>https://github.com/ethanvillalovoz</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: align tutorial training dataset with recording (#4799)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/84b6993033b539d5d46918aa769b83c95998651b</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/84b6993033b539d5d46918aa769b83c95998651b" />
-    <ns0:title>
-        docs(datasets): introduce the dataset visualizer earlier, with screen…
-    </ns0:title>
-    <ns0:updated>2026-09-29T10:23:57Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/13318497?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>s1lent4gnt</ns0:name>
-      <ns0:uri>https://github.com/s1lent4gnt</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(datasets): introduce the dataset visualizer earlier, with screenshots (#4793)
-
-* docs(datasets): introduce the dataset visualizer earlier, with screenshots
-
-- Using Dataset Tools: move the online visualizer to the top of the page,
-  before the editing commands, and expand it into a short walkthrough of
-  lerobot/svla_so101_pickplace (choose a dataset, pick an episode, watch
-  the cameras, read the synchronized state/action charts) with
-  screenshots and a deep-link tip; local visualization follows it
-- Docs home: a &amp;quot;See a dataset first&amp;quot; callout right where the
-  LeRobotDataset format is introduced, and a link in &amp;quot;No hardware yet&amp;quot;
-- LeRobotDataset v3 guide: point to the visualizer up front
-- Imitation learning tutorial: fix the stale --control.push_to_hub flag
-  and give a ready-made deep link to the recorded dataset
-
-Closes #4723
-
-* docs(datasets): link the dataset the tutorial actually records
-
-The tutorial records and replays ${HF_USER}/record-test, but the
-visualizer link and the dataset-upload URL pointed at so101_test.
-
-* docs: fix whitespace rendering in visualizer callout
-
-* 1. docs(datasets): refresh dataset visualizer screenshots
-
-* docs(datasets): improve shortcut visibility in dark mode
-
-* docs: move visualizer callout to get started
-
----------
-
-Co-authored-by: Mishig &amp;lt;dmishig@gmail.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/fec0973f4a5a8e33cdc99a89d68e05050751334a</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/fec0973f4a5a8e33cdc99a89d68e05050751334a" />
-    <ns0:title>
-        fix(policies): pass renamed dataset features to set_dataset_feature_m…
-    </ns0:title>
-    <ns0:updated>2026-09-29T10:08:01Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/18168681?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>zuoxingdong</ns0:name>
-      <ns0:uri>https://github.com/zuoxingdong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(policies): pass renamed dataset features to set_dataset_feature_metadata (#4802)
-
-make_policy applies --rename_map to the features it builds, but called the
-policy hook with the raw ds_meta.features. Policies that derive inputs from
-the hook (dm05 base cameras, fastwam cameras, molmoact2 / vla_jepa state and
-action) were configured for dataset keys while batches arrived renamed.
-
-Hand the hook the features under their renamed keys. Without a rename_map the
-hook still receives ds_meta.features unchanged.
-
-Co-authored-by: Xingdong Zuo &amp;lt;18168681+zuoxingdong@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/d8a09caa9fbae5218bec26239367bad40d7070c7</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d8a09caa9fbae5218bec26239367bad40d7070c7" />
-    <ns0:title>
-        docs: fix RoboCerebra project page and SONIC links (#4787)
-    </ns0:title>
-    <ns0:updated>2026-09-29T09:08:13Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/191299?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>pratikgx</ns0:name>
-      <ns0:uri>https://github.com/pratikgx</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: fix RoboCerebra project page and SONIC links (#4787)
-
-The RoboCerebra project site moved from robocerebra-project.github.io to
-robocerebra.github.io. github.com/NVIDIA/sonic does not exist; the SONIC
-project page is nvlabs.github.io/GEAR-SONIC.
-
-Co-authored-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
