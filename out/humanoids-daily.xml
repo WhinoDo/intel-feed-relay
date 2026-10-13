@@ -7,9 +7,59 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 13 Oct 2026 09:55:30 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 13 Oct 2026 19:58:29 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/astra-opus-argon-robotics-development-simulation</guid>
+    <title>Astra, Opus and Argon Show How Frontier AI Models Are Speeding Up Robotics Development</title>
+    <link>https://www.humanoidsdaily.com/news/astra-opus-argon-robotics-development-simulation</link>
+    <description>New Astra and Opus demonstrations echo Google’s Argon workflows, accelerating simulation and controller development while exposing the need to verify generated experiments.</description>
+    <pubDate>Tue, 13 Oct 2026 19:58:29 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>OpenAI</category><category>DeepMind</category><category>Anthropic</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/dynamic-creatures-hugo-character-robot</guid>
+    <title>Dynamic Creatures Introduces Hugo, a Furry Character Robot With 43 Actuators</title>
+    <link>https://www.humanoidsdaily.com/news/dynamic-creatures-hugo-character-robot</link>
+    <description>The startup shows Hugo in a new video and outlines work on a Vision-Language-Expression model, navigation and safety for guest interaction.</description>
+    <pubDate>Tue, 13 Oct 2026 19:27:43 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Dynamic Creatures</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/gemini-4-argon-apollo-cornhole-robotics</guid>
+    <title>Gemini 4 Argon Takes Apollo From Human Video to Seven Straight Cornhole Shots</title>
+    <link>https://www.humanoidsdaily.com/news/gemini-4-argon-apollo-cornhole-robotics</link>
+    <description>Google demonstrates Argon using video, simulation and physical feedback to develop robot skills, alongside an 87% embodied-reasoning benchmark score.</description>
+    <pubDate>Tue, 13 Oct 2026 18:40:29 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>DeepMind</category><category>US</category><category>Apollo</category><category>Google</category><category>Apptronik</category><category>google-deepmind</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/galbot-passage-humanoid-obstacle-traversal</guid>
+    <title>Galbot’s PASSAGE Helps Humanoids Step Over, Duck Under and Squeeze Past Obstacles</title>
+    <link>https://www.humanoidsdaily.com/news/galbot-passage-humanoid-obstacle-traversal</link>
+    <description>PASSAGE learns from human motion to navigate clutter, with onboard Unitree G1 tests and distinct results for destination-reaching and contact-free traversal.</description>
+    <pubDate>Tue, 13 Oct 2026 16:55:50 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Galbot</category><category>China</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-13-agility-optimus</guid>
+    <title>This Week’s Newsletter: Agility’s $300M Order, Optimus Hands and Two Interviews</title>
+    <link>https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-13-agility-optimus</link>
+    <description>Our October 13 briefing explores Digit 5’s economics, Optimus’s hand challenges and our Aether and Monolithos interviews. Read it and subscribe for free.</description>
+    <pubDate>Tue, 13 Oct 2026 15:22:36 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Newsletter</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/musk-optimus-hand-challenges-production-ramp-x-takeover</guid>
     <title>Musk Details Optimus Hand Challenges, Warns of Slow Initial Production Ramp</title>
@@ -258,56 +308,6 @@
     <pubDate>Wed, 07 Oct 2026 18:54:40 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Mecka</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/nvidia-figure-billion-investment-talks-report</guid>
-    <title>Nvidia Has Discussed Another $1 Billion Investment in Figure, The Information Reports</title>
-    <link>https://www.humanoidsdaily.com/news/nvidia-figure-billion-investment-talks-report</link>
-    <description>The reported talks come as Figure pursues its multibillion-dollar Nscale compute agreement and Index training-data project. No completed deal has been established.</description>
-    <pubDate>Wed, 07 Oct 2026 16:09:04 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>NVIDIA</category><category>Figure</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-rohit-prasad-ceo</guid>
-    <title>Boston Dynamics Names Former Amazon AI Leader Rohit Prasad as CEO</title>
-    <link>https://www.humanoidsdaily.com/news/boston-dynamics-rohit-prasad-ceo</link>
-    <description>Prasad takes over on October 7, bringing experience leading Alexa and Amazon Nova as Boston Dynamics advances its AI and commercialization plans.</description>
-    <pubDate>Wed, 07 Oct 2026 06:57:55 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>South Korea</category><category>Boston Dynamics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-investor-day-digit-5-launch-costs-and-a-300m-order-that-unlocks-skill-by-skill</guid>
-    <title>Agility's Investor Day: Digit 5 Launches at a $150,000 Bill of Materials, and Its $300M Order Unlocks Skill by Skill</title>
-    <link>https://www.humanoidsdaily.com/news/agility-investor-day-digit-5-launch-costs-and-a-300m-order-that-unlocks-skill-by-skill</link>
-    <description>At its Analyst &amp; Investor Day, Agility put Digit 5's launch bill of materials at about $150,000, above Digit 4's, for RaaS product margins near 50% until production reaches 1,000 units a year. Executives said the $300 million, 1,000-robot order releases robots in tranches as Digit 5 proves specific use cases, described general availability as end of 2027 and early 2028, and said the leased fleet will be funded with debt.</description>
-    <pubDate>Tue, 06 Oct 2026 19:15:53 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>foxconn</category><category>Market</category><category>Schaeffler</category><category>Digit</category><category>Agility Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/deep-robotics-dr02-rain-traffic-test-ip66</guid>
-    <title>Deep Robotics Tests IP66-Rated DR02 on Traffic Duty in the Rain</title>
-    <link>https://www.humanoidsdaily.com/news/deep-robotics-dr02-rain-traffic-test-ip66</link>
-    <description>A new video shows DR02 testing traffic reminders and pedestrian interaction in Hangzhou, highlighting the humanoid’s claimed all-weather protection.</description>
-    <pubDate>Tue, 06 Oct 2026 15:46:51 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Deep Robotics</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-6-minerva-atlas</guid>
-    <title>Our Latest Newsletter: The Minerva Interview, Atlas Hands and More</title>
-    <link>https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-6-minerva-atlas</link>
-    <description>Our October 6 briefing brings together our Minerva interview, Atlas’s new hands, Galbot pricing and more. Read the edition and subscribe for free.</description>
-    <pubDate>Tue, 06 Oct 2026 15:11:44 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Newsletter</category>
   </item>
 
   </channel>
