@@ -4,7 +4,153 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-12T14:46:48Z</ns0:updated>
+  <ns0:updated>2026-10-13T14:07:49Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/ae2b57f12223c8c5184fcd814eb63cd9ce7de203</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ae2b57f12223c8c5184fcd814eb63cd9ce7de203" />
+    <ns0:title>
+        feat(rollout): add remote inference engine (#4937)
+    </ns0:title>
+    <ns0:updated>2026-10-13T14:07:49Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(rollout): add remote inference engine (#4937)
+
+* feat(rollout): add remote inference draft
+
+* feat(remote-inference): integrate validated rollout and retire legacy async
+
+* docs(rollout): policy support study + hf space goal
+
+* documenting progress
+
+* feat(rollout): prepare for review
+
+* refactor(rollout): address review comments
+
+* refactor(rollout): address review comments 2
+
+* refacotr(rollout): address review comments 3
+
+* refactor(rollout): address review veredit
+
+* fix(ci): rollout stages
+
+* fix(ci): inference rollout
+
+* fix(ci): rollout timer
+
+* refactor(rollout): address second review 1
+
+* refactor(rollout): last changes before HW validation
+
+* docs(rollout): add documents for remote tracking
+
+* refactor(rollout): different improvements for remote
+
+* docs(rollout): log progress remote
+
+* chore(rollout): integrate minor review additions
+
+* docs(rollout): update main document of remote inference
+
+* chore(test): reduce test amplitude
+
+* chore(test): reduce tests even more
+
+* chore(test): reduce tests remote inference
+
+* refactor(rollout): clean entry-point scripts for remote inference
+
+* chore(rolllout): document tests remote inference
+
+* chore(docs): keep track of progress
+
+* continue last feedback
+
+* docs(remote-inference): reconcile completed validation checklist
+
+* docs(rollout): add readme to remote inference module
+
+* docs(rollout): precomit
+
+* refactor(rollout): split hold semantics + trim diagnosis + imports and docs
+
+* chore(rollout): adress the clean-up review 1
+
+* fix(test): choose only PreTrained subclasses
+
+* docs(rollout): fix more imports
+
+* refactor(rollout): restructure for lib-use like
+
+* fix(tests): importing mess in tests&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/1fdc1ae17001c9abfaaebf0b211cce1247d21fb1</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1fdc1ae17001c9abfaaebf0b211cce1247d21fb1" />
+    <ns0:title>
+        fix(hub): mark PEFT policies as adapters of their base model in the m…
+    </ns0:title>
+    <ns0:updated>2026-10-13T13:16:13Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(hub): mark PEFT policies as adapters of their base model in the model card (#4952)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/81c6c0ae99b09097ce9ffbd5da1f04b15c93ba8e</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/81c6c0ae99b09097ce9ffbd5da1f04b15c93ba8e" />
+    <ns0:title>
+        chore(dependencies): updating lower bounds on gym-pusht and gym-aloha…
+    </ns0:title>
+    <ns0:updated>2026-10-13T12:04:12Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29127300?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>CarolinePascal</ns0:name>
+      <ns0:uri>https://github.com/CarolinePascal</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): updating lower bounds on gym-pusht and gym-aloha dependencies (#4950)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/11c2480d5c79734b768da860b2eb2651941efb3c</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/11c2480d5c79734b768da860b2eb2651941efb3c" />
+    <ns0:title>
+        fix(motors): keep Feetech half-turn homing offsets representable (#4940)
+    </ns0:title>
+    <ns0:updated>2026-10-13T08:45:35Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/60154720?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>cetiennec</ns0:name>
+      <ns0:uri>https://github.com/cetiennec</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(motors): keep Feetech half-turn homing offsets representable (#4940)
+
+* fix(motors): keep Feetech half-turn homing offsets representable
+
+* Apply suggestion from @nicolas-rabault
+
+Co-authored-by: Nicolas Rabault &amp;lt;rabault.nicolas@gmail.com&amp;gt;
+Signed-off-by: Etienne Chassaing &amp;lt;60154720+cetiennec@users.noreply.github.com&amp;gt;
+
+---------
+
+Signed-off-by: Etienne Chassaing &amp;lt;60154720+cetiennec@users.noreply.github.com&amp;gt;
+Co-authored-by: Nicolas Rabault &amp;lt;rabault.nicolas@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/24f15b92b556cb861ca65e989462e23505a701bd</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/24f15b92b556cb861ca65e989462e23505a701bd" />
@@ -1303,117 +1449,6 @@ Co-authored-by: Jade Choghari &amp;lt;chogharijade@gmail.com&amp;gt;&lt;/pre&gt;
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(pi0): cast the timestep embedding to the action dtype (#4078)
 
 fix(pi0): cast the timestep embedding to the action dtype&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/d40e8709cffb93644db66e30604ef50fdec003cb</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d40e8709cffb93644db66e30604ef50fdec003cb" />
-    <ns0:title>
-        feat(hub): take the model card base_model and license from the Hub pa…
-    </ns0:title>
-    <ns0:updated>2026-10-06T09:37:38Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(hub): take the model card base_model and license from the Hub parent, and keep it across resumes (#4792)
-
-* Take the model card base_model and license from the Hub parent like transformers
-
-* Keep the fine-tuned-from model across resumes and only trust Hub-confirmed parents in model cards
-
-* Derive the resume weight source from checkpoint_path instead of a new config property&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/4aabd9c679e0085dff9fbe1434a7e8c823e14183</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4aabd9c679e0085dff9fbe1434a7e8c823e14183" />
-    <ns0:title>
-        feat(flow-matching): share sampling primitives across policies (groot…
-    </ns0:title>
-    <ns0:updated>2026-10-06T08:50:20Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>nepyope</ns0:name>
-      <ns0:uri>https://github.com/nepyope</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(flow-matching): share sampling primitives across policies (groot, evo1, wall_x) (#4077)
-
-* feat(flow-matching): share sampling primitives across policies
-
-Part of a larger refactor targeting flow matching heads, we make the beta/noise samplers reusable by evo1, groot and wall_x while preserving byte-identical outputs
-
-- pin the cached Beta concentrations to CPU, so one construction under an
-  ambient default-device context cannot poison every later draw
-- add a dtype argument to sample_noise (FP32 default) and a uniform option
-  for evo1, so groot/evo1 sample directly in the action dtype
-- keep each policy&amp;#39;s order of sampling, casting and transformation at its
-  own call site, since those choices are baked into released checkpoints
-- preserve wall_x&amp;#39;s device-side RNG stream through a sampler adapter
-- document that scale/offset default to the identity transform; .999/.001
-  is the pi-family recipe, not a helper default
-
----------
-
-Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/8c920c4270460851cedd2737657584586d3dc66f</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8c920c4270460851cedd2737657584586d3dc66f" />
-    <ns0:title>
-        chore(ci): increase timeout and max-turns claude action (#4841)
-    </ns0:title>
-    <ns0:updated>2026-10-03T16:44:21Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(ci): increase timeout and max-turns claude action (#4841)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/ff71cae1ae2d09fd035553c35da65888ed6c8304</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ff71cae1ae2d09fd035553c35da65888ed6c8304" />
-    <ns0:title>
-        refactor(dtype): unify the dtype configuration of policies (#4786)
-    </ns0:title>
-    <ns0:updated>2026-10-02T13:56:33Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>HaomingSong</ns0:name>
-      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(dtype): unify the dtype configuration of policies (#4786)
-
-* feat(configs): make PreTrainedConfig.dtype a real torch.dtype
-
-`dtype` was a bare string that every policy had to convert back into a
-`torch.dtype` at its own call site. Nine such converters had drifted apart:
-they disagreed on which dtypes they accepted and on what an invalid value
-does — `ValueError`, `KeyError`, or a silent fall-through to a different
-precision. Nothing in the base class owned the conversion, so each new
-policy reinvented it.
-
-Declare the field as `torch.dtype | None` and teach draccus the type once,
-through the codecs registered on `PreTrainedConfig`. The on-disk form is
-unchanged: `config.json` still stores the plain name `&amp;quot;bfloat16&amp;quot;`, and
-`--policy.dtype=bfloat16` still works, so no checkpoint changes shape.
-Names resolve against `torch` itself rather than a hardcoded allow-list,
-so aliases such as `half` and any dtype a future torch release adds are
-supported for free. Strings remain a serialization detail — the Python
-API takes the `torch.dtype`.
-
-Per-policy dtype restrictions are kept, with their literals translated;
-they encode which precisions a policy was actually validated at, which the
-base class cannot know. MolmoAct2&amp;#39;s optimizer grouping, for one, still
-assumes parameters are either bf16 or not.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 12 Oct 2026 19:36:49 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 13 Oct 2026 09:55:30 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/musk-optimus-hand-challenges-production-ramp-x-takeover</guid>
+    <title>Musk Details Optimus Hand Challenges, Warns of Slow Initial Production Ramp</title>
+    <link>https://www.humanoidsdaily.com/news/musk-optimus-hand-challenges-production-ramp-x-takeover</link>
+    <description>At X Takeover, Musk described the hand durability and supply-chain challenges behind Optimus, saying magnet export restrictions delayed the program last year.</description>
+    <pubDate>Tue, 13 Oct 2026 09:55:30 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Optimus</category><category>Tesla</category><category>US</category><category>Optimus gen 3</category><category>Elon Musk</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/robros-20-humanoid-industrial-trial-korea</guid>
+    <title>South Korea Approves 20-Robot Robros Trial Across Industrial Sites</title>
+    <link>https://www.humanoidsdaily.com/news/robros-20-humanoid-industrial-trial-korea</link>
+    <description>A regulatory-sandbox approval opens industrial testing for 20 Robros humanoids as the company targets a manufacturing-focused AI model in the first half of 2027.</description>
+    <pubDate>Tue, 13 Oct 2026 09:06:41 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Robros</category><category>South Korea</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/asimov-python-sdk-edge-open-source</guid>
     <title>Asimov Releases Python SDK, Announces Open-Source Edge Control Layer</title>
@@ -288,26 +308,6 @@
     <pubDate>Tue, 06 Oct 2026 15:11:44 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Newsletter</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/minerva-roger-humanoid-10-million-hazardous-work</guid>
-    <title>Minerva Emerges From Stealth With $10M for Humanoids Built for Dangerous Work</title>
-    <link>https://www.humanoidsdaily.com/news/minerva-roger-humanoid-10-million-hazardous-work</link>
-    <description>The startup is developing Roger for hazardous energy and public safety work. CEO Sandor Felber explains why a human operator remains central to its approach.</description>
-    <pubDate>Tue, 06 Oct 2026 12:02:48 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Minerva Humanoids</category><category>US</category><category>Europe</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/meta-job-listing-humanoid-robot-hardware</guid>
-    <title>Meta Job Listing Explicitly References Its Humanoid Robot Hardware</title>
-    <link>https://www.humanoidsdaily.com/news/meta-job-listing-humanoid-robot-hardware</link>
-    <description>A Redmond engineering role describes failure analysis, assembly improvements and ongoing support for Meta’s humanoid hardware, adding detail to its previously reported robotics program.</description>
-    <pubDate>Tue, 06 Oct 2026 09:31:53 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Meta</category>
   </item>
 
   </channel>
