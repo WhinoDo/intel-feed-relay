@@ -4,7 +4,37 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-14T09:24:02Z</ns0:updated>
+  <ns0:updated>2026-10-14T10:40:40Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/53feaef37b67e8f4c23b6953e880ff535e39d6fe</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/53feaef37b67e8f4c23b6953e880ff535e39d6fe" />
+    <ns0:title>
+        refactor(streaming): follow the import conventions in the streaming m…
+    </ns0:title>
+    <ns0:updated>2026-10-14T10:40:40Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>pkooij</ns0:name>
+      <ns0:uri>https://github.com/pkooij</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(streaming): follow the import conventions in the streaming modules (#4865)
+
+Follow-up to #3917, applying the AGENTS.md import rule:
+
+- Sibling imports inside `lerobot.streaming` and `datasets/streaming_sidecar.py` are relative.
+- `SidecarSpec` (and `SIDECAR_SCHEMA_VERSION`) move from `streaming/sidecar.py` to
+  `streaming/sidecar_utils.py`, breaking the `manifest` &amp;lt;-&amp;gt; `sidecar` import cycle that forced a
+  function-level import in `EpisodeVideoManifest.validate_file_sidecar`. `sidecar.py` re-exports
+  `SidecarSpec`, so `from lerobot.streaming.sidecar import SidecarSpec` keeps working.
+- Tests import at module level instead of inside test functions.
+- `av` and `torchcodec` stay imported at use in `episode_cache.py`, now with the reason in a
+  comment: `lerobot.streaming` must import without `lerobot.utils`&amp;#39; optional-dependency probes
+  (test_streaming_core_imports), and torchcodec can be installed yet fail to load.
+
+No behaviour change.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/b09c459a031fb9e42d583ee9601fc74e59038580</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b09c459a031fb9e42d583ee9601fc74e59038580" />
@@ -1125,58 +1155,6 @@ Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&a
 Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
 Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
 Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/1407688454de92dd03666408c822a183f4043e65</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1407688454de92dd03666408c822a183f4043e65" />
-    <ns0:title>
-        feat(flow-matching): explicit flow convention for the shared Euler so…
-    </ns0:title>
-    <ns0:updated>2026-10-06T16:16:43Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>nepyope</ns0:name>
-      <ns0:uri>https://github.com/nepyope</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(flow-matching): explicit flow convention for the shared Euler solver (groot, evo1, wall_x) (#4075)
-
-* feat(flow-matching): give the shared solver an explicit flow convention
-
-euler_integrate only described the openpi schedule (noise at t=1). Name the
-convention explicitly and migrate the forward-convention policies onto it:
-
-- add FlowConvention.NOISE_AT_ONE (default, unchanged for pi0/pi05/smolvla/
-  eo1) and NOISE_AT_ZERO for groot/evo1/wall_x
-- convert to RTCProcessor&amp;#39;s convention under NOISE_AT_ZERO by passing 1 - t
-  and negating the velocity entering and leaving the processor; track() thus
-  always reports in the NOISE_AT_ONE convention
-- assign clean prefix tokens the model time at the clean end of the schedule,
-  per convention, keeping the existing hard-prefix clamping intact
-- add time_grid for wall_x&amp;#39;s explicit non-uniform linspace and
-  velocity_scale for groot&amp;#39;s frozen-prefix velocity weights, rather than
-  approximating either
-
-groot and evo1 pick their timestep bucket from a discrete index, not from the
-continuous time, so the solver hands them the one it already has via
-step_aware rather than making them recover it from time_tensor: on an
-accelerator that readback is a device sync on every Euler step. For the same
-reason the time_grid path now slices the grid on-device instead of reading
-each entry back as a Python float.
-
-evo1, groot and wall_x drop their hand-rolled loops. Each migration is pinned
-against a verbatim copy of the loop it replaces.
-
-Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
-
-* chore(wall_x): drop torchdiffeq, now unused after the solver migration
-
-* fix(flow-matching): satisfy mypy in euler_integrate
-
----------
-
-Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

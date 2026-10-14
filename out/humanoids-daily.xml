@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 14 Oct 2026 06:51:33 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 14 Oct 2026 13:35:35 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/modar-alaoui-the-humanoid-economy-book-release</guid>
+    <title>Humanoids Summit Founder Modar Alaoui Releases The Humanoid Economy</title>
+    <link>https://www.humanoidsdaily.com/news/modar-alaoui-the-humanoid-economy-book-release</link>
+    <description>Published by Wiley, Alaoui’s new book examines the capital, manufacturing, policy and public acceptance needed to scale humanoid robotics.</description>
+    <pubDate>Wed, 14 Oct 2026 13:35:35 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Humanoids Summit</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/physical-intelligence-api-beta-robot-training-inference</guid>
     <title>Physical Intelligence Opens API Beta for Robot Model Training and Inference</title>
@@ -298,16 +308,6 @@
     <pubDate>Wed, 07 Oct 2026 19:47:36 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>REK</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/faraday-future-built-in-usa-robots-sourced-hardware</guid>
-    <title>Faraday Future’s “Built in USA” Robot Plan Starts With Assembly—and Sourced Hardware</title>
-    <link>https://www.humanoidsdaily.com/news/faraday-future-built-in-usa-robots-sourced-hardware</link>
-    <description>FF targets U.S. robot production in February 2027, while its current catalog points to Booster and AGIBOT platforms. Here is what its localization plan establishes.</description>
-    <pubDate>Wed, 07 Oct 2026 19:35:28 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Faraday Future</category><category>US</category>
   </item>
 
   </channel>
