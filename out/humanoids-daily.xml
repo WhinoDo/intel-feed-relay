@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 13 Oct 2026 19:58:29 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 14 Oct 2026 06:51:33 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/physical-intelligence-api-beta-robot-training-inference</guid>
+    <title>Physical Intelligence Opens API Beta for Robot Model Training and Inference</title>
+    <link>https://www.humanoidsdaily.com/news/physical-intelligence-api-beta-robot-training-inference</link>
+    <description>PI is accepting applications for a managed robot-model API, with early examples spanning manufacturing and heavy machinery.</description>
+    <pubDate>Wed, 14 Oct 2026 06:51:33 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Physical Intelligence</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/astra-opus-argon-robotics-development-simulation</guid>
     <title>Astra, Opus and Argon Show How Frontier AI Models Are Speeding Up Robotics Development</title>
@@ -298,16 +308,6 @@
     <pubDate>Wed, 07 Oct 2026 19:35:28 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Faraday Future</category><category>US</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/mecka-60-million-series-b-robot-training-data</guid>
-    <title>Mecka Raises $60M Series B to Expand Robot Training Data and Deployment</title>
-    <link>https://www.humanoidsdaily.com/news/mecka-60-million-series-b-robot-training-data</link>
-    <description>The Sequoia-led round includes Nvidia and Microsoft’s M12 as Mecka expands human-demonstration data collection and commercial robot deployment.</description>
-    <pubDate>Wed, 07 Oct 2026 18:54:40 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Mecka</category>
   </item>
 
   </channel>
