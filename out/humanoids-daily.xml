@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 14 Oct 2026 13:35:35 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 14 Oct 2026 18:29:06 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-sec-s4-effective-november-2-merger-vote</guid>
+    <title>Agility Moves Closer to Nasdaq as Merger Vote Is Set for November 2</title>
+    <link>https://www.humanoidsdaily.com/news/agility-sec-s4-effective-november-2-merger-vote</link>
+    <description>The SEC has declared the merger registration effective, bringing Agility closer to its planned AGLT listing and financing for Digit 5 deployments.</description>
+    <pubDate>Wed, 14 Oct 2026 18:29:06 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Market</category><category>Digit</category><category>Agility Robotics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/shanghai-8000-humanoid-robots-factories-2028</guid>
+    <title>Shanghai Wants 8,000 Humanoid Robots in Factories by 2028</title>
+    <link>https://www.humanoidsdaily.com/news/shanghai-8000-humanoid-robots-factories-2028</link>
+    <description>The city has set a factory-deployment goal within a broader AI manufacturing initiative, though supplier allocations and procurement details remain unspecified.</description>
+    <pubDate>Wed, 14 Oct 2026 17:54:06 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Market</category><category>China</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-atlas-prototype-shop-build-time</guid>
+    <title>Boston Dynamics Says Atlas Takes a Day to Build—and Wants to Cut That to an Hour</title>
+    <link>https://www.humanoidsdaily.com/news/boston-dynamics-atlas-prototype-shop-build-time</link>
+    <description>A new video details in-house machining and rapid assembly, with a speaker describing a roughly one-day robot build and an ambition to reach an hour next year.</description>
+    <pubDate>Wed, 14 Oct 2026 17:03:44 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>South Korea</category><category>Atlas</category><category>Boston Dynamics</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/modar-alaoui-the-humanoid-economy-book-release</guid>
     <title>Humanoids Summit Founder Modar Alaoui Releases The Humanoid Economy</title>
@@ -278,36 +308,6 @@
     <pubDate>Thu, 08 Oct 2026 18:30:00 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Aether AI</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-patent-flexible-touch-sensors-robot-hands</guid>
-    <title>Tesla Patent Application Details Flexible Touch Sensors for Robot Hands</title>
-    <link>https://www.humanoidsdaily.com/news/tesla-patent-flexible-touch-sensors-robot-hands</link>
-    <description>The filing describes curved tactile sensor arrays and ways to manufacture them, offering a likely glimpse into Optimus development without confirming their use in its new hand.</description>
-    <pubDate>Thu, 08 Oct 2026 12:44:18 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Tesla</category><category>US</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/ubtech-faw-volkswagen-humanoid-robots-logistics</guid>
-    <title>UBTECH and FAW-Volkswagen Expand Humanoid Robot Partnership Into Factory Logistics</title>
-    <link>https://www.humanoidsdaily.com/news/ubtech-faw-volkswagen-humanoid-robots-logistics</link>
-    <description>The companies will develop and test logistics applications, building on Walker S Lite quality-inspection trials at FAW-Volkswagen’s Qingdao plant.</description>
-    <pubDate>Thu, 08 Oct 2026 08:42:26 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>China</category><category>UBTECH Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/rek-deathmatch-humanoid-robot-swords</guid>
-    <title>REK Adds Swords to Humanoid Robot Fights With “Deathmatch”</title>
-    <link>https://www.humanoidsdaily.com/news/rek-deathmatch-humanoid-robot-swords</link>
-    <description>Humanoid boxing was apparently just the warm-up. REK’s October 9 Deathmatch adds blade-equipped robots and a Rektile-versus-T-REK main event.</description>
-    <pubDate>Wed, 07 Oct 2026 19:47:36 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>REK</category>
   </item>
 
   </channel>
