@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 14 Oct 2026 18:29:06 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 15 Oct 2026 05:14:13 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/rhoda-ai-touch-sensor-blindfolded-robot</guid>
+    <title>Rhoda Blindfolds Its Robot—and Lets Touch Guide the Search</title>
+    <link>https://www.humanoidsdaily.com/news/rhoda-ai-touch-sensor-blindfolded-robot</link>
+    <description>Rhoda combines tactile sensing with its Direct Video-Action model to guide manipulation without vision, showing textured-ball retrieval and recovery from mistakes.</description>
+    <pubDate>Thu, 15 Oct 2026 05:14:13 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>rhoda-ai</category><category>tactile sensing</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/roboparty-rp1-open-source-hardware-motion-policies</guid>
+    <title>RoboParty Opens RP1 Humanoid Designs, From Mechanical Parts to Motion Policies</title>
+    <link>https://www.humanoidsdaily.com/news/roboparty-rp1-open-source-hardware-motion-policies</link>
+    <description>RoboParty has released RP1 hardware files, software resources and motion-policy checkpoints, following its IROS debut and promised broader rollout.</description>
+    <pubDate>Thu, 15 Oct 2026 05:01:44 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>China</category><category>ROBOTO ORIGIN</category><category>RoboParty</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-sec-s4-effective-november-2-merger-vote</guid>
     <title>Agility Moves Closer to Nasdaq as Merger Vote Is Set for November 2</title>
@@ -288,26 +308,6 @@
     <pubDate>Fri, 09 Oct 2026 08:54:16 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>RoboStrategy</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoid-hub-conference-2026-devang-adhyaru</guid>
-    <title>From X to San Francisco: Devang Adhyaru Brings Humanoid Hub Together</title>
-    <link>https://www.humanoidsdaily.com/news/humanoid-hub-conference-2026-devang-adhyaru</link>
-    <description>Ahead of the October 15–16 Humanoid Hub Conference, Devang Adhyaru discusses bringing robotics offline, the promise of robot hands, and the road to useful home humanoids.</description>
-    <pubDate>Thu, 08 Oct 2026 20:46:09 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>The Humanoid Hub</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/aether-ai-cris0-causal-robot-intelligence</guid>
-    <title>Aether AI Unveils CRIS-0, a Robot AI System That Checks Its Own Actions</title>
-    <link>https://www.humanoidsdaily.com/news/aether-ai-cris0-causal-robot-intelligence</link>
-    <description>In a written interview, Aether explains how CRIS-0 combines causal prediction with action verification, and why generalization remains its biggest challenge.</description>
-    <pubDate>Thu, 08 Oct 2026 18:30:00 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Aether AI</category>
   </item>
 
   </channel>
