@@ -4,7 +4,35 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-14T10:40:40Z</ns0:updated>
+  <ns0:updated>2026-10-15T10:19:30Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/8975047fbb76e7fef3f482988ceccc17e2102a90</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8975047fbb76e7fef3f482988ceccc17e2102a90" />
+    <ns0:title>
+        fix(streaming): release HTTP response bodies without waiting for cycl…
+    </ns0:title>
+    <ns0:updated>2026-10-15T10:19:30Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>pkooij</ns0:name>
+      <ns0:uri>https://github.com/pkooij</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(streaming): release HTTP response bodies without waiting for cyclic GC (#4903)
+
+* fix(streaming): release HTTP range bodies independently of cyclic GC
+
+* build: allow tested PyTorch and TorchCodec runtimes
+
+* build: match Linux TorchCodec to the PyTorch CUDA index
+
+* build: use CPU TorchCodec wheels for dataset decoding
+
+* fix(deps): restore original torch runtime upper bounds
+
+* docs(deps): preserve torchcodec compatibility comment&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/53feaef37b67e8f4c23b6953e880ff535e39d6fe</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/53feaef37b67e8f4c23b6953e880ff535e39d6fe" />
@@ -1062,99 +1090,6 @@ Signed-off-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;
 Signed-off-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;
 Co-authored-by: CarolinePascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;
 Co-authored-by: Hadrien Cornier &amp;lt;29749923+Hadrien-Cornier@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/200ee53596d464bd28f6595cdb31be69a2b5e379</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/200ee53596d464bd28f6595cdb31be69a2b5e379" />
-    <ns0:title>
-        feat(flow-matching): share training-input construction across policie…
-    </ns0:title>
-    <ns0:updated>2026-10-06T16:16:43Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>nepyope</ns0:name>
-      <ns0:uri>https://github.com/nepyope</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(flow-matching): share training-input construction across policies (#4631)
-
-* feat(flow-matching): share training-input construction across policies
-
-Inference-time integration and sampling are shared, but every policy still
-hand-rolled the training-time noising. Promote pi05&amp;#39;s private
-`_build_flow_matching_inputs` into `common/flow_matching` as
-`make_flow_matching_inputs`, generalized over `FlowConvention`.
-
-The helper centralizes the three things the convention decides: the
-interpolation, the sign of the velocity target, and the time given to clean
-prefix tokens.
-
-- NOISE_AT_ONE: x_t = t * noise + (1 - t) * actions, v = noise - actions
-- NOISE_AT_ZERO: x_t = (1 - t) * noise + t * actions, v = actions - noise
-
-`prefix_mask` gives clean action-prefix positions the model time at the clean
-end of the schedule, which makes the interpolation itself return the clean
-action there. This is the training-time counterpart of `euler_integrate`&amp;#39;s
-`hard_prefix`/`hard_prefix_mask`.
-
-Training and inference stay consistent as long as a policy hands both halves
-the same convention. That remains the caller&amp;#39;s responsibility: the convention
-is an argument to each function, not a property of the policy, and nothing
-here rejects a pair that disagrees.
-
-Adopted for training-time noising by all seven flow-matching policies: pi0,
-pi05, smolvla, eo1, groot, wall_x and evo1. Each call site is pinned
-bit-identical against a verbatim copy of the expression it replaces.
-
-Two things deliberately stay with each policy:
-
-- Loss masking and reduction, including pi05&amp;#39;s `_reduce_training_rtc_loss`,
-  since their semantics differ.
-- evo1&amp;#39;s velocity target. It takes the shared interpolation but still builds
-  `actions.float() - noise.float()` locally, because it regresses in fp32
-  outside its autocast block; the bf16 difference the helper returns is a
-  different number. Sharing that too would need a precision-aware target
-  helper, which is out of scope here.
-
-Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
-
-* Update src/lerobot/policies/common/flow_matching.py
-
-Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;
-Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
-
-* Update src/lerobot/policies/common/flow_matching.py
-
-Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;
-Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
-
-* Update src/lerobot/policies/common/flow_matching.py
-
-Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;
-Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
-
-* Update src/lerobot/policies/common/flow_matching.py
-
-Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;
-Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
-
-* refactor(flow-matching): require passing explicit convention and validate inputs
-
-- make convention required and keyword-only, so a NOISE_AT_ZERO policy cannot
-  silently inherit the openpi default, and update every call site
-- reject a convention that is not a FlowConvention, and time / prefix_mask
-  shapes that would otherwise broadcast silently
-- correct the evo1 comment on why it keeps its own target, and drop the test
-  that only compared bf16 and fp32 subtraction
-
-* chore(flow-matching): drop unused NamedTuple import
-
----------
-
-Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
-Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
-Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

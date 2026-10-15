@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 15 Oct 2026 05:14:13 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 15 Oct 2026 09:44:46 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/neura-neuron-ai-touch-sound-memory-laundry-demo</guid>
+    <title>NEURA Gives Its Robot AI Touch, Sound and Memory Ahead of 11-Minute Laundry Demo</title>
+    <link>https://www.humanoidsdaily.com/news/neura-neuron-ai-touch-sound-memory-laundry-demo</link>
+    <description>NEURA introduces its multisensory Neuron AI model and plans an autonomous 4NE1 laundry-handling demonstration at GTC Berlin on October 20–22.</description>
+    <pubDate>Thu, 15 Oct 2026 09:44:46 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Neura Robotics</category><category>Europe</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/120ft-sweden-humanoid-microfactories-funding</guid>
+    <title>Swedish Startup 120ft Wants to Fit a Humanoid-Run Factory Into Three Containers</title>
+    <link>https://www.humanoidsdaily.com/news/120ft-sweden-humanoid-microfactories-funding</link>
+    <description>120ft has emerged from stealth with €576,000 in angel funding to develop local robotic assembly for small batches, with brands paying per finished product.</description>
+    <pubDate>Thu, 15 Oct 2026 08:09:51 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Europe</category><category>120ft</category><category>Sweden</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/rhoda-ai-touch-sensor-blindfolded-robot</guid>
     <title>Rhoda Blindfolds Its Robot—and Lets Touch Guide the Search</title>
@@ -288,26 +308,6 @@
     <pubDate>Fri, 09 Oct 2026 11:11:36 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>BYD</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/arc-singapore-humanoid-fight-night</guid>
-    <title>ARC Brings Human-Piloted Humanoid Fights to Singapore</title>
-    <link>https://www.humanoidsdaily.com/news/arc-singapore-humanoid-fight-night</link>
-    <description>Professional fighters piloted Unitree G1 and EngineAI T800 robots at ARC’s Singapore event, as REK and UFB pursue their own robot entertainment formats.</description>
-    <pubDate>Fri, 09 Oct 2026 09:46:13 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>REK</category><category>ARC</category><category>Singapore</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/dyna-taku-nasdaq-closing-bell-robostrategy-forum</guid>
-    <title>Dyna Robotics’ Taku to Join Nasdaq Closing Bell at RoboStrategy Event</title>
-    <link>https://www.humanoidsdaily.com/news/dyna-taku-nasdaq-closing-bell-robostrategy-forum</link>
-    <description>The October 13 event will bring robotics executives and robot demonstrations to New York ahead of a Nasdaq closing-bell appearance.</description>
-    <pubDate>Fri, 09 Oct 2026 08:54:16 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>RoboStrategy</category>
   </item>
 
   </channel>
