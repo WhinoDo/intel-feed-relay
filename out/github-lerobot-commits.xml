@@ -4,7 +4,206 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-15T12:54:04Z</ns0:updated>
+  <ns0:updated>2026-10-16T11:55:57Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/146d8474932c8b566717eb2738ba459337ab71c4</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/146d8474932c8b566717eb2738ba459337ab71c4" />
+    <ns0:title>
+        refactor(motors): one rustypot-backed SerialMotorsBus for Feetech and…
+    </ns0:title>
+    <ns0:updated>2026-10-16T11:55:57Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/9554146?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>nicolas-rabault</ns0:name>
+      <ns0:uri>https://github.com/nicolas-rabault</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(motors): one rustypot-backed SerialMotorsBus for Feetech and Dynamixel (#4672)
+
+* refactor(motors): drive the Feetech and Dynamixel buses through rustypot
+
+The Feetech and Dynamixel buses reached the wire through the vendors&amp;#39;
+pure-Python SDKs, behind a layer shaped like them (port and packet
+handlers, group sync readers and writers), and carried their own control
+tables: addresses, sizes, sign bits, resolutions, baud rate codes and
+model numbers transcribed from the vendor manuals, plus the code applying
+them -- byte order, sign encoding, the ID sweep and its timeout.
+
+rustypot implements both protocols in Rust, releases the GIL for the
+whole transaction, and states and applies those facts itself. Each family
+now names its servo definitions in `_servos()`, the rustypot controller
+classes. The base bus resolves a model to one of them (rustypot spells
+XL330M288 where LeRobot writes xl330-m288) and a register name by
+lowering it, and on connect opens a `rustypot.Bus` with each motor&amp;#39;s
+definition. Models of one family therefore share a port -- STS and SCS,
+XL430 and XL330 -- each read and written in its own byte order and sign
+encoding. Retries, sync reads on servos without Sync Read, and the bus
+scan are rustypot&amp;#39;s as well.
+
+Feetech&amp;#39;s `protocol_version` goes: STS and SCS differ in byte order, in
+whether they answer Sync Read and in which registers they have, and the
+definition knows all three. The handshake accepts any model number a
+definition covers, `scan_port()` sweeps the bus itself in place of
+`broadcast_ping()`, and `setup_motor()` reaches a new motor at whatever
+id it answers through the motor&amp;#39;s own definition. `disconnect()` is safe
+on a closed bus and releases the port even when disabling torque fails.
+
+Gone: both tables.py, encoding_utils.py, the SDK-shaped protocols, the
+`MotorsBus` alias, and deepdiff from the motor extras. pyserial stays in
+them for `lerobot-find-port`. rustypot 1.10.0 is the first release that
+carries the servo metadata and the multi-definition `Bus`.
+
+The devices that relied on the old surface follow: HopeJR&amp;#39;s hand drops
+`protocol_version` and sync-reads its SCS servos, OpenArm Mini asks the
+bus for the motor resolution, and LeKiwi clamps wheel speeds to the
+sign-magnitude range of Goal_Velocity.
+
+Tests replace the byte-level SDK mocks with an in-memory `rustypot.Bus`
+keyed by motor id and register name. The IO helpers shared by both
+families are tested once, on the base bus.
+
+* docs: document the rustypot-backed motor buses
+
+The install steps stop sending users to the vendor SDKs, the hardware
+guide lists the servos rustypot defines and points new models at rustypot
+rather than at control tables that no longer exist, and the API page
+documents SerialMotorsBus and both family buses.
+
+* build(deps): rustypot 1.11.0, and one serial-motors extra
+
+rustypot 1.11.0 finds a servo model by name with its exact model number,
+states what differs between families (homing offset sign, operating mode
+values, factory baud rate, whether the EEPROM has a lock), turns the
+torque of a whole bus on or off, scans with a broadcast ping, and sets a
+new motor&amp;#39;s id and baud rate. LeRobot&amp;#39;s bus is about to rely on all of it.
+
+One bus class will drive both families, so there is one extra to point
+users at: serial-motors installs rustypot and pyserial. feetech and
+dynamixel stay, as the names the setup guides use, and now alias it.
+
+* refactor(motors): one SerialMotorsBus for Feetech and Dynamixel
+
+FeetechMotorsBus and DynamixelMotorsBus had become a list of rustypot
+classes plus a handful of facts about each family: which way the homing
+offset goes, which operating mode value means position control, whether
+the drive mode is a register, which acceleration and firmware registers
+exist, and the Feetech lock. rustypot 1.11.0 states those facts in its
+servo definitions, so SerialMotorsBus is now the one, concrete bus:
+
+- each motor&amp;#39;s model is looked up with rustypot.find_model, which gives
+  its exact model number and its definition. The handshake and the motor
+  search check that exact number again, so an SM8512BL set up as an
+  sts3215 is refused, though both share a control table;
+- calibration reads and writes the homing offset where the register
+  exists (not on the SCS), compares the drive mode where it is a register
+  (Dynamixel) and applies it in software elsewhere (Feetech), and centres
+  a joint with the homing offset sign of the definition;
+- the firmware check runs on the motors that report a firmware major and
+  minor version (Feetech); configure_motors writes the acceleration
+  registers a motor has; set_operating_mode(&amp;quot;position&amp;quot;) writes each
+  motor&amp;#39;s own value for a mode named the same on every family;
+- torque goes on or off through rustypot&amp;#39;s Bus.set_torque, which tries
+  every motor, moves the Feetech lock with the torque, and reports the
+  motors that failed: one that does not answer no longer leaves the
+  motors after it under torque, and the error names it;
+- setup_motor has rustypot change the id and the baud rate (torque off
+  and lock open first), with no reopening of the bus, and puts the port
+  back at the default rate even when that fails. The motor search tries
+  the default baud rate, then the factory one, then the rest in a fixed
+  order, with a broadcast ping where the servo answers one, which covers
+  a USB adapter&amp;#39;s latency once. scan_port takes the model it looks for,
+  releases the port when a scan fails, and reports ids only;
+- a status packet is waited for 50 ms, not a second, so one lost reply
+  costs a 30 Hz loop a tick (the SDKs waited about 35 to 50 ms).
+
+FeetechMotorsBus and DynamixelMotorsBus stay for one release as
+deprecated aliases (FeetechMotorsBus still accepts protocol_version), and
+so do their OperatingMode and TorqueMode enums. A missing rustypot points
+to the serial-motors extra. Resetting the calibration of an SCS no longer
+writes a homing offset it does not have. On Dynamixel, is_calibrated no
+longer compares the id stored in the calibration file, like Feetech.
+
+* refactor(robots,teleoperators): drive the motors through SerialMotorsBus
+
+The SO, Koch, OMX, LeKiwi, HopeJR and OpenArm Mini devices built a
+FeetechMotorsBus or a DynamixelMotorsBus and wrote operating modes as the
+value of a family&amp;#39;s enum. They now build a SerialMotorsBus and name the
+mode: set_operating_mode(&amp;quot;position&amp;quot;), &amp;quot;extended_position&amp;quot;, &amp;quot;velocity&amp;quot;, or
+&amp;quot;current_based_position&amp;quot; for the Dynamixel grippers. DriveMode comes from
+lerobot.motors.
+
+* docs: one SerialMotorsBus for Feetech and Dynamixel
+
+The hardware guide builds its example robot on SerialMotorsBus, names
+operating modes, and says what the definitions settle between families.
+The API page documents SerialMotorsBus and DriveMode, and mentions the
+two family classes as deprecated aliases.
+
+* refactor(motors): fold the I/O helpers into their callers, drop scan_port
+
+With the torque and the motor setup handled by rustypot, _write,
+_sync_read and _sync_write each had a single caller: write, sync_read and
+sync_write now talk to the rustypot bus themselves. _read stays, shared by
+read and ping, and always raises; its raise_on_error and err_msg
+parameters, which only ping used, go, and ping catches the error instead
+of asking not to get one. The Feetech firmware check reads the major and
+minor versions with one sync read each rather than two reads per motor.
+
+scan_port goes: nothing in LeRobot calls it, and rustypot&amp;#39;s Bus.scan and
+Bus.broadcast_scan do the same for anyone who needs it.
+
+The tests that went through the private helpers now go through read,
+write, sync_read and sync_write against the in-memory bus.
+
+* fix(motors): restore the port after a failed motor search, check a set-up motor
+
+setup_motor started its cleanup only after finding the motor. The search
+walks the baud rates, so a motor that was not there left the port on the
+last rate tried, and anything done next on the same bus went unanswered.
+The search now runs inside the try whose finally puts the port back at the
+default rate.
+
+A motor answers the id and baud rate writes before they take effect, and
+nothing checked that they did. setup_motor now reads the model number back
+at the new id and the default baud rate, and raises if the motor does not
+answer there with the model it is configured as.
+
+* refactor(motors): check selections before writing, raise on sync-read errors, document the bus
+
+- set_operating_mode() and set_half_turn_homings() check every selected motor before
+  writing any register, so an unsupported motor leaves no partial configuration.
+- sync_read() raises on a motor&amp;#39;s error status, as read() does.
+- Register names normalise whatever their case; set_baudrate() and ping() need a
+  connected bus; resolution() raises for a model that counts no steps; the firmware
+  check compares the motors of each servo definition on their own.
+- Each model is looked up once, and the bus opens rustypot&amp;#39;s Bus through _open_bus()
+  and reaches it, typed, through _connected_bus.
+- Errors name motors by motor ID; docstrings follow the documentation format and its
+  cross-references. The hardware tutorial and the motor API page gain the serial-motors
+  extra, the SCS limits, a migration note and the DriveMode members.
+- Tests cover write and sync-read error statuses, sync writes no motor answers,
+  calibrated commands and calibration mismatches of each family, through bus helpers
+  shared by the family suites.
+
+* fix(motors): raise when a motor refuses an access, not on an alarm
+
+A status byte also carries conditions a motor reports while it carries the access out:
+a Feetech status only reports alarms (input voltage, temperature, current, load), and on
+protocol 2 bit 7 is the alert of a latched hardware fault. Raising on them stopped a
+control loop on a gripper squeezing an object, and made ping() miss an overloaded motor.
+
+read(), write(), sync_read() and ping() now fail only when the status says the motor
+refused the access: an error number on protocol 2. The protocol-1 servos LeRobot drives
+are Feetech ones, which never refuse through their status.
+
+* fix(motors): ask the servo definition whether a status refuses the access
+
+rustypot 1.13.1&amp;#39;s ServoDefinition.refuses tells a refusal from an alarm for every
+servo it defines, so the bus no longer keeps its own copy of the rule, which assumed
+every protocol-1 servo is a Feetech one. The serial-motors extra now needs rustypot
+1.13.1, and the tutorial links rustypot&amp;#39;s servo guide at that version.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/297774fca4e3ad0aa34e7425fbf937111637e77b</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/297774fca4e3ad0aa34e7425fbf937111637e77b" />
@@ -762,32 +961,6 @@ Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;
 * Bump doc-builder pin to 9fc8a41 in documentation-upload-pr.yml
 
 * Bump doc-builder pin to 9fc8a41 in documentation.yml&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/b863b4228356dc53db25d097f2404e4f02a60834</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b863b4228356dc53db25d097f2404e4f02a60834" />
-    <ns0:title>
-        fix(fastwam): device-agnostic default for Wan VAE and text encoder (#…
-    </ns0:title>
-    <ns0:updated>2026-10-08T13:15:36Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/82501526?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>li-lizhe</ns0:name>
-      <ns0:uri>https://github.com/li-lizhe</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(fastwam): device-agnostic default for Wan VAE and text encoder (#4677)
-
-* fix(embedder): use device-agnostic default instead of hardcoded &amp;quot;cuda&amp;quot;
-
-InternVL3Embedder.__init__ had device=&amp;quot;cuda&amp;quot; as default parameter. When a user runs on a non-CUDA backend (e.g. Ascend NPU, Intel XPU) and passes no device, the .to(&amp;quot;cuda&amp;quot;) call in from_pretrained crashes. Fix: default to None and fall back to lerobot&amp;#39;s own auto_select_torch_device(), which detects the available accelerator. Verified auto_select_torch_device() returns &amp;quot;cuda:0&amp;quot; on Ascend NPU (torch_npu patches cuda.is_available).
-
-* fix(fastwam): device-agnostic default instead of hardcoded &amp;quot;cuda&amp;quot;
-
-WanVideoVAE38 and WanT5TextEncoder __init__ had device=&amp;quot;cuda&amp;quot; as default. When a user runs on a non-CUDA backend (e.g. Ascend NPU) without passing device explicitly, the .to(&amp;quot;cuda&amp;quot;) call crashes. Fix: default None and fall back to lerobot&amp;#39;s auto_select_torch_device(), consistent with the codebase convention.
-
-* style: fix indentation in WanVideo adapter (ruff format)&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
