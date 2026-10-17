@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Fri, 16 Oct 2026 18:54:56 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 16 Oct 2026 23:40:39 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,75 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Why opportunity charging is winning as robot fleets scale</title>
+		<link>https://www.therobotreport.com/why-opportunity-charging-is-winning-as-robot-fleets-scale/</link>
+					<comments>https://www.therobotreport.com/why-opportunity-charging-is-winning-as-robot-fleets-scale/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Fri, 16 Oct 2026 23:39:33 +0000</pubDate>
+				<category>AGVs</category>
+		<category>Artificial Intelligence</category>
+		<category>Autonomous Mobile Robots (AMRs)</category>
+		<category>Batteries / Power Supplies</category>
+		<category>Logistics</category>
+		<category>Markets / Industries</category>
+		<category>News</category>
+		<category>Opinion</category>
+		<category>Podcast</category>
+		<category>tesla</category>
+		<category>WiBotic</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589940</guid>
+
+					<description>&lt;p&gt;Ben Waters explains why opportunity charging is becoming essential for keeping autonomous robot fleets moving, scalable, and operationally efficient.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/why-opportunity-charging-is-winning-as-robot-fleets-scale/"&gt;Why opportunity charging is winning as robot fleets scale&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;p&gt;&lt;iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2420524470&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true" width="100%" height="166" frameborder="no" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;"&gt;&lt;a style="color: #cccccc; text-decoration: none;" title="The Robot Report Podcast" href="https://soundcloud.com/robot-report-podcast" target="_blank" rel="noopener"&gt;The Robot Report Podcast&lt;/a&gt; · &lt;a style="color: #cccccc; text-decoration: none;" title="Why Opportunity Charging Is Winning as Robot Fleets Scale" href="https://soundcloud.com/robot-report-podcast/why-opportunity-charging-is" target="_blank" rel="noopener"&gt;Why Opportunity Charging Is Winning as Robot Fleets Scale&lt;/a&gt;&lt;/div&gt;
+&lt;div id="attachment_589943" style="width: 290px" class="wp-caption alignleft"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589943" class="size-full wp-image-589943" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Ben-Waters-Headshot.jpg" alt="headshot of Ben Waters." width="280" height="350" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Ben-Waters-Headshot.jpg 280w, https://www.therobotreport.com/wp-content/uploads/2026/10/Ben-Waters-Headshot-240x300.jpg 240w, https://www.therobotreport.com/wp-content/uploads/2026/10/Ben-Waters-Headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/10/Ben-Waters-Headshot-190x238.jpg 190w" sizes="(max-width: 280px) 100vw, 280px" /&gt;&lt;p id="caption-attachment-589943" class="wp-caption-text"&gt;Ben Waters, CEO of Wibotic.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;In Episode 266 of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, our guest is Ben Watters is the CEO and co-founder of WiBotic, a company that develops wireless charging solutions and fleet-wide battery management software for industrial mobile platforms of all shapes and sizes.&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://www.therobotreport.com/tag/wibotic" target="_blank" rel="noopener"&gt;company&lt;/a&gt;&amp;#8216;s mission is to energize businesses with autonomous systems to grow and scale without limitation, while creating a workplace filled with brilliant people who are passionate about leadership.&lt;/p&gt;
+&lt;p&gt;Ben has a Ph.D. in Electrical Engineering from the University of Washington, where he worked on wireless power technologies for implanted devices, and a bachelor’s degree in electrical engineering and physics from Columbia University.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Show timeline&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;4:04 &amp;#8211; News of the week&lt;/li&gt;
+&lt;li&gt;24:10 &amp;#8211; Ben Waters, CEO of Wibotic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;News of the week&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://robocurve.org/roboharm/" target="_blank" rel="noopener"&gt;Roboharm project details&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://6abc.com/post/woman-arrested-blocking-delivery-robot-center-city-philadelphia-confrontation/19941323/" target="_blank" rel="noopener"&gt;Women arrested in Philadelphia for blocking and protesting delivery robots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.extremetech.com/cars/teslas-robotaxis-blow-through-school-zones-nhtsa-petition-alleges" target="_blank" rel="noopener"&gt;Tesla&amp;#8217;s Robotaxis Blow Through School Zones, NHTSA Petition Alleges&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;iframe title="Tesla Unveils &amp;amp;apos;Flying&amp;amp;apos; Roadster with SpaceX Thrusters" width="740" height="416" src="https://www.youtube.com/embed/eqOfmtTJD1A?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Sponsors&lt;/h2&gt;
+&lt;p&gt;Closing the loop of autonomy takes more than a great robot.&lt;/p&gt;
+&lt;p&gt;WiBotic provides reliable wireless charging and fleet energy management for autonomous robots and other battery-powered systems.&lt;/p&gt;
+&lt;p&gt;This patented technology gives robots more freedom to charge throughout their normal workflow, helping increase the uptime, ROI, and safety of your fleet.&lt;/p&gt;
+&lt;p&gt;AMRs, drones, floor scrubbers, humanoids, and everything in between, WiBotic makes charging simple, seamless, and scalable.&lt;/p&gt;
+&lt;p&gt;Learn more at &lt;a href="http://www.wibotic.com/robotreport" target="_blank" rel="noopener"&gt;http://www.wibotic.com/robotreport&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;To learn how you can sponsor a future episode of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, contact Jami Brownlee at &lt;a href="mailto:jbrownlee@arrowfly.com" target="_blank" rel="noopener"&gt;jbrownlee@arrowfly.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Would you like to be a guest on a future episode? Contact Mike Oitzman at &lt;a href="mailto:moitzman@arrowfly.com" target="_blank" rel="noopener"&gt;moitzman@arrowfly.com&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/why-opportunity-charging-is-winning-as-robot-fleets-scale/"&gt;Why opportunity charging is winning as robot fleets scale&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/why-opportunity-charging-is-winning-as-robot-fleets-scale/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>MassRobotics opens applications for Healthcare Robotics Startup Catalyst Program</title>
 		<link>https://www.therobotreport.com/massrobotics-opens-applications-healthcare-robotics-startup-catalyst-program/</link>
 					<comments>https://www.therobotreport.com/massrobotics-opens-applications-healthcare-robotics-startup-catalyst-program/#respond</comments>
@@ -51,13 +120,13 @@
 					<description>&lt;p&gt;The cohort will run February through June 2027, concluding with company showcases at the Robotics Summit and Expo in Boston. &lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/massrobotics-opens-applications-healthcare-robotics-startup-catalyst-program/"&gt;MassRobotics opens applications for Healthcare Robotics Startup Catalyst Program&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_585499" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2025/09/massroboticshealthcarecatalyst-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-585499" class="size-full wp-image-585499" src="https://www.therobotreport.com/wp-content/uploads/2025/09/massroboticshealthcarecatalyst-featured.jpg" alt="A person giving a talk at the Robotics Summit &amp;amp; Expo." width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2025/09/massroboticshealthcarecatalyst-featured.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2025/09/massroboticshealthcarecatalyst-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2025/09/massroboticshealthcarecatalyst-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2025/09/massroboticshealthcarecatalyst-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2025/09/massroboticshealthcarecatalyst-featured-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-585499" class="wp-caption-text"&gt;Startups in the MassRobotics healthcare catalyst cohort will have an opportunity to showcase their technology at the Robotics Summit &amp;amp; Expo. | Source: MassRobotics&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_585499" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2025/09/massroboticshealthcarecatalyst-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-585499" class="size-full wp-image-585499" src="https://www.therobotreport.com/wp-content/uploads/2025/09/massroboticshealthcarecatalyst-featured.jpg" alt="A person giving a talk at the Robotics Summit &amp;amp; Expo." width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2025/09/massroboticshealthcarecatalyst-featured.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2025/09/massroboticshealthcarecatalyst-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2025/09/massroboticshealthcarecatalyst-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2025/09/massroboticshealthcarecatalyst-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2025/09/massroboticshealthcarecatalyst-featured-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-585499" class="wp-caption-text"&gt;Startups in the MassRobotics healthcare catalyst cohort will have an opportunity to showcase their technology at the Robotics Summit &amp;amp; Expo. | Source: MassRobotics&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;MassRobotics this week opened its call for applicants for Cohort 6 of its Healthcare Robotics Startup Catalyst Program. The program is a four-month, non-equity initiative that helps robotics and automation teams accelerate clinical readiness, technical validation, and go-to-market in healthcare and life sciences.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSf2BQ0P2w_6dmvCFga62XQU0uOq8hqFUGZeJoyNmqRuKsVnqA/viewform" target="_blank" rel="noopener"&gt;Applications&lt;/a&gt; are open now, and will close &lt;strong&gt;Dec. 31, 2026&lt;/strong&gt;. The cohort will run February through June 2027, concluding with company showcases at the &lt;a href="https://www.roboticssummit.com/" target="_blank" rel="noopener"&gt;Robotics Summit &amp;amp; Expo&lt;/a&gt; in Boston.&lt;/p&gt;
 &lt;p&gt;This year, MassRobotics welcomed &lt;a href="https://www.therobotreport.com/tag/intel" target="_blank" rel="noopener"&gt;Intel&lt;/a&gt; to the program&amp;#8217;s steering committee, joining founding partners &lt;a href="https://www.therobotreport.com/tag/festo/" target="_blank" rel="noopener"&gt;Festo&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/tag/novanta" target="_blank" rel="noopener"&gt;Novanta&lt;/a&gt;, and &lt;a href="https://www.therobotreport.com/tag/mitsubishi/" target="_blank" rel="noopener"&gt;Mitsubishi&lt;/a&gt; Electric U.S.&lt;/p&gt;
 &lt;p&gt;Intel said its Health and Life Sciences team brings mentorship and technical depth in edge &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; and on-device compute for &lt;a href="https://www.therobotreport.com/tag/surgical" target="_blank" rel="noopener"&gt;surgical&lt;/a&gt; and procedure-enabling robotics and OR automation, an area of growing interest across the cohort.&lt;/p&gt;
 &lt;p&gt;“Having supported the MassRobotics Healthcare Catalyst Program for three years, I’m proud of the journey we at Festo have taken — from founding member to seeing standout startups like Tenomix thrive,&amp;#8221; said Johannes Linzbach, the head of Research Hub Boston at Festo. &amp;#8220;What I love most is discovering the people behind the technology: their ambition, their ideas, and what drives them. At Festo, we’re excited to support Cohort 6 with our experience and connections across the ecosystem as they turn those ideas into solutions that can scale.&amp;#8221;&lt;/p&gt;
-&lt;div id="attachment_589936" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/Healthcare-Sponsors-1000-x-400-px-1.png"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-589936" class="size-full wp-image-589936" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Healthcare-Sponsors-1000-x-400-px-1.png" alt="Sponsors of MassRobotics' Healthcare Robotics Startup Catalyst Program." width="1000" height="400" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Healthcare-Sponsors-1000-x-400-px-1.png 1000w, https://www.therobotreport.com/wp-content/uploads/2026/10/Healthcare-Sponsors-1000-x-400-px-1-300x120.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Healthcare-Sponsors-1000-x-400-px-1-150x60.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Healthcare-Sponsors-1000-x-400-px-1-768x307.png 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Healthcare-Sponsors-1000-x-400-px-1-368x147.png 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589936" class="wp-caption-text"&gt;Sponsors of MassRobotics&amp;#8217; Healthcare Robotics Startup Catalyst Program. | Source: MassRobotics&lt;/p&gt;&lt;/div&gt;
+&lt;div id="attachment_589936" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/Healthcare-Sponsors-1000-x-400-px-1.png"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589936" class="size-full wp-image-589936" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Healthcare-Sponsors-1000-x-400-px-1.png" alt="Sponsors of MassRobotics' Healthcare Robotics Startup Catalyst Program." width="1000" height="400" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Healthcare-Sponsors-1000-x-400-px-1.png 1000w, https://www.therobotreport.com/wp-content/uploads/2026/10/Healthcare-Sponsors-1000-x-400-px-1-300x120.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Healthcare-Sponsors-1000-x-400-px-1-150x60.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Healthcare-Sponsors-1000-x-400-px-1-768x307.png 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Healthcare-Sponsors-1000-x-400-px-1-368x147.png 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589936" class="wp-caption-text"&gt;Sponsors of MassRobotics&amp;#8217; Healthcare Robotics Startup Catalyst Program. | Source: MassRobotics&lt;/p&gt;&lt;/div&gt;
 &lt;h2&gt;35 startups have joined the program since its start in 2021&lt;/h2&gt;
 &lt;p&gt;The &lt;a href="https://www.massrobotics.org/opportunities/healthcare-robotics-catalyst/" target="_blank" rel="noopener"&gt;Healthcare Robotics Catalyst&lt;/a&gt; connects selected startups with senior mentors from MassRobotics&amp;#8217; corporate partners, along with practicing clinicians and leading organizations in the medical field. The startups work toward practical milestones such as proof-of-concept builds, pilot design, regulatory planning, or systems integration and receive organizational and technical support.&lt;/p&gt;
 &lt;p&gt;Since 2021, the catalyst program has mentored 35 startups spanning pre-seed through Series A, with teams from Boston, Toronto, and Paris to Barcelona, Sydney, and beyond. Alumni have gone on to complete a public listing, advance multiple proof-of-concept deployments, and collectively disclose more than $180 million in funding, according to MassRobotics. The &lt;a href="https://www.therobotreport.com/tag/massrobotics/" target="_blank" rel="noopener"&gt;organization&lt;/a&gt; said this reflects the program’s track record guiding &lt;a href="https://www.therobotreport.com/category/markets-industries/biotechnology-medical-healthcare/" target="_blank" rel="noopener"&gt;healthcare&lt;/a&gt; robotics ventures from early prototypes to market-ready platforms.&lt;/p&gt;
@@ -66,7 +135,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;MassRobotics describes the application process&lt;/h2&gt;
@@ -993,89 +1062,6 @@
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/boston-dynamics-gives-more-insight-into-its-redesigned-humanoid-hand/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Groceryshop 2026 shows that retail robots are ready to scale, use AI</title>
-		<link>https://www.therobotreport.com/groceryshop-2026-shows-retail-robots-ready-scale-use-ai/</link>
-					<comments>https://www.therobotreport.com/groceryshop-2026-shows-retail-robots-ready-scale-use-ai/#respond</comments>
-		
-		<dc:creator>Georges Mirza</dc:creator>
-		<pubDate>Fri, 09 Oct 2026 12:25:47 +0000</pubDate>
-				<category>Analysis</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Automated Warehouse</category>
-		<category>Autonomous Mobile Robots (AMRs)</category>
-		<category>Events</category>
-		<category>Food / Beverage</category>
-		<category>News</category>
-		<category>Opinion</category>
-		<category>Retail / Wholesale</category>
-		<category>Sensors / Sensing Systems</category>
-		<category>Software</category>
-		<category>Badger Technologies</category>
-		<category>badgertechnologies</category>
-		<category>Blue Collar Robotics</category>
-		<category>Brain Corp</category>
-		<category>grocery</category>
-		<category>GroceryShop</category>
-		<category>inventory</category>
-		<category>Jabil</category>
-		<category>MUSE</category>
-		<category>ShelfOptix</category>
-		<category>Simbe</category>
-		<category>Simbe Robotics</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589855</guid>
-
-					<description>&lt;p&gt;Groceryshop 2026 not only featured mobile robots for taking inventory, but it also showed how retail automation is evolving.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/groceryshop-2026-shows-retail-robots-ready-scale-use-ai/"&gt;Groceryshop 2026 shows that retail robots are ready to scale, use AI&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589856" style="width: 750px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589856" class="wp-image-589856 size-large" src="https://www.therobotreport.com/wp-content/uploads/2026/10/GC_1-1024x511.jpg" alt="Diagram of how retail robots can perceive, understand, and act." width="740" height="369" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/GC_1-1024x511.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/10/GC_1-300x150.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/GC_1-150x75.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/GC_1-768x383.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/GC_1-368x184.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/10/GC_1.jpg 1430w" sizes="auto, (max-width: 740px) 100vw, 740px" /&gt;&lt;p id="caption-attachment-589856" class="wp-caption-text"&gt;Groceryshop 2026 provided an opportunity to assess the state of retail robotics. Source: Georges Mirza&lt;/p&gt;&lt;/div&gt;
-&lt;p class="wp-block-paragraph"&gt;It has been more than a decade since I first helped to bring robots to live retail center stores. Long gone are retailers’ concerns about robots taking jobs, scaring kids, accidentally bumping into shoppers, or simply disrupting the grocery shopping experience.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;It is good to see how much the &lt;a href="https://www.therobotreport.com/tag/grocery/" target="_blank" rel="noreferrer noopener"&gt;industry&lt;/a&gt; has advanced; we have come a long way. Now that we are seeing scale, we can start using near-real-time shelf insights across more retail &lt;a href="https://www.therobotreport.com/category/retail-wholesale" target="_blank" rel="noreferrer noopener"&gt;solutions&lt;/a&gt;. In this &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noreferrer noopener"&gt;AI&lt;/a&gt; age of disruption, there is no excuse for not prioritizing and benefiting from these insights.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;Is the broader retail solution space ready to advance and make this data actionable? I attended Groceryshop 2026 last month to find out.&lt;/p&gt;
-&lt;h2 class="wp-block-heading"&gt;Simbe continues to scale with Tally robot&lt;/h2&gt;
-&lt;p class="wp-block-paragraph"&gt;The major announcement came from &lt;a href="https://www.therobotreport.com/tag/simbe-robotics" target="_blank" rel="noreferrer noopener"&gt;Simbe Robotics&lt;/a&gt;, which has now completed the rollout of &lt;a href="https://www.automatedwarehouseonline.com/simbe-surpasses-3000-tally-robots-under-contract/" target="_blank" rel="noreferrer noopener"&gt;3,000 Tally robots&lt;/a&gt; globally across retailers and countries. With an ongoing rollout at a Tier 1 retailer, that number will quickly grow, marking another major accomplishment for robotics in retail.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;Simbe has also been proactive in building capabilities to make its data actionable, from analytics dashboards to virtual store tours. That proactive approach will be critical to staying relevant as the retail technology environment continues to evolve.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;How far can Simbe go on its own in developing these capabilities before it begins to overlap with established solutions? And how quickly will those established solutions begin consuming this new source of shelf data? A new way of thinking is certainly needed across the industry. It remains to be seen whether this disruption will trigger the change that is needed.&lt;/p&gt;
-&lt;figure class="wp-block-image aligncenter size-large"&gt;&lt;img loading="lazy" decoding="async" class="wp-image-13040" src="https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_2-1024x768.jpg" sizes="auto, (max-width: 1024px) 100vw, 1024px" srcset="https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_2-1024x768.jpg 1024w, https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_2-300x225.jpg 300w, https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_2-768x576.jpg 768w, https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_2.jpg 1430w" alt="Simbe Robotics demonstrated its retail shelf intelligence system at Groceryshop 2026." width="1024" height="768" /&gt;&lt;figcaption class="wp-element-caption"&gt;Simbe Robotics demonstrated its shelf intelligence system at Groceryshop 2026. Source: Georges Mirza&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;h2 class="wp-block-heading"&gt;Badger Technologies builds a retail intelligence layer&lt;/h2&gt;
-&lt;p class="wp-block-paragraph"&gt;&lt;a href="https://www.therobotreport.com/tag/badger-technologies/" target="_blank" rel="noreferrer noopener"&gt;Badger Technologies&lt;/a&gt; appears to be making a similar transition. In my discussion with its newly appointed CEO, John Gehre, at Groceryshop, he described Badger as evolving from a robotics company into a retail intelligence company.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;The robot remains the platform for capturing shelf and store data, but the focus is shifting toward making that information actionable, down to how it can improve decisions and execution at the individual store level.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;Moving beyond the basics of identifying out-of-stocks and price tags, Badger is exploring whether the continuous data collected as the robot moves through the aisle can be applied to estimate how much product remains on the shelf, when replenishment is needed, and when it will reach peak freshness.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;The company continues to stand out with its multifunctional robotic platform, as well as the engineering and manufacturing scale of &lt;a href="https://www.therobotreport.com/tag/jabil" target="_blank" rel="noopener"&gt;Jabil&lt;/a&gt; behind it. The question is whether it can now leverage those advantages to move faster.&lt;/p&gt;
-&lt;figure class="wp-block-image aligncenter size-large"&gt;&lt;img loading="lazy" decoding="async" class="wp-image-13041" src="https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_3-1024x768.jpg" sizes="auto, (max-width: 1024px) 100vw, 1024px" srcset="https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_3-1024x768.jpg 1024w, https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_3-300x225.jpg 300w, https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_3-768x576.jpg 768w, https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_3.jpg 1430w" alt="Badger Technologies, whose mobile robot is shown, described itself as a retail intelligence company." width="1024" height="768" /&gt;&lt;figcaption class="wp-element-caption"&gt;Badger Technologies, whose mobile robot is above, described itself as a retail intelligence company. Source: Georges Mirza&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;h2 class="wp-block-heading"&gt;ShelfOptix rethinks the deployment model&lt;/h2&gt;
-&lt;p class="wp-block-paragraph"&gt;&lt;a href="https://shelfoptix.com/" target="_blank" rel="noreferrer noopener"&gt;ShelfOptix&lt;/a&gt; is taking a somewhat different approach to scaling retail robotics. While continuing to strengthen its computer vision and actionable &lt;a href="https://www.therobotreport.com/tag/inventory/" target="_blank" rel="noreferrer noopener"&gt;shelf intelligence&lt;/a&gt; powered by &lt;a href="https://www.therobotreport.com/tag/brain-corp" target="_blank" rel="noreferrer noopener"&gt;BrainOS&lt;/a&gt;, the more interesting differentiator may be its deployment model.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;The company is targeting smaller-format retailers, including drug, convenience, dollar, and regional grocery, with a foldable robot that can travel between stores escorted by a human rather than remain permanently deployed in one location.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;That model lowers the hurdle of dedicating a robot to every store and opens the door to recurring audits across a broader footprint. It is a practical approach to matching the economics of robotics to the needs of different retail formats.&lt;/p&gt;
-&lt;figure class="wp-block-image aligncenter size-large"&gt;&lt;img loading="lazy" decoding="async" class="wp-image-13042" src="https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_4-1024x768.jpg" sizes="auto, (max-width: 1024px) 100vw, 1024px" srcset="https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_4-1024x768.jpg 1024w, https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_4-300x225.jpg 300w, https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_4-768x576.jpg 768w, https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_4.jpg 1430w" alt="ShelfOptix's robot can be escorted by a human in smaller shops." width="1024" height="768" /&gt;&lt;figcaption class="wp-element-caption"&gt;ShelfOptix can be escorted by a human in smaller shops. Source: Georges Mirza&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;h2 class="wp-block-heading"&gt;Blue Collar Robotics picks up the retail slack&lt;/h2&gt;
-&lt;p class="wp-block-paragraph"&gt;Newcomer &lt;a href="https://bluecollarrobotics.ai/" target="_blank" rel="noreferrer noopener"&gt;Blue Collar Robotics&lt;/a&gt; participated in the startup pitch and was selected as a finalist. The company is taking on a harder but potentially more transformative retail use case: physically &lt;a href="https://www.automatedwarehouseonline.com/category/manipulating/" target="_blank" rel="noreferrer noopener"&gt;picking&lt;/a&gt; products in the store.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;Rather than focusing on shelf scanning, the startup is developing a &lt;a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noreferrer noopener"&gt;mobile robot&lt;/a&gt; designed to move products between shelves and carts, with initial customer trials planned as it works toward commercialization. The challenge is significant, requiring navigation, vision, picking, controls, and back-end integration to work together reliably.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;This is ultimately what I believe will be the long-term role for robots in retail stores: moving from observing retail execution to actually performing it. It is an exponentially more difficult use case that the industry is beginning to pursue, and it will take time to mature before robots can deliver accurately, repeatedly, at scale, and with speed.&lt;/p&gt;
-&lt;figure class="wp-block-image aligncenter size-large"&gt;&lt;img loading="lazy" decoding="async" class="wp-image-13043" src="https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_5-1024x768.jpg" sizes="auto, (max-width: 1024px) 100vw, 1024px" srcset="https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_5-1024x768.jpg 1024w, https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_5-300x225.jpg 300w, https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_5-768x576.jpg 768w, https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_5.jpg 1430w" alt="Companies pitch during Groceryshop 2026's startup competition." width="1024" height="768" /&gt;&lt;figcaption class="wp-element-caption"&gt;Companies pitch during Groceryshop 2026’s startup competition. Source: Georges Mirza&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;h2 class="wp-block-heading"&gt;MUSE expands modular approach to retail&lt;/h2&gt;
-&lt;p class="wp-block-paragraph"&gt;&lt;a href="https://www.muse-gr.com/en" target="_blank" rel="noreferrer noopener"&gt;MUSE&lt;/a&gt;, last year’s Shark Reef Startup Pitch winner, was back at Groceryshop continuing to expand the capabilities of its modular robotic platform. The robot moves product through the store, allowing store labor to focus on restocking.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;The company has added modules to guide customers to item locations and support in-store promotions. It is also developing additional modules for picking and replenishment, security, and floor cleaning.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;With additional funding and a pilot underway with a small U.S. store chain, MUSE is looking to grow and gain a stronger foothold in the U.S. market. It is a very aggressive and wide-ranging approach to expanding the robot’s capabilities.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;I will be watching how the company takes what it learns from deployments, along with recent technology advances, to deliver against an equally aggressive roadmap.&lt;/p&gt;
-&lt;figure class="wp-block-image aligncenter size-large"&gt;&lt;img loading="lazy" decoding="async" class="wp-image-13044" src="https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_pic6-1024x768.jpg" sizes="auto, (max-width: 1024px) 100vw, 1024px" srcset="https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_pic6-1024x768.jpg 1024w, https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_pic6-300x225.jpg 300w, https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_pic6-768x576.jpg 768w, https://www.automatedwarehouseonline.com/wp-content/uploads/2026/10/GS_pic6.jpg 1430w" alt="MUSE is expanding the capabilities of its modular mobile platform." width="1024" height="768" /&gt;&lt;figcaption class="wp-element-caption"&gt;MUSE is expanding the capabilities of its modular mobile platform. Source: Georges Mirza&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;h2 class="wp-block-heading"&gt;The path toward end-to-end shelf automation&lt;/h2&gt;
-&lt;p class="wp-block-paragraph"&gt;As robots become increasingly capable of continuously collecting pricing, inventory, RFID, and visual data, simply delivering another data feed or API is no longer enough. The next competitive battleground will be how effectively that intelligence is translated into actions that improve store execution.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;This will accelerate as legacy solutions begin to ingest this data. I still believe many of these decade-old systems will become far more relevant when they start consuming actual shelf conditions instead of relying on plan data, random compliance checks, and point-of-sale data without a true understanding of the retail real estate that generated the sale.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;That will be a major step toward end-to-end shelf automation. It will make some existing shelf solutions obsolete – a welcome outcome – and make others far more relevant.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;The future is here, more so than ever. What an era to be living through and observing, as innovation begins to deliver &lt;a href="https://www.automatedwarehouseonline.com/beyond-demo-four-measures-matter-retail-robots/" target="_blank" rel="noreferrer noopener"&gt;accurately, repeatedly, at scale, and with speed&lt;/a&gt; – at a velocity still unfamiliar to this industry.&lt;/p&gt;
-&lt;figure class="wp-block-image alignleft is-resized"&gt;&lt;img loading="lazy" decoding="async" class="wp-image-595" src="https://www.automatedwarehouseonline.com/wp-content/uploads/2024/04/Georges_Mirza-150x150.jpeg" sizes="auto, (max-width: 150px) 100vw, 150px" srcset="https://www.automatedwarehouseonline.com/wp-content/uploads/2024/04/Georges_Mirza-150x150.jpeg 150w, https://www.automatedwarehouseonline.com/wp-content/uploads/2024/04/Georges_Mirza-300x300.jpeg 300w, https://www.automatedwarehouseonline.com/wp-content/uploads/2024/04/Georges_Mirza-238x238.jpeg 238w, https://www.automatedwarehouseonline.com/wp-content/uploads/2024/04/Georges_Mirza.jpeg 389w" alt="Georges Mirza" width="150" height="150" /&gt;&lt;/figure&gt;
-&lt;h3 class="wp-block-heading"&gt;About the author&lt;/h3&gt;
-&lt;p class="wp-block-paragraph"&gt;&lt;strong&gt;&lt;a href="https://www.linkedin.com/in/georgemirza/" target="_blank" rel="noopener"&gt;Georges Mirza&lt;/a&gt;&lt;/strong&gt; has been at the forefront of retail and consumer packaged goods (CPG) innovation, building market-leading category management and retail analytics solutions that achieved majority market share. He pioneered advancements in robotic data collection and image recognition, addressing challenges like out-of-stocks and inventory accuracy.&lt;/p&gt;
-&lt;p class="wp-block-paragraph"&gt;Today, Mirza advises and collaborates with retail and technology leaders to shape and scale next-generation growth strategies. Follow him on &lt;a href="http://www.linkedin.com/in/georgemirza" target="_blank" rel="noopener"&gt;LinkedIn&lt;/a&gt; or &lt;a href="https://www.twitter.com/GFMirza" target="_blank" rel="noopener"&gt;X&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/groceryshop-2026-shows-retail-robots-ready-scale-use-ai/"&gt;Groceryshop 2026 shows that retail robots are ready to scale, use AI&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/groceryshop-2026-shows-retail-robots-ready-scale-use-ai/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
