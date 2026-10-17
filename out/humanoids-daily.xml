@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 15 Oct 2026 12:30:41 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 17 Oct 2026 09:25:09 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/devanthro-plim-robotics-home-robot-teleoperation</guid>
+    <title>Devanthro Becomes Plim Robotics, Reveals a Home Robot Loved Ones Can Step Into</title>
+    <link>https://www.humanoidsdaily.com/news/devanthro-plim-robotics-home-robot-teleoperation</link>
+    <description>Plim combines household assistance with remote operation by family and caregivers. The wheeled robot has Jetson Thor computing and a listed two-hour runtime.</description>
+    <pubDate>Sat, 17 Oct 2026 09:25:09 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Plim Robotics</category><category>Europe</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-uniuni-robot-swarm-choreography-control</guid>
+    <title>Unitree’s UniUni Lets Operators Choreograph Robot Teams With Natural Language</title>
+    <link>https://www.humanoidsdaily.com/news/unitree-uniuni-robot-swarm-choreography-control</link>
+    <description>Unitree’s new UniUni system combines natural-language choreography, LiDAR stage mapping and live robot monitoring to coordinate multi-robot performances.</description>
+    <pubDate>Sat, 17 Oct 2026 09:03:17 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Unitree Robotics</category><category>China</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-digit-5-nyobolt-nine-minute-charging</guid>
     <title>Nine Minutes to Recharge: Agility Picks Nyobolt for Digit 5’s Long Working Day</title>
@@ -288,26 +308,6 @@
     <pubDate>Sat, 10 Oct 2026 10:02:52 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Monolithos</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/microagi-100-million-revenue-run-rate-six-months</guid>
-    <title>Microagi Says It Reached $100 Million Revenue Run Rate in Six Months</title>
-    <link>https://www.humanoidsdaily.com/news/microagi-100-million-revenue-run-rate-six-months</link>
-    <description>CEO Bercan Kilic links the milestone to Shift’s launch, while Animesh Garg reiterates the company’s ambition to deploy one million robots.</description>
-    <pubDate>Sat, 10 Oct 2026 09:33:08 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>microagi</category><category>Europe</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/ultra-50-million-series-a-warehouse-robots-physical-intelligence</guid>
-    <title>Ultra Raises $50 Million Series A for Warehouse Robots, Deepens Physical Intelligence Partnership</title>
-    <link>https://www.humanoidsdaily.com/news/ultra-50-million-series-a-warehouse-robots-physical-intelligence</link>
-    <description>The round brings announced funding to $62 million including seed capital, as Ultra scales its warehouse robot service and work with Physical Intelligence.</description>
-    <pubDate>Fri, 09 Oct 2026 12:31:34 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Ultra Robotics</category><category>Physical Intelligence</category>
   </item>
 
   </channel>
