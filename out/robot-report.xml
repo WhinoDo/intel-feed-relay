@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Sat, 17 Oct 2026 21:00:07 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 17 Oct 2026 21:33:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,49 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ADI explains the race to make AI physical</title>
+		<link>https://www.therobotreport.com/adi-explains-the-race-to-make-ai-physical/</link>
+					<comments>https://www.therobotreport.com/adi-explains-the-race-to-make-ai-physical/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Sat, 17 Oct 2026 21:33:57 +0000</pubDate>
+				<category>Analog Devices: Architecting Trusted Mobility</category>
+		<category>Artificial Intelligence</category>
+		<category>Artificial Intelligence / Cognition</category>
+		<category>eBooks</category>
+		<category>Manufacturing</category>
+		<category>ADI</category>
+		<category>Analog Devices</category>
+		<category>robobusiness</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589952</guid>
+
+					<description>&lt;p&gt;A new ADI whitepaper examines the challenges and opportunities in moving physical AI out of labs into production machinery.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/adi-explains-the-race-to-make-ai-physical/"&gt;ADI explains the race to make AI physical&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589953" style="width: 750px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589953" class="size-large wp-image-589953" src="https://www.therobotreport.com/wp-content/uploads/2026/10/ADI_download-1024x727.jpg" alt="ADI discusses the race to physical AI in a new report." width="740" height="525" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/ADI_download-1024x727.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/10/ADI_download-300x213.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/ADI_download-150x106.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/ADI_download-768x545.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/ADI_download-1536x1090.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/10/ADI_download-335x238.jpg 335w, https://www.therobotreport.com/wp-content/uploads/2026/10/ADI_download.jpg 1632w" sizes="(max-width: 740px) 100vw, 740px" /&gt;&lt;p id="caption-attachment-589953" class="wp-caption-text"&gt;The Report Report presents a whitepaper on the race to physical AI.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;AI has become remarkably good at understanding language, images, and code. The next challenge is harder &amp;#8212; understanding reality, according to Analog Devices Inc. or ADI. Physical AI moves intelligence out of digital environments and into machines that must sense, decide, and act in the world.&lt;/p&gt;
+&lt;p&gt;Unlike software, those systems face imperfect measurements, timing constraints, changing conditions, and the consequences of action, &lt;a href="https://www.therobotreport.com/how-adi-is-helping-robotics-startups-scale-2/" target="_blank" rel="noopener"&gt;said&lt;/a&gt; the &lt;a href="https://www.therobotreport.com/tag/analog-devices/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; in a new report. Success will depend on more than model performance. It will require advances across sensing, simulation, computing, connectivity, and control.&lt;/p&gt;
+&lt;p&gt;In many cases, the technologies that determine whether a system succeeds sit beneath the application layer itself. A machine that shuts down when vibration crosses a preset limit is following a rule. A machine that reads vibration, temperature, current, and motor behavior; recognizes the signature of bearing wear; and adjusts before failure occurs is doing something closer to judgment.&lt;/p&gt;
+&lt;p&gt;That distinction helps explain why physical &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; has become one of the most closely watched areas in technology for manufacturing. These systems do more than analyze information. They interact with the world around them, adapting to changing conditions and responding to situations that cannot be fully predicted in advance.&lt;/p&gt;
+&lt;p&gt;The next phase of physical and embodied AI is not simply about producing better answers. It is about predicting and producing useful actions in the presence of imperfect information, said ADI. To read the full whitepaper,&lt;span data-contrast="auto"&gt; &lt;/span&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/ADI-ROBO-Whitepaper-1.pdf"&gt;click here:&lt;em&gt;&lt;span data-contrast="auto"&gt; The &lt;/span&gt;&lt;/em&gt;&lt;i&gt;&lt;span data-contrast="auto"&gt;Race to Make AI &lt;/span&gt;&lt;/i&gt;&lt;i&gt;&lt;span data-contrast="auto"&gt;Physical&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;span data-contrast="auto"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;ADI to participate in RoboBusiness 2026&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Sponsored by &lt;a href="https://www.analog.com/" target="_blank" rel="noopener"&gt;Analog Devices Inc.&lt;/a&gt;&lt;/em&gt; Founded in 1965, the Wilmington, Mass.-based company said it combines analog, digital, AI, and software technologies to bridge the physical and digital worlds and enable breakthroughs at the intelligent edge. ADI said its semiconductors help drive advancements in automation and robotics, mobility, healthcare, energy, and data centers.&lt;/p&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;ADI is also participating in the Robotics Startup Boot Camp Part 2 at &lt;/span&gt;&lt;span data-contrast="auto"&gt;&lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt;, where industry leaders will discuss the opportunities and challenges of working together.&lt;/span&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;&lt;span data-ccp-props="{}"&gt; Register now to attend.&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/adi-explains-the-race-to-make-ai-physical/"&gt;ADI explains the race to make AI physical&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/adi-explains-the-race-to-make-ai-physical/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>The rise of the machines is canceled: Why humanoids with AI are helpers, not enemies</title>
 		<link>https://www.therobotreport.com/rise-machines-canceled-why-humanoids-ai-are-helpers-not-enemies/</link>
 					<comments>https://www.therobotreport.com/rise-machines-canceled-why-humanoids-ai-are-helpers-not-enemies/#respond</comments>
@@ -48,7 +91,7 @@
 					<description>&lt;p&gt;Humans play a key role in developing humanoid robots and training AI models, so we can maintain control, writes a columnist.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/rise-machines-canceled-why-humanoids-ai-are-helpers-not-enemies/"&gt;The rise of the machines is canceled: Why humanoids with AI are helpers, not enemies&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_589946" style="width: 779px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589946" class="size-full wp-image-589946" src="https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-full-body-2.jpg" alt="Boston Dynamics' Atlas humanoid, shown here, is an example of a robot ready for AI." width="769" height="499" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-full-body-2.jpg 769w, https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-full-body-2-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-full-body-2-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-full-body-2-368x238.jpg 368w" sizes="(max-width: 769px) 100vw, 769px" /&gt;&lt;p id="caption-attachment-589946" class="wp-caption-text"&gt;Boston Dynamics&amp;#8217; Atlas humanoid, shown here, is an example of a robot ready for AI.&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_589946" style="width: 779px" class="wp-caption aligncenter"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-589946" class="size-full wp-image-589946" src="https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-full-body-2.jpg" alt="Boston Dynamics' Atlas humanoid, shown here, is an example of a robot ready for AI." width="769" height="499" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-full-body-2.jpg 769w, https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-full-body-2-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-full-body-2-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-full-body-2-368x238.jpg 368w" sizes="(max-width: 769px) 100vw, 769px" /&gt;&lt;p id="caption-attachment-589946" class="wp-caption-text"&gt;Boston Dynamics&amp;#8217; Atlas humanoid, shown here, is an example of a robot ready for AI.&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;For decades, engineers have been trying to create robots that look and act like humans. Now, rapid advances in artificial intelligence are bringing humanoid robots out of the lab and onto the factory floor. As fears grow that AI will displace workers, a global race is underway to develop humanoid robots capable of performing human work.&lt;/p&gt;
 &lt;p&gt;Competitors include &lt;a href="https://www.therobotreport.com/tag/tesla" target="_blank" rel="noopener"&gt;Tesla&lt;/a&gt;, startups backed by &lt;a href="https://www.therobotreport.com/tag/amazon/" target="_blank" rel="noopener"&gt;Amazon&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/tag/nvidia" target="_blank" rel="noopener"&gt;NVIDIA&lt;/a&gt;, and state-owned Chinese companies. Waltham, Mass.-based Boston Dynamics, valued at over $1 billion, is among the humanoid leaders with its Atlas robot. South Korean automaker Hyundai &lt;a href="https://www.therobotreport.com/hyundai-completes-acquisition-controlling-stake-boston-dynamics/" target="_blank" rel="noopener"&gt;owns&lt;/a&gt; an 88% stake in the &lt;a href="https://www.therobotreport.com/tag/boston-dynamics" target="_blank" rel="noopener"&gt;company&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.therobotreport.com/tag/hyundai" target="_blank" rel="noopener"&gt;Hyundai&lt;/a&gt;&amp;#8216;s massive &lt;a href="https://www.therobotreport.com/category/manufacturing/automotive" target="_blank" rel="noopener"&gt;auto&lt;/a&gt; plant is arguably the most advanced in the world. More than 1,000 robots work alongside nearly 1,500 humans, lifting, stamping, and welding parts in robotic unison. Atlas, at 175 cm (68.8 in.) tall and 90 kg (198.4 lb.) in weight, has left the lab and is doing real work.&lt;/p&gt;
@@ -63,7 +106,7 @@
 &lt;p&gt;Indeed, Atlas, or any other humanoid, can&amp;#8217;t yet do most of the things a person does in their daily lives. For example, simply getting dressed in the morning or pouring a cup of coffee and carrying it around the house are too complex for Atlas.&lt;/p&gt;
 &lt;p&gt;What particularly stands out about Atlas is its brain. NVIDIA chips—the same ones that helped launch the AI ​​revolution with GPT chat—process a stream of collected data, bringing this humanoid robot closer to a semblance of common sense. Atlas can see its surroundings and understands how the physical world works.&lt;/p&gt;
 &lt;p&gt;One day, you&amp;#8217;ll be able to place such a robot in a factory and simply explain to it what you want it to do. It will have enough knowledge of how the world works to perform the tasks assigned to it.&lt;/p&gt;
-&lt;p&gt;&lt;iframe title="Machine, Assemble, Repair: How We Build Atlas | Boston Dynamics" width="740" height="416" src="https://www.youtube.com/embed/dP_i7hRvGpE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Machine, Assemble, Repair: How We Build Atlas | Boston Dynamics" width="740" height="416" src="https://www.youtube.com/embed/dP_i7hRvGpE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;Spot platform demonstrates legged robot utility&lt;/h2&gt;
 &lt;p&gt;There&amp;#8217;s currently a lot of excitement in the industry about the potential of creating robots smart enough to be truly versatile. &lt;a href="https://www.linkedin.com/in/robert-playter/" target="_blank" rel="noopener"&gt;Robert Playter,&lt;/a&gt; CEO of Boston Dynamics, led the company&amp;#8217;s robotics development until &lt;a href="https://www.therobotreport.com/boston-dynamics-ceo-robert-playter-steps-down/" target="_blank" rel="noopener"&gt;stepping down&lt;/a&gt; earlier this year.&lt;/p&gt;
 &lt;p&gt;The cornerstone was the robotic dog Spot, introduced almost 10 years ago. The &lt;a href="https://www.therobotreport.com/tag/legged-robots/" target="_blank" rel="noopener"&gt;quadruped&lt;/a&gt; is trained to work in hot, cold, and rugged conditions, roaming the halls of Boston Dynamics.&lt;/p&gt;
@@ -73,7 +116,7 @@
 &lt;p&gt;Absolutely not. If you saw how hard it takes to get robots to perform some of the simple tasks required of them, it would allay fears about intelligent and out-of-control machines. Could people have more pressing concerns?&lt;/p&gt;
 &lt;p&gt;It&amp;#8217;s guaranteed that there will be people who say, &amp;#8220;I&amp;#8217;ll lose my job to a robot.&amp;#8221; Work is truly changing. So monotonous, grueling work will eventually be performed by robots.&lt;/p&gt;
 &lt;p&gt;But these robots aren&amp;#8217;t so autonomous that they don&amp;#8217;t need to be managed. They need to be built, trained, and maintained. It could be several years before Atlas joins the Hyundai team permanently. Goldman Sachs &lt;a href="https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035" target="_blank" rel="noopener"&gt;predicts&lt;/a&gt; the humanoid robot market will reach $38 billion within a decade.&lt;/p&gt;
-&lt;p&gt;&lt;iframe title="Going the Extra Mile with Spot | Boston Dynamics" width="740" height="416" src="https://www.youtube.com/embed/EI1zFxLVkrs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Going the Extra Mile with Spot | Boston Dynamics" width="740" height="416" src="https://www.youtube.com/embed/EI1zFxLVkrs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;The humanoid robot race continues&lt;/h2&gt;
 &lt;p&gt;Boston Dynamics and other U.S. robot makers are vying for the lead, but they&amp;#8217;re not alone in the competition. &lt;a href="https://www.therobotreport.com/category/china/" target="_blank" rel="noopener"&gt;Chinese&lt;/a&gt; companies are proving themselves to be formidable competitors. They&amp;#8217;re determined to win.&lt;/p&gt;
 &lt;p&gt;Are they ahead of us?&lt;/p&gt;
@@ -1000,84 +1043,6 @@
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/why-dexterity-is-physical-ai-real-bottleneck/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Why humanoid robot demos still fail the generalization test</title>
-		<link>https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/</link>
-					<comments>https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/#respond</comments>
-		
-		<dc:creator>The Robot Report Staff</dc:creator>
-		<pubDate>Fri, 09 Oct 2026 19:28:41 +0000</pubDate>
-				<category>Arms / Manipulators</category>
-		<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>End Effectors / Grippers</category>
-		<category>Humanoids</category>
-		<category>Logistics</category>
-		<category>Markets / Industries</category>
-		<category>News</category>
-		<category>Opinion</category>
-		<category>Podcast</category>
-		<category>Software / Simulation</category>
-		<category>Vacuum Gripper</category>
-		<category>Appen</category>
-		<category>Berkshire Grey</category>
-		<category>Boston Dynamics</category>
-		<category>Locus</category>
-		<category>Locus Robotics</category>
-		<category>ptc</category>
-		<category>schneider electric</category>
-		<category>WiBotic</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589825</guid>
-
-					<description>&lt;p&gt;How better data and human judgment can help robots move beyond demos toward reliable real-world performance.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/"&gt;Why humanoid robot demos still fail the generalization test&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;p&gt;&lt;iframe loading="lazy" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2416091643&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true" width="100%" height="166" frameborder="no" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;"&gt;&lt;a style="color: #cccccc; text-decoration: none;" title="The Robot Report Podcast" href="https://soundcloud.com/robot-report-podcast" target="_blank" rel="noopener"&gt;The Robot Report Podcast&lt;/a&gt; · &lt;a style="color: #cccccc; text-decoration: none;" title="Why humanoid robot demos still fail the generalization test" href="https://soundcloud.com/robot-report-podcast/generalization-test" target="_blank" rel="noopener"&gt;Why humanoid robot demos still fail the generalization test&lt;/a&gt;&lt;/div&gt;
-&lt;div id="attachment_589826" style="width: 290px" class="wp-caption alignleft"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589826" class="size-full wp-image-589826" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Jeanine-Headshot.jpg" alt="Headshot of Jeanine Sinanan-Singh." width="280" height="350" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Jeanine-Headshot.jpg 280w, https://www.therobotreport.com/wp-content/uploads/2026/10/Jeanine-Headshot-240x300.jpg 240w, https://www.therobotreport.com/wp-content/uploads/2026/10/Jeanine-Headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/10/Jeanine-Headshot-190x238.jpg 190w" sizes="auto, (max-width: 280px) 100vw, 280px" /&gt;&lt;p id="caption-attachment-589826" class="wp-caption-text"&gt;Jeanine Sinanan-Singh, director of GenAI research at Appen.&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;In Episode 265 of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, our guest is Jeanine Sinanan-Singh, director of generative AI Research at Appen. She discusses the continuing importance of humans in the loop for training robots.&lt;/p&gt;
-&lt;p&gt;&lt;span style="font-family: arial, sans-serif;"&gt;Sinanan-Singh works on agentic evals, RL environments, and dataset design for post-training frontier AI models. She also explains why impressive demonstrations don&amp;#8217;t necessarily prove that robotic behavior can be generalized.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="font-family: arial, sans-serif;"&gt;Sinanan-Singh previously founded a pharmacy automation startup built on a 3D-printing platform to manufacture personalized medications. A Harvard graduate with prior experience at Microsoft and Surge, she is a frequent voice on AI evaluation and reasoning.&lt;/span&gt;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Show timeline&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;8:10 &amp;#8211; News of the week&lt;/li&gt;
-&lt;li&gt;29:06 &amp;#8211; &lt;span class="TextRun SCXW162053492 BCX2" lang="EN-US" xml:lang="EN-US" data-contrast="auto"&gt;&lt;span class="NormalTextRun SCXW162053492 BCX2"&gt;&lt;a href="https://www.linkedin.com/in/jsinanansingh/" target="_blank" rel="noopener"&gt;Jeanine Sinanan-Singh&lt;/a&gt;, director of GenAI Research at &lt;a href="https://www.therobotreport.com/tag/appen/" target="_blank" rel="noopener"&gt;Appen&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;News of the week&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/" target="_blank" rel="noopener"&gt;Boston Dynamics appoints former Amazon exec Rohit Prasad as new CEO&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.therobotreport.com/ptc-acquisition-positions-schneider-electric-challenge-siemens/" target="_blank" rel="noopener"&gt;PTC acquisition positions Schneider Electric to challenge Siemens&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Also mentioned: &lt;a href="https://www.automatedwarehouseonline.com/berkshire-grey-ceo-discusses-physical-ai-european-expansion/" target="_blank" rel="noopener"&gt;Berkshire Grey CEO discusses physical AI, European expansion&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.automatedwarehouseonline.com/locus-gets-grip-robotic-manipulation-nexera-technology/" target="_blank" rel="noopener"&gt;Locus gets a grip on robotic manipulation with Nexera technology&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Frankie LaPenna vs T800 | Human vs Machine | Full Event | MFA" width="740" height="416" src="https://www.youtube.com/embed/bsGcoGWUjIo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Sponsors&lt;/h2&gt;
-&lt;p&gt;Closing the loop of autonomy takes more than a great robot.&lt;/p&gt;
-&lt;p&gt;WiBotic provides reliable wireless charging and fleet energy management for autonomous robots and other battery-powered systems.&lt;/p&gt;
-&lt;p&gt;This patented technology gives robots more freedom to charge throughout their normal workflow, helping increase the uptime, ROI, and safety of your fleet.&lt;/p&gt;
-&lt;p&gt;AMRs, drones, floor scrubbers, humanoids, and everything in between, WiBotic makes charging simple, seamless, and scalable.&lt;/p&gt;
-&lt;p&gt;Learn more at &lt;a href="http://www.wibotic.com/robotreport" target="_blank" rel="noopener"&gt;http://www.wibotic.com/robotreport&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;To learn how you can sponsor a future episode of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, contact Jami Brownlee at &lt;a href="mailto:jbrownlee@arrowfly.com" target="_blank" rel="noopener"&gt;jbrownlee@arrowfly.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Would you like to be a guest on a future episode? Contact Mike Oitzman at &lt;a href="mailto:moitzman@arrowfly.com" target="_blank" rel="noopener"&gt;moitzman@arrowfly.com&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/"&gt;Why humanoid robot demos still fail the generalization test&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
