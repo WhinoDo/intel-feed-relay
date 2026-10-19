@@ -4,7 +4,73 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-19T19:22:42Z</ns0:updated>
+  <ns0:updated>2026-10-19T20:56:56Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/3991580a5673f5f0219a4e8835a5f973eeccf9a7</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/3991580a5673f5f0219a4e8835a5f973eeccf9a7" />
+    <ns0:title>
+        feat(unitree-g1): add G1-23 embodiment support (#4651)
+    </ns0:title>
+    <ns0:updated>2026-10-19T20:56:56Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/649976?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>davidwei</ns0:name>
+      <ns0:uri>https://github.com/davidwei</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(unitree-g1): add G1-23 embodiment support (#4651)
+
+Introduce explicit G1-23 and G1-29 embodiment definitions while retaining the
+29-slot DDS transport layout used by Unitree.
+
+- Select body and arm joint mappings from the configured embodiment.
+- Keep sparse G1-23 joints at their original DDS indices and clear inactive
+  command slots.
+- Preserve the complete transport feedback needed by GR00T and Holosoma
+  controllers.
+- Share one gain table by joint name across both variants and zero gains for
+  absent joints.
+- Allow GR00T and Holosoma locomotion on G1-23 while rejecting the 29-DoF SONIC
+  controller.
+- Defer G1-23 MuJoCo simulation until a native model is available.
+- Generate action and observation features from the active joint set.
+- Preserve existing G1-29 defaults and the legacy low-state import.
+- Validate transport vectors and unsupported embodiment combinations.
+- Document embodiment selection, controller compatibility, and sparse slot
+  behavior.
+- Add regression coverage for configuration, transport mapping, connection,
+  reset, and publication paths.
+
+Software test plan:
+- Run `uv run --extra test pytest tests/robots/test_unitree_g1.py
+  tests/robots/test_unitree_g1_embodiments.py -q`.
+- Confirm G1-23 uses sparse wire indices, clears inactive command slots, and
+  retains all 29 feedback slots for controller input.
+- Confirm G1-29 remains the default and preserves its existing feature and
+  transport behavior.
+- Confirm unsupported G1-23 combinations reject SONIC, gravity compensation,
+  and MuJoCo simulation before connecting.
+- Run Ruff over all changed Python files and run `git diff --check`.
+
+Physical hardware validation completed:
+- Secured a physical G1-23 with a suspension or tether, a spotter, and an
+  immediately accessible emergency stop.
+- Paired the standard Unitree wireless remote. Homunculus or arm exoskeleton
+  controllers were not required for this locomotion-only test.
+- Started `lerobot-teleoperate` with `--robot.embodiment=g1_23`, hardware
+  transport, and `HolosomaLocomotionController`, initially keeping all sticks
+  centered.
+- Verified connection and stable zero-input behavior, then applied small
+  `remote.lx`, `remote.ly`, and `remote.rx` commands one axis at a time.
+- Verified the 23 physical joints responded as expected, the six G1-29-only DDS
+  command slots remained inactive, and disconnect returned the robot to a safe
+  state.
+
+Validation completed:
+- 75 focused Unitree G1 tests passed.
+- Ruff and git diff checks passed.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/7abbc995ce478efff90ece53c9c759cb8854d241</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7abbc995ce478efff90ece53c9c759cb8854d241" />
@@ -741,82 +807,6 @@ Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Revert &amp;quot;feat(rollout): add remote inference engine (#4836)&amp;quot; (#4936)
 
 This reverts commit 75d187889a8eb72960f3ce0aecec810860d646a2.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/75d187889a8eb72960f3ce0aecec810860d646a2</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/75d187889a8eb72960f3ce0aecec810860d646a2" />
-    <ns0:title>
-        feat(rollout): add remote inference engine (#4836)
-    </ns0:title>
-    <ns0:updated>2026-10-12T11:54:14Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(rollout): add remote inference engine (#4836)
-
-* feat(rollout): add remote inference draft
-
-* feat(remote-inference): integrate validated rollout and retire legacy async
-
-* docs(rollout): policy support study + hf space goal
-
-* documenting progress
-
-* feat(rollout): prepare for review
-
-* refactor(rollout): address review comments
-
-* refactor(rollout): address review comments 2
-
-* refacotr(rollout): address review comments 3
-
-* refactor(rollout): address review veredit
-
-* fix(ci): rollout stages
-
-* fix(ci): inference rollout
-
-* fix(ci): rollout timer
-
-* refactor(rollout): address second review 1
-
-* refactor(rollout): last changes before HW validation
-
-* docs(rollout): add documents for remote tracking
-
-* refactor(rollout): different improvements for remote
-
-* docs(rollout): log progress remote
-
-* chore(rollout): integrate minor review additions
-
-* docs(rollout): update main document of remote inference
-
-* chore(test): reduce test amplitude
-
-* chore(test): reduce tests even more
-
-* chore(test): reduce tests remote inference
-
-* refactor(rollout): clean entry-point scripts for remote inference
-
-* chore(rolllout): document tests remote inference
-
-* chore(docs): keep track of progress
-
-* continue last feedback
-
-* docs(remote-inference): reconcile completed validation checklist
-
-* docs(rollout): add readme to remote inference module
-
-* docs(rollout): precomit
-
-* refactor(rollout): split hold semantics + trim diagnosis + imports and docs&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
