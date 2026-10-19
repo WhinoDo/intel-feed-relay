@@ -4,7 +4,27 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-19T14:44:05Z</ns0:updated>
+  <ns0:updated>2026-10-19T19:22:42Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/7abbc995ce478efff90ece53c9c759cb8854d241</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7abbc995ce478efff90ece53c9c759cb8854d241" />
+    <ns0:title>
+        fix(unitree-g1): correctly clear the SDK dq field for position comman…
+    </ns0:title>
+    <ns0:updated>2026-10-19T19:22:42Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/649976?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>davidwei</ns0:name>
+      <ns0:uri>https://github.com/davidwei</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(unitree-g1): correctly clear the SDK dq field for position commands (#4664)
+
+* fix(unitree_g1): clear the SDK dq field for position commands
+
+* test(unitree_g1): verify serialized motor command fields&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/b192c02dda8d7fa8560bfc15f9e8dae0f714e26e</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b192c02dda8d7fa8560bfc15f9e8dae0f714e26e" />
@@ -797,66 +817,6 @@ This reverts commit 75d187889a8eb72960f3ce0aecec810860d646a2.&lt;/pre&gt;
 * docs(rollout): precomit
 
 * refactor(rollout): split hold semantics + trim diagnosis + imports and docs&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/75cd2ba0ce9ff47686bb2bd7b7f65840606c02ee</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/75cd2ba0ce9ff47686bb2bd7b7f65840606c02ee" />
-    <ns0:title>
-        feat(streaming): use --num_workers with streaming datasets, up to 2.5…
-    </ns0:title>
-    <ns0:updated>2026-10-12T09:22:06Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29749923?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Hadrien-Cornier</ns0:name>
-      <ns0:uri>https://github.com/Hadrien-Cornier</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(streaming): use --num_workers with streaming datasets, up to 2.5x faster data loading (#4874)
-
-* feat(streaming): several DataLoader workers per rank
-
-StreamingLeRobotDataset allowed one DataLoader worker per rank, so one
-Python process (one GIL) assembled, decoded and handed off every sample
-of a rank. Now --num_workers sets the number of DataLoader workers again.
-
-- Each worker owns a disjoint, frame-balanced part of the rank&amp;#39;s
-  episodes (the same rule as for ranks), with its own exact-coverage pool.
-- streaming_episode_pool_size is the pool of each worker. If it is not
-  set, the rank mixes 32 episodes and each of the N workers gets 32/N.
-- The byte budget and an explicit decoder cache stay per rank: each
-  worker gets 1/N of them.
-- Resume needs no new state: each worker derives its offset from the
-  rank offset, because the DataLoader takes batches from its workers in
-  turn. A new DataLoader starts its turns at worker 0, so worker roles
-  rotate to continue the same batch order.
-- lerobot-train uses at most as many workers as a rank has episodes.
-
-Tests cover exact coverage across workers, worker shards inside rank
-shards, resume inside and across epochs with and without repeat, seed
-determinism, the split limits, and make_dataloaders.
-
-* docs(streaming): give the measured memory of several workers
-
-Each worker prefetches its own streaming_prefetch_episodes and is a
-separate Python process, so more workers use more memory. Replace the
-claim that the rank memory stays the same with the measured values.
-
-* fix(streaming): do not replay a finished worker on resume without repeat
-
-Without repeat, a worker that already gave all its frames got a resume
-offset of whole batches (its last batch is short), so the offset reached
-or passed its frame count and divmod started its shard again. Resuming
-after 14 of 15 batches with 3 workers gave 10 extra batches; resuming at
-the end gave 14. The worker now gives nothing more in that case. The
-resume test covers points after workers end and at the end of the epoch.
-
-Reported-by: JonnyFaeth
-Reported-by: pkooij
-
----------
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 19 Oct 2026 12:59:32 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 19 Oct 2026 17:31:50 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-digit-5-redesign-hurst-safety-weight</guid>
+    <title>“I Cannot Love Digit 5”: Agility Co-Founder Explains His Robot’s Compromises</title>
+    <link>https://www.humanoidsdaily.com/news/agility-digit-5-redesign-hurst-safety-weight</link>
+    <description>Jonathan Hurst says Digit 5 is the robot Agility needs today, but not the one he dreamed of building. His essay explains the commercial demands behind that tension.</description>
+    <pubDate>Mon, 19 Oct 2026 17:31:50 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Jonathan Hurst</category><category>US</category><category>Digit</category><category>Agility Robotics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-03-nine-day-treadmill-million-steps</guid>
+    <title>Figure’s Humanoid Has Walked 348 Miles on a Treadmill—and It’s Still Going</title>
+    <link>https://www.humanoidsdaily.com/news/figure-03-nine-day-treadmill-million-steps</link>
+    <description>Brett Adcock says Figure 03 has covered 348 miles in a treadmill stress test that began as a side project to expose failures—and is still running.</description>
+    <pubDate>Mon, 19 Oct 2026 17:06:50 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Brett Adcock</category><category>US</category><category>Figure</category><category>Figure-03</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-december-3-shareholder-meeting-board-letter</guid>
+    <title>Tesla Makes Its Case for Board Continuity Ahead of December 3 Shareholder Vote</title>
+    <link>https://www.humanoidsdaily.com/news/tesla-december-3-shareholder-meeting-board-letter</link>
+    <description>Tesla’s new shareholder letter urges the re-election of Musk, Denholm and Straubel, citing its AI and manufacturing ambitions ahead of the December 3 meeting.</description>
+    <pubDate>Mon, 19 Oct 2026 15:35:53 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Optimus</category><category>Tesla</category><category>US</category><category>Optimus gen 3</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/kaist-humanoid-v0-9-whole-body-lifting-pushing</guid>
     <title>From Moonwalking to Heavy Lifting: KAIST Humanoid v0.9 Moves 35 kg Objects</title>
@@ -278,36 +308,6 @@
     <pubDate>Mon, 12 Oct 2026 19:36:49 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>open-source</category><category>Asimov</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/google-deepmind-cambridge-robotics-lab-aaron-saunders</guid>
-    <title>Google DeepMind Is Building a New Cambridge-Area Robotics Lab, Aaron Saunders Says</title>
-    <link>https://www.humanoidsdaily.com/news/google-deepmind-cambridge-robotics-lab-aaron-saunders</link>
-    <description>Former Boston Dynamics CTO Aaron Saunders says Google DeepMind is creating a new lab for its growing robotics hardware team, with more news expected in 2027.</description>
-    <pubDate>Mon, 12 Oct 2026 18:34:06 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>DeepMind</category><category>US</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/deepseek-winverse-ai-seed-round-400-million-valuation</guid>
-    <title>DeepSeek Reportedly Plans to Lead Winverse AI Seed Round at $400 Million Valuation</title>
-    <link>https://www.humanoidsdaily.com/news/deepseek-winverse-ai-seed-round-400-million-valuation</link>
-    <description>Bloomberg reports that DeepSeek plans to lead a seed round of tens of millions of dollars for robot-AI startup Winverse. The proposed deal is not yet finalized.</description>
-    <pubDate>Mon, 12 Oct 2026 18:29:42 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Winverse AI</category><category>China</category><category>DeepSeek</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/archon-robotics-debut-whole-body-intelligence</guid>
-    <title>Archon Robotics Shares Debut Demo of Its Whole-Body Humanoid Intelligence</title>
-    <link>https://www.humanoidsdaily.com/news/archon-robotics-debut-whole-body-intelligence</link>
-    <description>Archon Robotics introduces its Whole-Body Intelligence approach, combining human-data pretraining, robot training and coordinated motion control for legged humanoids.</description>
-    <pubDate>Mon, 12 Oct 2026 14:16:04 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Archon Robotics</category><category>China</category>
   </item>
 
   </channel>
