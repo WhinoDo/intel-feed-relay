@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 19 Oct 2026 20:54:47 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 20 Oct 2026 13:33:06 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/schaeffler-taicang-humanoids-build-robot-components</guid>
+    <title>Schaeffler Puts Humanoids to Work Building Parts for Other Humanoids</title>
+    <link>https://www.humanoidsdaily.com/news/schaeffler-taicang-humanoids-build-robot-components</link>
+    <description>Six humanoids work across five stations at Schaeffler’s new Taicang facility, which combines robot-component production with training, data collection and digital twins.</description>
+    <pubDate>Tue, 20 Oct 2026 13:33:06 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Europe</category><category>Schaeffler</category><category>China</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agco-agility-digit-hesston-kansas-manufacturing-pilot</guid>
+    <title>AGCO Signs Agility Deal to Bring Humanoid Robots to Its Kansas Factory</title>
+    <link>https://www.humanoidsdaily.com/news/agco-agility-digit-hesston-kansas-manufacturing-pilot</link>
+    <description>A pilot expected to begin in 2027 will put Digit to work sorting parts and positioning totes at AGCO’s agricultural-equipment plant in Hesston, Kansas.</description>
+    <pubDate>Tue, 20 Oct 2026 12:53:46 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Market</category><category>Agility Robotics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/faraday-future-200-million-robotics-deal-delivery-questions</guid>
+    <title>Faraday Future Moves to Give Its Robotics Business a Separate Listed Home in $200 Million Deal</title>
+    <link>https://www.humanoidsdaily.com/news/faraday-future-200-million-robotics-deal-delivery-questions</link>
+    <description>FF EAI Robotics Ecosystem has agreed to acquire Faraday Future’s robotics business in an all-stock deal. The team explains what changes, its partner-hardware strategy and the plans that remain in place.</description>
+    <pubDate>Tue, 20 Oct 2026 12:22:12 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Faraday Future</category><category>US</category><category>Market</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-shares-surge-october-19-robotics-policy</guid>
     <title>Unitree Shares Jump 16% as China Pushes Robots Into Everyday Commerce</title>
@@ -278,36 +308,6 @@
     <pubDate>Tue, 13 Oct 2026 16:55:50 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Galbot</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-13-agility-optimus</guid>
-    <title>This Week’s Newsletter: Agility’s $300M Order, Optimus Hands and Two Interviews</title>
-    <link>https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-13-agility-optimus</link>
-    <description>Our October 13 briefing explores Digit 5’s economics, Optimus’s hand challenges and our Aether and Monolithos interviews. Read it and subscribe for free.</description>
-    <pubDate>Tue, 13 Oct 2026 15:22:36 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Newsletter</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/musk-optimus-hand-challenges-production-ramp-x-takeover</guid>
-    <title>Musk Details Optimus Hand Challenges, Warns of Slow Initial Production Ramp</title>
-    <link>https://www.humanoidsdaily.com/news/musk-optimus-hand-challenges-production-ramp-x-takeover</link>
-    <description>At X Takeover, Musk described the hand durability and supply-chain challenges behind Optimus, saying magnet export restrictions delayed the program last year.</description>
-    <pubDate>Tue, 13 Oct 2026 09:55:30 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Optimus</category><category>Tesla</category><category>US</category><category>Optimus gen 3</category><category>Elon Musk</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/robros-20-humanoid-industrial-trial-korea</guid>
-    <title>South Korea Approves 20-Robot Robros Trial Across Industrial Sites</title>
-    <link>https://www.humanoidsdaily.com/news/robros-20-humanoid-industrial-trial-korea</link>
-    <description>A regulatory-sandbox approval opens industrial testing for 20 Robros humanoids as the company targets a manufacturing-focused AI model in the first half of 2027.</description>
-    <pubDate>Tue, 13 Oct 2026 09:06:41 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Robros</category><category>South Korea</category>
   </item>
 
   </channel>
