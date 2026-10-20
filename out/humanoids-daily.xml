@@ -7,9 +7,49 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 20 Oct 2026 13:33:06 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 20 Oct 2026 17:35:04 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/eka-robotics-150-million-series-a-vision-force-action</guid>
+    <title>Eka Robotics Raises $150 Million to Give Robots a Better Feel for the Physical World</title>
+    <link>https://www.humanoidsdaily.com/news/eka-robotics-150-million-series-a-vision-force-action</link>
+    <description>Eka’s Series A backs a vision-force-action model trained in simulation, with a reported $1.45 billion valuation and a focus on fast, adaptable robot manipulation.</description>
+    <pubDate>Tue, 20 Oct 2026 17:35:04 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Market</category><category>fundraising</category><category>Eka Robotics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tuesday-labs-voxel-home-robot-reservations</guid>
+    <title>Former Boston Dynamics Roboticist Unveils Voxel, a $20,000 Home-Tidying Robot</title>
+    <link>https://www.humanoidsdaily.com/news/tuesday-labs-voxel-home-robot-reservations</link>
+    <description>Tuesday Labs opens $200 refundable reservations for Voxel, a household robot targeting US deliveries in 2028. Its $20,000 price is an estimate, and the hardware remains in development.</description>
+    <pubDate>Tue, 20 Oct 2026 16:04:33 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Tuesday Labs</category><category>US</category><category>Voxel</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-20-gemini-apollo-pi</guid>
+    <title>This Week’s Newsletter: Gemini 4 Meets Apollo, PI Opens Its API and Robots Get to Work</title>
+    <link>https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-20-gemini-apollo-pi</link>
+    <description>Catch up on Apollo’s Gemini 4 demonstration, PI’s API beta, Figure’s endurance test and the week’s manufacturing and market news in our free weekly briefing.</description>
+    <pubDate>Tue, 20 Oct 2026 15:39:41 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Newsletter</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-stock-surge-commercialization-valuation-warning</guid>
+    <title>After Its Stock Surge, Unitree Warns Humanoid Commercialization Is Still in Its Early Days</title>
+    <link>https://www.humanoidsdaily.com/news/unitree-stock-surge-commercialization-valuation-warning</link>
+    <description>Unitree flags commercialization and valuation risks after unusual share-price gains, while reporting normal operations and no undisclosed material information.</description>
+    <pubDate>Tue, 20 Oct 2026 14:19:30 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Unitree Robotics</category><category>Market</category><category>China</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/schaeffler-taicang-humanoids-build-robot-components</guid>
     <title>Schaeffler Puts Humanoids to Work Building Parts for Other Humanoids</title>
@@ -268,46 +308,6 @@
     <pubDate>Wed, 14 Oct 2026 06:51:33 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Physical Intelligence</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/astra-opus-argon-robotics-development-simulation</guid>
-    <title>Astra, Opus and Argon Show How Frontier AI Models Are Speeding Up Robotics Development</title>
-    <link>https://www.humanoidsdaily.com/news/astra-opus-argon-robotics-development-simulation</link>
-    <description>New Astra and Opus demonstrations echo Google’s Argon workflows, accelerating simulation and controller development while exposing the need to verify generated experiments.</description>
-    <pubDate>Tue, 13 Oct 2026 19:58:29 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>OpenAI</category><category>DeepMind</category><category>Anthropic</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/dynamic-creatures-hugo-character-robot</guid>
-    <title>Dynamic Creatures Introduces Hugo, a Furry Character Robot With 43 Actuators</title>
-    <link>https://www.humanoidsdaily.com/news/dynamic-creatures-hugo-character-robot</link>
-    <description>The startup shows Hugo in a new video and outlines work on a Vision-Language-Expression model, navigation and safety for guest interaction.</description>
-    <pubDate>Tue, 13 Oct 2026 19:27:43 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Dynamic Creatures</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/gemini-4-argon-apollo-cornhole-robotics</guid>
-    <title>Gemini 4 Argon Takes Apollo From Human Video to Seven Straight Cornhole Shots</title>
-    <link>https://www.humanoidsdaily.com/news/gemini-4-argon-apollo-cornhole-robotics</link>
-    <description>Google demonstrates Argon using video, simulation and physical feedback to develop robot skills, alongside an 87% embodied-reasoning benchmark score.</description>
-    <pubDate>Tue, 13 Oct 2026 18:40:29 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>DeepMind</category><category>US</category><category>Apollo</category><category>Google</category><category>Apptronik</category><category>google-deepmind</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/galbot-passage-humanoid-obstacle-traversal</guid>
-    <title>Galbot’s PASSAGE Helps Humanoids Step Over, Duck Under and Squeeze Past Obstacles</title>
-    <link>https://www.humanoidsdaily.com/news/galbot-passage-humanoid-obstacle-traversal</link>
-    <description>PASSAGE learns from human motion to navigate clutter, with onboard Unitree G1 tests and distinct results for destination-reaching and contact-free traversal.</description>
-    <pubDate>Tue, 13 Oct 2026 16:55:50 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Galbot</category><category>China</category>
   </item>
 
   </channel>

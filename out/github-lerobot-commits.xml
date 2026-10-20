@@ -4,7 +4,153 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-20T14:28:34Z</ns0:updated>
+  <ns0:updated>2026-10-20T14:32:12Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/afbf3f14a13bdad3e5990e2bed629c6539605658</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/afbf3f14a13bdad3e5990e2bed629c6539605658" />
+    <ns0:title>
+        feat(policies): accept the starting noise in predict_action_chunk (#4…
+    </ns0:title>
+    <ns0:updated>2026-10-20T14:32:12Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/426434?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>shoumikhin</ns0:name>
+      <ns0:uri>https://github.com/shoumikhin</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): accept the starting noise in predict_action_chunk (#4813)
+
+* feat(molmoact2): accept noise in predict_action_chunk
+
+MolmoAct2 drew the starting sample of continuous flow matching itself, so
+a caller could not pass it in. Add a keyword-only noise argument to
+predict_action_chunk and forward it to both continuous paths: the RTC loop
+in the policy and generate_actions_from_inputs in the vendored model. When
+noise is None the draw is unchanged, so seeded runs give the same actions.
+Discrete decoding does not use it.
+
+A passed noise is moved to the device and dtype of the draw it replaces:
+float32 in the RTC loop, the action expert&amp;#39;s dtype in the vendored model.
+Neither loop writes into the sample in place, so the caller&amp;#39;s tensor is
+not modified. In the vendored model the noise is also made contiguous,
+because the CUDA graph copies the trajectory into a buffer with the same
+strides, and an expanded noise (one sample repeated over the batch) would
+make that copy fail. A fresh draw is already contiguous, so the default
+path does not change. The vendored model only gets the new optional
+argument, an if noise is None block around its existing draw, and that
+move.
+
+* fix(xvla, lawam, vla_jepa): use the noise passed to predict_action_chunk
+
+XVLAPolicy, LaWAMPolicy and VLAJEPAPolicy accepted a noise argument in
+predict_action_chunk and select_action but ignored it, so the flow always
+started from a fresh draw. Pass it through to the code that draws the
+starting sample: XVLAModel.generate_actions,
+ConditionalFlowMatchingHead.sample_actions_cfg (through the LaWAM backend)
+and VLAJEPAActionHead.predict_action.
+
+Each one uses the passed noise in place of its draw, moved to the device
+and dtype the draw would use, and draws exactly as before when it is None.
+None of the three loops writes into the sample in place, so the caller&amp;#39;s
+tensor is not modified.
+
+* feat(flux3, lingbot_va): accept noise and video_noise in predict_action_chunk
+
+FLUX3 and LingBot-VA draw the starting samples of their video and action
+streams themselves, so a caller cannot pass them in. Without that, two
+runs cannot be compared on the same noise, and a compiled or exported
+copy cannot be checked against the original.
+
+predict_action_chunk now takes two keyword-only arguments: noise, the
+action stream&amp;#39;s starting sample, and video_noise, the video latent&amp;#39;s
+starting sample. When they are None the draws are unchanged, so default
+outputs stay the same.
+
+FLUX3 gives each sample in the batch its own slice, shaped
+(B, action_dim, chunk_size) for noise, and moves it to the device in
+float32, where its solver state lives. Both samples come from one seeded
+generator, so FLUX3 still draws both in the usual order and then replaces
+the ones the caller passed. Passing only one of them leaves the other as
+it would be by default. Other inference arguments are still rejected.
+LingBot-VA takes [1, action_dim, frame_chunk_size, action_per_frame, 1]
+and [1, 48, frame_chunk_size, latent_h, latent_w], moves them to the
+policy&amp;#39;s device and dtype, and copies them first, because its denoising
+loops write into these tensors in place.
+
+* feat(multi_task_dit, fastwam): accept noise in predict_action_chunk
+
+Multi-task DiT and FastWAM drew the starting sample of their denoising
+loop themselves, so a caller could not pass it in, for example to check
+an exported policy against the original on the same inputs.
+
+predict_action_chunk now takes a keyword-only noise argument. Multi-task
+DiT forwards it to the conditional_sample of its diffusion and flow
+matching objectives, shaped (B, horizon, action_dim). FastWAM slices it
+per sample like the other batch inputs, shaped [B, action_horizon,
+action_dim], and uses it in place of the seeded draw in
+_make_action_latents. When noise is None the draws are unchanged.
+
+A passed noise is moved to the device and dtype the draw would use, and
+none of the loops writes into it in place. Diffusion already took noise,
+so it only gets the same move and a docstring line. The DDPM scheduler
+still adds fresh noise at every step, so DDIM and flow matching are the
+modes fully driven by noise.
+
+* feat(groot, pi0, pi05): accept noise in predict_action_chunk
+
+GR00T drew the starting sample of its flow matching loop itself, and a
+caller had no way to pass it in. pi0 and pi0.5 already passed noise on to
+sample_actions, but only through **kwargs, whose type
+(RTCActionSelectKwargs) does not list it.
+
+All three now take a keyword-only noise argument in predict_action_chunk,
+with a default of None and its shape documented. GR00T passes it through
+GR00TN17.get_action to the action head, where it replaces the draw. When
+noise is None the draws are unchanged.
+
+A passed noise is moved to the device and dtype the draw would use: the
+backbone features&amp;#39; dtype in GR00T, float32 in pi0 and pi0.5. GR00T&amp;#39;s RTC
+prefix writes into the sample in place, so it still clones the noise and
+the caller&amp;#39;s tensor is left untouched. The test fakes of GR00T&amp;#39;s model
+take the new keyword, and the base predict_action_chunk docstring now
+says what noise means.
+
+* refactor(policies): take noise as a keyword and pass it on from select_action
+
+Diffusion, X-VLA, LaWAM, VLA-JEPA and SmolVLA took `noise` positionally while
+the other policies take it as a keyword. pi0, pi0.5, GR00T and Multi-task DiT
+had no `noise` on `select_action`, so passing it raised a TypeError. FLUX3
+raised too, because it treated any keyword as an RTC argument. LingBot-VA
+accepted any keyword and did not pass it on.
+
+`noise` is now a keyword-only argument of both methods in every policy changed
+here, and each `select_action` passes it to the chunk it computes, as
+`ActionSelectKwargs` in `pretrained.py` promises. FLUX3 and LingBot-VA also
+take and pass `video_noise`, and FLUX3 still refuses RTC arguments.
+FineART-VLA&amp;#39;s `predict_action_chunk` declares `noise` like its pi0.5 parent.
+No caller of `predict_action_chunk` or `select_action` in the repository
+passed `noise` positionally. FastWAM&amp;#39;s and LingBot-VA&amp;#39;s `select_action` now
+reject keywords they do not take.
+
+* fix(smolvla): move a passed noise to the draw&amp;#39;s device and dtype
+
+pi0 and pi0.5 move a passed `noise` to the device and dtype of the draw it
+replaces (float32 on the state&amp;#39;s device). SmolVLA&amp;#39;s `sample_actions` used it
+as it came, so float64 noise failed with a dtype error in the action
+projection, and noise on another device failed with a device error, while
+the same call works on pi0. It now gets the same move. A float32 tensor
+already on the right device is used as it is.
+
+* fix(fastwam, lingbot_va): reject unknown keywords in predict_action_chunk
+
+FastWAM&amp;#39;s and LingBot-VA&amp;#39;s `predict_action_chunk` ended in a catch-all
+(`**_` and `**kwargs`) that nothing read. A misspelled keyword such as
+`nosie=` was accepted, and the chunk quietly started from a fresh draw,
+while the same call on `select_action` raises a TypeError. Neither policy
+supports real-time chunking, so no caller passes other keywords. Drop both
+catch-alls so the two methods reject the same calls.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/b33bf619d5b9f80c1fe1e9b2efb0ba1f65062bb0</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b33bf619d5b9f80c1fe1e9b2efb0ba1f65062bb0" />
@@ -785,24 +931,6 @@ Rename the key to &amp;quot;Acceleration_Multiplier&amp;quot;. No code in the re
 the old spelling. Add a test that reads and writes register 86 by name through
 the mocked serial port, and a test that no key in any motor control table
 starts or ends with whitespace.
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/d5866cfdb995e44dee83754613bdba6f0a762bde</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d5866cfdb995e44dee83754613bdba6f0a762bde" />
-    <ns0:title>
-        fix(pi05): drop dead state_proj from PEFT default targets (#4751)
-    </ns0:title>
-    <ns0:updated>2026-10-12T12:59:12Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/3657419?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>ravediamond</ns0:name>
-      <ns0:uri>https://github.com/ravediamond</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(pi05): drop dead state_proj from PEFT default targets (#4751)
 
 Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
