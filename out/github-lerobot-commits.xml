@@ -4,7 +4,218 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-21T10:16:45Z</ns0:updated>
+  <ns0:updated>2026-10-21T19:26:54Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/8a125584153240d7511dddfbda440bbee56b134a</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8a125584153240d7511dddfbda440bbee56b134a" />
+    <ns0:title>
+        fix(streaming): give the trainer's data-parallel rank to the streamin…
+    </ns0:title>
+    <ns0:updated>2026-10-21T19:26:54Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29749923?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Hadrien-Cornier</ns0:name>
+      <ns0:uri>https://github.com/Hadrien-Cornier</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(streaming): give the trainer&amp;#39;s data-parallel rank to the streaming dataset (#4890)
+
+The streaming dataset reshards in the DataLoader worker from RANK and WORLD_SIZE,
+because torch.distributed is not initialized there. A launcher that does not export
+RANK made every rank stream the full dataset. make_dataloaders now passes dp_rank
+and dp_world_size, which take priority. Direct use is unchanged.
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/ac5d06be8603742f40d4feb1d509b43067e67eca</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ac5d06be8603742f40d4feb1d509b43067e67eca" />
+    <ns0:title>
+        fix(streaming): apply image transforms on the training thread when nu…
+    </ns0:title>
+    <ns0:updated>2026-10-21T19:25:34Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29749923?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Hadrien-Cornier</ns0:name>
+      <ns0:uri>https://github.com/Hadrien-Cornier</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(streaming): apply image transforms on the training thread when num_workers=0 (#4891)
+
+With --num_workers=0 the decode threads ran the random image transforms, so they
+drew from the global torch RNG in timing order and --seed did not give the same
+run. Now the iterating thread applies them in yield order. DataLoader workers
+keep applying them on the decode threads.
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/ecbcc3b3fff515f5cd69ab1f93e2a22a5256add0</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ecbcc3b3fff515f5cd69ab1f93e2a22a5256add0" />
+    <ns0:title>
+        fix(streaming): make the sidecar lock timeout a setting (#4889)
+    </ns0:title>
+    <ns0:updated>2026-10-21T19:20:58Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29749923?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Hadrien-Cornier</ns0:name>
+      <ns0:uri>https://github.com/Hadrien-Cornier</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(streaming): make the sidecar lock timeout a setting (#4889)
+
+Processes that wait for another process to build the same MP4 sidecar
+stopped after a fixed 30 minutes. --dataset.streaming_sidecar_lock_timeout_s
+now sets that wait, and the timeout error names the flag.
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/1b5e5b784559d11acce279f7aa61c5bae9280372</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1b5e5b784559d11acce279f7aa61c5bae9280372" />
+    <ns0:title>
+        fix(configs): backfill pretrained_path in PreTrainedConfig.from_pretr…
+    </ns0:title>
+    <ns0:updated>2026-10-21T19:15:41Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/279426841?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>DanMo661</ns0:name>
+      <ns0:uri>https://github.com/DanMo661</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(configs): backfill pretrained_path in PreTrainedConfig.from_pretrained (#4648)
+
+* fix(configs): backfill pretrained_path in PreTrainedConfig.from_pretrained
+
+config.json only carries train-time fields, so parsing it yields a config
+with pretrained_path=None. When such a config is passed to make_policy() /
+make_pre_post_processors() (the documented programmatic path), the factory
+silently takes the &amp;#39;from scratch&amp;#39; branch and builds a processor pipeline
+with empty normalization stats instead of loading the pretrained safetensors.
+The policy loads without error but acts blind (raw pixel/state values go
+in, near-random actions come out); on PushT with lerobot/diffusion_pusht
+this silently degrades a 118-reward policy to ~5.
+
+Backfill pretrained_path / pretrained_revision on the config returned by
+from_pretrained(), matching what the CLI parser does for --policy.path.
+
+Verified on the migrated lerobot/diffusion_pusht checkpoint: identical
+manual rollout code scores cum=4.8 / max=0.016 without the backfill and
+cum=199.4 / max=0.996 with it.
+
+* Apply the same backfill to RewardModelConfig.from_pretrained; Path-typed backfill
+
+Review follow-up: RewardModelConfig.from_pretrained has the identical
+pattern (parse + return, no backfill), and PreTrainedRewardModel /
+make_reward_model call it directly — e.g. RobometerRewardModel.__init__
+branches on config.pretrained_path is None, so a direct from_pretrained
+call took the &amp;#39;fresh model&amp;#39; branch instead of loading the checkpoint.
+
+Also assigns Path(model_id) on the policy side to match the Path | None
+field type, and adds the hub-id + pinned-revision test case (hf_hub_download
+mocked) alongside the RewardModelConfig regression test.
+
+* style: satisfy ruff format in test_pretrained_path_backfill
+
+---------
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/da7f9d62202f77880c8aae8f4c05f50d9c9c42c5</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/da7f9d62202f77880c8aae8f4c05f50d9c9c42c5" />
+    <ns0:title>
+        fix(envs): use VLABench instruction as description (#5022)
+    </ns0:title>
+    <ns0:updated>2026-10-21T19:14:27Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/137322177?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>tc-huang</ns0:name>
+      <ns0:uri>https://github.com/tc-huang</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(envs): use VLABench instruction as description (#5022)
+
+* fix(envs): use VLABench instruction as description
+
+VLABenchEnv looked up `task_description` and `language_instruction`
+on the VLABench task object. VLABench defines neither attribute; it
+exposes the generated instruction through `task.get_instruction()`,
+which its own evaluator and trajectory scripts call. Both hasattr()
+checks therefore always failed and the env silently fell back to the
+task name, so policies were prompted with &amp;quot;select_fruit&amp;quot; instead of
+an instruction such as &amp;quot;Put the pear into the plate_seen&amp;quot;.
+
+This also diverged from training: the VLABench LeRobot datasets store
+the full get_instruction() sentence as each episode&amp;#39;s task.
+
+Raise ValueError when VLABench returns no instruction instead of
+falling back to the task name, which would keep this failure mode and
+still report a score. The listed tasks should not hit this: each one
+VLABench registers writes a non-empty instruction when it is built.
+This matches MetaWorld, where a task without a description fails
+with KeyError.
+
+* fix(envs): clear rejected VLABench env
+
+_ensure_env() stored the new env in self._env before checking its
+task instruction, so raising on a missing instruction left the
+rejected env in place. A caller that caught the ValueError and called
+reset() again hit the early return in _ensure_env(), skipped the
+check, and evaluated with an empty task_description. The rejected env
+was also never closed.
+
+Close and clear it before raising, using the same best-effort cleanup
+that step() applies after a PhysicsError, so a retry rebuilds and
+re-validates the env.
+
+Co-authored-by: Jonathan D Faeth &amp;lt;210794222+JonnyFaeth@users.noreply.github.com&amp;gt;
+
+---------
+
+Co-authored-by: Jonathan D Faeth &amp;lt;210794222+JonnyFaeth@users.noreply.github.com&amp;gt;
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/3b31fd99e1fef140619f93a258edb1401bf8f7f4</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/3b31fd99e1fef140619f93a258edb1401bf8f7f4" />
+    <ns0:title>
+        feat(docker): add ROCm dockerfile for AMD Instinct GPUs (#4470)
+    </ns0:title>
+    <ns0:updated>2026-10-21T18:54:06Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/8315383?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Treemann</ns0:name>
+      <ns0:uri>https://github.com/Treemann</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(docker): add ROCm dockerfile for AMD Instinct GPUs (#4470)
+
+* add dockerfile &amp;amp; instruction for AMD GPU
+
+* Update Dockerfile.rocm
+
+Signed-off-by: Rongzhang Zheng &amp;lt;rongzhang.zheng@amd.com&amp;gt;
+
+* Update Docker README.md for AMD GPUs
+
+Signed-off-by: Rongzhang Zheng &amp;lt;rongzhang.zheng@amd.com&amp;gt;
+
+* Update torch_accelerators.mdx for AMD GPUs
+
+Signed-off-by: Rongzhang Zheng &amp;lt;rongzhang.zheng@amd.com&amp;gt;
+
+---------
+
+Signed-off-by: Rongzhang Zheng &amp;lt;rongzhang.zheng@amd.com&amp;gt;
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/5517a326eeb9b457cfe07d59b9bfdf291799c8d9</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/5517a326eeb9b457cfe07d59b9bfdf291799c8d9" />
@@ -349,136 +560,6 @@ lerobot.rl.gym_manipulator.make_robot_env.
 
 HILSerlRobotEnvConfig.create_envs now raises NotImplementedError naming the
 commands to use instead.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/9d1beec4e831e5b40c99b8bab53220b5f8f9cb00</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9d1beec4e831e5b40c99b8bab53220b5f8f9cb00" />
-    <ns0:title>
-        fix(tests): restore torch.backends flags after real train() calls (#4…
-    </ns0:title>
-    <ns0:updated>2026-10-21T08:38:51Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/3657419?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>ravediamond</ns0:name>
-      <ns0:uri>https://github.com/ravediamond</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(tests): restore torch.backends flags after real train() calls (#4748)
-
-train() unconditionally flips torch.backends.cudnn.benchmark/deterministic
-and cuda.matmul.allow_tf32; these are process-global, so any test calling
-train() for real leaks them into whatever test runs next in the same
-pytest session. #4740 fixed one instance (flux3 lora, allow_tf32 only);
-this covers the same test&amp;#39;s cudnn flags plus two more affected files
-(test_ema.py, test_visual_validation.py) via an autouse restore fixture.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/60c77eaff105675a92d5517b6497179068d0041d</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/60c77eaff105675a92d5517b6497179068d0041d" />
-    <ns0:title>
-        fix(security): remediate workflow vulnerability in .github/workflows/…
-    </ns0:title>
-    <ns0:updated>2026-10-21T08:34:04Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/25720743?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>hf-security-analysis</ns0:name>
-      <ns0:uri>https://github.com/hf-security-analysis</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(security): remediate workflow vulnerability in .github/workflows/claude.yml (#4598)
-
-Co-authored-by: hf-security-analysis[bot] &amp;lt;265538906+hf-security-analysis[bot]@users.noreply.github.com&amp;gt;
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/cf7cf27879b15318de596d620f4bd9b5cbb8460b</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/cf7cf27879b15318de596d620f4bd9b5cbb8460b" />
-    <ns0:title>
-        docs: link SO-ARM 102 kit details (#5028)
-    </ns0:title>
-    <ns0:updated>2026-10-21T08:31:25Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/761219?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>brnikita</ns0:name>
-      <ns0:uri>https://github.com/brnikita</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: link SO-ARM 102 kit details (#5028)
-
-* docs: link SO-ARM 102 kit details
-
-* docs: attribute SO-ARM 102 referrals to LeRobot
-
-* docs: name SO-ARM 102 in the product link&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/cf1696089fc8cc5ecfccc2e62a7f2a5cacb29030</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/cf1696089fc8cc5ecfccc2e62a7f2a5cacb29030" />
-    <ns0:title>
-        fix(datasets): warn only when the dataset is newer than the codebase …
-    </ns0:title>
-    <ns0:updated>2026-10-21T07:58:28Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/131722044?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>horizonbymuneeb</ns0:name>
-      <ns0:uri>https://github.com/horizonbymuneeb</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): warn only when the dataset is newer than the codebase (#4852)
-
-check_version_compatibility compared minor versions without checking which
-side is newer, so a dataset older than the codebase (v3.0 dataset, v3.1 code)
-was reported as &amp;quot;only available in 3.0 format ... please update lerobot&amp;quot;,
-while a dataset written by a newer release was accepted silently.
-
-The check now only acts when the dataset is newer than the codebase: a newer
-minor version warns as before, and a newer major version raises
-ForwardCompatibilityError (the class already exists for that purpose and is
-used by get_safe_version). Older-minor datasets stay silent, and a v2.1
-dataset read by v3 code still raises BackwardCompatibilityError.
-
-Fixes #4851
-
-Co-authored-by: Muneeb Anjum &amp;lt;horizonbymuneeb@users.noreply.github.com&amp;gt;
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/7460cf7f267d85a85c081328046f63da984dff57</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7460cf7f267d85a85c081328046f63da984dff57" />
-    <ns0:title>
-        fix(datasets): reject image writers with no workers (#5019)
-    </ns0:title>
-    <ns0:updated>2026-10-21T07:43:54Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/222158758?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>TinyGeek</ns0:name>
-      <ns0:uri>https://github.com/TinyGeek</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): reject image writers with no workers (#5019)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/ea4917ebfd8de17cacb137ac57c4400e5cf1c171</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ea4917ebfd8de17cacb137ac57c4400e5cf1c171" />
-    <ns0:title>
-        fix(wall_x): report incompatible checkpoint keys (#4761)
-    </ns0:title>
-    <ns0:updated>2026-10-21T07:43:21Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/88032149?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Samuel-Hills</ns0:name>
-      <ns0:uri>https://github.com/Samuel-Hills</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(wall_x): report incompatible checkpoint keys (#4761)
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
