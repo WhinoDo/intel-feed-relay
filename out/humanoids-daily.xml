@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 21 Oct 2026 09:50:28 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 21 Oct 2026 12:59:39 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/nvidia-flora-robot-video-training-data-models</guid>
+    <title>NVIDIA Releases Flora to Turn Robot Videos Into Training Data</title>
+    <link>https://www.humanoidsdaily.com/news/nvidia-flora-robot-video-training-data-models</link>
+    <description>Flora labels actions and scores robot performance from video. NVIDIA reports 200,000 hours processed daily, with model weights available for research under noncommercial terms.</description>
+    <pubDate>Wed, 21 Oct 2026 12:59:39 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>NVIDIA</category><category>US</category><category>open-source</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoid-nvidia-jetson-thor-onboard-computing</guid>
+    <title>Humanoid Expands NVIDIA Collaboration, Replacing Two Robot Computers With One</title>
+    <link>https://www.humanoidsdaily.com/news/humanoid-nvidia-jetson-thor-onboard-computing</link>
+    <description>The UK robot maker says Jetson Thor consolidates two onboard computers into one, as it integrates NVIDIA tools for sensing, AI inference and real-time control.</description>
+    <pubDate>Wed, 21 Oct 2026 11:52:10 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>NVIDIA</category><category>Europe</category><category>HMND-01</category><category>Humanoid</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/generative-bionics-amd-italy-physical-ai-data-factory</guid>
     <title>Generative Bionics Plans Major Humanoid Training Hub in Italy With AMD</title>
@@ -288,26 +308,6 @@
     <pubDate>Wed, 14 Oct 2026 18:29:06 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Market</category><category>Digit</category><category>Agility Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/shanghai-8000-humanoid-robots-factories-2028</guid>
-    <title>Shanghai Wants 8,000 Humanoid Robots in Factories by 2028</title>
-    <link>https://www.humanoidsdaily.com/news/shanghai-8000-humanoid-robots-factories-2028</link>
-    <description>The city has set a factory-deployment goal within a broader AI manufacturing initiative, though supplier allocations and procurement details remain unspecified.</description>
-    <pubDate>Wed, 14 Oct 2026 17:54:06 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Market</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-atlas-prototype-shop-build-time</guid>
-    <title>Boston Dynamics Says Atlas Takes a Day to Build—and Wants to Cut That to an Hour</title>
-    <link>https://www.humanoidsdaily.com/news/boston-dynamics-atlas-prototype-shop-build-time</link>
-    <description>A new video details in-house machining and rapid assembly, with a speaker describing a roughly one-day robot build and an ambition to reach an hour next year.</description>
-    <pubDate>Wed, 14 Oct 2026 17:03:44 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>South Korea</category><category>Atlas</category><category>Boston Dynamics</category>
   </item>
 
   </channel>
