@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 21 Oct 2026 12:59:39 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 21 Oct 2026 20:32:49 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/origami-robotics-s1-skill-capture-glove</guid>
+    <title>Origami Robotics Unveils S1 Glove to Capture Human Dexterity for Robots</title>
+    <link>https://www.humanoidsdaily.com/news/origami-robotics-s1-skill-capture-glove</link>
+    <description>The S1 glove records finger movements, touch and video, with joints matched to Origami’s robot hand. The company says mass production has started.</description>
+    <pubDate>Wed, 21 Oct 2026 20:32:49 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Origami Robotics</category><category>US</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/nvidia-flora-robot-video-training-data-models</guid>
     <title>NVIDIA Releases Flora to Turn Robot Videos Into Training Data</title>
@@ -298,16 +308,6 @@
     <pubDate>Thu, 15 Oct 2026 05:01:44 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>China</category><category>ROBOTO ORIGIN</category><category>RoboParty</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-sec-s4-effective-november-2-merger-vote</guid>
-    <title>Agility Moves Closer to Nasdaq as Merger Vote Is Set for November 2</title>
-    <link>https://www.humanoidsdaily.com/news/agility-sec-s4-effective-november-2-merger-vote</link>
-    <description>The SEC has declared the merger registration effective, bringing Agility closer to its planned AGLT listing and financing for Digit 5 deployments.</description>
-    <pubDate>Wed, 14 Oct 2026 18:29:06 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Market</category><category>Digit</category><category>Agility Robotics</category>
   </item>
 
   </channel>
