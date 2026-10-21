@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 20 Oct 2026 17:35:04 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 21 Oct 2026 09:50:28 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/generative-bionics-amd-italy-physical-ai-data-factory</guid>
+    <title>Generative Bionics Plans Major Humanoid Training Hub in Italy With AMD</title>
+    <link>https://www.humanoidsdaily.com/news/generative-bionics-amd-italy-physical-ai-data-factory</link>
+    <description>A planned 5,000-square-metre Italian hub would train GENE.01 humanoids using physical tasks and AMD-powered digital twins, with operations targeted for Q4 2027.</description>
+    <pubDate>Wed, 21 Oct 2026 09:50:28 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Generative Bionics</category><category>Europe</category><category>GENE01</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-h2-x-kung-fu-guardian-video</guid>
+    <title>Unitree’s H2-X Flips Off Cars in New Kung Fu “Guardian” Video</title>
+    <link>https://www.humanoidsdaily.com/news/unitree-h2-x-kung-fu-guardian-video</link>
+    <description>Unitree’s new H2-X video combines car-roof flips, martial arts and staged rescue scenes, alongside a claim of approximately eight hours of standing endurance.</description>
+    <pubDate>Wed, 21 Oct 2026 08:32:01 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Unitree Robotics</category><category>China</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/eka-robotics-150-million-series-a-vision-force-action</guid>
     <title>Eka Robotics Raises $150 Million to Give Robots a Better Feel for the Physical World</title>
@@ -288,26 +308,6 @@
     <pubDate>Wed, 14 Oct 2026 17:03:44 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>South Korea</category><category>Atlas</category><category>Boston Dynamics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/modar-alaoui-the-humanoid-economy-book-release</guid>
-    <title>Humanoids Summit Founder Modar Alaoui Releases The Humanoid Economy</title>
-    <link>https://www.humanoidsdaily.com/news/modar-alaoui-the-humanoid-economy-book-release</link>
-    <description>Published by Wiley, Alaoui’s new book examines the capital, manufacturing, policy and public acceptance needed to scale humanoid robotics.</description>
-    <pubDate>Wed, 14 Oct 2026 13:35:35 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Humanoids Summit</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/physical-intelligence-api-beta-robot-training-inference</guid>
-    <title>Physical Intelligence Opens API Beta for Robot Model Training and Inference</title>
-    <link>https://www.humanoidsdaily.com/news/physical-intelligence-api-beta-robot-training-inference</link>
-    <description>PI is accepting applications for a managed robot-model API, with early examples spanning manufacturing and heavy machinery.</description>
-    <pubDate>Wed, 14 Oct 2026 06:51:33 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Physical Intelligence</category>
   </item>
 
   </channel>

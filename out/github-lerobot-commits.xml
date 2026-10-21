@@ -4,933 +4,479 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-20T14:32:12Z</ns0:updated>
+  <ns0:updated>2026-10-21T10:16:45Z</ns0:updated>
   <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/afbf3f14a13bdad3e5990e2bed629c6539605658</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/afbf3f14a13bdad3e5990e2bed629c6539605658" />
+    <ns0:id>tag:github.com,2008:Grit::Commit/5517a326eeb9b457cfe07d59b9bfdf291799c8d9</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/5517a326eeb9b457cfe07d59b9bfdf291799c8d9" />
     <ns0:title>
-        feat(policies): accept the starting noise in predict_action_chunk (#4…
+        docs(robocasa): fix camera rename_map for smolvla_robocasa (#4860)
     </ns0:title>
-    <ns0:updated>2026-10-20T14:32:12Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/426434?s=30&amp;v=4" />
+    <ns0:updated>2026-10-21T10:16:45Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/173486567?s=30&amp;v=4" />
     <ns0:author>
-      <ns0:name>shoumikhin</ns0:name>
-      <ns0:uri>https://github.com/shoumikhin</ns0:uri>
+      <ns0:name>JFan5</ns0:name>
+      <ns0:uri>https://github.com/JFan5</ns0:uri>
     </ns0:author>
     <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): accept the starting noise in predict_action_chunk (#4813)
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(robocasa): fix camera rename_map for smolvla_robocasa (#4860)
 
-* feat(molmoact2): accept noise in predict_action_chunk
+The RoboCasa365 eval snippets and the RoboCasa CI command mapped
+`robot0_eye_in_hand` to `camera2` and `robot0_agentview_right` to
+`camera3`, swapping the wrist and right agent views relative to how
+`lerobot/smolvla_robocasa` was trained.
 
-MolmoAct2 drew the starting sample of continuous flow matching itself, so
-a caller could not pass it in. Add a keyword-only noise argument to
-predict_action_chunk and forward it to both continuous paths: the RTC loop
-in the policy and generate_actions_from_inputs in the vendored model. When
-noise is None the draw is unchanged, so seeded runs give the same actions.
-Discrete decoding does not use it.
+The checkpoint&amp;#39;s own `train_config.json` and `policy_preprocessor.json`
+both record `robot0_agentview_left` -&amp;gt; `camera1`,
+`robot0_agentview_right` -&amp;gt; `camera2`, `robot0_eye_in_hand` -&amp;gt; `camera3`.
+Since `--rename_map` replaces the checkpoint preprocessor&amp;#39;s rename step
+and all three views are 3x256x256, the mismatch was silently accepted.
 
-A passed noise is moved to the device and dtype of the draw it replaces:
-float32 in the RTC loop, the action expert&amp;#39;s dtype in the vendored model.
-Neither loop writes into the sample in place, so the caller&amp;#39;s tensor is
-not modified. In the vendored model the noise is also made contiguous,
-because the CUDA graph copies the trajectory into a buffer with the same
-strides, and an expanded noise (one sample repeated over the batch) would
-make that copy fail. A fresh draw is already contiguous, so the default
-path does not change. The vendored model only gets the new optional
-argument, an if noise is None block around its existing draw, and that
-move.
-
-* fix(xvla, lawam, vla_jepa): use the noise passed to predict_action_chunk
-
-XVLAPolicy, LaWAMPolicy and VLAJEPAPolicy accepted a noise argument in
-predict_action_chunk and select_action but ignored it, so the flow always
-started from a fresh draw. Pass it through to the code that draws the
-starting sample: XVLAModel.generate_actions,
-ConditionalFlowMatchingHead.sample_actions_cfg (through the LaWAM backend)
-and VLAJEPAActionHead.predict_action.
-
-Each one uses the passed noise in place of its draw, moved to the device
-and dtype the draw would use, and draws exactly as before when it is None.
-None of the three loops writes into the sample in place, so the caller&amp;#39;s
-tensor is not modified.
-
-* feat(flux3, lingbot_va): accept noise and video_noise in predict_action_chunk
-
-FLUX3 and LingBot-VA draw the starting samples of their video and action
-streams themselves, so a caller cannot pass them in. Without that, two
-runs cannot be compared on the same noise, and a compiled or exported
-copy cannot be checked against the original.
-
-predict_action_chunk now takes two keyword-only arguments: noise, the
-action stream&amp;#39;s starting sample, and video_noise, the video latent&amp;#39;s
-starting sample. When they are None the draws are unchanged, so default
-outputs stay the same.
-
-FLUX3 gives each sample in the batch its own slice, shaped
-(B, action_dim, chunk_size) for noise, and moves it to the device in
-float32, where its solver state lives. Both samples come from one seeded
-generator, so FLUX3 still draws both in the usual order and then replaces
-the ones the caller passed. Passing only one of them leaves the other as
-it would be by default. Other inference arguments are still rejected.
-LingBot-VA takes [1, action_dim, frame_chunk_size, action_per_frame, 1]
-and [1, 48, frame_chunk_size, latent_h, latent_w], moves them to the
-policy&amp;#39;s device and dtype, and copies them first, because its denoising
-loops write into these tensors in place.
-
-* feat(multi_task_dit, fastwam): accept noise in predict_action_chunk
-
-Multi-task DiT and FastWAM drew the starting sample of their denoising
-loop themselves, so a caller could not pass it in, for example to check
-an exported policy against the original on the same inputs.
-
-predict_action_chunk now takes a keyword-only noise argument. Multi-task
-DiT forwards it to the conditional_sample of its diffusion and flow
-matching objectives, shaped (B, horizon, action_dim). FastWAM slices it
-per sample like the other batch inputs, shaped [B, action_horizon,
-action_dim], and uses it in place of the seeded draw in
-_make_action_latents. When noise is None the draws are unchanged.
-
-A passed noise is moved to the device and dtype the draw would use, and
-none of the loops writes into it in place. Diffusion already took noise,
-so it only gets the same move and a docstring line. The DDPM scheduler
-still adds fresh noise at every step, so DDIM and flow matching are the
-modes fully driven by noise.
-
-* feat(groot, pi0, pi05): accept noise in predict_action_chunk
-
-GR00T drew the starting sample of its flow matching loop itself, and a
-caller had no way to pass it in. pi0 and pi0.5 already passed noise on to
-sample_actions, but only through **kwargs, whose type
-(RTCActionSelectKwargs) does not list it.
-
-All three now take a keyword-only noise argument in predict_action_chunk,
-with a default of None and its shape documented. GR00T passes it through
-GR00TN17.get_action to the action head, where it replaces the draw. When
-noise is None the draws are unchanged.
-
-A passed noise is moved to the device and dtype the draw would use: the
-backbone features&amp;#39; dtype in GR00T, float32 in pi0 and pi0.5. GR00T&amp;#39;s RTC
-prefix writes into the sample in place, so it still clones the noise and
-the caller&amp;#39;s tensor is left untouched. The test fakes of GR00T&amp;#39;s model
-take the new keyword, and the base predict_action_chunk docstring now
-says what noise means.
-
-* refactor(policies): take noise as a keyword and pass it on from select_action
-
-Diffusion, X-VLA, LaWAM, VLA-JEPA and SmolVLA took `noise` positionally while
-the other policies take it as a keyword. pi0, pi0.5, GR00T and Multi-task DiT
-had no `noise` on `select_action`, so passing it raised a TypeError. FLUX3
-raised too, because it treated any keyword as an RTC argument. LingBot-VA
-accepted any keyword and did not pass it on.
-
-`noise` is now a keyword-only argument of both methods in every policy changed
-here, and each `select_action` passes it to the chunk it computes, as
-`ActionSelectKwargs` in `pretrained.py` promises. FLUX3 and LingBot-VA also
-take and pass `video_noise`, and FLUX3 still refuses RTC arguments.
-FineART-VLA&amp;#39;s `predict_action_chunk` declares `noise` like its pi0.5 parent.
-No caller of `predict_action_chunk` or `select_action` in the repository
-passed `noise` positionally. FastWAM&amp;#39;s and LingBot-VA&amp;#39;s `select_action` now
-reject keywords they do not take.
-
-* fix(smolvla): move a passed noise to the draw&amp;#39;s device and dtype
-
-pi0 and pi0.5 move a passed `noise` to the device and dtype of the draw it
-replaces (float32 on the state&amp;#39;s device). SmolVLA&amp;#39;s `sample_actions` used it
-as it came, so float64 noise failed with a dtype error in the action
-projection, and noise on another device failed with a device error, while
-the same call works on pi0. It now gets the same move. A float32 tensor
-already on the right device is used as it is.
-
-* fix(fastwam, lingbot_va): reject unknown keywords in predict_action_chunk
-
-FastWAM&amp;#39;s and LingBot-VA&amp;#39;s `predict_action_chunk` ended in a catch-all
-(`**_` and `**kwargs`) that nothing read. A misspelled keyword such as
-`nosie=` was accepted, and the chunk quietly started from a fresh draw,
-while the same call on `select_action` raises a TypeError. Neither policy
-supports real-time chunking, so no caller passes other keywords. Drop both
-catch-alls so the two methods reject the same calls.&lt;/pre&gt;
+Co-authored-by: Jialiang Fan &amp;lt;fjl2401@gmail.com&amp;gt;
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
   <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/b33bf619d5b9f80c1fe1e9b2efb0ba1f65062bb0</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b33bf619d5b9f80c1fe1e9b2efb0ba1f65062bb0" />
+    <ns0:id>tag:github.com,2008:Grit::Commit/c1789b1306ca451cdc61c4576c3eba691bd9b974</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c1789b1306ca451cdc61c4576c3eba691bd9b974" />
     <ns0:title>
-        update hero image (#5021)
+        fix(smolvla): normalize uint8 images before resizing (#4292)
     </ns0:title>
-    <ns0:updated>2026-10-20T14:28:34Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/39432165?s=30&amp;v=4" />
+    <ns0:updated>2026-10-21T10:14:13Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/55507135?s=30&amp;v=4" />
     <ns0:author>
-      <ns0:name>NikodemBartnik</ns0:name>
-      <ns0:uri>https://github.com/NikodemBartnik</ns0:uri>
+      <ns0:name>krmayn</ns0:name>
+      <ns0:uri>https://github.com/krmayn</ns0:uri>
     </ns0:author>
     <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update hero image (#5021)&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(smolvla): normalize uint8 images before resizing (#4292)
+
+Co-authored-by: Kieran Maynard &amp;lt;55507135+krMaynard@users.noreply.github.com&amp;gt;
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
   <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/3991580a5673f5f0219a4e8835a5f973eeccf9a7</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/3991580a5673f5f0219a4e8835a5f973eeccf9a7" />
+    <ns0:id>tag:github.com,2008:Grit::Commit/88d172eb9a172e885bcbd0fe7c097900f8fe52f9</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/88d172eb9a172e885bcbd0fe7c097900f8fe52f9" />
     <ns0:title>
-        feat(unitree-g1): add G1-23 embodiment support (#4651)
+        feat(optim): add opt-in fused Adam/AdamW flag (#5023)
     </ns0:title>
-    <ns0:updated>2026-10-19T20:56:56Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/649976?s=30&amp;v=4" />
+    <ns0:updated>2026-10-21T10:11:39Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/137322177?s=30&amp;v=4" />
     <ns0:author>
-      <ns0:name>davidwei</ns0:name>
-      <ns0:uri>https://github.com/davidwei</ns0:uri>
+      <ns0:name>tc-huang</ns0:name>
+      <ns0:uri>https://github.com/tc-huang</ns0:uri>
     </ns0:author>
     <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(unitree-g1): add G1-23 embodiment support (#4651)
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(optim): add opt-in fused Adam/AdamW flag (#5023)
 
-Introduce explicit G1-23 and G1-29 embodiment definitions while retaining the
-29-slot DDS transport layout used by Unitree.
+Fused Adam/AdamW kernels can shorten the optimizer step of large
+policies, but there was no way to request them: policy presets
+replace --optimizer.* and AdamWConfig had no fused field.
 
-- Select body and arm joint mappings from the configured embodiment.
-- Keep sparse G1-23 joints at their original DDS indices and clear inactive
-  command slots.
-- Preserve the complete transport feedback needed by GR00T and Holosoma
-  controllers.
-- Share one gain table by joint name across both variants and zero gains for
-  absent joints.
-- Allow GR00T and Holosoma locomotion on G1-23 while rejecting the 29-DoF SONIC
-  controller.
-- Defer G1-23 MuJoCo simulation until a native model is available.
-- Generate action and observation features from the active joint set.
-- Preserve existing G1-29 defaults and the legacy low-state import.
-- Validate transport vectors and unsupported embodiment combinations.
-- Document embodiment selection, controller compatibility, and sparse slot
-  behavior.
-- Add regression coverage for configuration, transport mapping, connection,
-  reset, and publication paths.
+Add fused to AdamConfig and AdamWConfig and expose it as
+optimizer_fused on act, groot, pi0, pi0.5, pi0_fast and smolvla.
+The default stays None so PyTorch keeps choosing its implementation
+(foreach on CUDA); a False default would force the slower for-loop
+path instead.
 
-Software test plan:
-- Run `uv run --extra test pytest tests/robots/test_unitree_g1.py
-  tests/robots/test_unitree_g1_embodiments.py -q`.
-- Confirm G1-23 uses sparse wire indices, clears inactive command slots, and
-  retains all 29 feedback slots for controller input.
-- Confirm G1-29 remains the default and preserves its existing feature and
-  transport behavior.
-- Confirm unsupported G1-23 combinations reject SONIC, gravity compensation,
-  and MuJoCo simulation before connecting.
-- Run Ruff over all changed Python files and run `git diff --check`.
+A resumed run rebuilds its optimizer from the checkpoint&amp;#39;s config, so
+optimizer_fused has no effect there, as the docs now say. Overriding
+--optimizer.fused between None and a bool on resume fails the
+optimizer state load.
 
-Physical hardware validation completed:
-- Secured a physical G1-23 with a suspension or tether, a spotter, and an
-  immediately accessible emergency stop.
-- Paired the standard Unitree wireless remote. Homunculus or arm exoskeleton
-  controllers were not required for this locomotion-only test.
-- Started `lerobot-teleoperate` with `--robot.embodiment=g1_23`, hardware
-  transport, and `HolosomaLocomotionController`, initially keeping all sticks
-  centered.
-- Verified connection and stable zero-input behavior, then applied small
-  `remote.lx`, `remote.ly`, and `remote.rx` commands one axis at a time.
-- Verified the 23 physical joints responded as expected, the six G1-29-only DDS
-  command slots remained inactive, and disconnect returned the robot to a safe
-  state.
-
-Validation completed:
-- 75 focused Unitree G1 tests passed.
-- Ruff and git diff checks passed.&lt;/pre&gt;
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
   <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/7abbc995ce478efff90ece53c9c759cb8854d241</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7abbc995ce478efff90ece53c9c759cb8854d241" />
+    <ns0:id>tag:github.com,2008:Grit::Commit/33e0b9e3c9e2f230b61af8c90d42b90be4667844</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/33e0b9e3c9e2f230b61af8c90d42b90be4667844" />
     <ns0:title>
-        fix(unitree-g1): correctly clear the SDK dq field for position comman…
+        fix: accept local dataset names in recording sanity check (#4674)
     </ns0:title>
-    <ns0:updated>2026-10-19T19:22:42Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/649976?s=30&amp;v=4" />
+    <ns0:updated>2026-10-21T10:09:07Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/64767361?s=30&amp;v=4" />
     <ns0:author>
-      <ns0:name>davidwei</ns0:name>
-      <ns0:uri>https://github.com/davidwei</ns0:uri>
+      <ns0:name>Hashim1999164</ns0:name>
+      <ns0:uri>https://github.com/Hashim1999164</ns0:uri>
     </ns0:author>
     <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(unitree-g1): correctly clear the SDK dq field for position commands (#4664)
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix: accept local dataset names in recording sanity check (#4674)
 
-* fix(unitree_g1): clear the SDK dq field for position commands
+sanity_check_dataset_name unpacked repo_id.split(&amp;quot;/&amp;quot;) into two parts,
+so a local dataset name with no namespace crashed recording. Use the
+last path segment so Hub IDs and local names both work.
 
-* test(unitree_g1): verify serialized motor command fields&lt;/pre&gt;
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
   <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/b192c02dda8d7fa8560bfc15f9e8dae0f714e26e</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b192c02dda8d7fa8560bfc15f9e8dae0f714e26e" />
+    <ns0:id>tag:github.com,2008:Grit::Commit/463202b1b005e8802343a282661eb26ef27a160c</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/463202b1b005e8802343a282661eb26ef27a160c" />
     <ns0:title>
-        Fix: fix phone teleop enable signal, clarify the controls (#4730)
+        fix(utils): restore seeded context RNG state on exceptions (#4707)
     </ns0:title>
-    <ns0:updated>2026-10-19T14:44:05Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/60154720?s=30&amp;v=4" />
+    <ns0:updated>2026-10-21T09:37:40Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/59379458?s=30&amp;v=4" />
     <ns0:author>
-      <ns0:name>cetiennec</ns0:name>
-      <ns0:uri>https://github.com/cetiennec</ns0:uri>
+      <ns0:name>dipeshbabu</ns0:name>
+      <ns0:uri>https://github.com/dipeshbabu</ns0:uri>
     </ns0:author>
     <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix: fix phone teleop enable signal, clarify the controls (#4730)
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(utils): restore seeded context RNG state on exceptions (#4707)
 
-* fix(phone): latch Mobile I/O pin state across feedback packets and make the example runnable&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/326484d77d2ac90379e84222dfad21fe4acf1f71</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/326484d77d2ac90379e84222dfad21fe4acf1f71" />
-    <ns0:title>
-        refactor(motors): share the hand calibration and the motor setup of s…
-    </ns0:title>
-    <ns0:updated>2026-10-19T12:06:56Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/9554146?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>nicolas-rabault</ns0:name>
-      <ns0:uri>https://github.com/nicolas-rabault</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(motors): share the hand calibration and the motor setup of serial-bus devices (#4867)
+* fix(utils): restore seeded context RNG state on exceptions
 
-* refactor(motors): share the hand calibration and the motor setup of serial-bus devices
+Signed-off-by: Dipesh Babu &amp;lt;dipeshmahato@outlook.com&amp;gt;
 
-SerialMotorsBus.record_calibration() runs the calibration the SO, Koch and
-LeKiwi arms each reimplemented, and setup_motors() the setup loop of every
-device on the bus. Robot and Teleoperator offer the calibration file of an id
-through _keep_calibration_file(), which writes it with the torque off so that
-Feetech motors store it. Full-turn motors span resolution - 1 instead of 4095.
-Calibration values and file format are unchanged.
-
-* refactor(motors): check the calibration selection and write both directions
-
-- record_calibration() refuses unknown motors, and full-turn or inverted motors outside
-  the motors to calibrate, before touching any motor.
-- It writes the Drive_Mode register of every selected motor that has one, inverted or
-  not, so a motor left inverted cannot disagree with the calibration recorded.
-- Its docstring states the capabilities it needs and its side effects, and its prompt
-  names the joints to move.
-- The Koch arms log the saved calibration again, and the tutorial calibrates its 5-DoF
-  arm in steps, with no full-turn joint.
-- Tests cover the Drive_Mode writes and their order, the refused selections, the motor
-  setup order, LeKiwi&amp;#39;s arm and wheels, and the calibration file kept or not, for robots
-  and teleoperators.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/146d8474932c8b566717eb2738ba459337ab71c4</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/146d8474932c8b566717eb2738ba459337ab71c4" />
-    <ns0:title>
-        refactor(motors): one rustypot-backed SerialMotorsBus for Feetech and…
-    </ns0:title>
-    <ns0:updated>2026-10-16T11:55:57Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/9554146?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>nicolas-rabault</ns0:name>
-      <ns0:uri>https://github.com/nicolas-rabault</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(motors): one rustypot-backed SerialMotorsBus for Feetech and Dynamixel (#4672)
-
-* refactor(motors): drive the Feetech and Dynamixel buses through rustypot
-
-The Feetech and Dynamixel buses reached the wire through the vendors&amp;#39;
-pure-Python SDKs, behind a layer shaped like them (port and packet
-handlers, group sync readers and writers), and carried their own control
-tables: addresses, sizes, sign bits, resolutions, baud rate codes and
-model numbers transcribed from the vendor manuals, plus the code applying
-them -- byte order, sign encoding, the ID sweep and its timeout.
-
-rustypot implements both protocols in Rust, releases the GIL for the
-whole transaction, and states and applies those facts itself. Each family
-now names its servo definitions in `_servos()`, the rustypot controller
-classes. The base bus resolves a model to one of them (rustypot spells
-XL330M288 where LeRobot writes xl330-m288) and a register name by
-lowering it, and on connect opens a `rustypot.Bus` with each motor&amp;#39;s
-definition. Models of one family therefore share a port -- STS and SCS,
-XL430 and XL330 -- each read and written in its own byte order and sign
-encoding. Retries, sync reads on servos without Sync Read, and the bus
-scan are rustypot&amp;#39;s as well.
-
-Feetech&amp;#39;s `protocol_version` goes: STS and SCS differ in byte order, in
-whether they answer Sync Read and in which registers they have, and the
-definition knows all three. The handshake accepts any model number a
-definition covers, `scan_port()` sweeps the bus itself in place of
-`broadcast_ping()`, and `setup_motor()` reaches a new motor at whatever
-id it answers through the motor&amp;#39;s own definition. `disconnect()` is safe
-on a closed bus and releases the port even when disabling torque fails.
-
-Gone: both tables.py, encoding_utils.py, the SDK-shaped protocols, the
-`MotorsBus` alias, and deepdiff from the motor extras. pyserial stays in
-them for `lerobot-find-port`. rustypot 1.10.0 is the first release that
-carries the servo metadata and the multi-definition `Bus`.
-
-The devices that relied on the old surface follow: HopeJR&amp;#39;s hand drops
-`protocol_version` and sync-reads its SCS servos, OpenArm Mini asks the
-bus for the motor resolution, and LeKiwi clamps wheel speeds to the
-sign-magnitude range of Goal_Velocity.
-
-Tests replace the byte-level SDK mocks with an in-memory `rustypot.Bus`
-keyed by motor id and register name. The IO helpers shared by both
-families are tested once, on the base bus.
-
-* docs: document the rustypot-backed motor buses
-
-The install steps stop sending users to the vendor SDKs, the hardware
-guide lists the servos rustypot defines and points new models at rustypot
-rather than at control tables that no longer exist, and the API page
-documents SerialMotorsBus and both family buses.
-
-* build(deps): rustypot 1.11.0, and one serial-motors extra
-
-rustypot 1.11.0 finds a servo model by name with its exact model number,
-states what differs between families (homing offset sign, operating mode
-values, factory baud rate, whether the EEPROM has a lock), turns the
-torque of a whole bus on or off, scans with a broadcast ping, and sets a
-new motor&amp;#39;s id and baud rate. LeRobot&amp;#39;s bus is about to rely on all of it.
-
-One bus class will drive both families, so there is one extra to point
-users at: serial-motors installs rustypot and pyserial. feetech and
-dynamixel stay, as the names the setup guides use, and now alias it.
-
-* refactor(motors): one SerialMotorsBus for Feetech and Dynamixel
-
-FeetechMotorsBus and DynamixelMotorsBus had become a list of rustypot
-classes plus a handful of facts about each family: which way the homing
-offset goes, which operating mode value means position control, whether
-the drive mode is a register, which acceleration and firmware registers
-exist, and the Feetech lock. rustypot 1.11.0 states those facts in its
-servo definitions, so SerialMotorsBus is now the one, concrete bus:
-
-- each motor&amp;#39;s model is looked up with rustypot.find_model, which gives
-  its exact model number and its definition. The handshake and the motor
-  search check that exact number again, so an SM8512BL set up as an
-  sts3215 is refused, though both share a control table;
-- calibration reads and writes the homing offset where the register
-  exists (not on the SCS), compares the drive mode where it is a register
-  (Dynamixel) and applies it in software elsewhere (Feetech), and centres
-  a joint with the homing offset sign of the definition;
-- the firmware check runs on the motors that report a firmware major and
-  minor version (Feetech); configure_motors writes the acceleration
-  registers a motor has; set_operating_mode(&amp;quot;position&amp;quot;) writes each
-  motor&amp;#39;s own value for a mode named the same on every family;
-- torque goes on or off through rustypot&amp;#39;s Bus.set_torque, which tries
-  every motor, moves the Feetech lock with the torque, and reports the
-  motors that failed: one that does not answer no longer leaves the
-  motors after it under torque, and the error names it;
-- setup_motor has rustypot change the id and the baud rate (torque off
-  and lock open first), with no reopening of the bus, and puts the port
-  back at the default rate even when that fails. The motor search tries
-  the default baud rate, then the factory one, then the rest in a fixed
-  order, with a broadcast ping where the servo answers one, which covers
-  a USB adapter&amp;#39;s latency once. scan_port takes the model it looks for,
-  releases the port when a scan fails, and reports ids only;
-- a status packet is waited for 50 ms, not a second, so one lost reply
-  costs a 30 Hz loop a tick (the SDKs waited about 35 to 50 ms).
-
-FeetechMotorsBus and DynamixelMotorsBus stay for one release as
-deprecated aliases (FeetechMotorsBus still accepts protocol_version), and
-so do their OperatingMode and TorqueMode enums. A missing rustypot points
-to the serial-motors extra. Resetting the calibration of an SCS no longer
-writes a homing offset it does not have. On Dynamixel, is_calibrated no
-longer compares the id stored in the calibration file, like Feetech.
-
-* refactor(robots,teleoperators): drive the motors through SerialMotorsBus
-
-The SO, Koch, OMX, LeKiwi, HopeJR and OpenArm Mini devices built a
-FeetechMotorsBus or a DynamixelMotorsBus and wrote operating modes as the
-value of a family&amp;#39;s enum. They now build a SerialMotorsBus and name the
-mode: set_operating_mode(&amp;quot;position&amp;quot;), &amp;quot;extended_position&amp;quot;, &amp;quot;velocity&amp;quot;, or
-&amp;quot;current_based_position&amp;quot; for the Dynamixel grippers. DriveMode comes from
-lerobot.motors.
-
-* docs: one SerialMotorsBus for Feetech and Dynamixel
-
-The hardware guide builds its example robot on SerialMotorsBus, names
-operating modes, and says what the definitions settle between families.
-The API page documents SerialMotorsBus and DriveMode, and mentions the
-two family classes as deprecated aliases.
-
-* refactor(motors): fold the I/O helpers into their callers, drop scan_port
-
-With the torque and the motor setup handled by rustypot, _write,
-_sync_read and _sync_write each had a single caller: write, sync_read and
-sync_write now talk to the rustypot bus themselves. _read stays, shared by
-read and ping, and always raises; its raise_on_error and err_msg
-parameters, which only ping used, go, and ping catches the error instead
-of asking not to get one. The Feetech firmware check reads the major and
-minor versions with one sync read each rather than two reads per motor.
-
-scan_port goes: nothing in LeRobot calls it, and rustypot&amp;#39;s Bus.scan and
-Bus.broadcast_scan do the same for anyone who needs it.
-
-The tests that went through the private helpers now go through read,
-write, sync_read and sync_write against the in-memory bus.
-
-* fix(motors): restore the port after a failed motor search, check a set-up motor
-
-setup_motor started its cleanup only after finding the motor. The search
-walks the baud rates, so a motor that was not there left the port on the
-last rate tried, and anything done next on the same bus went unanswered.
-The search now runs inside the try whose finally puts the port back at the
-default rate.
-
-A motor answers the id and baud rate writes before they take effect, and
-nothing checked that they did. setup_motor now reads the model number back
-at the new id and the default baud rate, and raises if the motor does not
-answer there with the model it is configured as.
-
-* refactor(motors): check selections before writing, raise on sync-read errors, document the bus
-
-- set_operating_mode() and set_half_turn_homings() check every selected motor before
-  writing any register, so an unsupported motor leaves no partial configuration.
-- sync_read() raises on a motor&amp;#39;s error status, as read() does.
-- Register names normalise whatever their case; set_baudrate() and ping() need a
-  connected bus; resolution() raises for a model that counts no steps; the firmware
-  check compares the motors of each servo definition on their own.
-- Each model is looked up once, and the bus opens rustypot&amp;#39;s Bus through _open_bus()
-  and reaches it, typed, through _connected_bus.
-- Errors name motors by motor ID; docstrings follow the documentation format and its
-  cross-references. The hardware tutorial and the motor API page gain the serial-motors
-  extra, the SCS limits, a migration note and the DriveMode members.
-- Tests cover write and sync-read error statuses, sync writes no motor answers,
-  calibrated commands and calibration mismatches of each family, through bus helpers
-  shared by the family suites.
-
-* fix(motors): raise when a motor refuses an access, not on an alarm
-
-A status byte also carries conditions a motor reports while it carries the access out:
-a Feetech status only reports alarms (input voltage, temperature, current, load), and on
-protocol 2 bit 7 is the alert of a latched hardware fault. Raising on them stopped a
-control loop on a gripper squeezing an object, and made ping() miss an overloaded motor.
-
-read(), write(), sync_read() and ping() now fail only when the status says the motor
-refused the access: an error number on protocol 2. The protocol-1 servos LeRobot drives
-are Feetech ones, which never refuse through their status.
-
-* fix(motors): ask the servo definition whether a status refuses the access
-
-rustypot 1.13.1&amp;#39;s ServoDefinition.refuses tells a refusal from an alarm for every
-servo it defines, so the bus no longer keeps its own copy of the rule, which assumed
-every protocol-1 servo is a Feetech one. The serial-motors extra now needs rustypot
-1.13.1, and the tutorial links rustypot&amp;#39;s servo guide at that version.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/297774fca4e3ad0aa34e7425fbf937111637e77b</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/297774fca4e3ad0aa34e7425fbf937111637e77b" />
-    <ns0:title>
-        Steerable external vlm (#4675)
-    </ns0:title>
-    <ns0:updated>2026-10-15T12:54:04Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/39954772?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>molbap</ns0:name>
-      <ns0:uri>https://github.com/molbap</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Steerable external vlm (#4675)
-
-* let it be
-
-* add planner class
-
-* add the vocabulary of VLA
-
-* CI
-
-* CI + clearer docs
-
-* add some minor test
-
-* clear old actions
-
-* config for secrets
-
-* update + address
-
-* docs and tests
-
-* fix(rollout): soften planner vlm answer parsing
+* test(utils): cover Gaussian caches and failed context entry
 
 ---------
 
-Co-authored-by: Steven Palma &amp;lt;steven.palma@huggingface.co&amp;gt;
-Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
+Signed-off-by: Dipesh Babu &amp;lt;dipeshmahato@outlook.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
   <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/190a08649a4546e28a19d6177a77d0b2ae56e4be</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/190a08649a4546e28a19d6177a77d0b2ae56e4be" />
+    <ns0:id>tag:github.com,2008:Grit::Commit/1d927d1eb60bc9b6d30fb4edfa17638f1c755be7</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1d927d1eb60bc9b6d30fb4edfa17638f1c755be7" />
     <ns0:title>
-        perf(multi_task_dit): compile the vision encoder and DiT, dedup task …
+        fix(utils): preserve Python Gaussian RNG cache in checkpoints (#4705)
     </ns0:title>
-    <ns0:updated>2026-10-15T12:26:10Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/63133702?s=30&amp;v=4" />
+    <ns0:updated>2026-10-21T09:31:11Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/59379458?s=30&amp;v=4" />
     <ns0:author>
-      <ns0:name>brysonjones</ns0:name>
-      <ns0:uri>https://github.com/brysonjones</ns0:uri>
+      <ns0:name>dipeshbabu</ns0:name>
+      <ns0:uri>https://github.com/dipeshbabu</ns0:uri>
     </ns0:author>
     <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(multi_task_dit): compile the vision encoder and DiT, dedup task strings in the processor (#4621)
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(utils): preserve Python Gaussian RNG cache in checkpoints (#4705)
 
-* perf(multi_task_dit): compile the vision tower and DiT, dedup task strings in the processor
-
-Add the opt-in compile_model / compile_mode knobs the other policies expose. When
-enabled, torch.compile wraps the CLIP vision model&amp;#39;s forward and the DiT block loop
-(bound methods, so parameters and state_dict keys are unchanged) with dynamic=False:
-a dynamic-shape recompile at the epoch&amp;#39;s partial last batch made full-batch steps 4%
-slower, so each batch shape compiles once.
-
-Replace the generic tokenizer step with DedupTaskTokenizerProcessorStep, which
-tokenizes each distinct task string once (cached across batches), emits tokens and
-mask for the distinct strings plus observation.language.row_index, and lets the
-observation encoder run the text tower on the distinct rows and gather back.
-
-Measured on one A100 80GB, bf16, effective batch 320, steady state:
-LIBERO 206 -&amp;gt; 253 smp/s, svla 176 -&amp;gt; 215, RoboCasa 147 -&amp;gt; 193; peak memory down
-about 22% on each. Host prep per micro-step on LIBERO 36 -&amp;gt; 3 ms. README gains a
-&amp;quot;Training throughput&amp;quot; section recommending --policy.compile_model=true on CUDA.
-
-* refactor(multi_task_dit): compile forward instead of calling inner forwards directly
-
-Calling the compiled `self.model.forward` (and the DiT&amp;#39;s `_run_blocks`) bypassed
-`nn.Module.__call__`, so hooks on the CLIP vision model, e.g. FSDP2&amp;#39;s
-unshard/reshard, never fired, with or without compile. Keep both forwards as on
-main and, when compile_model is set, compile the module&amp;#39;s forward instead, as
-smolvla and pi05 do. The class&amp;#39;s forward is compiled and bound to the instance,
-so a deepcopy rebinds it to the copy instead of running the original&amp;#39;s weights.
-
-Tests: hooks on the CLIP model fire with compile off and on; state_dict keys
-match with and without compile; a deepcopy of a compiled policy runs its own
-weights and saves/reloads compiled or eager with the same loss.
-
-* fix(multi_task_dit): satisfy mypy now that main type-checks policies
-
-Mark the compiled-forward assignments with type: ignore[method-assign], as pi0, pi05,
-pi0_fast and smolvla do for the same line, and import RobotObservation from
-lerobot.lerobot_types, which lerobot.processor.pipeline no longer re-exports.
-
-* refactor(multi_task_dit): compile forward with the same pattern as pi0, pi05 and smolvla
-
-Replace the compile_forward helper with self.forward = torch.compile(self.forward, ...),
-the pattern the other policies use. The helper only differed in surviving copy.deepcopy,
-which no LeRobot path performs: EMA clones parameter tensors and swaps them into the same
-policy in place. The deepcopy test becomes a compiled save/reload parity test.&lt;/pre&gt;
+Signed-off-by: Dipesh Babu &amp;lt;dipeshmahato@outlook.com&amp;gt;
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
   <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/8975047fbb76e7fef3f482988ceccc17e2102a90</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8975047fbb76e7fef3f482988ceccc17e2102a90" />
+    <ns0:id>tag:github.com,2008:Grit::Commit/c09bdd9d9f8df81ddf9272ff5aebc5686ce6e28b</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c09bdd9d9f8df81ddf9272ff5aebc5686ce6e28b" />
     <ns0:title>
-        fix(streaming): release HTTP response bodies without waiting for cycl…
+        fix(datasets): report a 29.97 fps stream rate (#4810)
     </ns0:title>
-    <ns0:updated>2026-10-15T10:19:30Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
+    <ns0:updated>2026-10-21T09:30:55Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/33847880?s=30&amp;v=4" />
     <ns0:author>
-      <ns0:name>pkooij</ns0:name>
-      <ns0:uri>https://github.com/pkooij</ns0:uri>
+      <ns0:name>SashaMIT</ns0:name>
+      <ns0:uri>https://github.com/SashaMIT</ns0:uri>
     </ns0:author>
     <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(streaming): release HTTP response bodies without waiting for cyclic GC (#4903)
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): report a 29.97 fps stream rate (#4810)
 
-* fix(streaming): release HTTP range bodies independently of cyclic GC
+* Report a 29.97 fps stream as 29.97 instead of 29.
 
-* build: allow tested PyTorch and TorchCodec runtimes
+int() on the frame-rate rational truncates 30000/1001. An exact 30 fps stream stays the integer 30.
 
-* build: match Linux TorchCodec to the PyTorch CUDA index
+* test(datasets): pin an exact 30 fps stream as an int
 
-* build: use CPU TorchCodec wheels for dataset decoding
-
-* fix(deps): restore original torch runtime upper bounds
-
-* docs(deps): preserve torchcodec compatibility comment&lt;/pre&gt;
+The 29.97 case stays a float. This locks the integer path next to it.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
   <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/53feaef37b67e8f4c23b6953e880ff535e39d6fe</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/53feaef37b67e8f4c23b6953e880ff535e39d6fe" />
+    <ns0:id>tag:github.com,2008:Grit::Commit/1d9b1093bc8e92a2bb7284c66cac0edc613d033b</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1d9b1093bc8e92a2bb7284c66cac0edc613d033b" />
     <ns0:title>
-        refactor(streaming): follow the import conventions in the streaming m…
+        fix(datasets): honour quantile_list in get_feature_stats (#4796)
     </ns0:title>
-    <ns0:updated>2026-10-14T10:40:40Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
+    <ns0:updated>2026-10-21T08:52:49Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/51020382?s=30&amp;v=4" />
     <ns0:author>
-      <ns0:name>pkooij</ns0:name>
-      <ns0:uri>https://github.com/pkooij</ns0:uri>
+      <ns0:name>MohammadHijjawi97</ns0:name>
+      <ns0:uri>https://github.com/MohammadHijjawi97</ns0:uri>
     </ns0:author>
     <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(streaming): follow the import conventions in the streaming modules (#4865)
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): honour quantile_list in get_feature_stats (#4796)
 
-Follow-up to #3917, applying the AGENTS.md import rule:
-
-- Sibling imports inside `lerobot.streaming` and `datasets/streaming_sidecar.py` are relative.
-- `SidecarSpec` (and `SIDECAR_SCHEMA_VERSION`) move from `streaming/sidecar.py` to
-  `streaming/sidecar_utils.py`, breaking the `manifest` &amp;lt;-&amp;gt; `sidecar` import cycle that forced a
-  function-level import in `EpisodeVideoManifest.validate_file_sidecar`. `sidecar.py` re-exports
-  `SidecarSpec`, so `from lerobot.streaming.sidecar import SidecarSpec` keeps working.
-- Tests import at module level instead of inside test functions.
-- `av` and `torchcodec` stay imported at use in `episode_cache.py`, now with the reason in a
-  comment: `lerobot.streaming` must import without `lerobot.utils`&amp;#39; optional-dependency probes
-  (test_streaming_core_imports), and torchcodec can be installed yet fail to load.
-
-No behaviour change.&lt;/pre&gt;
+get_feature_stats accepted a quantile_list but only used it for inputs
+with fewer than two samples. For every other input it built
+RunningQuantileStats() with the default quantiles, so a custom list was
+silently replaced by q01/q10/q50/q90/q99. Pass the list through to the
+running accumulator.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
   <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/b09c459a031fb9e42d583ee9601fc74e59038580</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b09c459a031fb9e42d583ee9601fc74e59038580" />
+    <ns0:id>tag:github.com,2008:Grit::Commit/a554e5ef2f018dc5b2c5a79f3c0a3565688afa17</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/a554e5ef2f018dc5b2c5a79f3c0a3565688afa17" />
     <ns0:title>
-        docs: add lerobot_camera_paxini to third-party sensors (#4606)
+        fix(datasets): weight sampled image stats by episode length (#4949)
     </ns0:title>
-    <ns0:updated>2026-10-14T09:24:02Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/50727655?s=30&amp;v=4" />
+    <ns0:updated>2026-10-21T08:49:51Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/211792885?s=30&amp;v=4" />
     <ns0:author>
-      <ns0:name>Jingyi-Z</ns0:name>
-      <ns0:uri>https://github.com/Jingyi-Z</ns0:uri>
+      <ns0:name>AaravMehta-07</ns0:name>
+      <ns0:uri>https://github.com/AaravMehta-07</ns0:uri>
     </ns0:author>
     <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: add lerobot_camera_paxini to third-party sensors (#4606)&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): weight sampled image stats by episode length (#4949)
+
+Co-authored-by: Aarav &amp;lt;211792885+AaravMehta-07@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
   <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/8ce006c20e644612b2468e93bb6ab29c7f60eb68</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8ce006c20e644612b2468e93bb6ab29c7f60eb68" />
+    <ns0:id>tag:github.com,2008:Grit::Commit/413d55031aa6002332b782c0f655938dc9953858</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/413d55031aa6002332b782c0f655938dc9953858" />
     <ns0:title>
-        feat(g1): support SONIC remote inference (#4955)
+        fix(utils): retain NumPy Gaussian RNG cache precision (#4706)
     </ns0:title>
-    <ns0:updated>2026-10-14T09:21:33Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:updated>2026-10-21T08:49:01Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/59379458?s=30&amp;v=4" />
     <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+      <ns0:name>dipeshbabu</ns0:name>
+      <ns0:uri>https://github.com/dipeshbabu</ns0:uri>
     </ns0:author>
     <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(g1): support SONIC remote inference (#4955)
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(utils): retain NumPy Gaussian RNG cache precision (#4706)
 
-Unitree G1 with SonicWholeBodyController declares the rollout hold
-contract: re-sending the last complete 64-D motion token keeps the
-onboard decoder balancing, so remote rollout can retain it while waiting
-for the network. The token echo now uses the action keys, so the hold can
-replay the observed token before the first policy result, and that echo
-is the decoder&amp;#39;s neutral token rather than zeros (which decode to a
-bent-over pose).
-
-Add the nepyope/sonic_walk server profile and the hardware-validated G1
-recipe. Locomotion controllers and raw joint control stay unsupported.
-
-Salvaged from #4934; the non-terminal /stop and the homing-key filter
-from that PR are intentionally left out.
-
-Co-authored-by: Martino Russi &amp;lt;nopyeps@gmail.com&amp;gt;&lt;/pre&gt;
+Signed-off-by: Dipesh Babu &amp;lt;dipeshmahato@outlook.com&amp;gt;
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
   <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/61373ee1c848f4e857b324de80872620d6bb7bb9</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/61373ee1c848f4e857b324de80872620d6bb7bb9" />
+    <ns0:id>tag:github.com,2008:Grit::Commit/9f263752672ad297959fe4eab3186746933bd6b4</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9f263752672ad297959fe4eab3186746933bd6b4" />
     <ns0:title>
-        docs(rollout): improve remote inference docs (#4965)
+        fix(processor): retain device index across pipeline serialization (#4…
     </ns0:title>
-    <ns0:updated>2026-10-14T09:04:40Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:updated>2026-10-21T08:48:35Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/210794222?s=30&amp;v=4" />
     <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+      <ns0:name>JonnyFaeth</ns0:name>
+      <ns0:uri>https://github.com/JonnyFaeth</ns0:uri>
     </ns0:author>
     <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(rollout): improve remote inference docs (#4965)
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(processor): retain device index across pipeline serialization (#4856)
 
-* docs(rollout): improve remote inference docs
-
-* docs(rollout): update remote docs&lt;/pre&gt;
+Co-authored-by: Jonathan D Faeth &amp;lt;210794222+JonnyFaeth@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
   <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/ae2b57f12223c8c5184fcd814eb63cd9ce7de203</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ae2b57f12223c8c5184fcd814eb63cd9ce7de203" />
+    <ns0:id>tag:github.com,2008:Grit::Commit/4c17b1bac4464bd11e51bd6b4eb61f8f88c09ecc</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4c17b1bac4464bd11e51bd6b4eb61f8f88c09ecc" />
     <ns0:title>
-        feat(rollout): add remote inference engine (#4937)
+        feat(dataset-viz): show the language task in the Rerun viewer (#4322)
     </ns0:title>
-    <ns0:updated>2026-10-13T14:07:49Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:updated>2026-10-21T08:47:11Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/18168681?s=30&amp;v=4" />
     <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+      <ns0:name>zuoxingdong</ns0:name>
+      <ns0:uri>https://github.com/zuoxingdong</ns0:uri>
     </ns0:author>
     <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(rollout): add remote inference engine (#4937)
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(dataset-viz): show the language task in the Rerun viewer (#4322)
 
-* feat(rollout): add remote inference draft
+* feat(dataset-viz): show the language task in the Rerun viewer
 
-* feat(remote-inference): integrate validated rollout and retire legacy async
+The Rerun viewer logs images, action, state, done, reward and success, but never
+the natural-language task. That leaves the one field a VLA is actually
+conditioned on as the only one you cannot see while inspecting a dataset, which
+makes it easy to miss wrong or ambiguous instructions.
 
-* docs(rollout): policy support study + hf space goal
+Log it as a Markdown TextDocument under a `task` entity, re-logged only when the
+string changes, so scrubbing shows the instruction in effect at that point
+instead of writing one entry per frame.
 
-* documenting progress
+The blueprint puts it in a thin banner above the existing grid
+(`row_shares=[1, 9]`) rather than giving it a grid cell of its own: it is a
+single line of text, so a full cell would waste space and break up the camera
+layout.
 
-* feat(rollout): prepare for review
+Guarded by `if &amp;quot;task&amp;quot; in batch`, so datasets without a task are unaffected.
 
-* refactor(rollout): address review comments
+* Remove TASK_ENTITY constant from dataset visualization
 
-* refactor(rollout): address review comments 2
+Removed TASK_ENTITY constant definition from the script.
 
-* refacotr(rollout): address review comments 3
+* Add TASK constant to constants.py
 
-* refactor(rollout): address review veredit
-
-* fix(ci): rollout stages
-
-* fix(ci): inference rollout
-
-* fix(ci): rollout timer
-
-* refactor(rollout): address second review 1
-
-* refactor(rollout): last changes before HW validation
-
-* docs(rollout): add documents for remote tracking
-
-* refactor(rollout): different improvements for remote
-
-* docs(rollout): log progress remote
-
-* chore(rollout): integrate minor review additions
-
-* docs(rollout): update main document of remote inference
-
-* chore(test): reduce test amplitude
-
-* chore(test): reduce tests even more
-
-* chore(test): reduce tests remote inference
-
-* refactor(rollout): clean entry-point scripts for remote inference
-
-* chore(rolllout): document tests remote inference
-
-* chore(docs): keep track of progress
-
-* continue last feedback
-
-* docs(remote-inference): reconcile completed validation checklist
-
-* docs(rollout): add readme to remote inference module
-
-* docs(rollout): precomit
-
-* refactor(rollout): split hold semantics + trim diagnosis + imports and docs
-
-* chore(rollout): adress the clean-up review 1
-
-* fix(test): choose only PreTrained subclasses
-
-* docs(rollout): fix more imports
-
-* refactor(rollout): restructure for lib-use like
-
-* fix(tests): importing mess in tests&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/1fdc1ae17001c9abfaaebf0b211cce1247d21fb1</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1fdc1ae17001c9abfaaebf0b211cce1247d21fb1" />
-    <ns0:title>
-        fix(hub): mark PEFT policies as adapters of their base model in the m…
-    </ns0:title>
-    <ns0:updated>2026-10-13T13:16:13Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(hub): mark PEFT policies as adapters of their base model in the model card (#4952)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/81c6c0ae99b09097ce9ffbd5da1f04b15c93ba8e</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/81c6c0ae99b09097ce9ffbd5da1f04b15c93ba8e" />
-    <ns0:title>
-        chore(dependencies): updating lower bounds on gym-pusht and gym-aloha…
-    </ns0:title>
-    <ns0:updated>2026-10-13T12:04:12Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29127300?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>CarolinePascal</ns0:name>
-      <ns0:uri>https://github.com/CarolinePascal</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): updating lower bounds on gym-pusht and gym-aloha dependencies (#4950)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/11c2480d5c79734b768da860b2eb2651941efb3c</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/11c2480d5c79734b768da860b2eb2651941efb3c" />
-    <ns0:title>
-        fix(motors): keep Feetech half-turn homing offsets representable (#4940)
-    </ns0:title>
-    <ns0:updated>2026-10-13T08:45:35Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/60154720?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>cetiennec</ns0:name>
-      <ns0:uri>https://github.com/cetiennec</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(motors): keep Feetech half-turn homing offsets representable (#4940)
-
-* fix(motors): keep Feetech half-turn homing offsets representable
-
-* Apply suggestion from @nicolas-rabault
-
-Co-authored-by: Nicolas Rabault &amp;lt;rabault.nicolas@gmail.com&amp;gt;
-Signed-off-by: Etienne Chassaing &amp;lt;60154720+cetiennec@users.noreply.github.com&amp;gt;
+* Add TASK constant and update task logging
 
 ---------
 
-Signed-off-by: Etienne Chassaing &amp;lt;60154720+cetiennec@users.noreply.github.com&amp;gt;
-Co-authored-by: Nicolas Rabault &amp;lt;rabault.nicolas@gmail.com&amp;gt;&lt;/pre&gt;
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
   <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/24f15b92b556cb861ca65e989462e23505a701bd</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/24f15b92b556cb861ca65e989462e23505a701bd" />
+    <ns0:id>tag:github.com,2008:Grit::Commit/b4ecd266a02274c35830fef876e077b6881eb00b</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b4ecd266a02274c35830fef876e077b6881eb00b" />
     <ns0:title>
-        perf(datasets): optimize Lance RGB batch decoding (#4804)
+        fix(scripts): don't crash lerobot-info when a package fails to import…
     </ns0:title>
-    <ns0:updated>2026-10-12T14:46:48Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/2283778?s=30&amp;v=4" />
+    <ns0:updated>2026-10-21T08:44:41Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/64252217?s=30&amp;v=4" />
     <ns0:author>
-      <ns0:name>yanghua</ns0:name>
-      <ns0:uri>https://github.com/yanghua</ns0:uri>
+      <ns0:name>LinCanNerd</ns0:name>
+      <ns0:uri>https://github.com/LinCanNerd</ns0:uri>
     </ns0:author>
     <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(datasets): optimize Lance RGB batch decoding (#4804)
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(scripts): don&amp;#39;t crash lerobot-info when a package fails to import (#4935)
 
-* perf(datasets): optimize Lance RGB batch decoding
+get_package_version() only caught ImportError. torchcodec raises
+RuntimeError when it can&amp;#39;t load its FFmpeg libraries, so lerobot-info
+exited with a traceback instead of printing the system summary, which is
+when users need it most (e.g. Jetson Thor with JetPack 7, whose system
+FFmpeg has no libavdevice).
 
-* minor fix
-
-* minor fix
-
-* address review comments&lt;/pre&gt;
+Packages that are installed but fail to import are now reported as
+&amp;quot;&amp;lt;version&amp;gt; (import failed: &amp;lt;error type&amp;gt;)&amp;quot;.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
   <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/d0bb6ba102bcd294a08f7bd94111378873e1edc9</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d0bb6ba102bcd294a08f7bd94111378873e1edc9" />
+    <ns0:id>tag:github.com,2008:Grit::Commit/c34e78a707dc71a8b7eff4e16ec20ce1a491d2c1</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c34e78a707dc71a8b7eff4e16ec20ce1a491d2c1" />
     <ns0:title>
-        fix(motors): remove trailing space from Feetech Acceleration_Multipli…
+        fix(envs): explain that gym_manipulator cannot be built by make_env (…
     </ns0:title>
-    <ns0:updated>2026-10-12T13:12:34Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29749923?s=30&amp;v=4" />
+    <ns0:updated>2026-10-21T08:43:08Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/89206939?s=30&amp;v=4" />
     <ns0:author>
-      <ns0:name>Hadrien-Cornier</ns0:name>
-      <ns0:uri>https://github.com/Hadrien-Cornier</ns0:uri>
+      <ns0:name>BrutalCaeser</ns0:name>
+      <ns0:uri>https://github.com/BrutalCaeser</ns0:uri>
     </ns0:author>
     <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(motors): remove trailing space from Feetech Acceleration_Multiplier name (#4926)
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(envs): explain that gym_manipulator cannot be built by make_env (#4997)
 
-The STS/SMS control table named register 86 &amp;quot;Acceleration_Multiplier &amp;quot;
-with a trailing space. bus.read(&amp;quot;Acceleration_Multiplier&amp;quot;, motor) and
-bus.write(...) raised KeyError, and only the spelling with the space worked.
+`lerobot-eval --env.type=gym_manipulator` (or make_env with
+HILSerlRobotEnvConfig) failed with &amp;quot;Package &amp;#39;gym_gym_manipulator&amp;#39; required for
+env &amp;#39;gym_manipulator&amp;#39; not found&amp;quot;, sending users after a package that does not
+exist. The environment drives a physical robot and is built by
+lerobot.rl.gym_manipulator.make_robot_env.
 
-Rename the key to &amp;quot;Acceleration_Multiplier&amp;quot;. No code in the repository used
-the old spelling. Add a test that reads and writes register 86 by name through
-the mocked serial port, and a test that no key in any motor control table
-starts or ends with whitespace.
+HILSerlRobotEnvConfig.create_envs now raises NotImplementedError naming the
+commands to use instead.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/9d1beec4e831e5b40c99b8bab53220b5f8f9cb00</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9d1beec4e831e5b40c99b8bab53220b5f8f9cb00" />
+    <ns0:title>
+        fix(tests): restore torch.backends flags after real train() calls (#4…
+    </ns0:title>
+    <ns0:updated>2026-10-21T08:38:51Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/3657419?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>ravediamond</ns0:name>
+      <ns0:uri>https://github.com/ravediamond</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(tests): restore torch.backends flags after real train() calls (#4748)
+
+train() unconditionally flips torch.backends.cudnn.benchmark/deterministic
+and cuda.matmul.allow_tf32; these are process-global, so any test calling
+train() for real leaks them into whatever test runs next in the same
+pytest session. #4740 fixed one instance (flux3 lora, allow_tf32 only);
+this covers the same test&amp;#39;s cudnn flags plus two more affected files
+(test_ema.py, test_visual_validation.py) via an autouse restore fixture.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/60c77eaff105675a92d5517b6497179068d0041d</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/60c77eaff105675a92d5517b6497179068d0041d" />
+    <ns0:title>
+        fix(security): remediate workflow vulnerability in .github/workflows/…
+    </ns0:title>
+    <ns0:updated>2026-10-21T08:34:04Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/25720743?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>hf-security-analysis</ns0:name>
+      <ns0:uri>https://github.com/hf-security-analysis</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(security): remediate workflow vulnerability in .github/workflows/claude.yml (#4598)
+
+Co-authored-by: hf-security-analysis[bot] &amp;lt;265538906+hf-security-analysis[bot]@users.noreply.github.com&amp;gt;
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/cf7cf27879b15318de596d620f4bd9b5cbb8460b</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/cf7cf27879b15318de596d620f4bd9b5cbb8460b" />
+    <ns0:title>
+        docs: link SO-ARM 102 kit details (#5028)
+    </ns0:title>
+    <ns0:updated>2026-10-21T08:31:25Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/761219?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>brnikita</ns0:name>
+      <ns0:uri>https://github.com/brnikita</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: link SO-ARM 102 kit details (#5028)
+
+* docs: link SO-ARM 102 kit details
+
+* docs: attribute SO-ARM 102 referrals to LeRobot
+
+* docs: name SO-ARM 102 in the product link&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/cf1696089fc8cc5ecfccc2e62a7f2a5cacb29030</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/cf1696089fc8cc5ecfccc2e62a7f2a5cacb29030" />
+    <ns0:title>
+        fix(datasets): warn only when the dataset is newer than the codebase …
+    </ns0:title>
+    <ns0:updated>2026-10-21T07:58:28Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/131722044?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>horizonbymuneeb</ns0:name>
+      <ns0:uri>https://github.com/horizonbymuneeb</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): warn only when the dataset is newer than the codebase (#4852)
+
+check_version_compatibility compared minor versions without checking which
+side is newer, so a dataset older than the codebase (v3.0 dataset, v3.1 code)
+was reported as &amp;quot;only available in 3.0 format ... please update lerobot&amp;quot;,
+while a dataset written by a newer release was accepted silently.
+
+The check now only acts when the dataset is newer than the codebase: a newer
+minor version warns as before, and a newer major version raises
+ForwardCompatibilityError (the class already exists for that purpose and is
+used by get_safe_version). Older-minor datasets stay silent, and a v2.1
+dataset read by v3 code still raises BackwardCompatibilityError.
+
+Fixes #4851
+
+Co-authored-by: Muneeb Anjum &amp;lt;horizonbymuneeb@users.noreply.github.com&amp;gt;
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/7460cf7f267d85a85c081328046f63da984dff57</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7460cf7f267d85a85c081328046f63da984dff57" />
+    <ns0:title>
+        fix(datasets): reject image writers with no workers (#5019)
+    </ns0:title>
+    <ns0:updated>2026-10-21T07:43:54Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/222158758?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>TinyGeek</ns0:name>
+      <ns0:uri>https://github.com/TinyGeek</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): reject image writers with no workers (#5019)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/ea4917ebfd8de17cacb137ac57c4400e5cf1c171</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ea4917ebfd8de17cacb137ac57c4400e5cf1c171" />
+    <ns0:title>
+        fix(wall_x): report incompatible checkpoint keys (#4761)
+    </ns0:title>
+    <ns0:updated>2026-10-21T07:43:21Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/88032149?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Samuel-Hills</ns0:name>
+      <ns0:uri>https://github.com/Samuel-Hills</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(wall_x): report incompatible checkpoint keys (#4761)
 
 Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
