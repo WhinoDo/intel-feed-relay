@@ -4,7 +4,102 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-21T19:26:54Z</ns0:updated>
+  <ns0:updated>2026-10-22T14:00:38Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/f9e9d739ea7055b282ea1b165e8785412a674693</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f9e9d739ea7055b282ea1b165e8785412a674693" />
+    <ns0:title>
+        fix(vla_jepa): pair rotary frequencies with adjacent coordinates (#4835)
+    </ns0:title>
+    <ns0:updated>2026-10-22T14:00:38Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/132809511?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Afloat16</ns0:name>
+      <ns0:uri>https://github.com/Afloat16</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(vla_jepa): pair rotary frequencies with adjacent coordinates (#4835)
+
+* fix(vla_jepa): pair rotary frequencies with adjacent coordinates
+
+* docs(vla_jepa): trace the upstream rotary correction and reduce test diff&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/2e880446494bd864740b8d87cc2db0397a2f84a7</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/2e880446494bd864740b8d87cc2db0397a2f84a7" />
+    <ns0:title>
+        fix(wall-oss-05): preserve array typing in state discretization (#5055)
+    </ns0:title>
+    <ns0:updated>2026-10-22T13:59:21Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>pkooij</ns0:name>
+      <ns0:uri>https://github.com/pkooij</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(wall-oss-05): preserve array typing in state discretization (#5055)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/ecb19db47956feba9ddc2979ce0c19ddf83eefc0</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ecb19db47956feba9ddc2979ce0c19ddf83eefc0" />
+    <ns0:title>
+        fix: stabilize mypy checks and resolve repository type errors (#5045)
+    </ns0:title>
+    <ns0:updated>2026-10-22T13:39:28Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>pkooij</ns0:name>
+      <ns0:uri>https://github.com/pkooij</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix: stabilize mypy checks and resolve repository type errors (#5045)
+
+* fix: make repository-wide mypy checks pass
+
+* fix(types): address mypy review feedback&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/65258ac2c6ef6d710c3615d56f58e8ca53122591</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/65258ac2c6ef6d710c3615d56f58e8ca53122591" />
+    <ns0:title>
+        feat(policies): add Wall-OSS-0.5 support (#4200)
+    </ns0:title>
+    <ns0:updated>2026-10-22T13:36:16Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>pkooij</ns0:name>
+      <ns0:uri>https://github.com/pkooij</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): add Wall-OSS-0.5 support (#4200)
+
+* feat(policies): add wall_oss_05 policy (#4200)
+
+Consolidate the policy changes from f6e249f0d7c62749891bce7ec44e765c2871efaa before rebasing
+onto the merged language runtime on main.
+
+* fix(wall-oss-05): migrate published checkpoint processors
+
+* fix(wall-oss-05): exclude padding from flow loss denominator
+
+* fix(wall-oss-05): preserve vision normalization precision
+
+* fix(wall-oss-05): normalize native widths and mask padded joints
+
+* fix(wall-oss-05): use native checkpoint persistence
+
+* perf(wall-oss-05): cache vision and prompt across flow steps
+
+* fix(wall-oss-05): separate tokenizer and weight revisions
+
+* fix(wall-oss-05): address camera fine-tuning and review cleanup
+
+* fix(wall-oss-05): replace saved cameras in CLI overrides&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/8a125584153240d7511dddfbda440bbee56b134a</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8a125584153240d7511dddfbda440bbee56b134a" />
@@ -446,120 +541,6 @@ Co-authored-by: Aarav &amp;lt;211792885+AaravMehta-07@users.noreply.github.com&a
 
 Signed-off-by: Dipesh Babu &amp;lt;dipeshmahato@outlook.com&amp;gt;
 Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/9f263752672ad297959fe4eab3186746933bd6b4</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9f263752672ad297959fe4eab3186746933bd6b4" />
-    <ns0:title>
-        fix(processor): retain device index across pipeline serialization (#4…
-    </ns0:title>
-    <ns0:updated>2026-10-21T08:48:35Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/210794222?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>JonnyFaeth</ns0:name>
-      <ns0:uri>https://github.com/JonnyFaeth</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(processor): retain device index across pipeline serialization (#4856)
-
-Co-authored-by: Jonathan D Faeth &amp;lt;210794222+JonnyFaeth@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/4c17b1bac4464bd11e51bd6b4eb61f8f88c09ecc</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4c17b1bac4464bd11e51bd6b4eb61f8f88c09ecc" />
-    <ns0:title>
-        feat(dataset-viz): show the language task in the Rerun viewer (#4322)
-    </ns0:title>
-    <ns0:updated>2026-10-21T08:47:11Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/18168681?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>zuoxingdong</ns0:name>
-      <ns0:uri>https://github.com/zuoxingdong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(dataset-viz): show the language task in the Rerun viewer (#4322)
-
-* feat(dataset-viz): show the language task in the Rerun viewer
-
-The Rerun viewer logs images, action, state, done, reward and success, but never
-the natural-language task. That leaves the one field a VLA is actually
-conditioned on as the only one you cannot see while inspecting a dataset, which
-makes it easy to miss wrong or ambiguous instructions.
-
-Log it as a Markdown TextDocument under a `task` entity, re-logged only when the
-string changes, so scrubbing shows the instruction in effect at that point
-instead of writing one entry per frame.
-
-The blueprint puts it in a thin banner above the existing grid
-(`row_shares=[1, 9]`) rather than giving it a grid cell of its own: it is a
-single line of text, so a full cell would waste space and break up the camera
-layout.
-
-Guarded by `if &amp;quot;task&amp;quot; in batch`, so datasets without a task are unaffected.
-
-* Remove TASK_ENTITY constant from dataset visualization
-
-Removed TASK_ENTITY constant definition from the script.
-
-* Add TASK constant to constants.py
-
-* Add TASK constant and update task logging
-
----------
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/b4ecd266a02274c35830fef876e077b6881eb00b</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b4ecd266a02274c35830fef876e077b6881eb00b" />
-    <ns0:title>
-        fix(scripts): don't crash lerobot-info when a package fails to import…
-    </ns0:title>
-    <ns0:updated>2026-10-21T08:44:41Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/64252217?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>LinCanNerd</ns0:name>
-      <ns0:uri>https://github.com/LinCanNerd</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(scripts): don&amp;#39;t crash lerobot-info when a package fails to import (#4935)
-
-get_package_version() only caught ImportError. torchcodec raises
-RuntimeError when it can&amp;#39;t load its FFmpeg libraries, so lerobot-info
-exited with a traceback instead of printing the system summary, which is
-when users need it most (e.g. Jetson Thor with JetPack 7, whose system
-FFmpeg has no libavdevice).
-
-Packages that are installed but fail to import are now reported as
-&amp;quot;&amp;lt;version&amp;gt; (import failed: &amp;lt;error type&amp;gt;)&amp;quot;.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/c34e78a707dc71a8b7eff4e16ec20ce1a491d2c1</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c34e78a707dc71a8b7eff4e16ec20ce1a491d2c1" />
-    <ns0:title>
-        fix(envs): explain that gym_manipulator cannot be built by make_env (…
-    </ns0:title>
-    <ns0:updated>2026-10-21T08:43:08Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/89206939?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>BrutalCaeser</ns0:name>
-      <ns0:uri>https://github.com/BrutalCaeser</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(envs): explain that gym_manipulator cannot be built by make_env (#4997)
-
-`lerobot-eval --env.type=gym_manipulator` (or make_env with
-HILSerlRobotEnvConfig) failed with &amp;quot;Package &amp;#39;gym_gym_manipulator&amp;#39; required for
-env &amp;#39;gym_manipulator&amp;#39; not found&amp;quot;, sending users after a package that does not
-exist. The environment drives a physical robot and is built by
-lerobot.rl.gym_manipulator.make_robot_env.
-
-HILSerlRobotEnvConfig.create_envs now raises NotImplementedError naming the
-commands to use instead.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
