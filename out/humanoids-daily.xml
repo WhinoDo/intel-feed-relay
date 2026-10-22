@@ -7,9 +7,49 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 21 Oct 2026 20:32:49 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 22 Oct 2026 11:59:39 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-q3-2026-optimus-production-fremont-2027-deliveries</guid>
+    <title>Tesla Begins Optimus Production in Fremont, Targets Customer Deliveries in Late 2027</title>
+    <link>https://www.humanoidsdaily.com/news/tesla-q3-2026-optimus-production-fremont-2027-deliveries</link>
+    <description>Tesla says its first production-quality Optimus robots are coming off the Fremont line, while Musk outlines the training, hardware and AI work ahead of customer deliveries.</description>
+    <pubDate>Thu, 22 Oct 2026 11:59:39 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Optimus</category><category>Tesla</category><category>US</category><category>Optimus gen 3</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agile-one-sn-nvidia-isaac-gr00t-research-humanoid</guid>
+    <title>Agile Robots Unveils Agile ONE SN as NVIDIA Expands Its Isaac Robotics Platform</title>
+    <link>https://www.humanoidsdaily.com/news/agile-one-sn-nvidia-isaac-gr00t-research-humanoid</link>
+    <description>The compact research humanoid combines tactile hands, Jetson Thor and GR00T software, with availability planned for early 2027.</description>
+    <pubDate>Thu, 22 Oct 2026 10:31:12 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>NVIDIA</category><category>US</category><category>Europe</category><category>Agile Robots</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-g1-american-robot-startups-lumi-voxel-hugo</guid>
+    <title>The Unitree G1 Is Becoming a Platform for American Robot Startups</title>
+    <link>https://www.humanoidsdaily.com/features/unitree-g1-american-robot-startups-lumi-voxel-hugo</link>
+    <description>Lumi, Voxel and a possible G1 connection beneath Hugo highlight how American startups are building new robot identities around Unitree hardware.</description>
+    <pubDate>Thu, 22 Oct 2026 08:09:07 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Tuesday Labs</category><category>Unitree Robotics</category><category>US</category><category>Dynamic Creatures</category><category>China</category><category>Lightberry</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/noetix-robotics-hong-kong-ipo-filing</guid>
+    <title>Noetix Robotics Files for Hong Kong IPO, Bloomberg Reports</title>
+    <link>https://www.humanoidsdaily.com/news/noetix-robotics-hong-kong-ipo-filing</link>
+    <description>The humanoid robot maker could raise several hundred million dollars and list as early as 2027, following a funding round led by a CATL-affiliated investment platform.</description>
+    <pubDate>Thu, 22 Oct 2026 07:46:42 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Market</category><category>China</category><category>Noetix</category><category>IPO</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/origami-robotics-s1-skill-capture-glove</guid>
     <title>Origami Robotics Unveils S1 Glove to Capture Human Dexterity for Robots</title>
@@ -268,46 +308,6 @@
     <pubDate>Thu, 15 Oct 2026 12:30:41 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Digit</category><category>Agility Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/neura-neuron-ai-touch-sound-memory-laundry-demo</guid>
-    <title>NEURA Gives Its Robot AI Touch, Sound and Memory Ahead of 11-Minute Laundry Demo</title>
-    <link>https://www.humanoidsdaily.com/news/neura-neuron-ai-touch-sound-memory-laundry-demo</link>
-    <description>NEURA introduces its multisensory Neuron AI model and plans an autonomous 4NE1 laundry-handling demonstration at GTC Berlin on October 20–22.</description>
-    <pubDate>Thu, 15 Oct 2026 09:44:46 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Neura Robotics</category><category>Europe</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/120ft-sweden-humanoid-microfactories-funding</guid>
-    <title>Swedish Startup 120ft Wants to Fit a Humanoid-Run Factory Into Three Containers</title>
-    <link>https://www.humanoidsdaily.com/news/120ft-sweden-humanoid-microfactories-funding</link>
-    <description>120ft has emerged from stealth with €576,000 in angel funding to develop local robotic assembly for small batches, with brands paying per finished product.</description>
-    <pubDate>Thu, 15 Oct 2026 08:09:51 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Europe</category><category>120ft</category><category>Sweden</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/rhoda-ai-touch-sensor-blindfolded-robot</guid>
-    <title>Rhoda Blindfolds Its Robot—and Lets Touch Guide the Search</title>
-    <link>https://www.humanoidsdaily.com/news/rhoda-ai-touch-sensor-blindfolded-robot</link>
-    <description>Rhoda combines tactile sensing with its Direct Video-Action model to guide manipulation without vision, showing textured-ball retrieval and recovery from mistakes.</description>
-    <pubDate>Thu, 15 Oct 2026 05:14:13 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>rhoda-ai</category><category>tactile sensing</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/roboparty-rp1-open-source-hardware-motion-policies</guid>
-    <title>RoboParty Opens RP1 Humanoid Designs, From Mechanical Parts to Motion Policies</title>
-    <link>https://www.humanoidsdaily.com/news/roboparty-rp1-open-source-hardware-motion-policies</link>
-    <description>RoboParty has released RP1 hardware files, software resources and motion-policy checkpoints, following its IROS debut and promised broader rollout.</description>
-    <pubDate>Thu, 15 Oct 2026 05:01:44 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>China</category><category>ROBOTO ORIGIN</category><category>RoboParty</category>
   </item>
 
   </channel>
