@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 22 Oct 2026 11:59:39 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 23 Oct 2026 06:46:04 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-all-hands-figure-04-index-data-helix-3</guid>
+    <title>Figure 04 Reaches Design Lock as Adcock Details a Multibillion-Dollar AI Push</title>
+    <link>https://www.humanoidsdaily.com/news/figure-all-hands-figure-04-index-data-helix-3</link>
+    <description>Figure’s public all-hands outlines new hardware, 37.5 million human-video uploads and billions in planned compute spending, alongside a Helix 3.0 teaser.</description>
+    <pubDate>Fri, 23 Oct 2026 06:46:04 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Brett Adcock</category><category>Figure-04</category><category>US</category><category>Figure</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xpeng-iron-vla-2-gesture-interaction-demo</guid>
+    <title>XPENG Shows IRON Switching Between Handshakes, Fist Bumps and High-Fives</title>
+    <link>https://www.humanoidsdaily.com/news/xpeng-iron-vla-2-gesture-interaction-demo</link>
+    <description>XPENG says IRON updates its visual reasoning every 0.2 seconds to follow changing gestures, in a new demonstration of its VLA 2.0 technology.</description>
+    <pubDate>Fri, 23 Oct 2026 06:04:08 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>China</category><category>XPENG</category><category>IRON</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/neura-4ne1-gen4-tum-robogym-nxai-memory</guid>
+    <title>NEURA Unveils Lighter 4NE1 Gen 4 as TUM RoboGym Opens in Munich</title>
+    <link>https://www.humanoidsdaily.com/news/neura-4ne1-gen4-tum-robogym-nxai-memory</link>
+    <description>The redesigned humanoid arrives alongside a new robot training center, while a separate NXAI partnership targets memory for multi-step tasks.</description>
+    <pubDate>Fri, 23 Oct 2026 05:11:40 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Neura Robotics</category><category>Europe</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-q3-2026-optimus-production-fremont-2027-deliveries</guid>
     <title>Tesla Begins Optimus Production in Fremont, Targets Customer Deliveries in Late 2027</title>
@@ -278,36 +308,6 @@
     <pubDate>Mon, 19 Oct 2026 08:10:51 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>AiMOGA</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/devanthro-plim-robotics-home-robot-teleoperation</guid>
-    <title>Devanthro Becomes Plim Robotics, Reveals a Home Robot Loved Ones Can Step Into</title>
-    <link>https://www.humanoidsdaily.com/news/devanthro-plim-robotics-home-robot-teleoperation</link>
-    <description>Plim combines household assistance with remote operation by family and caregivers. The wheeled robot has Jetson Thor computing and a listed two-hour runtime.</description>
-    <pubDate>Sat, 17 Oct 2026 09:25:09 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Plim Robotics</category><category>Europe</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-uniuni-robot-swarm-choreography-control</guid>
-    <title>Unitree’s UniUni Lets Operators Choreograph Robot Teams With Natural Language</title>
-    <link>https://www.humanoidsdaily.com/news/unitree-uniuni-robot-swarm-choreography-control</link>
-    <description>Unitree’s new UniUni system combines natural-language choreography, LiDAR stage mapping and live robot monitoring to coordinate multi-robot performances.</description>
-    <pubDate>Sat, 17 Oct 2026 09:03:17 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-digit-5-nyobolt-nine-minute-charging</guid>
-    <title>Nine Minutes to Recharge: Agility Picks Nyobolt for Digit 5’s Long Working Day</title>
-    <link>https://www.humanoidsdaily.com/news/agility-digit-5-nyobolt-nine-minute-charging</link>
-    <description>Nyobolt is behind Digit 5’s planned nine-minute recharge, which Agility says will help the humanoid work more than 20 hours per day. Early access is expected in 2027.</description>
-    <pubDate>Thu, 15 Oct 2026 12:30:41 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Digit</category><category>Agility Robotics</category>
   </item>
 
   </channel>
