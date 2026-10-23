@@ -4,7 +4,243 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-22T14:00:38Z</ns0:updated>
+  <ns0:updated>2026-10-23T13:00:16Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/d3793b7e36522321c1c455f0dc4826db3793dceb</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d3793b7e36522321c1c455f0dc4826db3793dceb" />
+    <ns0:title>
+        feat(fastwam): add Faster-WAM (2.5-5.3x faster policy inference on A1…
+    </ns0:title>
+    <ns0:updated>2026-10-23T13:00:16Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29749923?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Hadrien-Cornier</ns0:name>
+      <ns0:uri>https://github.com/Hadrien-Cornier</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(fastwam): add Faster-WAM (2.5-5.3x faster policy inference on A100) (#5049)
+
+* feat(fastwam): add Faster-WAM (arXiv 2608.02365) DoT variant to the fastwam policy
+
+Opt-in upgrade of src/lerobot/policies/fastwam implementing the three
+world-model-centric design choices from &amp;#39;Faster-WAM: Do World Action Models
+Need Deep Action Modules?&amp;#39; (arXiv 2608.02365, Huawei Noah&amp;#39;s Ark Montreal /
+McGill / Mila / U Toronto), on top of the existing Fast-WAM (2603.16666) code:
+
+- action_expert_layers: single-layer (or any depth &amp;lt;= backbone) action expert
+- lite_kv_fusion: Dock of Transformers Lite KV-Fusion (Eq. 1): per-head
+  softmax mixture over the native K/V cached across all video layers
+  (720 logits for the paper&amp;#39;s 24x30x1 config, zero-initialized uniform)
+- retracted_1d_rope (Eq. 3 / Appx. B.4): de-rotate fused video keys with the
+  exact inverse of the backbone&amp;#39;s rope_apply transform, re-encode on the
+  action 1D temporal grid (identity at the observed frame t=0)
+- world_model_only_conditioning (Sec. 2.2): action expert built without text
+  cross-attention; language and proprioception condition only the video backbone
+
+All flags default off: model graph, state-dict key layout and forward results
+are unchanged, so existing Fast-WAM checkpoints load strictly. Training runs
+the DoT split flow (video prefill with gradients, fused action context fixed
+per chunk) only when lite_kv_fusion is enabled; gradients from the action loss
+reach the video backbone through the fused cache.
+
+Derived from the primary paper and the existing Apache-2.0 fastwam code; the
+official TeamFasterwam/FasterWAM repo (NOASSERTION license) was read for
+behavior only, no code copied.
+
+* fix(fastwam): validate action depth and checkpoint architecture overrides
+
+* fix(fastwam): preserve weights-only loading and correct source license
+
+* fix(fastwam): support backbone initialization and uniform fusion dtype
+
+* test(fastwam): keep public lifecycle and loading regressions&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/8cd02c155c21f98663482e84de6772e5e04e4ed1</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8cd02c155c21f98663482e84de6772e5e04e4ed1" />
+    <ns0:title>
+        feat(policies): add LingBot-VLA 2.0 (#4897)
+    </ns0:title>
+    <ns0:updated>2026-10-23T12:39:56Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): add LingBot-VLA 2.0 (#4897)
+
+* feat(policies): add LingBot-VLA 2.0
+
+Adds LingBot-VLA 2.0 as the lingbot_vla_v2 policy: a Qwen3-VL-4B backbone
+paired with a sparse-MoE Qwen2 action expert and flow matching over a unified
+55-D canonical state/action space, mirroring the in-tree lingbot_vla (v1)
+policy. Post-trains under lerobot-train, evaluates through lerobot-eval.
+
+- Standard processor pipeline (rename → batch → relative actions → normalize
+  → slot mapping → Qwen3-VL image → chat template → tokenizer → device);
+  only the raw→canonical slot mapping step is LingBot-specific.
+- Normalization stats come from the dataset (dataset_stats) and live in the
+  saved processor state; per-embodiment slot mappings are typed config fields.
+- Pretrained checkpoints convert format-only (identity processor); the
+  RoboTwin checkpoint ships its slot mapping + q01/q99 stats embedded.
+- _fsdp_wrap_modules declared so FSDP2 wraps without manual flags.
+
+* fix(lingbot_vla_v2): derive image-step cameras from input_features in from_pretrained
+
+- make_lingbot_vla_v2_pre_post_processors_from_pretrained now derives the
+  image step&amp;#39;s camera names from config.input_features (the checkpoint&amp;#39;s
+  declared cameras) instead of canonical_cameras, matching the behavior of
+  make_lingbot_vla_v2_pre_post_processors. This fixes the camera-name mismatch
+  when loading a checkpoint whose declared cameras differ from the canonical
+  names (e.g. the RoboTwin checkpoint&amp;#39;s cam_high/cam_left_wrist/cam_right_wrist).
+- converter: keep the portable Hub id in config.tokenizer_path instead of
+  leaking the local --tokenizer-path, so the checkpoint loads on any machine.
+
+* fix(lingbot_vla_v2): emit fp32 raw actions from inverse slot mapping
+
+The postprocessor&amp;#39;s inverse slot mapping now always emits float32 raw actions
+regardless of the model&amp;#39;s prediction dtype (bf16), so downstream envs and
+numpy (which reject BFloat16) receive float32. Verified end-to-end with
+lerobot-eval --env.type=robotwin on beat_block_hammer (5 episodes, videos
+recorded, exit 0).
+
+* feat(envs): generate official RoboTwin instruction for beat_block_hammer
+
+The in-tree RoboTwin env only generated official task-template instructions for
+the two blocks_ranking tasks; every other task fell back to using the task name
+as the language instruction. beat_block_hammer&amp;#39;s official instruction (from
+RoboTwin&amp;#39;s description/task_instruction/beat_block_hammer.json) carries the
+hammer description and the arm choice derived from the block&amp;#39;s functional-point
+x-sign, matching the upstream eval client. Without it the policy is conditioned
+on &amp;#39;beat block hammer&amp;#39; instead of e.g. &amp;#39;Take the medium-sized metal hammer
+using the left arm then beat the block&amp;#39;, which the released checkpoint was
+trained against.
+
+Verified end-to-end with lerobot-eval --env.type=robotwin: the rollout now
+logs &amp;#39;RoboTwin official instruction | task=beat_block_hammer | ...&amp;#39; with the
+templated instruction each episode.
+
+* test(lingbot_vla_v2): build tiny VLM config locally, no HF download
+
+The e2e tiny-model test called AutoConfig.from_pretrained at config-build time,
+which hits the Hub and fails under network flakiness. Construct Qwen3VLConfig
+directly instead — the test only needs the config structure, not the real weights.
+
+* style(lingbot_vla_v2): ruff format long list comprehension in camera derivation
+
+* fix(lingbot_vla_v2): use torch.dtype for config.dtype to match upstream base
+
+Upstream main moved PreTrainedConfig.dtype to `torch.dtype | None` (with a
+draccus decode hook for config.json/CLI strings). Our `dtype: str = &amp;quot;bfloat16&amp;quot;`
+overrode the field with a string, failing the base-class validation on 6 config
+tests. Switch to `torch.dtype | None = torch.bfloat16` and use it directly in
+the model cast.
+
+* fix(lingbot_vla_v2): address reviewer blocking issues
+
+- Slot-mapping step creates zero-filled slots on the input device (not CPU),
+  fixing the CUDA device mismatch in lerobot-train&amp;#39;s first step.
+- from_pretrained forwards the fine-tuning slot mapping to the postprocessor&amp;#39;s
+  inverse step too, so a fine-tuned checkpoint maps canonical actions back to
+  the robot&amp;#39;s raw dims instead of keeping the base checkpoint&amp;#39;s identity mapping.
+- Re-converted both Hub checkpoints with the current converter (portable
+  tokenizer_path, no stale config fields).
+- Remove optim/lingbot.py: get_optimizer_preset now returns the standard
+  AdamWConfig and get_optim_params returns param groups with a scaled expert LR
+  (the muon/expert-LR logic lives in the separate optimizer PR #4658).
+- Drop the unrelated test_pi_tokenizer_configuration / test_replay_buffer edits.
+
+* docs(lingbot_vla_v2): add verified fine-tuning example with omx_multicubes
+
+Add a concrete worked example to the README: fine-tuning from the base
+checkpoint on a 6-DoF single-arm dataset (5 arm joints + 1 gripper, cameras
+top/wrist) with the typed slot mappings, the camera rename_map, and the full
+end-to-end flow (preprocessor maps 6-D raw onto 55-D canonical, training
+produces self-contained checkpoints, eval maps back to the robot&amp;#39;s raw action
+space). Verified with lerobot-train on an A100.
+
+* docs(lingbot_vla_v2): clean up worked-example wording
+
+* remove depth distillation from lingbot_vla_v2
+
+* remove lingbot_vla_v2 scripts and robotwin env change
+
+* remove unused lingbot_vla_v2 backends and dead code
+
+* simplify lingbot_vla_v2 image preprocessing
+
+* simplify lingbot_vla_v2 slot mapping and processor factory
+
+* fix lingbot_vla_v2 model horizon, optimizer groups and rtc
+
+* rewrite lingbot_vla_v2 tests
+
+* trim lingbot_vla_v2 docs and extra
+
+* restore lingbot_vla_v2 dual-query tokens
+
+* add lingbot_vla_v2 distillation teachers
+
+* restore lingbot_vla_v2 distillation training
+
+* document lingbot_vla_v2 distillation and add scipy to extra
+
+* add license headers and teacher license notes to lingbot_vla_v2
+
+* reject lingbot_vla_v2 action_slots that leave raw action dims unmapped
+
+* store lingbot_vla_v2 depth teacher weights in their autocast dtype on cuda
+
+* match upstream lingbot_vla_v2 image preprocessing (64 tokens per camera)
+
+* apply the active config&amp;#39;s tokenizer and image settings when loading lingbot_vla_v2 processors
+
+* replace the lingbot_vla_v2 RoboTwin TODO with upstream&amp;#39;s reported results
+
+* recommend fp32 weights with bf16 autocast for lingbot_vla_v2 fine-tuning
+
+* update uv.lock for the lingbot_vla_v2 extra
+
+---------
+
+Co-authored-by: Liu Yue &amp;lt;miracle-techlink@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/23979669f03d2a1b50f5d0593aa4bbbb8e60c8e9</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/23979669f03d2a1b50f5d0593aa4bbbb8e60c8e9" />
+    <ns0:title>
+        perf(streaming): cut sidecar build memory by 91% (#4948)
+    </ns0:title>
+    <ns0:updated>2026-10-23T11:25:55Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29749923?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Hadrien-Cornier</ns0:name>
+      <ns0:uri>https://github.com/Hadrien-Cornier</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(streaming): cut sidecar build memory by 91% (#4948)
+
+* perf(streaming): bound sidecar memory and compact mapped tables
+
+* perf(streaming): bound sidecar memory and compact mapped tables
+
+* refactor(streaming): share compact timing encoding
+
+* test(streaming): combine overlapping cache regressions
+
+* fix(streaming): align compact sidecar contracts
+
+* fix(streaming): annotate mapped sidecar arrays
+
+---------
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;
+Co-authored-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/f9e9d739ea7055b282ea1b165e8785412a674693</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f9e9d739ea7055b282ea1b165e8785412a674693" />
@@ -482,65 +718,6 @@ int() on the frame-rate rational truncates 30000/1001. An exact 30 fps stream st
 * test(datasets): pin an exact 30 fps stream as an int
 
 The 29.97 case stays a float. This locks the integer path next to it.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/1d9b1093bc8e92a2bb7284c66cac0edc613d033b</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1d9b1093bc8e92a2bb7284c66cac0edc613d033b" />
-    <ns0:title>
-        fix(datasets): honour quantile_list in get_feature_stats (#4796)
-    </ns0:title>
-    <ns0:updated>2026-10-21T08:52:49Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/51020382?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>MohammadHijjawi97</ns0:name>
-      <ns0:uri>https://github.com/MohammadHijjawi97</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): honour quantile_list in get_feature_stats (#4796)
-
-get_feature_stats accepted a quantile_list but only used it for inputs
-with fewer than two samples. For every other input it built
-RunningQuantileStats() with the default quantiles, so a custom list was
-silently replaced by q01/q10/q50/q90/q99. Pass the list through to the
-running accumulator.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/a554e5ef2f018dc5b2c5a79f3c0a3565688afa17</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/a554e5ef2f018dc5b2c5a79f3c0a3565688afa17" />
-    <ns0:title>
-        fix(datasets): weight sampled image stats by episode length (#4949)
-    </ns0:title>
-    <ns0:updated>2026-10-21T08:49:51Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/211792885?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>AaravMehta-07</ns0:name>
-      <ns0:uri>https://github.com/AaravMehta-07</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): weight sampled image stats by episode length (#4949)
-
-Co-authored-by: Aarav &amp;lt;211792885+AaravMehta-07@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/413d55031aa6002332b782c0f655938dc9953858</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/413d55031aa6002332b782c0f655938dc9953858" />
-    <ns0:title>
-        fix(utils): retain NumPy Gaussian RNG cache precision (#4706)
-    </ns0:title>
-    <ns0:updated>2026-10-21T08:49:01Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/59379458?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>dipeshbabu</ns0:name>
-      <ns0:uri>https://github.com/dipeshbabu</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(utils): retain NumPy Gaussian RNG cache precision (#4706)
-
-Signed-off-by: Dipesh Babu &amp;lt;dipeshmahato@outlook.com&amp;gt;
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

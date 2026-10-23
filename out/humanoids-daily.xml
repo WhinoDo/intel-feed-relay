@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Fri, 23 Oct 2026 06:46:04 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 23 Oct 2026 12:01:29 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-world-release-4-physical-reasoning-dataset</guid>
+    <title>AGIBOT Releases Physical Reasoning Dataset to Connect Robot Decisions With Actions</title>
+    <link>https://www.humanoidsdaily.com/news/agibot-world-release-4-physical-reasoning-dataset</link>
+    <description>AGIBOT WORLD Release 4 pairs robot actions with decision-making annotations, covering changing conditions, task memory and multi-step planning.</description>
+    <pubDate>Fri, 23 Oct 2026 12:01:29 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>open-source</category><category>China</category><category>AGIBOT</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-all-hands-figure-04-index-data-helix-3</guid>
     <title>Figure 04 Reaches Design Lock as Adcock Details a Multibillion-Dollar AI Push</title>
@@ -298,16 +308,6 @@
     <pubDate>Mon, 19 Oct 2026 09:06:51 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Optimus</category><category>Tesla</category><category>US</category><category>Elon Musk</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/aimoga-mobo-family-robot-october-21-preorders</guid>
-    <title>AiMOGA Heads Home With Mobo, Opening Robot Pre-Orders on October 21</title>
-    <link>https://www.humanoidsdaily.com/news/aimoga-mobo-family-robot-october-21-preorders</link>
-    <description>AiMOGA plans an October 21 launch for its family companion humanoid, with pricing and delivery details still undisclosed.</description>
-    <pubDate>Mon, 19 Oct 2026 08:10:51 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>AiMOGA</category><category>China</category>
   </item>
 
   </channel>
