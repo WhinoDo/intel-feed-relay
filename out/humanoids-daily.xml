@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Fri, 23 Oct 2026 12:01:29 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 23 Oct 2026 18:20:18 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/enact-30m-pre-seed-force-sensing-robots</guid>
+    <title>Enact Raises $30M Pre-Seed to Give Factory Robots a Sense of Force</title>
+    <link>https://www.humanoidsdaily.com/news/enact-30m-pre-seed-force-sensing-robots</link>
+    <description>Founded by 1X and Physical Intelligence alumnus Manuel Yves Galliker, the Zurich startup is developing motors and AI together for small-batch assembly.</description>
+    <pubDate>Fri, 23 Oct 2026 18:20:18 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Enact</category><category>Europe</category><category>Yann-LeCun</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-world-release-4-physical-reasoning-dataset</guid>
     <title>AGIBOT Releases Physical Reasoning Dataset to Connect Robot Decisions With Actions</title>
@@ -298,16 +308,6 @@
     <pubDate>Mon, 19 Oct 2026 09:39:56 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>China</category><category>XSquare</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/musk-optimus-cybercab-tesla-value-factory</guid>
-    <title>Musk Puts Optimus and Cybercab at the Center of Tesla’s Future Value</title>
-    <link>https://www.humanoidsdaily.com/news/musk-optimus-cybercab-tesla-value-factory</link>
-    <description>Musk says Optimus and Cybercab will account for most of Tesla’s value, while a factory observer describes a building-first approach to the Texas Optimus plant.</description>
-    <pubDate>Mon, 19 Oct 2026 09:06:51 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Optimus</category><category>Tesla</category><category>US</category><category>Elon Musk</category>
   </item>
 
   </channel>
