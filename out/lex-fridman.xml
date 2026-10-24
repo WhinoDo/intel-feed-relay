@@ -32,7 +32,7 @@
 	</ns2:category>
 	<ns3:podping usesPodping="true" />
 	<ns3:guid>7eeae9d1-141e-5133-9e8f-6c1da695e40c</ns3:guid>
-	<ns4:subscribe feed="https://lexfridman.com/feed/podcast/" itunes="https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584" tunein="https://tunein.com/podcasts/Technology-Podcasts/Artificial-Intelligence-p1153019/" spotify="https://open.spotify.com/show/2MAi0BvDc6GTFvKFPXnkCL" />
+	<ns4:subscribe feed="https://lexfridman.com/feed/podcast/" itunes="https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584" tunein="https://tunein.com/podcasts/Technology-Podcasts/Artificial-Intelligence-p1153019/" spotify="https://open.spotify.com/show/2MAi0BvDc6GTFvKFPXnkCL" youtube="https://youtube.com/@lexfridman" />
 	<item>
 		<title>#502 – Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud &amp; Jung</title>
 		<link>https://lexfridman.com/andrew-scull/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=andrew-scull</link>
@@ -93,9 +93,10 @@ Go to &lt;a href="https://lexfridman.com/s/perplexity-ep502-sc"&gt;https://perpl
 &amp;#8211; RSS: &lt;a href="https://lexfridman.com/feed/podcast/"&gt;https://lexfridman.com/feed/podcast/&lt;/a&gt;&lt;br /&gt;
 &amp;#8211; Podcast Playlist: &lt;a href="https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4"&gt;https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4&lt;/a&gt;&lt;br /&gt;
 &amp;#8211; Clips Channel: &lt;a href="https://www.youtube.com/lexclips"&gt;https://www.youtube.com/lexclips&lt;/a&gt;&lt;/p&gt;</description>
-		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_andrew_scull.mp3" length="5242880" type="audio/mpeg" />
+		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_andrew_scull.mp3" length="161169050" type="audio/mpeg" />
 		<ns2:episodeType>full</ns2:episodeType>
-		<ns4:pid>155149992</ns4:pid>
+		<ns2:duration>3:43:51</ns2:duration>
+		<ns4:pid>155427270</ns4:pid>
 	</item>
 	<item>
 		<title>#501 – DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding &amp; Linux</title>
@@ -232,9 +233,10 @@ Go to &lt;a href="https://lexfridman.com/s/perplexity-ep500-sc"&gt;https://perpl
 (2:57:12) &amp;#8211; Dubai&lt;br /&gt;
 (3:01:03) &amp;#8211; God&lt;br /&gt;
 (3:08:46) &amp;#8211; Advice for young people&lt;/p&gt;</description>
-		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_khabib_nurmagomedov.mp3" length="5242880" type="audio/mpeg" />
+		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_khabib_nurmagomedov.mp3" length="143915525" type="audio/mpeg" />
 		<ns2:episodeType>full</ns2:episodeType>
-		<ns4:pid>154507075</ns4:pid>
+		<ns2:duration>3:19:53</ns2:duration>
+		<ns4:pid>154997465</ns4:pid>
 	</item>
 	<item>
 		<title>#499 – Gary Gallagher: American Civil War, Slavery, Lincoln, Grant &amp; Lee</title>
@@ -368,6 +370,7 @@ Go to &lt;a href="https://lexfridman.com/s/perplexity-ep498-sc"&gt;https://perpl
 &amp;#8211; Clips Channel: &lt;a href="https://www.youtube.com/lexclips"&gt;https://www.youtube.com/lexclips&lt;/a&gt;&lt;/p&gt;</description>
 		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_anthony_kaldellis.mp3" length="191739073" type="audio/mpeg" />
 		<ns2:episodeType>full</ns2:episodeType>
+		<ns2:duration>3:58:46</ns2:duration>
 		<ns4:pid>154171889</ns4:pid>
 	</item>
 	<item>
@@ -655,6 +658,7 @@ Go to &lt;a href="https://lexfridman.com/s/quo-ep494-sc"&gt;https://quo.com/lex&
 &amp;#8211; Clips Channel: &lt;a href="https://www.youtube.com/lexclips"&gt;https://www.youtube.com/lexclips&lt;/a&gt;&lt;/p&gt;</description>
 		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_jensen_huang.mp3" length="116997396" type="audio/mpeg" />
 		<ns2:episodeType>full</ns2:episodeType>
+		<ns2:duration>2:32:13</ns2:duration>
 		<ns4:pid>153756299</ns4:pid>
 	</item>
 	<item>
@@ -728,6 +732,7 @@ Go to &lt;a href="https://lexfridman.com/s/perplexity-ep493-sc"&gt;https://perpl
 &amp;#8211; Clips Channel: &lt;a href="https://www.youtube.com/lexclips"&gt;https://www.youtube.com/lexclips&lt;/a&gt;&lt;/p&gt;</description>
 		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_jeff_kaplan.mp3" length="241790669" type="audio/mpeg" />
 		<ns2:episodeType>full</ns2:episodeType>
+		<ns2:duration>5:16:57</ns2:duration>
 		<ns4:pid>152894111</ns4:pid>
 	</item>
 	<item>
@@ -801,9 +806,10 @@ Go to &lt;a href="https://lexfridman.com/s/perplexity-ep492-sc"&gt;https://perpl
 &amp;#8211; RSS: &lt;a href="https://lexfridman.com/feed/podcast/"&gt;https://lexfridman.com/feed/podcast/&lt;/a&gt;&lt;br /&gt;
 &amp;#8211; Podcast Playlist: &lt;a href="https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4"&gt;https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4&lt;/a&gt;&lt;br /&gt;
 &amp;#8211; Clips Channel: &lt;a href="https://www.youtube.com/lexclips"&gt;https://www.youtube.com/lexclips&lt;/a&gt;&lt;/p&gt;</description>
-		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_rick_beato.mp3" length="5242880" type="audio/mpeg" />
+		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_rick_beato.mp3" length="116962841" type="audio/mpeg" />
 		<ns2:episodeType>full</ns2:episodeType>
-		<ns4:pid>151436816</ns4:pid>
+		<ns2:duration>2:42:27</ns2:duration>
+		<ns4:pid>152617594</ns4:pid>
 	</item>
 	<item>
 		<title>#491 – OpenClaw: The Viral AI Agent that Broke the Internet – Peter Steinberger</title>
@@ -870,9 +876,10 @@ Go to &lt;a href="https://lexfridman.com/s/lmnt-ep491-sc"&gt;https://drinkLMNT.c
 (3:02:13) &amp;#8211; AI agents will replace 80% of apps&lt;br /&gt;
 (3:10:50) &amp;#8211; Will AI replace programmers?&lt;br /&gt;
 (3:22:50) &amp;#8211; Future of OpenClaw community&lt;/p&gt;</description>
-		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_peter_steinberger.mp3" length="5242880" type="audio/mpeg" />
+		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_peter_steinberger.mp3" length="148205709" type="audio/mpeg" />
 		<ns2:episodeType>full</ns2:episodeType>
-		<ns4:pid>151436816</ns4:pid>
+		<ns2:duration>3:25:50</ns2:duration>
+		<ns4:pid>152193979</ns4:pid>
 	</item>
 	<item>
 		<title>#490 – State of AI in 2026: LLMs, Coding, Scaling Laws, China, Agents, GPUs, AGI</title>
@@ -939,9 +946,10 @@ Go to &lt;a href="https://lexfridman.com/s/perplexity-ep490-sc"&gt;https://perpl
 (4:08:08) &amp;#8211; Manhattan Project for AI&lt;br /&gt;
 (4:14:42) &amp;#8211; Future of NVIDIA, GPUs, and AI compute clusters&lt;br /&gt;
 (4:22:48) &amp;#8211; Future of human civilization&lt;/p&gt;</description>
-		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_ai_sota_2026.mp3" length="5242880" type="audio/mpeg" />
+		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_ai_sota_2026.mp3" length="201504824" type="audio/mpeg" />
 		<ns2:episodeType>full</ns2:episodeType>
-		<ns4:pid>151436816</ns4:pid>
+		<ns2:duration>4:39:52</ns2:duration>
+		<ns4:pid>151895987</ns4:pid>
 	</item>
 	<item>
 		<title>#489 – Paul Rosolie: Uncontacted Tribes in the Amazon Jungle</title>
@@ -1078,9 +1086,10 @@ Go to &lt;a href="https://lexfridman.com/s/masterclass-ep488-sc"&gt;https://mast
 (3:26:21) &amp;#8211; Greatest mathematicians in history&lt;br /&gt;
 (3:40:05) &amp;#8211; Infinite chess&lt;br /&gt;
 (3:58:24) &amp;#8211; Most beautiful idea in mathematics&lt;/p&gt;</description>
-		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_joel_david_hamkins.mp3" length="5242880" type="audio/mpeg" />
+		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_joel_david_hamkins.mp3" length="176948213" type="audio/mpeg" />
 		<ns2:episodeType>full</ns2:episodeType>
-		<ns4:pid>149970343</ns4:pid>
+		<ns2:duration>4:05:46</ns2:duration>
+		<ns4:pid>151151044</ns4:pid>
 	</item>
 	<item>
 		<title>#487 – Irving Finkel: Deciphering Secrets of Ancient Civilizations &amp; Flood Myths</title>
@@ -1139,9 +1148,10 @@ Go to &lt;a href="https://lexfridman.com/s/ag1-ep487-sc"&gt;https://drinkag1.com
 (1:41:44) &amp;#8211; The Royal Game of Ur&lt;br /&gt;
 (1:54:43) &amp;#8211; British Museum&lt;br /&gt;
 (2:02:08) &amp;#8211; Evolution of human civilization&lt;/p&gt;</description>
-		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_irving_finkel.mp3" length="5242880" type="audio/mpeg" />
+		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_irving_finkel.mp3" length="96642215" type="audio/mpeg" />
 		<ns2:episodeType>full</ns2:episodeType>
-		<ns4:pid>149970343</ns4:pid>
+		<ns2:duration>2:14:13</ns2:duration>
+		<ns4:pid>150700403</ns4:pid>
 	</item>
 	<item>
 		<title>#486 – Michael Levin: Hidden Reality of Alien Intelligence &amp; Biological Life</title>
@@ -1201,9 +1211,10 @@ Go to &lt;a href="https://lexfridman.com/s/masterclass-ep486-sc"&gt;https://mast
 (3:01:22) &amp;#8211; Alien intelligence&lt;br /&gt;
 (3:16:17) &amp;#8211; Advice for young people&lt;br /&gt;
 (3:22:46) &amp;#8211; Questions for AGI&lt;/p&gt;</description>
-		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_michael_levin_2.mp3" length="5242880" type="audio/mpeg" />
+		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_michael_levin_2.mp3" length="149510596" type="audio/mpeg" />
 		<ns2:episodeType>full</ns2:episodeType>
-		<ns4:pid>149970343</ns4:pid>
+		<ns2:duration>3:27:39</ns2:duration>
+		<ns4:pid>150350653</ns4:pid>
 	</item>
 	<item>
 		<title>#485 – David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy</title>
@@ -1267,8 +1278,9 @@ Go to &lt;a href="https://lexfridman.com/s/shopify-ep485-sc"&gt;https://shopify.
 &amp;#8211; RSS: &lt;a href="https://lexfridman.com/feed/podcast/"&gt;https://lexfridman.com/feed/podcast/&lt;/a&gt;&lt;br /&gt;
 &amp;#8211; Podcast Playlist: &lt;a href="https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4"&gt;https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4&lt;/a&gt;&lt;br /&gt;
 &amp;#8211; Clips Channel: &lt;a href="https://www.youtube.com/lexclips"&gt;https://www.youtube.com/lexclips&lt;/a&gt;&lt;/p&gt;</description>
-		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_david_kirtley.mp3" length="5242880" type="audio/mpeg" />
+		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_david_kirtley.mp3" length="123233823" type="audio/mpeg" />
 		<ns2:episodeType>full</ns2:episodeType>
+		<ns2:duration>2:45:22</ns2:duration>
 		<ns4:pid>149970343</ns4:pid>
 	</item>
 	<item>
@@ -1689,9 +1701,10 @@ Go to &lt;a href="https://lexfridman.com/s/shopify-ep479-sc"&gt;https://shopify.
 &amp;#8211; RSS: &lt;a href="https://lexfridman.com/feed/podcast/"&gt;https://lexfridman.com/feed/podcast/&lt;/a&gt;&lt;br /&gt;
 &amp;#8211; Podcast Playlist: &lt;a href="https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4"&gt;https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4&lt;/a&gt;&lt;br /&gt;
 &amp;#8211; Clips Channel: &lt;a href="https://www.youtube.com/lexclips"&gt;https://www.youtube.com/lexclips&lt;/a&gt;&lt;/p&gt;</description>
-		<enclosure url="https://media.blubrry.com/takeituneasy/content.blubrry.com/takeituneasy/lex_ai_dave_plummer.mp3" length="5242880" type="audio/mpeg" />
+		<enclosure url="https://media.blubrry.com/takeituneasy/content.blubrry.com/takeituneasy/lex_ai_dave_plummer.mp3" length="86042753" type="audio/mpeg" />
 		<ns2:episodeType>full</ns2:episodeType>
-		<ns4:pid>147986052</ns4:pid>
+		<ns2:duration>1:59:30</ns2:duration>
+		<ns4:pid>148131647</ns4:pid>
 	</item>
 	<item>
 		<title>#478 – Scott Horton: The Case Against War and the Military Industrial Complex</title>
@@ -2060,6 +2073,7 @@ Go to &lt;a href="https://lexfridman.com/s/netsuite-ep474-sc"&gt;http://netsuite
 (6:08:11) &amp;#8211; Hope&lt;/p&gt;</description>
 		<enclosure url="https://media.blubrry.com/takeituneasy/content.blubrry.com/takeituneasy/lex_ai_dhh_david_heinemeier_hansson.mp3" length="281301723" type="audio/mpeg" />
 		<ns2:episodeType>full</ns2:episodeType>
+		<ns2:duration>6:15:11</ns2:duration>
 		<ns4:pid>146979855</ns4:pid>
 	</item>
 	<item>
@@ -2123,7 +2137,7 @@ Go to &lt;a href="https://lexfridman.com/s/lmnt-ep473-sc"&gt;https://drinkLMNT.c
 		<enclosure url="https://media.blubrry.com/takeituneasy/content.blubrry.com/takeituneasy/lex_ai_iran_israel_debate.mp3" length="180816969" type="audio/mpeg" />
 		<ns2:episodeType>full</ns2:episodeType>
 		<ns2:duration>4:11:08</ns2:duration>
-		<ns4:pid>146296512</ns4:pid>
+		<ns4:pid>146609278</ns4:pid>
 	</item>
 	</channel>
 </rss>
