@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Fri, 23 Oct 2026 20:16:05 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 23 Oct 2026 22:47:34 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,58 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Eka Robotics raises $150M to scale its vision-force-action model for robots</title>
+		<link>https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/</link>
+					<comments>https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Sat, 24 Oct 2026 12:34:27 +0000</pubDate>
+				<category>Arms / Manipulators</category>
+		<category>Artificial Intelligence</category>
+		<category>Artificial Intelligence / Cognition</category>
+		<category>Design / Development</category>
+		<category>End Effectors / Grippers</category>
+		<category>Financial</category>
+		<category>Investments</category>
+		<category>News</category>
+		<category>Software / Simulation</category>
+		<category>Eka Robotics</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589995</guid>
+
+					<description>&lt;p&gt;Eka Robotics is building a vision-force-action, or VFA, model to develop an intuition of physics through reinforcement learning at scale.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/"&gt;Eka Robotics raises $150M to scale its vision-force-action model for robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589996" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589996" class="wp-image-589996 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured.jpg" alt="A robotic arm screwing in a lightbulb. Eka Robotics is developing a model to generalize across tasks. " width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured-368x238.jpg 368w" sizes="(max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589996" class="wp-caption-text"&gt;Eka says its model can generalize across objects, tasks, and environments. | Source: Eka Robotics&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Eka Robotics this week said it has raised $150 million in Series A funding. The startup said the new funding will help it scale its technology and customer deployments.&lt;/p&gt;
+&lt;p&gt;Founded in 2024, Eka is building a vision-force-action (VFA) model to develop an intuition of physics through reinforcement learning at scale. The Cambridge, Mass.-based &lt;a href="https://ekarobotics.com/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; said that robots using its &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; can pick a wide variety of objects outside the training distribution at a speed of roughly 1,500 operations per hour.&lt;/p&gt;
+&lt;p&gt;The same robots can screw in a light bulb and insert wires, Eka asserted.&lt;/p&gt;
+&lt;h2&gt;Robots shouldn&amp;#8217;t just mimic humans, says Eka Robotics&lt;/h2&gt;
+&lt;p&gt;Eka Robotics said it is targeting dexterous manipulation. The company said that for robots to handle complicated work, they need the versatility to handle changing conditions and the performance to deliver useful work every day.&lt;/p&gt;
+&lt;p&gt;Eka also said it believes that robots should master physics, not mimic human data, to be truly general-purpose. This would allow the robot to build &amp;#8220;intuition&amp;#8221; for tasks the same way a human can by jointly reasoning about vision and forces.&lt;/p&gt;
+&lt;p&gt;The company uses simulation learning, and it said its VFA model is demonstrating that the typical sim-to-real barrier is falling. In &lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;simulation&lt;/a&gt;, the company can generate thousands of hours of robot experience in minutes, varying objects, environments, and physical conditions.&lt;/p&gt;
+&lt;p&gt;Eka claimed that transferring this learning to the real world unlocks a scalable, performant, and capital-efficient path to a foundation model for manipulation. &amp;#8220;Reinforcement learning at scale buys performance, and breadth of experience buys generality,&amp;#8221; it said.&lt;/p&gt;
+&lt;p&gt;&lt;iframe title="Eka Robotics demos its VFA model" width="740" height="416" src="https://www.youtube.com/embed/uXUBUu_ihJ0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Investors seek to level up dexterous manipulation&lt;/h2&gt;
+&lt;p&gt;Andreessen Horowitz (a16z) and F-Prime, a venture capital fund affiliated with FMR LLC, the parent company of Fidelity Investments, led the round.&lt;/p&gt;
+&lt;p&gt;“Eka’s Vision-Force-Action model is the first approach I’ve seen that truly solves manipulation with the generality and throughput needed for deployments,&amp;#8221; stated Raghu Raghuram, a general partner at a16z. &amp;#8220;This team has the ideal DNA to push the frontier of robotics research while scaling commercial operations.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;Eka Robotics&amp;#8217; Series A included continued support from the lead investors in its seed round, Obvious Ventures and E14 Fund. Other funding came from MFV Partners, Bison Ventures, Glasswing Ventures, Samsung Next, and several Fortune 500 strategics.&lt;/p&gt;
+&lt;p&gt;“From the factory floor, a robot’s value comes down to two things: its success rate and its speed over thousands of repetitions,&amp;#8221; said Shyam Kamadolli, a managing director at Fine Structure Ventures. &amp;#8220;Early on, I recognized that current approaches to generalization simply won’t get us there. Achieving the next level of performance requires a deep understanding of physics and, crucially, breaking free from our dependence on human demonstrations.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Eka’s VFA model, trained through simulation and reinforcement learning, achieves this for the hardest problem in robotics, dexterous manipulation, in a way no other company has,&amp;#8221; he added. &amp;#8220;I truly believe Eka’s approach is the only one that will hold up in real-world deployments of complex tasks.”&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/"&gt;Eka Robotics raises $150M to scale its vision-force-action model for robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>Webinar to discuss how the FCC robotics ruling affects automation buyers</title>
 		<link>https://www.therobotreport.com/webinar-discuss-how-fcc-robotics-ruling-affects-automation-buyers/</link>
 					<comments>https://www.therobotreport.com/webinar-discuss-how-fcc-robotics-ruling-affects-automation-buyers/#respond</comments>
@@ -54,7 +106,7 @@
 					<description>&lt;p&gt;Industry leaders will discuss what robotics buyers should know about the recent FCC restriction on certain connected systems.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/webinar-discuss-how-fcc-robotics-ruling-affects-automation-buyers/"&gt;Webinar to discuss how the FCC robotics ruling affects automation buyers&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_589994" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589994" class="wp-image-589994 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy.jpg" alt="Vecna Robotics makes its systems in the U.S. and is not directly affected by the FCC restriction." width="770" height="497" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy-768x496.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589994" class="wp-caption-text"&gt;Vecna Robotics makes its systems in the U.S. and is not directly affected by the FCC ruling. Credit: Eugene Demaitre&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_589994" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589994" class="wp-image-589994 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy.jpg" alt="Vecna Robotics makes its systems in the U.S. and is not directly affected by the FCC restriction." width="770" height="497" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy-768x496.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589994" class="wp-caption-text"&gt;Vecna Robotics makes its systems in the U.S. and is not directly affected by the FCC ruling. Credit: Eugene Demaitre&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;In July, the Federal Communications Commission, or FCC, said it had determined that certain foreign-made advanced robots pose a cybersecurity and competitive risk to the U.S. It has restricted imports of new models of advanced robotic devices, including mobile robots and legged robots.&lt;/p&gt;
 &lt;p&gt;What should companies considering purchases of such robots do? What are some of the concerns around design, deployment, and ongoing support?&lt;/p&gt;
 &lt;p&gt;Leaders from &lt;a href="https://www.therobotreport.com/tag/vecna-robotics" target="_blank" rel="noopener"&gt;Vecna Robotics&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/tag/locus-robotics/" target="_blank" rel="noopener"&gt;Locus Robotics&lt;/a&gt;, and the Association for Advancing Automation (&lt;a href="https://www.therobotreport.com/tag/association-for-advancing-automation" target="_blank" rel="noopener"&gt;A3&lt;/a&gt;) will discuss the practical implications of the &lt;a href="https://www.therobotreport.com/tag/fcc/" target="_blank" rel="noopener"&gt;commission&lt;/a&gt;&amp;#8216;s determination in a free webinar at &lt;strong&gt;2:00 p.m. ET on&lt;/strong&gt; &lt;strong&gt;Tuesday, Oct. 27, 2026&lt;/strong&gt;. The panelists will examine how connected systems differ from traditional automation.&lt;/p&gt;
@@ -71,13 +123,13 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href="https://event.on24.com/wcc/r/5520673/16055C0FBAB357F96B0B9BBCDA1CD18A" target="_blank" rel="noopener"&gt;Register now&lt;/a&gt; to attend this webinar, which is sponsored by Vecna Robotics. The panelists will answer questions during the live broadcast, which will be available on demand afterwards to registrants.&lt;/p&gt;
 &lt;h2&gt;About the webinar panelists&lt;/h2&gt;
-&lt;p&gt;&lt;img decoding="async" class="alignleft size-medium wp-image-589992" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Iagnemma-300x300.jpeg" alt="Karl Iagnemma, CEO of Vecna Robotics" width="300" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Iagnemma-300x300.jpeg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Iagnemma-150x150.jpeg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Iagnemma-238x238.jpeg 238w, https://www.therobotreport.com/wp-content/uploads/2026/10/Iagnemma.jpeg 400w" sizes="(max-width: 300px) 100vw, 300px" /&gt;&lt;a href="https://www.linkedin.com/in/karl-iagnemma-b52186102" target="_blank" rel="noopener"&gt;Karl Iagnemma&lt;/a&gt; is CEO of material handling systems provider Vecna Robotics Inc. He holds a Ph.D. from MIT and was director of the MIT Robotic Mobility Group.&lt;/p&gt;
+&lt;p&gt;&lt;img loading="lazy" decoding="async" class="alignleft size-medium wp-image-589992" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Iagnemma-300x300.jpeg" alt="Karl Iagnemma, CEO of Vecna Robotics" width="300" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Iagnemma-300x300.jpeg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Iagnemma-150x150.jpeg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Iagnemma-238x238.jpeg 238w, https://www.therobotreport.com/wp-content/uploads/2026/10/Iagnemma.jpeg 400w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;a href="https://www.linkedin.com/in/karl-iagnemma-b52186102" target="_blank" rel="noopener"&gt;Karl Iagnemma&lt;/a&gt; is CEO of material handling systems provider Vecna Robotics Inc. He holds a Ph.D. from MIT and was director of the MIT Robotic Mobility Group.&lt;/p&gt;
 &lt;p&gt;Iagnemma previously founded nuTonomy, the world’s first venture-backed driverless car software business, which was acquired by Aptiv for $450 million. Under his leadership, nuTonomy was spun out into Motional, a $4 billion joint venture with Hyundai Motor Co.&lt;/p&gt;
 &lt;p&gt;Karl brings a wealth of experience in scaling robotics companies from research through commercialization to Vecna.&lt;/p&gt;
 &lt;div class="css-172ajfk"&gt;
 &lt;div class="MuiBox-root css-xynzzt"&gt;
 &lt;div class="MuiBox-root css-0"&gt;
-&lt;p class="MuiTypography-root MuiTypography-body1 css-fd1sam"&gt;&lt;img decoding="async" class="alignright wp-image-589993 size-medium" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Faulk-300x300.jpeg" alt="Rick Faulk, CEO of Locus Robotics, will talk about the FCC ruling" width="300" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Faulk-300x300.jpeg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Faulk-150x150.jpeg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Faulk-238x238.jpeg 238w, https://www.therobotreport.com/wp-content/uploads/2026/10/Faulk.jpeg 400w" sizes="(max-width: 300px) 100vw, 300px" /&gt;&lt;a href="https://www.linkedin.com/in/rickfaulk/" target="_blank" rel="noopener"&gt;Rick Faulk&lt;/a&gt; is CEO of warehouse automation supplier Locus Robotics Corp. He leads its executive team with more than 30 years of experience in executive management, sales, and marketing for some of the world’s most successful technology companies, such as Cisco, Intronis, j2 Global, WebEx, Intranets.com, Barracuda Networks, Lotus Development, Mzinga, and PictureTel.&lt;/p&gt;
+&lt;p class="MuiTypography-root MuiTypography-body1 css-fd1sam"&gt;&lt;img loading="lazy" decoding="async" class="alignright wp-image-589993 size-medium" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Faulk-300x300.jpeg" alt="Rick Faulk, CEO of Locus Robotics, will talk about the FCC ruling" width="300" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Faulk-300x300.jpeg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Faulk-150x150.jpeg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Faulk-238x238.jpeg 238w, https://www.therobotreport.com/wp-content/uploads/2026/10/Faulk.jpeg 400w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;a href="https://www.linkedin.com/in/rickfaulk/" target="_blank" rel="noopener"&gt;Rick Faulk&lt;/a&gt; is CEO of warehouse automation supplier Locus Robotics Corp. He leads its executive team with more than 30 years of experience in executive management, sales, and marketing for some of the world’s most successful technology companies, such as Cisco, Intronis, j2 Global, WebEx, Intranets.com, Barracuda Networks, Lotus Development, Mzinga, and PictureTel.&lt;/p&gt;
 &lt;p class="MuiTypography-root MuiTypography-body1 css-fd1sam"&gt;Faulk leads Locus Robotics&amp;#8217; executive team and is responsible for the overall strategy and execution at the company. Rick currently sits on various boards and is an advisor to multiple companies, including Retrocausal, Arccos, Cybernetix Ventures, and Leading Edge Ventures. Past board positions include Yodle, Virtual Computer, Bidding for Good, Skill Survey, Influitive, Ntirety, Blue Raven, and Centive.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -544,15 +596,15 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
             &lt;input type='hidden' class='gform_hidden' name='is_submit_36' value='1' /&gt;
             &lt;input type='hidden' class='gform_hidden' name='gform_submit' value='36' /&gt;
             
-            &lt;input type='hidden' class='gform_hidden' name='gform_currency' data-currency='USD' value='1LYv9oyVpaVf1Yx0bQjnRin/DVHMAcXI+Id+hZBVrDUjoJRSd6TawADQxynCwQnXWfs4nFtaIhzV92H2+chwRLA7if3fpY/ECKUvDiw5Qj+vS10=' /&gt;
+            &lt;input type='hidden' class='gform_hidden' name='gform_currency' data-currency='USD' value='2AZgfP+aFMByvqZzL4mL68uHzHDDbqrzzQ1MMkT6E46imjyPemRYGeHIjsOoVw4L+d+nrx7AsVNJzf93grXNUoHtcDf2dIgA2dRsDAXyK+fAMPE=' /&gt;
             &lt;input type='hidden' class='gform_hidden' name='gform_unique_id' value='' /&gt;
-            &lt;input type='hidden' class='gform_hidden' name='state_36' value='WyJ7XCIzOS4xXCI6XCI5ODhkNWFlOGE5NTY1YjRjNjU2ZmJmNjM0MWE4MGFhMVwiLFwiMzkuMlwiOlwiZWFkNTljNGM4ODZjZjdmMTAxOTcxNzllMGU3MzBkMzZcIixcIjM5LjNcIjpcImRlNDVmNWY4ZDZjNzVkMmU4Y2IzMWI0MzIzZGU3OTAxXCIsXCIzOS40XCI6XCJhMWY5MWJjYzc3YWMzZGI3YmEzMTc2OGI4M2VhM2UxNVwiLFwiMzkuNVwiOlwiNmMwNjk0YTVhM2UwMGMwY2QwODZjNzUwN2E5ZDdjMzBcIixcIjM5LjZcIjpcImQ0MjZhMDA5OTc3Yjg0OGZjYTY0MWU3MmI5NThkYmE2XCIsXCIzOS43XCI6XCI3OTM1Yzk3Mzg0ZTZmMTMzYzU2NDkxYjVkOTdiNzIzM1wiLFwiMzkuOFwiOlwiMmMyYTBiZWMxYTYwMDI0ZjA2Mjc1MDFlYTFmMWUwYzJcIixcImdmb3JtX3N1Ym1pc3Npb25fbWV0aG9kXCI6W1wiYWZkNzZiMGNhZTgwZTA2YjgzYjQzZWYzOWM0ZTU3ZGNcIixcIjU2YzNmOTU4OGY1NzcyZTY0ZWZiYTc5Y2JlOGRmYzBhXCJdLFwiZ2Zvcm1fdGhlbWVcIjpcIjA2Y2U5NzMxNzUyODU5OGM3NDhjMmI3MWNlYmRkZTA5XCIsXCJnZm9ybV9zdHlsZV9zZXR0aW5nc1wiOlwiMGU4Mjg1MzZmZGQ2Y2FmYjdkYjVmMWNjMjEyYjFjZDZcIixcImZvcm1faWRcIjpcIjNiM2NhZWEyZTQwNWU3Y2E4MjVjNTJjZWQ5NmMxNDhjXCIsXCJ1cmxcIjpcIjBjOGU5YmQ0ZDA5MTZkNGEyZmRjMWJlZTQ0YWE0MzkyXCIsXCJzdGF0ZV90aW1lc3RhbXBcIjpcIjM3ZWUxOGQ0M2ViYzk0NTNiYzJjYTAzNTY2NTc2N2E5XCJ9IiwiZjlhMTcyMTIzNmJiODcxYjRlZmM2ZTI1ODFjZGVjYjQiLDE3OTI3ODY5NDVd' /&gt;
+            &lt;input type='hidden' class='gform_hidden' name='state_36' value='WyJ7XCIzOS4xXCI6XCI5ODhkNWFlOGE5NTY1YjRjNjU2ZmJmNjM0MWE4MGFhMVwiLFwiMzkuMlwiOlwiZWFkNTljNGM4ODZjZjdmMTAxOTcxNzllMGU3MzBkMzZcIixcIjM5LjNcIjpcImRlNDVmNWY4ZDZjNzVkMmU4Y2IzMWI0MzIzZGU3OTAxXCIsXCIzOS40XCI6XCJhMWY5MWJjYzc3YWMzZGI3YmEzMTc2OGI4M2VhM2UxNVwiLFwiMzkuNVwiOlwiNmMwNjk0YTVhM2UwMGMwY2QwODZjNzUwN2E5ZDdjMzBcIixcIjM5LjZcIjpcImQ0MjZhMDA5OTc3Yjg0OGZjYTY0MWU3MmI5NThkYmE2XCIsXCIzOS43XCI6XCI3OTM1Yzk3Mzg0ZTZmMTMzYzU2NDkxYjVkOTdiNzIzM1wiLFwiMzkuOFwiOlwiMmMyYTBiZWMxYTYwMDI0ZjA2Mjc1MDFlYTFmMWUwYzJcIixcImdmb3JtX3N1Ym1pc3Npb25fbWV0aG9kXCI6W1wiYWZkNzZiMGNhZTgwZTA2YjgzYjQzZWYzOWM0ZTU3ZGNcIixcIjU2YzNmOTU4OGY1NzcyZTY0ZWZiYTc5Y2JlOGRmYzBhXCJdLFwiZ2Zvcm1fdGhlbWVcIjpcIjA2Y2U5NzMxNzUyODU5OGM3NDhjMmI3MWNlYmRkZTA5XCIsXCJnZm9ybV9zdHlsZV9zZXR0aW5nc1wiOlwiMGU4Mjg1MzZmZGQ2Y2FmYjdkYjVmMWNjMjEyYjFjZDZcIixcImZvcm1faWRcIjpcIjNiM2NhZWEyZTQwNWU3Y2E4MjVjNTJjZWQ5NmMxNDhjXCIsXCJ1cmxcIjpcIjBjOGU5YmQ0ZDA5MTZkNGEyZmRjMWJlZTQ0YWE0MzkyXCIsXCJzdGF0ZV90aW1lc3RhbXBcIjpcImYyYjI1YzhhZDYxZTk1OTM0YjdlZjMxMTMwOTc2MmVkXCJ9IiwiMWZkNjVmZGU0ZWVlMjkyMDVhOTBhZWFiM2Y0YzJhMGQiLDE3OTI4NDU4MDZd' /&gt;
             &lt;input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_36' id='gform_target_page_number_36' value='0' /&gt;
             &lt;input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_36' id='gform_source_page_number_36' value='1' /&gt;
             &lt;input type='hidden' name='gform_field_values' value='' /&gt;
             
         &lt;/div&gt;
-                        &lt;p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"&gt;&lt;label&gt;&amp;#916;&lt;textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"&gt;&lt;/textarea&gt;&lt;/label&gt;&lt;input type="hidden" id="ak_js_1" name="ak_js" value="5"/&gt;&lt;script&gt;
+                        &lt;p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"&gt;&lt;label&gt;&amp;#916;&lt;textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"&gt;&lt;/textarea&gt;&lt;/label&gt;&lt;input type="hidden" id="ak_js_1" name="ak_js" value="75"/&gt;&lt;script&gt;
 document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );
 &lt;/script&gt;
 &lt;/p&gt;&lt;/form&gt;
@@ -957,62 +1009,6 @@ He added that embodied-intelligence models are still in development, and that co
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/kodama-raises-7m-bring-robotics-forestry/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>A guide to everything happening at RoboBusiness 2026</title>
-		<link>https://www.therobotreport.com/a-guide-to-everything-happening-at-robobusiness-2026/</link>
-					<comments>https://www.therobotreport.com/a-guide-to-everything-happening-at-robobusiness-2026/#respond</comments>
-		
-		<dc:creator>Brianna Wessling</dc:creator>
-		<pubDate>Mon, 19 Oct 2026 12:00:34 +0000</pubDate>
-				<category>Agriculture</category>
-		<category>Artificial Intelligence</category>
-		<category>Construction</category>
-		<category>Energy / Solar / Renewables</category>
-		<category>Events</category>
-		<category>Healthcare Robotics</category>
-		<category>Humanoids</category>
-		<category>News</category>
-		<category>robobusiness</category>
-		<category>workforce</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589894</guid>
-
-					<description>&lt;p&gt;RoboBusiness 2026 will start tomorrow, so we're putting together an overview of everything happening at the show over the next two days.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/a-guide-to-everything-happening-at-robobusiness-2026/"&gt;A guide to everything happening at RoboBusiness 2026&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;p&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/robobiz-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-589906" src="https://www.therobotreport.com/wp-content/uploads/2026/10/robobiz-featured.jpg" alt="A robot on the show floor at 2025 RoboBusiness." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/robobiz-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/10/robobiz-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/robobiz-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/robobiz-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/robobiz-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;RoboBusiness 2026 kicks off tomorrow at the Santa Clara Convention Center. Over the next two days, the show will bring together over 1,600 attendees for discussions on cutting-edge research, industry trends, and innovative applications in sectors such as manufacturing, healthcare, agriculture, logistics, and more.&lt;/p&gt;
-&lt;p&gt;This year, we&amp;#8217;ll be marking 20 years of &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt;. We&amp;#8217;ll be celebrating the community that made this milestone possible and looking ahead to the next 20 years of collaboration and growth.&lt;/p&gt;
-&lt;p&gt;The event will include more than 40 sessions across five tracks: AI, Business &amp;amp; Development, Field Robotics, Humanoids, and Enabling Technologies. The Engineering Theater on the show floor will also feature presentations by industry experts.&lt;/p&gt;
-&lt;p&gt;Speakers at the conference will include experts from Robust AI, Agility Robotics, Amazon Robotics, Teradyne Robotics, Locus Robotics, Tesla, Boston Dynamics, ABB Robotics, MassRobotics, and more.&lt;/p&gt;
-&lt;p&gt;To help you keep track of everything going on, we’ve compiled a summary of all of the activities at the RoboBusiness. &lt;a href="https://cvent.me/5AGyXE?RefId=articles" target="_blank" rel="noopener"&gt;Registration is still open.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Best Moments of RoboBusiness 2025" width="740" height="416" src="https://www.youtube.com/embed/sA7R9PGhCog?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;Prepare for a packed Day 1&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://www.therobotreport.com/tag/robobusiness" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; will start at 9:15 a.m. PT with the opening keynote &amp;#8220;The Next 20 Years of Robotics.&amp;#8221; Rodney Brooks, the co-founder and chief technology officer of Robust AI; Jonathan Hurst, the co-founder and chief robot officer of Agility Robotics; and Ken Goldberg, the William S. Floyd Jr. Distinguished Chair in Engineering at UC Berkeley, will discuss what comes next in robotics. The keynote will end with a special RoboBusiness announcement.&lt;/p&gt;
-&lt;p&gt;After the keynote ends at 10:00 a.m., the &lt;a href="https://www.robobusiness.com/exhibit-floor/" target="_blank" rel="noopener"&gt;exhibit hall&lt;/a&gt; will open, and will stay open until 6:30 p.m. There, attendees can find interesting robotics demos, the Engineering Theater, and the Startup Alley. Sessions in the Engineering Theater will start at 11:00 a.m. The Expo Cafe can also be found in the back of the exhibit hall for food and drink during the show.&lt;/p&gt;
-&lt;p&gt;Breakout &lt;a href="https://www.robobusiness.com/agenda/" target="_blank" rel="noopener"&gt;sessions&lt;/a&gt; will start at 10:30 a.m. in Rooms 209/210, 207, 206, 203, and 204.&lt;/p&gt;
-&lt;p&gt;At 12:15 p.m., Bhavana Chandrashekhar, the senior manager of applied science at Amazon Robotics, and Joyce Sidopoulos, the co-founder and chief of operations at MassRobotics, will start the Women in Robotics Luncheon. This ticketed event will include a fireside chat. It presents an opportunity for women in the industry to form connections, deepen relationships, and champion increased female representation in robotics leadership.&lt;/p&gt;
-&lt;p&gt;The day will end with another keynote talk, &amp;#8220;Beyond the Demo: AI in Production Robotics&amp;#8221; at 4:30 p.m. in the theater. This session will feature insights from Chandrashekhar; James Davidson, the chief AI officer at Teradyne Robotics; Ali Raja, the vice president of data centers at ABB Robotics; Ram Devarajulu, vice president of deep tech innovations at Cambridge Consultants; and Jon Battles, the vice president of technology strategy at Cobot.&lt;/p&gt;
-&lt;p&gt;After the keynote, Day 1 will finish with a &lt;a href="https://www.robobusiness.com/networking-events/" target="_blank" rel="noopener"&gt;networking&lt;/a&gt; reception presented by Harmonic Drive in Hall A/B. The reception will include drinks, light appetizers, and time to connect with other RoboBusiness attendees and speakers.&lt;/p&gt;
-&lt;h2&gt;RoboBusiness 2026 Day 2 includes more interesting talks&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/07/robobusiness-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-588698" src="https://www.therobotreport.com/wp-content/uploads/2026/07/robobusiness-featured.jpg" alt="An image from the showfloor of RoboBusiness 2025." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/07/robobusiness-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/07/robobusiness-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/07/robobusiness-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/07/robobusiness-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/07/robobusiness-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Day 2 will start at 9:30 a.m. with the &amp;#8220;State of Humanoids&amp;#8221; panel. This RoboBusiness 2026 panel will feature insights from Pras Velagapudi, the CTO of Agility Robotics; Parker Conroy, the head of product management at Apptronik; Michael Patrick Perry, the head of commercial strategy at Persona AI; and Aadeel Akhtar, the founder and CEO of PSYONIC.&lt;/p&gt;
-&lt;p&gt;The discussion will explore the capabilities &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoids&lt;/a&gt; are delivering today, the technical and operational challenges that remain, and the lessons emerging from early industrial implementations.&lt;/p&gt;
-&lt;p&gt;The exhibit hall will open at 10:00 a.m. and close at 3:00 p.m. Breakout sessions will start at 10:45 a.m. in Rooms 209/210, 207, 206, 203, and 204.&lt;/p&gt;
-&lt;p&gt;RoboBusiness 2026 will close with a final keynote at 3:00 p.m. Morgan Pope, the director of companionship at Familiar Machines &amp;amp; Magic, will lead a session on how the startup is creating robotic characters.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://cvent.me/5AGyXE?RefId=articles"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/09/ROBO26_728x90_RegOpen_Sept.png" alt="SITE AD for the 2026 RoboBusiness call for speakers" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Register now and help us celebrate 20 years of RoboBusiness!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/a-guide-to-everything-happening-at-robobusiness-2026/"&gt;A guide to everything happening at RoboBusiness 2026&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/a-guide-to-everything-happening-at-robobusiness-2026/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
