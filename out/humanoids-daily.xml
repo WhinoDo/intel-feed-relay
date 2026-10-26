@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 26 Oct 2026 09:06:09 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 26 Oct 2026 16:45:35 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-optimus-gen-3-figure-04-next-apollo-reveal-timeline</guid>
+    <title>Tesla’s Optimus Gen 3, Figure 04 and the Next Apollo: When Each Could Be Revealed</title>
+    <link>https://www.humanoidsdaily.com/features/tesla-optimus-gen-3-figure-04-next-apollo-reveal-timeline</link>
+    <description>Tesla, Figure and Apptronik are each preparing a new humanoid, and none has given a reveal date. Here is what each company has said, what our reporting adds, and when each robot is most likely to appear.</description>
+    <pubDate>Mon, 26 Oct 2026 16:45:35 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Tesla</category><category>Figure-04</category><category>US</category><category>Figure</category><category>Optimus gen 3</category><category>Apollo</category><category>Apptronik</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/gxo-agility-digit-two-sites-2027-expansion</guid>
+    <title>GXO Expands Agility Partnership to Two More U.S. Sites, Starting With Digit 4</title>
+    <link>https://www.humanoidsdaily.com/news/gxo-agility-digit-two-sites-2027-expansion</link>
+    <description>Digit deployments in North Carolina and Tennessee are expected in early 2027, with a later transition to Digit 5 when commercially available.</description>
+    <pubDate>Mon, 26 Oct 2026 11:12:49 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Market</category><category>Agility Robotics</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/rokae-10000-humanoid-arms-schaeffler-taicang</guid>
     <title>ROKAE Reports 10,000 Humanoid Arms Delivered, Identifies Schaeffler Factory Deployment</title>
@@ -288,26 +308,6 @@
     <pubDate>Mon, 19 Oct 2026 17:06:50 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Brett Adcock</category><category>US</category><category>Figure</category><category>Figure-03</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-december-3-shareholder-meeting-board-letter</guid>
-    <title>Tesla Makes Its Case for Board Continuity Ahead of December 3 Shareholder Vote</title>
-    <link>https://www.humanoidsdaily.com/news/tesla-december-3-shareholder-meeting-board-letter</link>
-    <description>Tesla’s new shareholder letter urges the re-election of Musk, Denholm and Straubel, citing its AI and manufacturing ambitions ahead of the December 3 meeting.</description>
-    <pubDate>Mon, 19 Oct 2026 15:35:53 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Optimus</category><category>Tesla</category><category>US</category><category>Optimus gen 3</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/kaist-humanoid-v0-9-whole-body-lifting-pushing</guid>
-    <title>From Moonwalking to Heavy Lifting: KAIST Humanoid v0.9 Moves 35 kg Objects</title>
-    <link>https://www.humanoidsdaily.com/news/kaist-humanoid-v0-9-whole-body-lifting-pushing</link>
-    <description>KAIST’s latest humanoid demonstration uses onboard vision to push objects up to 35 kg and lift up to 20 kg, extending its work from locomotion to object handling.</description>
-    <pubDate>Mon, 19 Oct 2026 12:59:32 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>South Korea</category><category>KAIST</category>
   </item>
 
   </channel>

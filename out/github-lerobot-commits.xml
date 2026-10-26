@@ -4,7 +4,46 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-26T09:37:06Z</ns0:updated>
+  <ns0:updated>2026-10-26T14:45:18Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/45cca1a6ba368cf29cc8b4e0f49a1db875d15f61</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/45cca1a6ba368cf29cc8b4e0f49a1db875d15f61" />
+    <ns0:title>
+        fix(peft): make --peft.* and --policy.use_peft one switch, detect ada…
+    </ns0:title>
+    <ns0:updated>2026-10-26T14:45:18Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(peft): make --peft.* and --policy.use_peft one switch, detect adapters from the checkpoint (#4144)
+
+* fix(peft): allow fresh LoRA fine-tuning from a base-model checkpoint
+
+* test(peft): adapt PEFT factory tests to main&amp;#39;s module-level peft import
+
+`make_policy` no longer does an inline `from peft import ...`: main imports
+PeftConfig/PeftModel at module scope behind `_peft_available` and calls
+`require_package(&amp;quot;peft&amp;quot;)` instead. Patching `sys.modules[&amp;quot;peft&amp;quot;]` therefore no
+longer intercepts anything, and `require_package` now runs `find_spec` over the
+MagicMock, which raises `ValueError: peft.__spec__ is not set`. Patch the
+factory&amp;#39;s module-level names directly instead.
+
+Also pin `_has_peft_adapter_config` in `test_factory_peft_revision.py`: that
+test is about keeping the adapter and base revisions separate, but its fake
+&amp;quot;user/adapter&amp;quot; repo id made the new adapter-detection lookup reach the Hub, 404,
+and fall back to the base-model branch. Pinning it keeps the test&amp;#39;s intent and
+makes it hermetic.
+
+* fix(peft): make --peft.* and --policy.use_peft one switch, cache-aware adapter check, rollout loader
+
+* test(flux3): skip use_peft in the recipe contract check, it is derived from --peft.*
+
+* fix(peft): apply the adapter check in the remote inference server loader&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/5831498454e93c71d209ff2e5e823e434f1efd15</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/5831498454e93c71d209ff2e5e823e434f1efd15" />
@@ -833,25 +872,6 @@ Signed-off-by: Dipesh Babu &amp;lt;dipeshmahato@outlook.com&amp;gt;
 ---------
 
 Signed-off-by: Dipesh Babu &amp;lt;dipeshmahato@outlook.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/1d927d1eb60bc9b6d30fb4edfa17638f1c755be7</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1d927d1eb60bc9b6d30fb4edfa17638f1c755be7" />
-    <ns0:title>
-        fix(utils): preserve Python Gaussian RNG cache in checkpoints (#4705)
-    </ns0:title>
-    <ns0:updated>2026-10-21T09:31:11Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/59379458?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>dipeshbabu</ns0:name>
-      <ns0:uri>https://github.com/dipeshbabu</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(utils): preserve Python Gaussian RNG cache in checkpoints (#4705)
-
-Signed-off-by: Dipesh Babu &amp;lt;dipeshmahato@outlook.com&amp;gt;
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
