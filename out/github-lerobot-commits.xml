@@ -4,7 +4,165 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-23T13:00:16Z</ns0:updated>
+  <ns0:updated>2026-10-26T09:37:06Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/5831498454e93c71d209ff2e5e823e434f1efd15</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/5831498454e93c71d209ff2e5e823e434f1efd15" />
+    <ns0:title>
+        (docs) improvements and fixes  (#4812)
+    </ns0:title>
+    <ns0:updated>2026-10-26T09:37:06Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/39432165?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>NikodemBartnik</ns0:name>
+      <ns0:uri>https://github.com/NikodemBartnik</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;(docs) improvements and fixes  (#4812)
+
+* Update il_robots.mdx
+
+* Update index.mdx
+
+* add camera placement and lighting
+
+* Update cheat-sheet.mdx
+
+* Update cheat-sheet.mdx
+
+* Update AGENT_GUIDE.md
+
+* update discord link
+
+* Update README.md
+
+* Update README.md
+
+* Update installation.mdx
+
+* Update smolvla.mdx
+
+* Update act.mdx
+
+* Update hil_data_collection.mdx
+
+* fix default values
+
+* add rollout_ prefix to dataset name
+
+* Update hil_data_collection.mdx
+
+* text improvements, remove comments from commands
+
+* improve text and remove comments form commands
+
+* update commands
+
+* update commands and description
+
+* Update lekiwi.mdx
+
+* Update lekiwi.mdx
+
+* Update torch_accelerators.mdx
+
+* Update pi0fast.mdx
+
+* fix commands
+
+* update dataset edit command
+
+* update commands
+
+* update commands
+
+* Update xvla.mdx
+
+* Update rtc.mdx
+
+* fix policy path
+
+* fix default value
+
+* add quotes to the command
+
+* Update lerobot-dataset-v3.mdx
+
+* Update using_dataset_tools.mdx
+
+* Update lerobot-dataset-v3.mdx
+
+* move comment
+
+* fix command
+
+* fix commands
+
+* Update multi_task_dit.mdx
+
+* Update eo1.mdx
+
+* fix training command
+
+* Update peft_training.mdx
+
+* update description and fix formatting
+
+* update commands
+
+* update missing elements in the command
+
+* description improvements
+
+* Update integrate_hardware.mdx
+
+* Update phone_teleop.mdx
+
+* add missing comma
+
+* Update implement_your_own_processor.mdx
+
+* Update debug_processor_pipeline.mdx
+
+* Update env_processor.mdx
+
+* Update tools.mdx
+
+* Update robomme.mdx
+
+* Update robocerebra.mdx
+
+* Update language_and_recipes.mdx
+
+* Update robotwin.mdx
+
+* Update envhub_isaaclab_arena.mdx
+
+* Update envhub.mdx
+
+* Update annotation_pipeline.mdx
+
+* fix description
+
+* Update hilserl_sim.mdx
+
+* Update backwardcomp.mdx
+
+* Update metaworld.mdx
+
+* Update hilserl.mdx
+
+* Update porting_datasets_v3.mdx
+
+* Update processors_robots_teleop.mdx
+
+* fix format
+
+---------
+
+Signed-off-by: Nikodem Bartnik &amp;lt;39432165+NikodemBartnik@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/d3793b7e36522321c1c455f0dc4826db3793dceb</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d3793b7e36522321c1c455f0dc4826db3793dceb" />
@@ -694,30 +852,6 @@ Signed-off-by: Dipesh Babu &amp;lt;dipeshmahato@outlook.com&amp;gt;&lt;/pre&gt;
 
 Signed-off-by: Dipesh Babu &amp;lt;dipeshmahato@outlook.com&amp;gt;
 Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/c09bdd9d9f8df81ddf9272ff5aebc5686ce6e28b</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c09bdd9d9f8df81ddf9272ff5aebc5686ce6e28b" />
-    <ns0:title>
-        fix(datasets): report a 29.97 fps stream rate (#4810)
-    </ns0:title>
-    <ns0:updated>2026-10-21T09:30:55Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/33847880?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>SashaMIT</ns0:name>
-      <ns0:uri>https://github.com/SashaMIT</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): report a 29.97 fps stream rate (#4810)
-
-* Report a 29.97 fps stream as 29.97 instead of 29.
-
-int() on the frame-rate rational truncates 30000/1001. An exact 30 fps stream stays the integer 30.
-
-* test(datasets): pin an exact 30 fps stream as an int
-
-The 29.97 case stays a float. This locks the integer path next to it.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
