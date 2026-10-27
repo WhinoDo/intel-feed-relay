@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 26 Oct 2026 16:45:35 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 26 Oct 2026 22:17:50 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-ice-spot-employee-petition-robot-ethics</guid>
+    <title>Boston Dynamics Employee Petition Against ICE Robot Deal Tests Its Ethical Guardrails</title>
+    <link>https://www.humanoidsdaily.com/news/boston-dynamics-ice-spot-employee-petition-robot-ethics</link>
+    <description>The company is standing by a deal for four modified Spot robots despite employee objections, highlighting questions about customer selection and safeguards beyond weaponization.</description>
+    <pubDate>Mon, 26 Oct 2026 22:17:50 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Boston Dynamics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/faraday-future-robotics-acquisition-completed-ffr</guid>
+    <title>Faraday Future Completes Robotics Business Transfer to Nasdaq-Listed FFR</title>
+    <link>https://www.humanoidsdaily.com/news/faraday-future-robotics-acquisition-completed-ffr</link>
+    <description>The acquisition closed October 23. FFR forecasts approximately 2,000 robot sales and shipments for the acquired business in 2026 and introduces FF OmniMind.</description>
+    <pubDate>Mon, 26 Oct 2026 21:43:03 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Faraday Future</category><category>US</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-optimus-gen-3-figure-04-next-apollo-reveal-timeline</guid>
     <title>Tesla’s Optimus Gen 3, Figure 04 and the Next Apollo: When Each Could Be Revealed</title>
@@ -288,26 +308,6 @@
     <pubDate>Mon, 19 Oct 2026 20:54:47 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Unitree Robotics</category><category>Market</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-digit-5-redesign-hurst-safety-weight</guid>
-    <title>“I Cannot Love Digit 5”: Agility Co-Founder Explains His Robot’s Compromises</title>
-    <link>https://www.humanoidsdaily.com/news/agility-digit-5-redesign-hurst-safety-weight</link>
-    <description>Jonathan Hurst says Digit 5 is the robot Agility needs today, but not the one he dreamed of building. His essay explains the commercial demands behind that tension.</description>
-    <pubDate>Mon, 19 Oct 2026 17:31:50 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Jonathan Hurst</category><category>US</category><category>Digit</category><category>Agility Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-03-nine-day-treadmill-million-steps</guid>
-    <title>Figure’s Humanoid Has Walked 348 Miles on a Treadmill—and It’s Still Going</title>
-    <link>https://www.humanoidsdaily.com/news/figure-03-nine-day-treadmill-million-steps</link>
-    <description>Brett Adcock says Figure 03 has covered 348 miles in a treadmill stress test that began as a side project to expose failures—and is still running.</description>
-    <pubDate>Mon, 19 Oct 2026 17:06:50 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Brett Adcock</category><category>US</category><category>Figure</category><category>Figure-03</category>
   </item>
 
   </channel>

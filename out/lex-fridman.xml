@@ -5,7 +5,7 @@
 	<ns0:link href="https://lexfridman.com/feed/podcast/" rel="self" type="application/rss+xml" />
 	<link>https://lexfridman.com/</link>
 	<description>Conversations that explore technology, history, philosophy, physics, mathematics, biology, chemistry, engineering, AI, robotics, programming, music, film, art, sports, psychology, neuroscience, geopolitics, business, economics, religion, astronomy, and the human condition with people from all walks of life.</description>
-	<lastBuildDate>Sat, 24 Oct 2026 20:46:37 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 26 Oct 2026 22:52:28 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>hourly</ns1:updatePeriod>
 	<ns1:updateFrequency>1</ns1:updateFrequency>
@@ -14,7 +14,7 @@
 	<ns2:new-feed-url>https://lexfridman.com/feed/podcast/</ns2:new-feed-url>
 	<ns2:author>Lex Fridman</ns2:author>
 	<ns2:explicit>false</ns2:explicit>
-	<ns2:image href="https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png" />
+	<ns2:image href="https://lexfridman.com/wordpress/wp-content/uploads/powerpress/lex_fridman_podcast_cover_3000.jpg" />
 	<ns2:owner>
 		<ns2:name>Lex Fridman</ns2:name>
 		<ns2:email>lexfridman@gmail.com</ns2:email>
@@ -22,7 +22,7 @@
 	<ns3:medium>podcast</ns3:medium>
 	<image>
 		<title>Lex Fridman Podcast</title>
-		<url>https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png</url>
+		<url>https://lexfridman.com/wordpress/wp-content/uploads/powerpress/lex_fridman_podcast_cover_3000.jpg</url>
 		<link>https://lexfridman.com/podcast</link>
 	</image>
 	<ns2:category text="Technology" />
@@ -33,6 +33,71 @@
 	<ns3:podping usesPodping="true" />
 	<ns3:guid>7eeae9d1-141e-5133-9e8f-6c1da695e40c</ns3:guid>
 	<ns4:subscribe feed="https://lexfridman.com/feed/podcast/" itunes="https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584" tunein="https://tunein.com/podcasts/Technology-Podcasts/Artificial-Intelligence-p1153019/" spotify="https://open.spotify.com/show/2MAi0BvDc6GTFvKFPXnkCL" youtube="https://youtube.com/@lexfridman" />
+	<item>
+		<title>#503 – AI Crisis in Math: Navier-Stokes, Riemann Hypothesis &amp; Complexity Theory</title>
+		<link>https://lexfridman.com/math-ai-crisis/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=math-ai-crisis</link>
+		<pubDate>Mon, 26 Oct 2026 22:52:28 +0000</pubDate>
+		<guid isPermaLink="false">https://lexfridman.com/?p=7807</guid>
+		<comments>https://lexfridman.com/math-ai-crisis/#respond</comments>
+		<ns5:commentRss>https://lexfridman.com/math-ai-crisis/feed/</ns5:commentRss>
+		<ns6:comments>0</ns6:comments>
+		<category>Podcast</category>
+		<description>&lt;p&gt;Ankur Moitra, Steven Brunton and Alex Kontorovich are three mathematicians who can speak to this incredible moment in the history of mathematics, when AI solved some of its hardest problems: Navier-Stokes, the quasi-Riemann hypothesis, the unique games conjecture and hundreds of other problems. Ankur Moitra is a mathematician at MIT (visiting the Institute for Advanced Study in Princeton) working in theoretical computer science, who can speak to the unique games conjecture, complexity theory and the mathematics of how AI learns. Steven Brunton is a mathematician and fluid dynamics expert at UW, who can speak to Navier-Stokes, turbulence and machine learning for fluid dynamics. Alex Kontorovich is a mathematician at Rutgers specializing in number theory, who can speak to the Riemann hypothesis, Lean and machine-checked proofs.&lt;br /&gt;
+Thank you for listening ❤ Check out our sponsors: &lt;a href="https://lexfridman.com/sponsors/ep503-sc"&gt;https://lexfridman.com/sponsors/ep503-sc&lt;/a&gt;&lt;br /&gt;
+See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Transcript:&lt;/b&gt;&lt;br /&gt;
+&lt;a href="https://lexfridman.com/math-ai-crisis-transcript"&gt;https://lexfridman.com/math-ai-crisis-transcript&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;CONTACT LEX:&lt;/b&gt;&lt;br /&gt;
+&lt;b&gt;Feedback&lt;/b&gt; &amp;#8211; give feedback to Lex: &lt;a href="https://lexfridman.com/survey"&gt;https://lexfridman.com/survey&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;AMA&lt;/b&gt; &amp;#8211; submit questions, videos or call-in: &lt;a href="https://lexfridman.com/ama"&gt;https://lexfridman.com/ama&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Hiring&lt;/b&gt; &amp;#8211; join our team: &lt;a href="https://lexfridman.com/hiring"&gt;https://lexfridman.com/hiring&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Other&lt;/b&gt; &amp;#8211; other ways to get in touch: &lt;a href="https://lexfridman.com/contact"&gt;https://lexfridman.com/contact&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EPISODE LINKS:&lt;/b&gt;&lt;br /&gt;
+Ankur&amp;#8217;s Website: &lt;a href="https://people.csail.mit.edu/moitra/"&gt;https://people.csail.mit.edu/moitra/&lt;/a&gt;&lt;br /&gt;
+Alex&amp;#8217;s X: &lt;a href="https://x.com/AlexKontorovich"&gt;https://x.com/AlexKontorovich&lt;/a&gt;&lt;br /&gt;
+Alex&amp;#8217;s Website: &lt;a href="https://sites.math.rutgers.edu/~alexk/"&gt;https://sites.math.rutgers.edu/~alexk/&lt;/a&gt;&lt;br /&gt;
+Steven&amp;#8217;s X: &lt;a href="https://x.com/eigensteve"&gt;https://x.com/eigensteve&lt;/a&gt;&lt;br /&gt;
+Steven&amp;#8217;s YouTube: &lt;a href="https://youtube.com/@Eigensteve"&gt;https://youtube.com/@Eigensteve&lt;/a&gt;&lt;br /&gt;
+Steven&amp;#8217;s Website: &lt;a href="https://eigensteve.com"&gt;https://eigensteve.com&lt;/a&gt;&lt;br /&gt;
+Lean: &lt;a href="https://lean-lang.org/"&gt;https://lean-lang.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SPONSORS:&lt;/b&gt;&lt;br /&gt;
+To support this podcast, check out our sponsors &amp;#038; get discounts:&lt;br /&gt;
+&lt;b&gt;Wispr Flow:&lt;/b&gt; AI-powered voice dictation app.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/wispr_flow-ep503-sc"&gt;https://wisprflow.ai/lex&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Fin:&lt;/b&gt; AI agent for customer service.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/fin-ep503-sc"&gt;https://fin.ai/lex&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;LMNT:&lt;/b&gt; Zero-sugar electrolyte drink mix.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/lmnt-ep503-sc"&gt;https://drinkLMNT.com/lex&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Blitzy:&lt;/b&gt; AI agent for large enterprise codebases.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/blitzy-ep503-sc"&gt;https://blitzy.com/lex&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Shopify:&lt;/b&gt; Sell stuff online.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/shopify-ep503-sc"&gt;https://shopify.com/lex&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;NetSuite:&lt;/b&gt; Business management software.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/netsuite-ep503-sc"&gt;https://netsuite.ai/lex&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Perplexity:&lt;/b&gt; AI-powered answer engine.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/perplexity-ep503-sc"&gt;https://perplexity.ai/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;OUTLINE:&lt;/b&gt;&lt;br /&gt;
+(00:00) &amp;#8211; Introduction&lt;br /&gt;
+(01:58) &amp;#8211; Sponsors, Comments, and Reflections&lt;br /&gt;
+(09:53) &amp;#8211; Crisis moment in mathematics&lt;br /&gt;
+(18:10) &amp;#8211; Will AI &amp;#8220;solve&amp;#8221; mathematics?&lt;br /&gt;
+(34:21) &amp;#8211; Can AI create new math?&lt;br /&gt;
+(1:13:53) &amp;#8211; Riemann hypothesis&lt;br /&gt;
+(1:37:45) &amp;#8211; Navier-Stokes&lt;br /&gt;
+(2:03:42) &amp;#8211; How nature computes&lt;br /&gt;
+(2:12:35) &amp;#8211; Unique Games Conjecture and complexity theory&lt;br /&gt;
+(2:27:28) &amp;#8211; How mathematicians think&lt;br /&gt;
+(2:41:05) &amp;#8211; Is math invented or discovered?&lt;br /&gt;
+(2:47:13) &amp;#8211; Can AI solve P vs NP?&lt;br /&gt;
+(2:57:28) &amp;#8211; Why LLMs work so well&lt;br /&gt;
+(3:11:54) &amp;#8211; Problems AI can&amp;#8217;t solve yet&lt;br /&gt;
+(3:16:23) &amp;#8211; Grigori Perelman&lt;br /&gt;
+(3:25:41) &amp;#8211; Advice for young people&lt;/p&gt;</description>
+		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_math_ai_crisis.mp3" length="160582933" type="audio/mpeg" />
+		<ns2:episodeType>full</ns2:episodeType>
+		<ns2:duration>3:42:40</ns2:duration>
+		<ns4:pid>155864055</ns4:pid>
+	</item>
 	<item>
 		<title>#502 – Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud &amp; Jung</title>
 		<link>https://lexfridman.com/andrew-scull/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=andrew-scull</link>
@@ -2075,69 +2140,6 @@ Go to &lt;a href="https://lexfridman.com/s/netsuite-ep474-sc"&gt;http://netsuite
 		<ns2:episodeType>full</ns2:episodeType>
 		<ns2:duration>6:15:11</ns2:duration>
 		<ns4:pid>146979855</ns4:pid>
-	</item>
-	<item>
-		<title>#473 – Iran War Debate: Nuclear Weapons, Trump, Peace, Power &amp; the Middle East</title>
-		<link>https://lexfridman.com/iran-war-debate/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=iran-war-debate</link>
-		<pubDate>Thu, 26 Jun 2025 23:28:10 +0000</pubDate>
-		<guid isPermaLink="false">https://lexfridman.com/?p=6253</guid>
-		<comments>https://lexfridman.com/iran-war-debate/#respond</comments>
-		<ns5:commentRss>https://lexfridman.com/iran-war-debate/feed/</ns5:commentRss>
-		<ns6:comments>0</ns6:comments>
-		<category>Podcast</category>
-		<description>&lt;p&gt;Debate on Iran war between Scott Horton and Mark Dubowitz. Scott Horton is the author and director of the Libertarian Institute, editorial director of Antiwar.com, host of The Scott Horton Show, and for the past three decades, a staunch critic of U.S. foreign policy and military interventionism. Mark Dubowitz is the chief executive of the Foundation for Defense of Democracies, host of the Iran Breakdown podcast, and a leading expert on Iran and its nuclear program for over 20 years. This debate was recorded on Tuesday, June 24, after the Iran-Israel ceasefire was declared.&lt;br /&gt;
-Thank you for listening ❤ Check out our sponsors: &lt;a href="https://lexfridman.com/sponsors/ep473-sc"&gt;https://lexfridman.com/sponsors/ep473-sc&lt;/a&gt;&lt;br /&gt;
-See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Transcript:&lt;/b&gt;&lt;br /&gt;
-&lt;a href="https://lexfridman.com/iran-war-debate-transcript"&gt;https://lexfridman.com/iran-war-debate-transcript&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;CONTACT LEX:&lt;/b&gt;&lt;br /&gt;
-&lt;b&gt;Feedback&lt;/b&gt; &amp;#8211; give feedback to Lex: &lt;a href="https://lexfridman.com/survey"&gt;https://lexfridman.com/survey&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;AMA&lt;/b&gt; &amp;#8211; submit questions, videos or call-in: &lt;a href="https://lexfridman.com/ama"&gt;https://lexfridman.com/ama&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;Hiring&lt;/b&gt; &amp;#8211; join our team: &lt;a href="https://lexfridman.com/hiring"&gt;https://lexfridman.com/hiring&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;Other&lt;/b&gt; &amp;#8211; other ways to get in touch: &lt;a href="https://lexfridman.com/contact"&gt;https://lexfridman.com/contact&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;EPISODE LINKS:&lt;/b&gt;&lt;br /&gt;
-Mark&amp;#8217;s X: &lt;a href="https://x.com/mdubowitz"&gt;https://x.com/mdubowitz&lt;/a&gt;&lt;br /&gt;
-Mark&amp;#8217;s Podcast: &lt;a href="https://youtube.com/playlist?list=PLmEsAFBNkqsMQnt5pypwEX0ul0NyIjd3E"&gt;https://youtube.com/playlist?list=PLmEsAFBNkqsMQnt5pypwEX0ul0NyIjd3E&lt;/a&gt;&lt;br /&gt;
-The Foundation for Defense of Democracies (FDD): &lt;a href="https://www.fdd.org/"&gt;https://www.fdd.org/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Scott&amp;#8217;s X: &lt;a href="https://x.com/scotthortonshow"&gt;https://x.com/scotthortonshow&lt;/a&gt;&lt;br /&gt;
-Scott&amp;#8217;s YouTube: &lt;a href="https://youtube.com/@scotthortonshow"&gt;https://youtube.com/@scotthortonshow&lt;/a&gt;&lt;br /&gt;
-Scott&amp;#8217;s Podcast: &lt;a href="https://www.scotthortonshow.com/"&gt;https://www.scotthortonshow.com/&lt;/a&gt;&lt;br /&gt;
-Scott&amp;#8217;s Website: &lt;a href="https://scotthorton.org/"&gt;https://scotthorton.org/&lt;/a&gt;&lt;br /&gt;
-Scott&amp;#8217;s Books: &lt;a href="https://amzn.to/3T9Qg7y"&gt;https://amzn.to/3T9Qg7y&lt;/a&gt;&lt;br /&gt;
-The Libertarian Institute: &lt;a href="https://libertarianinstitute.org/"&gt;https://libertarianinstitute.org/&lt;/a&gt;&lt;br /&gt;
-Antiwar.com: &lt;a href="https://antiwar.com/"&gt;https://antiwar.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;SPONSORS:&lt;/b&gt;&lt;br /&gt;
-To support this podcast, check out our sponsors &amp;#38; get discounts:&lt;br /&gt;
-&lt;b&gt;Hampton:&lt;/b&gt; Community for high-growth founders and CEOs.&lt;br /&gt;
-Go to &lt;a href="https://lexfridman.com/s/hampton-ep473-sc"&gt;https://joinhampton.com/lex&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;Notion:&lt;/b&gt; Note-taking and team collaboration.&lt;br /&gt;
-Go to &lt;a href="https://lexfridman.com/s/notion-ep473-sc"&gt;https://notion.com/lex&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;Shopify:&lt;/b&gt; Sell stuff online.&lt;br /&gt;
-Go to &lt;a href="https://lexfridman.com/s/shopify-ep473-sc"&gt;https://shopify.com/lex&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;Oracle:&lt;/b&gt; Cloud infrastructure.&lt;br /&gt;
-Go to &lt;a href="https://lexfridman.com/s/oracle-ep473-sc"&gt;https://oracle.com/lex&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;LMNT:&lt;/b&gt; Zero-sugar electrolyte drink mix.&lt;br /&gt;
-Go to &lt;a href="https://lexfridman.com/s/lmnt-ep473-sc"&gt;https://drinkLMNT.com/lex&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;OUTLINE:&lt;/b&gt;&lt;br /&gt;
-(00:00) &amp;#8211; Introduction&lt;br /&gt;
-(00:36) &amp;#8211; Sponsors, Comments, and Reflections&lt;br /&gt;
-(08:02) &amp;#8211; Iran-Israel War&lt;br /&gt;
-(16:45) &amp;#8211; Iran&amp;#8217;s Nuclear Program&lt;br /&gt;
-(48:37) &amp;#8211; Nuclear weapons and uranium&lt;br /&gt;
-(1:00:40) &amp;#8211; Nuclear deal&lt;br /&gt;
-(1:26:14) &amp;#8211; Iran Nuclear Archive&lt;br /&gt;
-(1:48:50) &amp;#8211; Best case and worst case near-term future&lt;br /&gt;
-(2:24:15) &amp;#8211; US attack on Iran &amp;#8211; Operation Midnight Hammer&lt;br /&gt;
-(2:47:48) &amp;#8211; Nuclear proliferation in the future&lt;br /&gt;
-(3:08:46) &amp;#8211; Libertarianism&lt;br /&gt;
-(3:21:35) &amp;#8211; Foundation for Defense of Democracies (FDD)&lt;br /&gt;
-(3:37:10) &amp;#8211; Trump and Peacemaking process&lt;br /&gt;
-(3:42:08) &amp;#8211; WW2&lt;br /&gt;
-(3:55:08) &amp;#8211; WW3&lt;/p&gt;</description>
-		<enclosure url="https://media.blubrry.com/takeituneasy/content.blubrry.com/takeituneasy/lex_ai_iran_israel_debate.mp3" length="180816969" type="audio/mpeg" />
-		<ns2:episodeType>full</ns2:episodeType>
-		<ns2:duration>4:11:08</ns2:duration>
-		<ns4:pid>146609278</ns4:pid>
 	</item>
 	</channel>
 </rss>

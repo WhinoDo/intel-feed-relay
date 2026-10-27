@@ -4,7 +4,55 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-26T14:45:18Z</ns0:updated>
+  <ns0:updated>2026-10-26T23:18:09Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/dd5313e305ff7aaa5b6c7b4769d1b26650ce250b</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/dd5313e305ff7aaa5b6c7b4769d1b26650ce250b" />
+    <ns0:title>
+        fix(datasets): accumulate running stats in float64 to avoid zero/bias…
+    </ns0:title>
+    <ns0:updated>2026-10-26T23:18:09Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29127300?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>CarolinePascal</ns0:name>
+      <ns0:uri>https://github.com/CarolinePascal</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): accumulate running stats in float64 to avoid zero/biased std (#5107)
+
+E[x²] - E[x]² in float32 cancels catastrophically when std &amp;lt;&amp;lt; |mean| (e.g. relative rot6d components near 1), yielding biased or zero std.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/5a452d3a9d4a456d0d2fd191a14590b4f913d448</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/5a452d3a9d4a456d0d2fd191a14590b4f913d448" />
+    <ns0:title>
+        Update the list of third party integrations (#5104)
+    </ns0:title>
+    <ns0:updated>2026-10-26T23:18:01Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/39432165?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>NikodemBartnik</ns0:name>
+      <ns0:uri>https://github.com/NikodemBartnik</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update the list of third party integrations (#5104)
+
+* Update third_party_robots.mdx
+
+* Update third_party_sensors.mdx
+
+* add third party integrations reference
+
+* add reference to third party integrations
+
+* Update robots.mdx
+
+* Update teleoperators.mdx
+
+* Update integrate_hardware.mdx&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/45cca1a6ba368cf29cc8b4e0f49a1db875d15f61</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/45cca1a6ba368cf29cc8b4e0f49a1db875d15f61" />
@@ -824,54 +872,6 @@ optimizer_fused has no effect there, as the docs now say. Overriding
 optimizer state load.
 
 Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/33e0b9e3c9e2f230b61af8c90d42b90be4667844</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/33e0b9e3c9e2f230b61af8c90d42b90be4667844" />
-    <ns0:title>
-        fix: accept local dataset names in recording sanity check (#4674)
-    </ns0:title>
-    <ns0:updated>2026-10-21T10:09:07Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/64767361?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Hashim1999164</ns0:name>
-      <ns0:uri>https://github.com/Hashim1999164</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix: accept local dataset names in recording sanity check (#4674)
-
-sanity_check_dataset_name unpacked repo_id.split(&amp;quot;/&amp;quot;) into two parts,
-so a local dataset name with no namespace crashed recording. Use the
-last path segment so Hub IDs and local names both work.
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/463202b1b005e8802343a282661eb26ef27a160c</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/463202b1b005e8802343a282661eb26ef27a160c" />
-    <ns0:title>
-        fix(utils): restore seeded context RNG state on exceptions (#4707)
-    </ns0:title>
-    <ns0:updated>2026-10-21T09:37:40Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/59379458?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>dipeshbabu</ns0:name>
-      <ns0:uri>https://github.com/dipeshbabu</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(utils): restore seeded context RNG state on exceptions (#4707)
-
-* fix(utils): restore seeded context RNG state on exceptions
-
-Signed-off-by: Dipesh Babu &amp;lt;dipeshmahato@outlook.com&amp;gt;
-
-* test(utils): cover Gaussian caches and failed context entry
-
----------
-
-Signed-off-by: Dipesh Babu &amp;lt;dipeshmahato@outlook.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
