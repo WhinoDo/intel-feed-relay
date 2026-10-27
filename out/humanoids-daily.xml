@@ -7,9 +7,49 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 27 Oct 2026 10:37:39 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 27 Oct 2026 17:09:29 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/deepmind-genie-4-gemini-argon-apollo-robot-simulation</guid>
+    <title>DeepMind Pairs Genie 4 With Gemini Argon to Simulate Apollo Playing Checkers</title>
+    <link>https://www.humanoidsdaily.com/news/deepmind-genie-4-gemini-argon-apollo-robot-simulation</link>
+    <description>The interactive world model takes task instructions from Argon as it generates a simulated Apollo scene, offering an early glimpse of reasoning-guided robotics environments.</description>
+    <pubDate>Tue, 27 Oct 2026 17:09:29 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Europe</category><category>Google</category><category>google-deepmind</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-27-voxel-unitree-europe</guid>
+    <title>This Week’s Newsletter: Voxel, Unitree H2-X and Europe’s Humanoid Push</title>
+    <link>https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-27-voxel-unitree-europe</link>
+    <description>Catch up on Voxel’s home-robot pitch, Unitree’s H2-X showcase, Europe’s new humanoids and training facilities, and our latest features in the free weekly briefing.</description>
+    <pubDate>Tue, 27 Oct 2026 17:00:36 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Newsletter</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/luxonis-oak-4-ffc-humanoid-vision-computer</guid>
+    <title>Luxonis Launches OAK 4 FFC to Put Five Robot Cameras on One Vision Computer</title>
+    <link>https://www.humanoidsdaily.com/news/luxonis-oak-4-ffc-humanoid-vision-computer</link>
+    <description>The compact board supports custom camera layouts, onboard depth and AI processing, and scene-based calibration. The $849 developer kit is shipping now, with cameras sold separately.</description>
+    <pubDate>Tue, 27 Oct 2026 13:41:56 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Luxonis</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/machenta-40-million-instant-robot-learning</guid>
+    <title>Machenta Raises $40 Million to Teach Robots New Tasks From One Demonstration</title>
+    <link>https://www.humanoidsdaily.com/news/machenta-40-million-instant-robot-learning</link>
+    <description>The London startup says its simulation-trained model can adapt to new tasks without fine-tuning, with early demonstrations extending to humanoid hands.</description>
+    <pubDate>Tue, 27 Oct 2026 12:27:06 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Machenta</category><category>Europe</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/worldoracle-tests-world-models-against-real-world-executions</guid>
     <title>WorldOracle Tests Whether World Models Can Reliably Predict Real-World Executions</title>
@@ -268,46 +308,6 @@
     <pubDate>Tue, 20 Oct 2026 17:35:04 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Market</category><category>fundraising</category><category>Eka Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tuesday-labs-voxel-home-robot-reservations</guid>
-    <title>Former Boston Dynamics Roboticist Unveils Voxel, a $20,000 Home-Tidying Robot</title>
-    <link>https://www.humanoidsdaily.com/news/tuesday-labs-voxel-home-robot-reservations</link>
-    <description>Tuesday Labs opens $200 refundable reservations for Voxel, a household robot targeting US deliveries in 2028. Its $20,000 price is an estimate, and the hardware remains in development.</description>
-    <pubDate>Tue, 20 Oct 2026 16:04:33 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Tuesday Labs</category><category>US</category><category>Voxel</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-20-gemini-apollo-pi</guid>
-    <title>This Week’s Newsletter: Gemini 4 Meets Apollo, PI Opens Its API and Robots Get to Work</title>
-    <link>https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-20-gemini-apollo-pi</link>
-    <description>Catch up on Apollo’s Gemini 4 demonstration, PI’s API beta, Figure’s endurance test and the week’s manufacturing and market news in our free weekly briefing.</description>
-    <pubDate>Tue, 20 Oct 2026 15:39:41 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Newsletter</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-stock-surge-commercialization-valuation-warning</guid>
-    <title>After Its Stock Surge, Unitree Warns Humanoid Commercialization Is Still in Its Early Days</title>
-    <link>https://www.humanoidsdaily.com/news/unitree-stock-surge-commercialization-valuation-warning</link>
-    <description>Unitree flags commercialization and valuation risks after unusual share-price gains, while reporting normal operations and no undisclosed material information.</description>
-    <pubDate>Tue, 20 Oct 2026 14:19:30 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>Market</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/schaeffler-taicang-humanoids-build-robot-components</guid>
-    <title>Schaeffler Puts Humanoids to Work Building Parts for Other Humanoids</title>
-    <link>https://www.humanoidsdaily.com/news/schaeffler-taicang-humanoids-build-robot-components</link>
-    <description>Six humanoids work across five stations at Schaeffler’s new Taicang facility, which combines robot-component production with training, data collection and digital twins.</description>
-    <pubDate>Tue, 20 Oct 2026 13:33:06 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Europe</category><category>Schaeffler</category><category>China</category>
   </item>
 
   </channel>

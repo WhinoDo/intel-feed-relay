@@ -4,7 +4,23 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-27T12:00:13Z</ns0:updated>
+  <ns0:updated>2026-10-27T17:27:16Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/9f45b7b37cc4b33f8ecdb503aa4d209370bd528d</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9f45b7b37cc4b33f8ecdb503aa4d209370bd528d" />
+    <ns0:title>
+        docs: mention the pytest tier and gpu marks in AGENTS.md (#5122)
+    </ns0:title>
+    <ns0:updated>2026-10-27T17:27:16Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: mention the pytest tier and gpu marks in AGENTS.md (#5122)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/77710dee471d5cfb070fad1adc30c8f94dc14757</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/77710dee471d5cfb070fad1adc30c8f94dc14757" />
@@ -844,41 +860,6 @@ Co-authored-by: Jonathan D Faeth &amp;lt;210794222+JonnyFaeth@users.noreply.gith
 ---------
 
 Co-authored-by: Jonathan D Faeth &amp;lt;210794222+JonnyFaeth@users.noreply.github.com&amp;gt;
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/3b31fd99e1fef140619f93a258edb1401bf8f7f4</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/3b31fd99e1fef140619f93a258edb1401bf8f7f4" />
-    <ns0:title>
-        feat(docker): add ROCm dockerfile for AMD Instinct GPUs (#4470)
-    </ns0:title>
-    <ns0:updated>2026-10-21T18:54:06Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/8315383?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Treemann</ns0:name>
-      <ns0:uri>https://github.com/Treemann</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(docker): add ROCm dockerfile for AMD Instinct GPUs (#4470)
-
-* add dockerfile &amp;amp; instruction for AMD GPU
-
-* Update Dockerfile.rocm
-
-Signed-off-by: Rongzhang Zheng &amp;lt;rongzhang.zheng@amd.com&amp;gt;
-
-* Update Docker README.md for AMD GPUs
-
-Signed-off-by: Rongzhang Zheng &amp;lt;rongzhang.zheng@amd.com&amp;gt;
-
-* Update torch_accelerators.mdx for AMD GPUs
-
-Signed-off-by: Rongzhang Zheng &amp;lt;rongzhang.zheng@amd.com&amp;gt;
-
----------
-
-Signed-off-by: Rongzhang Zheng &amp;lt;rongzhang.zheng@amd.com&amp;gt;
 Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
