@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 26 Oct 2026 22:17:50 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 27 Oct 2026 10:37:39 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/worldoracle-tests-world-models-against-real-world-executions</guid>
+    <title>WorldOracle Tests Whether World Models Can Reliably Predict Real-World Executions</title>
+    <link>https://www.humanoidsdaily.com/features/worldoracle-tests-world-models-against-real-world-executions</link>
+    <description>WorldOracle tests whether action-conditioned world models predict what robots actually do, revealing gaps in object motion and long-horizon accuracy.</description>
+    <pubDate>Tue, 27 Oct 2026 10:37:39 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>WorldOracle</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-lars-moravy-optimus-cybercab-charging-helper</guid>
+    <title>Tesla’s Lars Moravy Floats Optimus as a Cybercab Charging Helper</title>
+    <link>https://www.humanoidsdaily.com/news/tesla-lars-moravy-optimus-cybercab-charging-helper</link>
+    <description>In a Munro Live discussion, Moravy suggests Optimus could help Cybercab use existing charging infrastructure, without announcing a firm deployment timetable.</description>
+    <pubDate>Tue, 27 Oct 2026 10:25:08 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Tesla</category><category>US</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-atlas-korean-suppliers-10000-preparations</guid>
+    <title>Boston Dynamics Taps Korean Suppliers for Atlas, With 10,000-Robot Preparations Reported</title>
+    <link>https://www.humanoidsdaily.com/news/boston-dynamics-atlas-korean-suppliers-10000-preparations</link>
+    <description>KED Global reports a Hyundai Mobis-led component lineup and preparations for 10,000 Atlas robots. Final order quantities and prices remain undecided.</description>
+    <pubDate>Tue, 27 Oct 2026 08:00:33 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>South Korea</category><category>Boston Dynamics</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-ice-spot-employee-petition-robot-ethics</guid>
     <title>Boston Dynamics Employee Petition Against ICE Robot Deal Tests Its Ethical Guardrails</title>
@@ -278,36 +308,6 @@
     <pubDate>Tue, 20 Oct 2026 13:33:06 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Europe</category><category>Schaeffler</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agco-agility-digit-hesston-kansas-manufacturing-pilot</guid>
-    <title>AGCO Signs Agility Deal to Bring Humanoid Robots to Its Kansas Factory</title>
-    <link>https://www.humanoidsdaily.com/news/agco-agility-digit-hesston-kansas-manufacturing-pilot</link>
-    <description>A pilot expected to begin in 2027 will put Digit to work sorting parts and positioning totes at AGCO’s agricultural-equipment plant in Hesston, Kansas.</description>
-    <pubDate>Tue, 20 Oct 2026 12:53:46 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Market</category><category>Agility Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/faraday-future-200-million-robotics-deal-delivery-questions</guid>
-    <title>Faraday Future Moves to Give Its Robotics Business a Separate Listed Home in $200 Million Deal</title>
-    <link>https://www.humanoidsdaily.com/news/faraday-future-200-million-robotics-deal-delivery-questions</link>
-    <description>FF EAI Robotics Ecosystem has agreed to acquire Faraday Future’s robotics business in an all-stock deal. The team explains what changes, its partner-hardware strategy and the plans that remain in place.</description>
-    <pubDate>Tue, 20 Oct 2026 12:22:12 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Faraday Future</category><category>US</category><category>Market</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-shares-surge-october-19-robotics-policy</guid>
-    <title>Unitree Shares Jump 16% as China Pushes Robots Into Everyday Commerce</title>
-    <link>https://www.humanoidsdaily.com/news/unitree-shares-surge-october-19-robotics-policy</link>
-    <description>Unitree closed up 16.15% at ¥495.92 as robotics stocks rallied, China published new embodied-AI guidance and the company prepared for its October 22 conference.</description>
-    <pubDate>Mon, 19 Oct 2026 20:54:47 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>Market</category><category>China</category>
   </item>
 
   </channel>

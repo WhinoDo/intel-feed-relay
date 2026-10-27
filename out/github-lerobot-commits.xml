@@ -4,7 +4,97 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-26T23:18:09Z</ns0:updated>
+  <ns0:updated>2026-10-27T12:00:13Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/77710dee471d5cfb070fad1adc30c8f94dc14757</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/77710dee471d5cfb070fad1adc30c8f94dc14757" />
+    <ns0:title>
+        chore(ci): run only the CUDA tests on the GPU job and build the large…
+    </ns0:title>
+    <ns0:updated>2026-10-27T12:00:13Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(ci): run only the CUDA tests on the GPU job and build the large test models on the GPU (#5101)
+
+* ci: install the full tests extras in one uv sync
+
+* ci: run only the tests that use CUDA on the GPU job, selected with a gpu mark
+
+* test: build the large GPU test models directly on the GPU
+
+* test: run the diffusion policy test with 10 denoising steps&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/cb4893bb9505867d543f71f9417d8b4a864b50ad</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/cb4893bb9505867d543f71f9417d8b4a864b50ad" />
+    <ns0:title>
+        chore(ci): cut Fast Tests time by removing redundant work and redunda…
+    </ns0:title>
+    <ns0:updated>2026-10-27T12:00:12Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(ci): cut Fast Tests time by removing redundant work and redundant cases in the slowest tests (#5070)
+
+* fix(datasets): reload a loaded dataset&amp;#39;s frames after modify_tasks
+
+* test: decode each aggregated frame once when checking it against its source
+
+* test: disconnect the earthrover robot while its requests are mocked
+
+* test: build the flux3 droid batch once per arguments
+
+* test: build the dataset_tools sample dataset once per module
+
+* test: build the streaming workers dataset once per module
+
+* test: check ACT ignores padded actions directly instead of a 1000-step artifact
+
+* test: run the dataset factory test once per distinct dataset schema
+
+* test: cover each streaming delta set once instead of their cross product
+
+* test: aggregate smaller source datasets and check every video key rotates
+
+* test: compare flux3 lean and full policies with one denoising step
+
+* test: run the streaming worker and column projection options pairwise
+
+* test: check a stopped image writer keeps the image queued instead of sleeping&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/611e1b7b64495a305f2ccca2951789629dd4c2b4</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/611e1b7b64495a305f2ccca2951789629dd4c2b4" />
+    <ns0:title>
+        chore(ci): Make CI great again (#5069)
+    </ns0:title>
+    <ns0:updated>2026-10-27T12:00:12Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(ci): Make CI great again (#5069)
+
+* test: add Fast Tests tier marks and mark every other test base
+
+* test: mark the tests of the dataset, hardware and viz tiers
+
+* ci: select each fast test tier by its extras mark
+
+* docs: explain the Fast Tests tier marks in CONTRIBUTING&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/dd5313e305ff7aaa5b6c7b4769d1b26650ce250b</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/dd5313e305ff7aaa5b6c7b4769d1b26650ce250b" />
@@ -789,88 +879,6 @@ Signed-off-by: Rongzhang Zheng &amp;lt;rongzhang.zheng@amd.com&amp;gt;
 ---------
 
 Signed-off-by: Rongzhang Zheng &amp;lt;rongzhang.zheng@amd.com&amp;gt;
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/5517a326eeb9b457cfe07d59b9bfdf291799c8d9</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/5517a326eeb9b457cfe07d59b9bfdf291799c8d9" />
-    <ns0:title>
-        docs(robocasa): fix camera rename_map for smolvla_robocasa (#4860)
-    </ns0:title>
-    <ns0:updated>2026-10-21T10:16:45Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/173486567?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>JFan5</ns0:name>
-      <ns0:uri>https://github.com/JFan5</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(robocasa): fix camera rename_map for smolvla_robocasa (#4860)
-
-The RoboCasa365 eval snippets and the RoboCasa CI command mapped
-`robot0_eye_in_hand` to `camera2` and `robot0_agentview_right` to
-`camera3`, swapping the wrist and right agent views relative to how
-`lerobot/smolvla_robocasa` was trained.
-
-The checkpoint&amp;#39;s own `train_config.json` and `policy_preprocessor.json`
-both record `robot0_agentview_left` -&amp;gt; `camera1`,
-`robot0_agentview_right` -&amp;gt; `camera2`, `robot0_eye_in_hand` -&amp;gt; `camera3`.
-Since `--rename_map` replaces the checkpoint preprocessor&amp;#39;s rename step
-and all three views are 3x256x256, the mismatch was silently accepted.
-
-Co-authored-by: Jialiang Fan &amp;lt;fjl2401@gmail.com&amp;gt;
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/c1789b1306ca451cdc61c4576c3eba691bd9b974</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c1789b1306ca451cdc61c4576c3eba691bd9b974" />
-    <ns0:title>
-        fix(smolvla): normalize uint8 images before resizing (#4292)
-    </ns0:title>
-    <ns0:updated>2026-10-21T10:14:13Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/55507135?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>krmayn</ns0:name>
-      <ns0:uri>https://github.com/krmayn</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(smolvla): normalize uint8 images before resizing (#4292)
-
-Co-authored-by: Kieran Maynard &amp;lt;55507135+krMaynard@users.noreply.github.com&amp;gt;
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/88d172eb9a172e885bcbd0fe7c097900f8fe52f9</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/88d172eb9a172e885bcbd0fe7c097900f8fe52f9" />
-    <ns0:title>
-        feat(optim): add opt-in fused Adam/AdamW flag (#5023)
-    </ns0:title>
-    <ns0:updated>2026-10-21T10:11:39Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/137322177?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>tc-huang</ns0:name>
-      <ns0:uri>https://github.com/tc-huang</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(optim): add opt-in fused Adam/AdamW flag (#5023)
-
-Fused Adam/AdamW kernels can shorten the optimizer step of large
-policies, but there was no way to request them: policy presets
-replace --optimizer.* and AdamWConfig had no fused field.
-
-Add fused to AdamConfig and AdamWConfig and expose it as
-optimizer_fused on act, groot, pi0, pi0.5, pi0_fast and smolvla.
-The default stays None so PyTorch keeps choosing its implementation
-(foreach on CUDA); a False default would force the slower for-loop
-path instead.
-
-A resumed run rebuilds its optimizer from the checkpoint&amp;#39;s config, so
-optimizer_fused has no effect there, as the docs now say. Overriding
---optimizer.fused between None and a bool on resume fails the
-optimizer state load.
-
 Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
