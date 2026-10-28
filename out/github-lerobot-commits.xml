@@ -4,7 +4,25 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-27T17:27:16Z</ns0:updated>
+  <ns0:updated>2026-10-28T12:55:16Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/2b8aeee410753fcfaa44ec259707474bf6141b62</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/2b8aeee410753fcfaa44ec259707474bf6141b62" />
+    <ns0:title>
+        fix(wandb): stop uploading training checkpoints as artifacts by defau…
+    </ns0:title>
+    <ns0:updated>2026-10-28T12:55:16Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29127300?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>CarolinePascal</ns0:name>
+      <ns0:uri>https://github.com/CarolinePascal</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(wandb): stop uploading training checkpoints as artifacts by default (#5123)
+
+Checkpoint weights were sent to WandB whenever a checkpoint was saved. Leave that off unless --wandb.disable_artifact=false is set.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/9f45b7b37cc4b33f8ecdb503aa4d209370bd528d</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9f45b7b37cc4b33f8ecdb503aa4d209370bd528d" />
@@ -804,62 +822,6 @@ mocked) alongside the RewardModelConfig regression test.
 
 ---------
 
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/da7f9d62202f77880c8aae8f4c05f50d9c9c42c5</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/da7f9d62202f77880c8aae8f4c05f50d9c9c42c5" />
-    <ns0:title>
-        fix(envs): use VLABench instruction as description (#5022)
-    </ns0:title>
-    <ns0:updated>2026-10-21T19:14:27Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/137322177?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>tc-huang</ns0:name>
-      <ns0:uri>https://github.com/tc-huang</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(envs): use VLABench instruction as description (#5022)
-
-* fix(envs): use VLABench instruction as description
-
-VLABenchEnv looked up `task_description` and `language_instruction`
-on the VLABench task object. VLABench defines neither attribute; it
-exposes the generated instruction through `task.get_instruction()`,
-which its own evaluator and trajectory scripts call. Both hasattr()
-checks therefore always failed and the env silently fell back to the
-task name, so policies were prompted with &amp;quot;select_fruit&amp;quot; instead of
-an instruction such as &amp;quot;Put the pear into the plate_seen&amp;quot;.
-
-This also diverged from training: the VLABench LeRobot datasets store
-the full get_instruction() sentence as each episode&amp;#39;s task.
-
-Raise ValueError when VLABench returns no instruction instead of
-falling back to the task name, which would keep this failure mode and
-still report a score. The listed tasks should not hit this: each one
-VLABench registers writes a non-empty instruction when it is built.
-This matches MetaWorld, where a task without a description fails
-with KeyError.
-
-* fix(envs): clear rejected VLABench env
-
-_ensure_env() stored the new env in self._env before checking its
-task instruction, so raising on a missing instruction left the
-rejected env in place. A caller that caught the ValueError and called
-reset() again hit the early return in _ensure_env(), skipped the
-check, and evaluated with an empty task_description. The rejected env
-was also never closed.
-
-Close and clear it before raising, using the same best-effort cleanup
-that step() applies after a PhysicsError, so a retry rebuilds and
-re-validates the env.
-
-Co-authored-by: Jonathan D Faeth &amp;lt;210794222+JonnyFaeth@users.noreply.github.com&amp;gt;
-
----------
-
-Co-authored-by: Jonathan D Faeth &amp;lt;210794222+JonnyFaeth@users.noreply.github.com&amp;gt;
 Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>

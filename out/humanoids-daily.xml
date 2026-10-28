@@ -7,9 +7,59 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 27 Oct 2026 17:09:29 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 28 Oct 2026 14:13:28 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/robbyant-embodied-ai-challenge-15-teams-shanghai-final</guid>
+    <title>Robbyant’s Embodied AI Challenge Will Send 15 Teams to a Real-Robot Final in Shanghai</title>
+    <link>https://www.humanoidsdaily.com/news/robbyant-embodied-ai-challenge-15-teams-shanghai-final</link>
+    <description>Robbyant tells Humanoids Daily that finalists will use AgileX’s Cobot Magic in a 48-hour hackathon. Tasks, scoring and advance access arrangements remain under development.</description>
+    <pubDate>Wed, 28 Oct 2026 14:13:28 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Robbyant</category><category>China</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/audi-agile-robots-mobile-humanoids-parts-sequencing</guid>
+    <title>Audi Tests Agile Robots’ Mobile Humanoids for Automotive Parts Sequencing</title>
+    <link>https://www.humanoidsdaily.com/news/audi-agile-robots-mobile-humanoids-parts-sequencing</link>
+    <description>Audi’s Ingolstadt proof of concept pairs Agile Robots’ mobile humanoids with virtual testing from Dassault Systèmes and NVIDIA, as automakers explore robotic material handling.</description>
+    <pubDate>Wed, 28 Oct 2026 12:35:43 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Europe</category><category>Audi</category><category>Agile Robots</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/reward-ai-om1-delivery-stairs-household-demo</guid>
+    <title>Reward AI Shows OM-1 Handling Deliveries, Stairs and Household Chores</title>
+    <link>https://www.humanoidsdaily.com/news/reward-ai-om1-delivery-stairs-household-demo</link>
+    <description>Reward AI’s latest OM-1 video features delivery, stairway picking and household tasks, following its September debut of a policy trained on human demonstrations.</description>
+    <pubDate>Wed, 28 Oct 2026 11:31:28 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Reward AI</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/lg-home-humanoids-2030-robots-appliances-q3</guid>
+    <title>LG Targets Home Humanoids Around 2030, With Robots and Appliances Designed to Work Together</title>
+    <link>https://www.humanoidsdaily.com/news/lg-home-humanoids-2030-robots-appliances-q3</link>
+    <description>LG’s Q3 call outlines a path from industrial robotics to household use, with affordability, compatible appliances, training data and actuator production central to the plan.</description>
+    <pubDate>Wed, 28 Oct 2026 11:03:08 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>South Korea</category><category>LG</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xpeng-iron-solid-state-battery-small-batch-production</guid>
+    <title>XPENG Says IRON’s Solid-State Battery Has Entered Small-Batch Production</title>
+    <link>https://www.humanoidsdaily.com/news/xpeng-iron-solid-state-battery-small-batch-production</link>
+    <description>Vice president Gu Jie reports limited battery production while IRON remains pre-SOP. The exact production chemistry and performance specifications remain unclear.</description>
+    <pubDate>Wed, 28 Oct 2026 08:10:53 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>China</category><category>XPENG</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/deepmind-genie-4-gemini-argon-apollo-robot-simulation</guid>
     <title>DeepMind Pairs Genie 4 With Gemini Argon to Simulate Apollo Playing Checkers</title>
@@ -258,56 +308,6 @@
     <pubDate>Wed, 21 Oct 2026 20:32:49 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Origami Robotics</category><category>US</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/nvidia-flora-robot-video-training-data-models</guid>
-    <title>NVIDIA Releases Flora to Turn Robot Videos Into Training Data</title>
-    <link>https://www.humanoidsdaily.com/news/nvidia-flora-robot-video-training-data-models</link>
-    <description>Flora labels actions and scores robot performance from video. NVIDIA reports 200,000 hours processed daily, with model weights available for research under noncommercial terms.</description>
-    <pubDate>Wed, 21 Oct 2026 12:59:39 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>NVIDIA</category><category>US</category><category>open-source</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoid-nvidia-jetson-thor-onboard-computing</guid>
-    <title>Humanoid Expands NVIDIA Collaboration, Replacing Two Robot Computers With One</title>
-    <link>https://www.humanoidsdaily.com/news/humanoid-nvidia-jetson-thor-onboard-computing</link>
-    <description>The UK robot maker says Jetson Thor consolidates two onboard computers into one, as it integrates NVIDIA tools for sensing, AI inference and real-time control.</description>
-    <pubDate>Wed, 21 Oct 2026 11:52:10 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>NVIDIA</category><category>Europe</category><category>HMND-01</category><category>Humanoid</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/generative-bionics-amd-italy-physical-ai-data-factory</guid>
-    <title>Generative Bionics Plans Major Humanoid Training Hub in Italy With AMD</title>
-    <link>https://www.humanoidsdaily.com/news/generative-bionics-amd-italy-physical-ai-data-factory</link>
-    <description>A planned 5,000-square-metre Italian hub would train GENE.01 humanoids using physical tasks and AMD-powered digital twins, with operations targeted for Q4 2027.</description>
-    <pubDate>Wed, 21 Oct 2026 09:50:28 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Generative Bionics</category><category>Europe</category><category>GENE01</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-h2-x-kung-fu-guardian-video</guid>
-    <title>Unitree’s H2-X Flips Off Cars in New Kung Fu “Guardian” Video</title>
-    <link>https://www.humanoidsdaily.com/news/unitree-h2-x-kung-fu-guardian-video</link>
-    <description>Unitree’s new H2-X video combines car-roof flips, martial arts and staged rescue scenes, alongside a claim of approximately eight hours of standing endurance.</description>
-    <pubDate>Wed, 21 Oct 2026 08:32:01 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/eka-robotics-150-million-series-a-vision-force-action</guid>
-    <title>Eka Robotics Raises $150 Million to Give Robots a Better Feel for the Physical World</title>
-    <link>https://www.humanoidsdaily.com/news/eka-robotics-150-million-series-a-vision-force-action</link>
-    <description>Eka’s Series A backs a vision-force-action model trained in simulation, with a reported $1.45 billion valuation and a focus on fast, adaptable robot manipulation.</description>
-    <pubDate>Tue, 20 Oct 2026 17:35:04 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Market</category><category>fundraising</category><category>Eka Robotics</category>
   </item>
 
   </channel>
