@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 28 Oct 2026 14:13:28 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 28 Oct 2026 17:19:55 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/physical-intelligence-funding-talks-20-billion-valuation</guid>
+    <title>Physical Intelligence Reportedly Seeks $1B at a $20B Valuation</title>
+    <link>https://www.humanoidsdaily.com/news/physical-intelligence-funding-talks-20-billion-valuation</link>
+    <description>Reported funding talks follow PI’s API beta launch, while Sergey Levine explains why data and learning across robot bodies underpin its strategy.</description>
+    <pubDate>Wed, 28 Oct 2026 17:19:55 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Physical Intelligence</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-q3-2026-revenue-growth-rd-profit</guid>
+    <title>Unitree’s Quarterly Revenue Surges 70% as R&amp;D Spending Weighs on Profit</title>
+    <link>https://www.humanoidsdaily.com/news/unitree-q3-2026-revenue-growth-rd-profit</link>
+    <description>Unitree reports 665 million yuan in Q3 revenue, while profit falls 17.4% and R&amp;D spending rises 249.6%. A prior-year one-time expense complicates its nine-month earnings comparison.</description>
+    <pubDate>Wed, 28 Oct 2026 15:42:38 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Unitree Robotics</category><category>China</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/robbyant-embodied-ai-challenge-15-teams-shanghai-final</guid>
     <title>Robbyant’s Embodied AI Challenge Will Send 15 Teams to a Real-Robot Final in Shanghai</title>
@@ -288,26 +308,6 @@
     <pubDate>Thu, 22 Oct 2026 08:09:07 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Tuesday Labs</category><category>Unitree Robotics</category><category>US</category><category>Dynamic Creatures</category><category>China</category><category>Lightberry</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/noetix-robotics-hong-kong-ipo-filing</guid>
-    <title>Noetix Robotics Files for Hong Kong IPO, Bloomberg Reports</title>
-    <link>https://www.humanoidsdaily.com/news/noetix-robotics-hong-kong-ipo-filing</link>
-    <description>The humanoid robot maker could raise several hundred million dollars and list as early as 2027, following a funding round led by a CATL-affiliated investment platform.</description>
-    <pubDate>Thu, 22 Oct 2026 07:46:42 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Market</category><category>China</category><category>Noetix</category><category>IPO</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/origami-robotics-s1-skill-capture-glove</guid>
-    <title>Origami Robotics Unveils S1 Glove to Capture Human Dexterity for Robots</title>
-    <link>https://www.humanoidsdaily.com/news/origami-robotics-s1-skill-capture-glove</link>
-    <description>The S1 glove records finger movements, touch and video, with joints matched to Origami’s robot hand. The company says mass production has started.</description>
-    <pubDate>Wed, 21 Oct 2026 20:32:49 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Origami Robotics</category><category>US</category>
   </item>
 
   </channel>

@@ -4,7 +4,57 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-28T12:55:16Z</ns0:updated>
+  <ns0:updated>2026-10-28T20:10:47Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/72e1d9e5e76ee719bacfc78bc34d817bee5fb521</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/72e1d9e5e76ee719bacfc78bc34d817bee5fb521" />
+    <ns0:title>
+        chore(dependencies): update uv.lock (#4745)
+    </ns0:title>
+    <ns0:updated>2026-10-28T20:10:47Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): update uv.lock (#4745)
+
+Co-authored-by: github-actions[bot] &amp;lt;github-actions[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/626da71be9d21b3c740b6438514519a503a2d535</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/626da71be9d21b3c740b6438514519a503a2d535" />
+    <ns0:title>
+        fix(factory): keep the output features of a checkpoint at evaluation …
+    </ns0:title>
+    <ns0:updated>2026-10-28T17:51:58Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(factory): keep the output features of a checkpoint at evaluation (#5077)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/b17112c5beabb19c8653763061a3f5477ec5c885</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b17112c5beabb19c8653763061a3f5477ec5c885" />
+    <ns0:title>
+        docs(fastwam): use checkpoint with identity visual preprocessing (#5121)
+    </ns0:title>
+    <ns0:updated>2026-10-28T17:25:29Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/22135261?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>C00kieMonsta</ns0:name>
+      <ns0:uri>https://github.com/C00kieMonsta</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(fastwam): use checkpoint with identity visual preprocessing (#5121)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/2b8aeee410753fcfaa44ec259707474bf6141b62</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/2b8aeee410753fcfaa44ec259707474bf6141b62" />
@@ -724,103 +774,6 @@ The streaming dataset reshards in the DataLoader worker from RANK and WORLD_SIZE
 because torch.distributed is not initialized there. A launcher that does not export
 RANK made every rank stream the full dataset. make_dataloaders now passes dp_rank
 and dp_world_size, which take priority. Direct use is unchanged.
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/ac5d06be8603742f40d4feb1d509b43067e67eca</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ac5d06be8603742f40d4feb1d509b43067e67eca" />
-    <ns0:title>
-        fix(streaming): apply image transforms on the training thread when nu…
-    </ns0:title>
-    <ns0:updated>2026-10-21T19:25:34Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29749923?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Hadrien-Cornier</ns0:name>
-      <ns0:uri>https://github.com/Hadrien-Cornier</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(streaming): apply image transforms on the training thread when num_workers=0 (#4891)
-
-With --num_workers=0 the decode threads ran the random image transforms, so they
-drew from the global torch RNG in timing order and --seed did not give the same
-run. Now the iterating thread applies them in yield order. DataLoader workers
-keep applying them on the decode threads.
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/ecbcc3b3fff515f5cd69ab1f93e2a22a5256add0</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ecbcc3b3fff515f5cd69ab1f93e2a22a5256add0" />
-    <ns0:title>
-        fix(streaming): make the sidecar lock timeout a setting (#4889)
-    </ns0:title>
-    <ns0:updated>2026-10-21T19:20:58Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29749923?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Hadrien-Cornier</ns0:name>
-      <ns0:uri>https://github.com/Hadrien-Cornier</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(streaming): make the sidecar lock timeout a setting (#4889)
-
-Processes that wait for another process to build the same MP4 sidecar
-stopped after a fixed 30 minutes. --dataset.streaming_sidecar_lock_timeout_s
-now sets that wait, and the timeout error names the flag.
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/1b5e5b784559d11acce279f7aa61c5bae9280372</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1b5e5b784559d11acce279f7aa61c5bae9280372" />
-    <ns0:title>
-        fix(configs): backfill pretrained_path in PreTrainedConfig.from_pretr…
-    </ns0:title>
-    <ns0:updated>2026-10-21T19:15:41Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/279426841?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>DanMo661</ns0:name>
-      <ns0:uri>https://github.com/DanMo661</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(configs): backfill pretrained_path in PreTrainedConfig.from_pretrained (#4648)
-
-* fix(configs): backfill pretrained_path in PreTrainedConfig.from_pretrained
-
-config.json only carries train-time fields, so parsing it yields a config
-with pretrained_path=None. When such a config is passed to make_policy() /
-make_pre_post_processors() (the documented programmatic path), the factory
-silently takes the &amp;#39;from scratch&amp;#39; branch and builds a processor pipeline
-with empty normalization stats instead of loading the pretrained safetensors.
-The policy loads without error but acts blind (raw pixel/state values go
-in, near-random actions come out); on PushT with lerobot/diffusion_pusht
-this silently degrades a 118-reward policy to ~5.
-
-Backfill pretrained_path / pretrained_revision on the config returned by
-from_pretrained(), matching what the CLI parser does for --policy.path.
-
-Verified on the migrated lerobot/diffusion_pusht checkpoint: identical
-manual rollout code scores cum=4.8 / max=0.016 without the backfill and
-cum=199.4 / max=0.996 with it.
-
-* Apply the same backfill to RewardModelConfig.from_pretrained; Path-typed backfill
-
-Review follow-up: RewardModelConfig.from_pretrained has the identical
-pattern (parse + return, no backfill), and PreTrainedRewardModel /
-make_reward_model call it directly — e.g. RobometerRewardModel.__init__
-branches on config.pretrained_path is None, so a direct from_pretrained
-call took the &amp;#39;fresh model&amp;#39; branch instead of loading the checkpoint.
-
-Also assigns Path(model_id) on the policy side to match the Path | None
-field type, and adds the hub-id + pinned-revision test case (hf_hub_download
-mocked) alongside the RewardModelConfig regression test.
-
-* style: satisfy ruff format in test_pretrained_path_backfill
-
----------
 
 Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
