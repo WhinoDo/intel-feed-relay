@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 28 Oct 2026 17:19:55 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 29 Oct 2026 05:29:11 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-innovation-day-2026-worken-ai-models-g2-max</guid>
+    <title>AGIBOT Introduces Worken, New AI Models and G2 Max at Innovation Day 2026</title>
+    <link>https://www.humanoidsdaily.com/news/agibot-innovation-day-2026-worken-ai-models-g2-max</link>
+    <description>AGIBOT proposes a measure of productive robot work alongside AHA3 hardware, GO-3 Preview, WITA-Omni 1.0, G2 Max and an open-source roadmap for Link-U OS.</description>
+    <pubDate>Thu, 29 Oct 2026 05:29:11 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>AGIBOT</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/physical-intelligence-funding-talks-20-billion-valuation</guid>
     <title>Physical Intelligence Reportedly Seeks $1B at a $20B Valuation</title>
@@ -298,16 +308,6 @@
     <pubDate>Thu, 22 Oct 2026 10:31:12 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>NVIDIA</category><category>US</category><category>Europe</category><category>Agile Robots</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-g1-american-robot-startups-lumi-voxel-hugo</guid>
-    <title>The Unitree G1 Is Becoming a Platform for American Robot Startups</title>
-    <link>https://www.humanoidsdaily.com/features/unitree-g1-american-robot-startups-lumi-voxel-hugo</link>
-    <description>Lumi, Voxel and a possible G1 connection beneath Hugo highlight how American startups are building new robot identities around Unitree hardware.</description>
-    <pubDate>Thu, 22 Oct 2026 08:09:07 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Tuesday Labs</category><category>Unitree Robotics</category><category>US</category><category>Dynamic Creatures</category><category>China</category><category>Lightberry</category>
   </item>
 
   </channel>
