@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Wed, 28 Oct 2026 18:59:30 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 28 Oct 2026 20:51:55 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -99,6 +99,8 @@
 		<category>Logistics</category>
 		<category>Markets / Industries</category>
 		<category>News</category>
+		<category>Opinion</category>
+		<category>retail</category>
 		<category>Symbotic</category>
 		<category>walmart</category>
 		<guid isPermaLink="false">https://www.therobotreport.com/?p=590048</guid>
