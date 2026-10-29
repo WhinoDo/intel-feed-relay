@@ -4,7 +4,49 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-28T20:10:47Z</ns0:updated>
+  <ns0:updated>2026-10-29T13:05:26Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/1ef47ed74a0053555ae39590b57c308963bb4f75</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1ef47ed74a0053555ae39590b57c308963bb4f75" />
+    <ns0:title>
+        fix(ci): pin robomme to the commit before RoboMME-Plus (#5139)
+    </ns0:title>
+    <ns0:updated>2026-10-29T13:05:26Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(ci): pin robomme to the commit before RoboMME-Plus (#5139)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/89cc0a809477e8425c9aa31a561a8f293e76a25c</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/89cc0a809477e8425c9aa31a561a8f293e76a25c" />
+    <ns0:title>
+        feat(train): support PEFT under sharded training (FSDP2, HSDP) (#5086)
+    </ns0:title>
+    <ns0:updated>2026-10-29T11:26:25Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(train): support PEFT under sharded training (FSDP2, HSDP) (#5086)
+
+* feat(train): support PEFT under sharded training
+
+Save and resume the adapter of a sharded PeftModel in DCP &amp;amp; safetensors checkpoints.
+Also simplify CheckpointFormat and remove the unnecessary canary tests.
+
+* fix(policies): keep the adapter base path when resuming PEFT from DCP
+
+get_peft_model takes the base path from the model&amp;#39;s name_or_path, which a policy built by from_pretrained does not
+set, so checkpoints saved after a DCP resume could not be loaded again.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/72e1d9e5e76ee719bacfc78bc34d817bee5fb521</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/72e1d9e5e76ee719bacfc78bc34d817bee5fb521" />
@@ -714,68 +756,6 @@ Co-authored-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;&lt;/pre&gt;
 * fix: make repository-wide mypy checks pass
 
 * fix(types): address mypy review feedback&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/65258ac2c6ef6d710c3615d56f58e8ca53122591</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/65258ac2c6ef6d710c3615d56f58e8ca53122591" />
-    <ns0:title>
-        feat(policies): add Wall-OSS-0.5 support (#4200)
-    </ns0:title>
-    <ns0:updated>2026-10-22T13:36:16Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>pkooij</ns0:name>
-      <ns0:uri>https://github.com/pkooij</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): add Wall-OSS-0.5 support (#4200)
-
-* feat(policies): add wall_oss_05 policy (#4200)
-
-Consolidate the policy changes from f6e249f0d7c62749891bce7ec44e765c2871efaa before rebasing
-onto the merged language runtime on main.
-
-* fix(wall-oss-05): migrate published checkpoint processors
-
-* fix(wall-oss-05): exclude padding from flow loss denominator
-
-* fix(wall-oss-05): preserve vision normalization precision
-
-* fix(wall-oss-05): normalize native widths and mask padded joints
-
-* fix(wall-oss-05): use native checkpoint persistence
-
-* perf(wall-oss-05): cache vision and prompt across flow steps
-
-* fix(wall-oss-05): separate tokenizer and weight revisions
-
-* fix(wall-oss-05): address camera fine-tuning and review cleanup
-
-* fix(wall-oss-05): replace saved cameras in CLI overrides&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/8a125584153240d7511dddfbda440bbee56b134a</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8a125584153240d7511dddfbda440bbee56b134a" />
-    <ns0:title>
-        fix(streaming): give the trainer's data-parallel rank to the streamin…
-    </ns0:title>
-    <ns0:updated>2026-10-21T19:26:54Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29749923?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Hadrien-Cornier</ns0:name>
-      <ns0:uri>https://github.com/Hadrien-Cornier</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(streaming): give the trainer&amp;#39;s data-parallel rank to the streaming dataset (#4890)
-
-The streaming dataset reshards in the DataLoader worker from RANK and WORLD_SIZE,
-because torch.distributed is not initialized there. A launcher that does not export
-RANK made every rank stream the full dataset. make_dataloaders now passes dp_rank
-and dp_world_size, which take priority. Direct use is unchanged.
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
