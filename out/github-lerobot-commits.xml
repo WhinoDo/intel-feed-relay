@@ -4,7 +4,372 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-29T13:05:26Z</ns0:updated>
+  <ns0:updated>2026-10-29T17:06:29Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/38b975c5bca0db0ce11a65705419cca001c6dafa</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/38b975c5bca0db0ce11a65705419cca001c6dafa" />
+    <ns0:title>
+        fix(xvla): compute select_action chunks through predict_action_chunk …
+    </ns0:title>
+    <ns0:updated>2026-10-29T17:06:29Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/426434?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>shoumikhin</ns0:name>
+      <ns0:uri>https://github.com/shoumikhin</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(xvla): compute select_action chunks through predict_action_chunk (#4827)
+
+* fix(xvla): compute select_action chunks through predict_action_chunk
+
+lerobot-rollout --use_torch_compile compiles a policy by wrapping its
+predict_action_chunk with torch.compile. X-VLA&amp;#39;s select_action called the
+internal _get_action_chunk instead, so the compiled wrapper never ran and
+X-VLA stayed uncompiled, while the rollout still logged that compilation
+was configured. X-VLA has no compile setting of its own, so this wrapper
+is the only way the flag can reach it.
+
+Compute each new chunk through predict_action_chunk, as most chunking
+policies already do, and pass the noise argument on to it.
+predict_action_chunk calls the same _get_action_chunk. Its observation
+queue update now runs only on the ticks that compute a chunk, which
+changes nothing for X-VLA because its only queue holds actions.
+
+The new test keeps the real predict_action_chunk and records each call to
+it, the same way the rollout installs its wrapper, and replaces only the
+chunk computation inside it with a fresh random chunk per call. It checks
+that select_action computes exactly two chunks through predict_action_chunk,
+passes the same batch and noise each time, and returns the first
+n_action_steps actions of the first chunk and then the first action of the
+next one. It fails without the change.
+
+* test(xvla): drop select_action routing test
+
+---------
+
+Co-authored-by: Steven Palma &amp;lt;steven.palma@huggingface.co&amp;gt;
+Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/8b00dab8fc27062124a4cc5eaa429e59c9045e00</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8b00dab8fc27062124a4cc5eaa429e59c9045e00" />
+    <ns0:title>
+        refactor(utils): replace wandb with trackio (#4954)
+    </ns0:title>
+    <ns0:updated>2026-10-29T16:52:10Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(utils): replace wandb with trackio (#4954)
+
+* refactor(utils): replace wandb with trackio
+
+* chore(dependecies): update tags &amp;amp; docs
+
+* feat(trackio): capture console output and launch command
+
+* refactor(common): top level import trackio
+
+* docs(sarm): restore --reward_model.repo_id in training commands
+
+* docs(trackio): reword module docstring
+
+* fix(trackio): skip misleading new-run warning when resume=must
+
+* test(trackio): consolidate redundant logger tests
+
+---------
+
+Co-authored-by: CarolinePascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/5bac1d0c27a69be452140d1f1d940d7ef1b68bc8</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/5bac1d0c27a69be452140d1f1d940d7ef1b68bc8" />
+    <ns0:title>
+        fix(rollout): connect hardware after setup and close resources on fai…
+    </ns0:title>
+    <ns0:updated>2026-10-29T16:37:19Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/13318497?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>s1lent4gnt</ns0:name>
+      <ns0:uri>https://github.com/s1lent4gnt</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(rollout): connect hardware after setup and close resources on failure (#4866)
+
+* fix(rollout): connect local hardware after setup
+
+* test(rollout): fix remote fakes
+
+* test(rollout): simplify local setup tests&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/e5e190da68801d846bdd337d2ab10697e76c3539</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e5e190da68801d846bdd337d2ab10697e76c3539" />
+    <ns0:title>
+        feat(policies): accept the starting noise in predict_action_chunk for…
+    </ns0:title>
+    <ns0:updated>2026-10-29T16:34:37Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/426434?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>shoumikhin</ns0:name>
+      <ns0:uri>https://github.com/shoumikhin</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): accept the starting noise in predict_action_chunk for EO-1, EVO-1, WALL-OSS and Wall-OSS-0.5 (#4811)
+
+* feat(eo1): accept noise in predict_action_chunk
+
+EO-1 always drew its own starting noise inside sample_actions, so a caller
+could not pass it in. predict_action_chunk and select_action now take a
+keyword-only noise argument. select_action passes it to
+predict_action_chunk, which forwards it to sample_actions. When it is None,
+the noise is drawn exactly as before. A given noise is moved to the device
+and dtype of the draw it replaces, and the denoising loop does not write
+into it, so the caller&amp;#39;s tensor is not changed.
+
+predict_action_chunk no longer ends in a **kwargs that nothing read, so a
+misspelled keyword such as noize= raises a TypeError instead of silently
+falling back to a fresh draw.
+
+* feat(evo1): accept noise in predict_action_chunk
+
+EVO-1 always drew its own starting sample inside the flow matching head, so
+a caller could not pass it in. predict_action_chunk and select_action now
+take a keyword-only noise argument. select_action passes it to
+predict_action_chunk, which forwards it through Evo1Model to
+FlowmatchingActionHead.get_action. When it is None, the sample is drawn
+exactly as before. A given noise is moved to the device and dtype of the
+draw it replaces, and the loop does not write into it, so the caller&amp;#39;s
+tensor is not changed.
+
+The noise is shaped (batch_size, chunk_size, max_action_dim), like the
+actions EVO-1 returns and the noise of the other policies. A tensor of
+another shape raises a ValueError, so a noise laid out differently with the
+same number of values is not silently read in the wrong order.
+
+select_action used to accept any keyword and drop it. It now takes only
+noise, so a misspelled keyword raises a TypeError.
+
+* feat(wall_x): accept noise in predict_action_chunk
+
+WALL-OSS always drew its own starting noise in the diffusion prediction
+path, so a caller could not pass it in. predict_action_chunk and
+select_action now take a keyword-only noise argument. select_action passes
+it to predict_action_chunk, which forwards it to
+Qwen2_5_VLMoEForAction.predict for the diffusion mode. When it is None, the
+noise is drawn exactly as before. A given noise is moved to the device and
+dtype of the draw it replaces (float32), and the loop does not write into
+it, so the caller&amp;#39;s tensor is not changed. The fast mode decodes tokens and
+does not use it.
+
+* feat(wall_oss_05): accept noise in predict_action_chunk
+
+Wall-OSS-0.5&amp;#39;s flow generation already takes a starting sample, but
+predict_action_chunk dropped every keyword argument, so a caller&amp;#39;s noise
+was silently ignored. Take a keyword-only noise, shaped
+(batch_size, chunk_size, max_action_dim), like the other flow policies, and
+pass it through; select_action passes it on. Without it, the same draw runs
+as before. Like EO-1, the methods no longer accept and drop other keywords,
+so a misspelled keyword raises a TypeError instead of being ignored.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/af4220275187af4af98410b599f606201b6e7618</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/af4220275187af4af98410b599f606201b6e7618" />
+    <ns0:title>
+        feat(policies): return a typed prediction alongside actions and show …
+    </ns0:title>
+    <ns0:updated>2026-10-29T16:27:25Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): return a typed prediction alongside actions and show it in Rerun / Foxglove (#3757)
+
+* feat(visualization): add a typed prediction to EnvTransition and render it in Rerun and Foxglove
+
+* feat(policies): let select_action return a prediction in an EnvTransition and carry it through rollout
+
+* feat(lingbot_va): return the predicted camera frames with each action
+
+* feat(policies): return a batched prediction in a typed PolicyOutput batch, like the input
+
+* fix(rl): normalize select_action outputs in the RL actor and eval loop
+
+* fix(rtc): store and clear the chunk prediction with its actions&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/90694152570656b88b01683ff3af199647f56bde</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/90694152570656b88b01683ff3af199647f56bde" />
+    <ns0:title>
+        fix(longwam): resize inference frames on their input device (#5144)
+    </ns0:title>
+    <ns0:updated>2026-10-29T15:10:30Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(longwam): resize inference frames on their input device (#5144)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/d986f03fad3b6bbe6fcdedefb5018be607c319f6</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d986f03fad3b6bbe6fcdedefb5018be607c319f6" />
+    <ns0:title>
+        perf(datasets): batch Lance depth video decoding (#4808)
+    </ns0:title>
+    <ns0:updated>2026-10-29T15:04:46Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/2283778?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>yanghua</ns0:name>
+      <ns0:uri>https://github.com/yanghua</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(datasets): batch Lance depth video decoding (#4808)
+
+* perf(datasets): batch Lance depth video decoding
+
+* address review comments
+
+* address review comments
+
+* removed useless test cases&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/c386ba8bfc1aeefd94149b57f684ba0335ec18b3</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c386ba8bfc1aeefd94149b57f684ba0335ec18b3" />
+    <ns0:title>
+        feat(policies): add native Long-WAM training and inference (#5008)
+    </ns0:title>
+    <ns0:updated>2026-10-29T14:35:12Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/71201052?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Aaronhuang-778</ns0:name>
+      <ns0:uri>https://github.com/Aaronhuang-778</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): add native Long-WAM training and inference (#5008)
+
+* feat(policies): add native Long-WAM training and inference
+
+Add native IDM and COD policy integration, checkpoint conversion, streaming VAE, synchronous and asynchronous scheduling, training, documentation, and regression coverage.
+
+Co-authored-by: manfromnowhere143 &amp;lt;193130714+manfromnowhere143@users.noreply.github.com&amp;gt;
+
+* refactor(longwam): use native backbones and simplify policy integration
+
+* fix(longwam): align training and inference camera geometry
+
+* refactor(longwam): split processors and address review cleanup
+
+* refactor(longwam): remove transitional processor compatibility
+
+* Document and test LongWAM training precision
+
+Make parameter storage and BF16 autocast explicit in the fine-tuning
+example. Explain native AdamW state precision and the FP32 alternative.
+
+Exercise IDM/COD checkpoint loading, finite updates, frozen backbones,
+and gradient/moment dtypes on CPU and BF16-capable CUDA devices.
+
+Validation: 22 native CPU tests pass; 8 CUDA cases skip on macOS.
+Applicable pre-commit hooks pass. Full-weight training is not qualified.
+
+* Normalize merged extras in lock metadata
+
+Keep the native uv spelling of extras while retaining both longwam and wall-oss-05. No dependency resolution changes.
+
+Validation: uv lock --check --offline.
+
+* fix(longwam): restore shared text weights after loading boundaries
+
+(cherry picked from commit b1b5ba0d90713490af19d56ef11fe97a83174e07)
+
+* Honor active LongWAM action-toggle settings when loading processors
+
+(cherry picked from commit 8ee751de539e271e450dc712a6ae9e179de535dc)
+
+* Preserve class-name overrides in saved LongWAM pipelines
+
+(cherry picked from commit 85fd8c9abae600a26f2572abf918ec0b668d5f45)
+
+* test(longwam): document and verify released inference seed behavior
+
+* docs(longwam): highlight model features and paper results
+
+* docs(longwam): report LIBERO results and add policy documentation links
+
+---------
+
+Co-authored-by: manfromnowhere143 &amp;lt;193130714+manfromnowhere143@users.noreply.github.com&amp;gt;
+Co-authored-by: Daniel Wahnich &amp;lt;cogitoergosum143@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/baf68724e867113e6052bb3159b04dcb97e88866</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/baf68724e867113e6052bb3159b04dcb97e88866" />
+    <ns0:title>
+        docs(eo1): update chunk_size and n_action_steps defaults to 16 (#5089)
+    </ns0:title>
+    <ns0:updated>2026-10-29T14:08:53Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/43629888?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>ZainnQureshii</ns0:name>
+      <ns0:uri>https://github.com/ZainnQureshii</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(eo1): update chunk_size and n_action_steps defaults to 16 (#5089)
+
+EO1Config sets both to 16 (configuration_eo1.py:89-90, asserted by
+test_eo1_defaults_match_released_base_checkpoint); the parameter table still
+listed 8 from before #4235.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/1a1f51e33b64b86e69ce1820010d9ecb523ee2d8</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1a1f51e33b64b86e69ce1820010d9ecb523ee2d8" />
+    <ns0:title>
+        docs(replay): correct bimanual SO port arguments (#5135)
+    </ns0:title>
+    <ns0:updated>2026-10-29T14:08:32Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/35391914?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>WOLIKIMCHENG</ns0:name>
+      <ns0:uri>https://github.com/WOLIKIMCHENG</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(replay): correct bimanual SO port arguments (#5135)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/5b8621b4fc8547e2afb10146a74ed76032dc6212</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/5b8621b4fc8547e2afb10146a74ed76032dc6212" />
+    <ns0:title>
+        Bump doc-builder to get the docs machine-translated (#5141)
+    </ns0:title>
+    <ns0:updated>2026-10-29T14:07:54Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/11827707?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>mishig25</ns0:name>
+      <ns0:uri>https://github.com/mishig25</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Bump doc-builder to get the docs machine-translated (#5141)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/1ef47ed74a0053555ae39590b57c308963bb4f75</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1ef47ed74a0053555ae39590b57c308963bb4f75" />
@@ -195,567 +560,6 @@ Checkpoint weights were sent to WandB whenever a checkpoint was saved. Leave tha
 * test: run the streaming worker and column projection options pairwise
 
 * test: check a stopped image writer keeps the image queued instead of sleeping&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/611e1b7b64495a305f2ccca2951789629dd4c2b4</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/611e1b7b64495a305f2ccca2951789629dd4c2b4" />
-    <ns0:title>
-        chore(ci): Make CI great again (#5069)
-    </ns0:title>
-    <ns0:updated>2026-10-27T12:00:12Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(ci): Make CI great again (#5069)
-
-* test: add Fast Tests tier marks and mark every other test base
-
-* test: mark the tests of the dataset, hardware and viz tiers
-
-* ci: select each fast test tier by its extras mark
-
-* docs: explain the Fast Tests tier marks in CONTRIBUTING&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/dd5313e305ff7aaa5b6c7b4769d1b26650ce250b</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/dd5313e305ff7aaa5b6c7b4769d1b26650ce250b" />
-    <ns0:title>
-        fix(datasets): accumulate running stats in float64 to avoid zero/bias…
-    </ns0:title>
-    <ns0:updated>2026-10-26T23:18:09Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29127300?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>CarolinePascal</ns0:name>
-      <ns0:uri>https://github.com/CarolinePascal</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): accumulate running stats in float64 to avoid zero/biased std (#5107)
-
-E[x²] - E[x]² in float32 cancels catastrophically when std &amp;lt;&amp;lt; |mean| (e.g. relative rot6d components near 1), yielding biased or zero std.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/5a452d3a9d4a456d0d2fd191a14590b4f913d448</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/5a452d3a9d4a456d0d2fd191a14590b4f913d448" />
-    <ns0:title>
-        Update the list of third party integrations (#5104)
-    </ns0:title>
-    <ns0:updated>2026-10-26T23:18:01Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/39432165?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>NikodemBartnik</ns0:name>
-      <ns0:uri>https://github.com/NikodemBartnik</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update the list of third party integrations (#5104)
-
-* Update third_party_robots.mdx
-
-* Update third_party_sensors.mdx
-
-* add third party integrations reference
-
-* add reference to third party integrations
-
-* Update robots.mdx
-
-* Update teleoperators.mdx
-
-* Update integrate_hardware.mdx&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/45cca1a6ba368cf29cc8b4e0f49a1db875d15f61</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/45cca1a6ba368cf29cc8b4e0f49a1db875d15f61" />
-    <ns0:title>
-        fix(peft): make --peft.* and --policy.use_peft one switch, detect ada…
-    </ns0:title>
-    <ns0:updated>2026-10-26T14:45:18Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(peft): make --peft.* and --policy.use_peft one switch, detect adapters from the checkpoint (#4144)
-
-* fix(peft): allow fresh LoRA fine-tuning from a base-model checkpoint
-
-* test(peft): adapt PEFT factory tests to main&amp;#39;s module-level peft import
-
-`make_policy` no longer does an inline `from peft import ...`: main imports
-PeftConfig/PeftModel at module scope behind `_peft_available` and calls
-`require_package(&amp;quot;peft&amp;quot;)` instead. Patching `sys.modules[&amp;quot;peft&amp;quot;]` therefore no
-longer intercepts anything, and `require_package` now runs `find_spec` over the
-MagicMock, which raises `ValueError: peft.__spec__ is not set`. Patch the
-factory&amp;#39;s module-level names directly instead.
-
-Also pin `_has_peft_adapter_config` in `test_factory_peft_revision.py`: that
-test is about keeping the adapter and base revisions separate, but its fake
-&amp;quot;user/adapter&amp;quot; repo id made the new adapter-detection lookup reach the Hub, 404,
-and fall back to the base-model branch. Pinning it keeps the test&amp;#39;s intent and
-makes it hermetic.
-
-* fix(peft): make --peft.* and --policy.use_peft one switch, cache-aware adapter check, rollout loader
-
-* test(flux3): skip use_peft in the recipe contract check, it is derived from --peft.*
-
-* fix(peft): apply the adapter check in the remote inference server loader&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/5831498454e93c71d209ff2e5e823e434f1efd15</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/5831498454e93c71d209ff2e5e823e434f1efd15" />
-    <ns0:title>
-        (docs) improvements and fixes  (#4812)
-    </ns0:title>
-    <ns0:updated>2026-10-26T09:37:06Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/39432165?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>NikodemBartnik</ns0:name>
-      <ns0:uri>https://github.com/NikodemBartnik</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;(docs) improvements and fixes  (#4812)
-
-* Update il_robots.mdx
-
-* Update index.mdx
-
-* add camera placement and lighting
-
-* Update cheat-sheet.mdx
-
-* Update cheat-sheet.mdx
-
-* Update AGENT_GUIDE.md
-
-* update discord link
-
-* Update README.md
-
-* Update README.md
-
-* Update installation.mdx
-
-* Update smolvla.mdx
-
-* Update act.mdx
-
-* Update hil_data_collection.mdx
-
-* fix default values
-
-* add rollout_ prefix to dataset name
-
-* Update hil_data_collection.mdx
-
-* text improvements, remove comments from commands
-
-* improve text and remove comments form commands
-
-* update commands
-
-* update commands and description
-
-* Update lekiwi.mdx
-
-* Update lekiwi.mdx
-
-* Update torch_accelerators.mdx
-
-* Update pi0fast.mdx
-
-* fix commands
-
-* update dataset edit command
-
-* update commands
-
-* update commands
-
-* Update xvla.mdx
-
-* Update rtc.mdx
-
-* fix policy path
-
-* fix default value
-
-* add quotes to the command
-
-* Update lerobot-dataset-v3.mdx
-
-* Update using_dataset_tools.mdx
-
-* Update lerobot-dataset-v3.mdx
-
-* move comment
-
-* fix command
-
-* fix commands
-
-* Update multi_task_dit.mdx
-
-* Update eo1.mdx
-
-* fix training command
-
-* Update peft_training.mdx
-
-* update description and fix formatting
-
-* update commands
-
-* update missing elements in the command
-
-* description improvements
-
-* Update integrate_hardware.mdx
-
-* Update phone_teleop.mdx
-
-* add missing comma
-
-* Update implement_your_own_processor.mdx
-
-* Update debug_processor_pipeline.mdx
-
-* Update env_processor.mdx
-
-* Update tools.mdx
-
-* Update robomme.mdx
-
-* Update robocerebra.mdx
-
-* Update language_and_recipes.mdx
-
-* Update robotwin.mdx
-
-* Update envhub_isaaclab_arena.mdx
-
-* Update envhub.mdx
-
-* Update annotation_pipeline.mdx
-
-* fix description
-
-* Update hilserl_sim.mdx
-
-* Update backwardcomp.mdx
-
-* Update metaworld.mdx
-
-* Update hilserl.mdx
-
-* Update porting_datasets_v3.mdx
-
-* Update processors_robots_teleop.mdx
-
-* fix format
-
----------
-
-Signed-off-by: Nikodem Bartnik &amp;lt;39432165+NikodemBartnik@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/d3793b7e36522321c1c455f0dc4826db3793dceb</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d3793b7e36522321c1c455f0dc4826db3793dceb" />
-    <ns0:title>
-        feat(fastwam): add Faster-WAM (2.5-5.3x faster policy inference on A1…
-    </ns0:title>
-    <ns0:updated>2026-10-23T13:00:16Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29749923?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Hadrien-Cornier</ns0:name>
-      <ns0:uri>https://github.com/Hadrien-Cornier</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(fastwam): add Faster-WAM (2.5-5.3x faster policy inference on A100) (#5049)
-
-* feat(fastwam): add Faster-WAM (arXiv 2608.02365) DoT variant to the fastwam policy
-
-Opt-in upgrade of src/lerobot/policies/fastwam implementing the three
-world-model-centric design choices from &amp;#39;Faster-WAM: Do World Action Models
-Need Deep Action Modules?&amp;#39; (arXiv 2608.02365, Huawei Noah&amp;#39;s Ark Montreal /
-McGill / Mila / U Toronto), on top of the existing Fast-WAM (2603.16666) code:
-
-- action_expert_layers: single-layer (or any depth &amp;lt;= backbone) action expert
-- lite_kv_fusion: Dock of Transformers Lite KV-Fusion (Eq. 1): per-head
-  softmax mixture over the native K/V cached across all video layers
-  (720 logits for the paper&amp;#39;s 24x30x1 config, zero-initialized uniform)
-- retracted_1d_rope (Eq. 3 / Appx. B.4): de-rotate fused video keys with the
-  exact inverse of the backbone&amp;#39;s rope_apply transform, re-encode on the
-  action 1D temporal grid (identity at the observed frame t=0)
-- world_model_only_conditioning (Sec. 2.2): action expert built without text
-  cross-attention; language and proprioception condition only the video backbone
-
-All flags default off: model graph, state-dict key layout and forward results
-are unchanged, so existing Fast-WAM checkpoints load strictly. Training runs
-the DoT split flow (video prefill with gradients, fused action context fixed
-per chunk) only when lite_kv_fusion is enabled; gradients from the action loss
-reach the video backbone through the fused cache.
-
-Derived from the primary paper and the existing Apache-2.0 fastwam code; the
-official TeamFasterwam/FasterWAM repo (NOASSERTION license) was read for
-behavior only, no code copied.
-
-* fix(fastwam): validate action depth and checkpoint architecture overrides
-
-* fix(fastwam): preserve weights-only loading and correct source license
-
-* fix(fastwam): support backbone initialization and uniform fusion dtype
-
-* test(fastwam): keep public lifecycle and loading regressions&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/8cd02c155c21f98663482e84de6772e5e04e4ed1</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8cd02c155c21f98663482e84de6772e5e04e4ed1" />
-    <ns0:title>
-        feat(policies): add LingBot-VLA 2.0 (#4897)
-    </ns0:title>
-    <ns0:updated>2026-10-23T12:39:56Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): add LingBot-VLA 2.0 (#4897)
-
-* feat(policies): add LingBot-VLA 2.0
-
-Adds LingBot-VLA 2.0 as the lingbot_vla_v2 policy: a Qwen3-VL-4B backbone
-paired with a sparse-MoE Qwen2 action expert and flow matching over a unified
-55-D canonical state/action space, mirroring the in-tree lingbot_vla (v1)
-policy. Post-trains under lerobot-train, evaluates through lerobot-eval.
-
-- Standard processor pipeline (rename → batch → relative actions → normalize
-  → slot mapping → Qwen3-VL image → chat template → tokenizer → device);
-  only the raw→canonical slot mapping step is LingBot-specific.
-- Normalization stats come from the dataset (dataset_stats) and live in the
-  saved processor state; per-embodiment slot mappings are typed config fields.
-- Pretrained checkpoints convert format-only (identity processor); the
-  RoboTwin checkpoint ships its slot mapping + q01/q99 stats embedded.
-- _fsdp_wrap_modules declared so FSDP2 wraps without manual flags.
-
-* fix(lingbot_vla_v2): derive image-step cameras from input_features in from_pretrained
-
-- make_lingbot_vla_v2_pre_post_processors_from_pretrained now derives the
-  image step&amp;#39;s camera names from config.input_features (the checkpoint&amp;#39;s
-  declared cameras) instead of canonical_cameras, matching the behavior of
-  make_lingbot_vla_v2_pre_post_processors. This fixes the camera-name mismatch
-  when loading a checkpoint whose declared cameras differ from the canonical
-  names (e.g. the RoboTwin checkpoint&amp;#39;s cam_high/cam_left_wrist/cam_right_wrist).
-- converter: keep the portable Hub id in config.tokenizer_path instead of
-  leaking the local --tokenizer-path, so the checkpoint loads on any machine.
-
-* fix(lingbot_vla_v2): emit fp32 raw actions from inverse slot mapping
-
-The postprocessor&amp;#39;s inverse slot mapping now always emits float32 raw actions
-regardless of the model&amp;#39;s prediction dtype (bf16), so downstream envs and
-numpy (which reject BFloat16) receive float32. Verified end-to-end with
-lerobot-eval --env.type=robotwin on beat_block_hammer (5 episodes, videos
-recorded, exit 0).
-
-* feat(envs): generate official RoboTwin instruction for beat_block_hammer
-
-The in-tree RoboTwin env only generated official task-template instructions for
-the two blocks_ranking tasks; every other task fell back to using the task name
-as the language instruction. beat_block_hammer&amp;#39;s official instruction (from
-RoboTwin&amp;#39;s description/task_instruction/beat_block_hammer.json) carries the
-hammer description and the arm choice derived from the block&amp;#39;s functional-point
-x-sign, matching the upstream eval client. Without it the policy is conditioned
-on &amp;#39;beat block hammer&amp;#39; instead of e.g. &amp;#39;Take the medium-sized metal hammer
-using the left arm then beat the block&amp;#39;, which the released checkpoint was
-trained against.
-
-Verified end-to-end with lerobot-eval --env.type=robotwin: the rollout now
-logs &amp;#39;RoboTwin official instruction | task=beat_block_hammer | ...&amp;#39; with the
-templated instruction each episode.
-
-* test(lingbot_vla_v2): build tiny VLM config locally, no HF download
-
-The e2e tiny-model test called AutoConfig.from_pretrained at config-build time,
-which hits the Hub and fails under network flakiness. Construct Qwen3VLConfig
-directly instead — the test only needs the config structure, not the real weights.
-
-* style(lingbot_vla_v2): ruff format long list comprehension in camera derivation
-
-* fix(lingbot_vla_v2): use torch.dtype for config.dtype to match upstream base
-
-Upstream main moved PreTrainedConfig.dtype to `torch.dtype | None` (with a
-draccus decode hook for config.json/CLI strings). Our `dtype: str = &amp;quot;bfloat16&amp;quot;`
-overrode the field with a string, failing the base-class validation on 6 config
-tests. Switch to `torch.dtype | None = torch.bfloat16` and use it directly in
-the model cast.
-
-* fix(lingbot_vla_v2): address reviewer blocking issues
-
-- Slot-mapping step creates zero-filled slots on the input device (not CPU),
-  fixing the CUDA device mismatch in lerobot-train&amp;#39;s first step.
-- from_pretrained forwards the fine-tuning slot mapping to the postprocessor&amp;#39;s
-  inverse step too, so a fine-tuned checkpoint maps canonical actions back to
-  the robot&amp;#39;s raw dims instead of keeping the base checkpoint&amp;#39;s identity mapping.
-- Re-converted both Hub checkpoints with the current converter (portable
-  tokenizer_path, no stale config fields).
-- Remove optim/lingbot.py: get_optimizer_preset now returns the standard
-  AdamWConfig and get_optim_params returns param groups with a scaled expert LR
-  (the muon/expert-LR logic lives in the separate optimizer PR #4658).
-- Drop the unrelated test_pi_tokenizer_configuration / test_replay_buffer edits.
-
-* docs(lingbot_vla_v2): add verified fine-tuning example with omx_multicubes
-
-Add a concrete worked example to the README: fine-tuning from the base
-checkpoint on a 6-DoF single-arm dataset (5 arm joints + 1 gripper, cameras
-top/wrist) with the typed slot mappings, the camera rename_map, and the full
-end-to-end flow (preprocessor maps 6-D raw onto 55-D canonical, training
-produces self-contained checkpoints, eval maps back to the robot&amp;#39;s raw action
-space). Verified with lerobot-train on an A100.
-
-* docs(lingbot_vla_v2): clean up worked-example wording
-
-* remove depth distillation from lingbot_vla_v2
-
-* remove lingbot_vla_v2 scripts and robotwin env change
-
-* remove unused lingbot_vla_v2 backends and dead code
-
-* simplify lingbot_vla_v2 image preprocessing
-
-* simplify lingbot_vla_v2 slot mapping and processor factory
-
-* fix lingbot_vla_v2 model horizon, optimizer groups and rtc
-
-* rewrite lingbot_vla_v2 tests
-
-* trim lingbot_vla_v2 docs and extra
-
-* restore lingbot_vla_v2 dual-query tokens
-
-* add lingbot_vla_v2 distillation teachers
-
-* restore lingbot_vla_v2 distillation training
-
-* document lingbot_vla_v2 distillation and add scipy to extra
-
-* add license headers and teacher license notes to lingbot_vla_v2
-
-* reject lingbot_vla_v2 action_slots that leave raw action dims unmapped
-
-* store lingbot_vla_v2 depth teacher weights in their autocast dtype on cuda
-
-* match upstream lingbot_vla_v2 image preprocessing (64 tokens per camera)
-
-* apply the active config&amp;#39;s tokenizer and image settings when loading lingbot_vla_v2 processors
-
-* replace the lingbot_vla_v2 RoboTwin TODO with upstream&amp;#39;s reported results
-
-* recommend fp32 weights with bf16 autocast for lingbot_vla_v2 fine-tuning
-
-* update uv.lock for the lingbot_vla_v2 extra
-
----------
-
-Co-authored-by: Liu Yue &amp;lt;miracle-techlink@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/23979669f03d2a1b50f5d0593aa4bbbb8e60c8e9</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/23979669f03d2a1b50f5d0593aa4bbbb8e60c8e9" />
-    <ns0:title>
-        perf(streaming): cut sidecar build memory by 91% (#4948)
-    </ns0:title>
-    <ns0:updated>2026-10-23T11:25:55Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29749923?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Hadrien-Cornier</ns0:name>
-      <ns0:uri>https://github.com/Hadrien-Cornier</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(streaming): cut sidecar build memory by 91% (#4948)
-
-* perf(streaming): bound sidecar memory and compact mapped tables
-
-* perf(streaming): bound sidecar memory and compact mapped tables
-
-* refactor(streaming): share compact timing encoding
-
-* test(streaming): combine overlapping cache regressions
-
-* fix(streaming): align compact sidecar contracts
-
-* fix(streaming): annotate mapped sidecar arrays
-
----------
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;
-Co-authored-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/f9e9d739ea7055b282ea1b165e8785412a674693</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f9e9d739ea7055b282ea1b165e8785412a674693" />
-    <ns0:title>
-        fix(vla_jepa): pair rotary frequencies with adjacent coordinates (#4835)
-    </ns0:title>
-    <ns0:updated>2026-10-22T14:00:38Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/132809511?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Afloat16</ns0:name>
-      <ns0:uri>https://github.com/Afloat16</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(vla_jepa): pair rotary frequencies with adjacent coordinates (#4835)
-
-* fix(vla_jepa): pair rotary frequencies with adjacent coordinates
-
-* docs(vla_jepa): trace the upstream rotary correction and reduce test diff&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/2e880446494bd864740b8d87cc2db0397a2f84a7</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/2e880446494bd864740b8d87cc2db0397a2f84a7" />
-    <ns0:title>
-        fix(wall-oss-05): preserve array typing in state discretization (#5055)
-    </ns0:title>
-    <ns0:updated>2026-10-22T13:59:21Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>pkooij</ns0:name>
-      <ns0:uri>https://github.com/pkooij</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(wall-oss-05): preserve array typing in state discretization (#5055)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/ecb19db47956feba9ddc2979ce0c19ddf83eefc0</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ecb19db47956feba9ddc2979ce0c19ddf83eefc0" />
-    <ns0:title>
-        fix: stabilize mypy checks and resolve repository type errors (#5045)
-    </ns0:title>
-    <ns0:updated>2026-10-22T13:39:28Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/138571049?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>pkooij</ns0:name>
-      <ns0:uri>https://github.com/pkooij</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix: stabilize mypy checks and resolve repository type errors (#5045)
-
-* fix: make repository-wide mypy checks pass
-
-* fix(types): address mypy review feedback&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

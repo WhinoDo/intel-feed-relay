@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 29 Oct 2026 05:29:11 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 29 Oct 2026 17:30:00 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/how-agibot-physical-reasoning-dataset-connects-planning-robot-actions</guid>
+    <title>How AGIBOT’s Physical Reasoning Dataset Connects Planning With Robot Actions</title>
+    <link>https://www.humanoidsdaily.com/news/how-agibot-physical-reasoning-dataset-connects-planning-robot-actions</link>
+    <description>A closer look at how AGIBOT WORLD Release 4 uses changing task conditions, memory and spatial annotations to connect decisions with robot movements.</description>
+    <pubDate>Thu, 29 Oct 2026 17:30:00 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>China</category><category>AGIBOT</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/bleu-robotics-5m-industrial-humanoid-training</guid>
+    <title>Bleu Robotics Raises €5M to Teach Industrial Humanoids New Tasks in Under an Hour</title>
+    <link>https://www.humanoidsdaily.com/news/bleu-robotics-5m-industrial-humanoid-training</link>
+    <description>The French startup is developing robot-learning software that it says needs around ten demonstrations, with initial factory deployments still ahead.</description>
+    <pubDate>Thu, 29 Oct 2026 12:41:06 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Europe</category><category>Bleu Robotics</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-innovation-day-2026-worken-ai-models-g2-max</guid>
     <title>AGIBOT Introduces Worken, New AI Models and G2 Max at Innovation Day 2026</title>
@@ -288,26 +308,6 @@
     <pubDate>Fri, 23 Oct 2026 05:11:40 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Neura Robotics</category><category>Europe</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-q3-2026-optimus-production-fremont-2027-deliveries</guid>
-    <title>Tesla Begins Optimus Production in Fremont, Targets Customer Deliveries in Late 2027</title>
-    <link>https://www.humanoidsdaily.com/news/tesla-q3-2026-optimus-production-fremont-2027-deliveries</link>
-    <description>Tesla says its first production-quality Optimus robots are coming off the Fremont line, while Musk outlines the training, hardware and AI work ahead of customer deliveries.</description>
-    <pubDate>Thu, 22 Oct 2026 11:59:39 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Optimus</category><category>Tesla</category><category>US</category><category>Optimus gen 3</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agile-one-sn-nvidia-isaac-gr00t-research-humanoid</guid>
-    <title>Agile Robots Unveils Agile ONE SN as NVIDIA Expands Its Isaac Robotics Platform</title>
-    <link>https://www.humanoidsdaily.com/news/agile-one-sn-nvidia-isaac-gr00t-research-humanoid</link>
-    <description>The compact research humanoid combines tactile hands, Jetson Thor and GR00T software, with availability planned for early 2027.</description>
-    <pubDate>Thu, 22 Oct 2026 10:31:12 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>NVIDIA</category><category>US</category><category>Europe</category><category>Agile Robots</category>
   </item>
 
   </channel>
