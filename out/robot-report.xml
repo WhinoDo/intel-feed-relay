@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Thu, 29 Oct 2026 13:58:29 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 29 Oct 2026 21:02:39 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,145 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>White House makes Section 232 determination regarding foreign-made robots</title>
+		<link>https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/</link>
+					<comments>https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/#respond</comments>
+		
+		<dc:creator>Eugene Demaitre</dc:creator>
+		<pubDate>Thu, 29 Oct 2026 20:46:53 +0000</pubDate>
+				<category>Actuators / Motors / Servos</category>
+		<category>Agriculture</category>
+		<category>Automotive</category>
+		<category>China</category>
+		<category>Defense / Security</category>
+		<category>Humanoids</category>
+		<category>Industrial Robots</category>
+		<category>Manufacturing</category>
+		<category>News</category>
+		<category>Robot Components</category>
+		<category>Safety &amp; Security</category>
+		<category>Boston Dynamics</category>
+		<category>FANUC News</category>
+		<category>government</category>
+		<category>Interact Analysis</category>
+		<category>Special Competitive Studies Project</category>
+		<category>Teradyne Robotics</category>
+		<category>yaskawa</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590070</guid>
+
+					<description>&lt;p&gt;The U.S. secretary of commerce's Section 232 investigation concluded that dependence on robotics imports poses a national security risk.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/"&gt;White House makes Section 232 determination regarding foreign-made robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590071" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590071" class="size-full wp-image-590071" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation.jpg" alt="Screencap of proclamation. The U.S. president has proclaimed that a Section 232 investigation found that robotics imports pose a threat to U.S. national security and economic competitiveness." width="770" height="495" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation-300x193.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation-150x96.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation-768x494.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590071" class="wp-caption-text"&gt;A Section 232 investigation by the secretary of commerce found that robotics imports pose a threat to U.S. national security and economic competitiveness. Source: Office of the White House&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Yesterday, U.S. President Donald J. Trump issued a proclamation stating that the secretary of commerce had submitted a Section 232 report about the national security effects of imports of robotics and industrial machinery, as well as related parts and components.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Based on the facts considered in that investigation, and taking into account the close relation of the economic welfare of the Nation to our national security and other relevant factors, see section 232(d) (19 U.S.C. 1862(d)), the Secretary found and advised me of his opinion that robotics, industrial machinery, and their components are being imported into the United States in such quantities and under such circumstances as to threaten to impair the national security of the United States,&amp;#8221; &lt;a href="https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/" target="_blank" rel="noopener"&gt;stated&lt;/a&gt; the president.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Robotics and industrial machinery are critical to virtually all modern manufacturing processes, including for defense, commercial, and dual-use purposes,&amp;#8221; he noted. &amp;#8220;Furthermore, robotics and industrial machinery generate substantial economic value and support important economic activities, including approximately $7.1 trillion in shipments of manufactured goods in 2024 and the production of approximately $86 billion worth of equipment in 2024.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;From mission-critical &lt;a href="https://www.therobotreport.com/category/markets-industries/defense-security/" target="_blank" rel="noopener"&gt;military&lt;/a&gt; and law-enforcement activities to critical infrastructure sectors such as &lt;a href="https://www.therobotreport.com/category/markets-industries/ag/" target="_blank" rel="noopener"&gt;agriculture&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/automotive" target="_blank" rel="noopener"&gt;automotive&lt;/a&gt;, and electronics &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;manufacturing&lt;/a&gt;, the U.S. &lt;a href="https://www.therobotreport.com/tag/government" target="_blank" rel="noopener"&gt;government&lt;/a&gt; asserted that robots and related systems are vital to U.S. competitiveness. The value of such imported systems has grown over the past decade, and &lt;a href="https://www.therobotreport.com/tag/cybersecurity" target="_blank" rel="noopener"&gt;cybersecurity&lt;/a&gt; risks have also grown, according to the secretary of commerce.&lt;/p&gt;
+&lt;p&gt;The Section 232 statement specifically cited &amp;#8220;advanced robots — such as autonomous robots, &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoid&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/tag/legged-robots" target="_blank" rel="noopener"&gt;quadruped&lt;/a&gt; robots, and autonomous ground vehicles&amp;#8221; as providing direct support to the U.S. military.&lt;/p&gt;
+&lt;p&gt;While investments in U.S. robotics production capacity have increased, they are not sufficient to meet U.S. demand, said the president. He directed the secretary and the U.S. trade representative to &amp;#8220;to enter into negotiations with trading partners to adjust imports of robotics, industrial machinery, and their components so that such imports will not threaten to impair the national security of the United States.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;Will this Section 232 determination lead to &lt;a href="https://www.therobotreport.com/?s=tariff" target="_blank" rel="noopener"&gt;tariffs&lt;/a&gt; on foreign made robots? With most of the major &lt;a href="https://www.therobotreport.com/category/robots-platforms/industrial-robots/" target="_blank" rel="noopener"&gt;industrial&lt;/a&gt; automation providers based overseas, it remains to be seen how trade negotiations will go. The threat of geopolitical rival &lt;a href="https://www.therobotreport.com/category/china" target="_blank" rel="noopener"&gt;China&lt;/a&gt; is motivating policies such as this investigation and recent &lt;a href="https://www.therobotreport.com/tag/fcc" target="_blank" rel="noopener"&gt;FCC&lt;/a&gt; &lt;a href="https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/" target="_blank" rel="noopener"&gt;restrictions&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;Experts expect Section 232 negotiations before any tariffs&lt;/h2&gt;
+&lt;p&gt;Industry leaders and observers offered initial reactions:&lt;/p&gt;
+&lt;p&gt;&amp;#8220;As I articulated last week on [a] &lt;a href="https://www.therobotreport.com/robobusiness-2026-panel-discusses-reshoring-with-robots/" target="_blank" rel="noopener"&gt;panel&lt;/a&gt; at the &lt;span class="b0agb5 b0alrp"&gt;&lt;a class="b0ahc3 b0altm" href="https://www.linkedin.com/company/arrowfly/" aria-label="View company: Arrowfly"&gt;&lt;span class="b0alrp" data-sdui-anchor-id="commentary-jLUucEEzcQw8vHNUcm7RFew7POWiwRXJV7Rp0QAkI6U-1cc73adc-9f44-4d6e-b60f-d4323719bcf4::2202"&gt;Arrowfly&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; RoboBusiness conference in Santa Clara with respect to the FCC action, this is another strong signal of government support for those working on developing and expanding domestic supply chains for robots,&amp;#8221; Brendan Schulman, vice president of policy and government relations at &lt;a href="https://www.therobotreport.com/tag/boston-dynamics" target="_blank" rel="noopener"&gt;Boston Dynamics&lt;/a&gt;, &lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7521575629209890816/" target="_blank" rel="noopener"&gt;posted to LinkedIn&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;He noted that the Special Competitive Studies Project (&lt;a href="https://www.therobotreport.com/tag/special-competitive-studies-project/" target="_blank" rel="noopener"&gt;SCSP&lt;/a&gt;) Robotics Commission reached similar findings.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;The next step for the federal government? Negotiations over the next six months with trading partners to adjust imports, and then further consideration of other trade policy measures,&amp;#8221; added Schulman. &amp;#8220;I am very pleased to see robotics gaining increasing attention and importance as one of the foundational technologies in need of broad, supportive policy action by the U.S. government. More to come, I&amp;#8217;m sure!&amp;#8221;&lt;/p&gt;
+&lt;p data-pm-slice="1 1 []" data-olk-copy-source="MessageBody"&gt;&lt;a href="https://www.linkedin.com/in/robert-little-707791a/" target="_blank" rel="noopener"&gt;Robert Little&lt;/a&gt;, former chief of robotics strategy at Novanta Inc., &lt;a href="https://www.therobotreport.com/hiroshi-fujiwara-robert-little-selected-2026-joseph-f-engelberger-robotics-awards/" target="_blank" rel="noopener"&gt;2026 Joseph F. Engerlberger Robotics Award honoree&lt;/a&gt;, and business development advisor, concurred. &amp;#8220;Robotics are critical for any country rebuilding its manufacturing. I’m thinking, what took so long to make this a priority?&amp;#8221; he told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Today, we still have limited industrial robot manufacturing in the U.S.,&amp;#8221; said Little. &amp;#8220;Already, &lt;a href="https://www.therobotreport.com/fanuc-america-invests-90m-u-s-robot-manufacturing/" target="_blank" rel="noopener"&gt;FANUC&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/teradyne-robotics-leaning-into-u-s-manufacturing-reboot/" target="_blank" rel="noopener"&gt;Teradyne Robotics&lt;/a&gt;, and &lt;a href="https://www.therobotreport.com/yaskawa-america-gets-information-seccurity-certification/" target="_blank" rel="noopener"&gt;Yaskawa&lt;/a&gt; have announced investments aimed at expanding U.S. robot manufacturing. I expect more to come, and I hope this new proclamation helps accelerate it.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Yet, what concerns me most are the gaps in our domestic supply of components for robotics and industrial machines: sensors, actuators, precision gears, encoders and more,&amp;#8221; he noted. &amp;#8220;We need a much stronger U.S. supply base for these components. This is where we need the most help to strengthen America’s ability to manufacture.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;The Section 232 investigation does not mean that tariffs will be immediate, added &lt;a href="https://www.linkedin.com/in/robert-little-707791a/" target="_blank" rel="noopener"&gt;Ash Sharma&lt;/a&gt;, vice president of research and chief information officer at &lt;a href="https://www.therobotreport.com/tag/interact-analysis" target="_blank" rel="noopener"&gt;Interact Analysis&lt;/a&gt;. &lt;span data-olk-copy-source="MessageBody"&gt;&amp;#8220;This shouldn’t be read as a new robotics tariff today, but it is a clear indication of the direction of travel,&amp;#8221; he said.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-olk-copy-source="MessageBody"&gt;&amp;#8220;The U.S. government has explicitly identified its reliance on imported robotics and industrial machinery as a national security concern and is seeking to strengthen domestic production,&amp;#8221; commented Sharma. &amp;#8220;If tariffs, quotas or other trade measures follow, they could have meaningful implications for supplier competitiveness, pricing, and manufacturing localization in the U.S., potentially affecting not just finished robots, but [also] the components that go into them.&amp;#8221;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Robot Report &lt;/em&gt;is expecting more responses that will be shared in subsequent coverage.&lt;/p&gt;
+&lt;div id="attachment_590072" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-590072" class="size-full wp-image-590072" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel.jpg" alt="Panelists discussed reshoring and policies such as the Section 232 investigation at RoboBusiness 2026." width="770" height="498" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel-768x497.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590072" class="wp-caption-text"&gt;Panelists discussed reshoring and policies such as the Section 232 investigation at RoboBusiness 2026. Credit: Arrowfly&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/"&gt;White House makes Section 232 determination regarding foreign-made robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
+		<title>2026 Robotics Handbook looks at humanoids, AI, and design choices</title>
+		<link>https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/</link>
+					<comments>https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Thu, 29 Oct 2026 19:36:12 +0000</pubDate>
+				<category>Arms / Manipulators</category>
+		<category>Artificial Intelligence / Cognition</category>
+		<category>Construction</category>
+		<category>Development Tools / SDKs / Libraries</category>
+		<category>Digital Issues</category>
+		<category>End Effectors / Grippers</category>
+		<category>Grippers</category>
+		<category>Humanoids</category>
+		<category>Industrial Robots</category>
+		<category>Logistics</category>
+		<category>Manufacturing</category>
+		<category>Materials</category>
+		<category>Mechanical</category>
+		<category>Motion Control</category>
+		<category>News</category>
+		<category>Packaging &amp; Palletizing</category>
+		<category>Packaging &amp; Palletizing • Pick-Place</category>
+		<category>Pneumatics &amp; Hydraulics</category>
+		<category>Soft Robotics</category>
+		<category>Software / Simulation</category>
+		<category>All Motion</category>
+		<category>Apptronik</category>
+		<category>Boker's</category>
+		<category>Boston Dynamics</category>
+		<category>CS Hyde</category>
+		<category>DigiKey</category>
+		<category>ElectroCraft</category>
+		<category>Jabil</category>
+		<category>Locus Robotics</category>
+		<category>Monumental</category>
+		<category>Plus One Robotics</category>
+		<category>SIKO</category>
+		<category>SoftServe</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590069</guid>
+
+					<description>&lt;p&gt;The 2026 Robotics Handbook examines design choices behind dexterous manipulation, humanoid robots, and construction automation.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/"&gt;2026 Robotics Handbook looks at humanoids, AI, and design choices&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;p&gt;&lt;iframe title="Design World Robotics Handbook November 2026" src="https://e.issuu.com/embed.html?u=wtwhmedia&amp;#038;d=design_world_robotics_handbook_november_2026" style="border:none; width: 740px; height: 567px;" allow="clipboard-write,allow-top-navigation,allow-top-navigation-by-user-activation,allow-downloads,allow-scripts,allow-same-origin,allow-popups,allow-modals,allow-popups-to-escape-sandbox,allow-forms"  allowfullscreen="true"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;This year, &lt;em&gt;The Robot Report &lt;/em&gt;continued to share developments in design, engineering, and deployment of commercial systems, but the pace of change has accelerated. This is due to advances in hardware, scale, and most of all, artificial intelligence. The 2026 Robotics Handbook curates some of the top trends in the space.&lt;/p&gt;
+&lt;p&gt;As labor shortages drive demand for automation, markets become more knowledgeable about robots&amp;#8217; capabilities, and the systems themselves get easier to use, robotics adoption is growing. According to the International Federation of Robotics (IFR) and the Association for Advancing Automation (A3), both &lt;a href="https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/" target="_blank" rel="noopener"&gt;global&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/north-american-robot-orders-climb-24-8-q3-2026-says-a3/" target="_blank" rel="noopener"&gt;U.S.&lt;/a&gt; &lt;a href="https://www.therobotreport.com/u-s-robotics-industry-saw-double-digit-growth-in-2025-says-ifr/" target="_blank" rel="noopener"&gt;orders&lt;/a&gt; are climbing after a post-pandemic pause.&lt;/p&gt;
+&lt;p&gt;This free download looks at the engineering challenges, component choices, and market opportunities for robotics. While humanoid robots are still in development and commercial trials, massive amounts of funding have led to stiff competition as big tech companies and emerging startups try different form factors and use cases.&lt;/p&gt;
+&lt;p&gt;AI is the other prominent topic of 2026, as it changes how robots are designed, programmed, and managed. From large language models and vision-language-action models to world models, AI is already starting to make robots more autonomous, easier to use, and safer for people to interact with. However, the devil is in the details, as concerns around data, cybersecurity, and national sovereignty persist.&lt;/p&gt;
+&lt;h2&gt;What the 2026 Robotics Handbook features&lt;/h2&gt;
+&lt;p&gt;The 2026 Robotics Handbook also looks at advances in dexterous manipulation and spotlights an industry where automation is just getting started &amp;#8212; construction. In this issue, you can learn about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The importance of cost, humans in the loop, and generalization versus specialization of manipulators with Plus One Robotics&lt;/li&gt;
+&lt;li&gt;What effects integration, safety, and the desire for human-level abilities have on the pace of humanoid development as seen in Jabil&amp;#8217;s collaboration with Apptronik&lt;/li&gt;
+&lt;li&gt;A look at how Boston Dynamics has approached end effectors as it works to bring its Atlas humanoid robot to market&lt;/li&gt;
+&lt;li&gt;The role of &amp;#8220;virtual gyms&amp;#8221; and simulation to accelerate AI for complex robot behaviors from SoftServe&lt;/li&gt;
+&lt;li&gt;Why suction and soft grippers are better than either alone with Locus Robotics&lt;/li&gt;
+&lt;li&gt;How Monumental determined that bricklaying was the place to start with automation for the construction industry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sponsors for the 2026 Robotics Handbook include &lt;a href="https://www.digikey.com/" target="_blank" rel="noopener"&gt;DigiKey&lt;/a&gt;, &lt;a href="https://www.allmotion.com/" target="_blank" rel="noopener"&gt;All Motion&lt;/a&gt;, &lt;a href="https://cshyde.com/" target="_blank" rel="noopener"&gt;CS Hyde Co.&lt;/a&gt;, &lt;a href="https://www.bokers.com/" target="_blank" rel="noopener"&gt;Boker&amp;#8217;s Inc.&lt;/a&gt;, &lt;a href="https://www.siko-global.com/en/products" target="_blank" rel="noopener"&gt;SIKO Products Inc.&lt;/a&gt;, and &lt;a href="https://electrocraft.com/" target="_blank" rel="noopener"&gt;ElectroCraft&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/"&gt;2026 Robotics Handbook looks at humanoids, AI, and design choices&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>AGIBOT introduces Worken to measure robot productivity at AGIBOT Innovation Day 2026</title>
 		<link>https://www.therobotreport.com/agibot-introduces-worken-measure-robot-productivity-innovation-day-2026/</link>
 					<comments>https://www.therobotreport.com/agibot-introduces-worken-measure-robot-productivity-innovation-day-2026/#respond</comments>
@@ -56,7 +195,7 @@
 					<description>&lt;p&gt;AGIBOT unveiled its AHA3 integrated platform, GO-3 Preview, and WITA-Omni 1.0 model, as well as the G2 Max robot and Link-U OS 1.0 framework.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/agibot-introduces-worken-measure-robot-productivity-innovation-day-2026/"&gt;AGIBOT introduces Worken to measure robot productivity at AGIBOT Innovation Day 2026&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_590053" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590053" class="size-full wp-image-590053" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_intro.jpg" alt="Pen Zhihui, president, CTO, and director of AGIBOT, introduces Worken at AGIBOT Innovation Day." width="770" height="498" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_intro.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_intro-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_intro-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_intro-768x497.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_intro-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590053" class="wp-caption-text"&gt;Peng Zhihui, president, CTO, and director of AGIBOT, introduces Worken at AGIBOT Innovation Day 2026. Source: AGIBOT&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_590053" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590053" class="size-full wp-image-590053" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_intro.jpg" alt="Pen Zhihui, president, CTO, and director of AGIBOT, introduces Worken at AGIBOT Innovation Day." width="770" height="498" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_intro.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_intro-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_intro-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_intro-768x497.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_intro-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590053" class="wp-caption-text"&gt;Peng Zhihui, president, CTO, and director of AGIBOT, introduces Worken at AGIBOT Innovation Day 2026. Source: AGIBOT&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;AGIBOT today introduced Worken, a proposed framework for measuring the productivity of robots in real-world environments, at AGIBOT Innovation Day 2026 in Shanghai. Combining the words “Work” and “Token,” the concept seeks to shift attention beyond the number of robots manufactured or deployed toward how much useful work they can perform autonomously and consistently.&lt;/p&gt;
 &lt;p&gt;The company also unveiled AHA3, its integrated &amp;#8220;three intelligences in one&amp;#8221; hardware platform, and highlighted advances in its AGILE motion intelligence framework, including a new self-evolving agent capability. AGIBOT debuted GO-3 Preview, its next-generation embodied &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; foundation model, showcased its WITA-Omni 1.0 omni-modal interaction model, and launched the G2 Max industrial robot and Link-U OS 1.0.&lt;/p&gt;
 &lt;p&gt;The event also featured actual applications across manufacturing and commercial services, demonstrating AGIBOT&amp;#8217;s focus on translating robotics innovation into productive work. The company said they reflect its deployment-first focus, with practical innovation spanning robot hardware, locomotion, task and interaction intelligence, operations, and an ecosystem intended to support real-world deployment at scale.&lt;/p&gt;
@@ -64,7 +203,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;Worken is a proposed measure of robot productivity&lt;/h2&gt;
@@ -76,7 +215,7 @@
 &lt;p style="text-align: center;"&gt;&lt;strong&gt;Worken = Number of Active Robots × Autonomous Working Hours × Output Efficiency Ratio&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The first factor counts robots actively performing tasks in real-world environments, rather than units simply manufactured or held in inventory. The second measures time spent working autonomously, rather than total powered-on time.&lt;/p&gt;
 &lt;p&gt;The third factor assesses productive output against a reference benchmark for a defined task, such as the amount of acceptable work completed by a human worker under established operating standards.&lt;/p&gt;
-&lt;div id="attachment_590054" style="width: 1210px" class="wp-caption aligncenter"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-590054" class="size-full wp-image-590054" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_framework.jpg" alt="The Worken framework introduced by Peng Zhihui, Co-founder, President, CTO and Executive Director of AGIBOT, combines the number of active robots, autonomous working hours and an output efficiency ratio to measure productive robot work in real-world deployments." width="1200" height="255" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_framework.jpg 1200w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_framework-300x64.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_framework-1024x218.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_framework-150x32.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_framework-768x163.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_framework-368x78.jpg 368w" sizes="(max-width: 1200px) 100vw, 1200px" /&gt;&lt;p id="caption-attachment-590054" class="wp-caption-text"&gt;The Worken framework combines the number of active robots, autonomous working hours, and an output efficiency ratio to measure robot productivity in real-world deployments. Source: AGIBOT&lt;/p&gt;&lt;/div&gt;
+&lt;div id="attachment_590054" style="width: 1210px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590054" class="size-full wp-image-590054" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_framework.jpg" alt="The Worken framework introduced by Peng Zhihui, Co-founder, President, CTO and Executive Director of AGIBOT, combines the number of active robots, autonomous working hours and an output efficiency ratio to measure productive robot work in real-world deployments." width="1200" height="255" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_framework.jpg 1200w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_framework-300x64.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_framework-1024x218.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_framework-150x32.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_framework-768x163.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Worken_framework-368x78.jpg 368w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /&gt;&lt;p id="caption-attachment-590054" class="wp-caption-text"&gt;The Worken framework combines the number of active robots, autonomous working hours, and an output efficiency ratio to measure robot productivity in real-world deployments. Source: AGIBOT&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;By connecting deployment scale, autonomy, and task output in Worken, AGIBOT said it wants to provide a more comprehensive way to describe robotic productivity across applications such as industrial handling, logistics, inspection, and commercial services.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;The concept also opens up a broader discussion about the economics of robotics,&amp;#8221; said the company. &amp;#8220;While hardware depreciates over time, improvements in software and AI models may enable the same machine to perform more useful work during its operating life. Measuring that output alongside total lifecycle costs could help businesses evaluate the longer-term value of robotic deployments.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;AGIBOT said Worken is an evolving framework that will be further refined through deployments and operational data. By developing task-specific benchmarks and accumulating practical experience across different applications, the company said it hopes that Worken can serve as a widely applicable reference for measuring the productive value of physical AI.&lt;/p&gt;
@@ -878,167 +1017,6 @@ Open submissions give model iteration concrete feedback&lt;/strong&gt;&lt;/h4&gt
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Webinar to discuss how the FCC robotics ruling affects automation buyers</title>
-		<link>https://www.therobotreport.com/webinar-discuss-how-fcc-robotics-ruling-affects-automation-buyers/</link>
-					<comments>https://www.therobotreport.com/webinar-discuss-how-fcc-robotics-ruling-affects-automation-buyers/#respond</comments>
-		
-		<dc:creator>The Robot Report Staff</dc:creator>
-		<pubDate>Fri, 23 Oct 2026 20:06:28 +0000</pubDate>
-				<category>Analysis</category>
-		<category>Autonomous Mobile Robots (AMRs)</category>
-		<category>China</category>
-		<category>Defense / Security</category>
-		<category>Humanoids</category>
-		<category>Logistics</category>
-		<category>Manufacturing</category>
-		<category>News</category>
-		<category>Safety &amp; Security</category>
-		<category>Software</category>
-		<category>Sponsored Content</category>
-		<category>Webinars</category>
-		<category>A3</category>
-		<category>association for advancing automation</category>
-		<category>cybersecurity</category>
-		<category>FCC</category>
-		<category>government</category>
-		<category>Locus</category>
-		<category>Locus Robotics</category>
-		<category>Vecna</category>
-		<category>Vecna Robotics</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589990</guid>
-
-					<description>&lt;p&gt;Industry leaders will discuss what robotics buyers should know about the recent FCC restriction on certain connected systems.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/webinar-discuss-how-fcc-robotics-ruling-affects-automation-buyers/"&gt;Webinar to discuss how the FCC robotics ruling affects automation buyers&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589994" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589994" class="wp-image-589994 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy.jpg" alt="Vecna Robotics makes its systems in the U.S. and is not directly affected by the FCC restriction." width="770" height="497" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy-768x496.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/IMG_1588-copy-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589994" class="wp-caption-text"&gt;Vecna Robotics makes its systems in the U.S. and is not directly affected by the FCC ruling. Credit: Eugene Demaitre&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;In July, the Federal Communications Commission, or FCC, said it had determined that certain foreign-made advanced robots pose a cybersecurity and competitive risk to the U.S. It has restricted imports of new models of advanced robotic devices, including mobile robots and legged robots.&lt;/p&gt;
-&lt;p&gt;What should companies considering purchases of such robots do? What are some of the concerns around design, deployment, and ongoing support?&lt;/p&gt;
-&lt;p&gt;Leaders from &lt;a href="https://www.therobotreport.com/tag/vecna-robotics" target="_blank" rel="noopener"&gt;Vecna Robotics&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/tag/locus-robotics/" target="_blank" rel="noopener"&gt;Locus Robotics&lt;/a&gt;, and the Association for Advancing Automation (&lt;a href="https://www.therobotreport.com/tag/association-for-advancing-automation" target="_blank" rel="noopener"&gt;A3&lt;/a&gt;) will discuss the practical implications of the &lt;a href="https://www.therobotreport.com/tag/fcc/" target="_blank" rel="noopener"&gt;commission&lt;/a&gt;&amp;#8216;s determination in a free webinar at &lt;strong&gt;2:00 p.m. ET on&lt;/strong&gt; &lt;strong&gt;Tuesday, Oct. 27, 2026&lt;/strong&gt;. The panelists will examine how connected systems differ from traditional automation.&lt;/p&gt;
-&lt;p&gt;Webinar attendees can also learn how companies can evaluate the long-term supportability of their robotics investments. They will hear perspectives on strengthening supply chains, questions buyers should be asking their technology providers, and what the changing landscape could mean for the U.S. robotics industry.&lt;/p&gt;
-&lt;h2&gt;Register now to learn about FCC policy implications&lt;/h2&gt;
-&lt;p&gt;The webinar will also help attendees:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Identify what types of robots and companies are affected by the FCC action&lt;/li&gt;
-&lt;li&gt;Understand the intent behind the restriction and other U.S. policies under consideration, such as tariffs&lt;/li&gt;
-&lt;li&gt;Build acquisition, implementation, and service strategies for resilience&lt;/li&gt;
-&lt;li&gt;Track how the robotics ecosystem is reacting to U.S. and competitive challenges&lt;/li&gt;
-&lt;li&gt;Be aware of standards efforts in addition to regulatory changes&lt;/li&gt;
-&lt;li&gt;Look at long-term trends in automation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://event.on24.com/wcc/r/5520673/16055C0FBAB357F96B0B9BBCDA1CD18A" target="_blank" rel="noopener"&gt;Register now&lt;/a&gt; to attend this webinar, which is sponsored by Vecna Robotics. The panelists will answer questions during the live broadcast, which will be available on demand afterwards to registrants.&lt;/p&gt;
-&lt;h2&gt;About the webinar panelists&lt;/h2&gt;
-&lt;p&gt;&lt;img loading="lazy" decoding="async" class="alignleft size-medium wp-image-589992" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Iagnemma-300x300.jpeg" alt="Karl Iagnemma, CEO of Vecna Robotics" width="300" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Iagnemma-300x300.jpeg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Iagnemma-150x150.jpeg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Iagnemma-238x238.jpeg 238w, https://www.therobotreport.com/wp-content/uploads/2026/10/Iagnemma.jpeg 400w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;a href="https://www.linkedin.com/in/karl-iagnemma-b52186102" target="_blank" rel="noopener"&gt;Karl Iagnemma&lt;/a&gt; is CEO of material handling systems provider Vecna Robotics Inc. He holds a Ph.D. from MIT and was director of the MIT Robotic Mobility Group.&lt;/p&gt;
-&lt;p&gt;Iagnemma previously founded nuTonomy, the world’s first venture-backed driverless car software business, which was acquired by Aptiv for $450 million. Under his leadership, nuTonomy was spun out into Motional, a $4 billion joint venture with Hyundai Motor Co.&lt;/p&gt;
-&lt;p&gt;Karl brings a wealth of experience in scaling robotics companies from research through commercialization to Vecna.&lt;/p&gt;
-&lt;div class="css-172ajfk"&gt;
-&lt;div class="MuiBox-root css-xynzzt"&gt;
-&lt;div class="MuiBox-root css-0"&gt;
-&lt;p class="MuiTypography-root MuiTypography-body1 css-fd1sam"&gt;&lt;img loading="lazy" decoding="async" class="alignright wp-image-589993 size-medium" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Faulk-300x300.jpeg" alt="Rick Faulk, CEO of Locus Robotics, will talk about the FCC ruling" width="300" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Faulk-300x300.jpeg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Faulk-150x150.jpeg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Faulk-238x238.jpeg 238w, https://www.therobotreport.com/wp-content/uploads/2026/10/Faulk.jpeg 400w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;a href="https://www.linkedin.com/in/rickfaulk/" target="_blank" rel="noopener"&gt;Rick Faulk&lt;/a&gt; is CEO of warehouse automation supplier Locus Robotics Corp. He leads its executive team with more than 30 years of experience in executive management, sales, and marketing for some of the world’s most successful technology companies, such as Cisco, Intronis, j2 Global, WebEx, Intranets.com, Barracuda Networks, Lotus Development, Mzinga, and PictureTel.&lt;/p&gt;
-&lt;p class="MuiTypography-root MuiTypography-body1 css-fd1sam"&gt;Faulk leads Locus Robotics&amp;#8217; executive team and is responsible for the overall strategy and execution at the company. Rick currently sits on various boards and is an advisor to multiple companies, including Retrocausal, Arccos, Cybernetix Ventures, and Leading Edge Ventures. Past board positions include Yodle, Virtual Computer, Bidding for Good, Skill Survey, Influitive, Ntirety, Blue Raven, and Centive.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="css-172ajfk"&gt;
-&lt;div class="MuiBox-root css-xynzzt"&gt;
-&lt;div class="MuiBox-root css-0"&gt;
-&lt;p class="MuiTypography-root MuiTypography-body1 css-fd1sam"&gt;&lt;img loading="lazy" decoding="async" class="alignleft wp-image-584973 size-medium" src="https://www.therobotreport.com/wp-content/uploads/2025/08/aaronprather-300x300.jpeg" alt="Aaron Prather." width="300" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2025/08/aaronprather-300x300.jpeg 300w, https://www.therobotreport.com/wp-content/uploads/2025/08/aaronprather-150x150.jpeg 150w, https://www.therobotreport.com/wp-content/uploads/2025/08/aaronprather-238x238.jpeg 238w, https://www.therobotreport.com/wp-content/uploads/2025/08/aaronprather.jpeg 464w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;a href="https://www.linkedin.com/in/amprather/" target="_blank" rel="noopener"&gt;Aaron Prather&lt;/a&gt; is director of market intelligence at the Association for Advancing Automation. He leads the organization&amp;#8217;s efforts to transform raw market data into actionable insights that support the strategic decision-making of executive leadership.&lt;/p&gt;
-&lt;p class="MuiTypography-root MuiTypography-body1 css-fd1sam"&gt;With a focus on the robotics and automation sector, Prather helps build a coherent understanding of industry trends, enabling confident and informed business strategies.&lt;/p&gt;
-&lt;p class="MuiTypography-root MuiTypography-body1 css-fd1sam"&gt;With over two decades of experience, Aaron has contributed to the advancement of automation, robotics, and operations management through roles emphasizing R&amp;amp;D, standardization, and strategic planning.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="css-172ajfk"&gt;
-&lt;div class="MuiBox-root css-xynzzt"&gt;
-&lt;div class="MuiBox-root css-0"&gt;
-&lt;p class="MuiTypography-root MuiTypography-body1 css-fd1sam"&gt;&lt;img loading="lazy" decoding="async" class="alignright size-medium wp-image-587487" src="https://www.therobotreport.com/wp-content/uploads/2026/03/Demaitre-Eugene-robotics-838-copy-300x260.jpg" alt="Eugene Demaitre, editorial director for robotics at WTWH Media" width="300" height="260" srcset="https://www.therobotreport.com/wp-content/uploads/2026/03/Demaitre-Eugene-robotics-838-copy-300x260.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/03/Demaitre-Eugene-robotics-838-copy-150x130.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/03/Demaitre-Eugene-robotics-838-copy-768x665.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/03/Demaitre-Eugene-robotics-838-copy-275x238.jpg 275w, https://www.therobotreport.com/wp-content/uploads/2026/03/Demaitre-Eugene-robotics-838-copy.jpg 770w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;a href="https://www.linkedin.com/in/edemaitre/" target="_blank" rel="noopener"&gt;Eugene Demaitre&lt;/a&gt;, moderator, is editorial director for robotics at Arrowfly (&lt;a href="https://www.therobotreport.com/the-robot-report-parent-company-wtwh-media-rebrands-as-arrowfly/" target="_blank" rel="noopener"&gt;formerly&lt;/a&gt; WTWH Media), which produces &lt;em&gt;&lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;The Robot Report&lt;/a&gt;, &lt;a href="https://www.automatedwarehouseonline.com/" target="_blank" rel="noopener"&gt;Automated Warehouse&lt;/a&gt;&lt;/em&gt;, the &lt;a href="https://www.roboticssummit.com/" target="_blank" rel="noopener"&gt;Robotics Summit &amp;amp; Expo&lt;/a&gt;, and &lt;a href="https://www.robobusiness.com/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; (&lt;a href="https://www.therobotreport.com/robobusiness-rebrands-as-robotics-summit-expo-west/" target="_blank" rel="noopener"&gt;now Robotics Summit West&lt;/a&gt;).&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="css-172ajfk"&gt;
-&lt;p align="LEFT"&gt;&lt;span class="replaced-font"&gt;Prior to working for Arrowfly, he was an editor at BNA (now part of Bloomberg), &lt;em&gt;Computerworld&lt;/em&gt;, TechTarget, and &lt;em&gt;Robotics Business Review.&lt;/em&gt; Demaitre has participated in conferences worldwide, as well as spoken in numerous webinars and podcasts. He recently led a &lt;a href="https://www.therobotreport.com/robobusiness-2026-panel-discusses-reshoring-with-robots/" target="_blank" rel="noopener"&gt;discussion&lt;/a&gt; on reshoring at RoboBusiness 2026.&lt;/span&gt;&lt;/p&gt;
-&lt;p align="LEFT"&gt;&lt;span class="replaced-font"&gt;Gene is always interested in learning more about robotics. He has a master’s from the George Washington University and lives in the Boston area.&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/webinar-discuss-how-fcc-robotics-ruling-affects-automation-buyers/"&gt;Webinar to discuss how the FCC robotics ruling affects automation buyers&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/webinar-discuss-how-fcc-robotics-ruling-affects-automation-buyers/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Generative Bionics to launch Physical AI Data Factory in Italy</title>
-		<link>https://www.therobotreport.com/generative-bionics-to-launch-physical-ai-data-factory-in-italy/</link>
-					<comments>https://www.therobotreport.com/generative-bionics-to-launch-physical-ai-data-factory-in-italy/#respond</comments>
-		
-		<dc:creator>Brianna Wessling</dc:creator>
-		<pubDate>Fri, 23 Oct 2026 18:56:44 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Design / Development</category>
-		<category>Healthcare Robotics</category>
-		<category>Humanoids</category>
-		<category>Logistics</category>
-		<category>Manufacturing</category>
-		<category>Markets / Industries</category>
-		<category>News</category>
-		<category>Robots / Platforms</category>
-		<category>Sensors / Sensing Systems</category>
-		<category>Software / Simulation</category>
-		<category>Europe</category>
-		<category>Generative Bionics</category>
-		<category>Istituto Italiano Di Technologia</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589987</guid>
-
-					<description>&lt;p&gt;Generative Bionics says it hopes to advance European robotics sovereignty by ensuring that humanoid data is are generated on the continent. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/generative-bionics-to-launch-physical-ai-data-factory-in-italy/"&gt;Generative Bionics to launch Physical AI Data Factory in Italy&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589988" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/generativebionics-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589988" class="size-full wp-image-589988" src="https://www.therobotreport.com/wp-content/uploads/2026/10/generativebionics-featured.jpg" alt="Generative Bionics' new Data Factory." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/generativebionics-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/10/generativebionics-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/generativebionics-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/generativebionics-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/generativebionics-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589988" class="wp-caption-text"&gt;The first Data Factory hub is set to become one of Europe&amp;#8217;s largest physical AI training facilities for humanoid robots. | Source: Generative Bionics&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Generative Bionics this week announced plans to build a proprietary, multi-site &amp;#8220;Physical AI Data Factory&amp;#8221; in Italy. The company said the new 5,000-sq.-m (53,819.5-sq.-ft.) hub will help move humanoid robotics from laboratory demonstrations to reliable industrial deployment.&lt;/p&gt;
-&lt;p&gt;In addition, Generative Bionics said it hopes to advance &lt;a href="https://www.therobotreport.com/tag/europe" target="_blank" rel="noopener"&gt;European&lt;/a&gt; humanoid sovereignty, ensuring that the data, models, and know-how behind Europe&amp;#8217;s industrial &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoids&lt;/a&gt; are generated, trained and validated on the continent.&lt;/p&gt;
-&lt;p&gt;“The value that Europe has right now is within its industry, and we have to extract physical AI data in order to train our own models,” Daniele Pucci, the CEO of Generative Bionics, told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;This is a competitive advantage that Europe right now has, because of the automation that we have been putting in place over the last 40 years.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Generative Bionics said the new facility will be operational by the fourth quarter of 2027. The Genoa, Italy-based &lt;a href="https://www.therobotreport.com/tag/generative-bionics" target="_blank" rel="noopener"&gt;company&lt;/a&gt; plans to eventually open a second facility elsewhere in Europe and a third serving global markets. Together, the three facilities will reproduce real industrial environments, generate high-fidelity physical data, and connect that data with large-scale &lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;simulation&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Building on their strategic technology collaboration, &lt;a href="http://therobotreport.com/tag/amd" target="_blank" rel="noopener"&gt;Advanced Micro Devices Inc.&lt;/a&gt; will be Generative Bionics&amp;#8217; &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; infrastructure partner, and the Physical AI Data Factory network will be powered by AMD Helios. Its rack-scale architecture will provide the compute foundation to process physical and synthetic data, train physical AI models, and run thousands of digital-twin scenario variations in parallel.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Generative Bionics - Data Factory" width="740" height="416" src="https://www.youtube.com/embed/AuNdvj8Lw00?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;Data Factory to test GENE.01 in a range of industries&lt;/h2&gt;
-&lt;p&gt;The Physical AI Data Factory will connect real-world robot operations, simulation and AI development in a continuous real-to-sim-to-real cycle, said Generative Bionics. The company said this will allow it to configure and validate its &lt;a href="https://gbionics.ai/gene01/#navbar" target="_blank" rel="noopener"&gt;GENE.01&lt;/a&gt; humanoid robot for specific industrial environments before customer deployment, then feed data from deployed fleets into future training cycles.&lt;/p&gt;
-&lt;p&gt;Industrial humanoids must learn from the conditions they will encounter at work, noted the Generative Bionics. This requires data that captures contact, force, motion, proximity, temperature, task constraints, and human interaction in realistic operating settings. For GENE.01, the dataset will include &lt;a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener"&gt;vision&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/category/robot-components/motioncontrol/" target="_blank" rel="noopener"&gt;motion&lt;/a&gt; data as well as signals captured through its full-body multimodal skin.&lt;/p&gt;
-&lt;p&gt;“A robot is not only vision and is not only language,&amp;#8221; said Pucci. &amp;#8220;It is position, velocity, acceleration, temperature, and contact forces, so there is a large variety of data that you have to take into account.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;The Data Factory will reproduce environments selected with industrial partners and allow fleets of GENE.01 robots to perform tasks continuously in real-world conditions. These operations will generate high-fidelity physical data for training world action models (WAM) and validating the complete robot system, including perception, control, safety behavior, and task execution, before deployment at customer sites.&lt;/p&gt;
-&lt;p&gt;Each physical environment and robot configuration will also be recreated as a digital twin. The same tasks can then be repeated across thousands of variations in layout, objects, materials, operating conditions, and failure modes that would be impractical to reproduce physically. Models trained and tested in simulation will be deployed back to the robots for validation, while data from physical operations will feed the next training cycle.&lt;/p&gt;
-&lt;h2&gt;Generative Bionics wants to help find robot &amp;#8216;ChatGPT moment&amp;#8217;&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="[Six-Month Update]: GENE.01 Comes to Life" width="740" height="416" src="https://www.youtube.com/embed/mGF142yepjc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Large language models (LLMs) learn from vast amounts of information available online, noted Generative Bionics. Humanoid robots have no comparable source of data on how to act in the physical world.&lt;/p&gt;
-&lt;p&gt;The Physical AI Data Factory will create such a source by collecting data as GENE.01 performs industrial tasks and expanding those experiences through digital-twins running on AMD compute.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;We have the ambition of being the European champion in physical AI, and even robotics, designed to scale globally,&amp;#8221; said Pucci. &amp;#8220;That&amp;#8217;s our clear positioning, and for this, we are taking a close look at the supply chain that can supply our future manufacturing.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Manufacturing here is divided into three levels: the manufacturing of data, the manufacturing of robots, and the manufacturing of models,&amp;#8221; she continued. Pucci said if Europe wants to achieve sovereignty in this area, it needs to invest in all three.&lt;/p&gt;
-&lt;p&gt;Right now, humanoid robots from &lt;a href="https://www.therobotreport.com/tag/china" target="_blank" rel="noopener"&gt;China&lt;/a&gt; have been garnering a lot of attention with flashy demos and large funding rounds. But, Pucci, notes that this doesn&amp;#8217;t mean the country is necessarily ahead of Europe.&lt;/p&gt;
-&lt;p&gt;“I want to be crystal clear about this. Many of the Chinese robots that are out there are simply not certified to enter industrial settings,&amp;#8221; Pucci said. &amp;#8220;The narrative that the Chinese solved as the issues is very far from reality.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Right now, we believe that many of the existing solutions are basically for entertainment, and this is a market segment that we respect,&amp;#8221; she added. &amp;#8220;But, Generative Bionics is taking the issue of safety and certification very seriously because we want to go B2B first.”&lt;/p&gt;
-&lt;h2&gt;GENE.01 can be customized for specific applications&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Generative Bionics @ AMD Advancing AI 2026" width="740" height="416" src="https://www.youtube.com/embed/2eCPtoqozpg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Generative Bionics claimed that a few things separate its platform from the average humanoid robot. To start, GENE.01 features full-body tactile sensing.&lt;/p&gt;
-&lt;p&gt;“It comes naturally to give the humanoid robots the sense of touch, because humanoid robots have to perceive people not only while talking, but also while interacting with them physically,&amp;#8221; Pucci said. &amp;#8220;That’s why GENE was given this unique multimodal scheme, which can perceive not only the sense of touch but also the sense of proximity.”&lt;/p&gt;
-&lt;p&gt;Generative Bionics also plans to offer GENE.01 as a base platform that can be customized for different industries.&lt;/p&gt;
-&lt;p&gt;“We have a clear view that humanoid robots cannot be used for anything that comes to your mind, because a humanoid robot welding in a shipyard cannot be the same as a humanoid robot in healthcare,&amp;#8221; noted Pucci. &amp;#8220;There is a fundamental difference in the development cycle.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;The company has three levels of customization. &amp;#8220;The first one is the AI, because a robot moving boxes does not need the same AI of a robot in healthcare,&amp;#8221; said Pucci. &amp;#8220;The second is the exterior design. In the shipyard, you have to be resistant against high temperatures, sparks, and powders. The third is the hands and the feet.”&lt;/p&gt;
-&lt;p&gt;“This is really scalable at the manufacturing level, because you have a common platform, and then you can customize at the end the so-called end of lines at these three levels,&amp;#8221; she continued. &amp;#8220;This is basically the same approach that you have in automotive.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Generative Bionics is building on more than 20 years of research, development, and prototyping of humanoids at the Italian Institute of Technology (&lt;a href="https://www.therobotreport.com/tag/istituto-italiano-di-technologia/" target="_blank" rel="noopener"&gt;IIT&lt;/a&gt;). The company spun out of IIT in 2024, and IIT has granted it exclusive licenses to key technologies.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/generative-bionics-to-launch-physical-ai-data-factory-in-italy/"&gt;Generative Bionics to launch Physical AI Data Factory in Italy&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/generative-bionics-to-launch-physical-ai-data-factory-in-italy/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
