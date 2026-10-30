@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Thu, 29 Oct 2026 21:02:39 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 30 Oct 2026 16:22:09 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,9 +22,141 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Humanoid developer Agility now expects to raise $465M in SPAC deal</title>
+		<link>https://www.therobotreport.com/humanoid-developer-agility-now-expects-raise-465m-spac-deal/</link>
+					<comments>https://www.therobotreport.com/humanoid-developer-agility-now-expects-raise-465m-spac-deal/#respond</comments>
+		
+		<dc:creator>Eugene Demaitre</dc:creator>
+		<pubDate>Fri, 30 Oct 2026 16:19:16 +0000</pubDate>
+				<category>Humanoids</category>
+		<category>Logistics</category>
+		<category>Manufacturing</category>
+		<category>Mergers &amp; Acquisitions</category>
+		<category>News</category>
+		<category>Agility Robotics</category>
+		<category>SPAC</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590075</guid>
+
+					<description>&lt;p&gt;Agility said it expects to raise $465 million in its combination with Churchill Capital Corp XI, $155 million less than it had estimated.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/humanoid-developer-agility-now-expects-raise-465m-spac-deal/"&gt;Humanoid developer Agility now expects to raise $465M in SPAC deal&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590076" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590076" class="size-full wp-image-590076" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Agility_Digit_5.jpg" alt="Agility Robotics' Digit 5 humanoid robot at work in a warehouse." width="770" height="499" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Agility_Digit_5.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/Agility_Digit_5-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Agility_Digit_5-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Agility_Digit_5-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Agility_Digit_5-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590076" class="wp-caption-text"&gt;Digit 5 includes redesigned legs and new batteries for commercial use. Source: Agility Robotics&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Humanoid robotics developers continue to raise millions of dollars. Agility Robotics Inc. and Churchill Capital Corp XI today said that they expect Agility to raise about $465 million in its proposed merger with the special-purpose acquisition company, or SPAC.&lt;/p&gt;
+&lt;p&gt;According to Agility, the gross capital raise includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;About $164 million from Churchill XI’s trust account&lt;/li&gt;
+&lt;li&gt;Approximately $201 million from a common stock PIPE (private investment in public equity) committed at $10 per share, led by &lt;a href="https://www.therobotreport.com/tag/foxconn/" target="_blank" rel="noopener"&gt;Foxconn&lt;/a&gt; with participation from existing and new institutional investors&lt;/li&gt;
+&lt;li&gt;$100 million of equity funding already received following the announcement of the business combination&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That total is less than the $620 million that Agility predicted at a $2.5 billion valuation when it &lt;a href="https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/" target="_blank" rel="noopener"&gt;first announced&lt;/a&gt; the planned business combination in June. &lt;em&gt;&lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;The Robot Report&lt;/a&gt; &lt;/em&gt;has reached out to the company for comment and will add it if we get a response.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Agility is expected to enter the public markets well capitalized to execute its planned investments in commercial expansion and support growing customer demand,&amp;#8221; &lt;a href="https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-announce-expected-gross-capital-raise-of-approximately-465-million-and-anticipated-closing-of-business-combination" target="_blank" rel="noopener"&gt;stated&lt;/a&gt; the Salem, Ore.-based &lt;a href="https://www.therobotreport.com/tag/agility-robotics" target="_blank" rel="noopener"&gt;company&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Agility expects to close the &lt;a href="https://www.therobotreport.com/tag/spac" target="_blank" rel="noopener"&gt;SPAC&lt;/a&gt; transaction, subject to shareholder approval and the customary closing conditions, on Nov. 4. The company has claimed that it will be the first U.S. publicly traded, pure-play humanoid supplier with commercial deployments.&lt;/p&gt;
+&lt;h2&gt;Agility gets Digit ready for customers&lt;/h2&gt;
+&lt;p&gt;Last month, Agility &lt;a href="https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/" target="_blank" rel="noopener"&gt;unveiled&lt;/a&gt; its Digit 5 humanoid, which had &lt;a href="https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/" target="_blank" rel="noopener"&gt;new legs&lt;/a&gt; (and &lt;a href="https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/" target="_blank" rel="noopener"&gt;possibly wheels&lt;/a&gt;) and is designed to work safely alongside people and support a range of workflows. Last week, Jonathan Hurst, co-founder and chief robot officer, and Pras Velagapudi, chief technology officer at the company, spoke about &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoid&lt;/a&gt; advances at &lt;a href="https://www.therobotreport.com/a-guide-to-everything-happening-at-robobusiness-2026/" target="_blank" rel="noopener"&gt;RoboBusiness&lt;/a&gt; 2026.&lt;/p&gt;
+&lt;p&gt;Agility this month also &lt;a href="https://www.therobotreport.com/agility-robotics-chooses-nyobolt-ultra-fast-charging-digit-5-humanoid/" target="_blank" rel="noopener"&gt;chose Nyobolt&lt;/a&gt; for fast recharging, which it said will enable its robots to operate for more than 20 hours a day.&lt;/p&gt;
+&lt;p&gt;The company said it is &amp;#8220;on track to begin deliveries to early-access customers in the first half of 2027, with general availability targeted for the end of 2027.&amp;#8221; Agility also said it has more than $300 million in committed multi-year orders for Digit 5.&lt;/p&gt;
+&lt;p&gt;&lt;iframe title="Introducing Digit 5" width="740" height="416" src="https://www.youtube.com/embed/oyq9BOwK5XI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Humanoid use cases are growing&lt;/h2&gt;
+&lt;p&gt;Digit continues to make progress in live operations. In a September S-4 statement with the U.S. Securities and Exchange Commission, Agility &lt;a href="https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/" target="_blank" rel="noopener"&gt;reported&lt;/a&gt; $1.8 million in net sales in 2025. Its customers across nine sites include &lt;a href="https://www.therobotreport.com/toyota-motor-manufacturing-canada-deploys-agility-robotics-digit-humanoids/" target="_blank" rel="noopener"&gt;Toyota&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/agility-mercado-libre-embargoed/" target="_blank" rel="noopener"&gt;Mercado Libre&lt;/a&gt;, and &lt;a href="https://www.therobotreport.com/tag/schaeffler/" target="_blank" rel="noopener"&gt;Schaeffler&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;AGCO this month announced &lt;a href="https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/" target="_blank" rel="noopener"&gt;plans to deploy&lt;/a&gt; Digit in its agricultural machinery factory in Kansas.&lt;/p&gt;
+&lt;p&gt;And this week, Agility said it is &lt;a href="https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/" target="_blank" rel="noopener"&gt;expanding its partnership&lt;/a&gt; with GXO Logistics, implementing humanoids in North Carolina and Tennessee.&lt;/p&gt;
+&lt;h2&gt;Humanoid companies continue fundraising, acquisitions&lt;/h2&gt;
+&lt;p&gt;Agility&amp;#8217;s investors include NVIDIA (with whom it also &lt;a href="https://www.agilityrobotics.com/content/agility-robotics-expands-nvidia-collaboration-as-it-prepares-digit-5-for-commercial-scale" target="_blank" rel="noopener"&gt;expanded&lt;/a&gt; its relationship), Amazon, SoftBank Vision Fund 2, Schaeffler, Foxconn, Abico, DCVC, and Playground Global. The company said that all existing shareholders will roll their equity into the combined company and will be subject to a 180-day lock-up at closing.&lt;/p&gt;
+&lt;p&gt;Some of the top funding rounds for humanoid companies so far this year include &lt;a href="https://www.therobotreport.com/neura-robotics-raise-up-1-4b-in-series-c-funding-physical-ai/" target="_blank" rel="noopener"&gt;Neura Robotics&lt;/a&gt;&amp;#8216; $1.4 billion Series C, &lt;a href="https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/" target="_blank" rel="noopener"&gt;XPeng Robotics&lt;/a&gt;&amp;#8216; $900 million Series A, &lt;a href="https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/" target="_blank" rel="noopener"&gt;AI&lt;sup&gt;2&lt;/sup&gt; Robotics&lt;/a&gt;&amp;#8216; $735 million Series C, and &lt;a href="https://www.therobotreport.com/apptronik-brings-in-another-520m-to-ramp-up-apollo-production/" target="_blank" rel="noopener"&gt;Apptronik&lt;/a&gt;&amp;#8216;s $520 million Series A-X.&lt;/p&gt;
+&lt;p&gt;Top &lt;a href="https://www.therobotreport.com/category/financial/mergers-acquisitions/" target="_blank" rel="noopener"&gt;acquisitions&lt;/a&gt; include &lt;a href="https://www.therobotreport.com/tag/ubtech/" target="_blank" rel="noopener"&gt;UBTECH&lt;/a&gt;&amp;#8216;s &lt;a href="https://dealroom.co/news/165322-ubtech-to-take-control-of-fenglong-shares-in-buyout-stock-hits-daily-lim/" target="_blank" rel="noopener"&gt;purchase&lt;/a&gt; of Fenglong Electric for $249 million and &lt;a href="https://www.therobotreport.com/tag/faraday-future/" target="_blank" rel="noopener"&gt;Faraday Future&lt;/a&gt;&amp;#8216;s &lt;a href="https://www.businesswire.com/news/home/20261026447569/en/Faraday-Future-Announces-Completion-of-FF-EAI-Robotics-Ecosystems-FFR-Acquisition-of-Faraday-Futures-Robotics-Business-and-Establishment-of-a-Nasdaq-Listed-Humanoid-and-Bionic-Robotics-Platform" target="_blank" rel="noopener"&gt;purchase&lt;/a&gt; this week of FF Robotics.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/humanoid-developer-agility-now-expects-raise-465m-spac-deal/"&gt;Humanoid developer Agility now expects to raise $465M in SPAC deal&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/humanoid-developer-agility-now-expects-raise-465m-spac-deal/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
+		<title>RoboBusiness 2026 recap</title>
+		<link>https://www.therobotreport.com/robobusiness-2026-recap/</link>
+					<comments>https://www.therobotreport.com/robobusiness-2026-recap/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Fri, 30 Oct 2026 12:30:02 +0000</pubDate>
+				<category>Artificial Intelligence</category>
+		<category>Autonomous Mobile Robots (AMRs)</category>
+		<category>Events</category>
+		<category>Humanoids</category>
+		<category>Mobility / Navigation</category>
+		<category>News</category>
+		<category>Opinion</category>
+		<category>Podcast</category>
+		<category>RaaS</category>
+		<category>robobusiness</category>
+		<category>Robot Operations Group</category>
+		<category>WiBotic</category>
+		<category>workforce</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590062</guid>
+
+					<description>&lt;p&gt;The Robot Report editorial team sits down for a recap of noteworthy sessions and networking around the 2026 RoboBusiness event.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/robobusiness-2026-recap/"&gt;RoboBusiness 2026 recap&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;p&gt;&lt;iframe loading="lazy" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2428117737&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true" width="100%" height="166" frameborder="no" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;"&gt;&lt;a style="color: #cccccc; text-decoration: none;" title="The Robot Report Podcast" href="https://soundcloud.com/robot-report-podcast" target="_blank" rel="noopener"&gt;The Robot Report Podcast&lt;/a&gt; · &lt;a style="color: #cccccc; text-decoration: none;" title="RoboBusiness 2026 recap" href="https://soundcloud.com/robot-report-podcast/robobusiness-2026-recap" target="_blank" rel="noopener"&gt;RoboBusiness 2026 recap&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;In Episode 267 of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, our editorial team, including Steve Crowe, Eugene Demaitre, Mike Oitzman, and Brianna Wessling, recap the 2026 RoboBusiness event.&lt;/p&gt;
+&lt;p&gt;The event took place on Oct. 20 to 21 in Santa Clara, Calif., and drew more than 2,000 attendees for a gathering focused on the latest developments in the robotics industry. Highlights included the keynote panels, the Women in Robotics lunch, various sessions, and the expo floor.&lt;/p&gt;
+&lt;p&gt;If you attended the show with a conference pass, stay tuned; we&amp;#8217;ll share details soon on how to access audio from all recorded sessions.&lt;/p&gt;
+&lt;div id="attachment_590067" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590067" class="wp-image-590067 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/10/RB26-opening-keynote.jpg" alt="Steve Crowe, Rodney Brookes, Ken Goldberg and Jonathan Hurst speak in the 2026 RoboBusiness opening keynote panel." width="1000" height="667" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/RB26-opening-keynote.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/10/RB26-opening-keynote-300x200.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/RB26-opening-keynote-150x100.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/RB26-opening-keynote-768x512.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/RB26-opening-keynote-357x238.jpg 357w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-590067" class="wp-caption-text"&gt;The opening keynote for RoboBusiness 2026 featured Steve Crowe moderating a panel that included Rodney Brooks, Ken Goldberg, and Jonathan Hurst.&lt;/p&gt;&lt;/div&gt;
+&lt;div id="attachment_590065" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590065" class="size-full wp-image-590065" src="https://www.therobotreport.com/wp-content/uploads/2026/10/WIR-lunch-2026.jpg" alt=" Bhavana Chandrashekhar and Joyce Sidopoulos on stage." width="1000" height="667" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/WIR-lunch-2026.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/10/WIR-lunch-2026-300x200.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/WIR-lunch-2026-150x100.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/WIR-lunch-2026-768x512.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/WIR-lunch-2026-357x238.jpg 357w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-590065" class="wp-caption-text"&gt;Bhavana Chandrashekhar, senior manager of applied science at Amazon Robotics, is interviewed at the Women in Robotics Lunch by Joyce Sidopoulos, co-founder and chief of operations at MassRobotics.&lt;/p&gt;&lt;/div&gt;
+&lt;div id="attachment_590066" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590066" class="wp-image-590066 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/10/WIR-crowd-2026.jpg" alt="the crowd at the women in robotics lunch at RoboBusiness 2026." width="1000" height="667" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/WIR-crowd-2026.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/10/WIR-crowd-2026-300x200.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/WIR-crowd-2026-150x100.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/WIR-crowd-2026-768x512.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/WIR-crowd-2026-357x238.jpg 357w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-590066" class="wp-caption-text"&gt;There was a packed lunch crowd for the 2026 Women in Robotics lunch.&lt;/p&gt;&lt;/div&gt;
+&lt;div id="attachment_590074" style="width: 810px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590074" class="size-full wp-image-590074" src="https://www.therobotreport.com/wp-content/uploads/2026/10/1792541351745.jpeg" alt="The RoboBusiness 2026 panel on &amp;quot;Beyond the Demo: AI in Production Robotics&amp;quot; talked about how AI is actually being used today." width="800" height="533" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/1792541351745.jpeg 800w, https://www.therobotreport.com/wp-content/uploads/2026/10/1792541351745-300x200.jpeg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/1792541351745-150x100.jpeg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/1792541351745-768x512.jpeg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/1792541351745-357x238.jpeg 357w" sizes="auto, (max-width: 800px) 100vw, 800px" /&gt;&lt;p id="caption-attachment-590074" class="wp-caption-text"&gt;The RoboBusiness 2026 panel on &amp;#8220;Beyond the Demo: AI in Production Robotics&amp;#8221; talked about how AI is actually being used today.&lt;/p&gt;&lt;/div&gt;
+&lt;div id="attachment_590068" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590068" class="size-full wp-image-590068" src="https://www.therobotreport.com/wp-content/uploads/2026/10/RZB26-RaaS-panel.jpg" alt="Mike Oitzman, Rick Faulk, Bill Booth, Alex LInde in a panel." width="1000" height="667" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/RZB26-RaaS-panel.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/10/RZB26-RaaS-panel-300x200.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/RZB26-RaaS-panel-150x100.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/RZB26-RaaS-panel-768x512.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/RZB26-RaaS-panel-357x238.jpg 357w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-590068" class="wp-caption-text"&gt;Mike Oitzman (senior editor, &lt;em&gt;The Robot Report&lt;/em&gt;), Rick Faulk (CEO, Locus Robotics), Bill Booth (technology sales, marketing, and business development, Roboworx), and Alex Linde (chief product officer, Aescape) were on stage at the &amp;#8220;RaaS Playbook&amp;#8221; panel.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;This was the 20th anniversary of the RoboBusiness event. This was also the last event under the RoboBusiness &lt;a href="https://www.therobotreport.com/tag/robobusiness" target="_blank" rel="noopener"&gt;brand&lt;/a&gt;. The event has been renamed to &lt;a href="https://www.roboticssummit.com/" target="_blank" rel="noopener"&gt;Robotics Summit West&lt;/a&gt; and will run again in October 2027 under the new name.&lt;/p&gt;
+&lt;h2&gt;Learn more about the Robot Operations Group&lt;/h2&gt;
+&lt;p&gt;The Robot Operations Group (&lt;a href="https://robotoperationsgroup.org/" target="_blank" rel="noopener"&gt;ROG&lt;/a&gt;) is a cross-industry group aimed at developing and sharing best practices for the operation at scale of autonomous robots. The group was founded by &lt;a href="https://www.linkedin.com/in/florianpestoni/" target="_blank" rel="noopener"&gt;Florian Pestoni&lt;/a&gt; and &lt;a href="https://www.linkedin.com/in/jwieciek/" target="_blank" rel="noopener"&gt;Joe Wieciek&lt;/a&gt;. It held &lt;a href="https://robotoperationsgroup.org/robopscon26" target="_blank" rel="noopener"&gt;RoboOpsCon26&lt;/a&gt; the day after RoboBusiness.&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2&gt;RoboBusiness recap timeline&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;1:45 &amp;#8211; RobOps Con review by Mike Oitzman&lt;/li&gt;
+&lt;li&gt;3:27 &amp;#8211; RoboBusiness 2026 recap from Steve Crowe&lt;/li&gt;
+&lt;li&gt;6:50 &amp;#8211; Women in Robotics lunch recap with Brianna Wessling&lt;/li&gt;
+&lt;li&gt;11:02 &amp;#8211; RaaS Playbook panel recap from Oitzman&lt;/li&gt;
+&lt;li&gt;13:02 &amp;#8211; Keynotes recap (all editors)&lt;/li&gt;
+&lt;li&gt;17:19 &amp;#8211; &amp;#8220;Beyond the demo&amp;#8221; panel recap with Eugene Demaitre&lt;/li&gt;
+&lt;li&gt;18:47 &amp;#8211; &amp;#8220;State of Humanoids&amp;#8221; keynote recap by Oitzman&lt;/li&gt;
+&lt;li&gt;22:30 &amp;#8211; &amp;#8220;Navigating complicated indoor environments&amp;#8221; panel recap by Wessling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Sponsors&lt;/h2&gt;
+&lt;p&gt;Closing the loop of autonomy takes more than a great robot.&lt;/p&gt;
+&lt;p&gt;WiBotic provides reliable wireless charging and fleet energy management for autonomous robots and other battery-powered systems.&lt;/p&gt;
+&lt;p&gt;This patented technology gives robots more freedom to charge throughout their normal workflow, helping increase the uptime, ROI, and safety of your fleet.&lt;/p&gt;
+&lt;p&gt;AMRs, drones, floor scrubbers, humanoids, and everything in between &amp;#8211; WiBotic makes charging simple, seamless, and scalable.&lt;/p&gt;
+&lt;p&gt;Learn more at &lt;a href="http://www.wibotic.com/robotreport" target="_blank" rel="noopener"&gt;http://www.wibotic.com/robotreport&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;To learn how you can sponsor a future episode of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, contact Jami Brownlee at &lt;a href="mailto:jbrownlee@arrowfly.com" target="_blank" rel="noopener"&gt;jbrownlee@arrowfly.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Would you like to be a guest on a future episode? Contact Mike Oitzman at &lt;a href="mailto:moitzman@arrowfly.com" target="_blank" rel="noopener"&gt;moitzman@arrowfly.com&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/robobusiness-2026-recap/"&gt;RoboBusiness 2026 recap&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/robobusiness-2026-recap/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>White House makes Section 232 determination regarding foreign-made robots</title>
 		<link>https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/</link>
-					<comments>https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/#respond</comments>
+					<comments>https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/#comments</comments>
 		
 		<dc:creator>Eugene Demaitre</dc:creator>
 		<pubDate>Thu, 29 Oct 2026 20:46:53 +0000</pubDate>
@@ -51,7 +183,7 @@
 					<description>&lt;p&gt;The U.S. secretary of commerce's Section 232 investigation concluded that dependence on robotics imports poses a national security risk.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/"&gt;White House makes Section 232 determination regarding foreign-made robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_590071" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590071" class="size-full wp-image-590071" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation.jpg" alt="Screencap of proclamation. The U.S. president has proclaimed that a Section 232 investigation found that robotics imports pose a threat to U.S. national security and economic competitiveness." width="770" height="495" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation-300x193.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation-150x96.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation-768x494.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590071" class="wp-caption-text"&gt;A Section 232 investigation by the secretary of commerce found that robotics imports pose a threat to U.S. national security and economic competitiveness. Source: Office of the White House&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_590071" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590071" class="size-full wp-image-590071" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation.jpg" alt="Screencap of proclamation. The U.S. president has proclaimed that a Section 232 investigation found that robotics imports pose a threat to U.S. national security and economic competitiveness." width="770" height="495" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation-300x193.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation-150x96.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation-768x494.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Section_232_proclamation-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590071" class="wp-caption-text"&gt;A Section 232 investigation by the secretary of commerce found that robotics imports pose a threat to U.S. national security and economic competitiveness. Source: Office of the White House&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Yesterday, U.S. President Donald J. Trump issued a proclamation stating that the secretary of commerce had submitted a Section 232 report about the national security effects of imports of robotics and industrial machinery, as well as related parts and components.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;Based on the facts considered in that investigation, and taking into account the close relation of the economic welfare of the Nation to our national security and other relevant factors, see section 232(d) (19 U.S.C. 1862(d)), the Secretary found and advised me of his opinion that robotics, industrial machinery, and their components are being imported into the United States in such quantities and under such circumstances as to threaten to impair the national security of the United States,&amp;#8221; &lt;a href="https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/" target="_blank" rel="noopener"&gt;stated&lt;/a&gt; the president.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;Robotics and industrial machinery are critical to virtually all modern manufacturing processes, including for defense, commercial, and dual-use purposes,&amp;#8221; he noted. &amp;#8220;Furthermore, robotics and industrial machinery generate substantial economic value and support important economic activities, including approximately $7.1 trillion in shipments of manufactured goods in 2024 and the production of approximately $86 billion worth of equipment in 2024.&amp;#8221;&lt;/p&gt;
@@ -62,7 +194,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;Experts expect Section 232 negotiations before any tariffs&lt;/h2&gt;
@@ -76,12 +208,12 @@
 &lt;p&gt;The Section 232 investigation does not mean that tariffs will be immediate, added &lt;a href="https://www.linkedin.com/in/robert-little-707791a/" target="_blank" rel="noopener"&gt;Ash Sharma&lt;/a&gt;, vice president of research and chief information officer at &lt;a href="https://www.therobotreport.com/tag/interact-analysis" target="_blank" rel="noopener"&gt;Interact Analysis&lt;/a&gt;. &lt;span data-olk-copy-source="MessageBody"&gt;&amp;#8220;This shouldn’t be read as a new robotics tariff today, but it is a clear indication of the direction of travel,&amp;#8221; he said.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span data-olk-copy-source="MessageBody"&gt;&amp;#8220;The U.S. government has explicitly identified its reliance on imported robotics and industrial machinery as a national security concern and is seeking to strengthen domestic production,&amp;#8221; commented Sharma. &amp;#8220;If tariffs, quotas or other trade measures follow, they could have meaningful implications for supplier competitiveness, pricing, and manufacturing localization in the U.S., potentially affecting not just finished robots, but [also] the components that go into them.&amp;#8221;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The Robot Report &lt;/em&gt;is expecting more responses that will be shared in subsequent coverage.&lt;/p&gt;
-&lt;div id="attachment_590072" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-590072" class="size-full wp-image-590072" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel.jpg" alt="Panelists discussed reshoring and policies such as the Section 232 investigation at RoboBusiness 2026." width="770" height="498" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel-768x497.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590072" class="wp-caption-text"&gt;Panelists discussed reshoring and policies such as the Section 232 investigation at RoboBusiness 2026. Credit: Arrowfly&lt;/p&gt;&lt;/div&gt;
+&lt;div id="attachment_590072" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590072" class="size-full wp-image-590072" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel.jpg" alt="Panelists discussed reshoring and policies such as the Section 232 investigation at RoboBusiness 2026." width="770" height="498" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel-768x497.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Reshoring_panel-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590072" class="wp-caption-text"&gt;Panelists discussed reshoring and policies such as the Section 232 investigation at RoboBusiness 2026. Credit: Arrowfly&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/"&gt;White House makes Section 232 determination regarding foreign-made robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
+			<ns5:comments>1</ns5:comments>
 		
 		
 			</item>
@@ -909,114 +1041,6 @@ Open submissions give model iteration concrete feedback&lt;/strong&gt;&lt;/h4&gt
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics</title>
-		<link>https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/</link>
-					<comments>https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/#respond</comments>
-		
-		<dc:creator>The Robot Report Staff</dc:creator>
-		<pubDate>Sun, 25 Oct 2026 12:35:33 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Autonomous Mobile Robots (AMRs)</category>
-		<category>Collaborative Robots</category>
-		<category>Design / Development</category>
-		<category>Logistics</category>
-		<category>Manufacturing</category>
-		<category>Markets / Industries</category>
-		<category>News</category>
-		<category>Robots / Platforms</category>
-		<category>Sereact</category>
-		<category>Teradyne Robotics</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589998</guid>
-
-					<description>&lt;p&gt;Sereact and Teradyne have already shipped hundreds of UR robots in dual-arm systems to live customer sites across Europe.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/"&gt;Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589999" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/Sereact_UniversalRobots_Zalando-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589999" class="size-full wp-image-589999" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Sereact_UniversalRobots_Zalando-featured.jpg" alt="At Zalando's fulfillment centers in Germany and Poland, Sereact and Universal Robots now autonomously process returned fashion items, in this case the robot is picking a black women's shoe." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Sereact_UniversalRobots_Zalando-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/10/Sereact_UniversalRobots_Zalando-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Sereact_UniversalRobots_Zalando-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/10/Sereact_UniversalRobots_Zalando-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Sereact_UniversalRobots_Zalando-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Sereact_UniversalRobots_Zalando-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/10/Sereact_UniversalRobots_Zalando-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589999" class="wp-caption-text"&gt;At Zalando&amp;#8217;s fulfillment centers in Germany and Poland, Sereact and Universal Robots now autonomously processes returned fashion items. | Source: Teradyne Robotics&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Teradyne Robotics, the company behind Universal Robots and Mobile Industrial Robots, last week partnered with Sereact. The companies aim to accelerate industrial AI solutions in retail, logistics and manufacturing.&lt;/p&gt;
-&lt;p&gt;Through this partnership, Sereact&amp;#8217;s &lt;a href="https://cortex2.sereact.ai/" target="_blank" rel="noopener"&gt;Cortex&lt;/a&gt; physical &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; platform runs robot arms from &lt;a href="https://www.therobotreport.com/tag/universal-robots" target="_blank" rel="noopener"&gt;Universal Robots&lt;/a&gt; to give &lt;a href="https://www.therobotreport.com/tag/retail/" target="_blank" rel="noopener"&gt;retailers&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/category/markets-industries/logistics-warehousing-asrs/" target="_blank" rel="noopener"&gt;logistics&lt;/a&gt; providers a proven way to automate unstructured tasks such as returns handling and piece picking. Together, the companies have already shipped hundreds of UR robots in dual-arm systems to live customer sites across &lt;a href="https://www.therobotreport.com/tag/europe/" target="_blank" rel="noopener"&gt;Europe&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;“Physical AI only matters when it performs in real-world operations, and that is where Universal Robots has always been at home,” said Jacob Pascual Pape, the chief commercial officer of &lt;a href="https://www.therobotreport.com/tag/teradyne-robotics" target="_blank" rel="noopener"&gt;Teradyne Robotics&lt;/a&gt;. &amp;#8220;Our robots are built for the AI era: open, connected, and proven through more than 100,000 industrial deployments. That is why Sereact has chosen our platform.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;“When combined with Sereact&amp;#8217;s Cortex, the joint solution handles mixed goods, unknown items, and varied packaging,&amp;#8221; he added. &amp;#8220;This has moved well beyond the demo or pilot stage with the technology now usefully deployed at real customer sites. Our technologies are a natural fit and through our partnership we will scale these AI-powered solutions fast across applications, industries and markets.”&lt;/p&gt;
-&lt;p&gt;To serve the rapidly growing demand and bring the joint solution to North America, Sereact this summer &lt;a href="https://www.automatedwarehouseonline.com/sereact-opens-massachusetts-headquarters-u-s-expansion/" target="_blank" rel="noopener"&gt;opened&lt;/a&gt; U.S. headquarters in Charlestown, Mass. The &lt;a href="https://www.therobotreport.com/tag/sereact/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; develops physical AI software that enables robots to grasp, identify, and handle objects they have never seen before. The companies made the announcement at &lt;a href="https://www.therobotreport.com/tag/nvidia/" target="_blank" rel="noopener"&gt;NVIDIA&lt;/a&gt; GTC Berlin 2026.&lt;/p&gt;
-&lt;h2&gt;Teradyne and Sereact already have deployments running&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Zalando &amp;amp; CEVA Logistics Automating Returns with Sereact" width="740" height="416" src="https://www.youtube.com/embed/pn3sIS2dMJo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Teradyne Robotics and Sereact said their joint offering can help a variety of critical logistics and manufacturing use cases. These include piece picking and sortation, order induction, machine tending, bin consolidation, kitting, packing, and goods handling.&lt;/p&gt;
-&lt;p&gt;“Returns, replenishment, kitting &amp;#8212; with Cortex, every one of these applications runs on the same production model. One brain serves every robot, with no retraining for each new item or task. And what one robot learns, every robot benefits from,” said Dr. Ralf Gulde, co-founder and CEO of Sereact. “Partnering with Teradyne Robotics and its global distribution and integrator network helps us bring that one brain to their customers around the world, accelerating the abilities of retailers and logistics providers to adopt AI-powered automation across their operations.”&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://www.therobotreport.com/tag/sereact/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; is already &lt;a href="https://www.automatedwarehouseonline.com/ceva-logistics-deploys-sereact-robots-zalando-returns-europe/" target="_blank" rel="noopener"&gt;deploying&lt;/a&gt; the system with CEVA Logistics for Zalando, a European technology platform for fashion and lifestyle. At Zalando&amp;#8217;s fulfillment centers in Greven, Germany, and Świebodzin, Poland, the robots now autonomously process returned fashion items. This is the first phase of a broader initiative to scale returns automation across Europe.&lt;/p&gt;
-&lt;p&gt;“Returns are one of the hardest jobs in logistics,&amp;#8221; said Gulde. &amp;#8220;Returned products almost never arrive in a robot-friendly sequence. Items differ in shape, orientation and packaging, and the mix changes continuously.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;That is exactly what Cortex is built to handle on the Universal Robots platform,” he said. ”By rapidly reconditioning returned goods for resale, the solution also helps retailers comply with European Union regulations prohibiting the destruction or landfill disposal of returned merchandise.”&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="3 Form Factors, 1 Brain: Scaling Active Ants’ Returns with Sereact Cortex" width="740" height="416" src="https://www.youtube.com/embed/76tPDP17FVU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;NVIDIA plays a role in the collaboration&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://www.therobotreport.com/tag/nvidia" target="_blank" rel="noopener"&gt;NVIDIA&lt;/a&gt;’s technologies are a key part of the Sereact and Universal Robots demonstration at GTC Berlin. Cortex is trained in NVIDIA Isaac Sim, an open &lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;simulation&lt;/a&gt; framework, using NVIDIA Cosmos open world models.&lt;/p&gt;
-&lt;p&gt;It is post-trained with reinforcement learning using &lt;a href="https://developer.nvidia.com/isaac/lab" target="_blank" rel="noopener"&gt;NVIDIA Isaac Lab&lt;/a&gt; framework and benchmarked on Teradyne Robotics hardware before any model is deployed. In deployment, Cortex runs on NVIDIA Jetson Thor at the cell where inference must happen at line speed and on NVIDIA DGX Spark for site-level development, validation and model updates.&lt;/p&gt;
-&lt;p&gt;Teradyne Robotics also uses NVIDIA computing in its Universal Robots cobots and Mobile Industrial Robot platforms. The company said it is contributing SimReady OpenUSD robot assets to &lt;a href="https://huggingface.co/spaces/nvidia/simready-central" target="_blank" rel="noopener"&gt;SimReady Central Library&lt;/a&gt; on Hugging Face for both UR and MiR products, helping developers discover and reuse robot models in simulation with less asset preparation.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/"&gt;Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Eka Robotics raises $150M to scale its vision-force-action model for robots</title>
-		<link>https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/</link>
-					<comments>https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/#respond</comments>
-		
-		<dc:creator>The Robot Report Staff</dc:creator>
-		<pubDate>Sat, 24 Oct 2026 12:34:27 +0000</pubDate>
-				<category>Arms / Manipulators</category>
-		<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Design / Development</category>
-		<category>End Effectors / Grippers</category>
-		<category>Financial</category>
-		<category>Investments</category>
-		<category>News</category>
-		<category>Software / Simulation</category>
-		<category>Eka Robotics</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=589995</guid>
-
-					<description>&lt;p&gt;Eka Robotics is building a vision-force-action, or VFA, model to develop an intuition of physics through reinforcement learning at scale.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/"&gt;Eka Robotics raises $150M to scale its vision-force-action model for robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_589996" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589996" class="wp-image-589996 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured.jpg" alt="A robotic arm screwing in a lightbulb. Eka Robotics is developing a model to generalize across tasks. " width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/10/ekarobotics-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589996" class="wp-caption-text"&gt;Eka says its model can generalize across objects, tasks, and environments. | Source: Eka Robotics&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Eka Robotics this week said it has raised $150 million in Series A funding. The startup said the new funding will help it scale its technology and customer deployments.&lt;/p&gt;
-&lt;p&gt;Founded in 2024, Eka is building a vision-force-action (VFA) model to develop an intuition of physics through reinforcement learning at scale. The Cambridge, Mass.-based &lt;a href="https://ekarobotics.com/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; said that robots using its &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; can pick a wide variety of objects outside the training distribution at a speed of roughly 1,500 operations per hour.&lt;/p&gt;
-&lt;p&gt;The same robots can screw in a light bulb and insert wires, Eka asserted.&lt;/p&gt;
-&lt;h2&gt;Robots shouldn&amp;#8217;t just mimic humans, says Eka Robotics&lt;/h2&gt;
-&lt;p&gt;Eka Robotics said it is targeting dexterous manipulation. The company said that for robots to handle complicated work, they need the versatility to handle changing conditions and the performance to deliver useful work every day.&lt;/p&gt;
-&lt;p&gt;Eka also said it believes that robots should master physics, not mimic human data, to be truly general-purpose. This would allow the robot to build &amp;#8220;intuition&amp;#8221; for tasks the same way a human can by jointly reasoning about vision and forces.&lt;/p&gt;
-&lt;p&gt;The company uses simulation learning, and it said its VFA model is demonstrating that the typical sim-to-real barrier is falling. In &lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;simulation&lt;/a&gt;, the company can generate thousands of hours of robot experience in minutes, varying objects, environments, and physical conditions.&lt;/p&gt;
-&lt;p&gt;Eka claimed that transferring this learning to the real world unlocks a scalable, performant, and capital-efficient path to a foundation model for manipulation. &amp;#8220;Reinforcement learning at scale buys performance, and breadth of experience buys generality,&amp;#8221; it said.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Eka Robotics demos its VFA model" width="740" height="416" src="https://www.youtube.com/embed/uXUBUu_ihJ0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;Investors seek to level up dexterous manipulation&lt;/h2&gt;
-&lt;p&gt;Andreessen Horowitz (a16z) and F-Prime, a venture capital fund affiliated with FMR LLC, the parent company of Fidelity Investments, led the round.&lt;/p&gt;
-&lt;p&gt;“Eka’s Vision-Force-Action model is the first approach I’ve seen that truly solves manipulation with the generality and throughput needed for deployments,&amp;#8221; stated Raghu Raghuram, a general partner at a16z. &amp;#8220;This team has the ideal DNA to push the frontier of robotics research while scaling commercial operations.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Eka Robotics&amp;#8217; Series A included continued support from the lead investors in its seed round, Obvious Ventures and E14 Fund. Other funding came from MFV Partners, Bison Ventures, Glasswing Ventures, Samsung Next, and several Fortune 500 strategics.&lt;/p&gt;
-&lt;p&gt;“From the factory floor, a robot’s value comes down to two things: its success rate and its speed over thousands of repetitions,&amp;#8221; said Shyam Kamadolli, a managing director at Fine Structure Ventures. &amp;#8220;Early on, I recognized that current approaches to generalization simply won’t get us there. Achieving the next level of performance requires a deep understanding of physics and, crucially, breaking free from our dependence on human demonstrations.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Eka’s VFA model, trained through simulation and reinforcement learning, achieves this for the hardest problem in robotics, dexterous manipulation, in a way no other company has,&amp;#8221; he added. &amp;#8220;I truly believe Eka’s approach is the only one that will hold up in real-world deployments of complex tasks.”&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/"&gt;Eka Robotics raises $150M to scale its vision-force-action model for robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		

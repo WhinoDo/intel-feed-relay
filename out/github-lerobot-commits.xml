@@ -4,7 +4,250 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-30T10:52:22Z</ns0:updated>
+  <ns0:updated>2026-10-30T17:04:58Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/d9da92cfa8cf6d5df1e803d3baa7a9287bff099a</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d9da92cfa8cf6d5df1e803d3baa7a9287bff099a" />
+    <ns0:title>
+        fix(dependencies): bump packaging upper bound for security advisories…
+    </ns0:title>
+    <ns0:updated>2026-10-30T17:04:58Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(dependencies): bump packaging upper bound for security advisories (#5166)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/a1b1a074350c8a82edc06a035756967bed02c9ab</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/a1b1a074350c8a82edc06a035756967bed02c9ab" />
+    <ns0:title>
+        fix(tests): restore proxy state with pytest 9.2 (#5165)
+    </ns0:title>
+    <ns0:updated>2026-10-30T16:47:10Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(tests): restore proxy state with pytest 9.2 (#5165)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/4f6e53766dbeec249a74a7e415238a678d618545</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4f6e53766dbeec249a74a7e415238a678d618545" />
+    <ns0:title>
+        chore(dependencies): allow Pillow 13 (#5024)
+    </ns0:title>
+    <ns0:updated>2026-10-30T16:33:16Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/13902735?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>ynaka81</ns0:name>
+      <ns0:uri>https://github.com/ynaka81</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): allow Pillow 13 (#5024)
+
+Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/8cbac3f112b06c928657fbbcad61ce43c99d75a9</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8cbac3f112b06c928657fbbcad61ce43c99d75a9" />
+    <ns0:title>
+        feat(rollout): log cadence, inference latency and memory periodically…
+    </ns0:title>
+    <ns0:updated>2026-10-30T16:21:53Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(rollout): log cadence, inference latency and memory periodically (#5156)
+
+* feat(rollout): add rollout status report (cadance, memory,  inference time) + config
+
+* docs(rollout): reduce logs docs
+
+* fix(rollout): report the policy rate in the periodic status line
+
+With action interpolation the status line showed the command rate
+(fps x multiplier) while the cadence summaries and the over-budget
+count use the policy rate. Divide by the multiplier so both agree;
+the line is unchanged without interpolation.
+
+Co-authored-by: Anthony Shoumikhin &amp;lt;anthony@shoumikh.in&amp;gt;
+
+---------
+
+Co-authored-by: Anthony Shoumikhin &amp;lt;anthony@shoumikh.in&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/bcbdde54430ac5f1f8e6da83cc8188b71e8c6119</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/bcbdde54430ac5f1f8e6da83cc8188b71e8c6119" />
+    <ns0:title>
+        chore(dependencies): allow filelock 4.x, require 4.2.1 or newer (#5154)
+    </ns0:title>
+    <ns0:updated>2026-10-30T16:10:53Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/426434?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>shoumikhin</ns0:name>
+      <ns0:uri>https://github.com/shoumikhin</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): allow filelock 4.x, require 4.2.1 or newer (#5154)
+
+LeRobot pins filelock below 4.0, which keeps it on releases affected by
+GHSA-69hj-f68j-2879: on Unix, FileLock empties (and with an explicit
+mode, re-permissions) any file another local user renames or hard-links
+onto the lock path. LeRobot&amp;#39;s sidecar cache uses FileLock, and
+huggingface_hub&amp;#39;s WeakFileLock passes mode=0o664. The fix is in 4.2.1,
+along with several other advisories, and no 3.x release has it.
+
+This change raises the pin to `filelock&amp;gt;=4.2.1,&amp;lt;5.0.0` and updates
+uv.lock. The only package that moves in the lock is filelock itself,
+from 3.32.7 to 4.2.4.
+
+LeRobot uses filelock in a small way: `FileLock(path, timeout=...)` as a
+context manager and `Timeout` in the streaming sidecar code, plus
+huggingface_hub&amp;#39;s `WeakFileLock` for dataset metadata. 4.1.0 rejects a
+bool or string timeout; LeRobot passes only numbers. The 4.0 breaking
+change is limited to `SoftReadWriteLock`, which LeRobot does not use.
+
+Tested on Linux x86_64 with Python 3.12, in two fresh environments built
+from the old and the new uv.lock (they differ only in filelock):
+
+- tests/test_streaming_sidecar.py, tests/datasets/test_dataset_metadata.py
+  and the other streaming and sidecar tests (20 files, 431 tests):
+  all pass on both filelock 3.32.7 and 4.2.4.
+- A small two-process check that `FileLock` and `WeakFileLock` raise
+  `Timeout` while another process holds the lock, and acquire once it is
+  released: same result on both versions.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/724b1b62ff41ed6ada55d5157b51101f52011cd6</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/724b1b62ff41ed6ada55d5157b51101f52011cd6" />
+    <ns0:title>
+        feat(train): add LeRobot native EMA support with pluggable decays and…
+    </ns0:title>
+    <ns0:updated>2026-10-30T15:27:00Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(train): add LeRobot native EMA support with pluggable decays and sharded training (#5117)
+
+* feat(train): add LeRobot native EMA support with pluggable decays and sharded training
+
+Replace the previous diffusers EMAModel with lerobot.optim.ema: a --ema.type registry, which supports multiple decay curves like warmup, constant,
+power. For sharded training, the layout of float32 averages of is the same as sharded trainable parameters. The ema state can be saved by safetensors or with DCP when
+sharded (same behavior like optimizers). Publishing a model with EMA now will put the EMA weights and live weights in same repo but on different branches.
+
+* fix(train): update the EMA without float32 copies and drop the legacy EMA config migration&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/69360de1c5715f87cb417b3e1f76adda72d98438</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/69360de1c5715f87cb417b3e1f76adda72d98438" />
+    <ns0:title>
+        feat(optim): add the warmup_stable_decay scheduler (#5103)
+    </ns0:title>
+    <ns0:updated>2026-10-30T15:05:02Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(optim): add the warmup_stable_decay scheduler (#5103)
+
+Mirror transformers get_wsd_schedule: linear, cosine or 1-sqrt warmup and decay around a stable phase, with a
+minimum lr ratio.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/552777b7c384e8e71a02303da39583f9a2653760</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/552777b7c384e8e71a02303da39583f9a2653760" />
+    <ns0:title>
+        feat(train): configurable TF32 for training and evaluation (#5096)
+    </ns0:title>
+    <ns0:updated>2026-10-30T14:11:48Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(train): configurable TF32 for training and evaluation (#5096)
+
+* feat(train): add tf32 switch to training and evaluation configs
+
+* fix(policies): let the tf32 option decide TF32 for compiled policies
+
+Compiled pi0, pi05, pi0_fast, smolvla, dm05 and molmoact2 no longer call torch.set_float32_matmul_precision(&amp;quot;high&amp;quot;). lerobot-rollout and lerobot-policy-server get the same tf32 option as training and evaluation.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/69417e890bfec823093793206b478f4d16e35125</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/69417e890bfec823093793206b478f4d16e35125" />
+    <ns0:title>
+        perf(groot): keep N1.7 camera frames on device during preprocessing (…
+    </ns0:title>
+    <ns0:updated>2026-10-30T13:17:45Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/54370193?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Priyakarna13</ns0:name>
+      <ns0:uri>https://github.com/Priyakarna13</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(groot): keep N1.7 camera frames on device during preprocessing (#5112)
+
+* test(groot): pin N1.7 image preprocessing parity
+
+* perf(groot): permute packed video on the target device
+
+* perf(groot): keep same-shape camera frames on device&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/9603c327d8b2ca453a254d9f0a764936bff3ff4e</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9603c327d8b2ca453a254d9f0a764936bff3ff4e" />
+    <ns0:title>
+        perf(datasets): map Lance episode subsets with an O(num_episodes) ind…
+    </ns0:title>
+    <ns0:updated>2026-10-30T12:17:55Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/2283778?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>yanghua</ns0:name>
+      <ns0:uri>https://github.com/yanghua</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(datasets): map Lance episode subsets with an O(num_episodes) index (#4974)
+
+* perf(datasets): map Lance episode subsets with an O(num_episodes) index
+
+* address review comments
+
+* address review comments
+
+* minor fix
+
+* revert the optimization for default reader
+
+* reduce useless code
+
+* address review comments&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/f337b8c871e05675b47fd675d8760a07f482587a</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f337b8c871e05675b47fd675d8760a07f482587a" />
@@ -364,184 +607,6 @@ Validation: uv lock --check --offline.
 
 Co-authored-by: manfromnowhere143 &amp;lt;193130714+manfromnowhere143@users.noreply.github.com&amp;gt;
 Co-authored-by: Daniel Wahnich &amp;lt;cogitoergosum143@gmail.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/baf68724e867113e6052bb3159b04dcb97e88866</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/baf68724e867113e6052bb3159b04dcb97e88866" />
-    <ns0:title>
-        docs(eo1): update chunk_size and n_action_steps defaults to 16 (#5089)
-    </ns0:title>
-    <ns0:updated>2026-10-29T14:08:53Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/43629888?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>ZainnQureshii</ns0:name>
-      <ns0:uri>https://github.com/ZainnQureshii</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(eo1): update chunk_size and n_action_steps defaults to 16 (#5089)
-
-EO1Config sets both to 16 (configuration_eo1.py:89-90, asserted by
-test_eo1_defaults_match_released_base_checkpoint); the parameter table still
-listed 8 from before #4235.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/1a1f51e33b64b86e69ce1820010d9ecb523ee2d8</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1a1f51e33b64b86e69ce1820010d9ecb523ee2d8" />
-    <ns0:title>
-        docs(replay): correct bimanual SO port arguments (#5135)
-    </ns0:title>
-    <ns0:updated>2026-10-29T14:08:32Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/35391914?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>WOLIKIMCHENG</ns0:name>
-      <ns0:uri>https://github.com/WOLIKIMCHENG</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(replay): correct bimanual SO port arguments (#5135)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/5b8621b4fc8547e2afb10146a74ed76032dc6212</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/5b8621b4fc8547e2afb10146a74ed76032dc6212" />
-    <ns0:title>
-        Bump doc-builder to get the docs machine-translated (#5141)
-    </ns0:title>
-    <ns0:updated>2026-10-29T14:07:54Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/11827707?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>mishig25</ns0:name>
-      <ns0:uri>https://github.com/mishig25</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Bump doc-builder to get the docs machine-translated (#5141)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/1ef47ed74a0053555ae39590b57c308963bb4f75</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1ef47ed74a0053555ae39590b57c308963bb4f75" />
-    <ns0:title>
-        fix(ci): pin robomme to the commit before RoboMME-Plus (#5139)
-    </ns0:title>
-    <ns0:updated>2026-10-29T13:05:26Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(ci): pin robomme to the commit before RoboMME-Plus (#5139)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/89cc0a809477e8425c9aa31a561a8f293e76a25c</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/89cc0a809477e8425c9aa31a561a8f293e76a25c" />
-    <ns0:title>
-        feat(train): support PEFT under sharded training (FSDP2, HSDP) (#5086)
-    </ns0:title>
-    <ns0:updated>2026-10-29T11:26:25Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>HaomingSong</ns0:name>
-      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(train): support PEFT under sharded training (FSDP2, HSDP) (#5086)
-
-* feat(train): support PEFT under sharded training
-
-Save and resume the adapter of a sharded PeftModel in DCP &amp;amp; safetensors checkpoints.
-Also simplify CheckpointFormat and remove the unnecessary canary tests.
-
-* fix(policies): keep the adapter base path when resuming PEFT from DCP
-
-get_peft_model takes the base path from the model&amp;#39;s name_or_path, which a policy built by from_pretrained does not
-set, so checkpoints saved after a DCP resume could not be loaded again.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/72e1d9e5e76ee719bacfc78bc34d817bee5fb521</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/72e1d9e5e76ee719bacfc78bc34d817bee5fb521" />
-    <ns0:title>
-        chore(dependencies): update uv.lock (#4745)
-    </ns0:title>
-    <ns0:updated>2026-10-28T20:10:47Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): update uv.lock (#4745)
-
-Co-authored-by: github-actions[bot] &amp;lt;github-actions[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/626da71be9d21b3c740b6438514519a503a2d535</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/626da71be9d21b3c740b6438514519a503a2d535" />
-    <ns0:title>
-        fix(factory): keep the output features of a checkpoint at evaluation …
-    </ns0:title>
-    <ns0:updated>2026-10-28T17:51:58Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>HaomingSong</ns0:name>
-      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(factory): keep the output features of a checkpoint at evaluation (#5077)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/b17112c5beabb19c8653763061a3f5477ec5c885</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b17112c5beabb19c8653763061a3f5477ec5c885" />
-    <ns0:title>
-        docs(fastwam): use checkpoint with identity visual preprocessing (#5121)
-    </ns0:title>
-    <ns0:updated>2026-10-28T17:25:29Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/22135261?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>C00kieMonsta</ns0:name>
-      <ns0:uri>https://github.com/C00kieMonsta</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(fastwam): use checkpoint with identity visual preprocessing (#5121)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/2b8aeee410753fcfaa44ec259707474bf6141b62</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/2b8aeee410753fcfaa44ec259707474bf6141b62" />
-    <ns0:title>
-        fix(wandb): stop uploading training checkpoints as artifacts by defau…
-    </ns0:title>
-    <ns0:updated>2026-10-28T12:55:16Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29127300?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>CarolinePascal</ns0:name>
-      <ns0:uri>https://github.com/CarolinePascal</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(wandb): stop uploading training checkpoints as artifacts by default (#5123)
-
-Checkpoint weights were sent to WandB whenever a checkpoint was saved. Leave that off unless --wandb.disable_artifact=false is set.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/9f45b7b37cc4b33f8ecdb503aa4d209370bd528d</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9f45b7b37cc4b33f8ecdb503aa4d209370bd528d" />
-    <ns0:title>
-        docs: mention the pytest tier and gpu marks in AGENTS.md (#5122)
-    </ns0:title>
-    <ns0:updated>2026-10-27T17:27:16Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: mention the pytest tier and gpu marks in AGENTS.md (#5122)&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

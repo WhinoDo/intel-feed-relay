@@ -7,9 +7,49 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Fri, 30 Oct 2026 08:49:00 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 30 Oct 2026 14:13:00 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-worken-robot-productivity-measure-explained</guid>
+    <title>What Is Worken? AGIBOT’s Proposed Measure of Productive Robot Work</title>
+    <link>https://www.humanoidsdaily.com/news/agibot-worken-robot-productivity-measure-explained</link>
+    <description>AGIBOT’s Worken framework combines active robots, autonomous hours and task-specific output. Here is how the calculation works—and what it cannot tell you.</description>
+    <pubDate>Fri, 30 Oct 2026 14:13:00 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>China</category><category>AGIBOT</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-optimus-data-collection-scoble-robot-university</guid>
+    <title>Tesla’s Optimus Data-Collection Effort Comes Into Focus After Scoble’s “Robot University” Claims</title>
+    <link>https://www.humanoidsdaily.com/news/tesla-optimus-data-collection-scoble-robot-university</link>
+    <description>Tesla job listings document motion-capture work and multi-shift data collection, while Robert Scoble’s claims about camera-covered suits and a Palo Alto operation remain unverified.</description>
+    <pubDate>Fri, 30 Oct 2026 13:47:00 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Tesla</category><category>US</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-robotics-spac-465-million-closing</guid>
+    <title>Agility Robotics Expects $465M in Gross Capital Ahead of SPAC Merger Closing</title>
+    <link>https://www.humanoidsdaily.com/news/agility-robotics-spac-465-million-closing</link>
+    <description>The expected financing includes $100 million already received. Agility targets a November 4 closing and November 5 Nasdaq debut, subject to shareholder approval and closing conditions.</description>
+    <pubDate>Fri, 30 Oct 2026 13:12:49 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Agility Robotics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/halo-humanoid-human-collaboration-carrying-research</guid>
+    <title>HALO Teaches Humanoids to Coordinate With Human Partners During Shared Carrying Tasks</title>
+    <link>https://www.humanoidsdaily.com/news/halo-humanoid-human-collaboration-carrying-research</link>
+    <description>Researchers at UT Arlington and Carnegie Mellon demonstrate human–humanoid coordination, with motion-capture-supported tests showing both gains and remaining failures.</description>
+    <pubDate>Fri, 30 Oct 2026 10:53:10 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Research</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-go-3-preview-robot-learning-genie-evolver-master</guid>
     <title>AGIBOT GO-3 Preview Links Robot Pre-Training, Practice and Learning on the Job</title>
@@ -268,46 +308,6 @@
     <pubDate>Sun, 25 Oct 2026 12:29:47 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>China</category><category>AGIBOT</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/enact-30m-pre-seed-force-sensing-robots</guid>
-    <title>Enact Raises $30M Pre-Seed to Give Factory Robots a Sense of Force</title>
-    <link>https://www.humanoidsdaily.com/news/enact-30m-pre-seed-force-sensing-robots</link>
-    <description>Founded by 1X and Physical Intelligence alumnus Manuel Yves Galliker, the Zurich startup is developing motors and AI together for small-batch assembly.</description>
-    <pubDate>Fri, 23 Oct 2026 18:20:18 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Enact</category><category>Europe</category><category>Yann-LeCun</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-world-release-4-physical-reasoning-dataset</guid>
-    <title>AGIBOT Releases Physical Reasoning Dataset to Connect Robot Decisions With Actions</title>
-    <link>https://www.humanoidsdaily.com/news/agibot-world-release-4-physical-reasoning-dataset</link>
-    <description>AGIBOT WORLD Release 4 pairs robot actions with decision-making annotations, covering changing conditions, task memory and multi-step planning.</description>
-    <pubDate>Fri, 23 Oct 2026 12:01:29 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>open-source</category><category>China</category><category>AGIBOT</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-all-hands-figure-04-index-data-helix-3</guid>
-    <title>Figure 04 Reaches Design Lock as Adcock Details a Multibillion-Dollar AI Push</title>
-    <link>https://www.humanoidsdaily.com/news/figure-all-hands-figure-04-index-data-helix-3</link>
-    <description>Figure’s public all-hands outlines new hardware, 37.5 million human-video uploads and billions in planned compute spending, alongside a Helix 3.0 teaser.</description>
-    <pubDate>Fri, 23 Oct 2026 06:46:04 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Brett Adcock</category><category>Figure-04</category><category>US</category><category>Figure</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xpeng-iron-vla-2-gesture-interaction-demo</guid>
-    <title>XPENG Shows IRON Switching Between Handshakes, Fist Bumps and High-Fives</title>
-    <link>https://www.humanoidsdaily.com/news/xpeng-iron-vla-2-gesture-interaction-demo</link>
-    <description>XPENG says IRON updates its visual reasoning every 0.2 seconds to follow changing gestures, in a new demonstration of its VLA 2.0 technology.</description>
-    <pubDate>Fri, 23 Oct 2026 06:04:08 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>China</category><category>XPENG</category><category>IRON</category>
   </item>
 
   </channel>
