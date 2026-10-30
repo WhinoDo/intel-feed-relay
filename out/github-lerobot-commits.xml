@@ -4,7 +4,25 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-30T17:04:58Z</ns0:updated>
+  <ns0:updated>2026-10-30T20:10:40Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/3f797de5952432284a7c77ad2760218cb74e2f26</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/3f797de5952432284a7c77ad2760218cb74e2f26" />
+    <ns0:title>
+        chore(dependencies): update uv.lock (#5167)
+    </ns0:title>
+    <ns0:updated>2026-10-30T20:10:40Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): update uv.lock (#5167)
+
+Co-authored-by: github-actions[bot] &amp;lt;github-actions[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/d9da92cfa8cf6d5df1e803d3baa7a9287bff099a</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d9da92cfa8cf6d5df1e803d3baa7a9287bff099a" />
@@ -537,76 +555,6 @@ so a misspelled keyword raises a TypeError instead of being ignored.&lt;/pre&gt;
 * address review comments
 
 * removed useless test cases&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/c386ba8bfc1aeefd94149b57f684ba0335ec18b3</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c386ba8bfc1aeefd94149b57f684ba0335ec18b3" />
-    <ns0:title>
-        feat(policies): add native Long-WAM training and inference (#5008)
-    </ns0:title>
-    <ns0:updated>2026-10-29T14:35:12Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/71201052?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Aaronhuang-778</ns0:name>
-      <ns0:uri>https://github.com/Aaronhuang-778</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): add native Long-WAM training and inference (#5008)
-
-* feat(policies): add native Long-WAM training and inference
-
-Add native IDM and COD policy integration, checkpoint conversion, streaming VAE, synchronous and asynchronous scheduling, training, documentation, and regression coverage.
-
-Co-authored-by: manfromnowhere143 &amp;lt;193130714+manfromnowhere143@users.noreply.github.com&amp;gt;
-
-* refactor(longwam): use native backbones and simplify policy integration
-
-* fix(longwam): align training and inference camera geometry
-
-* refactor(longwam): split processors and address review cleanup
-
-* refactor(longwam): remove transitional processor compatibility
-
-* Document and test LongWAM training precision
-
-Make parameter storage and BF16 autocast explicit in the fine-tuning
-example. Explain native AdamW state precision and the FP32 alternative.
-
-Exercise IDM/COD checkpoint loading, finite updates, frozen backbones,
-and gradient/moment dtypes on CPU and BF16-capable CUDA devices.
-
-Validation: 22 native CPU tests pass; 8 CUDA cases skip on macOS.
-Applicable pre-commit hooks pass. Full-weight training is not qualified.
-
-* Normalize merged extras in lock metadata
-
-Keep the native uv spelling of extras while retaining both longwam and wall-oss-05. No dependency resolution changes.
-
-Validation: uv lock --check --offline.
-
-* fix(longwam): restore shared text weights after loading boundaries
-
-(cherry picked from commit b1b5ba0d90713490af19d56ef11fe97a83174e07)
-
-* Honor active LongWAM action-toggle settings when loading processors
-
-(cherry picked from commit 8ee751de539e271e450dc712a6ae9e179de535dc)
-
-* Preserve class-name overrides in saved LongWAM pipelines
-
-(cherry picked from commit 85fd8c9abae600a26f2572abf918ec0b668d5f45)
-
-* test(longwam): document and verify released inference seed behavior
-
-* docs(longwam): highlight model features and paper results
-
-* docs(longwam): report LIBERO results and add policy documentation links
-
----------
-
-Co-authored-by: manfromnowhere143 &amp;lt;193130714+manfromnowhere143@users.noreply.github.com&amp;gt;
-Co-authored-by: Daniel Wahnich &amp;lt;cogitoergosum143@gmail.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
