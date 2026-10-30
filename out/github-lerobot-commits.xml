@@ -4,7 +4,55 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-29T17:06:29Z</ns0:updated>
+  <ns0:updated>2026-10-30T10:52:22Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/f337b8c871e05675b47fd675d8760a07f482587a</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f337b8c871e05675b47fd675d8760a07f482587a" />
+    <ns0:title>
+        feat(train): add FSDP2 MixedPrecisionPolicy and sync_each_batch (#5095)
+    </ns0:title>
+    <ns0:updated>2026-10-30T10:52:22Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(train): add FSDP2 MixedPrecisionPolicy and sync_each_batch (#5095)
+
+* feat(train): add the FSDP2 MixedPrecisionPolicy and sync_each_batch
+
+Add FSDPConfig.mixed_precision_policy for precise control over the parameters dtype in sharded training.
+Add GradientAccumulationConfig.sync_each_batch.
+
+* fix(configs): reject FSDP2 policies that silently change the mixed precision&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/b2873d6dca69ea2fa0fce9741ab0cdae31713212</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b2873d6dca69ea2fa0fce9741ab0cdae31713212" />
+    <ns0:title>
+        docs: fix dead Isaac Teleop and RealSense links (#5157)
+    </ns0:title>
+    <ns0:updated>2026-10-30T09:55:41Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/120080287?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>sarankumar1325</ns0:name>
+      <ns0:uri>https://github.com/sarankumar1325</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: fix dead Isaac Teleop and RealSense links (#5157)
+
+NVIDIA renamed the IsaacTeleop repository to IsaacCapture, and its
+GitHub Pages site moved from nvidia.github.io/IsaacTeleop/ (now 404) to
+nvidia.github.io/IsaacCapture/ with the same page paths. Point the Isaac
+Teleop guide and the isaac_teleop_to_so101 example README at the new
+site.
+
+The librealsense repository moved to the realsenseai org, and the old
+IntelRealSense issue URL in the cameras guide now returns 404.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/38b975c5bca0db0ce11a65705419cca001c6dafa</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/38b975c5bca0db0ce11a65705419cca001c6dafa" />
@@ -494,72 +542,6 @@ Checkpoint weights were sent to WandB whenever a checkpoint was saved. Leave tha
     </ns0:author>
     <ns0:content type="html">
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: mention the pytest tier and gpu marks in AGENTS.md (#5122)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/77710dee471d5cfb070fad1adc30c8f94dc14757</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/77710dee471d5cfb070fad1adc30c8f94dc14757" />
-    <ns0:title>
-        chore(ci): run only the CUDA tests on the GPU job and build the large…
-    </ns0:title>
-    <ns0:updated>2026-10-27T12:00:13Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(ci): run only the CUDA tests on the GPU job and build the large test models on the GPU (#5101)
-
-* ci: install the full tests extras in one uv sync
-
-* ci: run only the tests that use CUDA on the GPU job, selected with a gpu mark
-
-* test: build the large GPU test models directly on the GPU
-
-* test: run the diffusion policy test with 10 denoising steps&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/cb4893bb9505867d543f71f9417d8b4a864b50ad</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/cb4893bb9505867d543f71f9417d8b4a864b50ad" />
-    <ns0:title>
-        chore(ci): cut Fast Tests time by removing redundant work and redunda…
-    </ns0:title>
-    <ns0:updated>2026-10-27T12:00:12Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(ci): cut Fast Tests time by removing redundant work and redundant cases in the slowest tests (#5070)
-
-* fix(datasets): reload a loaded dataset&amp;#39;s frames after modify_tasks
-
-* test: decode each aggregated frame once when checking it against its source
-
-* test: disconnect the earthrover robot while its requests are mocked
-
-* test: build the flux3 droid batch once per arguments
-
-* test: build the dataset_tools sample dataset once per module
-
-* test: build the streaming workers dataset once per module
-
-* test: check ACT ignores padded actions directly instead of a 1000-step artifact
-
-* test: run the dataset factory test once per distinct dataset schema
-
-* test: cover each streaming delta set once instead of their cross product
-
-* test: aggregate smaller source datasets and check every video key rotates
-
-* test: compare flux3 lean and full policies with one denoising step
-
-* test: run the streaming worker and column projection options pairwise
-
-* test: check a stopped image writer keeps the image queued instead of sleeping&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

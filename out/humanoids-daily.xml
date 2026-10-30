@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 29 Oct 2026 17:30:00 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 30 Oct 2026 08:49:00 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-go-3-preview-robot-learning-genie-evolver-master</guid>
+    <title>AGIBOT GO-3 Preview Links Robot Pre-Training, Practice and Learning on the Job</title>
+    <link>https://www.humanoidsdaily.com/news/agibot-go-3-preview-robot-learning-genie-evolver-master</link>
+    <description>AGIBOT pairs GO-3 Preview with Genie Evolver and Genie Master to connect pre-training, physical and virtual practice, and learning from deployment experience.</description>
+    <pubDate>Fri, 30 Oct 2026 08:49:00 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>AGIBOT</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/how-agibot-physical-reasoning-dataset-connects-planning-robot-actions</guid>
     <title>How AGIBOT’s Physical Reasoning Dataset Connects Planning With Robot Actions</title>
@@ -298,16 +308,6 @@
     <pubDate>Fri, 23 Oct 2026 06:04:08 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>China</category><category>XPENG</category><category>IRON</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/neura-4ne1-gen4-tum-robogym-nxai-memory</guid>
-    <title>NEURA Unveils Lighter 4NE1 Gen 4 as TUM RoboGym Opens in Munich</title>
-    <link>https://www.humanoidsdaily.com/news/neura-4ne1-gen4-tum-robogym-nxai-memory</link>
-    <description>The redesigned humanoid arrives alongside a new robot training center, while a separate NXAI partnership targets memory for multi-step tasks.</description>
-    <pubDate>Fri, 23 Oct 2026 05:11:40 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Neura Robotics</category><category>Europe</category>
   </item>
 
   </channel>
