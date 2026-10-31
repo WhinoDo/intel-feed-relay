@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Fri, 30 Oct 2026 19:05:34 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 30 Oct 2026 20:23:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,144 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Unusual robotic animals can prove their utility</title>
+		<link>https://www.therobotreport.com/unusual-robotic-animals-can-prove-their-utility/</link>
+					<comments>https://www.therobotreport.com/unusual-robotic-animals-can-prove-their-utility/#respond</comments>
+		
+		<dc:creator>Elena Krosheva</dc:creator>
+		<pubDate>Sat, 31 Oct 2026 12:30:46 +0000</pubDate>
+				<category>Academia / Research</category>
+		<category>Actuators / Motors / Servos</category>
+		<category>Agriculture</category>
+		<category>Autonomous Mobile Robots (AMRs)</category>
+		<category>Construction</category>
+		<category>Drones</category>
+		<category>End Effectors / Grippers</category>
+		<category>Energy / Solar / Renewables</category>
+		<category>Grippers</category>
+		<category>Maritime</category>
+		<category>Mobility / Navigation</category>
+		<category>Motion Control</category>
+		<category>News</category>
+		<category>Oil and Gas</category>
+		<category>Opinion</category>
+		<category>Unmanned Maritime Systems</category>
+		<category>Brown University</category>
+		<category>DARPA</category>
+		<category>harvard</category>
+		<category>Harvard University</category>
+		<category>KAIST</category>
+		<category>legged</category>
+		<category>Legged Robots</category>
+		<category>Massachusetts Institute of Technology</category>
+		<category>MIT</category>
+		<category>Nanyang Technological University</category>
+		<category>social robots</category>
+		<category>sony</category>
+		<category>stanford university</category>
+		<category>uc berkeley</category>
+		<category>University of California</category>
+		<category>University of Groningen</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590079</guid>
+
+					<description>&lt;p&gt;Robotic animals are designed to be helpful rather than scary, showing promise in disaster recovery, utility inspection, and companionship.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/unusual-robotic-animals-can-prove-their-utility/"&gt;Unusual robotic animals can prove their utility&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590080" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590080" class="size-full wp-image-590080" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Beetle_robot.jpg" alt="An example of the robot animals that could be useful, Korean researchers have developed a beetle-like soft robot." width="770" height="494" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Beetle_robot.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/Beetle_robot-300x192.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Beetle_robot-150x96.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Beetle_robot-768x493.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Beetle_robot-368x236.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590080" class="wp-caption-text"&gt;Korean researchers have developed a beetle-like soft robot. Source: KAIST&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;When we hear the word &amp;#8220;robot,&amp;#8221; we still conjure up images of mechanical figures from old science fiction films. However, reality has long since evolved: We&amp;#8217;re surrounded by smart vacuum cleaners, voice assistants, and even four-legged machines that mimic dogs. But what are these robotic animals?&lt;/p&gt;
+&lt;p&gt;They&amp;#8217;re not just battery-powered toys. They&amp;#8217;re complex electronic devices, infused with elements of artificial intelligence, that replicate the appearance and behavior of real or imaginary creatures.&lt;/p&gt;
+&lt;p&gt;These devices contain &lt;a href="https://www.therobotreport.com/category/technologies/sensors-sensing/" target="_blank" rel="noopener"&gt;sensors&lt;/a&gt;, speakers, &lt;a href="https://www.therobotreport.com/category/technologies/actuators-motors-servos/" target="_blank" rel="noopener"&gt;motors&lt;/a&gt;, and &lt;a href="https://www.therobotreport.com/category/technologies/microprocessors-socs/" target="_blank" rel="noopener"&gt;processor&lt;/a&gt; modules that analyze external signals. They&amp;#8217;re controlled via mobile apps. Digital pets can make distinctive sounds, respond to signs of affection, answer to their names, and display a range of emotions—from delight to fear, from satisfaction to fatigue.&lt;/p&gt;
+&lt;p&gt;Manufacturers employ a variety of engineering approaches when creating these devices. Let&amp;#8217;s look at some interesting examples.&lt;/p&gt;
+&lt;h2&gt;Microrobot beetle and its relatives&lt;/h2&gt;
+&lt;p&gt;A &lt;a href="https://news.kaist.ac.kr/newsen/html/news/?mode=V&amp;amp;mng_no=68090" target="_blank" rel="noopener"&gt;microrobot beetle&lt;/a&gt; might seem like a fun little gadget. But leading research centers such as the Korea Advanced Institute of Science and Technology (&lt;a href="https://www.therobotreport.com/tag/kaist/" target="_blank" rel="noopener"&gt;KAIST&lt;/a&gt;) are working on developing similar insects (see image above).&lt;/p&gt;
+&lt;p&gt;So why are robot ants, robot beetles, and robot bees being created? The answer lies in solving practical and even humanitarian problems.&lt;/p&gt;
+&lt;h3&gt;Cyborg cockroaches: Rescuers from under the ruins&lt;/h3&gt;
+&lt;p&gt;In the spring of 2022, a &lt;a href="https://www.bbc.com/news/world-asia-china-61332324" target="_blank" rel="noopener"&gt;tragedy&lt;/a&gt; occurred in the city of Changsha, China—a six-story building collapsed. Dozens of people were trapped under the rubble. Many remained missing for nearly six days.&lt;/p&gt;
+&lt;p&gt;Rescue efforts were hampered by piles of rubble and collapsed floors. Ultimately, 53 people died, and only 10 were rescued. In such operations, every minute is precious. Rescuers use thermal imaging cameras and comb through the rubble, but this takes precious time.&lt;/p&gt;
+&lt;p&gt;But what if cockroaches &lt;a href="https://www.psd.gov.sg/challenge/articles/from-lab-to-rubble--how-cyborg-cockroaches-saved-lives/" target="_blank" rel="noopener"&gt;come to the rescue&lt;/a&gt;? These insects are fast and can penetrate even the tiniest cracks, allowing them to quickly survey the disaster area. But how can they be made to search for people? A team at Nanyang Technological University (&lt;a href="https://www.therobotreport.com/tag/nanyang-technological-university/" target="_blank" rel="noopener"&gt;NTU&lt;/a&gt;) in Singapore said it has found a solution by &lt;a href="https://www.ntu.edu.sg/news/detail/ai-powered-robot-assembles-search-and-rescue-cyborg-insects" target="_blank" rel="noopener"&gt;transforming&lt;/a&gt; a Madagascar cockroach into a cyborg.&lt;/p&gt;
+&lt;p&gt;A miniature backpack containing a microcomputer is attached to the insect&amp;#8217;s back. It contains sensors that detect dangerous gas concentrations, as well as an infrared camera with a thermal imager, allowing it to detect bodies under the rubble. To prevent the insects from scattering randomly, but rather to remain confined to a specific area, the scientists have developed a remote control system.&lt;/p&gt;
+&lt;p&gt;Electrodes and a microchip are attached to the cockroach&amp;#8217;s body. An electrical impulse to the right side causes the insect to move to the left, and vice versa. When both electrodes are activated, the cockroach accelerates and runs straight.&lt;/p&gt;
+&lt;p&gt;This cyborg can operate for long periods in rubble: the microcomputer is powered by solar panels. One individual can survey an area of up to 100 sq. m (1,076.3 sq. ft.). The operator controls the movement and monitors the signals from the sensors.&lt;/p&gt;
+&lt;p&gt;However, there&amp;#8217;s a catch: to fully survey a large building, about 500 of these cockroaches are required, meaning 500 operators. And although the cyborg will indicate the location of the victim, it won&amp;#8217;t be able to extract them—that&amp;#8217;s a task for humans.&lt;/p&gt;
+&lt;p&gt;&lt;iframe title="Scientists turn cockroaches into cyborg rescue medics" width="740" height="416" src="https://www.youtube.com/embed/n1I8DHl6YRw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h3&gt;Robot ants: Strength in miniature&lt;/h3&gt;
+&lt;p&gt;Stanford University engineers &lt;a href="https://stanfordmag.org/contents/ant-inspired" target="_blank" rel="noopener"&gt;created&lt;/a&gt; mechanical ants capable of moving loads 2,000 times their own mass. For a human, this is the equivalent of moving a 150-ton whale.&lt;/p&gt;
+&lt;p&gt;Just four of these tiny animals can transport an adult, and a whole group can lift a concrete slab or rebar. This phenomenal lifting capacity was achieved thanks to a gecko-inspired paw design that provides a secure grip on any surface.&lt;/p&gt;
+&lt;p&gt;A special coating of microscopic rubber hairs creates a bio-stimulated adhesive effect: When the rope is taut, the robot adheres and releases when it is loosened.&lt;/p&gt;
+&lt;p&gt;However, this high performance requires a lot of energy. The battery can run out at critical moments, so in industrial settings, these ants are connected to a cable and used as towing vehicles.&lt;/p&gt;
+&lt;p&gt;&lt;iframe title="Tiny Ant-Like Robots Carry Objects 350 Times Their Weight" width="740" height="416" src="https://www.youtube.com/embed/PGP7myEtKRc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Snake-like robot: Underwater repairman&lt;/h2&gt;
+&lt;p&gt;Animal robots are capable of not only eliminating the consequences of disasters but also preventing them. Norwegian developers have &lt;a href="https://www.autonocion.com/us/norway-drone-snake/" target="_blank" rel="noopener"&gt;created&lt;/a&gt; a 5 m (16.4 ft.) robotic snake for servicing underwater &lt;a href="https://www.therobotreport.com/category/industry/oil-gas/" target="_blank" rel="noopener"&gt;oil&lt;/a&gt; pipelines. It inspects pipelines, transmits images to a dispatcher, and, if a defect is detected, repairs it.&lt;/p&gt;
+&lt;p&gt;Equipped with &lt;a href="https://www.therobotreport.com/category/technologies/grippers-end-effectors/" target="_blank" rel="noopener"&gt;manipulators&lt;/a&gt; at both ends, the snake can replace valves and clean deposits from pipes. These devices can operate at depths of up to 500 m (1,640.4 ft.) for up to six months, recharging at special stations.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="This snake robot swims and works underwater" width="563" height="1000" src="https://www.youtube.com/embed/CBxv-e0r4Yo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Robot crab: Underground explorer&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.therobotreport.com/tag/uc-berkeley/" target="_blank" rel="noopener"&gt;University of California, Berkeley&lt;/a&gt;, engineers &lt;a href="https://engineering.berkeley.edu/news/2022/10/digging-deep/" target="_blank" rel="noopener"&gt;developed&lt;/a&gt; a robotic crab for underground exploration. Using fabric scoops on its claws, it burrows into the ground, collects samples, and analyzes the soil. Equipped with sensors and a manipulator, it can determine the suitability of a site.&lt;/p&gt;
+&lt;p&gt;These robotic animals could be used in &lt;a href="https://www.therobotreport.com/category/markets-industries/construction" target="_blank" rel="noopener"&gt;construction&lt;/a&gt; or &lt;a href="https://www.therobotreport.com/category/markets-industries/ag/" target="_blank" rel="noopener"&gt;agriculture&lt;/a&gt;, detecting pollution. In the future, such crabs are even planned for use on the Moon. Scientists are currently working on improving the design so that the robot can dig deeper.&lt;/p&gt;
+&lt;p&gt;More recently, open-source crab platforms are helping developers innovate locomotion.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="I Taught a Crab Robot to Never Stay Down (0.2 s Kick-Flip) &amp;#x1f980;" width="740" height="416" src="https://www.youtube.com/embed/YUyRChIFKro?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Robot falcons: Airfield guardians&lt;/h2&gt;
+&lt;p&gt;Mechanical falcons, &lt;a href="https://research.rug.nl/en/clippings/robot-falcon-better-than-drones-at-clearing-flight-paths/" target="_blank" rel="noopener"&gt;developed&lt;/a&gt; at the University of Groningen in the Netherlands, are already in service in Canada and Germany. They frighten real birds away from runways, preventing collisions that could lead to plane crashes.&lt;/p&gt;
+&lt;p&gt;Unlike acoustic cannons, which birds quickly become accustomed to, robotic predators exploit natural fear—they not only mimic predators but also pursue live birds, demonstrating dominance.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="RoboFalcon 2.0: The Bird That Wasn’t Born, But Built" width="740" height="555" src="https://www.youtube.com/embed/uMeVuOTUFCE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Robot bee: Space scout&lt;/h2&gt;
+&lt;p&gt;A miniature robotic bee, the size of a pinhead, was &lt;a href="https://seas.harvard.edu/news/2025/04/robobee-comes-landing" target="_blank" rel="noopener"&gt;created&lt;/a&gt; at &lt;a href="https://www.therobotreport.com/tag/harvard/" target="_blank" rel="noopener"&gt;Harvard University&lt;/a&gt;. Although it can theoretically pollinate plants, its true purpose is reconnaissance. Sensors mimic the vision and antennae of insects and transmit a three-dimensional image to the operator.&lt;/p&gt;
+&lt;p&gt;This micro-reconnaissance vehicle can fly, swim, and dive. It runs on solar batteries, consuming only 120 milliwatts—less than a light bulb. Scientists are confident that these bees will be useful for exploring Martian canals, lunar craters, and even the toxic clouds of Venus.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="RoboBee&amp;amp;apos;s improved landing gear inspired by the Crane Fly" width="740" height="416" src="https://www.youtube.com/embed/1EiTLSTMYps?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;A variety of zoomorphic robots emerges&lt;/h2&gt;
+&lt;p&gt;Today, numerous robots mimic the behavior of a wide variety of animals. Their advantage is the ability to move horizontally and vertically, navigate obstacles, and penetrate hard-to-reach places.&lt;/p&gt;
+&lt;p&gt;Unlike real animals or people, they do not require food or water, making them suitable assistants in deserts, mountains, and the exploration of other planets. They could be indispensable in rescue operations and scientific research.&lt;/p&gt;
+&lt;p&gt;For example, &lt;a href="https://www.therobotreport.com/tag/massachusetts-institute-of-technology" target="_blank" rel="noopener"&gt;MIT&lt;/a&gt; scientists created Mini Cheetah—a &lt;a href="https://lids.mit.edu/news/3-questions-how-the-mit-mini-cheetah-learns-to-run" target="_blank" rel="noopener"&gt;platform&lt;/a&gt; used to test algorithms for guide robots and jumping machines. Chinese engineers have &lt;a href="https://www.scmp.com/news/china/science/article/3290724/cyborg-cockroaches-can-now-be-mass-produced-robotic-factory-pleasant-dreams" target="_blank" rel="noopener"&gt;developed&lt;/a&gt; an insect-sized model that has the &lt;a href="https://www.youtube.com/watch?v=ckgT4N5Q4Pc" target="_blank" rel="noopener"&gt;properties&lt;/a&gt; of spiders and cockroaches. Another robotic cheetah from &lt;a href="https://www.therobotreport.com/tag/darpa" target="_blank" rel="noopener"&gt;DARPA&lt;/a&gt; reached &lt;a href="https://www.electronicdesign.com/markets/defense/article/21196459/darpas-cheetah-robot-romps-at-18-mph" target="_blank" rel="noopener"&gt;speeds of up to 18 mph&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A flexible robot, &lt;a href="https://docs.openworm.org/Projects/c-elegans-robot/" target="_blank" rel="noopener"&gt;modeled&lt;/a&gt; after the Caenorhabditis elegans roundworm, was capable of navigating around obstacles. &lt;a href="https://www.therobotreport.com/tag/gecko-robotics/" target="_blank" rel="noopener"&gt;Gecko Robotics&lt;/a&gt; has commercially deployed systems equipped with suction cups for vertical movement and can operate in hazardous environments.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;Quadrupeds follow dogs as human companions&lt;/h2&gt;
+&lt;p&gt;Some four-&lt;a href="https://www.therobotreport.com/tag/legged-robots/" target="_blank" rel="noopener"&gt;legged&lt;/a&gt; robots can travel over 30 km (18.6 mi.) without recharging and carry loads of up to 180 kg (396.8 lb.). They can transport the injured and recognize voice commands.&lt;/p&gt;
+&lt;p&gt;Three years ago, Moscow State University &lt;a href="https://www1.ru/en/news/2023/10/02/rossiiskii-robot-sobaka-iz-mgu-otpravitsia-v-skoly-i-universitety.html" target="_blank" rel="noopener"&gt;unveiled&lt;/a&gt; the first such robot in Eastern Europe, costing approximately 1.5 million rubles. The &lt;a href="https://www.therobotreport.com/tag/unitree" target="_blank" rel="noopener"&gt;Unitree Robotics&lt;/a&gt; A1 model, weighing 15 kg (33 lb.), was controlled by powerful electric motors. It was even tested at a zoo to observe the animals&amp;#8217; reactions.&lt;/p&gt;
+&lt;p&gt;After testing, the design was modified, improving access to the internal subsystems. The robot is controlled by a joystick and connected to cameras and lidar for navigation. Its basic gait is a trot, and its speed is 3.5 km/h. The dog can change its gait, shake a paw, stand up, and lie down.&lt;/p&gt;
+&lt;p&gt;Unitree introduced the As2 companion earlier this year.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Unitree Introducing | Unitree As2  Your Companion" width="740" height="416" src="https://www.youtube.com/embed/1ONE4l_pgHw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Animal-inspired robots evolve&lt;/h2&gt;
+&lt;p&gt;Although today there are robotic kangaroos, insects, and reptiles, the dog was the first and most common prototype. This is due to the animal&amp;#8217;s familiarity as a human assistant. The mechanics of canine movement (walking, running, jumping) proved optimal for engineering solutions. Robo-dogs range in size from a mastiff to a Labrador.&lt;/p&gt;
+&lt;p&gt;The predecessor is considered to be &lt;a href="https://cyberneticzoo.com/walking-machines/1968-phony-pony-frank-mcghee-american/" target="_blank" rel="noopener"&gt;Phony Pony&lt;/a&gt;, a Californian robot from the late 1960s. It didn&amp;#8217;t resemble an animal much, but it already had articulated supports, sensors, and motors, becoming the forerunner of all quadrupeds.&lt;/p&gt;
+&lt;h2&gt;Companion animal robots offer therapy and care&lt;/h2&gt;
+&lt;p&gt;Interacting with animals can reduces stress and anxiety. There&amp;#8217;s even pet therapy. Pets are especially beneficial for the elderly with dementia, children with mental health issues, and hospital patients.&lt;/p&gt;
+&lt;p&gt;However, live animals require care, and they are often prohibited in medical facilities. That&amp;#8217;s where &lt;a href="https://www.therobotreport.com/tag/social-robots" target="_blank" rel="noopener"&gt;companion&lt;/a&gt; robots come in.&lt;/p&gt;
+&lt;p&gt;New Zealand scientists have proven that interacting with them is just as beneficial as interacting with real animals. They are hypoallergenic, don&amp;#8217;t require food or walking, and their behavior is predictable.&lt;/p&gt;
+&lt;h3&gt;Joy for All&lt;/h3&gt;
+&lt;p&gt;These realistic cats and dogs from &lt;a href="https://joyforall.com/?srsltid=AYCX9vI5jCZKPVPPUjMizujb3HFYrJOWDdc9MLkvOT7oiNfqCiDODDBm" target="_blank" rel="noopener"&gt;Joy for All&lt;/a&gt; are covered in soft fur. Cats open their mouths, blink, groom themselves, and roll over when petted. Dogs bark in response to voices, respond to hugs, and their &amp;#8220;heartbeat&amp;#8221; changes. They fall asleep in the dark. Touch and light sensors are built into the body.&lt;/p&gt;
+&lt;p&gt;Scientists at &lt;a href="https://www.therobotreport.com/tag/brown-university" target="_blank" rel="noopener"&gt;Brown University&lt;/a&gt; &lt;a href="https://www.brown.edu/news/2017-11-01/aries" target="_blank" rel="noopener"&gt;worked&lt;/a&gt; on software to transform them into assistants for the elderly. The robotic animals can remind them to take their medications and find their glasses or keys.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Mary Rosetti - 15 sec." width="740" height="416" src="https://www.youtube.com/embed/4xj_OoVdoKs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h3&gt;Jenny by Tomobot&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://tombot.com/" target="_blank" rel="noopener"&gt;Tomobot&lt;/a&gt; has designed its realistic golden Labrador puppy for the elderly and children with autism. It does not walk to avoid creating a hazard. Jenny senses touch, responds to commands (called &amp;#8220;voice&amp;#8221;), wags its tail, whines, and snores in its sleep.&lt;/p&gt;
+&lt;p&gt;The robotic animal contains 50 sensors, 10 motors (seven in its face), and microphones. An app allows users to name the dog and update its settings.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Meet Jennie from Tombot! SHORT 45" width="740" height="416" src="https://www.youtube.com/embed/XQ_dRJHE4ak?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h3&gt;PARO — a harp seal&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.therobotreport.com/tag/paro/" target="_blank" rel="noopener"&gt;This robot&lt;/a&gt; animal is listed in the Guinness Book of World Records as &amp;#8220;the most therapeutic.&amp;#8221; Developed in Japan, it promotes relaxation and positive emotions.&lt;/p&gt;
+&lt;p&gt;The seal pup is covered in sensory whiskers and tactile sensors, moves its paws, makes sounds, recognizes its name, and responds to affection. If ignored, it cries. The charger is shaped like a pacifier, and when removed, PARO makes a disgruntled squeak. Its personality changes depending on how it&amp;#8217;s handled.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="&amp;#x1f525; Fun facts about PARO Therapeutic Robots" width="740" height="416" src="https://www.youtube.com/embed/lQvOrnsAhV8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h3&gt;Aibo by Sony&lt;/h3&gt;
+&lt;p&gt;This sophisticated puppy featured a camera, sensors, and 22 axes of motion. Its eyes are two OLED screens. Thanks to cloud technology, aibo remembered events, developed its personality, and learned.&lt;/p&gt;
+&lt;p&gt;This robotic dog could play, bark at strangers, patrol a route, and send photos to its owner, although this was primarily for entertainment purposes. &lt;a href="https://www.therobotreport.com/tag/sony/" target="_blank" rel="noopener"&gt;Sony&lt;/a&gt; &lt;a href="https://www.japantimes.co.jp/business/2026/06/26/companies/sony-sales-aibo-robot-stop/" target="_blank" rel="noopener"&gt;discontinued&lt;/a&gt; sales of Aibo in June of this year, demonstrating some of the challenges with developing robots for the consumer market.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Sony AIBO: The Rise, Fall, and Rebirth of The Robot Dog" width="740" height="416" src="https://www.youtube.com/embed/vvvtzPTMrEQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Robotic animals could become part of our lives&lt;/h2&gt;
+&lt;p&gt;Robot animals are increasingly becoming a part of our lives as therapists, assistants, and friends. They are purchased for children, the elderly, and people with allergies or restrictions on pets.&lt;/p&gt;
+&lt;p&gt;In Japan, where the problem of an aging population is particularly acute, these devices have long been part of the care system. Europe and the U.S. are also actively investigating them for hospitals and nursing homes, accelerating development. Electronic animals are not just toys, but an important tool for care and rescue.&lt;/p&gt;
+&lt;h3&gt;&lt;img loading="lazy" decoding="async" class="alignleft wp-image-587278 size-thumbnail" src="https://www.therobotreport.com/wp-content/uploads/2026/03/large-Am-I-150x150.jpg" sizes="auto, (max-width: 150px) 100vw, 150px" srcset="https://www.therobotreport.com/wp-content/uploads/2026/03/large-Am-I-150x150.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/03/large-Am-I-300x300.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/03/large-Am-I-238x238.jpg 238w, https://www.therobotreport.com/wp-content/uploads/2026/03/large-Am-I.jpg 312w" alt="Elena Krosheva" width="150" height="150" /&gt;About the author&lt;/h3&gt;
+&lt;p&gt;Elena Krosheva is a freelance journalist, marketing analyst, and SEO specialist. She graduated with honors from the Faculty of Journalism at the Institute of Modern Knowledge in Minsk, Belarus, in 2007.&lt;/p&gt;
+&lt;p&gt;Krosheva covers topics such as digitalization, IT, the modern economy, and transhumanism. She loves computers and cyberpunk, having graduated from a technical college before graduating from the Faculty of Journalism.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/unusual-robotic-animals-can-prove-their-utility/"&gt;Unusual robotic animals can prove their utility&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/unusual-robotic-animals-can-prove-their-utility/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>Percepto launches Axion AI platform to unify inspection data analysis</title>
 		<link>https://www.therobotreport.com/percepto-launches-axion-ai-platform-unify-inspection-data-analysis/</link>
 					<comments>https://www.therobotreport.com/percepto-launches-axion-ai-platform-unify-inspection-data-analysis/#respond</comments>
@@ -46,7 +184,7 @@
 					<description>&lt;p&gt;Percepto has launched Axion, a hardware-agnostic physical AI platform delivering visibility across mission-critical infrastructure.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/percepto-launches-axion-ai-platform-unify-inspection-data-analysis/"&gt;Percepto launches Axion AI platform to unify inspection data analysis&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_590042" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590042" class="wp-image-590042 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Percepto-Axion-featured.jpg" alt="screenshot of an axion screen." width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Percepto-Axion-featured.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/Percepto-Axion-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Percepto-Axion-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Percepto-Axion-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Percepto-Axion-featured-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590042" class="wp-caption-text"&gt;Operators can start Axion with their existing inspection data and add Percepto’s autonomous systems and managed remote operations wherever more frequent coverage is needed. | Credit: Percepto&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_590042" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590042" class="wp-image-590042 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Percepto-Axion-featured.jpg" alt="screenshot of an axion screen." width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Percepto-Axion-featured.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/Percepto-Axion-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Percepto-Axion-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Percepto-Axion-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Percepto-Axion-featured-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590042" class="wp-caption-text"&gt;Operators can start Axion with their existing inspection data and add Percepto’s autonomous systems and managed remote operations wherever more frequent coverage is needed. | Credit: Percepto&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Autonomous drone inspection provider Percepto this week launched Axion, a hardware-agnostic physical AI platform that marks the company’s shift to a software-first strategy. The company said it allows critical infrastructure operators to analyze data from any third-party drone or sensor network to prevent equipment failures before they escalate.&lt;/p&gt;
 &lt;p&gt;Founded in 2014, Percepto said its initial team built the technology needed for scale. The &lt;a href="https://www.therobotreport.com/tag/percepto/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; asserted that its new management has decades of independent experience with growth across robotics, &lt;a href="https://www.therobotreport.com/category/technologies/sensors-sensing/" target="_blank" rel="noopener"&gt;sensors&lt;/a&gt;, the Internet of Things (&lt;a href="https://www.therobotreport.com/tag/iot/" target="_blank" rel="noopener"&gt;IoT&lt;/a&gt;), physical &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;, and &lt;a href="https://www.therobotreport.com/tag/cybersecurity" target="_blank" rel="noopener"&gt;cybersecurity&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Percepto is based in Modi&amp;#8217;in, Israel, with U.S. headquarters in Austin, Texas.&lt;/p&gt;
@@ -57,7 +195,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;Axion extends inspection workflows&lt;/h2&gt;
@@ -68,7 +206,7 @@
 &lt;p&gt;Available as a software-as-a-service offering, Axion organizes inspection data by asset and applies AI that interprets equipment condition in context. It ingests data from supported third-party drone platforms, fixed and mobile sensors, and existing inspection archives, so operators are not tied to a single hardware provider.&lt;/p&gt;
 &lt;p&gt;Percept said that Axion can identify a downed wire by its relationship to surrounding components or evaluate a thermal anomaly against expected asset behavior and environmental conditions. Each finding is backed by inspection history and expert validation, giving teams confidence in what needs attention.&lt;/p&gt;
 &lt;p&gt;In addition, Percepto asserted that Axion enables users to query the corpus of inspection data using plain-language queries. It said its large language model (LLM) enables users to quickly get to the answers that they are seeking and exposes the valuable signals contained in the inspection data.&lt;/p&gt;
-&lt;p&gt;&lt;iframe title="Percepto Axion Video" width="740" height="416" src="https://www.youtube.com/embed/UHX8J2L4vBg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Percepto Axion Video" width="740" height="416" src="https://www.youtube.com/embed/UHX8J2L4vBg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/percepto-launches-axion-ai-platform-unify-inspection-data-analysis/"&gt;Percepto launches Axion AI platform to unify inspection data analysis&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </ns3:encoded>
 					
@@ -981,67 +1119,6 @@ Open submissions give model iteration concrete feedback&lt;/strong&gt;&lt;/h4&gt
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>OMRON to acquire OnLogic to address edge AI applications</title>
-		<link>https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/</link>
-					<comments>https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/#respond</comments>
-		
-		<dc:creator>The Robot Report Staff</dc:creator>
-		<pubDate>Mon, 26 Oct 2026 20:13:13 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Cameras / Imaging / Vision</category>
-		<category>Controllers</category>
-		<category>Industrial Robots</category>
-		<category>Manufacturing</category>
-		<category>Mergers &amp; Acquisitions</category>
-		<category>Microprocessors / SoC</category>
-		<category>Microprocessors / SoCs</category>
-		<category>Motion Control</category>
-		<category>Networking / Connectivity</category>
-		<category>News</category>
-		<category>Sensors / Sensing Systems</category>
-		<category>Software</category>
-		<category>Europe</category>
-		<category>omron</category>
-		<category>OnLogic</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590013</guid>
-
-					<description>&lt;p&gt;OMRON will add industrial computing from OnLogic to its industrial automation expertise to serve data- and AI-intensive applications.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/"&gt;OMRON to acquire OnLogic to address edge AI applications&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_590014" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590014" class="wp-image-590014 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/10/OnLogic_HQ.jpg" alt="OnLogic will keep its Vermont headquarters, shown here, as well as its global offices as part of OMRON." width="770" height="496" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/OnLogic_HQ.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/OnLogic_HQ-300x193.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/OnLogic_HQ-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/OnLogic_HQ-768x495.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/OnLogic_HQ-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590014" class="wp-caption-text"&gt;OnLogic will keep its Vermont headquarters, as well as its global offices, as part of OMRON. Source: OnLogic&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;As manufacturers increasingly use data and AI at the edge, they need reliable computing that works alongside real-time automation and control. OMRON Corp. this month said it has agreed to acquire 100% of OnLogic this week, worth $675 million, to combine its proven automation with OnLogic&amp;#8217;s industrial computing expertise.&lt;/p&gt;
-&lt;p&gt;“This acquisition is an important step in advancing our SF2030 vision and our evolution toward GEMBA DX,&amp;#8221; stated Junta Tsujinaga, president and CEO of OMRON. &amp;#8220;North America is a key growth market for OMRON, and this investment strengthens our foundation there while building the capabilities our customers will increasingly need.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;OnLogic’s industrial computing expertise, flexibility and strong customer relationships complement our strengths in automation and control,&amp;#8221; he added. &amp;#8220;Together, we see an opportunity to create new value for customers as manufacturing becomes more connected, data-driven and intelligent.”&lt;/p&gt;
-&lt;p&gt;Founded in 1933, OMRON Automation creates, sells, and services fully integrated automation solutions that include &lt;a href="https://www.therobotreport.com/category/technologies/sensors-sensing/" target="_blank" rel="noopener"&gt;sensing&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/technologies/controllers/" target="_blank" rel="noopener"&gt;control&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/safety-security" target="_blank" rel="noopener"&gt;safety&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener"&gt;vision&lt;/a&gt;, and &lt;a href="https://www.therobotreport.com/category/robot-components/motioncontrol/" target="_blank" rel="noopener"&gt;motion&lt;/a&gt;. The Kyoto, Japan-based &lt;a href="https://www.therobotreport.com/tag/omron/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; said its 30,000 employees creatively help businesses solve problems in more than 110 countries. Its Americas office is in Hoffman Estates, Ill.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;h2&gt;OnLogic to continue computing brand&lt;/h2&gt;
-&lt;p&gt;Founded in 2003, OnLogic designs and makes configurable, solution-focused, &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;-capable computers engineered for reliability at the Internet of Things (&lt;a href="https://www.therobotreport.com/tag/iot" target="_blank" rel="noopener"&gt;IoT&lt;/a&gt;) edge. The South Burlington, Vt.-based &lt;a href="https://www.onlogic.com/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; said it has helped more than 70,000 customers worldwide with their complex computing challenges with systems that are built to order, delivered in days, and designed to last.&lt;/p&gt;
-&lt;p&gt;OnLogic noted that its systems operate in the world’s harshest environments across industries. It said joining OMRON will provide &lt;a href="https://www.therobotreport.com/category/robots-platforms/industrial-robots/" target="_blank" rel="noopener"&gt;industrial&lt;/a&gt; automation expertise and access to new markets.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;We built OnLogic to help engineers and innovators solve tough technology challenges by making custom, rugged hardware easy to configure, build, and deploy,” said Sean Larkin, CEO of OnLogic. “Joining OMRON provides the global scale, supply chain depth, and capital resources to accelerate our product roadmaps while preserving our culture, direct sales approach, and operations around the world. Together, we are giving our customers the tools they need to deploy physical AI with confidence.&amp;#8221;&lt;/p&gt;
-&lt;p class="sc-gtsrHT gnfMGl"&gt;Following the acquisition, OnLogic will continue to operate as an independent business within the OMRON Group. It will keep its offices in the U.S., the Netherlands, Germany, Taiwan, and Malaysia, as well as its brand identity and direct sales model.&lt;/p&gt;
-&lt;p class="sc-gtsrHT gnfMGl"&gt;OnLogic&amp;#8217;s management team, led by Larkin, will remain in place to drive day-to-day operations and strategic growth.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="This is Manufacturing’s Moment. OnLogic PCs are Built for This." width="740" height="416" src="https://www.youtube.com/embed/u3ZgBH6jcgU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;OMRON sees opportunities for manufacturers&lt;/h2&gt;
-&lt;p&gt;The companies said they will help customers address increasingly complex applications that require greater processing power, connectivity, and intelligence at the edge. OMRON has experience in control, robotics, and safety.&lt;/p&gt;
-&lt;p&gt;OnLogic brings configurable computing platforms designed for demanding applications and environments, as well as its flexible build-to-order model and customer reach across &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;manufacturing&lt;/a&gt; and other markets.&lt;/p&gt;
-&lt;p class="sc-gtsrHT gnfMGl"&gt;The companies said they expect to more closely connect machine data, edge computing, and AI with real-time automation and control. Over time, the combination is expected to create systems that help turn data, insights, and AI into faster, more informed actions to optimize manufacturing.&lt;/p&gt;
-&lt;p&gt;OMRON added that the acquisition is an investment in its &lt;a href="https://www.therobotreport.com/omron-gives-insight-into-new-dedicated-robotics-organization/" target="_blank" rel="noopener"&gt;Industrial Automation Business&lt;/a&gt; and strengthens the company’s position in the Americas and &lt;a href="https://www.therobotreport.com/tag/europe/" target="_blank" rel="noopener"&gt;Europe&lt;/a&gt;. OnLogic has relationships with customers across both traditional automation markets and industries where OMRON sees additional opportunities for growth.&lt;/p&gt;
-&lt;p&gt;In addition, OMRON said it remains committed to its established channel strategy and to continuing to invest in and support the partners that help it serve customers and grow in the market. The companies said they expect the &lt;a href="https://www.omron.com/global/en/news/2026/10/c1013.html" target="_blank" rel="noopener"&gt;acquisition&lt;/a&gt; to close in or around January 2027, subject to regulatory approval.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Smarter AOI with AI Optimization" width="740" height="416" src="https://www.youtube.com/embed/VuxRfvWCmhI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/"&gt;OMRON to acquire OnLogic to address edge AI applications&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
