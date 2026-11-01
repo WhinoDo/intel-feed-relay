@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Fri, 30 Oct 2026 19:44:57 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 01 Nov 2026 11:07:41 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/rhoda-ai-schrep-dva-factory-edge-case-demos</guid>
+    <title>Rhoda AI Shows Robots Recovering From Factory Edge Cases in Schrep Visit</title>
+    <link>https://www.humanoidsdaily.com/news/rhoda-ai-schrep-dva-factory-edge-case-demos</link>
+    <description>A Field Trips with Schrep visit explores Rhoda’s robot recovery demos, video-based control architecture and plans for paid industrial deployments before year-end.</description>
+    <pubDate>Sun, 01 Nov 2026 11:07:41 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>rhoda-ai</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/meta-fourier-max-humanoid-prototype</guid>
+    <title>Meta Reportedly Built “Max” Humanoid With Fourier, With a Second Version Underway</title>
+    <link>https://www.humanoidsdaily.com/news/meta-fourier-max-humanoid-prototype</link>
+    <description>The Information reports that Meta and Fourier built a custom humanoid in three months. Meta says the units are for internal research, with no plans to sell them.</description>
+    <pubDate>Sun, 01 Nov 2026 08:34:54 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>China</category><category>Meta</category><category>fourier</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-optimus-reservations-december-humanoids-summit</guid>
     <title>Tesla Reportedly Plans Optimus Reservations for Early December</title>
@@ -288,26 +308,6 @@
     <pubDate>Mon, 26 Oct 2026 09:06:09 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Rokae</category><category>Europe</category><category>Schaeffler</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/schaeffler-coo-humanoid-components-integration-services</guid>
-    <title>Schaeffler COO Sees Humanoid Opportunities in Components, Factories and Services</title>
-    <link>https://www.humanoidsdaily.com/news/schaeffler-coo-humanoid-components-integration-services</link>
-    <description>In a Gasgoo interview, Jochen Schröder outlines how humanoids could support component sales, factory productivity, customer integration and robot maintenance.</description>
-    <pubDate>Sun, 25 Oct 2026 17:19:23 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Europe</category><category>Schaeffler</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/eth-zurich-acp-humanoid-contact-planning</guid>
-    <title>ETH Zürich Teaches a Humanoid to Climb, Vault and Recover by Planning Body Contacts</title>
-    <link>https://www.humanoidsdaily.com/news/eth-zurich-acp-humanoid-contact-planning</link>
-    <description>Tested on a Unitree G1, the research combines human motion data and reinforcement learning to connect mobility skills using onboard terrain sensing.</description>
-    <pubDate>Sun, 25 Oct 2026 16:03:50 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Apple</category><category>Research</category><category>ETH Zurich</category>
   </item>
 
   </channel>
