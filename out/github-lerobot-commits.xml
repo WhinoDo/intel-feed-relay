@@ -4,7 +4,109 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-10-30T20:10:40Z</ns0:updated>
+  <ns0:updated>2026-11-02T14:36:34Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/f5c9bc02137c331b009eccd44ece6f11b62187a8</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f5c9bc02137c331b009eccd44ece6f11b62187a8" />
+    <ns0:title>
+        fix(eo1): give the slow Qwen2.5-VL image processor CPU images (#5146)
+    </ns0:title>
+    <ns0:updated>2026-11-02T14:36:34Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/426434?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>shoumikhin</ns0:name>
+      <ns0:uri>https://github.com/shoumikhin</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(eo1): give the slow Qwen2.5-VL image processor CPU images (#5146)
+
+lerobot-rollout, lerobot-train, and the predict_action and
+build_inference_frame helpers move the batch to the policy device before
+the preprocessor runs. EO-1&amp;#39;s Qwen step then passed GPU image tensors to
+the default (slow) Qwen2.5-VL image processor, which reads pixels with
+NumPy and fails:
+
+    TypeError: can&amp;#39;t convert cuda:0 device type tensor to numpy.
+
+lerobot-eval fails the same way with IsaacLab Arena environments, which
+return camera images on the GPU. Other environments and the policy
+server pass CPU images.
+
+Move the images to the CPU in the Qwen step when the slow processor is
+used. The move uses move_state_dict_to_device, which builds new message
+containers, so the transition the previous step returned keeps its GPU
+images. The fast processor (use_fast_processor=True) already handles GPU
+tensors, so its images stay on their device, as before. The preprocessor&amp;#39;s
+last step still moves its outputs to the policy device, and CPU input is
+unchanged.
+
+Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/145cc7ea53e5864bd5efec4e9bb70ee799e47bd8</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/145cc7ea53e5864bd5efec4e9bb70ee799e47bd8" />
+    <ns0:title>
+        feat(vla_jepa): opt-in world_model_rope_legacy for checkpoints traine…
+    </ns0:title>
+    <ns0:updated>2026-11-02T12:31:37Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/3657419?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>ravediamond</ns0:name>
+      <ns0:uri>https://github.com/ravediamond</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(vla_jepa): opt-in world_model_rope_legacy for checkpoints trained before #4835 (#5098)
+
+* feat(vla_jepa): opt-in world_model_rope_legacy for checkpoints trained before #4835
+
+* test(vla_jepa): drop the rope-legacy tests, as asked in review&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/ae32126a1e7a2c7aea26e10a6fa06f10ddee8ddc</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ae32126a1e7a2c7aea26e10a6fa06f10ddee8ddc" />
+    <ns0:title>
+        Replace deprecated Hub upload and download APIs (#5208)
+    </ns0:title>
+    <ns0:updated>2026-11-02T11:10:05Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/11801849?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Wauplin</ns0:name>
+      <ns0:uri>https://github.com/Wauplin</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Replace deprecated Hub upload and download APIs (#5208)
+
+* fix: replace deprecated Hub upload and download APIs
+
+* chore: address Hub compatibility review feedback
+
+* docs: shorten local PR description and cite Hub upload release
+
+Record the description-only review update: cite huggingface_hub v1.20.0 for streamed multi-commit folder uploads and remove validation details from the local PR description.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/17aea13fc09111ba2c0f86453ca5a5fe5e779ba3</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/17aea13fc09111ba2c0f86453ca5a5fe5e779ba3" />
+    <ns0:title>
+        Support huggingface_hub 2.x (import httpx from huggingface_hub.utils)…
+    </ns0:title>
+    <ns0:updated>2026-11-02T10:07:34Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/11801849?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Wauplin</ns0:name>
+      <ns0:uri>https://github.com/Wauplin</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Support huggingface_hub 2.x (import httpx from huggingface_hub.utils) (#5201)
+
+* Support huggingface_hub 2.x by importing httpx from huggingface_hub.utils
+
+* Update uv.lock&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/3f797de5952432284a7c77ad2760218cb74e2f26</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/3f797de5952432284a7c77ad2760218cb74e2f26" />
@@ -416,145 +518,6 @@ Co-authored-by: CarolinePascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/pr
 * test(rollout): fix remote fakes
 
 * test(rollout): simplify local setup tests&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/e5e190da68801d846bdd337d2ab10697e76c3539</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e5e190da68801d846bdd337d2ab10697e76c3539" />
-    <ns0:title>
-        feat(policies): accept the starting noise in predict_action_chunk for…
-    </ns0:title>
-    <ns0:updated>2026-10-29T16:34:37Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/426434?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>shoumikhin</ns0:name>
-      <ns0:uri>https://github.com/shoumikhin</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): accept the starting noise in predict_action_chunk for EO-1, EVO-1, WALL-OSS and Wall-OSS-0.5 (#4811)
-
-* feat(eo1): accept noise in predict_action_chunk
-
-EO-1 always drew its own starting noise inside sample_actions, so a caller
-could not pass it in. predict_action_chunk and select_action now take a
-keyword-only noise argument. select_action passes it to
-predict_action_chunk, which forwards it to sample_actions. When it is None,
-the noise is drawn exactly as before. A given noise is moved to the device
-and dtype of the draw it replaces, and the denoising loop does not write
-into it, so the caller&amp;#39;s tensor is not changed.
-
-predict_action_chunk no longer ends in a **kwargs that nothing read, so a
-misspelled keyword such as noize= raises a TypeError instead of silently
-falling back to a fresh draw.
-
-* feat(evo1): accept noise in predict_action_chunk
-
-EVO-1 always drew its own starting sample inside the flow matching head, so
-a caller could not pass it in. predict_action_chunk and select_action now
-take a keyword-only noise argument. select_action passes it to
-predict_action_chunk, which forwards it through Evo1Model to
-FlowmatchingActionHead.get_action. When it is None, the sample is drawn
-exactly as before. A given noise is moved to the device and dtype of the
-draw it replaces, and the loop does not write into it, so the caller&amp;#39;s
-tensor is not changed.
-
-The noise is shaped (batch_size, chunk_size, max_action_dim), like the
-actions EVO-1 returns and the noise of the other policies. A tensor of
-another shape raises a ValueError, so a noise laid out differently with the
-same number of values is not silently read in the wrong order.
-
-select_action used to accept any keyword and drop it. It now takes only
-noise, so a misspelled keyword raises a TypeError.
-
-* feat(wall_x): accept noise in predict_action_chunk
-
-WALL-OSS always drew its own starting noise in the diffusion prediction
-path, so a caller could not pass it in. predict_action_chunk and
-select_action now take a keyword-only noise argument. select_action passes
-it to predict_action_chunk, which forwards it to
-Qwen2_5_VLMoEForAction.predict for the diffusion mode. When it is None, the
-noise is drawn exactly as before. A given noise is moved to the device and
-dtype of the draw it replaces (float32), and the loop does not write into
-it, so the caller&amp;#39;s tensor is not changed. The fast mode decodes tokens and
-does not use it.
-
-* feat(wall_oss_05): accept noise in predict_action_chunk
-
-Wall-OSS-0.5&amp;#39;s flow generation already takes a starting sample, but
-predict_action_chunk dropped every keyword argument, so a caller&amp;#39;s noise
-was silently ignored. Take a keyword-only noise, shaped
-(batch_size, chunk_size, max_action_dim), like the other flow policies, and
-pass it through; select_action passes it on. Without it, the same draw runs
-as before. Like EO-1, the methods no longer accept and drop other keywords,
-so a misspelled keyword raises a TypeError instead of being ignored.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/af4220275187af4af98410b599f606201b6e7618</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/af4220275187af4af98410b599f606201b6e7618" />
-    <ns0:title>
-        feat(policies): return a typed prediction alongside actions and show …
-    </ns0:title>
-    <ns0:updated>2026-10-29T16:27:25Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): return a typed prediction alongside actions and show it in Rerun / Foxglove (#3757)
-
-* feat(visualization): add a typed prediction to EnvTransition and render it in Rerun and Foxglove
-
-* feat(policies): let select_action return a prediction in an EnvTransition and carry it through rollout
-
-* feat(lingbot_va): return the predicted camera frames with each action
-
-* feat(policies): return a batched prediction in a typed PolicyOutput batch, like the input
-
-* fix(rl): normalize select_action outputs in the RL actor and eval loop
-
-* fix(rtc): store and clear the chunk prediction with its actions&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/90694152570656b88b01683ff3af199647f56bde</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/90694152570656b88b01683ff3af199647f56bde" />
-    <ns0:title>
-        fix(longwam): resize inference frames on their input device (#5144)
-    </ns0:title>
-    <ns0:updated>2026-10-29T15:10:30Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(longwam): resize inference frames on their input device (#5144)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/d986f03fad3b6bbe6fcdedefb5018be607c319f6</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d986f03fad3b6bbe6fcdedefb5018be607c319f6" />
-    <ns0:title>
-        perf(datasets): batch Lance depth video decoding (#4808)
-    </ns0:title>
-    <ns0:updated>2026-10-29T15:04:46Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/2283778?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>yanghua</ns0:name>
-      <ns0:uri>https://github.com/yanghua</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(datasets): batch Lance depth video decoding (#4808)
-
-* perf(datasets): batch Lance depth video decoding
-
-* address review comments
-
-* address review comments
-
-* removed useless test cases&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
