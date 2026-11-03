@@ -4,7 +4,458 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-03T09:43:34Z</ns0:updated>
+  <ns0:updated>2026-11-03T16:46:47Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/ba83e4cf43737e2665be0aafcb5f513b83c7d0f3</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ba83e4cf43737e2665be0aafcb5f513b83c7d0f3" />
+    <ns0:title>
+        feat(fastwam): add relative actions and per-sample loss reduction for…
+    </ns0:title>
+    <ns0:updated>2026-11-03T16:46:47Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(fastwam): add relative actions and per-sample loss reduction for RA-BC (#4657)
+
+* feat(fastwam): relative-action support
+
+* feat(fastwam): pin the text encoder to its own device and cache prompt embeddings
+
+* feat(fastwam): per-sample loss reduction for RA-BC
+
+* fix(fastwam): add the relative-action steps older checkpoints lack
+
+* feat(fastwam): require proprio_dim for relative actions and document the new options
+
+* fix(fastwam): expose action_horizon as chunk_size for RA-BC sample weighting
+
+* fix(fastwam): address review comments&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/0c741cec3594ec7bf2d6b1c3d0dfdbdcc608da63</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/0c741cec3594ec7bf2d6b1c3d0dfdbdcc608da63" />
+    <ns0:title>
+        chore(dependecies): bump datasets (#5232)
+    </ns0:title>
+    <ns0:updated>2026-11-03T16:32:54Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependecies): bump datasets (#5232)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/02655292cdadd7dd2f8fc5daa31a7437b44354ee</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/02655292cdadd7dd2f8fc5daa31a7437b44354ee" />
+    <ns0:title>
+        feat(policies): add Cosmos3 (#5134)
+    </ns0:title>
+    <ns0:updated>2026-11-03T16:31:39Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): add Cosmos3 (#5134)
+
+* feat(policies): add Cosmos3
+
+* fix(tests): skip the Cosmos3 configs in the policy config round trip without transformers
+
+* docs(cosmos3): use the trackio flag in the training commands
+
+* fix(cosmos3): train k_norm_und_for_gen of Cosmos3 Edge
+
+* docs(cosmos3): standardize Hub repository names
+
+* fix(cosmos3): exclude padded windows from the training loss
+
+Streaming datasets pad windows that run past the episode end with the last frame and action.
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;
+
+* fix(cosmos3): split the top view width between the lower views of the three camera layout
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;
+
+* fix(cosmos3): use sub_configs_defaults in the backbone configs for transformers 5.22
+
+---------
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/06f78b6c46670d0372b9a0f1544574c6b84a0df8</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/06f78b6c46670d0372b9a0f1544574c6b84a0df8" />
+    <ns0:title>
+        chore(dependencies): update uv.lock (#5175)
+    </ns0:title>
+    <ns0:updated>2026-11-03T13:44:14Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): update uv.lock (#5175)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/1d9bac2ab43688a0818dad81def7084abf8202ee</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1d9bac2ab43688a0818dad81def7084abf8202ee" />
+    <ns0:title>
+        chore(dependencies): bump torch packages ceiling (#5210)
+    </ns0:title>
+    <ns0:updated>2026-11-03T13:07:45Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): bump torch packages ceiling (#5210)
+
+* chore(dependencies): bump torch packages ceiling
+
+Co-authored-by: Anthony Shoumikhin &amp;lt;anthony@shoumikh.in&amp;gt;
+
+* chore(docs): recover pyproject comment
+
+* chore(test): remove newly introduced backend test
+
+* chore(docs): clarify flux3 installation steps related to torch
+
+* chore(docs): installation clarification cu126
+
+* refactor(distributed): leave split tied weights to torch and document the torch 2.15 reduce_dtype change (#5221)
+
+* refactor(distributed): drop the FSDP tied-weight pre-check
+
+torch 2.12 and newer raise at the first forward and name the shared parameter, so the docs now describe that behavior instead.
+
+* docs(train): note the torch 2.15 change to reduce_dtype
+
+* chore(benchmarks): deferred robotwin fixes
+
+* fix(tests): integration pi0fast reproducibility test
+
+* fix(tests): minimal fixes in pi0 parity test
+
+* fix(tests): drop degenerate pi0fast golden references
+
+Revert 6823b1e4f (fix(tests): minimal fixes in pi0 parity test) and keep
+the reproducibility version from c8c075ee7, which passed the GPU job.
+
+The refreshed references pinned `&amp;lt;bos&amp;gt;, &amp;lt;bos&amp;gt;` as the greedy output and
+all-zero actions. Those actions are the FAST decoder&amp;#39;s fallback for any
+non-FAST token, so the action assertions could not fail, and the token
+pair was recorded on an RTX 5090 while CI runs on an L4. Generation is
+checked for shape, finiteness and repeatability instead; the fixed-token
+detokenization reference keeps the nonzero decoding check.
+
+---------
+
+Co-authored-by: Anthony Shoumikhin &amp;lt;anthony@shoumikh.in&amp;gt;
+Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/e3d845e4a07a2c9402cbebc9f0318916c727b569</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e3d845e4a07a2c9402cbebc9f0318916c727b569" />
+    <ns0:title>
+        Fix FineART spatial targets to use normalized annotations (#5224)
+    </ns0:title>
+    <ns0:updated>2026-11-03T12:53:29Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix FineART spatial targets to use normalized annotations (#5224)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/1d172cfca84666b6a116717521daf73c5cb14bd8</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1d172cfca84666b6a116717521daf73c5cb14bd8" />
+    <ns0:title>
+        fix(datasets): reject duplicate episode indices in split_dataset (#4985)
+    </ns0:title>
+    <ns0:updated>2026-11-03T12:42:51Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/180071798?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>creativityventures</ns0:name>
+      <ns0:uri>https://github.com/creativityventures</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): reject duplicate episode indices in split_dataset (#4985)
+
+* fix(datasets): reject duplicate episode indices in split_dataset
+
+Signed-off-by: creativityventures &amp;lt;creativityventures.official@gmail.com&amp;gt;
+
+* test(datasets): cover duplicate episode indices in a split
+
+Signed-off-by: creativityventures &amp;lt;creativityventures.official@gmail.com&amp;gt;
+
+---------
+
+Signed-off-by: creativityventures &amp;lt;creativityventures.official@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/154fdfb595573ae9c7e0b3b48102b0318235e306</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/154fdfb595573ae9c7e0b3b48102b0318235e306" />
+    <ns0:title>
+        feat(g05): add OpenGalaxea G0.5 policy integration  (#4445)
+    </ns0:title>
+    <ns0:updated>2026-11-03T12:00:36Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(g05): add OpenGalaxea G0.5 policy integration  (#4445)
+
+* Add the OpenGalaxea G0.5 policy
+
+Native port of G0.5 (Qwen3.5-2B VLA) as policy.type=g05 on Transformers&amp;#39; Qwen3.5
+backbone: action expert, flow-matching head, ActionCodec and unified CoT/action
+decode, with no OpenGalaxea, Hydra or OmegaConf dependency.
+
+- Codec and tokenizer live in their own modules; the tokenizer and ActionCodec are
+  saved as safetensors processor artifacts.
+- The relative-action anchor is held while a chunk is in flight.
+- The integration code and G0.5 model cards carry the G0.5 Community License.
+
+* Reset the postprocessor when a task change drops the queued actions
+
+In the synchronous rollout, dropping the queued actions on a task change now also
+resets the postprocessor, so a stateful step such as the relative-action anchor
+starts from the new chunk.
+
+* Fine-tune G0.5 base on new robots from their dataset stats, joints and cameras
+
+- policy.embodiment is a free-text robot name; the released names keep their slot tables.
+- Joint slots come from the dataset&amp;#39;s joint names (state_slots/action_slots override them),
+  and camera_order maps dataset cameras to image slots (null leaves one empty).
+- Normalization uses lerobot&amp;#39;s normalization_mapping with the dataset&amp;#39;s own stats.
+- Recipe pipelines load from a Hub repo id, with fewer host syncs.
+
+* Rotate task_aug rephrasings through the training recipe into the G0.5 prompt
+
+The training renderer passed the dataset task as an explicit override, so ${task}
+never used task_aug rephrasings for any recipe-based policy. It now passes it as the
+fallback (runtime override, then task_aug, then the dataset task).
+
+* Train G0.5 like upstream
+
+- Type-checked under the repository mypy ruleset; flash-linear-attention is recommended.
+- Upstream&amp;#39;s sample mix of CoT, subtask-as-task and plain samples; the CoT text is cut
+  before its Action segment.
+- ActionCodec targets leave out body parts the robot does not have (dropout_noop_parts).
+- The System 2 chain of thought is selectable (subtask, or bbox and subtask), and
+  action codes are masked while it is sampled.
+- proprio_dropout_p (default 0.2, upstream&amp;#39;s mlp_dropout) drops the state token in training.
+- The flow loss repeats the action cache in the targets&amp;#39; row order and detaches the
+  VLM KV (knowledge insulation, upstream&amp;#39;s default).
+- The docs use generic robot and dataset names.
+
+* Configure G0.5 precision with policy.dtype and read recipe_path once
+
+- Precision uses the shared PreTrainedConfig.dtype (bfloat16 or float32) instead of
+  model_weights_to_bf16.
+- recipe_path is read into the inline recipe when the config is built and then
+  cleared, so a saved checkpoint keeps its recipe and the config builds on a base install.
+
+* Check G0.5 joint_signs against the robot&amp;#39;s joints after the slots size them
+
+The length check ran in __post_init__ against the checkpoint&amp;#39;s raw_state_dim, so
+fine-tuning g05_base (14 joints) on a 6-joint arm with 6 joint_signs failed before
+the dataset could resize the slots.
+
+* Remove dead G0.5 code
+
+- The ActionCodec&amp;#39;s own training objective: lerobot only encodes and decodes with the
+  shipped codec.
+- The FP32 output-projection cast: the VLM ties its logits to input_proj.
+- Inference metadata and batch fields nothing reads, and predict_action_chunk_with_runtime.
+- checkpoint_profile and return_continuous_action, config fields that were only validated.
+- Unreachable branches: per-sample action encoding, the optional decode mask, and
+  attribute fallbacks on objects that always have them.
+
+* Add the G0.5 policy README and refresh the docs
+
+- The README is symlinked from the package (paper link and citation), and G0.5 model
+  cards link to the guide.
+- Stale references to removed APIs, checkpoint profiles and recipe_path are fixed.
+
+* Simplify G0.5 around the shared lerobot pieces
+
+- Flow times, noise and training inputs come from the shared flow-matching helpers
+  (sample_beta, sample_noise, make_flow_matching_inputs; same values). Only the
+  pi-convention path the checkpoints use is kept, with upstream&amp;#39;s Euler loop: its time
+  stays in the model dtype, which the shared euler_integrate does not reproduce in BF16.
+- Author samples are built by a processor function, prepare_g05_policy_batch, instead
+  of a weightless policy proxy.
+- The policy calls its backend directly, and the ActionCodec loads in one place.
+- use_language_recipe is read directly, the ActionCodec part/marker list is computed
+  once, and the prompt templates share their prefix.
+
+* Return G0.5&amp;#39;s System 2 subtask and boxes as the policy prediction
+
+* Retarget lerobot-train&amp;#39;s relative_actions_processor override to G0.5&amp;#39;s relative step, so relative-action runs resume
+
+* Port G0.5&amp;#39;s Qwen3.5 linear attention, vision rotary and position embeddings to transformers 5.22&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/772bc21ef1ab17b72e17ebb1593ff78725a21d55</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/772bc21ef1ab17b72e17ebb1593ff78725a21d55" />
+    <ns0:title>
+        perf(datasets): stream-copy videos when deleting episodes (#4498)
+    </ns0:title>
+    <ns0:updated>2026-11-03T11:12:04Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>nepyope</ns0:name>
+      <ns0:uri>https://github.com/nepyope</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(datasets): stream-copy videos when deleting episodes (#4498)
+
+* perf(datasets): stream-copy videos when deleting episodes
+
+delete_episodes re-encoded every kept frame of any video file that mixed kept
+and deleted episodes. That work is redundant for datasets written by LeRobot:
+DatasetWriter encodes one video per episode and concatenate_video_files joins
+them through ffmpeg&amp;#39;s concat demuxer in stream-copy mode, so the first frame of
+every episode in a packed file starts a closed GOP.
+
+Select and remux the encoded packets instead when every boundary is GOP-aligned.
+Alignment is verified rather than assumed, so files packed by other tools still
+fall back to the existing re-encode path.
+
+Measured on a 79-episode unitree_g1 dataset (640x480 h264 @ 50fps), dropping 32
+episodes: for the three ego_view files 220.6s -&amp;gt; 0.9s, output 364MB -&amp;gt; 306MB,
+and the kept frames are now bit-identical to the source instead of a second
+lossy generation.
+
+Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
+
+* fix(datasets): harden stream-copy episode deletion
+
+- Copy codec parameters with add_stream_from_template(opaque=True). Without it, AV1 input (decoded by libdav1d) crashed because no encoder of that name exists, so the fast path raised instead of falling back.
+- Only cut at keyframes that are presented before every later packet and after every earlier one. Open-GOP keyframes followed by leading pictures were accepted and produced wrong frames; they now fall back to re-encoding.
+- Validate boundaries from packet metadata in a first demux pass and stream the selected packets in a second, so memory no longer scales with the video file size.
+- Test stream copy for h264, hevc and libsvtav1, including frame count and timestamp continuity, and add an open-GOP rejection test.
+
+* docs(datasets): shorten stream-copy docstring
+
+* fix(datasets): sort stream-copy frame ranges internally
+
+* style(datasets): format stream-copy range validation
+
+* test(datasets): use video path metadata helper
+
+* docs(tests): clarify packed video fixture behavior
+
+* test(datasets): create packed videos with episode boundaries
+
+* test(datasets): simplify episode encoding fixture changes
+
+* test(datasets): restrict stream-copy regression to h264
+
+* test(datasets): cover stream-copy and reencode deletion paths
+
+* test(datasets): store open-GOP video as test artifact
+
+* refactor(datasets): unify video episode filtering entry point
+
+* fix(datasets): preserve decode timestamps during stream copy
+
+* test(datasets): build the GOP-alignment test dataset directly
+
+Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
+
+* test(datasets): drop the unused vcodec parameter from the packed-video helper
+
+Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
+
+* test(datasets): stop asserting which encode path ran in the packed-video test
+
+Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
+
+* test(datasets): drop unused packed-video changes from test fixtures
+
+The stream-copy tests build their packed dataset through the recording path, so
+create_videos no longer needs per-episode encoding.
+
+Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
+
+---------
+
+Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/6636d28615debc7cc8c3e581a9d2b85fc18fcf75</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/6636d28615debc7cc8c3e581a9d2b85fc18fcf75" />
+    <ns0:title>
+        feat(train): add accelerate's InitProcessGroupKwargs in the accelerat…
+    </ns0:title>
+    <ns0:updated>2026-11-03T10:41:38Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(train): add accelerate&amp;#39;s InitProcessGroupKwargs in the accelerator config (#5206)
+
+* feat(train): add accelerate&amp;#39;s InitProcessGroupKwargs in the accelerator config
+
+* fix(train): wait for the main process between the live and EMA weight saves
+
+---------
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/b65b05f7f909de72f02ef4ba7854ad40230aa722</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b65b05f7f909de72f02ef4ba7854ad40230aa722" />
+    <ns0:title>
+        fix(configs): honor --policy.pretrained_revision in lerobot-train and…
+    </ns0:title>
+    <ns0:updated>2026-11-03T10:16:58Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(configs): honor --policy.pretrained_revision in lerobot-train and lerobot-eval (#5197)
+
+* fix(configs): honor --policy.pretrained_revision in lerobot-train and lerobot-eval
+
+* fix(policies): load pi0 family weights and PEFT base models at the pinned revision
+
+---------
+
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/aacf46397e6eb90e688e201e002ba6dea3354eb9</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/aacf46397e6eb90e688e201e002ba6dea3354eb9" />
@@ -195,311 +646,6 @@ Co-authored-by: github-actions[bot] &amp;lt;github-actions[bot]@users.noreply.gi
     </ns0:author>
     <ns0:content type="html">
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(tests): restore proxy state with pytest 9.2 (#5165)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/4f6e53766dbeec249a74a7e415238a678d618545</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4f6e53766dbeec249a74a7e415238a678d618545" />
-    <ns0:title>
-        chore(dependencies): allow Pillow 13 (#5024)
-    </ns0:title>
-    <ns0:updated>2026-10-30T16:33:16Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/13902735?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>ynaka81</ns0:name>
-      <ns0:uri>https://github.com/ynaka81</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): allow Pillow 13 (#5024)
-
-Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/8cbac3f112b06c928657fbbcad61ce43c99d75a9</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8cbac3f112b06c928657fbbcad61ce43c99d75a9" />
-    <ns0:title>
-        feat(rollout): log cadence, inference latency and memory periodically…
-    </ns0:title>
-    <ns0:updated>2026-10-30T16:21:53Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(rollout): log cadence, inference latency and memory periodically (#5156)
-
-* feat(rollout): add rollout status report (cadance, memory,  inference time) + config
-
-* docs(rollout): reduce logs docs
-
-* fix(rollout): report the policy rate in the periodic status line
-
-With action interpolation the status line showed the command rate
-(fps x multiplier) while the cadence summaries and the over-budget
-count use the policy rate. Divide by the multiplier so both agree;
-the line is unchanged without interpolation.
-
-Co-authored-by: Anthony Shoumikhin &amp;lt;anthony@shoumikh.in&amp;gt;
-
----------
-
-Co-authored-by: Anthony Shoumikhin &amp;lt;anthony@shoumikh.in&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/bcbdde54430ac5f1f8e6da83cc8188b71e8c6119</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/bcbdde54430ac5f1f8e6da83cc8188b71e8c6119" />
-    <ns0:title>
-        chore(dependencies): allow filelock 4.x, require 4.2.1 or newer (#5154)
-    </ns0:title>
-    <ns0:updated>2026-10-30T16:10:53Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/426434?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>shoumikhin</ns0:name>
-      <ns0:uri>https://github.com/shoumikhin</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): allow filelock 4.x, require 4.2.1 or newer (#5154)
-
-LeRobot pins filelock below 4.0, which keeps it on releases affected by
-GHSA-69hj-f68j-2879: on Unix, FileLock empties (and with an explicit
-mode, re-permissions) any file another local user renames or hard-links
-onto the lock path. LeRobot&amp;#39;s sidecar cache uses FileLock, and
-huggingface_hub&amp;#39;s WeakFileLock passes mode=0o664. The fix is in 4.2.1,
-along with several other advisories, and no 3.x release has it.
-
-This change raises the pin to `filelock&amp;gt;=4.2.1,&amp;lt;5.0.0` and updates
-uv.lock. The only package that moves in the lock is filelock itself,
-from 3.32.7 to 4.2.4.
-
-LeRobot uses filelock in a small way: `FileLock(path, timeout=...)` as a
-context manager and `Timeout` in the streaming sidecar code, plus
-huggingface_hub&amp;#39;s `WeakFileLock` for dataset metadata. 4.1.0 rejects a
-bool or string timeout; LeRobot passes only numbers. The 4.0 breaking
-change is limited to `SoftReadWriteLock`, which LeRobot does not use.
-
-Tested on Linux x86_64 with Python 3.12, in two fresh environments built
-from the old and the new uv.lock (they differ only in filelock):
-
-- tests/test_streaming_sidecar.py, tests/datasets/test_dataset_metadata.py
-  and the other streaming and sidecar tests (20 files, 431 tests):
-  all pass on both filelock 3.32.7 and 4.2.4.
-- A small two-process check that `FileLock` and `WeakFileLock` raise
-  `Timeout` while another process holds the lock, and acquire once it is
-  released: same result on both versions.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/724b1b62ff41ed6ada55d5157b51101f52011cd6</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/724b1b62ff41ed6ada55d5157b51101f52011cd6" />
-    <ns0:title>
-        feat(train): add LeRobot native EMA support with pluggable decays and…
-    </ns0:title>
-    <ns0:updated>2026-10-30T15:27:00Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>HaomingSong</ns0:name>
-      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(train): add LeRobot native EMA support with pluggable decays and sharded training (#5117)
-
-* feat(train): add LeRobot native EMA support with pluggable decays and sharded training
-
-Replace the previous diffusers EMAModel with lerobot.optim.ema: a --ema.type registry, which supports multiple decay curves like warmup, constant,
-power. For sharded training, the layout of float32 averages of is the same as sharded trainable parameters. The ema state can be saved by safetensors or with DCP when
-sharded (same behavior like optimizers). Publishing a model with EMA now will put the EMA weights and live weights in same repo but on different branches.
-
-* fix(train): update the EMA without float32 copies and drop the legacy EMA config migration&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/69360de1c5715f87cb417b3e1f76adda72d98438</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/69360de1c5715f87cb417b3e1f76adda72d98438" />
-    <ns0:title>
-        feat(optim): add the warmup_stable_decay scheduler (#5103)
-    </ns0:title>
-    <ns0:updated>2026-10-30T15:05:02Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>HaomingSong</ns0:name>
-      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(optim): add the warmup_stable_decay scheduler (#5103)
-
-Mirror transformers get_wsd_schedule: linear, cosine or 1-sqrt warmup and decay around a stable phase, with a
-minimum lr ratio.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/552777b7c384e8e71a02303da39583f9a2653760</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/552777b7c384e8e71a02303da39583f9a2653760" />
-    <ns0:title>
-        feat(train): configurable TF32 for training and evaluation (#5096)
-    </ns0:title>
-    <ns0:updated>2026-10-30T14:11:48Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>HaomingSong</ns0:name>
-      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(train): configurable TF32 for training and evaluation (#5096)
-
-* feat(train): add tf32 switch to training and evaluation configs
-
-* fix(policies): let the tf32 option decide TF32 for compiled policies
-
-Compiled pi0, pi05, pi0_fast, smolvla, dm05 and molmoact2 no longer call torch.set_float32_matmul_precision(&amp;quot;high&amp;quot;). lerobot-rollout and lerobot-policy-server get the same tf32 option as training and evaluation.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/69417e890bfec823093793206b478f4d16e35125</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/69417e890bfec823093793206b478f4d16e35125" />
-    <ns0:title>
-        perf(groot): keep N1.7 camera frames on device during preprocessing (…
-    </ns0:title>
-    <ns0:updated>2026-10-30T13:17:45Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/54370193?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Priyakarna13</ns0:name>
-      <ns0:uri>https://github.com/Priyakarna13</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(groot): keep N1.7 camera frames on device during preprocessing (#5112)
-
-* test(groot): pin N1.7 image preprocessing parity
-
-* perf(groot): permute packed video on the target device
-
-* perf(groot): keep same-shape camera frames on device&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/9603c327d8b2ca453a254d9f0a764936bff3ff4e</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9603c327d8b2ca453a254d9f0a764936bff3ff4e" />
-    <ns0:title>
-        perf(datasets): map Lance episode subsets with an O(num_episodes) ind…
-    </ns0:title>
-    <ns0:updated>2026-10-30T12:17:55Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/2283778?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>yanghua</ns0:name>
-      <ns0:uri>https://github.com/yanghua</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(datasets): map Lance episode subsets with an O(num_episodes) index (#4974)
-
-* perf(datasets): map Lance episode subsets with an O(num_episodes) index
-
-* address review comments
-
-* address review comments
-
-* minor fix
-
-* revert the optimization for default reader
-
-* reduce useless code
-
-* address review comments&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/f337b8c871e05675b47fd675d8760a07f482587a</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f337b8c871e05675b47fd675d8760a07f482587a" />
-    <ns0:title>
-        feat(train): add FSDP2 MixedPrecisionPolicy and sync_each_batch (#5095)
-    </ns0:title>
-    <ns0:updated>2026-10-30T10:52:22Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>HaomingSong</ns0:name>
-      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(train): add FSDP2 MixedPrecisionPolicy and sync_each_batch (#5095)
-
-* feat(train): add the FSDP2 MixedPrecisionPolicy and sync_each_batch
-
-Add FSDPConfig.mixed_precision_policy for precise control over the parameters dtype in sharded training.
-Add GradientAccumulationConfig.sync_each_batch.
-
-* fix(configs): reject FSDP2 policies that silently change the mixed precision&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/b2873d6dca69ea2fa0fce9741ab0cdae31713212</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b2873d6dca69ea2fa0fce9741ab0cdae31713212" />
-    <ns0:title>
-        docs: fix dead Isaac Teleop and RealSense links (#5157)
-    </ns0:title>
-    <ns0:updated>2026-10-30T09:55:41Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/120080287?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>sarankumar1325</ns0:name>
-      <ns0:uri>https://github.com/sarankumar1325</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: fix dead Isaac Teleop and RealSense links (#5157)
-
-NVIDIA renamed the IsaacTeleop repository to IsaacCapture, and its
-GitHub Pages site moved from nvidia.github.io/IsaacTeleop/ (now 404) to
-nvidia.github.io/IsaacCapture/ with the same page paths. Point the Isaac
-Teleop guide and the isaac_teleop_to_so101 example README at the new
-site.
-
-The librealsense repository moved to the realsenseai org, and the old
-IntelRealSense issue URL in the cameras guide now returns 404.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/38b975c5bca0db0ce11a65705419cca001c6dafa</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/38b975c5bca0db0ce11a65705419cca001c6dafa" />
-    <ns0:title>
-        fix(xvla): compute select_action chunks through predict_action_chunk …
-    </ns0:title>
-    <ns0:updated>2026-10-29T17:06:29Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/426434?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>shoumikhin</ns0:name>
-      <ns0:uri>https://github.com/shoumikhin</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(xvla): compute select_action chunks through predict_action_chunk (#4827)
-
-* fix(xvla): compute select_action chunks through predict_action_chunk
-
-lerobot-rollout --use_torch_compile compiles a policy by wrapping its
-predict_action_chunk with torch.compile. X-VLA&amp;#39;s select_action called the
-internal _get_action_chunk instead, so the compiled wrapper never ran and
-X-VLA stayed uncompiled, while the rollout still logged that compilation
-was configured. X-VLA has no compile setting of its own, so this wrapper
-is the only way the flag can reach it.
-
-Compute each new chunk through predict_action_chunk, as most chunking
-policies already do, and pass the noise argument on to it.
-predict_action_chunk calls the same _get_action_chunk. Its observation
-queue update now runs only on the ticks that compute a chunk, which
-changes nothing for X-VLA because its only queue holds actions.
-
-The new test keeps the real predict_action_chunk and records each call to
-it, the same way the rollout installs its wrapper, and replaces only the
-chunk computation inside it with a fresh random chunk per call. It checks
-that select_action computes exactly two chunks through predict_action_chunk,
-passes the same batch and noise each time, and returns the first
-n_action_steps actions of the first chunk and then the first action of the
-next one. It fails without the change.
-
-* test(xvla): drop select_action routing test
-
----------
-
-Co-authored-by: Steven Palma &amp;lt;steven.palma@huggingface.co&amp;gt;
-Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

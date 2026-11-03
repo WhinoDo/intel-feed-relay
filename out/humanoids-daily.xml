@@ -7,9 +7,49 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 02 Nov 2026 17:10:29 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 03 Nov 2026 16:16:21 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/churchill-xi-shareholders-approve-agility-robotics-merger</guid>
+    <title>Churchill XI Shareholders Approve Agility Robotics Merger Ahead of Expected November 4 Closing</title>
+    <link>https://www.humanoidsdaily.com/news/churchill-xi-shareholders-approve-agility-robotics-merger</link>
+    <description>Shareholders approved the Agility Robotics merger on November 2. Closing is expected November 4, followed by Nasdaq trading under AGLT on November 5.</description>
+    <pubDate>Tue, 03 Nov 2026 16:16:21 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Agility Robotics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/aimoga-mobo-home-companion-global-preorders</guid>
+    <title>AiMOGA Opens Global Pre-Orders for MOBO Home Companion Robot</title>
+    <link>https://www.humanoidsdaily.com/news/aimoga-mobo-home-companion-global-preorders</link>
+    <description>Chery’s AiMOGA is moving into home companionship with MOBO, a 22-DoF robot with claimed long-term memory, as it explores shared AI capabilities with vehicles.</description>
+    <pubDate>Tue, 03 Nov 2026 15:47:05 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>AiMOGA</category><category>China</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/neura-david-reger-dw-military-robots-civilian-productivity</guid>
+    <title>Neura CEO David Reger Explains Why He Rejects Military Robotics</title>
+    <link>https://www.humanoidsdaily.com/news/neura-david-reger-dw-military-robots-civilian-productivity</link>
+    <description>In a DW interview, David Reger argues that civilian robotics and industrial productivity offer Europe a stronger path forward than military contracts.</description>
+    <pubDate>Tue, 03 Nov 2026 15:25:33 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>David Reger</category><category>4NE-1</category><category>Neura Robotics</category><category>Europe</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xiaomi-humanoids-eight-hour-auto-factory-sorting</guid>
+    <title>Xiaomi Shows Humanoids Sorting Car Parts in Eight-Hour Factory Demonstration</title>
+    <link>https://www.humanoidsdaily.com/news/xiaomi-humanoids-eight-hour-auto-factory-sorting</link>
+    <description>Xiaomi’s latest video shows two humanoids sorting center-console side covers over an eight-hour task, with claimed autonomous error recovery and production-line coordination.</description>
+    <pubDate>Tue, 03 Nov 2026 11:21:30 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>xiaomi</category><category>China</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoid-robot-batteries-850-million-2037-idtechex</guid>
     <title>Humanoid Robot Batteries Could Become an $850 Million Market by 2037, IDTechEx Forecasts</title>
@@ -268,46 +308,6 @@
     <pubDate>Tue, 27 Oct 2026 17:00:36 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Newsletter</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/luxonis-oak-4-ffc-humanoid-vision-computer</guid>
-    <title>Luxonis Launches OAK 4 FFC to Put Five Robot Cameras on One Vision Computer</title>
-    <link>https://www.humanoidsdaily.com/news/luxonis-oak-4-ffc-humanoid-vision-computer</link>
-    <description>The compact board supports custom camera layouts, onboard depth and AI processing, and scene-based calibration. The $849 developer kit is shipping now, with cameras sold separately.</description>
-    <pubDate>Tue, 27 Oct 2026 13:41:56 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Luxonis</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/machenta-40-million-instant-robot-learning</guid>
-    <title>Machenta Raises $40 Million to Teach Robots New Tasks From One Demonstration</title>
-    <link>https://www.humanoidsdaily.com/news/machenta-40-million-instant-robot-learning</link>
-    <description>The London startup says its simulation-trained model can adapt to new tasks without fine-tuning, with early demonstrations extending to humanoid hands.</description>
-    <pubDate>Tue, 27 Oct 2026 12:27:06 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Machenta</category><category>Europe</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/worldoracle-tests-world-models-against-real-world-executions</guid>
-    <title>WorldOracle Tests Whether World Models Can Reliably Predict Real-World Executions</title>
-    <link>https://www.humanoidsdaily.com/features/worldoracle-tests-world-models-against-real-world-executions</link>
-    <description>WorldOracle tests whether action-conditioned world models predict what robots actually do, revealing gaps in object motion and long-horizon accuracy.</description>
-    <pubDate>Tue, 27 Oct 2026 10:37:39 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>WorldOracle</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-lars-moravy-optimus-cybercab-charging-helper</guid>
-    <title>Tesla’s Lars Moravy Floats Optimus as a Cybercab Charging Helper</title>
-    <link>https://www.humanoidsdaily.com/news/tesla-lars-moravy-optimus-cybercab-charging-helper</link>
-    <description>In a Munro Live discussion, Moravy suggests Optimus could help Cybercab use existing charging infrastructure, without announcing a firm deployment timetable.</description>
-    <pubDate>Tue, 27 Oct 2026 10:25:08 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Tesla</category><category>US</category>
   </item>
 
   </channel>
