@@ -4,7 +4,47 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-02T14:36:34Z</ns0:updated>
+  <ns0:updated>2026-11-03T09:43:34Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/aacf46397e6eb90e688e201e002ba6dea3354eb9</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/aacf46397e6eb90e688e201e002ba6dea3354eb9" />
+    <ns0:title>
+        fix(eval): collect predicted latents through PEFT wrapped model (#5092)
+    </ns0:title>
+    <ns0:updated>2026-11-03T09:43:34Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(eval): collect predicted latents through PEFT wrapped model (#5092)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/4598a0bb5735a135898f2f9bcd7edea280257632</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4598a0bb5735a135898f2f9bcd7edea280257632" />
+    <ns0:title>
+        Bump transformers version to 5.22 (#5220)
+    </ns0:title>
+    <ns0:updated>2026-11-03T09:30:03Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/39954772?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>molbap</ns0:name>
+      <ns0:uri>https://github.com/molbap</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Bump transformers version to 5.22 (#5220)
+
+* various fixes and bump version
+
+* better lock
+
+* bump dockerfiles
+
+* revert docker builds for new version&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/f5c9bc02137c331b009eccd44ece6f11b62187a8</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f5c9bc02137c331b009eccd44ece6f11b62187a8" />
@@ -460,64 +500,6 @@ next one. It fails without the change.
 
 Co-authored-by: Steven Palma &amp;lt;steven.palma@huggingface.co&amp;gt;
 Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/8b00dab8fc27062124a4cc5eaa429e59c9045e00</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8b00dab8fc27062124a4cc5eaa429e59c9045e00" />
-    <ns0:title>
-        refactor(utils): replace wandb with trackio (#4954)
-    </ns0:title>
-    <ns0:updated>2026-10-29T16:52:10Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(utils): replace wandb with trackio (#4954)
-
-* refactor(utils): replace wandb with trackio
-
-* chore(dependecies): update tags &amp;amp; docs
-
-* feat(trackio): capture console output and launch command
-
-* refactor(common): top level import trackio
-
-* docs(sarm): restore --reward_model.repo_id in training commands
-
-* docs(trackio): reword module docstring
-
-* fix(trackio): skip misleading new-run warning when resume=must
-
-* test(trackio): consolidate redundant logger tests
-
----------
-
-Co-authored-by: CarolinePascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/5bac1d0c27a69be452140d1f1d940d7ef1b68bc8</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/5bac1d0c27a69be452140d1f1d940d7ef1b68bc8" />
-    <ns0:title>
-        fix(rollout): connect hardware after setup and close resources on fai…
-    </ns0:title>
-    <ns0:updated>2026-10-29T16:37:19Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/13318497?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>s1lent4gnt</ns0:name>
-      <ns0:uri>https://github.com/s1lent4gnt</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(rollout): connect hardware after setup and close resources on failure (#4866)
-
-* fix(rollout): connect local hardware after setup
-
-* test(rollout): fix remote fakes
-
-* test(rollout): simplify local setup tests&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
