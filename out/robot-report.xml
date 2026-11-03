@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Tue, 03 Nov 2026 14:41:46 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 03 Nov 2026 21:35:40 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,82 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Ben Waters on the latest wireless charging strategies</title>
+		<link>https://www.therobotreport.com/ben-waters-on-the-latest-wireless-charging-strategies/</link>
+					<comments>https://www.therobotreport.com/ben-waters-on-the-latest-wireless-charging-strategies/#respond</comments>
+		
+		<dc:creator>Mike Oitzman</dc:creator>
+		<pubDate>Tue, 03 Nov 2026 21:29:37 +0000</pubDate>
+				<category>Aerospace</category>
+		<category>Autonomous Mobile Robots (AMRs)</category>
+		<category>Batteries / Power Supplies</category>
+		<category>Defense / Security</category>
+		<category>Humanoids</category>
+		<category>News</category>
+		<category>Unmanned Aerial Systems / Drones</category>
+		<category>WiBotic</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=589956</guid>
+
+					<description>&lt;p&gt;Ben Waters discusses opportunity charging, battery life, and the infrastructure needed to keep growing robot fleets running.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/ben-waters-on-the-latest-wireless-charging-strategies/"&gt;Ben Waters on the latest wireless charging strategies&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_589957" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-589957" class="size-full wp-image-589957" src="https://www.therobotreport.com/wp-content/uploads/2026/10/wibotic-jackel-featured.jpg" alt="a clearpath jackel mobile robot approaches a wibotic wireless charger outdoors." width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/wibotic-jackel-featured.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/wibotic-jackel-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/wibotic-jackel-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/wibotic-jackel-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/wibotic-jackel-featured-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-589957" class="wp-caption-text"&gt;Wireless chargers are being deployed in a number of indoor and outdoor applications for charging the mobile robots. | Credit: WiBotic&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;As robot fleets scale, charging becomes an operational challenge. Understanding how to optimize charging for fleets of mobile robots is key to getting the best performance from the fleet throughout the day.&lt;/p&gt;
+&lt;div id="attachment_589943" style="width: 290px" class="wp-caption alignleft"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-589943" class="size-full wp-image-589943" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Ben-Waters-Headshot.jpg" alt="headshot of Ben Waters." width="280" height="350" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Ben-Waters-Headshot.jpg 280w, https://www.therobotreport.com/wp-content/uploads/2026/10/Ben-Waters-Headshot-240x300.jpg 240w, https://www.therobotreport.com/wp-content/uploads/2026/10/Ben-Waters-Headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/10/Ben-Waters-Headshot-190x238.jpg 190w" sizes="(max-width: 280px) 100vw, 280px" /&gt;&lt;p id="caption-attachment-589943" class="wp-caption-text"&gt;Ben Waters, CEO of WiBotic&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;With growing deployments, charging is becoming more than a question of how long a battery lasts or how quickly it can recharge. Charging strategy can affect fleet uptime, facility infrastructure, maintenance requirements, and even the size of the &lt;a href="https://www.therobotreport.com/category/technologies/batteries-power-supplies/" target="_blank" rel="noopener"&gt;batteries&lt;/a&gt; that robot manufacturers need to carry.&lt;/p&gt;
+&lt;p&gt;Ben Waters, CEO of &lt;a href="https://www.therobotreport.com/tag/wibotic" target="_blank" rel="noopener"&gt;WiBotic&lt;/a&gt;, recently joined &lt;em&gt;The Robot Report&lt;/em&gt; Podcast to discuss how those considerations are changing as robot fleets scale.&lt;/p&gt;
+&lt;p&gt;He also discussed opportunity charging, the tradeoffs around fast charging, WiBotic&amp;#8217;s move toward higher-power systems, and how charging data could help operators identify power problems.&lt;/p&gt;
+&lt;p&gt;This is an excerpt from the podcast interview. Listen to the full audio anywhere you get your podcasts or &lt;a href="https://www.therobotreport.com/why-opportunity-charging-is-winning-as-robot-fleets-scale/" target="_blank" rel="noopener"&gt;online in the show notes&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;WiBotic expands beyond its traditional robotics markets&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;What has changed recently at WiBotic, and how is the market maturing?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Waters:&lt;/strong&gt; Overall, WiBotic has diversified into a few different markets, but all the while, robotics has really been growing, as we all know, over the last last one to two years for sure.&lt;/p&gt;
+&lt;p&gt;That was a big motivator for us to pursue getting into some adjacent markets. Take, for example, &lt;a href="https://www.therobotreport.com/tag/cleaning" target="_blank" rel="noopener"&gt;floor care&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/tag/medical/" target="_blank" rel="noopener"&gt;medical&lt;/a&gt; carts, &lt;a href="https://www.therobotreport.com/category/markets-industries/aerospace" target="_blank" rel="noopener"&gt;space&lt;/a&gt;, and &lt;a href="https://www.therobotreport.com/category/markets-industries/defense-security/" target="_blank" rel="noopener"&gt;defense&lt;/a&gt; applications, all of which are markets that really use the same product as our longstanding robotics customers from a wireless charging, autonomous charging perspective.&lt;/p&gt;
+&lt;p&gt;Flash-forward a year of focusing on that and putting all the internal operational, sales, and engineering teams in place to support different markets. Here we are a year and a half later, and robotics is booming everywhere you look, right? I mean, all of our legacy customers in robotics have had significant volume growth this year.&lt;/p&gt;
+&lt;p&gt;We are seeing huge growth in &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/automotive/" target="_blank" rel="noopener"&gt;automotive&lt;/a&gt; &lt;a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener"&gt;AMR&lt;/a&gt; adoption. We are seeing growth in outdoor robotic &lt;a href="https://www.therobotreport.com/tag/inspection" target="_blank" rel="noopener"&gt;inspection&lt;/a&gt; for &lt;a href="https://www.therobotreport.com/category/markets-industries/energy-solar-renewables" target="_blank" rel="noopener"&gt;energy&lt;/a&gt; substations, and a lot of outdoor applications are growing. And then there&amp;#8217;s the wild card of &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoids&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Wireless charging is a really interesting dynamic in humanoids as far as what it can enable and how it can improve uptime and eliminate some of these Achilles&amp;#8217; heels issues that humanoids have around downtime.&lt;/p&gt;
+&lt;h2&gt;Opportunity charging changes the equation for large robot fleets&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;As fleets of mobile robots grow, where does charging start creating operational friction?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Waters:&lt;/strong&gt; The big trend as charging relates to operational impact is what we&amp;#8217;ve probably talked about before with Gene [Demaitre]. WiBotic has always looked at as a great opportunity for wireless charging. But, you know, it takes a while for fleets to get big enough for it to truly make sense. And I think we&amp;#8217;re finally at that place. And what I&amp;#8217;m referring to is opportunity charging.&lt;/p&gt;
+&lt;p&gt;So it&amp;#8217;s the concept of &amp;#8220;Don&amp;#8217;t just put the chargers on the sides of the factories.&amp;#8221; And then when the battery on the robot gets to 20%, that robot might be on the far side of the factory. Now it&amp;#8217;s got to drive 10 minutes while watching out for everything else and while being ignored by the &lt;a href="https://www.therobotreport.com/tag/fleet-management" target="_blank" rel="noopener"&gt;fleet management&lt;/a&gt; for doing a task, even though it&amp;#8217;s in an area where a task needs to get done, right? Because it has to go charge.&lt;/p&gt;
+&lt;p&gt;That strategy, which is arguably easier to implement at a small scale, because you can truly just say, &amp;#8220;If any one of these robots&amp;#8217; batteries hits 20%, stop and go drive to the charging station.&amp;#8221; That&amp;#8217;s fairly easy to implement. That gets really complicated, and that leads to a lot of unwanted downtime when the fleets start to get bigger. Even like fleets of 20 to 40, this becomes a bottleneck.&lt;/p&gt;
+&lt;p&gt;We need to implement opportunity charging. And it doesn&amp;#8217;t make sense to do opportunity charging with anything but wireless. Because if you did it with contacts, your robots would be hitting the contacts so many more times. And even if you had the world&amp;#8217;s most strongest contact, it still would require maintenance at some point, times all of the chargers in your fleet.&lt;/p&gt;
+&lt;p&gt;If the robot does a task and it&amp;#8217;s got 10 seconds to sit there, well, a charging station should be positioned right where that robot naturally is going to sit.&lt;/p&gt;
+&lt;p&gt;You could look at that as well. It&amp;#8217;s only charging for 10 seconds, but if you do that often enough, it&amp;#8217;s adding substantial energy back into the batteries across the fleet and allowing these things to run 24/7.&lt;/p&gt;
+&lt;p&gt;You can completely eliminate that. Just allow the robots to stay in the loops where they&amp;#8217;re operating when you employ opportunity charging. So that&amp;#8217;s really the trend that we&amp;#8217;ve been seeing and the demand we&amp;#8217;ve been getting, and the main reason why companies are looking for wireless power.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;Charging should be part of the robot design process&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;How should companies think about charging during system design instead of treating it as an accessory at the end?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Waters:&lt;/strong&gt; If I boil it down to three things, I think companies should be thinking about power infrastructure. I&amp;#8217;ll come back to a few details on these. Where are your electrical outlets, and how many of them do you have, and are they rated for enough power to handle all the chargers you want to deploy? So think about that up front. That bites people. We&amp;#8217;ve seen a lot when you think about that too late.&lt;/p&gt;
+&lt;p&gt;I think people are really questioning. How big of a battery do I need? Do I need a battery that supports an eight-hour runtime? Do I need a battery that supports super fast charging? In the world of batteries, most of these types of things trade off with each other.&lt;/p&gt;
+&lt;p&gt;They might be overdesigning it. They might be adding way too much battery cost for what they really need, especially if they&amp;#8217;re thinking about charging strategies.&lt;/p&gt;
+&lt;p&gt;We still hear a lot of customers be like, &amp;#8220;We need to charge these things as fast as humanly possible.&amp;#8221; And we&amp;#8217;re going to listen, and we&amp;#8217;re going to assume the customers made the right choices for the right reasons.&lt;/p&gt;
+&lt;p&gt;But sometimes, we do have a strong relationship with someone, we get into these topics. It&amp;#8217;s not our job necessarily to push back, but we are curious battery guys, and we&amp;#8217;re a friendly company to work with. So we sometimes ask: &amp;#8220;Do you really want to charge at 3°C all the time? Have you seen a data sheet from the battery manufacturer that says what that&amp;#8217;s gonna do to lifetime? Is that worth it?&amp;#8221;&lt;/p&gt;
+&lt;p&gt;And then the third thing for sure is maintenance. If you wait till you&amp;#8217;ve already finished your design, and you&amp;#8217;re starting to deploy and haven&amp;#8217;t thought about those things, then almost surely, you will get bit by every one of those things within at least a couple of months, if not sooner.&lt;/p&gt;
+&lt;h2&gt;WiBotic develops chargers for outdoor robots, drones and humanoids&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;As WiBotic moves into new applications, how have its products evolved?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Waters:&lt;/strong&gt; WiBotic has always really tried to think about what product serves the maximum number of customers and people, right? We&amp;#8217;re not a consulting business where we customize every system.&lt;/p&gt;
+&lt;p&gt;As far as developing circuits and certifying systems, we want to be a company that makes standard products and sells systems to customers that they can depend on that are supported and certified.&lt;/p&gt;
+&lt;p&gt;We most recently launched in our 1 kW product family an IP65-rated version of the charger. When we first launched our 1 kW product a couple years ago, it was just available in our typical black box IP20 form factor.&lt;/p&gt;
+&lt;p&gt;So we now have an IP65 form factor, which is really needed for outdoor applications and robotics. Really desirable from, you know, indoor applications like floor care where water and dust are very much parts of those systems.&lt;/p&gt;
+&lt;p&gt;Right now, we are actively developing more around two areas of innovation. One is size and weight. We are seeing a lot of interest in &lt;a href="https://www.therobotreport.com/category/robots-platforms/uav-drones/" target="_blank" rel="noopener"&gt;drone&lt;/a&gt; applications. WiBotic certainly has had a long history with drones.&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;re developing lightweight, high-power systems for drones, which just so happens to be kind of the same thing that humanoids need as well.&lt;/p&gt;
+&lt;p&gt;The more mass you add to a humanoid, the more energy it has to spend because it&amp;#8217;s balancing that mass. And there&amp;#8217;s not a lot of space. So yeah, we&amp;#8217;re focusing on a lot of small form-factor, high-power applications, as well as pushing the power of our current products up to a 3 kW level.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Why Opportunity Charging is Winning as Robot Fleets Scale" width="740" height="416" src="https://www.youtube.com/embed/dxWzsHfu_sc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/ben-waters-on-the-latest-wireless-charging-strategies/"&gt;Ben Waters on the latest wireless charging strategies&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/ben-waters-on-the-latest-wireless-charging-strategies/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>New ISO interoperability standard covers collaboration among mobile robots from multiple vendors</title>
 		<link>https://www.therobotreport.com/new-iso-interoperability-standard-covers-collaboration-among-mobile-robots-from-multiple-vendors/</link>
 					<comments>https://www.therobotreport.com/new-iso-interoperability-standard-covers-collaboration-among-mobile-robots-from-multiple-vendors/#respond</comments>
@@ -46,7 +122,7 @@
 					<description>&lt;p&gt;The ISO 21423:2026 interoperability standard is intended to allow mobile robots from multiple vendors to communicate and coordinate.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/new-iso-interoperability-standard-covers-collaboration-among-mobile-robots-from-multiple-vendors/"&gt;New ISO interoperability standard covers collaboration among mobile robots from multiple vendors&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_590105" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590105" class="wp-image-590105 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/11/AdobeStock_2225516731-copy.jpg" alt="A rendering of mobile robots communicating among one another. The new ISO 21423:2026 standard covers interoperability among different mobile robots." width="770" height="497" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/AdobeStock_2225516731-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/AdobeStock_2225516731-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/AdobeStock_2225516731-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/AdobeStock_2225516731-copy-768x496.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/AdobeStock_2225516731-copy-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590105" class="wp-caption-text"&gt;The new ISO 21423:2026 standard is intended to facilitate communications among different mobile robots. Source: mansyupasara AI, Adobe Stock&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_590105" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590105" class="wp-image-590105 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/11/AdobeStock_2225516731-copy.jpg" alt="A rendering of mobile robots communicating among one another. The new ISO 21423:2026 standard covers interoperability among different mobile robots." width="770" height="497" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/AdobeStock_2225516731-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/AdobeStock_2225516731-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/AdobeStock_2225516731-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/AdobeStock_2225516731-copy-768x496.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/AdobeStock_2225516731-copy-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590105" class="wp-caption-text"&gt;The new ISO 21423:2026 standard is intended to facilitate communications among different mobile robots. Source: mansyupasara AI, Adobe Stock&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;As fleets of mobile robots grow, the need for interoperability among systems increases. The Association for Advancing Automation, or A3, yesterday published ISO 21423:2026, a new international standard for communications among industrial mobile robots, or IMRs, regardless of vendor or model.&lt;/p&gt;
 &lt;p&gt;“Companies want to choose the robots that fit their applications and have those robots work together on the same floor,” stated Carole Franklin, director of standards development for robotics at A3. “Many leading industrial users of mobile robots have asked for an interoperability standard for years.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;&amp;#8220;Now, ISO 21423 gives manufacturers and users a common basis for communication across fleets, no matter where in the world their facility is located,&amp;#8221; she added. &amp;#8220;This standard can help companies expand automation with equipment from different vendors and make better use of the robots they already have.”&lt;/p&gt;
@@ -57,7 +133,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;h2&gt;Standard also covers communications with other systems&lt;/h2&gt;
@@ -65,7 +141,7 @@
 &lt;p&gt;&amp;#8220;ISO 21423 represents the first non-safety robot standard that A3 has helped produce, and highlights A3’s continued leadership in robotics standardization efforts,&amp;#8221; said the Ann Arbor, Mich.-based organization. The standard is available at the &lt;a href="https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fwww.automate.org%2Fstore%2Fcategories%2Findustrial-robot-standards&amp;amp;esheet=54633334&amp;amp;newsitemid=20261102169540&amp;amp;lan=en-US&amp;amp;anchor=A3+online+store&amp;amp;index=2&amp;amp;md5=134c1878312840df7222f1982027b58d" target="_blank" rel="nofollow noopener" shape="rect"&gt;A3 online store&lt;/a&gt; for $373. A3 members can purchase the document for $320.&lt;/p&gt;
 &lt;p&gt;The Association for Advancing Automation is a leading global advocate for the benefits of automating. Members of &lt;a href="https://www.therobotreport.com/tag/association-for-advancing-automation" target="_blank" rel="noopener"&gt;A3&lt;/a&gt; represent more than 1,500 manufacturers, component suppliers, systems integrators, end users, academic institutions, research groups, and consulting firms.&lt;/p&gt;
 &lt;p&gt;A3 hosts events including the &lt;a href="https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fwww.automate.org%2Fevents%2Finternational-robot-safety-conference&amp;amp;esheet=54633334&amp;amp;newsitemid=20261102169540&amp;amp;lan=en-US&amp;amp;anchor=International+Robot+Safety+Conference&amp;amp;index=4&amp;amp;md5=b654f725b76bc07af39a4130f18747df" target="_blank" rel="nofollow noopener" shape="rect"&gt;International Robot Safety Conference&lt;/a&gt;, the &lt;a href="https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fwww.automate.org%2Fevents%2Fbusiness-forum&amp;amp;esheet=54633334&amp;amp;newsitemid=20261102169540&amp;amp;lan=en-US&amp;amp;anchor=A3+Business+Forum&amp;amp;index=5&amp;amp;md5=6589035c7426fd6abd37949989af5201" target="_blank" rel="nofollow noopener" shape="rect"&gt;A3 Business Forum&lt;/a&gt;, and &lt;a href="https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=https%3A%2F%2Fwww.automateshow.com%2F&amp;amp;esheet=54633334&amp;amp;newsitemid=20261102169540&amp;amp;lan=en-US&amp;amp;anchor=Automate&amp;amp;index=6&amp;amp;md5=ec3a5c235db95b0dca1951013a009047" target="_blank" rel="nofollow noopener" shape="rect"&gt;Automate&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;iframe title="Automate 2026 Orchestration Demo" width="740" height="416" src="https://www.youtube.com/embed/6TD7VKJ8jnc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Automate 2026 Orchestration Demo" width="740" height="416" src="https://www.youtube.com/embed/6TD7VKJ8jnc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/new-iso-interoperability-standard-covers-collaboration-among-mobile-robots-from-multiple-vendors/"&gt;New ISO interoperability standard covers collaboration among mobile robots from multiple vendors&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </ns3:encoded>
 					
@@ -188,7 +264,7 @@
 		
 			</item>
 		<item>
-		<title>Gentherm designs ThermAffyx to protect, move patients during robotic surgeries</title>
+		<title>Gentherm designs ThermAffyx to secure, heat patients during robotic surgeries</title>
 		<link>https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/</link>
 					<comments>https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/#respond</comments>
 		
@@ -206,7 +282,7 @@
 		<guid isPermaLink="false">https://www.therobotreport.com/?p=590092</guid>
 
 					<description>&lt;p&gt;ThermAffyx addresses secure positioning and heating of patients for robot-assisted surgical procedures with a minimal OR footprint.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/"&gt;Gentherm designs ThermAffyx to protect, move patients during robotic surgeries&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/"&gt;Gentherm designs ThermAffyx to secure, heat patients during robotic surgeries&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
 										<ns3:encoded>&lt;div id="attachment_590096" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590096" class="wp-image-590096 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/11/ThermAffyx.jpg" alt="ThermAffyx both secures and warms patients during robot-assisted surgeries, says Gentherm." width="770" height="497" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/ThermAffyx.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/ThermAffyx-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/ThermAffyx-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/ThermAffyx-768x496.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/ThermAffyx-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590096" class="wp-caption-text"&gt;ThermAffyx both securely positions and warms patients during robot-assisted surgeries. Source: Gentherm&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Many healthcare advances come from within that industry, but innovations from other industries can also find a role. Gentherm Medical has designed its ThermAffyx Patient Safety System based on thermal management experience from the automotive industry.&lt;/p&gt;
@@ -259,7 +335,7 @@
 &lt;p&gt;However, its innovative 3-in-1 design offers benefits that extend well beyond these initial applications.&lt;/p&gt;
 &lt;p&gt;By integrating warming technology into a pressure redistributing underbody foam pad, ThermAffyx can help support patient temperature management in a wide range of surgical settings where maintaining normothermia can be difficult including orthopedics, cardiovascular, colorectal, and plastics cases.&lt;/p&gt;
 &lt;p&gt;&lt;iframe loading="lazy" title="ThermAffyx Inservice Video" width="740" height="416" src="https://www.youtube.com/embed/W6glFVKMSTs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/"&gt;Gentherm designs ThermAffyx to protect, move patients during robotic surgeries&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/"&gt;Gentherm designs ThermAffyx to secure, heat patients during robotic surgeries&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/feed/</ns4:commentRss>
@@ -990,81 +1066,6 @@ An attacker could exploit weaknesses to change files that influence motion plann
 					
 					<ns4:commentRss>https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/feed/</ns4:commentRss>
 			<ns5:comments>1</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>2026 Robotics Handbook looks at humanoids, AI, and design choices</title>
-		<link>https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/</link>
-					<comments>https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/#respond</comments>
-		
-		<dc:creator>The Robot Report Staff</dc:creator>
-		<pubDate>Thu, 29 Oct 2026 19:36:12 +0000</pubDate>
-				<category>Arms / Manipulators</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Construction</category>
-		<category>Development Tools / SDKs / Libraries</category>
-		<category>Digital Issues</category>
-		<category>End Effectors / Grippers</category>
-		<category>Grippers</category>
-		<category>Humanoids</category>
-		<category>Industrial Robots</category>
-		<category>Logistics</category>
-		<category>Manufacturing</category>
-		<category>Materials</category>
-		<category>Mechanical</category>
-		<category>Motion Control</category>
-		<category>News</category>
-		<category>Packaging &amp; Palletizing</category>
-		<category>Packaging &amp; Palletizing • Pick-Place</category>
-		<category>Pneumatics &amp; Hydraulics</category>
-		<category>Soft Robotics</category>
-		<category>Software / Simulation</category>
-		<category>All Motion</category>
-		<category>Apptronik</category>
-		<category>Boker's</category>
-		<category>Boston Dynamics</category>
-		<category>CS Hyde</category>
-		<category>DigiKey</category>
-		<category>ElectroCraft</category>
-		<category>Jabil</category>
-		<category>Locus Robotics</category>
-		<category>Monumental</category>
-		<category>Plus One Robotics</category>
-		<category>SIKO</category>
-		<category>SoftServe</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590069</guid>
-
-					<description>&lt;p&gt;The 2026 Robotics Handbook examines design choices behind dexterous manipulation, humanoid robots, and construction automation.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/"&gt;2026 Robotics Handbook looks at humanoids, AI, and design choices&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;p&gt;&lt;iframe title="Design World Robotics Handbook November 2026" src="https://e.issuu.com/embed.html?u=wtwhmedia&amp;#038;d=design_world_robotics_handbook_november_2026" style="border:none; width: 740px; height: 567px;" allow="clipboard-write,allow-top-navigation,allow-top-navigation-by-user-activation,allow-downloads,allow-scripts,allow-same-origin,allow-popups,allow-modals,allow-popups-to-escape-sandbox,allow-forms"  allowfullscreen="true"&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;This year, &lt;em&gt;The Robot Report &lt;/em&gt;continued to share developments in design, engineering, and deployment of commercial systems, but the pace of change has accelerated. This is due to advances in hardware, scale, and most of all, artificial intelligence. The 2026 Robotics Handbook curates some of the top trends in the space.&lt;/p&gt;
-&lt;p&gt;As labor shortages drive demand for automation, markets become more knowledgeable about robots&amp;#8217; capabilities, and the systems themselves get easier to use, robotics adoption is growing. According to the International Federation of Robotics (IFR) and the Association for Advancing Automation (A3), both &lt;a href="https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/" target="_blank" rel="noopener"&gt;global&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/north-american-robot-orders-climb-24-8-q3-2026-says-a3/" target="_blank" rel="noopener"&gt;U.S.&lt;/a&gt; &lt;a href="https://www.therobotreport.com/u-s-robotics-industry-saw-double-digit-growth-in-2025-says-ifr/" target="_blank" rel="noopener"&gt;orders&lt;/a&gt; are climbing after a post-pandemic pause.&lt;/p&gt;
-&lt;p&gt;This free download looks at the engineering challenges, component choices, and market opportunities for robotics. While humanoid robots are still in development and commercial trials, massive amounts of funding have led to stiff competition as big tech companies and emerging startups try different form factors and use cases.&lt;/p&gt;
-&lt;p&gt;AI is the other prominent topic of 2026, as it changes how robots are designed, programmed, and managed. From large language models and vision-language-action models to world models, AI is already starting to make robots more autonomous, easier to use, and safer for people to interact with. However, the devil is in the details, as concerns around data, cybersecurity, and national sovereignty persist.&lt;/p&gt;
-&lt;h2&gt;What the 2026 Robotics Handbook features&lt;/h2&gt;
-&lt;p&gt;The 2026 Robotics Handbook also looks at advances in dexterous manipulation and spotlights an industry where automation is just getting started &amp;#8212; construction. In this issue, you can learn about:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The importance of cost, humans in the loop, and generalization versus specialization of manipulators with Plus One Robotics&lt;/li&gt;
-&lt;li&gt;What effects integration, safety, and the desire for human-level abilities have on the pace of humanoid development as seen in Jabil&amp;#8217;s collaboration with Apptronik&lt;/li&gt;
-&lt;li&gt;A look at how Boston Dynamics has approached end effectors as it works to bring its Atlas humanoid robot to market&lt;/li&gt;
-&lt;li&gt;The role of &amp;#8220;virtual gyms&amp;#8221; and simulation to accelerate AI for complex robot behaviors from SoftServe&lt;/li&gt;
-&lt;li&gt;Why suction and soft grippers are better than either alone with Locus Robotics&lt;/li&gt;
-&lt;li&gt;How Monumental determined that bricklaying was the place to start with automation for the construction industry&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Sponsors for the 2026 Robotics Handbook include &lt;a href="https://www.digikey.com/" target="_blank" rel="noopener"&gt;DigiKey&lt;/a&gt;, &lt;a href="https://www.allmotion.com/" target="_blank" rel="noopener"&gt;All Motion&lt;/a&gt;, &lt;a href="https://cshyde.com/" target="_blank" rel="noopener"&gt;CS Hyde Co.&lt;/a&gt;, &lt;a href="https://www.bokers.com/" target="_blank" rel="noopener"&gt;Boker&amp;#8217;s Inc.&lt;/a&gt;, &lt;a href="https://www.siko-global.com/en/products" target="_blank" rel="noopener"&gt;SIKO Products Inc.&lt;/a&gt;, and &lt;a href="https://electrocraft.com/" target="_blank" rel="noopener"&gt;ElectroCraft&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/"&gt;2026 Robotics Handbook looks at humanoids, AI, and design choices&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
 		
 		
 			</item>

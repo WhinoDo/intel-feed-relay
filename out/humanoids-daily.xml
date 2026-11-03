@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 03 Nov 2026 16:16:21 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 03 Nov 2026 18:38:01 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/schaeffler-job-cuts-europe-humanoid-robotics-growth</guid>
+    <title>Schaeffler to Cut 3,460 Jobs in Europe, Names Humanoid Robotics as a Growth Area</title>
+    <link>https://www.humanoidsdaily.com/news/schaeffler-job-cuts-europe-humanoid-robotics-growth</link>
+    <description>The German supplier will close five sites and expects €480 million in one-time costs, while pointing to humanoid robotics and defense to absorb part of the reduction.</description>
+    <pubDate>Tue, 03 Nov 2026 18:38:01 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Europe</category><category>Business</category><category>Market</category><category>Schaeffler</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/weekly-newsletter-meta-fourier-factory-robots-november-3</guid>
+    <title>This Week in Humanoids: Meta’s Reported Max, Factory Robots and Lumi’s Next Step</title>
+    <link>https://www.humanoidsdaily.com/news/weekly-newsletter-meta-fourier-factory-robots-november-3</link>
+    <description>Our November 3 newsletter covers Meta and Fourier, factory robot trials, funding news and our interview with Lightberry’s CEO.</description>
+    <pubDate>Tue, 03 Nov 2026 18:10:59 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Newsletter</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/churchill-xi-shareholders-approve-agility-robotics-merger</guid>
     <title>Churchill XI Shareholders Approve Agility Robotics Merger Ahead of Expected November 4 Closing</title>
@@ -288,26 +308,6 @@
     <pubDate>Wed, 28 Oct 2026 08:10:53 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>China</category><category>XPENG</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/deepmind-genie-4-gemini-argon-apollo-robot-simulation</guid>
-    <title>DeepMind Pairs Genie 4 With Gemini Argon to Simulate Apollo Playing Checkers</title>
-    <link>https://www.humanoidsdaily.com/news/deepmind-genie-4-gemini-argon-apollo-robot-simulation</link>
-    <description>The interactive world model takes task instructions from Argon as it generates a simulated Apollo scene, offering an early glimpse of reasoning-guided robotics environments.</description>
-    <pubDate>Tue, 27 Oct 2026 17:09:29 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Europe</category><category>Google</category><category>google-deepmind</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-27-voxel-unitree-europe</guid>
-    <title>This Week’s Newsletter: Voxel, Unitree H2-X and Europe’s Humanoid Push</title>
-    <link>https://www.humanoidsdaily.com/news/humanoids-daily-newsletter-october-27-voxel-unitree-europe</link>
-    <description>Catch up on Voxel’s home-robot pitch, Unitree’s H2-X showcase, Europe’s new humanoids and training facilities, and our latest features in the free weekly briefing.</description>
-    <pubDate>Tue, 27 Oct 2026 17:00:36 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Newsletter</category>
   </item>
 
   </channel>
