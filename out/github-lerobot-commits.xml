@@ -4,7 +4,60 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-05T15:26:44Z</ns0:updated>
+  <ns0:updated>2026-11-05T16:45:23Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/410c095eacc0011d998a73383eb94abed2715af0</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/410c095eacc0011d998a73383eb94abed2715af0" />
+    <ns0:title>
+        chore(dependencies): Bump lerobot to 0.7.0 (#5268)
+    </ns0:title>
+    <ns0:updated>2026-11-05T16:45:23Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): Bump lerobot to 0.7.0 (#5268)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/33a5812657214981be4732ac197bfdee3c83cd07</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/33a5812657214981be4732ac197bfdee3c83cd07" />
+    <ns0:title>
+        chore(dependencies): update uv.lock (#5267)
+    </ns0:title>
+    <ns0:updated>2026-11-05T16:39:39Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): update uv.lock (#5267)
+
+Co-authored-by: github-actions[bot] &amp;lt;github-actions[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/837f6b4ba794deeb759b47406314466aca620c09</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/837f6b4ba794deeb759b47406314466aca620c09" />
+    <ns0:title>
+        test(yam): stamp fake CAN frames when received to fix flaky feedback …
+    </ns0:title>
+    <ns0:updated>2026-11-05T15:58:37Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29127300?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>CarolinePascal</ns0:name>
+      <ns0:uri>https://github.com/CarolinePascal</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;test(yam): stamp fake CAN frames when received to fix flaky feedback tests (#5265)
+
+Frames were timestamped when built, so a CI stall longer than the 0.2 s feedback
+timeout before the read made fresh frames stale. Stamp them at recv, as SocketCAN does.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/62a171e72e648f29f1f38f8811b11487873366e3</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/62a171e72e648f29f1f38f8811b11487873366e3" />
@@ -1170,84 +1223,6 @@ Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;
 ---------
 
 Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/aacf46397e6eb90e688e201e002ba6dea3354eb9</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/aacf46397e6eb90e688e201e002ba6dea3354eb9" />
-    <ns0:title>
-        fix(eval): collect predicted latents through PEFT wrapped model (#5092)
-    </ns0:title>
-    <ns0:updated>2026-11-03T09:43:34Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>HaomingSong</ns0:name>
-      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(eval): collect predicted latents through PEFT wrapped model (#5092)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/4598a0bb5735a135898f2f9bcd7edea280257632</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4598a0bb5735a135898f2f9bcd7edea280257632" />
-    <ns0:title>
-        Bump transformers version to 5.22 (#5220)
-    </ns0:title>
-    <ns0:updated>2026-11-03T09:30:03Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/39954772?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>molbap</ns0:name>
-      <ns0:uri>https://github.com/molbap</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Bump transformers version to 5.22 (#5220)
-
-* various fixes and bump version
-
-* better lock
-
-* bump dockerfiles
-
-* revert docker builds for new version&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/f5c9bc02137c331b009eccd44ece6f11b62187a8</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f5c9bc02137c331b009eccd44ece6f11b62187a8" />
-    <ns0:title>
-        fix(eo1): give the slow Qwen2.5-VL image processor CPU images (#5146)
-    </ns0:title>
-    <ns0:updated>2026-11-02T14:36:34Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/426434?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>shoumikhin</ns0:name>
-      <ns0:uri>https://github.com/shoumikhin</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(eo1): give the slow Qwen2.5-VL image processor CPU images (#5146)
-
-lerobot-rollout, lerobot-train, and the predict_action and
-build_inference_frame helpers move the batch to the policy device before
-the preprocessor runs. EO-1&amp;#39;s Qwen step then passed GPU image tensors to
-the default (slow) Qwen2.5-VL image processor, which reads pixels with
-NumPy and fails:
-
-    TypeError: can&amp;#39;t convert cuda:0 device type tensor to numpy.
-
-lerobot-eval fails the same way with IsaacLab Arena environments, which
-return camera images on the GPU. Other environments and the policy
-server pass CPU images.
-
-Move the images to the CPU in the Qwen step when the slow processor is
-used. The move uses move_state_dict_to_device, which builds new message
-containers, so the transition the previous step returned keeps its GPU
-images. The fast processor (use_fast_processor=True) already handles GPU
-tensors, so its images stay on their device, as before. The preprocessor&amp;#39;s
-last step still moves its outputs to the policy device, and CPU input is
-unchanged.
-
-Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
