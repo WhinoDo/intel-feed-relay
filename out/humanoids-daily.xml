@@ -7,9 +7,59 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 04 Nov 2026 15:10:52 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 05 Nov 2026 13:47:43 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/apple-halo-humanoid-synthetic-data-unitree-g1</guid>
+    <title>Apple's HALO Teaches a Unitree G1 to Navigate Unseen Rooms With Simulation-Generated Data</title>
+    <link>https://www.humanoidsdaily.com/news/apple-halo-humanoid-synthetic-data-unitree-g1</link>
+    <description>Trained on 300 hours of generated motion in simulated rooms, the onboard system completed 91% of 360 real-world trials without any teleoperation data.</description>
+    <pubDate>Thu, 05 Nov 2026 13:47:43 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>reinforcement-learning</category><category>G1</category><category>Apple</category><category>US</category><category>Research</category><category>simulation</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/neura-eon-enviam-grid-robotics-2027</guid>
+    <title>NEURA Robotics Partners With E.ON and enviaM on Grid Robotics, With Trials Expected in 2027</title>
+    <link>https://www.humanoidsdaily.com/news/neura-eon-enviam-grid-robotics-2027</link>
+    <description>The partners will train robotic skills at TUM RoboGym before testing inspections, asset monitoring and worker-support applications with grid operator MITNETZ STROM.</description>
+    <pubDate>Thu, 05 Nov 2026 13:04:53 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Neura Robotics</category><category>Europe</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xpeng-groundingpi-robot-vision-manipulation</guid>
+    <title>XPENG Highlights GroundingPI, a Vision Model for More Data-Efficient Robot Learning</title>
+    <link>https://www.humanoidsdaily.com/news/xpeng-groundingpi-robot-vision-manipulation</link>
+    <description>GroundingPI improves simulated robot manipulation with fewer demonstrations, offering a specialized visual foundation rather than an announced upgrade to XPENG’s IRON humanoid.</description>
+    <pubDate>Thu, 05 Nov 2026 12:50:41 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>open-source</category><category>China</category><category>XPENG</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-aglt-nasdaq-trading-debut</guid>
+    <title>Agility Begins Trading on Nasdaq as AGLT, the First US-Listed Pure-Play Humanoid Company</title>
+    <link>https://www.humanoidsdaily.com/news/agility-aglt-nasdaq-trading-debut</link>
+    <description>The Churchill XI merger closed with about $465 million in gross capital, below the $600 million-plus projected in June, as Agility debuts with $1.78 million in 2025 sales.</description>
+    <pubDate>Thu, 05 Nov 2026 12:27:33 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Market</category><category>Agility Robotics</category><category>IPO</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/mabel-open-source-mobile-bimanual-robot-nyu</guid>
+    <title>NYU's MABEL Puts a 56-DOF Mobile Bimanual Robot on an $8,056 Open-Source Parts List</title>
+    <link>https://www.humanoidsdaily.com/news/mabel-open-source-mobile-bimanual-robot-nyu</link>
+    <description>The open-source robot pairs two 7-DOF arms and 17-DOF ORCA hands with a lift and swerve base, and is teleoperated end to end with an Apple Vision Pro.</description>
+    <pubDate>Thu, 05 Nov 2026 06:56:39 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>LeRobot</category><category>teleoperation</category><category>US</category><category>open-source</category><category>Research</category><category>Mabel</category><category>robotic hand</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/robocolosseum-robot-ai-benchmark-unitree-g1</guid>
     <title>RoboColosseum Launches Real-World Robot AI Benchmark With Unitree Support</title>
@@ -258,56 +308,6 @@
     <pubDate>Fri, 30 Oct 2026 08:49:00 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>AGIBOT</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/how-agibot-physical-reasoning-dataset-connects-planning-robot-actions</guid>
-    <title>How AGIBOT’s Physical Reasoning Dataset Connects Planning With Robot Actions</title>
-    <link>https://www.humanoidsdaily.com/news/how-agibot-physical-reasoning-dataset-connects-planning-robot-actions</link>
-    <description>A closer look at how AGIBOT WORLD Release 4 uses changing task conditions, memory and spatial annotations to connect decisions with robot movements.</description>
-    <pubDate>Thu, 29 Oct 2026 17:30:00 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>China</category><category>AGIBOT</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/bleu-robotics-5m-industrial-humanoid-training</guid>
-    <title>Bleu Robotics Raises €5M to Teach Industrial Humanoids New Tasks in Under an Hour</title>
-    <link>https://www.humanoidsdaily.com/news/bleu-robotics-5m-industrial-humanoid-training</link>
-    <description>The French startup is developing robot-learning software that it says needs around ten demonstrations, with initial factory deployments still ahead.</description>
-    <pubDate>Thu, 29 Oct 2026 12:41:06 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Europe</category><category>Bleu Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-innovation-day-2026-worken-ai-models-g2-max</guid>
-    <title>AGIBOT Introduces Worken, New AI Models and G2 Max at Innovation Day 2026</title>
-    <link>https://www.humanoidsdaily.com/news/agibot-innovation-day-2026-worken-ai-models-g2-max</link>
-    <description>AGIBOT proposes a measure of productive robot work alongside AHA3 hardware, GO-3 Preview, WITA-Omni 1.0, G2 Max and an open-source roadmap for Link-U OS.</description>
-    <pubDate>Thu, 29 Oct 2026 05:29:11 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>China</category><category>AGIBOT</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/physical-intelligence-funding-talks-20-billion-valuation</guid>
-    <title>Physical Intelligence Reportedly Seeks $1B at a $20B Valuation</title>
-    <link>https://www.humanoidsdaily.com/news/physical-intelligence-funding-talks-20-billion-valuation</link>
-    <description>Reported funding talks follow PI’s API beta launch, while Sergey Levine explains why data and learning across robot bodies underpin its strategy.</description>
-    <pubDate>Wed, 28 Oct 2026 17:19:55 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Physical Intelligence</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-q3-2026-revenue-growth-rd-profit</guid>
-    <title>Unitree’s Quarterly Revenue Surges 70% as R&amp;D Spending Weighs on Profit</title>
-    <link>https://www.humanoidsdaily.com/news/unitree-q3-2026-revenue-growth-rd-profit</link>
-    <description>Unitree reports 665 million yuan in Q3 revenue, while profit falls 17.4% and R&amp;D spending rises 249.6%. A prior-year one-time expense complicates its nine-month earnings comparison.</description>
-    <pubDate>Wed, 28 Oct 2026 15:42:38 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>China</category>
   </item>
 
   </channel>
