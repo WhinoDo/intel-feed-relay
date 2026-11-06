@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 05 Nov 2026 13:47:43 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 06 Nov 2026 06:48:44 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tokyo-3d-printed-musculoskeletal-robot-legs</guid>
+    <title>Tokyo Researchers Build Robotic Legs With 3D-Printed Muscles, Tendons and Ligaments</title>
+    <link>https://www.humanoidsdaily.com/news/tokyo-3d-printed-musculoskeletal-robot-legs</link>
+    <description>University of Tokyo researchers combine flexible printed structures with motor-driven wires to demonstrate supported stepping, offering a different take on bio-inspired robotics from Clone.</description>
+    <pubDate>Fri, 06 Nov 2026 06:48:44 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Research</category><category>Japan</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/apple-halo-humanoid-synthetic-data-unitree-g1</guid>
     <title>Apple's HALO Teaches a Unitree G1 to Navigate Unseen Rooms With Simulation-Generated Data</title>
@@ -298,16 +308,6 @@
     <pubDate>Fri, 30 Oct 2026 13:12:49 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Agility Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/halo-humanoid-human-collaboration-carrying-research</guid>
-    <title>HALO Teaches Humanoids to Coordinate With Human Partners During Shared Carrying Tasks</title>
-    <link>https://www.humanoidsdaily.com/news/halo-humanoid-human-collaboration-carrying-research</link>
-    <description>Researchers at UT Arlington and Carnegie Mellon demonstrate human–humanoid coordination, with motion-capture-supported tests showing both gains and remaining failures.</description>
-    <pubDate>Fri, 30 Oct 2026 10:53:10 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Research</category>
   </item>
 
   </channel>
