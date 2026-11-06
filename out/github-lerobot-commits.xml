@@ -4,7 +4,23 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-05T16:45:23Z</ns0:updated>
+  <ns0:updated>2026-11-05T23:27:05Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/d490e472a5d1a207cfe0255caaaf74b6d66e4656</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d490e472a5d1a207cfe0255caaaf74b6d66e4656" />
+    <ns0:title>
+        chore(dependencies): Bump lerobot to 0.7.1 (#5269)
+    </ns0:title>
+    <ns0:updated>2026-11-05T23:27:05Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): Bump lerobot to 0.7.1 (#5269)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/410c095eacc0011d998a73383eb94abed2715af0</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/410c095eacc0011d998a73383eb94abed2715af0" />
@@ -1195,30 +1211,6 @@ Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;&lt;/pre&gt;
 * feat(train): add accelerate&amp;#39;s InitProcessGroupKwargs in the accelerator config
 
 * fix(train): wait for the main process between the live and EMA weight saves
-
----------
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/b65b05f7f909de72f02ef4ba7854ad40230aa722</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b65b05f7f909de72f02ef4ba7854ad40230aa722" />
-    <ns0:title>
-        fix(configs): honor --policy.pretrained_revision in lerobot-train and…
-    </ns0:title>
-    <ns0:updated>2026-11-03T10:16:58Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>HaomingSong</ns0:name>
-      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(configs): honor --policy.pretrained_revision in lerobot-train and lerobot-eval (#5197)
-
-* fix(configs): honor --policy.pretrained_revision in lerobot-train and lerobot-eval
-
-* fix(policies): load pi0 family weights and PEFT base models at the pinned revision
 
 ---------
 
