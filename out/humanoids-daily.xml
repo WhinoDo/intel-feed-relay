@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Fri, 06 Nov 2026 06:48:44 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 06 Nov 2026 11:59:02 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/embodied-ai-air-wheeled-humanoid-factory-humanoid-europe</guid>
+    <title>Swiss Startup Embodied AI Unveils AIR, a Wheeled Robot Built to Work Beside Factory Staff Without a Cage</title>
+    <link>https://www.humanoidsdaily.com/news/embodied-ai-air-wheeled-humanoid-factory-humanoid-europe</link>
+    <description>The EPFL spin-off's two-armed robot starts each job under remote control and, the company says, takes the task over within a month. It reports a 95% average success rate in paid pilots.</description>
+    <pubDate>Fri, 06 Nov 2026 11:59:02 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>teleoperation</category><category>Europe</category><category>safety standards</category><category>Wheeled base</category><category>product-launch</category><category>manufacturing</category><category>embodied-ai</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tokyo-3d-printed-musculoskeletal-robot-legs</guid>
     <title>Tokyo Researchers Build Robotic Legs With 3D-Printed Muscles, Tendons and Ligaments</title>
@@ -298,16 +308,6 @@
     <pubDate>Fri, 30 Oct 2026 13:47:00 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Tesla</category><category>US</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-robotics-spac-465-million-closing</guid>
-    <title>Agility Robotics Expects $465M in Gross Capital Ahead of SPAC Merger Closing</title>
-    <link>https://www.humanoidsdaily.com/news/agility-robotics-spac-465-million-closing</link>
-    <description>The expected financing includes $100 million already received. Agility targets a November 4 closing and November 5 Nasdaq debut, subject to shareholder approval and closing conditions.</description>
-    <pubDate>Fri, 30 Oct 2026 13:12:49 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Agility Robotics</category>
   </item>
 
   </channel>
