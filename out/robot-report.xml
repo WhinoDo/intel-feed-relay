@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Fri, 06 Nov 2026 20:43:40 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 07 Nov 2026 01:15:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,151 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>How Point One turned GPS accuracy into a robotics platform</title>
+		<link>https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/</link>
+					<comments>https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Fri, 06 Nov 2026 21:47:35 +0000</pubDate>
+				<category>Cameras / Imaging / Vision</category>
+		<category>Mobility / Navigation</category>
+		<category>News</category>
+		<category>Opinion</category>
+		<category>Podcast</category>
+		<category>Sensors / Sensing Systems</category>
+		<category>Startups</category>
+		<category>ABB</category>
+		<category>abb robotics</category>
+		<category>Agility Robotics</category>
+		<category>Point One Navigation</category>
+		<category>Softbank</category>
+		<category>SoftBank Robotics</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590143</guid>
+
+					<description>&lt;p&gt;Aaron Nathan explains how precise location technology like GPS is enabling robots to navigate, coordinate, and scale across real environments.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/"&gt;How Point One turned GPS accuracy into a robotics platform&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;p&gt;&lt;iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2433560040&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true" width="100%" height="166" frameborder="no" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;"&gt;&lt;a style="color: #cccccc; text-decoration: none;" title="The Robot Report Podcast" href="https://soundcloud.com/robot-report-podcast" target="_blank" rel="noopener"&gt;The Robot Report Podcast&lt;/a&gt; · &lt;a style="color: #cccccc; text-decoration: none;" title="How Point One Turned GPS Accuracy Into a Robotics Platform" href="https://soundcloud.com/robot-report-podcast/point-one-nav" target="_blank" rel="noopener"&gt;How Point One Turned GPS Accuracy Into a Robotics Platform&lt;/a&gt;&lt;/div&gt;
+&lt;div id="attachment_590144" style="width: 250px" class="wp-caption alignleft"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590144" class="wp-image-590144 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/11/aaron-nathan-headshot.jpg" alt="headshot of Aaron Nathan, an expert in GPS and other robotics navigation and location technologies." width="240" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/aaron-nathan-headshot.jpg 240w, https://www.therobotreport.com/wp-content/uploads/2026/11/aaron-nathan-headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/11/aaron-nathan-headshot-190x238.jpg 190w" sizes="(max-width: 240px) 100vw, 240px" /&gt;&lt;p id="caption-attachment-590144" class="wp-caption-text"&gt;Aaron Nathan, CEO of Point One Navigation.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;In Episode 269 of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, our guest is Aaron Nathan, co-founder and CEO of Point One Navigation.&lt;/p&gt;
+&lt;p&gt;Nathan is an entrepreneur and technical leader with over a decade of experience in cutting-edge robotics and critical software/hardware development.&lt;/p&gt;
+&lt;p&gt;He has led multi-disciplinary teams building complex systems in financial, defense, and enterprise markets and has founded two venture-backed startups.&lt;/p&gt;
+&lt;p&gt;Nathan has deep domain experience in sensor fusion, computer &lt;a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener"&gt;vision&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/mobility-navigation/" target="_blank" rel="noopener"&gt;navigation&lt;/a&gt; including GPS, and embedded systems, specifically in the context of self-driving vehicles and other robotic applications.&lt;/p&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;Point One Navigation&amp;#8217;s &lt;a href="https://fuse.pointonenav.com/sf" target="_blank" rel="noopener"&gt;FUSE 2026&lt;/a&gt; physical AI event will be on Nov. 19 in San Francisco.&lt;/span&gt;&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Show timeline&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;6:47 &amp;#8211; News of the week&lt;/li&gt;
+&lt;li&gt;21:22 &amp;#8211; &lt;a href="https://www.linkedin.com/in/aaronnathan/" target="_blank" rel="noopener"&gt;Aaron Nathan&lt;/a&gt;, co-founder and CEO of &lt;a href="https://www.therobotreport.com/tag/point-one-navigation/" target="_blank" rel="noopener"&gt;Point One Navigation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;News of the week&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/" target="_blank" rel="noopener"&gt;Agility Robotics begins trading on Nasdaq&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/" target="_blank" rel="noopener"&gt;How did Agility Robotics perform on its first day on the stock market?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/" target="_blank" rel="noopener"&gt;&lt;span data-contrast="none"&gt;Chinese regulators block SoftBank’s $5.4B acquisition of ABB Robotics&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.therobotreport.com/robotics-startup-radar-2026/" target="_blank" rel="noopener"&gt;&lt;span data-contrast="none"&gt;Robotics Startup Radar 2026&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Sponsors&lt;/h2&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;This episode is sponsored by Intel: &lt;a href="https://www.intel.com/robotics" target="_blank" rel="noopener"&gt;https://www.intel.com/robotics&lt;/a&gt;&lt;/span&gt;&lt;a href="https://www.intel.com/robotics"&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;To learn how you can sponsor a future episode of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, contact Jami Brownlee at &lt;a href="mailto:jbrownlee@arrowfly.com" target="_blank" rel="noopener"&gt;jbrownlee@arrowfly.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Would you like to be a guest on a future episode? Contact Mike Oitzman at &lt;a href="mailto:moitzman@arrowfly.com" target="_blank" rel="noopener"&gt;moitzman@arrowfly.com&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/"&gt;How Point One turned GPS accuracy into a robotics platform&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
+		<title>Boston Dynamics built Stretch Gen 2 for reliable, consistent performance</title>
+		<link>https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/</link>
+					<comments>https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/#respond</comments>
+		
+		<dc:creator>Brianna Wessling</dc:creator>
+		<pubDate>Fri, 06 Nov 2026 21:34:44 +0000</pubDate>
+				<category>Arms / Manipulators</category>
+		<category>Artificial Intelligence</category>
+		<category>Artificial Intelligence / Cognition</category>
+		<category>Autonomous Mobile Robots (AMRs)</category>
+		<category>Collaborative Robots</category>
+		<category>Design / Development</category>
+		<category>Logistics</category>
+		<category>Markets / Industries</category>
+		<category>News</category>
+		<category>Robots / Platforms</category>
+		<category>Technologies</category>
+		<category>Boston Dynamics</category>
+		<category>mobile manipulation</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590141</guid>
+
+					<description>&lt;p&gt;Brian Donnelly, the VP and GM of logistics robotics at Boston Dynamics, said the new version of Stretch has been in the works for two and a half years. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/"&gt;Boston Dynamics built Stretch Gen 2 for reliable, consistent performance&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590142" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590142" class="wp-image-590142 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured.jpg" alt="A render of Boston Dynamics' Stretch Gen 2 robot. " width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590142" class="wp-caption-text"&gt;The new Stretch features an updated modular design that enables “plug and play” part swaps. | Source: Boston Dynamics&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Boston Dynamics Inc. this week unveiled Stretch Gen 2, the latest generation of its autonomous mobile trailer unloading robot. With over 100,000 operating hours and tens of millions of boxes handled under its belt, the company built the updated robot to maximize uptime and streamline maintenance.&lt;/p&gt;
+&lt;p&gt;Brian Donnelly, the vice president and general manager of &lt;a href="https://www.therobotreport.com/category/markets-industries/logistics-warehousing-asrs/" target="_blank" rel="noopener"&gt;logistics&lt;/a&gt; robotics at Boston Dynamics, told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt; that the &lt;a href="https://www.therobotreport.com/tag/boston-dynamics/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; has been working on the new version of Stretch for around two and a half years.&lt;/p&gt;
+&lt;p&gt;“When we made the first generation of Stretch, we were focused on trying to get a product out into the market as fast as possible and really get it in customers’ hands and get it operational,&amp;#8221; he said. &amp;#8220;It was not the easiest to manufacture; there were a lot of components.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;[With Stretch 2], we really were focused on simplification, hardening the robot, and really driving improved reliability and performance,&amp;#8221; added Donnelly. &amp;#8220;That’s really what drove a lot of our decisions was just making the robot better in every way.”&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://bostondynamics.com/products/stretch/" target="_blank" rel="noopener"&gt;Stretch&lt;/a&gt; Gen 2 can unload up to 1,000 cases per hour. This rate is highly dependent on factors such as case weight and how neat or disorderly cases are stacked. It has a multipick feature, a battery that can last two shifts, and a fast charger that can get it to 90% charge in about 75 minutes.&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://www.therobotreport.com/tag/mobile-manipulation" target="_blank" rel="noopener"&gt;mobile manipulator&lt;/a&gt; also features onboard lighting, making it easier to work in dark trailers, and a pre-trained &lt;a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener"&gt;vision&lt;/a&gt; system that can detect most packages without programming needed.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Inside the Stretch Test Lab | Boston Dynamics" width="740" height="416" src="https://www.youtube.com/embed/RpvSMqOT7ls?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Stretch&amp;#8217;s hardware upgrades improve durability&lt;/h2&gt;
+&lt;p&gt;Boston Dynamics geared many of Stretch Gen 2&amp;#8217;s upgrades towards reducing downtime and making the robot more durable. For example, the Waltham, Mass.-based company also cut 81% of the internal cabling, around half a mile&amp;#8217;s worth.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;[Cabling] is weight, it’s cost, and its points of failure, particularly when you have something that’s in constant motion, you’re creating strain on those cables with every motion,&amp;#8221; Donnelly said. &amp;#8220;If you don’t have good strain relief, you don’t have good ways of managing the cables in the robot. It can cause stress on the cables and then failure.”&lt;/p&gt;
+&lt;p&gt;Donnelly said &lt;a href="http://therobotreport.com/tag/hyundai" target="_blank" rel="noopener"&gt;Hyundai&lt;/a&gt; helped the company source a cable harness through its &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/automotive" target="_blank" rel="noopener"&gt;automotive&lt;/a&gt; supply chain. This isn&amp;#8217;t the only thing Boston Dynamics learned from the automotive industry. Stretch Gen 2 uses heavy-duty automotive-grade connectors. These hold up to the vibration of rapid, high-torque box handling and driving over uneven floors.&lt;/p&gt;
+&lt;p&gt;“In the automotive industry, they have to deal with a lot of real-world challenges in their vehicles. There’s a lot of miles driven dealing with shock and vibration and things like this,” Donnelly said. “As a robot moves around the world, just like a car, if you don’t have latching connectors, then they can sort of wiggle apart. By leveraging those automotive connectors, we’re much more confident that the connectors are going to stay latched together and not pull apart in the field.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;The robot also has continuous rotation joints that move beyond 360° so they no longer hit hard stops. This can help prevent previously caused mechanical stress. Donnelly pointed out this also makes the robot more productive, as it can completely optimize its trajectory planning and move in any direction.&lt;/p&gt;
+&lt;p&gt;The emergency stop on the robot now sits lower and is recessed. Boston Dynamics made the exterior panels with new materials so a falling box is far less likely to trip an unintentional safety stoppage or break a panel.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Stretch at Gap | Boston Dynamics" width="740" height="416" src="https://www.youtube.com/embed/_dhwRYdZs9w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;How Stretch Gen 2 gets a grip on multiple boxes&lt;/h2&gt;
+&lt;p&gt;The gripper is the part of the robot that often deals with the most stress. It&amp;#8217;s making contact with all of the the things the robot needs to handle. Stretch Gen 2 features an upgraded &lt;a href="https://www.therobotreport.com/category/technologies/grippers-end-effectors/" target="_blank" rel="noopener"&gt;gripper&lt;/a&gt; with new valve systems and more precise sensing improves grasping and placement to optimize fast-paced picks.&lt;/p&gt;
+&lt;p&gt;“[The new gripper] has a value in every suction cup, which enables us to pick multiple boxes with a single motion of the arm, which substantially increases our throughput,&amp;#8221; Donnelly explained. &amp;#8220;If we can pick multiple boxes, with a single motion of the arm, we get much higher throughput because the pick cycle of picking up a box from the floor of a container and place it to a conveyor is dominated by arm movement. So, if we can keep the arm moving and just do more every cycle, that is really effective and improves the rate at which we can unload a truck for our customers.”&lt;/p&gt;
+&lt;p&gt;The new gripper is also better at configuring boxes on the conveyor belt in ways that work best for Boston Dynamics&amp;#8217; customers, and use less power in picking up boxes.&lt;/p&gt;
+&lt;p&gt;“Every cup is individually sensed and actuated, so we know when we have good suction,&amp;#8221; said Donnelly. &amp;#8220;We only have the value open to pull suction when we have good contact on a box, so that enables us to reduce the amount of power we’re spending running on the vacuum pump, so we’re not pulling suction through cups that don’t have good contact. It also enables us to, when we pick up those multiple boxes, singulate them onto the conveyor.”&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Stretch Debuts in Europe at Otto Group" width="740" height="416" src="https://www.youtube.com/embed/q6TuHGJamR8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Stretch Gen 2 brings service time down to just hours&lt;/h2&gt;
+&lt;p&gt;With Stretch Gen 2, Boston Dynamics didn&amp;#8217;t just want to reduce the frequency of service calls; it also wanted to make those service calls faster when they do happen.&lt;/p&gt;
+&lt;p&gt;“We didn’t have as much experience from a serviceability perspective as a company when we made the first-generation robot,&amp;#8221; Donnelly said. &amp;#8220;We’ve since deployed these robots, serviced them in the field, and hired a lot of people who have a lot more experience than we originally did in service. Their input and guidance really helped us to make a robot that’s much more manufacturable and more serviceable.”&lt;/p&gt;
+&lt;p&gt;The robot doesn&amp;#8217;t require dynamic cables and complex harnesses. Instead it uses standardized high-strength fasteners to cut down on tool changes and hands-on repair time. For example, the company can perform a full swerve drive swap in just one hour. Before, this process could take an entire day.&lt;/p&gt;
+&lt;p&gt;Stretch Gen 2 also features new onboard diagnostics and maintenance tools. These put more routine service in the hands of a customer&amp;#8217;s own maintenance team, so robots stay on the dock with less reliance on outside support.&lt;/p&gt;
+&lt;h2&gt;Updated robot continuously improves its performance&lt;/h2&gt;
+&lt;p&gt;The new robot runs on a redesigned onboard computing platform that is constantly improving. Boston Dynamics said it will regularly release software updates to bring gains in case detection, motion planning, pick strategies, and world modeling across an entire fleet, with no hardware changes required.&lt;/p&gt;
+&lt;p&gt;Donnelly said that with the company&amp;#8217;s most recent update, it saw a 24% increase in unload rate across its fleet of fielded robots.&lt;/p&gt;
+&lt;p&gt;“A lot of our activity on this program is really focused on the software. We’re constantly improving our computer vision capabilities to be able to better perceive boxes and conveyors and container walls, and then really pick boxes and place them to convey more and more productivity over time,” Donnelly said.&lt;/p&gt;
+&lt;p&gt;Right now, Donnelly said Boston Dynamics releases new software, on average, on a monthly basis.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;How have customers reacted to Gen 2 so far?&lt;/h2&gt;
+&lt;p&gt;Donnelly said Boston Dynamics already has Stretch Gen 2 running at multiple customer sites.&lt;/p&gt;
+&lt;p&gt;“Customers are really happy with it, and they’re continuing to rely on it to do its work every day,” said Donnelly. “We’re going into these existing sites and deploying these robots within two weeks. The folks who are taking over operating the robots are the folks who are otherwise doing repetitive heavy lifting of these boxes and containers.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&amp;#8220;We put a lot of effort into ensuring that the user experience, from an operator perspective, is really simple. It doesn’t require a ton of training,&amp;#8221; he added. &amp;#8220;A person can drive the robot into a container, step out of the safety work cell, and they press a big Play button, and then the robot does the rest.”&lt;/p&gt;
+&lt;p&gt;Many of the people working with Stretch used to spend their days unloading heavy boxes from trailers.&lt;/p&gt;
+&lt;p&gt;“Fundamentally, unloading trailers is one of the worst jobs in the warehouse,&amp;#8221; Donnelly said. &amp;#8220;It can be really hot in a container that’s been sitting in a yard in the summer. It can be super cold in the winter. Then the work itself is moving heavy boxes repeatedly from down low or up high. It puts a lot of strain and stress on people’s bodies.”&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/"&gt;Boston Dynamics built Stretch Gen 2 for reliable, consistent performance&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>Industry experts discuss China blocking SoftBank acquisition of ABB Robotics</title>
 		<link>https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/</link>
 					<comments>https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/#respond</comments>
@@ -56,7 +201,7 @@
 					<description>&lt;p&gt;China's prohibition of SoftBank's purchase of ABB Robotics reflects wider concerns about data and AI, say experts.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/"&gt;Industry experts discuss China blocking SoftBank acquisition of ABB Robotics&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_587219" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-587219" class="wp-image-587219 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/03/abb-nvidia-partnership.jpg" alt="Robot arms use AI in production. ABB Robotics has integrated NVIDIA Omniverse libraries into RobotStudio." width="1000" height="563" srcset="https://www.therobotreport.com/wp-content/uploads/2026/03/abb-nvidia-partnership.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/03/abb-nvidia-partnership-300x169.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/03/abb-nvidia-partnership-150x84.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/03/abb-nvidia-partnership-768x432.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/03/abb-nvidia-partnership-368x207.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-587219" class="wp-caption-text"&gt;ABB Robotics has integrated NVIDIA Omniverse libraries into RobotStudio. Source: ABB Robotics&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_587219" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-587219" class="wp-image-587219 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/03/abb-nvidia-partnership.jpg" alt="Robot arms use AI in production. ABB Robotics has integrated NVIDIA Omniverse libraries into RobotStudio." width="1000" height="563" srcset="https://www.therobotreport.com/wp-content/uploads/2026/03/abb-nvidia-partnership.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/03/abb-nvidia-partnership-300x169.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/03/abb-nvidia-partnership-150x84.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/03/abb-nvidia-partnership-768x432.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/03/abb-nvidia-partnership-368x207.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-587219" class="wp-caption-text"&gt;ABB Robotics has integrated NVIDIA Omniverse libraries into RobotStudio. Source: ABB Robotics&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Yesterday, ABB Robotics &lt;a href="https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/" target="_blank" rel="noopener"&gt;confirmed&lt;/a&gt; to &lt;em&gt;The Robot Report&lt;/em&gt; that China&amp;#8217;s Office of the Working Mechanism for Foreign Investment Security Review has blocked SoftBank Group Corp.&amp;#8217;s planned acquisition of ABB Robotics. Regulators had expressed concern that data for training artificial intelligence models could be transferred overseas.&lt;/p&gt;
 &lt;p&gt;ABB Robotics is already a significant manufacturer and provider of robotics in &lt;a href="https://www.therobotreport.com/category/china" target="_blank" rel="noopener"&gt;China&lt;/a&gt;. The Zurich-based &lt;a href="https://www.therobotreport.com/tag/abb-robotics" target="_blank" rel="noopener"&gt;company&lt;/a&gt; &lt;a href="https://www.abb.com/global/en/news/140154/update-on-divestment-of-abb-robotics" target="_blank" rel="noopener"&gt;stated&lt;/a&gt; that it and &lt;a href="https://www.therobotreport.com/tag/softbank" target="_blank" rel="noopener"&gt;SoftBank&lt;/a&gt; are “in close dialogue and are working constructively on the transaction.”&lt;/p&gt;
 &lt;p&gt;Other countries are moving to protect what they view as sovereign physical &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;. For instance, the U.S. Federal Communications Commission (&lt;a href="https://www.therobotreport.com/tag/fcc/" target="_blank" rel="noopener"&gt;FCC&lt;/a&gt;) recently &lt;a href="https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/" target="_blank" rel="noopener"&gt;banned&lt;/a&gt; new models of certain connected advanced devices, including &lt;a href="https://www.therobotreport.com/tag/legged-robots" target="_blank" rel="noopener"&gt;legged robots&lt;/a&gt; and autonomous mobile robots (&lt;a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener"&gt;AMRs&lt;/a&gt;). Companies such as &lt;a href="https://www.reuters.com/technology/fcc-grants-intel-waiver-foreign-made-robotic-devices-2026-10-22/" target="_blank" rel="noopener"&gt;Intel&lt;/a&gt; and &lt;a href="https://www.prnewswire.com/news-releases/husqvarna-group-first-to-receive-fcc-conditional-approval-for-foreign-manufactured-advanced-robotic-lawn-mowers-in-the-us-302876464.html" target="_blank" rel="noopener"&gt;Husqvarna&lt;/a&gt; have already received conditional approvals.&lt;/p&gt;
@@ -69,7 +214,7 @@
 &lt;p&gt;&amp;#8220;Compared with the other Big 4 vendors [FANUC, KUKA, and Yaskawa], ABB was already quick in combining AI with its products, which is an area where it can have synergy with SoftBank,&amp;#8221; Mou told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. She said that companies in Europe, Asia, and the Americas are hoping that AI, which has already been used for ease of programming, monitoring, and predictive maintenance, can be generalized to more processes.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;AI gives ABB Robotics considerable potential,&amp;#8221; said &lt;a href="https://www.linkedin.com/in/robert-little-707791a/" target="_blank" rel="noopener"&gt;Robert Little&lt;/a&gt;, a business development advisor and former chief of robotics strategy at Novanta Inc, &lt;a href="https://lnkd.in/p/g9XNkCiz" target="_blank" rel="noopener"&gt;on LinkedIn&lt;/a&gt;. &amp;#8220;But turning that potential into commercially useful systems requires sustained investment. In my humble opinion, backing that investment within ABB becomes a harder decision when robotics has to compete for funding against higher-margin businesses. ABB also saw limited synergies between robotics and the rest of the company.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;&amp;#8220;SoftBank made sense,&amp;#8221; he added. &amp;#8220;ABB brings robot manufacturing, application expertise and established customer relationships. SoftBank could bring additional investment and a clear focus on AI.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&lt;iframe title="Highlights from ABB Robotics Tech Day 2026" width="740" height="416" src="https://www.youtube.com/embed/BOVH0tAldTo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Highlights from ABB Robotics Tech Day 2026" width="740" height="416" src="https://www.youtube.com/embed/BOVH0tAldTo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;Sovereign physical AI becomes a strategic concern&lt;/h2&gt;
 &lt;p&gt;&amp;#8220;Post Astra, robotics data has become more strategic,&amp;#8221; posted &lt;em&gt;&lt;a href="https://www.ft.com/content/f10c3e24-45e4-47ff-bde2-24a8de90aec4?syn-25a6b1a6=1" target="_blank" rel="noopener"&gt;Financial Times&lt;/a&gt; &lt;/em&gt;reporter Zijing Wu, in reference to the GPT-6 model that &lt;a href="https://www.therobotreport.com/tag/openai" target="_blank" rel="noopener"&gt;OpenAI&lt;/a&gt; released in September and that Chinese AI firms &lt;a href="https://www.investing.com/news/stock-market-news/openais-astra-used-by-chinese-ai-firms-to-train-models-the-information-93CH-4981331" target="_blank" rel="noopener"&gt;used to train&lt;/a&gt; their models.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;The NDRC [China&amp;#8217;s National Development and Reform Commission] had been concerned about robotics data being transferred overseas, where it could be used to train AI models, including those developed by OpenAI, in which SoftBank is a major investor, sources say,&amp;#8221; said Wu &lt;a href="https://x.com/zijing_wu/status/2118190723262804475?s=20" target="_blank" rel="noopener"&gt;on X&lt;/a&gt;.&lt;/p&gt;
@@ -83,7 +228,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/"&gt;Industry experts discuss China blocking SoftBank acquisition of ABB Robotics&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
@@ -814,150 +959,6 @@
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Top 10 robotics developments of October 2026</title>
-		<link>https://www.therobotreport.com/top-10-robotics-developments-october-2026/</link>
-					<comments>https://www.therobotreport.com/top-10-robotics-developments-october-2026/#respond</comments>
-		
-		<dc:creator>Brianna Wessling</dc:creator>
-		<pubDate>Mon, 02 Nov 2026 17:56:42 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Autonomous Mobile Robots (AMRs)</category>
-		<category>Defense / Security</category>
-		<category>Design / Development</category>
-		<category>End Effectors / Grippers</category>
-		<category>Financial</category>
-		<category>Grippers</category>
-		<category>Humanoids</category>
-		<category>Investments</category>
-		<category>Logistics</category>
-		<category>Manufacturing</category>
-		<category>Markets / Industries</category>
-		<category>News</category>
-		<category>Robots / Platforms</category>
-		<category>Agility Robotics</category>
-		<category>Amazon Web Services</category>
-		<category>Boston Dynamics</category>
-		<category>Gecko Robotics</category>
-		<category>GXO Logistics</category>
-		<category>Promise Robotics</category>
-		<category>ptc</category>
-		<category>schneider electric</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590091</guid>
-
-					<description>&lt;p&gt;Last month, we celebrated the 20th anniversary of RoboBusiness, whic is being rebranded to Robotics Summit &amp;#038; Expo West.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/top-10-robotics-developments-october-2026/"&gt;Top 10 robotics developments of October 2026&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;p&gt;October 2026 was a whirlwind month for the robotics industry. Last month, we celebrated the 20th anniversary of RoboBusiness and announced that next year, the show will be rebranded to Robotics Summit &amp;amp; Expo West.&lt;/p&gt;
-&lt;p&gt;In addition, prominent &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoid&lt;/a&gt; robot companies, such as Agility Robotics and Boston Dynamics, announced some major updates.&lt;/p&gt;
-&lt;p&gt;Here are the 10 most popular articles on &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt; in the past month. Subscribe to &lt;a href="https://www.therobotreport.com/the-robot-report-enewsletter/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt; newsletter&lt;/a&gt; and listen to &lt;a href="https://www.therobotreport.com/category/podcast/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report &lt;/em&gt;Podcast&lt;/a&gt; to stay up to date on the latest robotics news.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/agilityagco-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" class="size-medium wp-image-589981 alignleft" src="https://www.therobotreport.com/wp-content/uploads/2026/10/agilityagco-featured-300x195.jpg" alt="Agility Robot holding a bin next to an AGCO and Agility logo." width="300" height="195" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/agilityagco-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/agilityagco-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/10/agilityagco-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/agilityagco-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/agilityagco-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/10/agilityagco-featured-368x238.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/10/agilityagco-featured.jpg 1540w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;10. AGCO to deploy Agility Digit humanoid in Kansas factory&lt;/h3&gt;
-&lt;p&gt;In October 2026, AGCO and Agility Robotics signed a commercial agreement to deploy Agility’s Digit humanoid in AGCO’s manufacturing facility. The U.S. pilot, expected to begin in 2027, will support AGCO’s efforts to create more flexible, intelligent factories, beginning at its site in Hesston, Kan. &lt;a href="https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/" target="_blank" rel="noopener"&gt;Read more&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/bostondynamics-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" class="size-medium wp-image-589854 alignright" src="https://www.therobotreport.com/wp-content/uploads/2026/10/bostondynamics-featured-300x195.jpg" alt="Boston Dynamics' Atlas humanoid robot doing a cartwheel." width="300" height="195" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/bostondynamics-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/bostondynamics-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/10/bostondynamics-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/bostondynamics-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/bostondynamics-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/10/bostondynamics-featured-368x238.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/10/bostondynamics-featured.jpg 1540w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;9. Will &amp;#8216;boring&amp;#8217; robots win in the real world? Why robotic form should &lt;span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;"&gt;follow workflow&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;Robots have captured our imagination. We have seen humanoids balancing on one leg, doing backflips, folding laundry, and moving smoothly over difficult terrain. This is all behavior that only a few years ago seemed like something out of science fiction. These viral examples matter because they show that embodied AI has reached a new technical stage. &lt;a href="https://www.therobotreport.com/will-boring-robots-win-in-the-real-world-why-robotic-form-should-follow-workflow/" target="_blank" rel="noopener"&gt;Read more&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/GXO_Agility_Digit_02.jpg"&gt;&lt;img loading="lazy" decoding="async" class="alignleft wp-image-590009 size-medium" src="https://www.therobotreport.com/wp-content/uploads/2026/10/GXO_Agility_Digit_02-300x193.jpg" alt="Logos of Agility Robotics and GXO Logistics superimposed over a humanoid robot. The companies expanded their partnership in October 2026." width="300" height="193" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/GXO_Agility_Digit_02-300x193.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/GXO_Agility_Digit_02-150x96.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/GXO_Agility_Digit_02-768x494.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/GXO_Agility_Digit_02-368x238.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/10/GXO_Agility_Digit_02.jpg 770w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;8. Agility and GXO Logistics plan expanded deployment of Digit humanoid&lt;/h3&gt;
-&lt;p&gt;Agility Robotics and GXO Logistics said they are expanding their partnership to deploy the Digit humanoid robot in GXO sites in North Carolina and Tennessee. &lt;a href="https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/" target="_blank" rel="noopener"&gt;Read more&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/gr3-comparison-16x9-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" class="alignright wp-image-589835 size-medium" src="https://www.therobotreport.com/wp-content/uploads/2026/10/gr3-comparison-16x9-featured-300x195.jpg" alt="Boston Dynamics' new robot hand compared to a human hand. The company announced it in October 2026." width="300" height="195" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/gr3-comparison-16x9-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/gr3-comparison-16x9-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/gr3-comparison-16x9-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/gr3-comparison-16x9-featured-368x238.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/10/gr3-comparison-16x9-featured.jpg 1000w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;7. Boston Dynamics gives more insight into its redesigned humanoid hand&lt;/h3&gt;
-&lt;p&gt;Boston Dynamics in October 2026 gave a look at its new humanoid hand. The four-fingered gripper has 13 degrees of freedom, or DoF, and is directly actuated. The company said it designed it for mass production. &lt;a href="https://www.therobotreport.com/boston-dynamics-gives-more-insight-into-its-redesigned-humanoid-hand/" target="_blank" rel="noopener"&gt;Read more&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h4&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/Promise-Robotics_02.jpg"&gt;&lt;img loading="lazy" decoding="async" class="size-medium wp-image-589881 alignleft" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Promise-Robotics_02-300x195.jpg" alt="A robot arm assembling a house component. Promise Robotics says it can accelerate homebuilding by standardizing component manufacturing." width="300" height="195" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Promise-Robotics_02-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Promise-Robotics_02-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Promise-Robotics_02-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Promise-Robotics_02-368x238.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/10/Promise-Robotics_02.jpg 770w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;6. Promise Robotics partners with D.R. Horton on physical AI for homebuilding in October 2026&lt;/h4&gt;
-&lt;p&gt;The construction industry is fragmented and has been relatively conservative about adopting new technologies, but physical AI promises to modernize homebuilding. Promise Robotics said it has signed a multi-year agreement with D.R. Horton, which will use its Factory-as-a-Service capabilities to produce more than 1,250 homes in the U.S. &lt;a href="https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/" target="_blank" rel="noopener"&gt;Read more&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/aws-physical-ai-reference-architecture.png"&gt;&lt;img loading="lazy" decoding="async" class="size-medium wp-image-589824 alignright" src="https://www.therobotreport.com/wp-content/uploads/2026/10/aws-physical-ai-reference-architecture-300x192.png" alt="" width="300" height="192" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/aws-physical-ai-reference-architecture-300x192.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/aws-physical-ai-reference-architecture-150x96.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/aws-physical-ai-reference-architecture-768x491.png 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/aws-physical-ai-reference-architecture-368x235.png 368w, https://www.therobotreport.com/wp-content/uploads/2026/10/aws-physical-ai-reference-architecture-778x500.png 778w, https://www.therobotreport.com/wp-content/uploads/2026/10/aws-physical-ai-reference-architecture.png 1000w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;5. AWS launches open-source Physical AI Toolchain for robotics&lt;/h3&gt;
-&lt;p&gt;Amazon Web Services launched an open-source Physical AI Toolchain designed to help roboticists move from collecting data to training, simulating, validating and deploying AI models on their robots. The toolchain brings together AWS services and NVIDIA’s Physical AI software stack into a single development workflow. &lt;a href="https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/" target="_blank" rel="noopener"&gt;Read more&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/Creo-July-23-annoucement-copy.jpg"&gt;&lt;img loading="lazy" decoding="async" class="size-medium wp-image-589818 alignleft" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Creo-July-23-annoucement-copy-300x169.jpg" alt="PTC’s Creo CAD, shown here modelling a helicopter, supports complex 3D product design and is also available through Creo+, its SaaS offering." width="300" height="169" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Creo-July-23-annoucement-copy-300x169.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Creo-July-23-annoucement-copy-1024x576.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/10/Creo-July-23-annoucement-copy-150x84.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Creo-July-23-annoucement-copy-768x432.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Creo-July-23-annoucement-copy-368x207.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/10/Creo-July-23-annoucement-copy.jpg 1200w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;4. PTC acquisition positions Schneider Electric to challenge Siemens&lt;/h3&gt;
-&lt;p&gt;Global energy company Schneider Electric in October 2026 said it will acquire industrial design, engineering, and data management firm PTC for about $22.6 billion. The Boston-based companies claimed that the combination will bridge the “digital and physical worlds across the lifecycle, from design and build to operate and maintain.” &lt;a href="https://www.therobotreport.com/ptc-acquisition-positions-schneider-electric-challenge-siemens/" target="_blank" rel="noopener"&gt;Read more&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-mts-drill-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" class="alignright wp-image-589748 size-medium" src="https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-mts-drill-featured-300x195.jpg" alt="Boston Dynamics' Atlas robot putting a drill bit into a drill. The company revealed a four-fingered gripper in October 2026." width="300" height="195" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-mts-drill-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-mts-drill-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-mts-drill-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-mts-drill-featured-368x238.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/10/atlas-mts-drill-featured.jpg 1000w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;3. Boston Dynamics drops pinky on new humanoid hand&lt;/h3&gt;
-&lt;p&gt;Boston Dynamics unveiled the newest hand for its Atlas humanoid in October 2026. The hand is directly actuated, and is designed for mass manufacturing. Previous versions of Atlas’ hand featured seven degrees of freedom and were designed to grasp a large variety of objects, Boston Dynamics said. With the latest hand, the company is shifting its focus to manipulating those objects. &lt;a href="https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/" target="_blank" rel="noopener"&gt;Read more&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/rohit-prasad-profile-pic-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" class="size-medium wp-image-589807 alignleft" src="https://www.therobotreport.com/wp-content/uploads/2026/10/rohit-prasad-profile-pic-featured-300x195.jpg" alt="Rohit Prasad." width="300" height="195" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/rohit-prasad-profile-pic-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/rohit-prasad-profile-pic-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/10/rohit-prasad-profile-pic-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/rohit-prasad-profile-pic-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/rohit-prasad-profile-pic-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/10/rohit-prasad-profile-pic-featured-368x238.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/10/rohit-prasad-profile-pic-featured.jpg 1540w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;2. Boston Dynamics appoints former Amazon exec Rohit Prasad as new CEO in October 2026&lt;/h3&gt;
-&lt;p&gt;It has been nearly nine months since Robert Playter, the former CEO of Boston Dynamics, stepped down. The company has named Rohit Prasad as its new CEO. Prasad will take over from Chief Financial Officer Amanda McMaster, who served as interim CEO. &lt;a href="https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/" target="_blank" rel="noopener"&gt;Read more&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/10/geckorobotics-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" class="size-medium wp-image-589978 alignright" src="https://www.therobotreport.com/wp-content/uploads/2026/10/geckorobotics-featured-300x195.jpg" alt="Gecko Robotics' robot crawling on a large object." width="300" height="195" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/geckorobotics-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/geckorobotics-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/10/geckorobotics-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/geckorobotics-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/geckorobotics-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/10/geckorobotics-featured-368x238.jpg 368w, https://www.therobotreport.com/wp-content/uploads/2026/10/geckorobotics-featured.jpg 1540w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;&lt;/a&gt;1. Gecko Robotics secures $300M contract with the U.S. Navy&lt;/h3&gt;
-&lt;p&gt;Gecko Robotics said it has earned an additional $300 million its contract with the U.S. Navy and General Services Administration. With the increase, the U.S. government has quadrupled the ceiling value on Gecko’s contract for slashing maintenance delays and improving fleet readiness. &lt;a href="https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/" target="_blank" rel="noopener"&gt;Read more&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/top-10-robotics-developments-october-2026/"&gt;Top 10 robotics developments of October 2026&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/top-10-robotics-developments-october-2026/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>What AgTech founders get wrong about ROI</title>
-		<link>https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/</link>
-					<comments>https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/#respond</comments>
-		
-		<dc:creator>The Robot Report Staff</dc:creator>
-		<pubDate>Mon, 02 Nov 2026 15:30:09 +0000</pubDate>
-				<category>Agriculture</category>
-		<category>Investments</category>
-		<category>News</category>
-		<category>Opinion</category>
-		<category>Podcast</category>
-		<category>Startups</category>
-		<category>Agility Robotics</category>
-		<category>agtech</category>
-		<category>Farmhand Ventures</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590081</guid>
-
-					<description>&lt;p&gt;Connie Bowen, the founding general partner of Farmhand Ventures, discusses the importance of return on investment for AgTech developers.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/"&gt;What AgTech founders get wrong about ROI&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;p&gt;&lt;iframe loading="lazy" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2429523480&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true" width="100%" height="166" frameborder="no" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;"&gt;&lt;a style="color: #cccccc; text-decoration: none;" title="The Robot Report Podcast" href="https://soundcloud.com/robot-report-podcast" target="_blank" rel="noopener"&gt;The Robot Report Podcast&lt;/a&gt; · &lt;a style="color: #cccccc; text-decoration: none;" title="What AgTech founders get wrong about ROI" href="https://soundcloud.com/robot-report-podcast/what-agtech-founders-get-wrong" target="_blank" rel="noopener"&gt;What AgTech founders get wrong about ROI&lt;/a&gt;&lt;/div&gt;
-&lt;div id="attachment_590085" style="width: 250px" class="wp-caption alignleft"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590085" class="wp-image-590085 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Connie-Bowen-Headshot.jpg" alt="headshot of Connie Bowen, an expert in AgTech investment" width="240" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Connie-Bowen-Headshot.jpg 240w, https://www.therobotreport.com/wp-content/uploads/2026/10/Connie-Bowen-Headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/10/Connie-Bowen-Headshot-190x238.jpg 190w" sizes="auto, (max-width: 240px) 100vw, 240px" /&gt;&lt;p id="caption-attachment-590085" class="wp-caption-text"&gt;Connie Bowen, founding general partner of Farmhand Ventures.&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;In Episode 268 of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, our guest is Connie Bowen, the founding general partner of Farmhand Ventures, a venture fund with a focus on &lt;a href="https://www.therobotreport.com/tag/AgTech/" target="_blank" rel="noopener"&gt;AgTech&lt;/a&gt; investments.&lt;/p&gt;
-&lt;p&gt;Farmhand Ventures is an impact-first investment firm shaping the future of work in &lt;a href="https://www.therobotreport.com/category/markets-industries/ag/" target="_blank" rel="noopener"&gt;agriculture&lt;/a&gt;. It enables strategic programs and innovation to make farm work more attractive, productive, profitable, and resilient — improving the lives and livelihoods of farmers, farmworkers, and rural communities.&lt;/p&gt;
-&lt;p&gt;A lifelong ag leader and engineer, Bowen has planted orchards, harvested hemp, and managed farm crews. That experience grounds her investment lens in the realities of the field.&lt;/p&gt;
-&lt;p&gt;Over the past decade, Bowen has built a career connecting agricultural technology with practical farming needs, holding roles at The Yield Lab, AgLaunch, Chess Ag Full Harvest Partners, and Grape Arbor Ventures before founding Farmhand.&lt;/p&gt;
-&lt;p&gt;Connie has backed dozens of agtech startups aligned with Farmhand&amp;#8217;s mission — including L5 Automation, Scout, New West Genetics, and Nutt Bio.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Show timeline&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;4:54 &amp;#8211; News of the week&lt;/li&gt;
-&lt;li&gt;23:40 &amp;#8211; &lt;a href="https://www.linkedin.com/in/constancebowen/" target="_blank" rel="noopener"&gt;Connie Bowen&lt;/a&gt;, founding general partner of &lt;a href="https://www.farmhandventures.com/" target="_blank" rel="noopener"&gt;Farmhand Ventures&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;News of the week&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.therobotreport.com/north-american-robot-orders-climb-24-8-q3-2026-says-a3/" target="_blank" rel="noopener"&gt;&lt;span data-contrast="none"&gt;North American robot orders climb 24.8% in Q3 of 2026, says A3&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.therobotreport.com/humanoid-developer-agility-now-expects-raise-465m-spac-deal/" target="_blank" rel="noopener"&gt;Humanoid developer Agility now expects to raise $465M in SPAC deal&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/" target="_blank" rel="noopener"&gt;&lt;span data-contrast="none"&gt;Agility and GXO Logistics plan expanded deployment of Digit humanoid&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Sponsors&lt;/h2&gt;
-&lt;p&gt;Closing the loop of autonomy takes more than a great robot.&lt;/p&gt;
-&lt;p&gt;WiBotic provides reliable wireless charging and fleet energy management for autonomous robots and other battery-powered systems.&lt;/p&gt;
-&lt;p&gt;This patented technology gives robots more freedom to charge throughout their normal workflow, helping increase the uptime, ROI, and safety of your fleet.&lt;/p&gt;
-&lt;p&gt;AMRs, drones, floor scrubbers, humanoids, and everything in between, WiBotic makes charging simple, seamless, and scalable.&lt;/p&gt;
-&lt;p&gt;Learn more at &lt;a href="http://www.wibotic.com/robotreport" target="_blank" rel="noopener"&gt;http://www.wibotic.com/robotreport&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;To learn how you can sponsor a future episode of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, contact Jami Brownlee at &lt;a href="mailto:jbrownlee@arrowfly.com" target="_blank" rel="noopener"&gt;jbrownlee@arrowfly.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Would you like to be a guest on a future episode? Contact Mike Oitzman at &lt;a href="mailto:moitzman@arrowfly.com" target="_blank" rel="noopener"&gt;moitzman@arrowfly.com&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/"&gt;What AgTech founders get wrong about ROI&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
