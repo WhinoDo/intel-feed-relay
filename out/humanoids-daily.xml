@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Fri, 06 Nov 2026 11:59:02 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 07 Nov 2026 11:43:21 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/samsung-sdi-atlas-battery-70-cells-1-3-kwh</guid>
+    <title>Atlas Battery Pack to Use 70 Samsung SDI Cells, Report Says</title>
+    <link>https://www.humanoidsdaily.com/news/samsung-sdi-atlas-battery-70-cells-1-3-kwh</link>
+    <description>The reported 1.3 kWh pack adds detail to Atlas’s power system as humanoid makers pursue battery swapping, fast charging and new chemistries.</description>
+    <pubDate>Sat, 07 Nov 2026 11:43:21 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>hyundai</category><category>US</category><category>South Korea</category><category>Batteries</category><category>Samsung</category><category>Boston Dynamics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-hangzhou-factory-manual-assembly-josef-chen</guid>
+    <title>Inside Unitree's Hangzhou Factory, Robots Are Still Mostly Built by Hand</title>
+    <link>https://www.humanoidsdaily.com/news/unitree-hangzhou-factory-manual-assembly-josef-chen</link>
+    <description>Josef Chen's visit to Unitree's Hangzhou factory, and the company's own filings, show a robot maker running on manual assembly with about $50 of machinery per robot. He argues US wages and trade barriers make factory automation far more valuable to American robot makers.</description>
+    <pubDate>Sat, 07 Nov 2026 11:31:16 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>1X Technologies</category><category>Tesla</category><category>Unitree Robotics</category><category>US</category><category>Figure</category><category>Actuators</category><category>Supply Chain</category><category>manufacturing</category><category>China</category><category>AGIBOT</category><category>FCC</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/embodied-ai-air-wheeled-humanoid-factory-humanoid-europe</guid>
     <title>Swiss Startup Embodied AI Unveils AIR, a Wheeled Robot Built to Work Beside Factory Staff Without a Cage</title>
@@ -288,26 +308,6 @@
     <pubDate>Fri, 30 Oct 2026 19:44:57 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Tesla</category><category>US</category><category>Optimus gen 3</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-worken-robot-productivity-measure-explained</guid>
-    <title>What Is Worken? AGIBOT’s Proposed Measure of Productive Robot Work</title>
-    <link>https://www.humanoidsdaily.com/news/agibot-worken-robot-productivity-measure-explained</link>
-    <description>AGIBOT’s Worken framework combines active robots, autonomous hours and task-specific output. Here is how the calculation works—and what it cannot tell you.</description>
-    <pubDate>Fri, 30 Oct 2026 14:13:00 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>China</category><category>AGIBOT</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tesla-optimus-data-collection-scoble-robot-university</guid>
-    <title>Tesla’s Optimus Data-Collection Effort Comes Into Focus After Scoble’s “Robot University” Claims</title>
-    <link>https://www.humanoidsdaily.com/news/tesla-optimus-data-collection-scoble-robot-university</link>
-    <description>Tesla job listings document motion-capture work and multi-shift data collection, while Robert Scoble’s claims about camera-covered suits and a Palo Alto operation remain unverified.</description>
-    <pubDate>Fri, 30 Oct 2026 13:47:00 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Tesla</category><category>US</category>
   </item>
 
   </channel>
