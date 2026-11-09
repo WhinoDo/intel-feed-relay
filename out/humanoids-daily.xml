@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Sat, 07 Nov 2026 18:28:26 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 09 Nov 2026 15:12:27 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-atlas-wheels-rl-actuator-test</guid>
+    <title>Boston Dynamics Puts Atlas on Wheels to Push Its Motors to the Limit</title>
+    <link>https://www.humanoidsdaily.com/news/boston-dynamics-atlas-wheels-rl-actuator-test</link>
+    <description>Boston Dynamics swapped Atlas's feet for scooter wheels on the ankle actuators and retrained its whole-body RL controller to roll, drift and spin-jump. It is a motor stress test, not a product.</description>
+    <pubDate>Mon, 09 Nov 2026 15:12:27 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>reinforcement-learning</category><category>Unitree Robotics</category><category>Research</category><category>Atlas</category><category>Wheeled base</category><category>Boston Dynamics</category><category>Hexagon</category><category>simulation</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/primebot-10000th-personal-robot-production</guid>
+    <title>PrimeBOT Builds Its 10,000th Personal Robot, 14 Days After Its 5,000th</title>
+    <link>https://www.humanoidsdaily.com/news/primebot-10000th-personal-robot-production</link>
+    <description>PrimeBOT says its 10,000th Q1 and T1 personal robot rolled off the line on November 8, with daily capacity at 240 units. It has not disclosed sales or deliveries.</description>
+    <pubDate>Mon, 09 Nov 2026 07:51:36 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>manufacturing</category><category>China</category><category>AGIBOT</category><category>Consumer Tech</category><category>PrimeBOT</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-hq-crawling-with-figure-03-robots-adcock-videos</guid>
     <title>Figure’s HQ Is Crawling With Figure 03 Robots. What Are They All Doing?</title>
@@ -288,26 +308,6 @@
     <pubDate>Mon, 02 Nov 2026 07:16:36 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>livestream</category><category>China</category><category>AGIBOT</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/rhoda-ai-schrep-dva-factory-edge-case-demos</guid>
-    <title>Rhoda AI Shows Robots Recovering From Factory Edge Cases in Schrep Visit</title>
-    <link>https://www.humanoidsdaily.com/news/rhoda-ai-schrep-dva-factory-edge-case-demos</link>
-    <description>A Field Trips with Schrep visit explores Rhoda’s robot recovery demos, video-based control architecture and plans for paid industrial deployments before year-end.</description>
-    <pubDate>Sun, 01 Nov 2026 11:07:41 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>rhoda-ai</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/meta-fourier-max-humanoid-prototype</guid>
-    <title>Meta Reportedly Built “Max” Humanoid With Fourier, With a Second Version Underway</title>
-    <link>https://www.humanoidsdaily.com/news/meta-fourier-max-humanoid-prototype</link>
-    <description>The Information reports that Meta and Fourier built a custom humanoid in three months. Meta says the units are for internal research, with no plans to sell them.</description>
-    <pubDate>Sun, 01 Nov 2026 08:34:54 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>China</category><category>Meta</category><category>fourier</category>
   </item>
 
   </channel>

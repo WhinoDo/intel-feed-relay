@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Sat, 07 Nov 2026 01:15:11 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 09 Nov 2026 15:41:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,260 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>How to minimize Wi-Fi roaming interruptions for autonomous mobile robots</title>
+		<link>https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/</link>
+					<comments>https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/#respond</comments>
+		
+		<dc:creator>Mikko Niemi</dc:creator>
+		<pubDate>Mon, 09 Nov 2026 15:40:41 +0000</pubDate>
+				<category>Artificial Intelligence</category>
+		<category>Autonomous Mobile Robots (AMRs)</category>
+		<category>Cameras / Imaging / Vision</category>
+		<category>Healthcare Robotics</category>
+		<category>Logistics</category>
+		<category>Manufacturing</category>
+		<category>Mobility / Navigation</category>
+		<category>Networking / Connectivity</category>
+		<category>News</category>
+		<category>Opinion</category>
+		<category>Retail / Wholesale</category>
+		<category>Sensors / Sensing Systems</category>
+		<category>Software</category>
+		<category>Synaptics</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590162</guid>
+
+					<description>&lt;p&gt;Dedicated Wi-Fi scan architectures can improve robot mobility, reliability, and performance, says Synaptics.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/"&gt;How to minimize Wi-Fi roaming interruptions for autonomous mobile robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590167" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590167" class="size-full wp-image-590167" src="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-01.jpg" alt="A mobile robot between Wi-Fi access points. Wi-Fi connectivity needs to be reliable for real-time mobile robot management, says Synaptics." width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-01.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-01-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-01-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-01-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-01-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590167" class="wp-caption-text"&gt;Wi-Fi connectivity needs to be reliable for real-time mobile robot management. Source: Synaptics&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;An autonomous mobile robot or AMR may cross dozens of Wi-Fi coverage zones during a single shift. Each transition creates a small but potentially consequential communications problem: How does the robot find its next access point without interrupting the connection it is already using?&lt;/p&gt;
+&lt;p&gt;The answer matters because &lt;a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener"&gt;AMRs&lt;/a&gt;, industrial &lt;a href="https://www.therobotreport.com/tag/inspection" target="_blank" rel="noopener"&gt;inspection&lt;/a&gt; robots, &lt;a href="https://www.automatedwarehouseonline.com/" target="_blank" rel="noopener"&gt;warehouse&lt;/a&gt; automation, and healthcare service robots increasingly depend on continuous &lt;a href="https://www.therobotreport.com/category/technologies/networking-connectivity" target="_blank" rel="noopener"&gt;connectivity&lt;/a&gt; for &lt;a href="https://www.therobotreport.com/category/technologies/sensors-sensing/" target="_blank" rel="noopener"&gt;sensor&lt;/a&gt; data, telemetry, and control.&lt;/p&gt;
+&lt;p&gt;In a conventional Wi-Fi architecture, the primary communication radio must periodically stop transmitting and receiving application traffic while it searches for alternative access points. That creates a tradeoff among connectivity, latency, power consumption, and roaming performance.&lt;/p&gt;
+&lt;p&gt;A dedicated scan architecture separates network discovery from application traffic. The robot can monitor its wireless environment continuously while the primary radio maintains the active connection.&lt;/p&gt;
+&lt;p&gt;One implementation, Synaptics Scan Core, uses a low-power wireless subsystem to monitor neighboring access points while the primary Wi-Fi radio remains dedicated to application traffic. This separation can support faster roaming decisions, lower latency, reduced packet loss, and more efficient scanning.&lt;/p&gt;
+&lt;h2&gt;As robots become more mobile, roaming is mission-critical&lt;/h2&gt;
+&lt;p&gt;Robots are becoming more connected and autonomous across &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;manufacturing&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/markets-industries/logistics-warehousing-asrs/" target="_blank" rel="noopener"&gt;logistics&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/markets-industries/biotechnology-medical-healthcare/" target="_blank" rel="noopener"&gt;healthcare&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/retail-wholesale" target="_blank" rel="noopener"&gt;retail&lt;/a&gt;, and &lt;a href="https://www.therobotreport.com/tag/service" target="_blank" rel="noopener"&gt;service&lt;/a&gt; environments. As they move through larger and more complex facilities, reliable wireless connectivity and fast roaming become core design requirements rather than secondary networking considerations.&lt;/p&gt;
+&lt;p&gt;Unlike stationary Wi-Fi devices, robots move continually between coverage areas while maintaining video, &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; inference, telemetry, and &lt;a href="https://www.therobotreport.com/tag/fleet-management" target="_blank" rel="noopener"&gt;fleet-management&lt;/a&gt; communications. These combined demands make mobile robotics a strong use case for dedicated scanning architectures.&lt;/p&gt;
+&lt;p&gt;Modern robots also support increasingly demanding wireless workloads, including HD and multi-camera &lt;a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener"&gt;video&lt;/a&gt;, simultaneous localization and mapping (&lt;a href="https://www.therobotreport.com/tag/slam/" target="_blank" rel="noopener"&gt;SLAM&lt;/a&gt;), AI-assisted &lt;a href="https://www.therobotreport.com/category/mobility-navigation" target="_blank" rel="noopener"&gt;navigation&lt;/a&gt;, predictive maintenance, and remote operation.&lt;/p&gt;
+&lt;p&gt;Wireless connectivity has therefore evolved from a convenience into a critical operational subsystem.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;Mobility poses challenges&lt;/h2&gt;
+&lt;p&gt;A mobile robot must maintain application traffic as it moves between Wi-Fi coverage zones. A warehouse robot may roam dozens or even hundreds of times during a shift. Each roaming event can introduce:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Increased latency&lt;/li&gt;
+&lt;li&gt;Packet loss&lt;/li&gt;
+&lt;li&gt;Video disruption&lt;/li&gt;
+&lt;li&gt;Delayed control responses&lt;/li&gt;
+&lt;li&gt;Reduced productivity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Common performance targets for robotics deployments include:&lt;/p&gt;
+&lt;table width="348"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td width="240"&gt;&lt;strong&gt;Requirement&lt;/strong&gt;&lt;/td&gt;
+&lt;td width="108"&gt;&lt;strong&gt;Typical Target&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="240"&gt;Roaming latency&lt;/td&gt;
+&lt;td width="108"&gt;&amp;lt;80 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="240"&gt;Sustained throughput&lt;/td&gt;
+&lt;td width="108"&gt;20 Mbps&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width="240"&gt;Packet loss during roaming&lt;/td&gt;
+&lt;td width="108"&gt;&amp;lt;2%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;For many autonomous systems, meeting these targets is important to safe and efficient operation.&lt;/p&gt;
+&lt;h2&gt;Key requirements and pain points&lt;/h2&gt;
+&lt;p&gt;Although stakeholders evaluate robotics systems differently, several wireless performance measures consistently emerge as critical.&lt;/p&gt;
+&lt;h3&gt;Roaming latency&lt;/h3&gt;
+&lt;p&gt;A typical roaming process includes the following steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Network discovery&lt;/li&gt;
+&lt;li&gt;Candidate evaluation&lt;/li&gt;
+&lt;li&gt;Authentication&lt;/li&gt;
+&lt;li&gt;Security key exchange&lt;/li&gt;
+&lt;li&gt;Reassociation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Each step adds delay. In robotics applications, excessive roaming latency can affect navigation, fleet coordination, &lt;a href="https://www.therobotreport.com/tag/teleoperation/" target="_blank" rel="noopener"&gt;teleoperation&lt;/a&gt;, and machine-vision performance.&lt;/p&gt;
+&lt;h3&gt;Packet loss&lt;/h3&gt;
+&lt;p&gt;Even brief connectivity interruptions can affect AMR operations and data transfer. Robots often require communications performance that is consistent and predictable enough for real-time operation.&lt;/p&gt;
+&lt;h3&gt;Power consumption&lt;/h3&gt;
+&lt;p&gt;AMRs must continuously balance &lt;a href="https://www.therobotreport.com/category/technologies/batteries-power-supplies/" target="_blank" rel="noopener"&gt;battery&lt;/a&gt; performance and energy efficiency. Aggressive scanning improves roaming responsiveness but typically increases power consumption.&lt;/p&gt;
+&lt;h3&gt;Dense RF environments&lt;/h3&gt;
+&lt;p&gt;Warehouses, factories, airports, and &lt;a href="https://www.therobotreport.com/tag/hospital" target="_blank" rel="noopener"&gt;hospitals&lt;/a&gt; often contain many access points, multiple wireless protocols, and significant RF reflections. These conditions place additional demands on roaming algorithms.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Dedicated scanning can address mobile robot connectivity&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Traditional Wi-Fi clients use the primary communication radio for both application traffic and network discovery. During a background scan, the radio temporarily leaves its serving channel to look for neighboring access points, interrupting active traffic and potentially adding delay or packet loss.&lt;/p&gt;
+&lt;p&gt;A dedicated scan architecture assigns continuous monitoring of the wireless environment to a separate low-power resource. The primary Wi-Fi radio can remain focused on application traffic while candidate access points are identified in advance.&lt;/p&gt;
+&lt;div id="attachment_590164" style="width: 351px" class="wp-caption aligncenter"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-590164" class="size-full wp-image-590164" src="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture1.png" alt="A traditional Wi-Fi architecture for mobile robots, according to Synaptics." width="341" height="227" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture1.png 341w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture1-300x200.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture1-150x100.png 150w" sizes="(max-width: 341px) 100vw, 341px" /&gt;&lt;p id="caption-attachment-590164" class="wp-caption-text"&gt;Source: Synaptics&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Synaptics Scan Core is one implementation of this general architectural approach. A dedicated scan resource removes this contention between active communications and network discovery.&lt;/p&gt;
+&lt;div id="attachment_590165" style="width: 351px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590165" class="size-full wp-image-590165" src="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture2.png" alt="A dedicated Wi-Fi scan architecture, according to Synaptics." width="341" height="227" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture2.png 341w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture2-300x200.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture2-150x100.png 150w" sizes="auto, (max-width: 341px) 100vw, 341px" /&gt;&lt;p id="caption-attachment-590165" class="wp-caption-text"&gt;Source: Synaptics&lt;/p&gt;&lt;/div&gt;
+&lt;h3&gt;&lt;strong&gt;Traditional Wi-Fi versus Scan Core&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Conventional Wi-Fi&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Dedicated Scan Core&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Main communication radio performs scanning&lt;/td&gt;
+&lt;td&gt;Dedicated Scan Core performs scanning&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;User traffic interrupted during scans&lt;/td&gt;
+&lt;td&gt;User traffic radio is not interrupted by scan operations&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reactive roaming&lt;/td&gt;
+&lt;td&gt;Proactive roaming&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Higher scan power&lt;/td&gt;
+&lt;td&gt;Lower scan power&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Longer roaming time&lt;/td&gt;
+&lt;td&gt;Faster roaming&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Periodic access point discovery&lt;/td&gt;
+&lt;td&gt;Continuous AP discovery&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;strong&gt;Key benefits&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Continuous network awareness: &lt;/strong&gt;The scan radio continuously monitors neighboring channels while the primary radio remains connected.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Faster roaming decisions: &lt;/strong&gt;Candidate access points are discovered before signal quality degrades.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lower packet loss: &lt;/strong&gt;Active communications continue during background scanning.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;More predictable performance: &lt;/strong&gt;Roaming behavior becomes more consistent and predictable.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improved power efficiency: &lt;/strong&gt;Background scanning can be optimized without disrupting active communications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Instead of waiting for connectivity to deteriorate, the wireless subsystem can prepare for the next roaming event while application traffic continues on the primary radio.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Measured Scan Core benefits&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Synaptics said its platform characterization measured substantial improvements in scanning efficiency:&lt;/p&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Metric&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Improvement&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Scan time&lt;/td&gt;
+&lt;td&gt;Up to 65% faster&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Overall scan duration&lt;/td&gt;
+&lt;td&gt;Approximately 40% shorter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Scan power&lt;/td&gt;
+&lt;td&gt;Up to 75% lower&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Scan current&lt;/td&gt;
+&lt;td&gt;Up to 77% lower&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Source:&lt;/em&gt; Synaptics robotics platform characterization&lt;/p&gt;
+&lt;p&gt;In a mobile robot, these improvements can contribute to faster roaming, lower scan energy, longer battery life, and steadier application traffic. Actual results will depend on the platform, network topology, traffic load, and RF environment.&lt;/p&gt;
+&lt;h2&gt;Applying dedicated scanning to mobile robots&lt;/h2&gt;
+&lt;p&gt;Commercial connectivity platforms are beginning to incorporate dedicated scanning. For instance, Synaptics offers an integrated platform combining Wi-Fi 7, dual Bluetooth 6.0, and IEEE 802.15.4, as well as multi-band operation across 2.4, 5, and 6 GHz.&lt;/p&gt;
+&lt;p&gt;Within that platform, Scan Core provides a dedicated scan resource that operates independently of the primary WLAN subsystem. This allows scanning and active communications to occur simultaneously rather than compete for the same radio.&lt;/p&gt;
+&lt;h3&gt;Multi-band awareness&lt;/h3&gt;
+&lt;p&gt;The platform evaluates candidate access points across multiple frequency bands, helping the robot maintain connectivity as it moves through a facility.&lt;/p&gt;
+&lt;h3&gt;Fast channel switching&lt;/h3&gt;
+&lt;p&gt;The architecture supports rapid transitions between the main and scan resources. On the Synaptics robotics validation platform, switching between resources was measured on the order of microseconds.&lt;/p&gt;
+&lt;h3&gt;Roaming test results&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Figure 3 &lt;/strong&gt;summarizes the minimum and maximum measured roaming times across three representative scenarios. In Synaptics platform testing, all results remained below the 80 ms target while continuous 20 Mbps UDP traffic was maintained:&lt;/p&gt;
+&lt;div id="attachment_590166" style="width: 792px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590166" class="size-full wp-image-590166" src="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture3.png" alt="SYN4390 roaming performance, according to Synaptics." width="782" height="521" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture3.png 782w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture3-300x200.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture3-150x100.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture3-768x512.png 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture3-357x238.png 357w" sizes="auto, (max-width: 782px) 100vw, 782px" /&gt;&lt;p id="caption-attachment-590166" class="wp-caption-text"&gt;Source: Synaptics&lt;/p&gt;&lt;/div&gt;
+&lt;h2&gt;Wireless mobility becomes part of robot performance&lt;/h2&gt;
+&lt;p&gt;As AMRs take on more complex workloads and operate across larger, denser environments, wireless mobility becomes part of the robot&amp;#8217;s performance envelope. Roaming affects productivity, fleet efficiency, the user experience, and, in some applications, safe operation.&lt;/p&gt;
+&lt;p&gt;Conventional Wi-Fi makes the communication radio divide its time between application traffic and network discovery. A dedicated scan architecture separates those functions, allowing the robot to identify its next connection without interrupting the one it is already using.&lt;/p&gt;
+&lt;p&gt;Dedicated scanning and Wi-Fi 7 enhanced Multi-Link Single Radio (&lt;a href="https://ieeexplore.ieee.org/document/11059913/" target="_blank" rel="noopener"&gt;eMLSR&lt;/a&gt;) address different parts of wireless mobility. Dedicated scanning improves awareness of nearby access points; eMLSR improves how the device uses multiple links. Together, they can make roaming faster and more predictable without forcing designers to trade application performance against network awareness.&lt;/p&gt;
+&lt;p&gt;In Synaptics internal validation, eMLSR delivered up to a 10x latency improvement over single-link operation under congested conditions. Results vary with network topology, traffic load, and RF conditions. eMLSR can provide many multi-link operation latency benefits without requiring multiple fully active radios.&lt;/p&gt;
+&lt;div id="attachment_590168" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590168" class="size-full wp-image-590168" src="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-04.jpg" alt="Chart showing how Synaptics says Scan Core can help mobile robots maintain coverage." width="770" height="479" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-04.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-04-300x187.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-04-150x93.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-04-768x478.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-04-368x229.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590168" class="wp-caption-text"&gt;Synaptics says Scan Core can help mobile robots maintain coverage. Source: Synaptics&lt;/p&gt;&lt;/div&gt;
+&lt;h3&gt;Glossary&lt;/h3&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Autonomous mobile robot&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;An AMR can navigating and performing tasks using sensors, AI, and wireless connectivity without requiring fixed guidance infrastructure or direct human control.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Access point&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;An AP is a wireless networking device that provides Wi-Fi connectivity to client devices within a coverage area.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Enhanced Multi-Link Single Radio&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;eMLSR is a Wi-Fi 7 capability that enables a single radio to intelligently utilize multiple wireless links, improving latency, reliability, and power efficiency.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Fleet management&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Software and network infrastructure used to monitor, coordinate, and manage multiple AMRs operating within the same environment.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Latency&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;The time required for data to travel between devices. Low and predictable latency is critical for real-time robotics applications.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Multi-Link Operation&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;MLO is a Wi-Fi 7 feature that allows communication over multiple wireless links, improving throughput, reliability, and network efficiency.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Packet loss&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Data packets that fail to reach their destination. Excessive packet loss can interrupt video, telemetry, and real-time control.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Roaming&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;The process by which a Wi-Fi client transitions from one access point to another while maintaining network connectivity.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Scan Core&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;A dedicated low-power wireless receive subsystem that continuously monitors the wireless environment while the primary Wi-Fi radio remains dedicated to application traffic. By separating network awareness from communications, Scan Core enables faster roaming, lower latency, reduced packet loss, and improved power efficiency, according to Synaptics.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Simultaneous Localization and Mapping&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;SLAM is a navigation technique that enables a robot to build a map of its environment while simultaneously determining its own position within that map.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Simultaneous Transmit and Receive&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;STR is a Wi-Fi 7 Multi-Link Operation mode that enables simultaneous transmission and reception over multiple wireless links, maximizing throughput and reducing latency.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;User Datagram Protocol&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;UDP is a lightweight transport protocol used for real-time applications such as video streaming, voice, gaming, and telemetry. Unlike TCP, UDP does not retransmit lost packets, making it well suited for measuring network latency, packet loss, and roaming performance in wireless systems.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Wi-Fi 7 &lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;The latest generation of Wi-Fi technology (&lt;a href="https://standards.ieee.org/ieee/802.11be/7516/" target="_blank" rel="noopener"&gt;IEEE 802.11be&lt;/a&gt;) introduced features such as MLO, wider channel bandwidths, lower latency, and improved efficiency in dense wireless environments.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 aria-hidden="true"&gt;&lt;/h2&gt;
+&lt;h2 class="x_x_x_MsoNormal" aria-hidden="true"&gt;&lt;img loading="lazy" decoding="async" class="alignleft size-medium wp-image-590163" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Mikko_Niemi-300x300.jpeg" alt="Mikko Niemi is director of product marketing at Synaptics." width="300" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Mikko_Niemi-300x300.jpeg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/Mikko_Niemi-150x150.jpeg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/Mikko_Niemi-238x238.jpeg 238w, https://www.therobotreport.com/wp-content/uploads/2026/11/Mikko_Niemi.jpeg 400w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;About the author&lt;/h2&gt;
+&lt;p class="x_x_x_MsoNormal"&gt;&lt;a href="https://www.linkedin.com/in/niemimikko/" target="_blank" rel="noopener"&gt;Mikko Niemi&lt;/a&gt; is a product manager for wireless products at &lt;a href="https://www.synaptics.com/" target="_blank" rel="noopener"&gt;Synaptics Inc.&lt;/a&gt; He has more than 15 years of experience across industrial Internet of Things (&lt;a href="https://www.therobotreport.com/tag/iot/" target="_blank" rel="noopener"&gt;IIoT&lt;/a&gt;), semiconductor, and software-as-a-service (SaaS) sectors. Niemi specializes in building and scaling intelligent, data-driven platforms that power connected infrastructure, smart energy systems, and next-generation industrial applications.&lt;/p&gt;
+&lt;p&gt;He previously worked at Lantronix, where he led a portfolio that included industrial IoT gateways, cloud-based, SaaS device management platforms, and global connectivity services—delivering edge-to-cloud systems that integrate real-time telemetry, AI/machine learning analytics, and robust security at scale. Niemi previosly held management roles at Silicon Labs and Landis+Gyr. He holds an MBA and a Master’s in electronics engineering.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/"&gt;How to minimize Wi-Fi roaming interruptions for autonomous mobile robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>ARM Institute consortium grows to more than 500 organizations</title>
 		<link>https://www.therobotreport.com/arm-institute-members-grows-more-than-500-organizations/</link>
 					<comments>https://www.therobotreport.com/arm-institute-members-grows-more-than-500-organizations/#respond</comments>
@@ -47,7 +301,7 @@
 					<description>&lt;p&gt;The ARM Institute reached the milestone as it prepares to host its 10th annual member meeting in Pittsburgh.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/arm-institute-members-grows-more-than-500-organizations/"&gt;ARM Institute consortium grows to more than 500 organizations&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_590161" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590161" class="size-full wp-image-590161" src="https://www.therobotreport.com/wp-content/uploads/2026/11/ARM_members.jpg" alt="The annual ARM Institute member meeting takes place in Pittsburgh." width="770" height="496" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/ARM_members.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/ARM_members-300x193.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/ARM_members-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/ARM_members-768x495.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/ARM_members-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590161" class="wp-caption-text"&gt;The annual ARM Institute member meeting takes place in Pittsburgh. Source: ARM Institute&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_590161" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590161" class="size-full wp-image-590161" src="https://www.therobotreport.com/wp-content/uploads/2026/11/ARM_members.jpg" alt="The annual ARM Institute member meeting takes place in Pittsburgh." width="770" height="496" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/ARM_members.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/ARM_members-300x193.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/ARM_members-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/ARM_members-768x495.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/ARM_members-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590161" class="wp-caption-text"&gt;The annual ARM Institute member meeting takes place in Pittsburgh. Source: ARM Institute&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;The Advanced Robotics for Manufacturing, or ARM Institute last week said that that its member consortium has grown to include more than 500 organizations nationwide, with thousands of individual subject matter experts represented within these organizations. The organization collaborates with its consortium and the U.S. government to promote the U.S. as leading nation in manufacturing output through the adoption of robotics and AI.&lt;/p&gt;
 &lt;p&gt;“We are proud to work with our consortium to build a resilient, secure, and bright future for U.S. manufacturing,” stated &lt;a href="https://www.therobotreport.com/arm-institute-appoints-jorgen-pedersen-new-ceo/" target="_blank" rel="noopener"&gt;Jorgen Pedersen&lt;/a&gt;, CEO of the ARM Institute. “Our member consortium is the foundation of our Institute and integral to our mission.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;&amp;#8220;Our members have collaborated with us on hundreds of technology projects, helped us launch major initiatives, including our national workforce resource &lt;a href="https://www.roboticscareer.org/" target="_blank" rel="noopener"&gt;&lt;em&gt;RoboticsCareer.org&lt;/em&gt;&lt;/a&gt;, supported manufacturers through their robotics and automation journey, and more,&amp;#8221; he added. &amp;#8220;We look forward to celebrating this milestone at our 10th Annual Member Meeting later this month.”&lt;/p&gt;
@@ -58,7 +312,7 @@
 &lt;p&gt;Last month, the institute issued a &lt;a href="https://arminstitute.org/news/project-call-shipbuilding/" target="_blank" rel="noopener"&gt;project call&lt;/a&gt; from the &lt;a href="http://therobotreport.com/tag/u-s-navy" target="_blank" rel="noopener"&gt;U.S. Navy&lt;/a&gt; to address needs in the shipbuilding industrial base. This month, the ARM Institute put out a &lt;a href="https://arminstitute.org/news/rfp-talent/" target="_blank" rel="noopener"&gt;request for proposals&lt;/a&gt; for a skills gap analysis for a localized talent supply chain to support the organic and defense industrial base.&lt;/p&gt;
 &lt;p&gt;Its consortium members include manufacturers of all sizes, &lt;a href="https://www.therobotreport.com/category/markets-industries/defense-security/" target="_blank" rel="noopener"&gt;defense&lt;/a&gt; contractors, technology providers offering robotics and AI systems, research universities, community colleges, vocational schools, &lt;a href="https://www.therobotreport.com/tag/government/" target="_blank" rel="noopener"&gt;government&lt;/a&gt; entities, &lt;a href="https://www.therobotreport.com/category/startups" target="_blank" rel="noopener"&gt;startups&lt;/a&gt;, and others.&lt;/p&gt;
 &lt;p&gt;ARM Institute &lt;a href="https://arminstitute.org/membership/" target="_blank" rel="noopener"&gt;membership&lt;/a&gt; is at the organizational level and provides access to funding opportunities, member-exclusive events, a digital member community for virtual collaboration, and more. Companies, governmental bodies, and educational institutions that otherwise would be considered competitors work together through the institute for the benefit of the nation and manufacturers across the U.S., asserted the organization.&lt;/p&gt;
-&lt;p&gt;&lt;iframe title="T-26-DDC-07 Navy ReSIB Project Call Public Webinar Recording" src="https://player.vimeo.com/video/1238105569?dnt=1&amp;amp;app_id=122963" width="740" height="416" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="T-26-DDC-07 Navy ReSIB Project Call Public Webinar Recording" src="https://player.vimeo.com/video/1238105569?dnt=1&amp;amp;app_id=122963" width="740" height="416" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin"&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;10th annual member meeting coming soon&lt;/h2&gt;
 &lt;p&gt;The ARM Institute marked the membership milestone as it prepares to host its &lt;a href="https://arminstitute.org/news/2026-member-meeting-reg/" target="_blank" rel="noopener"&gt;10&lt;sup&gt;th&lt;/sup&gt; Annual Member Meeting&lt;/a&gt; from Nov. 17 to 19. This member-exclusive event convenes experts from across ARM&amp;#8217;s consortium and the U.S. government for two and a half days of networking, collaboration, and knowledge-sharing.&lt;/p&gt;
 &lt;p&gt;The event in Pittsburgh will feature expert-led presentations, networking and curated matchmaking, a Member Showcase Hall, and more. This year’s event will feature celebratory content and activities in recognition of the anniversary.&lt;/p&gt;
@@ -66,7 +320,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/arm-institute-members-grows-more-than-500-organizations/"&gt;ARM Institute consortium grows to more than 500 organizations&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
@@ -261,7 +515,7 @@
 </description>
 										<ns3:encoded>&lt;div id="attachment_590142" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590142" class="wp-image-590142 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured.jpg" alt="A render of Boston Dynamics' Stretch Gen 2 robot. " width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/11/stretch-gen2-render-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590142" class="wp-caption-text"&gt;The new Stretch features an updated modular design that enables “plug and play” part swaps. | Source: Boston Dynamics&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Boston Dynamics Inc. this week unveiled Stretch Gen 2, the latest generation of its autonomous mobile trailer unloading robot. With over 100,000 operating hours and tens of millions of boxes handled under its belt, the company built the updated robot to maximize uptime and streamline maintenance.&lt;/p&gt;
-&lt;p&gt;Brian Donnelly, the vice president and general manager of &lt;a href="https://www.therobotreport.com/category/markets-industries/logistics-warehousing-asrs/" target="_blank" rel="noopener"&gt;logistics&lt;/a&gt; robotics at Boston Dynamics, told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt; that the &lt;a href="https://www.therobotreport.com/tag/boston-dynamics/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; has been working on the new version of Stretch for around two and a half years.&lt;/p&gt;
+&lt;p&gt;Brian Donnelly, the vice president and general manager of &lt;a href="https://www.therobotreport.com/category/markets-industries/logistics-warehousing-asrs/" target="_blank" rel="noopener"&gt;logistics&lt;/a&gt; robotics at Boston Dynamics, told&amp;nbsp;&lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt; that the &lt;a href="https://www.therobotreport.com/tag/boston-dynamics/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; has been working on the new version of Stretch for around two and a half years.&lt;/p&gt;
 &lt;p&gt;“When we made the first generation of Stretch, we were focused on trying to get a product out into the market as fast as possible and really get it in customers’ hands and get it operational,&amp;#8221; he said. &amp;#8220;It was not the easiest to manufacture; there were a lot of components.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;&amp;#8220;[With Stretch 2], we really were focused on simplification, hardening the robot, and really driving improved reliability and performance,&amp;#8221; added Donnelly. &amp;#8220;That’s really what drove a lot of our decisions was just making the robot better in every way.”&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://bostondynamics.com/products/stretch/" target="_blank" rel="noopener"&gt;Stretch&lt;/a&gt; Gen 2 can unload up to 1,000 cases per hour. This rate is highly dependent on factors such as case weight and how neat or disorderly cases are stacked. It has a multipick feature, a battery that can last two shifts, and a fast charger that can get it to 90% charge in about 75 minutes.&lt;/p&gt;
@@ -277,9 +531,9 @@
 &lt;p&gt;&lt;iframe loading="lazy" title="Stretch at Gap | Boston Dynamics" width="740" height="416" src="https://www.youtube.com/embed/_dhwRYdZs9w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;How Stretch Gen 2 gets a grip on multiple boxes&lt;/h2&gt;
 &lt;p&gt;The gripper is the part of the robot that often deals with the most stress. It&amp;#8217;s making contact with all of the the things the robot needs to handle. Stretch Gen 2 features an upgraded &lt;a href="https://www.therobotreport.com/category/technologies/grippers-end-effectors/" target="_blank" rel="noopener"&gt;gripper&lt;/a&gt; with new valve systems and more precise sensing improves grasping and placement to optimize fast-paced picks.&lt;/p&gt;
-&lt;p&gt;“[The new gripper] has a value in every suction cup, which enables us to pick multiple boxes with a single motion of the arm, which substantially increases our throughput,&amp;#8221; Donnelly explained. &amp;#8220;If we can pick multiple boxes, with a single motion of the arm, we get much higher throughput because the pick cycle of picking up a box from the floor of a container and place it to a conveyor is dominated by arm movement. So, if we can keep the arm moving and just do more every cycle, that is really effective and improves the rate at which we can unload a truck for our customers.”&lt;/p&gt;
+&lt;p&gt;“[The new gripper] has a valve in every suction cup, which enables us to pick multiple boxes with a single motion of the arm, which substantially increases our throughput,&amp;#8221; Donnelly explained. &amp;#8220;If we can pick multiple boxes, with a single motion of the arm, we get much higher throughput because the pick cycle of picking up a box from the floor of a container and place it to a conveyor is dominated by arm movement. So, if we can keep the arm moving and just do more every cycle, that is really effective and improves the rate at which we can unload a truck for our customers.”&lt;/p&gt;
 &lt;p&gt;The new gripper is also better at configuring boxes on the conveyor belt in ways that work best for Boston Dynamics&amp;#8217; customers, and use less power in picking up boxes.&lt;/p&gt;
-&lt;p&gt;“Every cup is individually sensed and actuated, so we know when we have good suction,&amp;#8221; said Donnelly. &amp;#8220;We only have the value open to pull suction when we have good contact on a box, so that enables us to reduce the amount of power we’re spending running on the vacuum pump, so we’re not pulling suction through cups that don’t have good contact. It also enables us to, when we pick up those multiple boxes, singulate them onto the conveyor.”&lt;/p&gt;
+&lt;p&gt;“Every cup is individually sensed and actuated, so we know when we have good suction,&amp;#8221; said Donnelly. &amp;#8220;We only have the valve open to pull suction when we have good contact on a box, so that enables us to reduce the amount of power we’re spending running on the vacuum pump, so we’re not pulling suction through cups that don’t have good contact. It also enables us to, when we pick up those multiple boxes, singulate them onto the conveyor.”&lt;/p&gt;
 &lt;p&gt;&lt;iframe loading="lazy" title="Stretch Debuts in Europe at Otto Group" width="740" height="416" src="https://www.youtube.com/embed/q6TuHGJamR8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;Stretch Gen 2 brings service time down to just hours&lt;/h2&gt;
 &lt;p&gt;With Stretch Gen 2, Boston Dynamics didn&amp;#8217;t just want to reduce the frequency of service calls; it also wanted to make those service calls faster when they do happen.&lt;/p&gt;
@@ -911,55 +1165,6 @@
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/new-iso-interoperability-standard-covers-collaboration-among-mobile-robots-from-multiple-vendors/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC</title>
-		<link>https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/</link>
-					<comments>https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/#respond</comments>
-		
-		<dc:creator>Steve Crowe</dc:creator>
-		<pubDate>Tue, 03 Nov 2026 00:15:39 +0000</pubDate>
-				<category>Financial</category>
-		<category>Humanoids</category>
-		<category>Investments</category>
-		<category>Mergers &amp; Acquisitions</category>
-		<category>News</category>
-		<category>Agility Robotics</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590101</guid>
-
-					<description>&lt;p&gt;Deal is expected to provide approximately $465 million in gross capital as Agility expands deployments of its Digit humanoid with industrial customers.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/"&gt;Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_590076" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590076" class="size-full wp-image-590076" src="https://www.therobotreport.com/wp-content/uploads/2026/10/Agility_Digit_5.jpg" alt="Agility Robotics' Digit 5 humanoid robot at work in a warehouse." width="770" height="499" srcset="https://www.therobotreport.com/wp-content/uploads/2026/10/Agility_Digit_5.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/10/Agility_Digit_5-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/10/Agility_Digit_5-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/10/Agility_Digit_5-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/10/Agility_Digit_5-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590076" class="wp-caption-text"&gt;Digit 5 includes redesigned legs and new batteries for commercial use. Source: Agility Robotics&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href="http://www.therobotreport.com/tag/agility-robotics"&gt;Agility Robotics&lt;/a&gt; has cleared a major hurdle in its planned initial public offering (IPO). Shareholders of Churchill Capital Corp XI approved the special purpose acquisition company&amp;#8217;s (SPAC) proposed business combination with the &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/"&gt;humanoid&lt;/a&gt; developer, moving Agility closer to becoming a publicly-traded company.&lt;/p&gt;
-&lt;p&gt;More than 84% of votes cast at a special shareholder meeting on Nov. 2 supported the deal. The SPAC is expected to close on Nov. 4. The combined company is expected to begin trading on the Nasdaq on Nov. 5 under the ticker symbol AGLT. Churchill Capital stock finished up nearly 14% on Nov. 2.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;The transaction is expected to provide Agility with approximately $465 million in gross capital before expenses. That funding will support commercial expansion, customer deployments and manufacturing capacity as the company looks to scale its Digit humanoid robot business.&lt;/p&gt;
-&lt;p&gt;The revised capital figure reflects a reduction from the more than $620 million in gross proceeds anticipated when the &lt;a href="https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/"&gt;merger was announced&lt;/a&gt; in June. Following the expiration of Churchill XI&amp;#8217;s shareholder redemption deadline, the companies now expect approximately $164 million from Churchill&amp;#8217;s trust account, approximately $201 million from a private investment in public equity (PIPE) financing led by Foxconn, and $100 million in equity funding Agility received following the initial SPAC announcement.&lt;/p&gt;
-&lt;p&gt;The original transaction valued Agility at a $2.5 billion pre-money equity value. Existing Agility shareholders will roll their equity into the combined company rather than receive cash in the transaction.&lt;/p&gt;
-&lt;div align="center"&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Introducing Digit 5" width="740" height="416" src="https://www.youtube.com/embed/oyq9BOwK5XI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Agility is entering the public markets with more than a proposed product roadmap. Its Digit robots are already operating in 9 customer environments, with logistics and manufacturing emerging as the company&amp;#8217;s primary commercial markets.&lt;/p&gt;
-&lt;p&gt;One of its most established relationships is with GXO Logistics. The companies began working together in 2023 and signed a multi-year Robots-as-a-Service agreement in 2024 to deploy Digit at GXO&amp;#8217;s facility in Flowery Branch, Ga. There, Digit has worked alongside existing automation to move totes and place them onto conveyors.&lt;/p&gt;
-&lt;p&gt;In October, the &lt;a href="https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/"&gt;companies announced an expansion&lt;/a&gt; to two additional GXO facilities: Statesville, N.C., and Lebanon, Tenn. Digit will initially support repetitive material-handling tasks in e-commerce fulfillment operations. Deployments are expected to begin in early 2027 using Digit 4, with plans to transition to the &lt;a href="https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/"&gt;newer Digit 5&lt;/a&gt; as it becomes commercially available.&lt;/p&gt;
-&lt;p&gt;Agility is also moving into manufacturing. In October, agricultural equipment maker AGCO signed a commercial agreement to &lt;a href="https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/"&gt;pilot Digit at its Hesston&lt;/a&gt;, Kan., production facility beginning in 2027. Initial tasks will include sorting and stacking parts and placing totes for storage.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;Agility has previously claimed it has more than $300 million in &lt;a href="https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/"&gt;committed multi-year orders for Digit 5&lt;/a&gt;, its next-generation humanoid unveiled in September. The company says early access for customers is expected to begin in the first half of 2027, with general availability targeted for the end of that year.&lt;/p&gt;
-&lt;p&gt;That order figure is an important indicator of customer interest, but it should not be confused with current revenue. The multi-year value is expected to be realized over time and remains subject to contractual milestones, product features and specifications.&lt;/p&gt;
-&lt;p&gt;Agility&amp;#8217;s RoboFab manufacturing facility in Salem, Ore., is designed for annual production capacity of up to 10,000 robots. The company is also expanding its software, deployment and service capabilities, including through its Agility Arc fleet-management platform.&lt;/p&gt;
-&lt;div id="attachment_590102" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590102" class="size-full wp-image-590102" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Screenshot-2026-11-02-at-7.08.57-PM.png" alt="" width="1000" height="672" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Screenshot-2026-11-02-at-7.08.57-PM.png 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/Screenshot-2026-11-02-at-7.08.57-PM-300x202.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/Screenshot-2026-11-02-at-7.08.57-PM-150x101.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/Screenshot-2026-11-02-at-7.08.57-PM-768x516.png 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/Screenshot-2026-11-02-at-7.08.57-PM-354x238.png 354w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-590102" class="wp-caption-text"&gt;Agility Robotics co-founder and chief robot officer Jonathan Hurst (right) during the opening keynote at RoboBusiness 2026 with (left to right) Steve Crowe (The Robot Report), Rodney Brooks (Robust AI) and Ken Goldberg (UC Berkeley).&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/"&gt;Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
