@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 10 Nov 2026 14:29:46 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 10 Nov 2026 18:40:45 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/gemini-robotics-2-5-apollo-2-mercedes-benz-argon</guid>
+    <title>Gemini Robotics 2.5 Puts Apollo 2 on Mercedes-Benz Lines as Argon Speeds Up Training</title>
+    <link>https://www.humanoidsdaily.com/news/gemini-robotics-2-5-apollo-2-mercedes-benz-argon</link>
+    <description>Google DeepMind's new VLA succeeds 30% to 100% more often than Gemini Robotics 2 across 200-plus tasks, and sorted car parts at 96% success on Apptronik's Apollo 2 in two Mercedes-Benz plants. It is going to partners only.</description>
+    <pubDate>Tue, 10 Nov 2026 18:40:45 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>mercedes-benz</category><category>DeepMind</category><category>vla</category><category>Foundation Model</category><category>SharpaWave</category><category>Sharpa Robotics</category><category>Google</category><category>Gemini</category><category>Apptronik</category><category>google-deepmind</category><category>Apollo 2</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/weekly-newsletter-agility-nasdaq-gr00t-2-november-10</guid>
+    <title>This Week in Humanoids: Agility on Nasdaq, GR00T 2 and Fable 5.2</title>
+    <link>https://www.humanoidsdaily.com/news/weekly-newsletter-agility-nasdaq-gr00t-2-november-10</link>
+    <description>Our November 10 newsletter covers Agility’s Nasdaq debut, NVIDIA’s GR00T 2 at CoRL, Anthropic’s Fable 5.2, Atlas on wheels and Apple’s HALO.</description>
+    <pubDate>Tue, 10 Nov 2026 15:19:43 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Newsletter</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/hd-hyundai-robotics-dual-arm-robot-palantir-skild-ai-korea</guid>
     <title>HD Hyundai Robotics Builds Its Own Robot Brain, as Skild AI Pitches Korea on Building the Bodies</title>
@@ -288,26 +308,6 @@
     <pubDate>Tue, 03 Nov 2026 15:25:33 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>David Reger</category><category>4NE-1</category><category>Neura Robotics</category><category>Europe</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xiaomi-humanoids-eight-hour-auto-factory-sorting</guid>
-    <title>Xiaomi Shows Humanoids Sorting Car Parts in Eight-Hour Factory Demonstration</title>
-    <link>https://www.humanoidsdaily.com/news/xiaomi-humanoids-eight-hour-auto-factory-sorting</link>
-    <description>Xiaomi’s latest video shows two humanoids sorting center-console side covers over an eight-hour task, with claimed autonomous error recovery and production-line coordination.</description>
-    <pubDate>Tue, 03 Nov 2026 11:21:30 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>xiaomi</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoid-robot-batteries-850-million-2037-idtechex</guid>
-    <title>Humanoid Robot Batteries Could Become an $850 Million Market by 2037, IDTechEx Forecasts</title>
-    <link>https://www.humanoidsdaily.com/news/humanoid-robot-batteries-850-million-2037-idtechex</link>
-    <description>IDTechEx forecasts an $850 million humanoid battery market by 2037, as manufacturers pursue fast charging, battery swapping and new chemistries to extend working time.</description>
-    <pubDate>Mon, 02 Nov 2026 17:10:29 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Batteries</category>
   </item>
 
   </channel>
