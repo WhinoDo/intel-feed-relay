@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 09 Nov 2026 15:12:27 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 09 Nov 2026 21:05:16 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/nvidia-gr00t-2-world-action-model-corl-2026</guid>
+    <title>"Robotics Is No Longer an Elitist Sport": NVIDIA Unveils GR00T 2 and Open-Sources the Stack Behind It</title>
+    <link>https://www.humanoidsdaily.com/news/nvidia-gr00t-2-world-action-model-corl-2026</link>
+    <description>Jim Fan presented the 2B-parameter model at CoRL. NVIDIA reports 95% success from five demonstrations per task; weights open in December, with data, SimFoundry and hardware designs out now.</description>
+    <pubDate>Mon, 09 Nov 2026 21:05:16 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Dr Jim Fan</category><category>NVIDIA</category><category>Skild AI</category><category>OpenAI</category><category>Foundation Model</category><category>microagi</category><category>foxconn</category><category>open-source</category><category>GR00T</category><category>simulation</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-atlas-wheels-rl-actuator-test</guid>
     <title>Boston Dynamics Puts Atlas on Wheels to Push Its Motors to the Limit</title>
@@ -298,16 +308,6 @@
     <pubDate>Mon, 02 Nov 2026 07:51:31 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>1X Technologies</category><category>US</category><category>NEO</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-g2-24-hour-convenience-store-livestream</guid>
-    <title>AGIBOT Livestreams Six G2 Robots in a 24-Hour Convenience Store Challenge</title>
-    <link>https://www.humanoidsdaily.com/news/agibot-g2-24-hour-convenience-store-livestream</link>
-    <description>Six G2 robots face rush-hour service, overnight duty and breakfast preparation in AGIBOT’s November 2–3 livestreamed store challenge.</description>
-    <pubDate>Mon, 02 Nov 2026 07:16:36 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>livestream</category><category>China</category><category>AGIBOT</category>
   </item>
 
   </channel>
