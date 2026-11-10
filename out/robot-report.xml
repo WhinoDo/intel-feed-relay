@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Mon, 09 Nov 2026 21:52:05 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 10 Nov 2026 16:13:40 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,182 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Why predictive maintenance matters more as factories add robots</title>
+		<link>https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/</link>
+					<comments>https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/#respond</comments>
+		
+		<dc:creator>Rob Carbone</dc:creator>
+		<pubDate>Tue, 10 Nov 2026 16:13:40 +0000</pubDate>
+				<category>Actuators / Motors / Servos</category>
+		<category>Arms / Manipulators</category>
+		<category>Autonomous Mobile Robots (AMRs)</category>
+		<category>Batteries / Power Supplies</category>
+		<category>Cameras / Imaging / Vision</category>
+		<category>Controllers</category>
+		<category>Grippers</category>
+		<category>Industrial Robots</category>
+		<category>Manufacturing</category>
+		<category>Motion Control</category>
+		<category>Networking / Connectivity</category>
+		<category>News</category>
+		<category>Opinion</category>
+		<category>Sensors / Sensing Systems</category>
+		<category>Software</category>
+		<category>Advanced Technology Services</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590209</guid>
+
+					<description>&lt;p&gt;As robotics scales across industries, companies need a maintenance strategy to collect and use the right data to minimize downtime.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/"&gt;Why predictive maintenance matters more as factories add robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590212" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590212" class="size-full wp-image-590212" src="https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-freek-wolsink-508219-34207359-copy.jpg" alt="An industrial automation workcell. Robot data combined with predictive analytics can improve uptime and productivity, says Advanced Technology Services." width="770" height="497" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-freek-wolsink-508219-34207359-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-freek-wolsink-508219-34207359-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-freek-wolsink-508219-34207359-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-freek-wolsink-508219-34207359-copy-768x496.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-freek-wolsink-508219-34207359-copy-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590212" class="wp-caption-text"&gt;Robot data combined with predictive analytics can improve uptime and productivity, says ATS. Source: Pexels, Advanced Technology Services&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;Factories are adding more robots because they can handle repetitive, precise, and physically demanding work at high speed. As robotics take on a greater share of production, keeping those systems available becomes more important.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-contrast="none"&gt;The International Federation of Robotics&lt;/span&gt;&lt;span data-contrast="auto"&gt; (&lt;a href="https://www.therobotreport.com/tag/international-federation-of-robotics/" target="_blank" rel="noopener"&gt;IFR&lt;/a&gt;) &lt;a href="https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/" target="_blank" rel="noopener"&gt;reported&lt;/a&gt; about 5 million industrial robots in operation worldwide in 2025, up 11% from the prior year.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;An unexpected robot failure can affect more than one machine. It can interrupt a cell, slow a line, and create delays that spread through the plant. As &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;manufacturers&lt;/a&gt; rely more heavily on robotic systems, the need to identify developing problems before they force equipment offline becomes increasingly valuable.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;h2 aria-level="2"&gt;Why robotic systems raise the support stakes&lt;/h2&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;Traditional preventive maintenance follows a schedule based on time, usage, or manufacturer recommendations. That approach still has value, but it may not reveal what’s happening inside a robot between planned service intervals. A joint, reducer, &lt;a href="https://www.therobotreport.com/category/technologies/actuators-motors-servos/" target="_blank" rel="noopener"&gt;motor&lt;/a&gt;, or &lt;a href="https://www.therobotreport.com/category/technologies/controllers/" target="_blank" rel="noopener"&gt;controller&lt;/a&gt; can begin to show signs of wear while the robot is still operating.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;span data-contrast="auto"&gt;Predictive maintenance uses equipment data to identify changes that may point to developing faults. &lt;/span&gt;&lt;a href="https://www.therobotreport.com/tag/nist/"&gt;&lt;span data-contrast="none"&gt;NIST&lt;/span&gt;&lt;/a&gt;&lt;span data-contrast="auto"&gt;&lt;a href="https://www.nist.gov/publications/comprehensive-evaluations-condition-monitoring-based-technologies-industrial" target="_blank" rel="noopener"&gt; describes condition monitoring&lt;/a&gt; as the detection, diagnosis or prediction of faults and failures in industrial equipment.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;For robotics, that means maintenance decisions can be based more on actual equipment condition than on a calendar alone.&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;&lt;strong&gt;What predictive maintenance can monitor &lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;&lt;a href="https://www.therobotreport.com/category/robots-platforms/industrial-robots/" target="_blank" rel="noopener"&gt;Industrial&lt;/a&gt; automation and related systems generate many types of operating data. Useful signals depend on the robot, application, and failure mode. Common examples include vibration, temperature, and motor current. Torque, controller alarms, cycle data, and maintenance history can also provide useful context.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;The goal isn’t to collect every available data point. Teams need data that can reveal changes tied to the way a robot operates. A rise in vibration may point to a mechanical issue, while changes in motor current or torque may indicate added resistance or abnormal loading. Temperature variations can also signal that a component isn’t operating as expected.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559740&amp;quot;:259}"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;Changes in an &lt;a href="https://www.therobotreport.com/category/technologies/grippers-end-effectors/" target="_blank" rel="noopener"&gt;end effector&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/technologies/sensors-sensing/" target="_blank" rel="noopener"&gt;sensor&lt;/a&gt;, &lt;a href="https://www.automatedwarehouseonline.com/category/conveyance/" target="_blank" rel="noopener"&gt;conveyor&lt;/a&gt;, or surrounding process can affect robot performance. Looking at the robot in the context of a larger workcell can help teams separate&lt;/span&gt;&lt;span data-contrast="auto"&gt; normal operating variation from a change that may deserve maintenance attention. That distinction is especially important if the same robot handles different loads, speeds, or &lt;a href="https://www.therobotreport.com/category/robot-components/motioncontrol/" target="_blank" rel="noopener"&gt;motion&lt;/a&gt; paths.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;This is where &lt;/span&gt;&lt;a href="https://www.advancedtech.com/industrial-technology/remote-monitoring-analytics/" target="_blank" rel="noopener"&gt;&lt;span data-contrast="none"&gt;reliability monitoring&lt;/span&gt;&lt;/a&gt;&lt;span data-contrast="auto"&gt; can help. Sensors and connected systems can gather machine data, while monitoring and analytics tools help identify changes in equipment behavior. &lt;/span&gt;&lt;a href="https://www.advancedtech.com/industrial-technology/remote-monitoring-analytics/"&gt;&lt;span data-contrast="none"&gt;When a pattern changes&lt;/span&gt;&lt;/a&gt;,&lt;span data-ccp-props="{}"&gt; maintenance teams can then investigate the cause before a failure forces the robot offline.&lt;/span&gt;&lt;/p&gt;
+&lt;div id="attachment_590213" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-590213" class="wp-image-590213 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-cmrcn-29988955-1-copy.jpg" alt="A worker and a forklift. Changes in robot performance, plus environmental or process data, can provide maintenance warnings, says ATI." width="770" height="497" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-cmrcn-29988955-1-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-cmrcn-29988955-1-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-cmrcn-29988955-1-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-cmrcn-29988955-1-copy-768x496.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-cmrcn-29988955-1-copy-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590213" class="wp-caption-text"&gt;Changes in equipment performance, plus environmental or process data, can provide warning of problems, says ATI. Source: Pexels, Advanced Technology Services&lt;/p&gt;&lt;/div&gt;
+&lt;h2 aria-level="2"&gt;Turn robot data into maintenance decisions&lt;/h2&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;Collecting data is only the first step. The information has to support a practical maintenance decision. A useful alert should help a team determine what needs attention, how urgent the issue is, and when the robot can be inspected without causing an unnecessary production interruption.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;This becomes more important as factories operate larger fleets of robots. Maintenance teams may not have time to inspect every asset at the same frequency. Predictive maintenance can help direct attention toward equipment showing signs of change while allowing healthy assets to remain in service.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;Earlier warnings can also improve parts planning. If a component shows signs of deterioration, teams may have more time to confirm the problem, locate the correct replacement part, and schedule work during a planned maintenance window.&lt;/span&gt;&lt;/p&gt;
+&lt;div id="attachment_590214" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590214" class="size-full wp-image-590214" src="https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-alex-197677521-11951215-copy.jpg" alt="A welding robot. Robot-generated data provides clues as to their maintenance status, says ATS." width="770" height="498" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-alex-197677521-11951215-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-alex-197677521-11951215-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-alex-197677521-11951215-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-alex-197677521-11951215-copy-768x497.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-alex-197677521-11951215-copy-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590214" class="wp-caption-text"&gt;Earlier warnings can reduce downtime and improve productivity, says ATS. Source: Pexels, Advanced Technology Services&lt;/p&gt;&lt;/div&gt;
+&lt;h2 aria-level="2"&gt;Getting ahead on productivity, asset life, and safety&lt;/h2&gt;
+&lt;p&gt;&lt;span data-ccp-props="{}"&gt;T&lt;/span&gt;&lt;span data-contrast="auto"&gt;he value of predictive maintenance goes beyond preventing unplanned stops. Finding issues early on can limit secondary damage and help manufacturers get more useful life from robotic assets. Planned repairs can also reduce the disruption that occurs when technicians must troubleshoot a failed robot during production.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;A planned maintenance window gives teams more control over when equipment is taken offline and serviced. That can support safer maintenance practices because technicians can prepare for the work instead of responding to an unexpected failure under production pressure.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;As more factories rely heavily on robotics, maintenance strategies need to account for how those systems perform throughout their service life. Predictive maintenance gives manufacturers a way to use equipment data, condition signals and analytics to identify developing issues earlier. When that information leads to timely inspection and repair, manufacturers can reduce unplanned downtime, protect robotic assets and keep production schedules more stable.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;img loading="lazy" decoding="async" class="alignleft size-medium wp-image-590211" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Rob_Carbone-300x300.jpeg" alt="Robert Carbone is vice president at Advanced Technology Services" width="300" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Rob_Carbone-300x300.jpeg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/Rob_Carbone-150x150.jpeg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/Rob_Carbone-238x238.jpeg 238w, https://www.therobotreport.com/wp-content/uploads/2026/11/Rob_Carbone.jpeg 400w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;About the author&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.linkedin.com/in/robert-carbone-8932a1103/" target="_blank" rel="noopener"&gt;Rob Carbone&lt;/a&gt; is vice president of operations at Advanced Technology Services. He is responsible for leading initiatives that help manufacturers improve equipment reliability, maintenance excellence, and customer success.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/"&gt;Why predictive maintenance matters more as factories add robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
+		<title>Intel and Altera expand collaboration to simplify sensor integration for physical AI</title>
+		<link>https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/</link>
+					<comments>https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Tue, 10 Nov 2026 14:47:10 +0000</pubDate>
+				<category>Aerospace</category>
+		<category>Artificial Intelligence</category>
+		<category>Artificial Intelligence / Cognition</category>
+		<category>Defense / Security</category>
+		<category>Development Tools / SDKs / Libraries</category>
+		<category>Healthcare Robotics</category>
+		<category>Manufacturing</category>
+		<category>Microprocessors / SoC</category>
+		<category>Networking / Connectivity</category>
+		<category>News</category>
+		<category>Sensors / Sensing Systems</category>
+		<category>Software</category>
+		<category>Altera</category>
+		<category>Integration</category>
+		<category>Intel</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590207</guid>
+
+					<description>&lt;p&gt;Altera and Intel are working to make it easier to connect diverse sensors, turn data into real-time insights, and develop robotics.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/"&gt;Intel and Altera expand collaboration to simplify sensor integration for physical AI&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590208" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590208" class="size-full wp-image-590208" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Intel_Altera.jpg" alt="Altera and Intel logos with a robot arm. " width="770" height="498" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Intel_Altera.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/Intel_Altera-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/Intel_Altera-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/Intel_Altera-768x497.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/Intel_Altera-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590208" class="wp-caption-text"&gt;Altera and Intel are collaborating to accelerate the development of intelligent systems across industries.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Intel Corp. and Altera Corp. today said they are jointly developing flexible, real-time, sensor-bridge reference systems for edge and physical AI applications including robotics. By combining Intel compute, connectivity, and software with Altera field-programmable gate arrays or FPGAs, the companies said they aim to help manufacturers address the growing complexity of connecting, processing, and acting on real-world data across increasingly sensor-rich environments.&lt;/p&gt;
+&lt;p&gt;“Physical AI systems have to sense, decide, and act in real time, and the physical world demands accuracy, reliability, and safety,” stated Farhad Shafai, head of business solutions and marketing at Altera. &amp;#8220;Altera FPGAs provide the sensor connectivity, data processing, and deterministic control that machines need to respond to the physical world, and they stay programmable as sensors and AI models evolve. Combining that with Intel’s compute and software is intended to give OEMs a flexible foundation to tailor systems to their needs.&amp;#8217;&lt;/p&gt;
+&lt;p&gt;Founded in 1983, Altera provides high-performance, programmable compute and connectivity systems for a wide range of advanced and AI-enabled technologies. The San Jose, Calif.-based &lt;a href="https://www.altera.com/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; &lt;a href="https://www.altera.com/newsroom/altera-silver-lake" target="_blank" rel="noopener"&gt;claimed&lt;/a&gt; that it&lt;br /&gt;
+is &amp;#8220;the largest pure-play FPGA provider with a full-spectrum portfolio serving applications ranging from data centers and communications networks to critical embedded systems.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;Intel &lt;a href="https://www.intc.com/news-events/press-releases/detail/302/intel-completes-acquisition-of-altera" target="_blank" rel="noopener"&gt;acquired&lt;/a&gt; Altera for $16.7 billion in 2015 and &lt;a href="https://www.altera.com/newsroom/altera-investment-silver-lake" target="_blank" rel="noopener"&gt;sold&lt;/a&gt; 51% of the company to Silver Lake last year.&lt;/p&gt;
+&lt;h2&gt;Sensor-rich edge environments pose challenges for AI&lt;/h2&gt;
+&lt;p&gt;&amp;#8220;Edge and physical AI systems can require data from different sensors and interfaces to be brought together while meeting requirements for timing, performance, power and cost,&amp;#8221; said &lt;a href="https://www.therobotreport.com/tag/intel/" target="_blank" rel="noopener"&gt;Intel&lt;/a&gt; and Altera. &amp;#8220;Some applications also require very high bandwidth or flexible form factors in which input/output (I/O) is located away from the compute board. Sensor data must then be streamed rapidly into memory for the host Intel processor to use across edge, robotics and other workloads.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;The companies said they plan to develop modular reference systems that combine Altera programmable hardware with a consistent Intel &lt;a href="https://www.therobotreport.com/category/technologies/microprocessors-socs/" target="_blank" rel="noopener"&gt;compute&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;software&lt;/a&gt; foundation. Their goal is to give equipment OEMs greater flexibility as applications, &lt;a href="https://www.therobotreport.com/category/technologies/sensors-sensing/" target="_blank" rel="noopener"&gt;sensors&lt;/a&gt;, and workloads evolve, while helping them move more efficiently from prototype to deployment.&lt;/p&gt;
+&lt;p&gt;“As sensors multiply at the edge and through physical AI systems, our customers need a simpler way to turn real-world data into timely action,&amp;#8221; said Dan Rodriguez, corporate vice president and general manager of the Edge Computing Group at Intel. &amp;#8220;Together with Altera, we aim to give OEMs a flexible foundation that simplifies integration and helps them move faster from prototype to market deployment while meeting their needs across performance, power and cost.&amp;#8221;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;&lt;b&gt;Altera, Intel to apply programmable, real-time processing&lt;/b&gt;&lt;/h2&gt;
+&lt;p&gt;Intel and Altera said they plan to address multiple markets where real-time processing and programmable computing matter most. The companies intend to make resulting reference solutions accessible to developers through Intel’s &lt;a href="https://www.intel.com/content/www/us/en/developer/tools/tiber/edge-platform/overview.html" target="_blank" rel="noopener"&gt;Open Edge Platform&lt;/a&gt; software development kit (SDK) and an Altera SDK.&lt;/p&gt;
+&lt;ul class="bwlistdisc"&gt;
+&lt;li&gt;&lt;b&gt;Robotics:&lt;/b&gt; The partners said they will combine Intel compute, &lt;a href="https://www.therobotreport.com/category/technologies/networking-connectivity/" target="_blank" rel="noopener"&gt;connectivity&lt;/a&gt;, and robotics software with Altera FPGAs to address the increasingly complex sensing, timing, and real-time processing requirements of intelligent machines.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&lt;a href="https://www.therobotreport.com/category/markets-industries/biotechnology-medical-healthcare/" target="_blank" rel="noopener"&gt;Healthcare&lt;/a&gt;:&lt;/b&gt; The companies are jointly developing a reference system targeting the stringent latency and real-time requirements of advanced healthcare equipment.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&lt;a href="https://www.therobotreport.com/category/markets-industries/aerospace/" target="_blank" rel="noopener"&gt;Aerospace&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/category/markets-industries/defense-security/" target="_blank" rel="noopener"&gt;defense&lt;/a&gt;:&lt;/b&gt; Intel and Altera are collaborating to support next-generation mission systems, with a focus on size, weight, and power requirements for converged &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; and signal-processing workloads.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Together, Intel and Altera said they will help OEMs move faster from prototype by reducing integration complexity and addressing performance, power, and cost requirements across a range of edge applications.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Overview of Altera’s FPGA AI Suite Software" width="740" height="416" src="https://www.youtube.com/embed/fmaZ7msY4Ng?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/"&gt;Intel and Altera expand collaboration to simplify sensor integration for physical AI&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
+		<title>Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor</title>
+		<link>https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/</link>
+					<comments>https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Tue, 10 Nov 2026 13:06:58 +0000</pubDate>
+				<category>Drones</category>
+		<category>Financial</category>
+		<category>Investments</category>
+		<category>News</category>
+		<category>Robots / Platforms</category>
+		<category>Safety &amp; Security</category>
+		<category>Unmanned Aerial Systems / Drones</category>
+		<category>Axon</category>
+		<category>Skydio</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590175</guid>
+
+					<description>&lt;p&gt;The partners plan to bring Skydio drones to public safety agencies across the U.S. as Axon expands its Drone as First Responder program.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/"&gt;Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590203" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/skydio-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590203" class="size-full wp-image-590203" src="https://www.therobotreport.com/wp-content/uploads/2026/11/skydio-featured.jpg" alt="A police officer watching a Skydio X10 drone take off. " width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/skydio-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/11/skydio-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/skydio-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/11/skydio-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/skydio-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/skydio-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/11/skydio-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590203" class="wp-caption-text"&gt;The X10 drone features high-resolution visual and radiometric cameras in modular sensor packages. | Source: Skydio&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Axon Enterprise Inc. last week said it has invested $1.2 billion in Skydio Inc., a San Mateo, Calif.-based drone manufacturer. With the investment, Axon gains 20% ownership of Skydio, which is valued at $5.2 billion.&lt;/p&gt;
+&lt;p&gt;Axon will also become Skydio&amp;#8217;s exclusive distributor for public safety in the U.S. and Canada. The companies said they are partnering to bring Skydio &lt;a href="https://www.therobotreport.com/category/robots-platforms/uav-drones/" target="_blank" rel="noopener"&gt;drones&lt;/a&gt; to public safety agencies across the U.S. Axon is also expanding its Drone as First Responder (DFR) program.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Within a decade, millions of drones will be working across America. Skydio is positioned to lead in every sector they touch,&amp;#8221; stated Rick Smith, the founder and CEO of Axon. &amp;#8220;Axon is taking a major stake in one of the most valuable categories in tech, and Skydio stays free to move fast. With exclusive channel rights, Axon will widen its lead in public safety drones as Skydio builds the future of American aerial robotics. Two companies, each the best at what it does, will build something far bigger than either could alone.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;Skydio said it serves more than 1,500 public safety customers. Now, more than 28 million Americans live within two miles of a DFR dock. Founded in 2014, the &lt;a href="https://www.therobotreport.com/tag/skydio/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; claimed that it uses &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;-backed autonomy to create drones that are easier to operate, safer to fly, and more capable in complex environments.&lt;/p&gt;
+&lt;h2&gt;Skydio DFR gives first responders earlier visibility&lt;/h2&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Drone Alarm Response in Under 30 Seconds | Skydio Security Command [LIVE DEMO]" width="740" height="416" src="https://www.youtube.com/embed/tqyH8RjPOng?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;At agencies deploying Skydio DFR, priority response times have been reduced by as much as 65%, said Scottsdale, Ariz.-based &lt;a href="https://www.axon.com/" target="_blank" rel="noopener"&gt;Axon&lt;/a&gt;. Drones arrive before officers on about 80% of the calls where they are deployed.&lt;/p&gt;
+&lt;p&gt;That earlier visibility can support safer responses, help de-escalate potentially deadly situations, locate missing children and other vulnerable people, and improve outcomes when every second matters, asserted the company.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Axon has been an incredible partner in bringing our drones to public safety customers across the U.S.,&amp;#8221; said Adam Bry, CEO of Skydio. &amp;#8220;We&amp;#8217;re excited to deepen that partnership with Axon becoming our exclusive channel for U.S. and Canadian public safety. This investment strengthens our ability to accelerate our technology roadmap, scale our impact in public safety, and continue advancing autonomous flight across every critical industry we serve.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;Axon estimated the total addressable market for DFR at approximately $13 billion in the U.S. and Canada alone. That opportunity is already translating into significant commercial momentum, noted the companies. Skydio said its business is growing rapidly, and it expects about $1 billion in total bookings in its current fiscal year.&lt;/p&gt;
+&lt;p&gt;Axon&amp;#8217;s investment consists of approximately $1.2 billion including a mix of cash and Axon stock. The investment includes both primary capital to Skydio and the purchase of shares from existing Skydio shareholders. Skydio plans to use a portion of the cash consideration as growth capital to accelerate innovation, expand its product portfolio, and bring new drone capabilities to customers faster.&lt;/p&gt;
+&lt;p&gt;Axon said it expects the transactions comprising the investment to close in the fourth quarter of 2026 and first quarter of 2027. The deal is still subject to customary closing conditions.&lt;/p&gt;
+&lt;p&gt;Skydio isn&amp;#8217;t the only drone provider bringing in big funding rounds. Last week, &lt;a href="http://therobotreport.com/tag/zipline" target="_blank" rel="noopener"&gt;Zipline&lt;/a&gt;, which provides &lt;a href="https://www.therobotreport.com/tag/delivery-robots/" target="_blank" rel="noopener"&gt;delivery&lt;/a&gt; drones, &lt;a href="https://www.reuters.com/business/drone-delivery-startup-zipline-valued-215-billion-latest-funding-round-2026-11-05/" target="_blank" rel="noopener"&gt;raised&lt;/a&gt; $1.5 billion in funding. Zipline said it will use the capital to expand its U.S. manufacturing facilities and hire staffers as it builds a nationwide drone delivery network.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/"&gt;Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL</title>
 		<link>https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/</link>
 					<comments>https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/#respond</comments>
@@ -42,7 +218,7 @@
 					<description>&lt;p&gt;NVIDIA also gave a look at how its partners, like Ambi Robotics, FieldAI, Flexion, Skild AI, RLWRLD, and more, are using these technologies. &lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/"&gt;NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_590180" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/NVIDIA-corl-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590180" class="size-full wp-image-590180" src="https://www.therobotreport.com/wp-content/uploads/2026/11/NVIDIA-corl-featured.jpg" alt="Images showing RLWRLD, Skild AI, Flexion, and NVIDIA testing its latest technology." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/NVIDIA-corl-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/NVIDIA-corl-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/NVIDIA-corl-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/NVIDIA-corl-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/NVIDIA-corl-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590180" class="wp-caption-text"&gt;A range of developers, including RLWRLD, Skild AI, and Flexion, are already using NVIDIA&amp;#8217;s latest technology. | Source: NVIDIA&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_590180" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/NVIDIA-corl-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590180" class="size-full wp-image-590180" src="https://www.therobotreport.com/wp-content/uploads/2026/11/NVIDIA-corl-featured.jpg" alt="Images showing RLWRLD, Skild AI, Flexion, and NVIDIA testing its latest technology." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/NVIDIA-corl-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/NVIDIA-corl-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/NVIDIA-corl-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/NVIDIA-corl-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/NVIDIA-corl-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590180" class="wp-caption-text"&gt;A range of developers, including RLWRLD, Skild AI, and Flexion, are already using NVIDIA&amp;#8217;s latest technology. | Source: NVIDIA&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;NVIDIA Corp. today introduced GR00T 2, its updated open frontier world action model, and Isaac Lab 3.0, the latest version of its open-source robot learning framework. The company made these announcements at the Conference on Robot Learning, or CoRL, in Austin, Texas.&lt;/p&gt;
 &lt;p&gt;NVIDIA also gave a look at how its partners, like &lt;a href="https://www.therobotreport.com/tag/ambi-robotics/" target="_blank" rel="noopener"&gt;Ambi Robotics&lt;/a&gt;, Bosch Research, Dexmate, &lt;a href="https://www.therobotreport.com/tag/dyna-robotics/" target="_blank" rel="noopener"&gt;Dyna Robotics&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/tag/field-AI/" target="_blank" rel="noopener"&gt;FieldAI&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/tag/flexion" target="_blank" rel="noopener"&gt;Flexion&lt;/a&gt;, Noitom Robotics, &lt;a href="https://www.therobotreport.com/tag/siemens" target="_blank" rel="noopener"&gt;Siemens&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/tag/skild-ai" target="_blank" rel="noopener"&gt;Skild AI&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/tag/rlwrld" target="_blank" rel="noopener"&gt;RLWRLD&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/tag/UC-Berkeley" target="_blank" rel="noopener"&gt;UC Berkeley&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/tag/walden-robotics/" target="_blank" rel="noopener"&gt;Walden Robotics&lt;/a&gt;, and the University of Washington, are using these technologies.&lt;/p&gt;
 &lt;p&gt;In addition, NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. There, the company announced an investment in South Korean startup Point2, with additional investments planned in Motif Technologies, RLWRLD, and Upstage.&lt;/p&gt;
@@ -87,7 +263,7 @@
 &lt;hr /&gt;
 
 &lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/"&gt;NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
@@ -105,7 +281,7 @@
 		<item>
 		<title>Boston Dynamics adds wheels to Atlas humanoid to test whole-body control</title>
 		<link>https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/</link>
-					<comments>https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/#respond</comments>
+					<comments>https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/#comments</comments>
 		
 		<dc:creator>Mike Oitzman</dc:creator>
 		<pubDate>Mon, 09 Nov 2026 18:34:38 +0000</pubDate>
@@ -123,7 +299,7 @@
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/"&gt;Boston Dynamics adds wheels to Atlas humanoid to test whole-body control&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
 										<ns3:encoded>&lt;div align="center"&gt;
-&lt;p&gt;&lt;iframe title="Atlas on a Roll | Classical Motor Controls and Whole-Body RL | Boston Dynamics" width="740" height="416" src="https://www.youtube.com/embed/NL65Awuv8gU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Atlas on a Roll | Classical Motor Controls and Whole-Body RL | Boston Dynamics" width="740" height="416" src="https://www.youtube.com/embed/NL65Awuv8gU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Bridging the divide between deterministic physics-based control and policy-driven adaptation, &lt;a href="https://www.therobotreport.com/tag/boston-dynamics/" target="_blank" rel="noopener"&gt;Boston Dynamics&lt;/a&gt; released a video today showing its &lt;a href="https://www.therobotreport.com/?s=atlas" target="_blank" rel="noopener"&gt;Atlas&lt;/a&gt; &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoid&lt;/a&gt; using wheels to move around. The &amp;#8220;experiment&amp;#8221; combined classical model-based motor control with whole-body reinforcement learning to maintain dynamic stability across unstructured, real-world terrain.&lt;/p&gt;
 &lt;p&gt;In the video, Andy Wu, controls engineer for Atlas at Boston Dynamics, highlights some recent experiments that he executed by attaching wheels to Atlas&amp;#8217; legs. Boston Dynamics said &amp;#8220;a wheeled Atlas isn’t a product. It’s a research testbed.&amp;#8221; Wu&amp;#8217;s intention was to push the actuation to its limits.&lt;/p&gt;
@@ -155,7 +331,7 @@
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
+			<ns5:comments>3</ns5:comments>
 		
 		
 			</item>
@@ -1006,175 +1182,6 @@
 					
 					<ns4:commentRss>https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/feed/</ns4:commentRss>
 			<ns5:comments>1</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Robotics Startup Radar 2026</title>
-		<link>https://www.therobotreport.com/robotics-startup-radar-2026/</link>
-					<comments>https://www.therobotreport.com/robotics-startup-radar-2026/#respond</comments>
-		
-		<dc:creator>The Robot Report Staff</dc:creator>
-		<pubDate>Wed, 04 Nov 2026 16:08:46 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>eBooks</category>
-		<category>Humanoids</category>
-		<category>News</category>
-		<category>Robots / Platforms</category>
-		<category>Software</category>
-		<category>Startups</category>
-		<category>startups</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590116</guid>
-
-					<description>&lt;p&gt;The 2026 Startup Radar presents innovative young companies developing hardware, software, and business models for the next generation of commercial robotics.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/robotics-startup-radar-2026/"&gt;Robotics Startup Radar 2026&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;p&gt;&lt;em&gt;The Robot Report &lt;/em&gt;tracks startups throughout the year, and our second annual Startup Radar spotlights some of the most interesting new companies developing commercial robotics and related technologies. From industrial automation and drones to humanoid robots, 2026 has been a year of innovation in the face of persistent labor shortages and geopolitical challenges.&lt;/p&gt;
-&lt;p&gt;&lt;img loading="lazy" decoding="async" class="wp-image-590117 alignright" src="https://www.therobotreport.com/wp-content/uploads/2026/11/RR_Robotics-Startup-Radar_2026-FC-outline.jpg" alt="" width="278" height="359" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/RR_Robotics-Startup-Radar_2026-FC-outline.jpg 612w, https://www.therobotreport.com/wp-content/uploads/2026/11/RR_Robotics-Startup-Radar_2026-FC-outline-232x300.jpg 232w, https://www.therobotreport.com/wp-content/uploads/2026/11/RR_Robotics-Startup-Radar_2026-FC-outline-116x150.jpg 116w, https://www.therobotreport.com/wp-content/uploads/2026/11/RR_Robotics-Startup-Radar_2026-FC-outline-184x238.jpg 184w" sizes="auto, (max-width: 278px) 100vw, 278px" /&gt;&lt;/p&gt;
-&lt;p&gt;To qualify, organizations must be no more than five years old and must be working on enabling technologies, new full systems, or novel business approaches. The free download notes their application, headcount, and total funding raised to date.&lt;/p&gt;
-&lt;p&gt;This year, we received a significant number of submissions around software, which is no surprise given the recent wave of interest and investment in data, simulation, and next-generation AI models. They promise to make robots more autonomous, combining the ability to perceive, understand, act, and improve.&lt;/p&gt;
-&lt;p&gt;The 2026 Robotics Startup Radar features 60 companies working to serve a range of industries, from manufacturing and supply chain/warehousing to agriculture, defense, healthcare, and more. They are based in more than a dozen countries, and several have already successfully raised millions of dollars.&lt;/p&gt;
-&lt;p&gt;What makes a successful robotics, automation, and AI startup? Such companies offer a strong technical foundation, teams with vision and experience, some business savvy, and key partnerships with industry stakeholders. While not every startup will scale or have an exit or an acquisition, understanding the target market is a key first step.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;The Robot Report&lt;/em&gt; will continue to cover and share financial news and success stories from this competitive space. As startups look to incubators and grants for support, investors and analysts are always looking for the next big thing and the right mix of technologies to continue expanding automation worldwide.&lt;/p&gt;
-&lt;p&gt;Note that the call for &lt;em&gt;The Robot Report &lt;/em&gt;(TRR) 50 Robotics Innovation Awards, to be presented at the Robotics Summit &amp;amp; Expo in Boston on June 2 and 3, 2027, is already &lt;a href="https://www.roboticssummit.com/call-for-presentations/" target="_blank" rel="noopener"&gt;open&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This report is sponsored by maxon and PTC.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/robotics-startup-radar-2026/"&gt;Robotics Startup Radar 2026&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/robotics-startup-radar-2026/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>How GlobalLogic helped Haystack Robotics build a UV disinfection robot</title>
-		<link>https://www.therobotreport.com/how-globallogic-helped-haystack-robotics-build-uv-disinfection-robot/</link>
-					<comments>https://www.therobotreport.com/how-globallogic-helped-haystack-robotics-build-uv-disinfection-robot/#comments</comments>
-		
-		<dc:creator>Brianna Wessling</dc:creator>
-		<pubDate>Wed, 04 Nov 2026 15:22:55 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Autonomous Mobile Robots (AMRs)</category>
-		<category>Design / Development</category>
-		<category>Healthcare Robotics</category>
-		<category>Markets / Industries</category>
-		<category>Mobility / Navigation</category>
-		<category>News</category>
-		<category>Robots / Platforms</category>
-		<category>ROS / Open Source Solutions</category>
-		<category>disinfection robots</category>
-		<category>GlobalLogic</category>
-		<category>Haystack Robotics</category>
-		<category>hospital</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590112</guid>
-
-					<description>&lt;p&gt;When designing the robot, GlobalLogic said it didn't want to just quickly design a robot for one use case or environment. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-globallogic-helped-haystack-robotics-build-uv-disinfection-robot/"&gt;How GlobalLogic helped Haystack Robotics build a UV disinfection robot&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_590114" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/globallogic-haystack-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590114" class="wp-image-590114 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/11/globallogic-haystack-featured.jpg" alt="A UV disinfection robot cleaning a hospital room." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/globallogic-haystack-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/globallogic-haystack-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/globallogic-haystack-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/globallogic-haystack-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/globallogic-haystack-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590114" class="wp-caption-text"&gt;GlobalLogic developed the UV disinfection robot with Haystack Robotics. | Source: GlobalLogic&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;In hospitals, hygiene is critical. But the cleaning process, which is time-intensive and difficult to scale, remains manual work. This often means the process is also inconsistent. Healthcare facilities are under pressure to care for more patients with fewer resources. These challenges are why the Silicon &amp;amp; Embedded division at GlobalLogic helped Haystack Robotics engineer a mobile robot to handle disinfection.&lt;/p&gt;
-&lt;p&gt;The project started during the COVID-19 pandemic, when disinfection became a critical use case for robots.&lt;/p&gt;
-&lt;p&gt;“Obviously, this was a big use case at that point of time, in terms of being able to sanitize hospitals and care facilities,” Kunaal Mahanti, physical AI lead at GlobalLogic, told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;So [&lt;a href="https://haystackrobotics.com/" target="_blank" rel="noopener"&gt;Haystack&lt;/a&gt;] came up with this concept of being able to do disinfection better.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;While there were disinfections which are happening manually, it wasn’t really good coverage,&amp;#8221; he added. &amp;#8220;We were really the engineering and collaboration partner there to see how we can take this concept and make it.”&lt;/p&gt;
-&lt;p&gt;The result is an autonomous mobile robot (&lt;a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener"&gt;AMR&lt;/a&gt;) that combines real-time perception, edge-based intelligence, and navigation to deliver hospital-grade UV &lt;a href="https://www.therobotreport.com/tag/disinfection-robots" target="_blank" rel="noopener"&gt;disinfection&lt;/a&gt; with minimal human intervention. The Santa Clara, Calif.-based &lt;a href="https://www.globallogic.com/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; said it can operate safety alongside people, interpret its surroundings, and adapt to changes in its environment.&lt;/p&gt;
-&lt;h2&gt;GlobalLogic aims to create a scalable platform&lt;/h2&gt;
-&lt;p&gt;When designing its robot, Mahanti said GlobalLogic didn&amp;#8217;t want to just quickly design a system for one use case or environment.&lt;/p&gt;
-&lt;p&gt;“We wanted to make it an expandable platform,&amp;#8221; he explained. &amp;#8220;The idea was that you can look at, for example, the track part of it, which is the thing that is carrying the robot, independent of what it is carrying, which is the UV. Architecturally, you keep them separated so that we can mount other things at a later date.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;It went from a concept to what would be an architectural foundation, so that it’s not just that one product,&amp;#8221; said Mahanti. &amp;#8220;It actually becomes a class of solutions that we can build for the same industry segment.”&lt;/p&gt;
-&lt;p&gt;While GlobalLogic hasn&amp;#8217;t done many other deployments in &lt;a href="https://www.therobotreport.com/tag/hospital" target="_blank" rel="noopener"&gt;hospitals&lt;/a&gt;, Mahanti did say the company used some of the base components of the UV robot for other projects.&lt;/p&gt;
-&lt;p&gt;“When you look at the platform that moves, there are things that have come out from there in terms of the control of the motors,&amp;#8221; he said. &amp;#8220;Then we use &lt;a href="https://www.therobotreport.com/category/technologies/ros-open-source" target="_blank" rel="noopener"&gt;ROS&lt;/a&gt; to do the programming and the sensor fusion part, that is reusable, and we’ve used that. So, if not necessarily the same device, but that architecture broadly.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Smart UV Disinfection Robot for Hospitals | Violet AI by Haystack Robotics" width="740" height="416" src="https://www.youtube.com/embed/tMfobhwvsAg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;Navigating the challenges that come with hospitals&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://www.therobotreport.com/category/markets-industries/biotechnology-medical-healthcare/" target="_blank" rel="noopener"&gt;Healthcare&lt;/a&gt; facilities are crowded, chaotic, and involve many closed-off spaces, making them difficult for robots to work in.&lt;/p&gt;
-&lt;p&gt;“The known part was that, obviously, you have to interact with humans. The unknown part is that there are doors, there are things that need to be opened, and you can’t always just barge in,” Mahanti said.&lt;/p&gt;
-&lt;p&gt;This is different from more common use cases for mobile robots in warehousing or manufacturing, which typically involve open-spaces that are easy to navigate&lt;/p&gt;
-&lt;p&gt;“There are two modes that we ended up building for [the robots],&amp;#8221; noted Mahanti. &amp;#8220;Essentially, one was this autonomous mode, where it would navigate and find the right room. The other was a &amp;#8216;follow me&amp;#8217; mode, in which case it would follow a caregiver or a nurse.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;This means the caregiver can open doors and ensure spaces are ready for the robot to enter. It also means a patient wouldn’t be blindsided by a robot entering their room, for example.&lt;/p&gt;
-&lt;p&gt;However, designing an AMR that can work in these complex spaces has created benefits in other parts of GlobalLogic&amp;#8217;s business. With a much higher bar for safety, the company could apply the platform to other industries.&lt;/p&gt;
-&lt;p&gt;“The other learning is just being able to be in an environment where you cannot be loud, for example, when we are designing the motors or looking at what we need to put in [the robot],&amp;#8221; said Mahanti. &amp;#8220;Those things are specific to this industry, but then dealing with that has helped us build machines with higher fidelity elsewhere, where it is not necessarily a given, but it’s a good thing to have. Why wouldn’t you want to have a nice quiet thing that doesn’t interfere with the rest of the environment?”&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="ASHE | 2025 | UVC Disinfection Robot | Violet Gen4" width="563" height="1000" src="https://www.youtube.com/embed/VTRVKb-zAcU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;What&amp;#8217;s holding back robotic adoption in hospitals?&lt;/h2&gt;
-&lt;p&gt;While more robots are making their way into hospitals, most people cannot yet walk into their local hospitals and find robots roaming the halls. This is still an emerging area for robotics, so what challenges still exist? Mahanti said three things come to mind.&lt;/p&gt;
-&lt;p&gt;The first is cost. “There needs to be an ROI,&amp;#8221; he replied. &amp;#8220;For example, if you look at this use case during COVID, at that point of time, you needed less people in the hospitals. You needed to be safe. It was a big issue. So that ROI was justifiable.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Second is compliance with medical &lt;a href="https://www.therobotreport.com/tag/standards" target="_blank" rel="noopener"&gt;standards&lt;/a&gt;, which becomes much trickier when deploying robots that will interact with the public and patients.&lt;/p&gt;
-&lt;p&gt;Third is the perception of robots. Mahanti acknowledged that hospital staffers don&amp;#8217;t want a big, bulky robot taking up space in busy corridors and elevators.&lt;/p&gt;
-&lt;p&gt;Prem Balasubramanian, chief technology officer of GlobalLogic, said that &lt;a href="https://www.therobotreport.com/tag/safety" target="_blank" rel="noopener"&gt;safely&lt;/a&gt; integrating into hospital workflows is also challenging.&lt;/p&gt;
-&lt;p&gt;“There are clearly safety concerns, from multiple angles. Navigating in a very human-crowded situation is not easy,&amp;#8221; he said. &amp;#8220;For a disinfectant use case, if a robot waits for people to keep moving and then slowly moves, you’re okay. But if you’re using it for anything else, like if a doctor calls and you have to get something fast to help a patient or bring some stuff, a robot could get stuck because it sees people moving and it can’t move.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;The hospital is difficult on its own, and it&amp;#8217;s made even more difficult when you consider how made-for-humans they are, said Balasubramanian. For example, a robot might be able to navigate an emergency room in a perfect condition with no obstacles, but the addition of patients who constantly moving or being moved and staffers running around to solve critical issues make navigation much more challenging.&lt;/p&gt;
-&lt;p&gt;“The entire workflow within a hospital is built for humans. You can’t just fit a robot in thinking it’s a human. So, there is work to be done in converting some of the workflow, the spaces, everything,” Balasubramanian said.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-globallogic-helped-haystack-robotics-build-uv-disinfection-robot/"&gt;How GlobalLogic helped Haystack Robotics build a UV disinfection robot&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/how-globallogic-helped-haystack-robotics-build-uv-disinfection-robot/feed/</ns4:commentRss>
-			<ns5:comments>1</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>LiberAI Unveils Liber-0, a World Action Model That Grounds Human Experience in Robot Action</title>
-		<link>https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/</link>
-					<comments>https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/#respond</comments>
-		
-		<dc:creator>Sponsored Content</dc:creator>
-		<pubDate>Wed, 04 Nov 2026 15:02:57 +0000</pubDate>
-				<category>Sponsored Content</category>
-		<category>LiberAI</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590093</guid>
-
-					<description>&lt;p&gt;LiberAI introduces Liber-0, a world action model pretrained on more than 2.2 million hours of human experience to support zero-shot robot manipulation.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/"&gt;LiberAI Unveils Liber-0, a World Action Model That Grounds Human Experience in Robot Action&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;p&gt;&lt;em&gt;LiberAI introduces Liber-0, a world action model pretrained on more than 2.2 million hours of human experience to support zero-shot robot manipulation. In an evaluation of 60 tasks proposed by GPT-6, it achieved 36.0% overall success without robot demonstrations collected specifically for those target tasks. The model combines large-scale human video, glove-recorded hand motion and embodiment alignment to transfer human manipulation experience to robots.&lt;/em&gt;&lt;/p&gt;
-&lt;div id="attachment_590106" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590106" class="size-full wp-image-590106" src="https://www.therobotreport.com/wp-content/uploads/2026/11/beijingyongqi-sponsored-featured-image-november2026.png" alt="" width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/beijingyongqi-sponsored-featured-image-november2026.png 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/beijingyongqi-sponsored-featured-image-november2026-300x195.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/beijingyongqi-sponsored-featured-image-november2026-150x97.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/beijingyongqi-sponsored-featured-image-november2026-768x499.png 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/beijingyongqi-sponsored-featured-image-november2026-368x238.png 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590106" class="wp-caption-text"&gt;Liber-0 achieves 36.0% overall success in a zero-shot evaluation of 60 tasks proposed by GPT-6.&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href="https://www.liberai.com/" target="_blank"&gt;LiberAI&lt;/a&gt; has introduced Liber-0, a world action model (WAM) pretrained on more than 2.2 million hours of human experience. The Beijing-based startup said the model combines human video with glove-recorded motion and embodiment-conditioned learning to transfer human manipulation experience to robots.&lt;/p&gt;
-&lt;p&gt;A central test of Liber-0’s generalization is whether it can perform target tasks without robot demonstrations collected specifically for them. LiberAI evaluated the model on a separate suite of 60 GPT-6-proposed tasks, distinct from its internal scaling benchmarks: 20 pick-and-place (PnP) tasks, 20 non-PnP manipulation tasks, and 20 challenging non-PnP and long-horizon tasks.&lt;/p&gt;
-&lt;p&gt;Examples from the suite include placing a pen in a pencil case, pushing a drawer closed, and a longer sequence in which a pen is placed in a pouch and the pouch is stored in a drawer.&lt;/p&gt;
-&lt;p&gt;LiberAI reported task success rates of 63.5% on pick-and-place tasks, 34.0% on non-pick-and-place manipulation tasks and 10.5% on challenging non-pick-and-place and long-horizon tasks, with an overall success rate of 36.0% across 600 trials.&lt;/p&gt;
-&lt;p&gt;Here, zero-shot means the evaluated checkpoint was not trained on robot demonstrations collected specifically for these target tasks; pretraining still included robot data.&lt;/p&gt;
-&lt;h4&gt;Why learn from people?&lt;/h4&gt;
-&lt;p&gt;Robot manipulation has traditionally relied heavily on demonstrations recorded on a specific robot for a specific task, usually by a human operator teleoperating the machine. That data closely matches deployment, but collecting it can be slow and expensive, particularly when new tasks or robot platforms require additional demonstrations. Human activity is far more abundant, and much of it is already on video.&lt;/p&gt;
-&lt;p&gt;The obstacle, according to LiberAI, is that human video does not translate directly into robot commands. Cameras sit in different places, hand poses estimated from video are noisy, and human bodies move differently from robots.&lt;/p&gt;
-&lt;p&gt;Liber-0 connects human experience with robot action in three ways. First, LiberSense Glove, LiberAI’s data-collection system, directly records hand movements, helping link human video to the motions behind it. Second, LiberAI’s robot platform uses camera views and hand, wrist and waist movements that more closely match those of humans, making skills easier to transfer. Third, a Unified Embodiment Representation gives the model information about body shape and joint movement, so it can adapt actions to the body performing them.&lt;/p&gt;
-&lt;p&gt;Liber-0 jointly predicts future video frames and actions. This lets it learn from ordinary videos without action labels alongside glove and robot recordings that include measured motion.&lt;/p&gt;
-&lt;div id="attachment_590107" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590107" class="size-full wp-image-590107" src="https://www.therobotreport.com/wp-content/uploads/2026/11/beijingyongqi-sponsored-image1-november2026.png" alt="" width="770" height="363" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/beijingyongqi-sponsored-image1-november2026.png 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/beijingyongqi-sponsored-image1-november2026-300x141.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/beijingyongqi-sponsored-image1-november2026-150x71.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/beijingyongqi-sponsored-image1-november2026-768x362.png 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/beijingyongqi-sponsored-image1-november2026-368x173.png 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590107" class="wp-caption-text"&gt;Human-to-robot transfer. Conceptual illustration of how action-grounded human recordings and visual and kinematic alignment support transfer to LEO.&lt;/p&gt;&lt;/div&gt;
-&lt;h4&gt;Learning actions that robot data lacked&lt;/h4&gt;
-&lt;p&gt;Glove data can also introduce behaviors missing from a policy&amp;#8217;s robot data. LiberAI trained policies whose robot demonstrations covered only pick-and-place, while glove demonstrations included actions such as folding, pressing and opening. Performance was measured as a progress score, a 0 to 100 measure that credits partial completion, across four pick-and-place and six non-PnP tasks. With robot data alone, the non-PnP progress score was 2.2. Adding glove recordings of those actions raised it to 47.5, and to 54.6 when the glove set also included pick-and-place, close to the 56.3 scored by a policy trained on robot demonstrations of every action. This controlled experiment is separate from the 60-task suite: the actions appeared in the glove demonstrations but not in the policies&amp;#8217; robot demonstrations.&lt;/p&gt;
-&lt;h4&gt;A quarter of the robot data&lt;/h4&gt;
-&lt;p&gt;A separate experiment examines whether glove recordings can reduce the need for robot demonstrations. In an eight-task evaluation on LiberAI&amp;#8217;s robot platform, where the full robot and glove pools contained equal numbers of demonstrations, a policy trained on 25% of the robot pool plus 100% of the glove pool reached a progress score of 75.6. A policy trained on 100% of the robot pool scored 72.8.&lt;/p&gt;
-&lt;p&gt;In that setting, glove recordings delivered comparable performance with 75% fewer robot demonstrations. The saving applies to robot demonstrations specifically, as the mixed policy still drew on the full glove pool. Because glove collection does not require a robot at each site, LiberAI says experience can be gathered from more people, in more places, and potentially at lower cost.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/wW0lrimeWsw?si=9tpWA5hQukhrvRPV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h4&gt;Evaluating the pretrained model directly&lt;/h4&gt;
-&lt;p&gt;On LiberAI&amp;#8217;s internal benchmarks, the pretrained checkpoint achieved progress scores of 81.4 on pick-and-place and 72.3 on non-PnP tasks when evaluated directly. Robot post-training added 2.2 and 1.5 points, to 83.6 and 73.8. LiberAI said the small gain indicates the pretrained model already captures much of the capability needed for the evaluated tasks.&lt;/p&gt;
-&lt;p&gt;LiberAI has developed an &lt;a href="https://sim.liberai.work/" target="_blank"&gt;interactive simulation&lt;/a&gt; in which users can upload their own objects and watch Liber-0 manipulate them in a virtual environment. The simulation demonstrates object-level generalization: that version of the model was post-trained on 100 hours of simulated teleoperation data and receives no further object-specific training.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Human video shows what people do, but not exactly how their hands move or how that movement fits a different body,&amp;#8221; said Songming Liu, founder and CEO of LiberAI. &amp;#8220;Grounding that experience in measured motion and aligning it with the robot&amp;#8217;s body is what turns it into robot capability.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;/p&gt;
-&lt;blockquote class="twitter-tweet"&gt;
-&lt;p lang="en" dir="ltr"&gt;Introducing Liber-0, our World Action Model for zero-shot robot manipulation—including dexterous, multi-step tasks.&lt;/p&gt;
-&lt;p&gt;Across 60 tasks proposed by GPT-6 and 600 trials, Liber-0 achieved 36% overall success without robot demonstrations collected specifically for those tasks:&lt;br /&gt;
-• Pick-and-place: 63.5%&lt;br /&gt;
-• Other manipulation tasks: 34.0%&lt;br /&gt;
-• Challenging multi-step tasks: 10.5%&lt;/p&gt;
-&lt;p&gt;Zero-shot capability extends beyond individual actions to coordinated sequences.&lt;/p&gt;
-&lt;p&gt;Pretrained on 2.2M+ hours of human experience, Liber-0 jointly predicts future observations and actions to turn human experience into robot skills.&lt;/p&gt;
-&lt;p&gt;Technical blog: https://t.co/X5NMTjsr8r&lt;/p&gt;
-&lt;p&gt;&amp;mdash; LiberAI (@liberai_robot) &lt;a href="https://x.com/liberai_robot/status/2117803284039905456?ref_src=twsrc%5Etfw"&gt;November 4, 2026&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;script async src="https://platform.x.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/center&gt;&lt;/p&gt;
-&lt;h4&gt;What&amp;#8217;s next for LiberAI&lt;/h4&gt;
-&lt;p&gt;LiberAI noted that LiberSense Glove currently records hand poses and trajectories but not contact or force, which matter for insertion, fastening and handling soft materials. Tactile and force sensing, alongside data collection across a wider range of homes, remain future research directions.&lt;/p&gt;
-&lt;p&gt;Watch Liber-0 in action and explore the full evaluation on &lt;a href="https://www.liberai.com" target="_blank"&gt;LiberAI&lt;/a&gt;. For collaboration on models, robotics, LiberSense Glove or other opportunities, contact the LiberAI team via the website.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Sponsored content by LiberAI&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/"&gt;LiberAI Unveils Liber-0, a World Action Model That Grounds Human Experience in Robot Action&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
 		
 		
 			</item>

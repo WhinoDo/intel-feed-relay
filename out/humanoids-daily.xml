@@ -7,9 +7,49 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Mon, 09 Nov 2026 21:05:16 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 10 Nov 2026 14:29:46 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/hd-hyundai-robotics-dual-arm-robot-palantir-skild-ai-korea</guid>
+    <title>HD Hyundai Robotics Builds Its Own Robot Brain, as Skild AI Pitches Korea on Building the Bodies</title>
+    <link>https://www.humanoidsdaily.com/news/hd-hyundai-robotics-dual-arm-robot-palantir-skild-ai-korea</link>
+    <description>HD Hyundai Robotics' new dual-arm robot runs a foundation model it trained itself, and Palantir AI agents have cut its problem-resolution time by 63%. In Seoul the same week, Skild AI's Deepak Pathak courted Korean motor makers and described deployments at LG and Market Kurly.</description>
+    <pubDate>Tue, 10 Nov 2026 14:29:46 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Skild AI</category><category>South Korea</category><category>Foundation Model</category><category>manufacturing</category><category>LG</category><category>Palantir</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/anthropic-claude-fable-5-2-robotics-robodojo</guid>
+    <title>Anthropic Says Claude Fable 5.2 More Than Doubles GPT-6 Astra on a Robot-Control Benchmark</title>
+    <link>https://www.humanoidsdaily.com/news/anthropic-claude-fable-5-2-robotics-robodojo</link>
+    <description>Anthropic reports 64.9% on the RoboDojo simulated two-arm benchmark, against 29.8% for Astra in its own runs. On RoboDojo's leaderboard, only one agent system scores higher.</description>
+    <pubDate>Tue, 10 Nov 2026 13:35:28 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>NVIDIA</category><category>OpenAI</category><category>Benchmark</category><category>Foundation Model</category><category>Anthropic</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/robbyant-lingbot-touch-open-source-tactile-model</guid>
+    <title>Robbyant Open-Sources LingBot-Touch, One Tactile Model for Three Sensor Types</title>
+    <link>https://www.humanoidsdaily.com/news/robbyant-lingbot-touch-open-source-tactile-model</link>
+    <description>Ant Group's Robbyant has released LingBot-Touch under Apache 2.0. Across 26 real-robot tasks, its tactile tokens lifted four policies by 14 to 25 points, including on a hand whose sensor it never saw.</description>
+    <pubDate>Tue, 10 Nov 2026 12:22:45 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Robbyant</category><category>Foundation Model</category><category>Robotics Research</category><category>tactile sensing</category><category>open-source</category><category>Sharpa Robotics</category><category>China</category><category>Robotera</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/machina-summit-2027-palais-des-congres-paris-first-speakers</guid>
+    <title>MACHINA Summit Moves to the Palais des Congrès for 2027, Names Wandercraft, Agility and Skild AI Speakers</title>
+    <link>https://www.humanoidsdaily.com/news/machina-summit-2027-palais-des-congres-paris-first-speakers</link>
+    <description>The Paris physical AI conference grows to two days and 3,500 expected attendees on 7–8 July 2027, closing with an invitation-only gala at Versailles.</description>
+    <pubDate>Tue, 10 Nov 2026 11:38:26 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Skild AI</category><category>Uma</category><category>Europe</category><category>Bosch</category><category>Agility Robotics</category><category>Wandercraft</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/nvidia-gr00t-2-world-action-model-corl-2026</guid>
     <title>"Robotics Is No Longer an Elitist Sport": NVIDIA Unveils GR00T 2 and Open-Sources the Stack Behind It</title>
@@ -268,46 +308,6 @@
     <pubDate>Mon, 02 Nov 2026 17:10:29 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Batteries</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-03-robots-leave-botq-campus-video</guid>
-    <title>New Figure 03 Robots Walk Out of BotQ in Brett Adcock’s Latest Video</title>
-    <link>https://www.humanoidsdaily.com/news/figure-03-robots-leave-botq-campus-video</link>
-    <description>Brett Adcock shares newly manufactured Figure 03 robots walking across campus from BotQ, offering a glimpse of the fleet without new production or delivery figures.</description>
-    <pubDate>Mon, 02 Nov 2026 16:19:03 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Figure-04</category><category>US</category><category>Figure</category><category>Figure-03</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/deep-robotics-humanoid-traffic-police-hangzhou-marathon</guid>
-    <title>DEEP Robotics Humanoids Join Traffic Police at Hangzhou Marathon</title>
-    <link>https://www.humanoidsdaily.com/news/deep-robotics-humanoid-traffic-police-hangzhou-marathon</link>
-    <description>Hangxing No.2 humanoids based on DEEP Robotics’ DR02 platform supported traffic operations around Huanglong Sports Center during the November 1 race.</description>
-    <pubDate>Mon, 02 Nov 2026 10:31:09 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Deep Robotics</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/lightberry-lumi-fcc-covered-list-conditional-exemption</guid>
-    <title>Lightberry’s Lumi Gains Conditional FCC Covered List Exemption</title>
-    <link>https://www.humanoidsdaily.com/news/lightberry-lumi-fcc-covered-list-conditional-exemption</link>
-    <description>CEO Ali Attar tells Humanoids Daily that Lumi’s exemption clears the way to apply for FCC certification, with shipments expected “very soon” but no firm date.</description>
-    <pubDate>Mon, 02 Nov 2026 09:07:34 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>G1</category><category>US</category><category>FCC</category><category>Lightberry</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/1x-neo-head-dexter-tv-home-integration</guid>
-    <title>1X Teammates Use Spare NEO Heads to Test Home Integrations, Starting With the TV</title>
-    <link>https://www.humanoidsdaily.com/news/1x-neo-head-dexter-tv-home-integration</link>
-    <description>A clip shared by Dar Sleeper shows a NEO head called Dexter choosing and playing The Lord of the Rings on a TV as teammates test home integrations.</description>
-    <pubDate>Mon, 02 Nov 2026 07:51:31 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>1X Technologies</category><category>US</category><category>NEO</category>
   </item>
 
   </channel>

@@ -4,7 +4,52 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-09T13:23:29Z</ns0:updated>
+  <ns0:updated>2026-11-10T15:01:27Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/45a0756dfda4010eef6c0bfb2a95c5dd23c03fc6</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/45a0756dfda4010eef6c0bfb2a95c5dd23c03fc6" />
+    <ns0:title>
+        docs: add RoboColosseum benchmark guide (#5274)
+    </ns0:title>
+    <ns0:updated>2026-11-10T15:01:27Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/43759469?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>sangnt1552314</ns0:name>
+      <ns0:uri>https://github.com/sangnt1552314</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs: add RoboColosseum benchmark guide (#5274)
+
+* docs: add RoboColosseum benchmark guide
+
+* docs: simplify RoboColosseum guide
+
+* docs: remove lerobot-train compatibility note from RoboColosseum guide
+
+* docs: add more details
+
+---------
+
+Co-authored-by: Sang Nguyen &amp;lt;sangnt1552314@gmail.com&amp;gt;
+Co-authored-by: Sang Nguyen &amp;lt;sangnt2@younetgroup.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/aea98d8e66aac08f5b6bd62c86d1370ace175ec7</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/aea98d8e66aac08f5b6bd62c86d1370ace175ec7" />
+    <ns0:title>
+        chore(dependencies): update uv.lock (#5271)
+    </ns0:title>
+    <ns0:updated>2026-11-10T14:29:09Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): update uv.lock (#5271)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/81b8c5bfdd5591ec59e512cfc7ac6db8151c70ee</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/81b8c5bfdd5591ec59e512cfc7ac6db8151c70ee" />
@@ -1011,202 +1056,6 @@ Signed-off-by: creativityventures &amp;lt;creativityventures.official@gmail.com&
 ---------
 
 Signed-off-by: creativityventures &amp;lt;creativityventures.official@gmail.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/154fdfb595573ae9c7e0b3b48102b0318235e306</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/154fdfb595573ae9c7e0b3b48102b0318235e306" />
-    <ns0:title>
-        feat(g05): add OpenGalaxea G0.5 policy integration  (#4445)
-    </ns0:title>
-    <ns0:updated>2026-11-03T12:00:36Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(g05): add OpenGalaxea G0.5 policy integration  (#4445)
-
-* Add the OpenGalaxea G0.5 policy
-
-Native port of G0.5 (Qwen3.5-2B VLA) as policy.type=g05 on Transformers&amp;#39; Qwen3.5
-backbone: action expert, flow-matching head, ActionCodec and unified CoT/action
-decode, with no OpenGalaxea, Hydra or OmegaConf dependency.
-
-- Codec and tokenizer live in their own modules; the tokenizer and ActionCodec are
-  saved as safetensors processor artifacts.
-- The relative-action anchor is held while a chunk is in flight.
-- The integration code and G0.5 model cards carry the G0.5 Community License.
-
-* Reset the postprocessor when a task change drops the queued actions
-
-In the synchronous rollout, dropping the queued actions on a task change now also
-resets the postprocessor, so a stateful step such as the relative-action anchor
-starts from the new chunk.
-
-* Fine-tune G0.5 base on new robots from their dataset stats, joints and cameras
-
-- policy.embodiment is a free-text robot name; the released names keep their slot tables.
-- Joint slots come from the dataset&amp;#39;s joint names (state_slots/action_slots override them),
-  and camera_order maps dataset cameras to image slots (null leaves one empty).
-- Normalization uses lerobot&amp;#39;s normalization_mapping with the dataset&amp;#39;s own stats.
-- Recipe pipelines load from a Hub repo id, with fewer host syncs.
-
-* Rotate task_aug rephrasings through the training recipe into the G0.5 prompt
-
-The training renderer passed the dataset task as an explicit override, so ${task}
-never used task_aug rephrasings for any recipe-based policy. It now passes it as the
-fallback (runtime override, then task_aug, then the dataset task).
-
-* Train G0.5 like upstream
-
-- Type-checked under the repository mypy ruleset; flash-linear-attention is recommended.
-- Upstream&amp;#39;s sample mix of CoT, subtask-as-task and plain samples; the CoT text is cut
-  before its Action segment.
-- ActionCodec targets leave out body parts the robot does not have (dropout_noop_parts).
-- The System 2 chain of thought is selectable (subtask, or bbox and subtask), and
-  action codes are masked while it is sampled.
-- proprio_dropout_p (default 0.2, upstream&amp;#39;s mlp_dropout) drops the state token in training.
-- The flow loss repeats the action cache in the targets&amp;#39; row order and detaches the
-  VLM KV (knowledge insulation, upstream&amp;#39;s default).
-- The docs use generic robot and dataset names.
-
-* Configure G0.5 precision with policy.dtype and read recipe_path once
-
-- Precision uses the shared PreTrainedConfig.dtype (bfloat16 or float32) instead of
-  model_weights_to_bf16.
-- recipe_path is read into the inline recipe when the config is built and then
-  cleared, so a saved checkpoint keeps its recipe and the config builds on a base install.
-
-* Check G0.5 joint_signs against the robot&amp;#39;s joints after the slots size them
-
-The length check ran in __post_init__ against the checkpoint&amp;#39;s raw_state_dim, so
-fine-tuning g05_base (14 joints) on a 6-joint arm with 6 joint_signs failed before
-the dataset could resize the slots.
-
-* Remove dead G0.5 code
-
-- The ActionCodec&amp;#39;s own training objective: lerobot only encodes and decodes with the
-  shipped codec.
-- The FP32 output-projection cast: the VLM ties its logits to input_proj.
-- Inference metadata and batch fields nothing reads, and predict_action_chunk_with_runtime.
-- checkpoint_profile and return_continuous_action, config fields that were only validated.
-- Unreachable branches: per-sample action encoding, the optional decode mask, and
-  attribute fallbacks on objects that always have them.
-
-* Add the G0.5 policy README and refresh the docs
-
-- The README is symlinked from the package (paper link and citation), and G0.5 model
-  cards link to the guide.
-- Stale references to removed APIs, checkpoint profiles and recipe_path are fixed.
-
-* Simplify G0.5 around the shared lerobot pieces
-
-- Flow times, noise and training inputs come from the shared flow-matching helpers
-  (sample_beta, sample_noise, make_flow_matching_inputs; same values). Only the
-  pi-convention path the checkpoints use is kept, with upstream&amp;#39;s Euler loop: its time
-  stays in the model dtype, which the shared euler_integrate does not reproduce in BF16.
-- Author samples are built by a processor function, prepare_g05_policy_batch, instead
-  of a weightless policy proxy.
-- The policy calls its backend directly, and the ActionCodec loads in one place.
-- use_language_recipe is read directly, the ActionCodec part/marker list is computed
-  once, and the prompt templates share their prefix.
-
-* Return G0.5&amp;#39;s System 2 subtask and boxes as the policy prediction
-
-* Retarget lerobot-train&amp;#39;s relative_actions_processor override to G0.5&amp;#39;s relative step, so relative-action runs resume
-
-* Port G0.5&amp;#39;s Qwen3.5 linear attention, vision rotary and position embeddings to transformers 5.22&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/772bc21ef1ab17b72e17ebb1593ff78725a21d55</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/772bc21ef1ab17b72e17ebb1593ff78725a21d55" />
-    <ns0:title>
-        perf(datasets): stream-copy videos when deleting episodes (#4498)
-    </ns0:title>
-    <ns0:updated>2026-11-03T11:12:04Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>nepyope</ns0:name>
-      <ns0:uri>https://github.com/nepyope</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;perf(datasets): stream-copy videos when deleting episodes (#4498)
-
-* perf(datasets): stream-copy videos when deleting episodes
-
-delete_episodes re-encoded every kept frame of any video file that mixed kept
-and deleted episodes. That work is redundant for datasets written by LeRobot:
-DatasetWriter encodes one video per episode and concatenate_video_files joins
-them through ffmpeg&amp;#39;s concat demuxer in stream-copy mode, so the first frame of
-every episode in a packed file starts a closed GOP.
-
-Select and remux the encoded packets instead when every boundary is GOP-aligned.
-Alignment is verified rather than assumed, so files packed by other tools still
-fall back to the existing re-encode path.
-
-Measured on a 79-episode unitree_g1 dataset (640x480 h264 @ 50fps), dropping 32
-episodes: for the three ego_view files 220.6s -&amp;gt; 0.9s, output 364MB -&amp;gt; 306MB,
-and the kept frames are now bit-identical to the source instead of a second
-lossy generation.
-
-Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
-
-* fix(datasets): harden stream-copy episode deletion
-
-- Copy codec parameters with add_stream_from_template(opaque=True). Without it, AV1 input (decoded by libdav1d) crashed because no encoder of that name exists, so the fast path raised instead of falling back.
-- Only cut at keyframes that are presented before every later packet and after every earlier one. Open-GOP keyframes followed by leading pictures were accepted and produced wrong frames; they now fall back to re-encoding.
-- Validate boundaries from packet metadata in a first demux pass and stream the selected packets in a second, so memory no longer scales with the video file size.
-- Test stream copy for h264, hevc and libsvtav1, including frame count and timestamp continuity, and add an open-GOP rejection test.
-
-* docs(datasets): shorten stream-copy docstring
-
-* fix(datasets): sort stream-copy frame ranges internally
-
-* style(datasets): format stream-copy range validation
-
-* test(datasets): use video path metadata helper
-
-* docs(tests): clarify packed video fixture behavior
-
-* test(datasets): create packed videos with episode boundaries
-
-* test(datasets): simplify episode encoding fixture changes
-
-* test(datasets): restrict stream-copy regression to h264
-
-* test(datasets): cover stream-copy and reencode deletion paths
-
-* test(datasets): store open-GOP video as test artifact
-
-* refactor(datasets): unify video episode filtering entry point
-
-* fix(datasets): preserve decode timestamps during stream copy
-
-* test(datasets): build the GOP-alignment test dataset directly
-
-Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
-
-* test(datasets): drop the unused vcodec parameter from the packed-video helper
-
-Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
-
-* test(datasets): stop asserting which encode path ran in the packed-video test
-
-Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
-
-* test(datasets): drop unused packed-video changes from test fixtures
-
-The stream-copy tests build their packed dataset through the recording path, so
-create_videos no longer needs per-episode encoding.
-
-Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;
-
----------
-
-Co-authored-by: Cursor &amp;lt;cursoragent@cursor.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
