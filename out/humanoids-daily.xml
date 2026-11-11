@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 10 Nov 2026 18:40:45 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 11 Nov 2026 14:15:00 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agibot-g2-robots-complete-1730-tasks-24-hour-convenience-store-trial</guid>
+    <title>Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial</title>
+    <link>https://www.humanoidsdaily.com/features/agibot-g2-robots-complete-1730-tasks-24-hour-convenience-store-trial</link>
+    <description>Four of the six robots pass a performance assessment as the trial puts customer service, retail operations and embodied AI capabilities to the test in a working store.</description>
+    <pubDate>Wed, 11 Nov 2026 14:15:00 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Retail</category><category>China</category><category>AGIBOT</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-night-shift-robot-babysitter-jobs-operators-customer-sites</guid>
+    <title>Figure's Night-Shift "Robot Babysitter" Is One of About 30 Jobs Keeping Its Humanoids Running</title>
+    <link>https://www.humanoidsdaily.com/news/figure-night-shift-robot-babysitter-jobs-operators-customer-sites</link>
+    <description>Figure is hiring a night-shift coordinator to run its humanoids in Santa Clara. Its careers page also lists operators on three shifts, staff for customer sites in Reno and Fontana, teleoperation pilots and a 24/7 data operation in Brazil.</description>
+    <pubDate>Wed, 11 Nov 2026 14:00:54 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Data Collection</category><category>teleoperation</category><category>US</category><category>Figure</category><category>Market</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/gemini-robotics-2-5-apollo-2-mercedes-benz-argon</guid>
     <title>Gemini Robotics 2.5 Puts Apollo 2 on Mercedes-Benz Lines as Argon Speeds Up Training</title>
@@ -288,26 +308,6 @@
     <pubDate>Tue, 03 Nov 2026 16:16:21 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Agility Robotics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/aimoga-mobo-home-companion-global-preorders</guid>
-    <title>AiMOGA Opens Global Pre-Orders for MOBO Home Companion Robot</title>
-    <link>https://www.humanoidsdaily.com/news/aimoga-mobo-home-companion-global-preorders</link>
-    <description>Chery’s AiMOGA is moving into home companionship with MOBO, a 22-DoF robot with claimed long-term memory, as it explores shared AI capabilities with vehicles.</description>
-    <pubDate>Tue, 03 Nov 2026 15:47:05 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>AiMOGA</category><category>China</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/neura-david-reger-dw-military-robots-civilian-productivity</guid>
-    <title>Neura CEO David Reger Explains Why He Rejects Military Robotics</title>
-    <link>https://www.humanoidsdaily.com/news/neura-david-reger-dw-military-robots-civilian-productivity</link>
-    <description>In a DW interview, David Reger argues that civilian robotics and industrial productivity offer Europe a stronger path forward than military contracts.</description>
-    <pubDate>Tue, 03 Nov 2026 15:25:33 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>David Reger</category><category>4NE-1</category><category>Neura Robotics</category><category>Europe</category>
   </item>
 
   </channel>

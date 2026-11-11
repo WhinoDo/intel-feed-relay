@@ -4,7 +4,171 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-10T15:01:27Z</ns0:updated>
+  <ns0:updated>2026-11-11T15:47:19Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/e581c1d5701f846788662079d4ac08835c96def9</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e581c1d5701f846788662079d4ac08835c96def9" />
+    <ns0:title>
+        docs(praxis): refresh stale statements; no internal path in the base …
+    </ns0:title>
+    <ns0:updated>2026-11-11T15:47:19Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/11545281?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>hzhang86</ns0:name>
+      <ns0:uri>https://github.com/hzhang86</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(praxis): refresh stale statements; no internal path in the base fixture (#5325)
+
+* docs(praxis): the public checkpoint names, the LeRobot 0.7 lock, praxis-sim on PyPI
+
+- The checkpoints are named by their public Hub repositories throughout the guide, the model card
+  README, the examples README, code comments and test docstrings: `runwayml/praxis-1-droid-lerobot`
+  is the released single-arm DROID checkpoint (54 GB, sharded), `runwayml/praxis-1-yam-lerobot` the
+  bimanual checkpoint for two YAM arms, `runwayml/praxis-1-base-lerobot` the backbone and
+  action-expert trunk without the heads of a rig. The earlier, unreleased DROID checkpoint of the
+  results section is called that. Labels of training runs and export directories are gone.
+- The page said LeRobot 0.7.0 locks transformers 5.22.1; main is LeRobot 0.7.1 and locks 5.22.2,
+  which gives the same commands as 5.22.1 (checked on the DROID and the YAM checkpoint against the
+  praxis repository), so the installation paragraph, the warning, the results and the parity notes
+  name the 0.7 lock and both patch versions.
+- `praxis-sim` is on PyPI (0.1.0, the code of the praxis repository&amp;#39;s `packages/praxis-sim`): the
+  vendoring note says so and the resources table gets a Simulator row. LeRobot has no environment
+  for it yet.
+- References to a private repository&amp;#39;s pull requests and commits are replaced by the public
+  praxis-1-oss `main` and the vendored commit the file headers name.
+- `examples/praxis/README.md` lists `compute_norm_stats.py` and `init_heads.py` (the base
+  checkpoint) and notes the converter&amp;#39;s own `SHA256SUMS` and the base checkpoint&amp;#39;s missing
+  processors.
+
+No code change: comments and docstrings only in the Python files.
+
+* test(praxis): the base fixture&amp;#39;s provenance names the public checkpoint
+
+The base checkpoint fixture carried the provenance block of its training run, with a storage path
+and a codename. The block now names the public Hub repository of the weights,
+`runwayml/praxis-1-base-lerobot`, as the public config does, and describes the checkpoint in plain
+words. Nothing reads the values: the config check only allows the key, and the base-checkpoint test
+skips the block.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/4864a7ec6ad6ad5259d08f121f0c1b44983b4582</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4864a7ec6ad6ad5259d08f121f0c1b44983b4582" />
+    <ns0:title>
+        feat(policies): add Praxis-1 (#5321)
+    </ns0:title>
+    <ns0:updated>2026-11-11T14:56:42Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): add Praxis-1 (#5321)
+
+Add `praxis`, the LeRobot adapter of Praxis-1, Runway&amp;#39;s open-weight World Action Model: a
+chunk-causal video diffusion backbone (a 27B-parameter mixture-of-experts transformer) with an
+action expert that denoises 24 Cartesian commands at 15 Hz alongside the next 1.6 s of video.
+
+- The policy, its configuration and its processor steps in `lerobot/policies/praxis`, with the
+  model code vendored under `praxis_core` (FlashAttention-4 and Triton attention backends).
+- Inference with the single-arm DROID checkpoint and the bimanual YAM checkpoint.
+- Fine-tuning through `lerobot-train` with the praxis objective, in full (FSDP) or with LoRA
+  adapters through PEFT, and the `praxis_adamw` optimizer (AdamW with stochastic rounding for
+  the bfloat16 weights).
+- The base checkpoint: conversion, the heads of a rig and its normalization statistics.
+- Datacenter and RTX Blackwell GPUs.
+- Batched Euler, quaternion and matrix conversions on `Rotation`.
+- The `praxis` extra, examples, the guide, a model card section and tests.
+
+Co-authored-by: Hui Zhang &amp;lt;hui@runwayml.com&amp;gt;
+Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;
+Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;
+Co-authored-by: Lucas Kabela &amp;lt;20960393+Lucaskabela@users.noreply.github.com&amp;gt;
+Co-authored-by: Andy Chen &amp;lt;2110833+andersenchen@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/08b559cb6f6a36223c8ecebcb303c1572ce873ad</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/08b559cb6f6a36223c8ecebcb303c1572ce873ad" />
+    <ns0:title>
+        fix(tests): checkpoint resolution molmoact2 (#5322)
+    </ns0:title>
+    <ns0:updated>2026-11-11T14:25:14Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(tests): checkpoint resolution molmoact2 (#5322)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/ff0acf5ee6434369eeeb9d26e76d1e2ddc20c0d2</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ff0acf5ee6434369eeeb9d26e76d1e2ddc20c0d2" />
+    <ns0:title>
+        fix(processor): refuse rename_map collisions instead of silently drop…
+    </ns0:title>
+    <ns0:updated>2026-11-11T13:12:15Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29127300?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>CarolinePascal</ns0:name>
+      <ns0:uri>https://github.com/CarolinePascal</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(processor): refuse rename_map collisions instead of silently dropping a key (#5316)
+
+Two keys renamed to the same name (e.g. action.cartesian -&amp;gt; action on a dataset
+that already has action) were resolved differently per code path: make_policy
+read the action names from the first match, while the features, stats, batches
+and observations kept the last one. Every rename path now goes through
+rename_keys, which raises and suggests renaming the existing key as well.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/37aee5935534a11c0dd9be027a65fa8388ebd843</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/37aee5935534a11c0dd9be027a65fa8388ebd843" />
+    <ns0:title>
+        feat(policies): sharded safetensors checkpoints in the transformers l…
+    </ns0:title>
+    <ns0:updated>2026-11-11T13:07:22Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>imstevenpmwork</ns0:name>
+      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): sharded safetensors checkpoints in the transformers layout (#5306)
+
+* feat(policies): support sharded safetensors checkpoints
+
+Add opt-in sharded saving and local or Hub loading while keeping the
+single-file default. Give custom policy loaders access to all shards
+without writing a merged temporary checkpoint.
+
+Check missing and unexpected keys after loading hooks, handle tied and
+empty tensors correctly, and include sharded checkpoints in Trackio
+uploads. Document the scope of support and cover the loading paths with
+regression tests.
+
+* fix(policies): read shards per key and surface Hub errors
+
+Filtered checkpoint loads were materializing every tensor in a shard, and a
+non-404 Hub failure was rewritten as a missing checkpoint.
+
+* fix(policies): load shards when the checkpoint hook is implemented
+
+Keeping a legacy single-file hook was enough to reject a sharded checkpoint.
+Also record that DCP conversion stays one file, and attach config.json to a
+single-file Trackio artifact.
+
+---------
+
+Co-authored-by: CarolinePascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/45a0756dfda4010eef6c0bfb2a95c5dd23c03fc6</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/45a0756dfda4010eef6c0bfb2a95c5dd23c03fc6" />
@@ -895,167 +1059,6 @@ Co-authored-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;&lt;/pre&gt;
     </ns0:author>
     <ns0:content type="html">
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependecies): bump datasets (#5232)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/02655292cdadd7dd2f8fc5daa31a7437b44354ee</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/02655292cdadd7dd2f8fc5daa31a7437b44354ee" />
-    <ns0:title>
-        feat(policies): add Cosmos3 (#5134)
-    </ns0:title>
-    <ns0:updated>2026-11-03T16:31:39Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>HaomingSong</ns0:name>
-      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): add Cosmos3 (#5134)
-
-* feat(policies): add Cosmos3
-
-* fix(tests): skip the Cosmos3 configs in the policy config round trip without transformers
-
-* docs(cosmos3): use the trackio flag in the training commands
-
-* fix(cosmos3): train k_norm_und_for_gen of Cosmos3 Edge
-
-* docs(cosmos3): standardize Hub repository names
-
-* fix(cosmos3): exclude padded windows from the training loss
-
-Streaming datasets pad windows that run past the episode end with the last frame and action.
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;
-
-* fix(cosmos3): split the top view width between the lower views of the three camera layout
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;
-
-* fix(cosmos3): use sub_configs_defaults in the backbone configs for transformers 5.22
-
----------
-
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/06f78b6c46670d0372b9a0f1544574c6b84a0df8</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/06f78b6c46670d0372b9a0f1544574c6b84a0df8" />
-    <ns0:title>
-        chore(dependencies): update uv.lock (#5175)
-    </ns0:title>
-    <ns0:updated>2026-11-03T13:44:14Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): update uv.lock (#5175)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/1d9bac2ab43688a0818dad81def7084abf8202ee</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1d9bac2ab43688a0818dad81def7084abf8202ee" />
-    <ns0:title>
-        chore(dependencies): bump torch packages ceiling (#5210)
-    </ns0:title>
-    <ns0:updated>2026-11-03T13:07:45Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): bump torch packages ceiling (#5210)
-
-* chore(dependencies): bump torch packages ceiling
-
-Co-authored-by: Anthony Shoumikhin &amp;lt;anthony@shoumikh.in&amp;gt;
-
-* chore(docs): recover pyproject comment
-
-* chore(test): remove newly introduced backend test
-
-* chore(docs): clarify flux3 installation steps related to torch
-
-* chore(docs): installation clarification cu126
-
-* refactor(distributed): leave split tied weights to torch and document the torch 2.15 reduce_dtype change (#5221)
-
-* refactor(distributed): drop the FSDP tied-weight pre-check
-
-torch 2.12 and newer raise at the first forward and name the shared parameter, so the docs now describe that behavior instead.
-
-* docs(train): note the torch 2.15 change to reduce_dtype
-
-* chore(benchmarks): deferred robotwin fixes
-
-* fix(tests): integration pi0fast reproducibility test
-
-* fix(tests): minimal fixes in pi0 parity test
-
-* fix(tests): drop degenerate pi0fast golden references
-
-Revert 6823b1e4f (fix(tests): minimal fixes in pi0 parity test) and keep
-the reproducibility version from c8c075ee7, which passed the GPU job.
-
-The refreshed references pinned `&amp;lt;bos&amp;gt;, &amp;lt;bos&amp;gt;` as the greedy output and
-all-zero actions. Those actions are the FAST decoder&amp;#39;s fallback for any
-non-FAST token, so the action assertions could not fail, and the token
-pair was recorded on an RTX 5090 while CI runs on an L4. Generation is
-checked for shape, finiteness and repeatability instead; the fixed-token
-detokenization reference keeps the nonzero decoding check.
-
----------
-
-Co-authored-by: Anthony Shoumikhin &amp;lt;anthony@shoumikh.in&amp;gt;
-Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/e3d845e4a07a2c9402cbebc9f0318916c727b569</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e3d845e4a07a2c9402cbebc9f0318916c727b569" />
-    <ns0:title>
-        Fix FineART spatial targets to use normalized annotations (#5224)
-    </ns0:title>
-    <ns0:updated>2026-11-03T12:53:29Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix FineART spatial targets to use normalized annotations (#5224)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/1d172cfca84666b6a116717521daf73c5cb14bd8</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1d172cfca84666b6a116717521daf73c5cb14bd8" />
-    <ns0:title>
-        fix(datasets): reject duplicate episode indices in split_dataset (#4985)
-    </ns0:title>
-    <ns0:updated>2026-11-03T12:42:51Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/180071798?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>creativityventures</ns0:name>
-      <ns0:uri>https://github.com/creativityventures</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): reject duplicate episode indices in split_dataset (#4985)
-
-* fix(datasets): reject duplicate episode indices in split_dataset
-
-Signed-off-by: creativityventures &amp;lt;creativityventures.official@gmail.com&amp;gt;
-
-* test(datasets): cover duplicate episode indices in a split
-
-Signed-off-by: creativityventures &amp;lt;creativityventures.official@gmail.com&amp;gt;
-
----------
-
-Signed-off-by: creativityventures &amp;lt;creativityventures.official@gmail.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

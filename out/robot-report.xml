@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Tue, 10 Nov 2026 18:31:17 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 11 Nov 2026 13:43:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,192 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Serve Robotics opens robot delivery network for others to build on</title>
+		<link>https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/</link>
+					<comments>https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Wed, 11 Nov 2026 13:43:29 +0000</pubDate>
+				<category>Artificial Intelligence</category>
+		<category>Autonomous Mobile Robots (AMRs)</category>
+		<category>Development Tools / SDKs / Libraries</category>
+		<category>Food / Beverage</category>
+		<category>Logistics</category>
+		<category>Mobility / Navigation</category>
+		<category>News</category>
+		<category>Retail / Wholesale</category>
+		<category>ROS / Open Source Solutions</category>
+		<category>Software / Simulation</category>
+		<category>autonomous delivery</category>
+		<category>Delivery Robots</category>
+		<category>Serve Robotics</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590220</guid>
+
+					<description>&lt;p&gt;Serve Robotics says its on-demand delivery API allows third parties to develop new delivery services on its fleet of more than 2,000 robots.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/"&gt;Serve Robotics opens robot delivery network for others to build on&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590221" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590221" class="size-full wp-image-590221" src="https://www.therobotreport.com/wp-content/uploads/2026/11/serve-map-copy.jpg" alt="Serve has launched its AV Delivery Developer Portal to enable anyone to call robots from its delivery fleet." width="770" height="499" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/serve-map-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/serve-map-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/serve-map-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/serve-map-copy-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/serve-map-copy-368x238.jpg 368w" sizes="(max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590221" class="wp-caption-text"&gt;The AV Delivery Developer Portal enables anyone to call robots from Serve&amp;#8217;s delivery fleet. Source: Serve Robotics&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Serve Robotics Inc. today launched the AV Delivery Developer Portal, which it said gives developers, businesses, hobbyists, and AI assistants the opportunity to programmatically summon its sidewalk delivery robots. The company said its public application programming interface, or API, allows others to work with its autonomous robot fleet. It also released a sandbox environment where anyone can build and test applications before using them with live robots.&lt;/p&gt;
+&lt;p&gt;“You shouldn’t have to start a robotics company to build something useful with robots,” stated &lt;a href="https://www.therobotreport.com/ali-kashani-on-the-future-of-last-mile-logistics/" target="_blank" rel="noopener"&gt;Ali Kashani&lt;/a&gt;, co-founder and CEO of Serve Robotics. “We’ve spent years figuring out how robots can navigate neighborhoods. The people who live and work there will have needs we haven&amp;#8217;t thought of. Opening our fleet gives us an opportunity to serve those needs.”&lt;/p&gt;
+&lt;p&gt;Spun out of Uber in 2021, Serve Robotics designs and operates robots that autonomously navigate complex, human-centric environments. The Redwood City, Calif.-based &lt;a href="https://www.therobotreport.com/tag/serve-robotics/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; said it has deployed more than 2,000 robots across the U.S. and &lt;a href="https://newshub.medianet.com.au/2026/10/serve-robotics-and-doordash-launch-australias-first-footpath-delivery-robots-on-the-gold-coast/179064/" target="_blank" rel="noopener"&gt;Australia&lt;/a&gt;, reaching about 3 million people and supporting &lt;a href="https://www.therobotreport.com/tag/delivery-robots/" target="_blank" rel="noopener"&gt;delivery&lt;/a&gt; for more than 4,000 restaurants.&lt;/p&gt;
+&lt;p&gt;Earlier this year, Serve &lt;a href="https://www.therobotreport.com/serve-robotics-acquires-diligent-robotics/" target="_blank" rel="noopener"&gt;acquired&lt;/a&gt; &lt;a href="https://www.therobotreport.com/tag/hospital/" target="_blank" rel="noopener"&gt;hospital&lt;/a&gt; service robot provider &lt;a href="https://www.therobotreport.com/tag/diligent-robotics/" target="_blank" rel="noopener"&gt;Diligent Robotics&lt;/a&gt;. Serve asserted that it designs its robot hardware and software to work safely in public and private environments at scale.&lt;/p&gt;
+&lt;h2&gt;Serve Robotics opens tech to new robots, developers&lt;/h2&gt;
+&lt;p&gt;Serve Robotics said its &lt;a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener"&gt;mobile robots&lt;/a&gt; are intended to make daily errands easy and on-demand delivery affordable and accessible. Businesses can use the robots to transport goods between their offices, and local businesses can expand their delivery footprints without hiring more staffers, the company noted.&lt;/p&gt;
+&lt;p&gt;Last week, Serve &lt;a href="https://www.globenewswire.com/news-release/2026/11/05/3397009/0/en/serve-robotics-launches-physical-ai-services-opening-technology-behind-its-robot-fleets-to-leading-physical-ai-companies.html" target="_blank" rel="noopener"&gt;launched&lt;/a&gt; Serve Physical AI Services, opening its technology to companies building new types of robots. While the company&amp;#8217;s systems have completed hundreds of thousands of deliveries across more than 150 neighborhoods in 20 U.S. cities, they have been available only through third-party delivery &lt;a href="https://www.therobotreport.com/serve-robotics-deploys-autonomous-delivery-robots-grubhub/" target="_blank" rel="noopener"&gt;partners&lt;/a&gt; &amp;#8212; until now.&lt;/p&gt;
+&lt;p&gt;Today, Serve said it &amp;#8220;opens the fleet itself to anyone needing affordable and efficient autonomous last-mile delivery.&amp;#8221; Developers can build on their existing apps, businesses can add robots into their daily workflows, and AI assistants can carry out tasks in the physical world, it said.&lt;/p&gt;
+&lt;p&gt;The AV Delivery Developer Portal allows anyone to dispatch those robots with a few lines of code or even an &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; agent. &amp;#8220;The same robots previously only available through the largest delivery platforms can now power any local delivery,&amp;#8221; said Serve Robotics.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;Builders can use API and sandbox before live robots&lt;/h2&gt;
+&lt;p&gt;&amp;#8220;Building on the fleet works like building on any other API,&amp;#8221; claimed Serve Robotics. An application or AI assistant can request a pickup and dropoff, confirm the details, and tracks a robot until the delivery is complete. Serve handles the dispatch, routing, navigation, and remote supervision to ensure a timely, safe, and reliable delivery.&lt;/p&gt;
+&lt;p&gt;Deliveries are limited to Serve’s active service areas and operating hours, as well as to items that fit within the robot’s cargo compartment.&lt;/p&gt;
+&lt;p&gt;The sandbox lets developers &lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;simulate&lt;/a&gt; robots, run delivery workflows, and rehearse edge cases before running real robots. Builders can explore the documentation and sandbox at &lt;a title="" href="https://www.globenewswire.com/Tracker?data=284_myRFnllSwb6x_N-BoCS0y6eCDL12lUnwVwE78GEDTyUQ-yvvGNfYe_wula225HpGAN_UU7_ANurgKjJWpb-TqOOrnK2dieymTc9jZgKgD0IVcxKmwE5Mwmlyf2dekQZk_ITzlXXmlH9j_-Yk8g==" target="_blank" rel="nofollow noopener"&gt;&lt;u&gt;&lt;em&gt;https://developer.serverobotics.com&lt;/em&gt;&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Access to live robots is subject to Serve’s approval. Those who wish to move beyond the sandbox can indicate their interest via the portal, said the company.&lt;/p&gt;
+&lt;p&gt;&lt;iframe title="Introducing the third-generation Serve robot" width="740" height="416" src="https://www.youtube.com/embed/v5oxF3IJ7DE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/"&gt;Serve Robotics opens robot delivery network for others to build on&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
+		<title>Memories.ai builds standardized egocentric video pipeline</title>
+		<link>https://www.therobotreport.com/memories-ai-builds-standardized-egocentric-video-pipeline/</link>
+					<comments>https://www.therobotreport.com/memories-ai-builds-standardized-egocentric-video-pipeline/#respond</comments>
+		
+		<dc:creator>Mike Oitzman</dc:creator>
+		<pubDate>Wed, 11 Nov 2026 13:00:34 +0000</pubDate>
+				<category>Academia / Research</category>
+		<category>Artificial Intelligence</category>
+		<category>Artificial Intelligence / Cognition</category>
+		<category>Cameras / Imaging / Vision</category>
+		<category>News</category>
+		<category>memories.ai</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590110</guid>
+
+					<description>&lt;p&gt;Memories.ai provides standardized egocentric video collection and AI-powered annotation to build training data infrastructure for robotics.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/memories-ai-builds-standardized-egocentric-video-pipeline/"&gt;Memories.ai builds standardized egocentric video pipeline&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590130" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590130" class="size-full wp-image-590130" src="https://www.therobotreport.com/wp-content/uploads/2026/11/memoriesai-featured.jpg" alt="screen shot of memories dot ai layers." width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/memoriesai-featured.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/memoriesai-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/memoriesai-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/memoriesai-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/memoriesai-featured-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590130" class="wp-caption-text"&gt;Memories.ai models label every clip: Memories-H0 for hand pose, EgoAction for action segments. | Credit: Memories.ai&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Memories.ai is building a data pipeline for robotics companies that combines standardized video collection with AI-powered annotation to turn everyday egocentric footage into training data for robots.&lt;/p&gt;
+&lt;p&gt;The San Francisco-based &lt;a href="https://memories.ai/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; is developing software and &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; to help robots understand the physical world. It builds video-understanding models and data infrastructure, and it collects and annotates first-person (egocentric) video to provide high-quality training data to robotics companies.&lt;/p&gt;
+&lt;p&gt;The longer-term aim is to be a data-infrastructure partner for robotics and physical AI, not just a data vendor.&lt;/p&gt;
+&lt;h2&gt;Memories.ai builds platform on video data&lt;/h2&gt;
+&lt;p&gt;Memories.ai claimed that its video data infrastructure platform is built for physical AI, robotics, world models, vision-language-action (&lt;a href="https://www.therobotreport.com/?s=vla" target="_blank" rel="noopener"&gt;VLA&lt;/a&gt;) models, and &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoids&lt;/a&gt;. It provides a curated video data lake featuring egocentric video, along with custom annotation services and dataset tools to train robot learning models.&lt;/p&gt;
+&lt;p&gt;The company obtains egocentric video through data collectors and partners, providing them with standardized capture hardware—described as a modular camera setup—and uniform process to collect footage in a consistent way.&lt;/p&gt;
+&lt;p&gt;Memories.ai then processes and annotates the data with its models and makes it available through its data infrastructure. The company has published multiple elements of its research on its &lt;a href="https://github.com/Memories-ai-labs" target="_blank" rel="noopener"&gt;GitHub repo&lt;/a&gt;. It has also published at the &lt;a href="https://iclr.cc/" target="_blank" rel="noopener"&gt;ICLR&lt;/a&gt;, &lt;a href="https://neurips.cc/" target="_blank" rel="noopener"&gt;NeurIPS&lt;/a&gt;, and &lt;a href="https://2026.emnlp.org/" target="_blank" rel="noopener"&gt;EMNLP&lt;/a&gt; events.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;NVIDIA Cosmos helps realize physical AI vision&lt;/h2&gt;
+&lt;p&gt;&amp;#8220;Our vision right now is to accelerate physical intelligence, and our vision is to stand really at the frontier to being able to be part of the robotics game,&amp;#8221; Shawn Shen, co-founder and CEO of Memories.ai, recently told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;We really bring robotics into the actual physical world, and I believe that&amp;#8217;s our whole team&amp;#8217;s vision. And whatever can help us to make that vision come faster, we&amp;#8217;re happy to do it.”&lt;/p&gt;
+&lt;p&gt;Shen said the company is focused on processing its own data, rather than collecting video from a wide range of devices and sources. Once it gets data from partners, Memories.ai processes and annotates the footage itself.&lt;/p&gt;
+&lt;p&gt;The company &lt;a href="https://memories.ai/blogs/memories-ai-nvidia-cosmos-post-training" target="_blank" rel="noopener"&gt;said&lt;/a&gt; last month that it has used &lt;a href="https://www.therobotreport.com/tag/nvidia/" target="_blank" rel="noopener"&gt;NVIDIA&lt;/a&gt; &lt;a href="https://www.nvidia.com/en-us/ai/cosmos/" target="_blank" rel="noopener"&gt;Cosmos&lt;/a&gt; to interpret video entering its data lake. It then curates that data to post-train Cosmos for customers’ robotics and industrial applications. This loop turns real-world video into models tailored to the tasks our customers need to solve.&lt;/p&gt;
+&lt;h2&gt;Pipeline has a modular design&lt;/h2&gt;
+&lt;p&gt;Memories.ai said its setup is modular to support diverse tasks and camera views. Shen asserted that the company wants to grow with the industry as AI models mature for more robotics applications.&lt;/p&gt;
+&lt;p&gt;“We want to be long-term partners,&amp;#8221; he said. &amp;#8220;We don&amp;#8217;t want to just sell you the data. In the future, we want to work with you on the models. We want to work with you on the infra because we know that you are, and will be, limited by your resources too.”&lt;/p&gt;
+&lt;p&gt;For robotics customers, Memory AI plans to tailor the data to their needs, offer exclusive or non-exclusive arrangements, and potentially expand its role into models and video infrastructure.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Memories.ai Research | OmniRetriever" width="740" height="416" src="https://www.youtube.com/embed/c9YTjm_sIsU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/memories-ai-builds-standardized-egocentric-video-pipeline/"&gt;Memories.ai builds standardized egocentric video pipeline&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/memories-ai-builds-standardized-egocentric-video-pipeline/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
+		<title>Can AI agents program industrial robots without training data? Berkeley says yes</title>
+		<link>https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/</link>
+					<comments>https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/#respond</comments>
+		
+		<dc:creator>Mike Oitzman</dc:creator>
+		<pubDate>Wed, 11 Nov 2026 12:55:16 +0000</pubDate>
+				<category>Academia / Research</category>
+		<category>Artificial Intelligence</category>
+		<category>Artificial Intelligence / Cognition</category>
+		<category>Educational</category>
+		<category>News</category>
+		<category>ROS / Open Source Solutions</category>
+		<category>Ambi Robotics</category>
+		<category>Bosch</category>
+		<category>Nvidia</category>
+		<category>uc berkeley</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590113</guid>
+
+					<description>&lt;p&gt;UC Berkeley and NVIDIA have released open-source tools for teams of AI coding agents that write, simulate, and refine readable robot programs. &lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/"&gt;Can AI agents program industrial robots without training data? Berkeley says yes&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590205" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590205" class="size-full wp-image-590205" src="https://www.therobotreport.com/wp-content/uploads/2026/11/robosimstudio.jpg" alt="screenshot of robosim studio." width="770" height="443" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/robosimstudio.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/robosimstudio-300x173.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/robosimstudio-150x86.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/robosimstudio-768x442.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/robosimstudio-368x212.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590205" class="wp-caption-text"&gt;The new RoboSimStudio is an open-source project that enables agentic AI coding of robotic simulation environments. | Credit: UC Berkeley&lt;/p&gt;&lt;/div&gt;
+&lt;p data-lfile-container="cd29357e-655d-4ced-bb8f-ce3c1c1f0bda" data-pm-slice="1 1 []"&gt;UC Berkeley and NVIDIA have released open-source tools for a new approach: enabling teams of AI coding agents to write, simulate, and refine readable robot programs.&lt;/p&gt;
+&lt;p&gt;Since the early days of industrial robots, programming, tuning, and troubleshooting robotic workcells has taken weeks to months. New research coming out of &lt;a href="https://www.therobotreport.com/tag/uc-berkeley/" target="_blank" rel="noopener"&gt;UC Berkeley&lt;/a&gt; has demonstrated that new agentic &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; programming tools could change how industrial robots are coded and maintained.&lt;/p&gt;
+&lt;p&gt;Why is this important? As anyone who&amp;#8217;s programmed an &lt;a href="https://www.therobotreport.com/category/robots-platforms/industrial-robots/" target="_blank" rel="noopener"&gt;industrial&lt;/a&gt; workcell knows, implementing the code has to wait until the end of the design and fabrication process. The robot needs to be installed in the workcell; all of the feeders, conveyance, and other elements also need to be installed. The pressure to get this done all falls on the &lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;software&lt;/a&gt; team, often when the project deadline is looming.&lt;/p&gt;
+&lt;p&gt;The new toolset goes beyond the idea of &amp;#8220;vibe coding&amp;#8221; a robot application. While it generates code with large language models (LLMs), what&amp;#8217;s novel is the use of AI agents to manage the coding, testing and deployment.&lt;/p&gt;
+&lt;p&gt;“Agentic robotics is a fundamental shift in how robots are programmed,” said Ken Goldberg, the William S. Floyd Jr. Distinguished Chair in Engineering at UC Berkeley. “Instead of collecting massive amounts of data and hand-tuning every behavior, teams of agents can quickly generate, test, and refine robot programs that allow human engineers to interpret how the programs work for fine-tuning and verification.”&lt;/p&gt;
+&lt;h3&gt;Researchers introduce GaP and VABAR&lt;/h3&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Graph-as-Policy (&lt;a href="https://graph-robots.github.io/gap/#va" target="_blank" rel="noopener"&gt;GaP&lt;/a&gt;)&lt;/strong&gt; is a modular framework that splits a task into skills &amp;#8212; perception, grasp planning, collision-free motion &amp;#8212; which agents generate, connect and rehearse in simulation.&lt;/li&gt;
+&lt;li&gt;Variational Automation Benchmark for Agentic Robotics (&lt;a href="https://berkeleyautomation.github.io/vabar-website/" target="_blank" rel="noopener"&gt;VABAR&lt;/a&gt;) is a benchmark of six tasks: tool sorting, tool hanging, gear meshing, syringe packing, cable insertion, and cable routing. It is built built on Isaac Lab-Arena and Newton, with standardized variations and difficulty tiers.&lt;/li&gt;
+&lt;li&gt;The UC Berkeley and NVIDIA team presented the concept at &lt;a href="https://2026.corl.org/" target="_blank" rel="noopener"&gt;CoRL 2026&lt;/a&gt; this week in Austin, Texas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;How the toolset works&lt;/h2&gt;
+&lt;p&gt;Dr. Goldberg described the research to &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. In September, Eric Chen, one of his graduate students, give GPT-6 Astra Eric&amp;#8217;s new &lt;a href="https://robosimstudio.github.io/" target="_blank" rel="noopener"&gt;RoboSimStudio&lt;/a&gt; tool to see if it could generate not just a graphic model, but also a full 3D simulation of a scene. And that&amp;#8217;s exactly what happened.&lt;/p&gt;
+&lt;p&gt;According to Goldberg, Chen gave the model a video and this new tool, and within an hour, it had generated a Newton simulation that was incredibly similar to the video.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;When a new frontier model came out in early September, they gave it the tool and a video,&amp;#8221; said Goldberg. &amp;#8220;Within about an hour, it produced a Newton simulation closely matching the video, by iterative trial and error.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;“And Newton [simulation] is really wonderful,&amp;#8221; he added. &amp;#8220;The problem is Newton is very complicated. It has a lot of parameters, hundreds of parameters. So generally, people didn’t really use it that much because it’s just too complicated, too many dials and switches.”&lt;/p&gt;
+&lt;p&gt;Goldberg praised Chen for pulling this together. Initially, Chen built the tool just for himself.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;I want my student Eric to get credit for this,&amp;#8221; he said. &amp;#8220;He basically sat down and built a new interface for Newton called RoboSimStudio. It is basically just an interface that makes you have sliders on the right-hand side of your screen, and you have a visualizer on the left. &amp;#8230; You can tune all these parameters much easier than you could before, so he built that just for himself to make the simulation part easier.”&lt;/p&gt;
+&lt;p&gt;But simulation alone isn&amp;#8217;t enough, according to Goldberg. Simulation matters to the whole approach of using agents to code robots.&lt;/p&gt;
+&lt;p&gt;“The agent needs a simulator to be able to basically iterate and see how to improve this code,” he said. Goldberg noted that the existing tools “were not very reliable and had a lot of problems.”&lt;/p&gt;
+&lt;div style="width: 2376px" class="wp-caption aligncenter"&gt;&lt;a href="https://graph-robots.github.io/gap/assets/img/pipeline.png"&gt;&lt;img loading="lazy" decoding="async" src="https://graph-robots.github.io/gap/assets/img/pipeline.png" alt="GAP LLM Harness. AI agents are intended to make robot training easier and safer." width="2366" height="808" /&gt;&lt;/a&gt;&lt;p class="wp-caption-text"&gt;The harness converts a VA task specification into a computation graph, optimizes it via self-learning in simulation, and hands G* to an edge-based interpreter that drives the robot — sim and real feedback close the loop. | Credit: UC Berkeley&lt;/p&gt;&lt;/div&gt;
+&lt;h2&gt;Agents write and test code&lt;/h2&gt;
+&lt;p&gt;Agentic robotics operates in a loop: Agents write robot code, test it in simulation, see where it fails, and revise. That loop is only as good as the simulator behind it.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developer.nvidia.com/newton-physics" target="_blank" rel="noopener"&gt;Newton Physics&lt;/a&gt;, the open-source physics engine that UC Berkeley chose, is powerful but exposes hundreds of parameters, which has kept many developers from using it.&lt;/p&gt;
+&lt;p&gt;RoboSim Studio made those parameters tractable, and that turned the simulator from a bottleneck into something an AI agent could tune on its own.&lt;/p&gt;
+&lt;p&gt;UC Berkeley developed the VABAR benchmark suite with &lt;a href="https://developer.nvidia.com/isaac" target="_blank" rel="noopener"&gt;NVIDIA Isaac Lab-Arena&lt;/a&gt; &lt;a href="https://www.therobotreport.com/category/technologies/ros-open-source/" target="_blank" rel="noopener"&gt;open-source&lt;/a&gt; policy-evaluation framework and the Newton physics engine. It includes a detailed physics-based simulation for contact-rich robot-object interactions.&lt;/p&gt;
+&lt;p&gt;VABAR evaluates how robots perform on practical manipulation tasks ranging from tool sorting and handing to cable insertion and routing. The tool facilitates comparisons and measures progress across realistic industrial tasks, changing conditions, and increasing levels of difficulty.&lt;/p&gt;
+&lt;p&gt;Each task includes standardized variations, difficulty tiers, and success metrics, allowing researchers to measure progress, compare approaches, and evaluate whether systems can handle the demands of industrial operation. At the same time, Isaac Lab-Arena enables large-scale systematic evaluations across changing task conditions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.linkedin.com/in/spencermhuang/" target="_blank" rel="noopener"&gt;Spencer Huang&lt;/a&gt;, director of product for robotics at &lt;a href="https://www.therobotreport.com/tag/nvidia/" target="_blank" rel="noopener"&gt;NVIDIA&lt;/a&gt; (and son of CEO Jensen Huang), has worked with Goldberg&amp;#8217;s lab at UC Berkeley to interface with the NVIDIA product teams.&lt;/p&gt;
+&lt;p&gt;The partners listed some of the new capabilities:&lt;/p&gt;
+&lt;ul data-lfile-container="cd29357e-655d-4ced-bb8f-ce3c1c1f0bda" data-pm-slice="3 3 []"&gt;
+&lt;li&gt;&lt;strong&gt;Graph structure:&lt;/strong&gt; Each node (perception, grasp, motion planning) can be assigned to its own agent, so agents work in parallel without &amp;#8220;stepping on each other&amp;#8217;s toes.&amp;#8221;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ROS equivalence:&lt;/strong&gt; The graph turns out to be equivalent to a ROS graph and can be converted to ROS 2.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Output:&lt;/strong&gt; Python that calls existing vendor modules (such as &lt;a href="https://www.therobotreport.com/tag/kuka/" target="_blank" rel="noopener"&gt;KUKA&lt;/a&gt;) for low-level drive control. It does not replace robot &lt;a href="https://www.therobotreport.com/category/technologies/controllers/" target="_blank" rel="noopener"&gt;controllers&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The harness:&lt;/strong&gt; Thousands of prompts and structures constrain the agents.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;How do agents change robot programming?&lt;/h2&gt;
+&lt;p&gt;When asked how this new approach differs from straight &amp;#8220;vibe coding&amp;#8221; of an app, Goldberg responded that the magic is in the harness provided by GaP. The graph structure organizes the agents.&lt;/p&gt;
+&lt;p&gt;The code produced by &amp;#8220;vibe coding&amp;#8221; is already mature and well understood, he explained. The use of AI to write code is accepted in software engineering today. But rarely does an application function as intended in the first pass.&lt;/p&gt;
+&lt;p&gt;This is true for software from human engineers, and it&amp;#8217;s equally true for software development developed with AI. Testing and iteration are needed to optimize the application, said Goldberg.&lt;/p&gt;
+&lt;p&gt;When applied to robotics, the best practice now is to test in simulation before deploying the code on a real robot. With agentic AI, a robotics engineer can enable the agent to iterate on both the simulation environment and then the subsequent code to more efficiently develop the robotic application.&lt;/p&gt;
+&lt;p&gt;For instance, &lt;a href="https://www.therobotreport.com/tag/Bosch/" target="_blank" rel="noopener"&gt;Bosch&lt;/a&gt; is evaluating agentic robotics for diverse industrial automation scenarios. “Agentic robotics holds great promise because it generates interpretable code that engineers can thoroughly analyze before production deployment,” said Liu Ren, senior vice president and AI fellow at &lt;a href="https://www.therobotreport.com/tag/Bosch/" target="_blank" rel="noopener"&gt;Bosch&lt;/a&gt; Research. “Bosch Research is actively collaborating with Goldberg and Huang and their teams.”&lt;/p&gt;
+&lt;p&gt;“AI-powered industrial robots must continuously improve reliability and performance,” said Jeff Mahler, co-founder and chief technology officer of &lt;a href="https://www.therobotreport.com/tag/ambi-robotics/" target="_blank" rel="noopener"&gt;Ambi Robotics&lt;/a&gt;. “Agentic robotics converted production data into robot behavior updates, increasing throughput across our U.S. fleet while keeping engineers in control.”&lt;/p&gt;
+&lt;p&gt;Goldberg is also an advisor to Ambi Robotics.&lt;/p&gt;
+&lt;div&gt;&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;&lt;/div&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/"&gt;Can AI agents program industrial robots without training data? Berkeley says yes&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>Dynamic Creatures partners with Sixth Wall Studio to bring Hasbro characters to life with robots</title>
 		<link>https://www.therobotreport.com/dynamic-creatures-partners-sixth-wall-studio-bring-hasbro-characters-life-with-robots/</link>
 					<comments>https://www.therobotreport.com/dynamic-creatures-partners-sixth-wall-studio-bring-hasbro-characters-life-with-robots/#respond</comments>
@@ -45,21 +231,21 @@
 					<description>&lt;p&gt;The companies will combine Sixth Wall’s character authoring and alignment with Dynamic Creatures’ mobile, expressive robots.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/dynamic-creatures-partners-sixth-wall-studio-bring-hasbro-characters-life-with-robots/"&gt;Dynamic Creatures partners with Sixth Wall Studio to bring Hasbro characters to life with robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_590215" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590215" class="size-full wp-image-590215" src="https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured.jpg" alt="On the left, Roberta Thomson, the CEO of Sixth Wall Studio, and on the right, Marc Theerman, co-founder and CEO of Dynamic Creatures. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590215" class="wp-caption-text"&gt;On the left, Roberta Thomson, the CEO of Sixth Wall Studio, and on the right, Marc Theerman, co-founder and CEO of Dynamic Creatures. | Source: Dynamic Creatures&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_590215" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590215" class="size-full wp-image-590215" src="https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured.jpg" alt="On the left, Roberta Thomson, the CEO of Sixth Wall Studio, and on the right, Marc Theerman, co-founder and CEO of Dynamic Creatures. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590215" class="wp-caption-text"&gt;On the left, Roberta Thomson, the CEO of Sixth Wall Studio, and on the right, Marc Theerman, co-founder and CEO of Dynamic Creatures. | Source: Dynamic Creatures&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Dynamic Creatures today said it has partnered with Sixth Wall Studio, an AI studio launched by Hasbro in June 2026. The collaborators plan to bring Hasbro characters to life through interactive robots.&lt;/p&gt;
 &lt;p&gt;The company will combine its mobile, expressive robots with &lt;a href="https://sixthwallstudio.com/" target="_blank" rel="noopener"&gt;Sixth Wall&lt;/a&gt;&amp;#8216;s character authoring and alignment. The goal is to create characters that can greet guests, share adventures with them, and remember them when they return at theme parks, resorts, and other entertainment and &lt;a href="https://www.therobotreport.com/tag/hospitality/" target="_blank" rel="noopener"&gt;hospitality&lt;/a&gt; venues.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;Today CharacterOS is focused on voice, and Dynamic Creatures is focused on the physical embodiment,&amp;#8221; Marc Theermann, the co-founder and CEO of Dynamic Creatures, told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;Together, the partners will work on turning bits and bytes into real personality over time. One of the research areas is to turn answers into meaningful expressions.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;Through the partnership, Sixth Wall Studio will extend its CharacterOS platform and Behavioral Licensing framework into physical experiences. It will support how characters speak, behave and remain true to their established personalities and stories.&lt;/p&gt;
 &lt;p&gt;Dynamic Creatures said its robots will give that intelligence a physical presence. The &lt;a href="https://www.therobotreport.com/tag/dynamic-creatures/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; connects a character’s conversation and personality with expressive movements, gazes, gestures, reactions, and more.&lt;/p&gt;
 &lt;p&gt;“Bringing a character to life means preserving the personality, voice, and story that fans love while opening up new ways to interact,” said Roberta Thomson, CEO of Sixth Wall Studio. “Our partnership with Dynamic Creatures takes that ambition into the physical world. We envision characters that can share an adventure with you while feeling unmistakably authentic from the first hello.”&lt;/p&gt;
-&lt;div id="attachment_590216" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped.jpg"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-590216" class="size-full wp-image-590216" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped.jpg" alt="Dynamic Creatures' Hugo robot, a furry, purple creature with horns. " width="1000" height="738" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped-300x221.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped-150x111.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped-768x567.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped-322x238.jpg 322w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590216" class="wp-caption-text"&gt;Dynamic Creatures designed its first character robot, Hugo, to move freely through guest environments. | Source: Dynamic Creatures&lt;/p&gt;&lt;/div&gt;
+&lt;div id="attachment_590216" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590216" class="size-full wp-image-590216" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped.jpg" alt="Dynamic Creatures' Hugo robot, a furry, purple creature with horns. " width="1000" height="738" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped-300x221.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped-150x111.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped-768x567.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped-322x238.jpg 322w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590216" class="wp-caption-text"&gt;Dynamic Creatures designed its first character robot, Hugo, to move freely through guest environments. | Source: Dynamic Creatures&lt;/p&gt;&lt;/div&gt;
 &lt;h2&gt;Partners plan to use robots to provide better guest experiences&lt;/h2&gt;
 &lt;p&gt;&lt;span class="TextRun SCXW185596182 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"&gt;&lt;span class="NormalTextRun SCXW185596182 BCX0"&gt;Together, the companies envision encounters that become part of a continuing story. A character at a resort could welcome a guest, send them on a quest and, during a later encounter, ask how the adventure went. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&amp;#8220;One use case we are exploring is for a guest to show the robot their entrance ticket,&amp;#8221; Theerman said. &amp;#8220;This would allow the robot to identify the guest, and provide personalized experiences such as dining recommendations, or skip the line suggestions.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;Beyond theme parks and resorts, the partners envision applications across hotels, cruise ships, &lt;a href="https://www.therobotreport.com/category/retail-wholesale/" target="_blank" rel="noopener"&gt;retail&lt;/a&gt; destinations, and other immersive environments. Memory-enabled experiences would be developed around guest choice and clearly defined permissions, with deployment details established for each venue and use case. Initial Sixth Wall applications would align with its focus on audiences ages 13 and older.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;Safety is a central pillar for both Dynamic Creatures and Hasbro,&amp;#8221; said Theerman. &amp;#8220;For Hasbro, it’s about safe interactions, and for Dynamic Creatures, it&amp;#8217;s about physical safety of the robot. One way to ensure this today is by having a human in the loop. Over time, more autonomy features will be swapped in, and the human supervisor will go from &lt;a href="https://www.therobotreport.com/tag/teleoperation/" target="_blank" rel="noopener"&gt;teleoperation&lt;/a&gt; to telemonitoring.&amp;#8221;&lt;/p&gt;
 &lt;h2&gt;Dynamic Creatures has a busy few months since emerging from stealth&lt;/h2&gt;
-&lt;p&gt;&lt;iframe title="Dynamic Creatures: Living Character Robot Hugo" width="740" height="416" src="https://www.youtube.com/embed/NT7PEX4IlY8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Dynamic Creatures: Living Character Robot Hugo" width="740" height="416" src="https://www.youtube.com/embed/NT7PEX4IlY8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;Dynamic Creatures &lt;a href="https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/" target="_blank" rel="noopener"&gt;emerged&lt;/a&gt; from stealth in September 2026 and is developing fully custom robots and character experiences built on existing robotic platforms. As &lt;a href="https://www.therobotreport.com/tag/boston-dynamics/" target="_blank" rel="noopener"&gt;Boston Dynamics&lt;/a&gt;’ official hospitality and entertainment partner, the Cambridge, Mass.-based company combines advanced mobility with character design and real-time interaction for guest environments.&lt;/p&gt;
 &lt;p&gt;Its &lt;a href="https://www.dynamiccreatures.com/snowjay" target="_blank" rel="noopener"&gt;SnowJay&lt;/a&gt; robotics &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; platform coordinates perception, movement, and behavior, bringing together conversation, memory, facial expressions, and animatronics. The company recently released Hugo, its first living character robot. The robot runs on SnowJay and features 43 actuators.&lt;/p&gt;
 &lt;p&gt;“For generations, people have formed powerful connections with fictional characters. Now those characters can share our physical world and respond to us as individuals,” said Marc Theermann, co-founder and CEO of Dynamic Creatures. “Sixth Wall brings the character intelligence and creative framework. We bring the physical expression and presence. Together, we want to make meeting a favorite character feel like the beginning of an ongoing relationship.”&lt;/p&gt;
@@ -147,7 +333,7 @@
 		<item>
 		<title>Intel and Altera expand collaboration to simplify sensor integration for physical AI</title>
 		<link>https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/</link>
-					<comments>https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/#respond</comments>
+					<comments>https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/#comments</comments>
 		
 		<dc:creator>The Robot Report Staff</dc:creator>
 		<pubDate>Tue, 10 Nov 2026 14:47:10 +0000</pubDate>
@@ -200,7 +386,7 @@ is &amp;#8220;the largest pure-play FPGA provider with a full-spectrum portfolio
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
+			<ns5:comments>1</ns5:comments>
 		
 		
 			</item>
@@ -387,7 +573,7 @@ is &amp;#8220;the largest pure-play FPGA provider with a full-spectrum portfolio
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/feed/</ns4:commentRss>
-			<ns5:comments>3</ns5:comments>
+			<ns5:comments>6</ns5:comments>
 		
 		
 			</item>
@@ -1004,185 +1190,6 @@ is &amp;#8220;the largest pure-play FPGA provider with a full-spectrum portfolio
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>How did Agility Robotics perform on its first day on the stock market?</title>
-		<link>https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/</link>
-					<comments>https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/#respond</comments>
-		
-		<dc:creator>Brianna Wessling</dc:creator>
-		<pubDate>Thu, 05 Nov 2026 22:48:14 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Design / Development</category>
-		<category>Financial</category>
-		<category>Humanoids</category>
-		<category>Investments</category>
-		<category>Logistics</category>
-		<category>Manufacturing</category>
-		<category>Markets / Industries</category>
-		<category>News</category>
-		<category>Robots / Platforms</category>
-		<category>Agility Robotics</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590137</guid>
-
-					<description>&lt;p&gt;Humanoid developer Agility Robotics ended its first day of trading on the Nasdaq just 2% above where it started, at $11.49. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/"&gt;How did Agility Robotics perform on its first day on the stock market?&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_590138" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/Agility_Digit5_04-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590138" class="wp-image-590138 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Agility_Digit5_04-featured.jpg" alt="Agility Robotics' Digit 5 robots working in a manufacturing facility." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Agility_Digit5_04-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/Agility_Digit5_04-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/Agility_Digit5_04-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/Agility_Digit5_04-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/Agility_Digit5_04-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590138" class="wp-caption-text"&gt;Agility says its Digit 5 humanoids can lift up to 50 lb. | Source: Agility Robotics&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Earlier today, Agility Robotics began trading on the Nasdaq Stock Market under the ticker “AGLT.” The company claimed that it is &amp;#8220;the first pure-play legged humanoid company to go public.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Agility &lt;a href="https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/" target="_blank" rel="noopener"&gt;started the day trading&lt;/a&gt; at $11.26 per share, above the initial $10 per share price used in the SPAC deal. It was a day of ups and downs, as it was for many tech stocks. It hit its lowest price at $8.40, and its highest at $12.15.&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://www.therobotreport.com/tag/agility-robotics" target="_blank" rel="noopener"&gt;company&lt;/a&gt; ended up closing the day trading slightly above (2%) where it had started, at $11.49. Other pure-play robotics providers did not fare so well.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.therobotreport.com/tag/serve-robotics" target="_blank" rel="noopener"&gt;Serve Robotics&lt;/a&gt;, another publicly traded robotics company that offers sidewalk delivery robots, ended down 12.45%. Surgical robotics leader &lt;a href="https://www.therobotreport.com/tag/intuitive-surgical/" target="_blank" rel="noopener"&gt;Intuitive Surgical&lt;/a&gt; ended down 2.82%. &lt;a href="https://www.therobotreport.com/tag/symbotic" target="_blank" rel="noopener"&gt;Symbotic&lt;/a&gt;, which provides end-to-end warehouse automation, ended down 2.47%. In addition, &lt;a href="https://www.procept-biorobotics.com/" target="_blank" rel="noopener"&gt;PROCEPT BioRobotics Corp.&lt;/a&gt;, which provides robotic aquablation therapy, ended down 6.42%.&lt;/p&gt;
-&lt;p&gt;While &lt;a href="https://www.therobotreport.com/tag/unitree-robotics/" target="_blank" rel="noopener"&gt;Unitree&lt;/a&gt;, another &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoid&lt;/a&gt; robotics provider, doesn’t trade on the Nasdaq, it is public on the Shanghai Stock Exchange’s STR Market. It’s one of the only other publicly traded humanoid robot providers.&lt;/p&gt;
-&lt;p&gt;Unitree first debuted on the market at 150.80 yuan ($22.55 U.S.), and saw some quick success, hitting a high of 1,100 yuan ($164.46) that day. Just a few weeks after debuting on the market, it was &lt;a href="https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/" target="_blank" rel="noopener"&gt;down&lt;/a&gt; almost 53% from its first-day high. The company is still working to climb back up to those numbers.&lt;/p&gt;
-&lt;p&gt;In addition, &lt;a href="https://www.therobotreport.com/category/china" target="_blank" rel="noopener"&gt;China&lt;/a&gt; has &lt;a href="https://www.reuters.com/business/finance/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-21/" target="_blank" rel="noopener"&gt;reportedly tightened&lt;/a&gt; its own requirements for initial public offerings for humanoid robot startups.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Agility Robotics: Company Overview" width="740" height="416" src="https://www.youtube.com/embed/XWJdPNFD1h8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;Technology and AI-related stocks struggle across markets&lt;/h2&gt;
-&lt;p&gt;Note that the entire Nasdaq is down 5.52% today, which means Agility was beating this overall trend. Much of these losses were concentrated in &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;-related stocks.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://therobotreport.com/tag/nvidia" target="_blank" rel="noopener"&gt;NVIDIA&lt;/a&gt; ended the day down 9.26% from its opening price. &lt;a href="https://www.therobotreport.com/tag/amd/" target="_blank" rel="noopener"&gt;AMD&lt;/a&gt; ended down 17.26%, while &lt;a href="https://www.therobotreport.com/tag/qualcomm" target="_blank" rel="noopener"&gt;Qualcomm&lt;/a&gt; dropped 9.49%. &lt;a href="http://therobotreport.com/tag/microsoft" target="_blank" rel="noopener"&gt;Microsoft&lt;/a&gt; was down 3.58%. &lt;a href="https://www.therobotreport.com/tag/rockwell-automation" target="_blank" rel="noopener"&gt;Rockwell Automation&lt;/a&gt; was down 14.15%.&lt;/p&gt;
-&lt;p&gt;Other markets have had some of their worst days since April 2025. The S&amp;amp;P 500 dropped 4.36%, and the Dow Jones Industrial Average dropped 3.44%.&lt;/p&gt;
-&lt;p&gt;This week&amp;#8217;s midterm elections have caused the markets to fluctuate. While they saw some sharp gains yesterday, many of those gains dissipated today. Today&amp;#8217;s losses have a lot to do with investor uncertainty around future data center buildouts with a now Democratically controlled Senate and House.&lt;/p&gt;
-&lt;h2&gt;What comes next for Agility Robotics&lt;/h2&gt;
-&lt;div id="attachment_589553" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/09/Digitthroughtheyears.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-589553" class="wp-image-589553 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/09/Digitthroughtheyears.jpg" alt="From left to right, Cassie, and Digit through the years." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/09/Digitthroughtheyears.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/09/Digitthroughtheyears-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/09/Digitthroughtheyears-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/09/Digitthroughtheyears-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/09/Digitthroughtheyears-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/09/Digitthroughtheyears-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/09/Digitthroughtheyears-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-589553" class="wp-caption-text"&gt;From left to right, Cassie and Digit through the years. | Source: Agility Robotics&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt; will be watching Agility&amp;#8217;s performance on the markets in the coming months. Already, the company alluded to adding more robots to its portfolio. &lt;em&gt;The Robot Report&lt;/em&gt; also broke the news about &lt;a href="https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/" target="_blank" rel="noopener"&gt;Agility exploring wheel-based robots&lt;/a&gt; in September 2026.&lt;/p&gt;
-&lt;p&gt;Peggy Johnson, Agility&amp;#8217;s CEO, talked more about this plan in a recent video. In the video, she mentioned the possible addition of a smaller bipedal form factor to the company&amp;#8217;s lineup.&lt;/p&gt;
-&lt;p&gt;Agility claimed that for its newest &lt;a href="https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/" target="_blank" rel="noopener"&gt;Digit 5&lt;/a&gt;, it has more than $300 million in committed multiyear orders, subject to contractual milestones and product specifications. It expects to begin Digit 5 deliveries to early-access customers in 2027.&lt;/p&gt;
-&lt;p&gt;Agility&amp;#8217;s public offering, which it conducted after completing a merger with special-purpose acquisition company (&lt;a href="https://www.therobotreport.com/tag/spac/" target="_blank" rel="noopener"&gt;SPAC&lt;/a&gt;) Churchill Capital Corp XI, will provide around $465 million in gross proceeds before expenses.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/"&gt;How did Agility Robotics perform on its first day on the stock market?&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>How Ambi Robotics helps its customers prepare for peak season</title>
-		<link>https://www.therobotreport.com/how-ambi-robotics-helps-customers-prepare-peak-season/</link>
-					<comments>https://www.therobotreport.com/how-ambi-robotics-helps-customers-prepare-peak-season/#respond</comments>
-		
-		<dc:creator>Brianna Wessling</dc:creator>
-		<pubDate>Thu, 05 Nov 2026 16:50:23 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Design / Development</category>
-		<category>Industrial Robots</category>
-		<category>Logistics</category>
-		<category>Markets / Industries</category>
-		<category>News</category>
-		<category>Retail / Wholesale</category>
-		<category>Robots / Platforms</category>
-		<category>Ambi Robotics</category>
-		<category>sortation</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590127</guid>
-
-					<description>&lt;p&gt;Ambi Robotics' co-founder and COO Stephen McKinley says the company is installing eight new systems at customer sites before peak season.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-ambi-robotics-helps-customers-prepare-peak-season/"&gt;How Ambi Robotics helps its customers prepare for peak season&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_590128" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/Ambi-Robotics_Series-B-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590128" class="wp-image-590128 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Ambi-Robotics_Series-B-featured.jpg" alt="An Ambi robot picking a box. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Ambi-Robotics_Series-B-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/Ambi-Robotics_Series-B-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/Ambi-Robotics_Series-B-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/Ambi-Robotics_Series-B-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/Ambi-Robotics_Series-B-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590128" class="wp-caption-text"&gt;The AmbiSort B Series can streamline final-mile deliver operations with automated induction, scanning, and &amp;#8216;end-to-end&amp;#8217; sortation. | Source: Ambi Robotics&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;As Black Friday and the start of peak season draw near, logistics providers across the country are getting ready for the rush. Each year, these providers could see a 25% to 40% increase in throughput, according to Stephen McKinley, co-founder and chief operating officer at Ambi Robotics.&lt;/p&gt;
-&lt;p&gt;This year, Ambi is expecting its customers to experience a 9% to 10% increase compared with peak season last year.&lt;/p&gt;
-&lt;p&gt;“Despite anything that might be going on in the economy, volume continues to ramp and e-commerce spending remains high,&amp;#8221; McKinley told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;That puts familiar pressures on our clients to perform in all of their individual sites, and we’re feeling that pressure also, because our systems are core to their functions.”&lt;/p&gt;
-&lt;p&gt;For Ambi, preparing for the season means installing new systems at eight facilities before peak season starts.&lt;/p&gt;
-&lt;p&gt;“Most of those new sites are with this new version of &lt;a href="https://www.ambirobotics.com/ambisort-b-series/" target="_blank" rel="noopener"&gt;AmbiSort&lt;/a&gt;, and though that’s not a new product, it’s definitely a new variation,” said McKinley. &amp;#8220;We’re excited about supporting that through peak season, and we want to make sure that goes perfectly, of course, for our customers.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;The Berkeley, Calif.-based &lt;a href="https://www.therobotreport.com/tag/ambi-robotics/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; is also working to ensure that its team members will be readily available for &lt;a href="https://www.therobotreport.com/category/markets-industries/logistics-warehousing-asrs/" target="_blank" rel="noopener"&gt;logistics&lt;/a&gt; customers when they need them.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;We move into a more reactive state of being, where we’ll have about half of the team traveling around to different sites to check in with what’s going on, and the other half of the team is ready to jump to solve issues as they come up,” McKinley said.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="AmbiStack in Action | AI-Powered Robotic Palletizing in Commercial Operations" width="740" height="416" src="https://www.youtube.com/embed/z_697RHFz7Q?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;How to increase throughput without adding new systems&lt;/h2&gt;
-&lt;p&gt;While some of Ambi Robotics&amp;#8217; customers plan to have more systems go live for peak season, there are other ways to increase throughput, McKinley said.&lt;/p&gt;
-&lt;p&gt;“[Customers] will often add more shifts into existing operations or bring on more people to be working alongside our systems, so we can help with training,&amp;#8221; he noted. &amp;#8220;We offer more training to customers right before peak season to make sure they know how to effectively use the systems.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Properly training the operators working with robots on a daily basis can make a big difference in how the system performs.&lt;/p&gt;
-&lt;p&gt;“Over the course of the year, we’re tracking how the systems are performing all the time,&amp;#8221; said McKinley. &amp;#8220;The performance of the systems is related to the inherent quality of that piece of machinery, which doesn’t really fluctuate, but also related to how the customer interacts with that machine and how attentive they are to it, or how well trained the operators are. So, we can help by stepping in and making sure that everybody knows what to do and has the right mindset when they’re approaching their system.”&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Meet AmbiStack | Stack Smarter | Ambi Robotics" width="740" height="416" src="https://www.youtube.com/embed/ZcDuO9eDeQc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;Ambi decreases downtime, rolls out incremental improvements&lt;/h2&gt;
-&lt;p&gt;Nobody wants a robot to fail, but they especially don&amp;#8217;t want a robot to fail when they need to handle a massive increase in volume. This means reducing downtime is even more important for Ambi Robotics right now. To do this, the company forward-deploys spare parts to different sites.&lt;/p&gt;
-&lt;p&gt;“Normally, we would have spare inventory here at our headquarters in Berkeley, and we would send things out as needed. That spares inventory is also what we use to pull form to build new systems,&amp;#8221; McKinley said. &amp;#8220;During peak seasons, we’ll bring in more spares and then deploy those out to specific locations in the East Coast that are hubs of customer activity.”&lt;/p&gt;
-&lt;p&gt;For example, McKinley said Cincinnati is a central zone for a lot of the Ambi’s installs in the Midwest. “We’ll even go so far as to put spare computers or spare high critical items at each site that will carry more inventory at customer locations during peak season,” he continued.&lt;/p&gt;
-&lt;p&gt;When it comes to rolling out improvements in its AI systems, Ambi takes a conservative approach.&lt;/p&gt;
-&lt;p&gt;“We’ve been a physical &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; company since 2018 when we started. We know how important it is to have systems out there in the world that are performing at predictable levels. So, we don’t have systems that are self-improving over time,&amp;#8221; McKinley said. &amp;#8220;As we generate more data from our systems, we’ll use that to retrain our systems and then process that improvement through an A/B test within a controlled environment to see what happens before we roll it out into the rest of the field.”&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Ambi Robotics and Pickle Robot Fully Automate Inbound Logistics" width="740" height="416" src="https://www.youtube.com/embed/r3SkVHUTgp0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;When customers need help from Ambi, they will always speak with a person&lt;/h2&gt;
-&lt;p&gt;While it&amp;#8217;s important to improve the technology, roll out new systems, and add more shifts, McKinley said it&amp;#8217;s just as important for Ambi to build trust with its customers.&lt;/p&gt;
-&lt;p&gt;“The people who will be answering the phones for our support hotline are the people who will go to the facilities and do the training and make the fixes,&amp;#8221; he explained. &amp;#8220;I think that’s very important, because we’re building a layer of trust with the operators and with the people on site who need to maintain the systems in our absence, and the management who’s on site.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;When they pick up the phone, they’ll know the voice on the other end, and that person will be familiar with them,&amp;#8221; McKinley added. &amp;#8220;That’s helped build trust significantly. That trust has been, in my opinion, the most important factor for those large customers to be adopting physical AI in the real world.”&lt;/p&gt;
-&lt;p&gt;Instead of using AI to directly interact with customers, Ambi has developed an AI system to help its employees more quickly solve problems for its customers. This AI system also makes it easier for Ambi to onboard new employees, McKinley said.&lt;/p&gt;
-&lt;p&gt;“We’ve been working on basically collecting all the data from our support tickets and then feeding that into our own AI model to assist in support. We have a very lean, very small team,&amp;#8221; he said. &amp;#8220;Now, we’ve got these AI assistants that are helping us keep track of performance on sites, then predict when things might be going wrong, and then helping us as a support organization.&amp;#8221;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-ambi-robotics-helps-customers-prepare-peak-season/"&gt;How Ambi Robotics helps its customers prepare for peak season&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/how-ambi-robotics-helps-customers-prepare-peak-season/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Chinese regulators block SoftBank’s $5.4B acquisition of ABB Robotics</title>
-		<link>https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/</link>
-					<comments>https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/#respond</comments>
-		
-		<dc:creator>Brianna Wessling</dc:creator>
-		<pubDate>Thu, 05 Nov 2026 16:25:46 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>China</category>
-		<category>Collaborative Robots</category>
-		<category>Design / Development</category>
-		<category>Financial</category>
-		<category>Industrial Robots</category>
-		<category>Manufacturing</category>
-		<category>Markets / Industries</category>
-		<category>Mergers &amp; Acquisitions</category>
-		<category>News</category>
-		<category>Robots / Platforms</category>
-		<category>ABB</category>
-		<category>abb robotics</category>
-		<category>government</category>
-		<category>Softbank</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590133</guid>
-
-					<description>&lt;p&gt;Chinese authorities blocked the deal over concerns about robot data being transferred overseas and used to train AI models.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/"&gt;Chinese regulators block SoftBank&amp;#8217;s $5.4B acquisition of ABB Robotics&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_590134" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/ABBrobots-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590134" class="wp-image-590134 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/11/ABBrobots-featured.jpg" alt="ABB Robot arms working in electronics manufacturing. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/ABBrobots-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/ABBrobots-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/ABBrobots-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/ABBrobots-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/ABBrobots-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590134" class="wp-caption-text"&gt;ABB Robotics has about 7,000 employees, and its U.S. headquarters and factory are in Auburn Hills, Mich. | Source: ABB Robotics&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;It has been more than a year since ABB announced it singed an agreement to sell its robotics division to the Japanese tech giant SoftBank Group. The $5.375 billion deal is now being blocked by Chinese regulators, ABB confirmed to &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.therobotreport.com/category/china/" target="_blank" rel="noopener"&gt;China&lt;/a&gt;&amp;#8216;s Office of the Working Mechanism for Foreign Investment Security Review has prohibited the acquisition in the country. Authorities expressed concerns about robotics data being transferred overseas and used to train &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; models, according to &lt;em&gt;The Financial Times&lt;/em&gt;, which first &lt;a href="https://www.ft.com/content/f10c3e24-45e4-47ff-bde2-24a8de90aec4?syn-25a6b1a6=1" target="_blank" rel="noopener"&gt;reported&lt;/a&gt; that the deal was blocked.&lt;/p&gt;
-&lt;p&gt;You may be wondering why Chinese regulators have so much say in a Japanese &lt;a href="https://www.therobotreport.com/tag/softbank" target="_blank" rel="noopener"&gt;company&lt;/a&gt; acquiring a Zurich-based &lt;a href="https://www.therobotreport.com/category/robots-platforms/industrial-robots/" target="_blank" rel="noopener"&gt;industrial&lt;/a&gt; automation &lt;a href="https://www.therobotreport.com/tag/ABB-robotics/" target="_blank" rel="noopener"&gt;provider&lt;/a&gt;, but China makes up a major portion of ABB&amp;#8217;s revenue. For the entire &lt;a href="https://library.e.abb.com/public/b32991481e8b4418a5c5261c5ff25440/ABB%20Financial%20Report%202025.pdf" target="_blank" rel="noopener"&gt;FY 2025&lt;/a&gt;, ABB Robotics saw $928,000 in orders from China, an increase from the $662,000 in orders it brought in from China in 2024.&lt;/p&gt;
-&lt;p&gt;This is a growing region for ABB. In &lt;a href="https://library.e.abb.com/public/8954633d5ea54a4fb35da2ddbd1834f7/ABB-Q3-2026-press-release-English.pdf?x-sign=fhU6jqi04U7%2b3GTAWCxfd2F0dCYlgXqSU4mQMP4SdtI5C3QKB7SoDQrvqAp5b4ZC" target="_blank" rel="noopener"&gt;Q3 2026&lt;/a&gt;, ABB Robotics saw a 32% increase in business in China alone.&lt;/p&gt;
-&lt;p&gt;ABB also manufacturers a significant number of robots in its Shanghai factory. About 90% of its machines built for Chinese customers are manufactured locally, employing thousands of people in the country.&lt;/p&gt;
-&lt;p&gt;Looking ahead, ABB said it and SoftBank are &amp;#8220;in close dialogue and are working constructively on the transaction.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Rebar Assembly Functional Module - Scaling Rebar Cage Production with Automation" width="740" height="416" src="https://www.youtube.com/embed/B3tDhF3pGok?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;Is the robotics industry becoming a new political battleground?&lt;/h2&gt;
-&lt;p&gt;This news comes as global politics becomes increasingly important in the world of robotics. This isn&amp;#8217;t the first time China has blocked an international deal citing national security concerns. In April, the country prevented &lt;a href="https://www.therobotreport.com/tag/meta/" target="_blank" rel="noopener"&gt;Meta&lt;/a&gt; from acquiring Manus, an AI startup that was founded in China but then relocated to Singapore, for $2 billion.&lt;/p&gt;
-&lt;p&gt;Here in the U.S., the federal &lt;a href="https://www.therobotreport.com/tag/government/" target="_blank" rel="noopener"&gt;government&lt;/a&gt; has taken steps to slow down foreign robot suppliers within the country. Just last week, U.S. President Donald J. Trump &lt;a href="https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/" target="_blank" rel="noopener"&gt;said&lt;/a&gt; the secretary of commerce had submitted a Section 232 report about the national security effects of imports of robotics and industrial machinery, as well as related parts and components.&lt;/p&gt;
-&lt;p&gt;The Section 232 statement specifically cited “advanced robots — such as autonomous robots, &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoid &lt;/a&gt;and &lt;a href="https://www.therobotreport.com/tag/legged-robots" target="_blank" rel="noopener"&gt;quadruped&lt;/a&gt; robots, and autonomous ground vehicles” as providing direct support to the U.S. military. While it&amp;#8217;s unclear right now what this will mean for the robotics industry, it could lead to tariffs on foreign-made robots.&lt;/p&gt;
-&lt;p&gt;Already, the U.S. Federal Communications Commission (FCC) &lt;a href="https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/" target="_blank" rel="noopener"&gt;has banned&lt;/a&gt; new foreign-made advanced robotic devices, including &lt;a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener"&gt;mobile robots&lt;/a&gt; such as &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/" target="_blank" rel="noopener"&gt;humanoids&lt;/a&gt; and quadrupeds. The FCC said these machines could create create supply chain vulnerabilities and pose a cybersecurity risk to American critical infrastructure.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Editor&amp;#8217;s note:&lt;/strong&gt; &lt;em&gt;The Robot Report &lt;/em&gt;has reached out to sources for more comment, which we will publish.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/"&gt;Chinese regulators block SoftBank&amp;#8217;s $5.4B acquisition of ABB Robotics&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
