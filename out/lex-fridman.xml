@@ -5,11 +5,11 @@
 	<ns0:link href="https://lexfridman.com/feed/podcast/" rel="self" type="application/rss+xml" />
 	<link>https://lexfridman.com/</link>
 	<description>Conversations that explore technology, history, philosophy, physics, mathematics, biology, chemistry, engineering, AI, robotics, programming, music, film, art, sports, psychology, neuroscience, geopolitics, business, economics, religion, astronomy, and the human condition with people from all walks of life.</description>
-	<lastBuildDate>Mon, 26 Oct 2026 22:52:28 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 11 Nov 2026 01:40:16 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>hourly</ns1:updatePeriod>
 	<ns1:updateFrequency>1</ns1:updateFrequency>
-	<generator>Blubrry PowerPress/11.18.2</generator>
+	<generator>Blubrry PowerPress/11.18.3</generator>
 		<ns0:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
 	<ns2:new-feed-url>https://lexfridman.com/feed/podcast/</ns2:new-feed-url>
 	<ns2:author>Lex Fridman</ns2:author>
@@ -33,6 +33,70 @@
 	<ns3:podping usesPodping="true" />
 	<ns3:guid>7eeae9d1-141e-5133-9e8f-6c1da695e40c</ns3:guid>
 	<ns4:subscribe feed="https://lexfridman.com/feed/podcast/" itunes="https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584" tunein="https://tunein.com/podcasts/Technology-Podcasts/Artificial-Intelligence-p1153019/" spotify="https://open.spotify.com/show/2MAi0BvDc6GTFvKFPXnkCL" youtube="https://youtube.com/@lexfridman" />
+	<item>
+		<title>#504 – Russia-Ukraine War: Putin, Zelenskyy, Drones and the Future of Warfare</title>
+		<link>https://lexfridman.com/ukraine-war-preston-stewart-michael-kofman/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ukraine-war-preston-stewart-michael-kofman</link>
+		<pubDate>Tue, 10 Nov 2026 23:52:44 +0000</pubDate>
+		<guid isPermaLink="false">https://lexfridman.com/?p=7818</guid>
+		<comments>https://lexfridman.com/ukraine-war-preston-stewart-michael-kofman/#respond</comments>
+		<ns5:commentRss>https://lexfridman.com/ukraine-war-preston-stewart-michael-kofman/feed/</ns5:commentRss>
+		<ns6:comments>0</ns6:comments>
+		<category>Podcast</category>
+		<description>&lt;p&gt;Preston Stewart is a West Point graduate and Afghanistan veteran who covers the Ukraine war extensively on his YouTube channel, his podcast called War and Conflict, and his newsletter called Defense Tech News. Michael Kofman is a world-class military analyst specializing in the Russian and Ukrainian militaries. He is a senior fellow at the Carnegie Endowment and he hosts The Russia Contingency podcast on the War on the Rocks platform.&lt;br /&gt;
+Thank you for listening ❤ Check out our sponsors: &lt;a href="https://lexfridman.com/sponsors/ep504-sc"&gt;https://lexfridman.com/sponsors/ep504-sc&lt;/a&gt;&lt;br /&gt;
+See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Transcript:&lt;/b&gt;&lt;br /&gt;
+&lt;a href="https://lexfridman.com/preston-stewart-michael-kofman-transcript"&gt;https://lexfridman.com/preston-stewart-michael-kofman-transcript&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;CONTACT LEX:&lt;/b&gt;&lt;br /&gt;
+&lt;b&gt;Feedback&lt;/b&gt; &amp;#8211; give feedback to Lex: &lt;a href="https://lexfridman.com/survey"&gt;https://lexfridman.com/survey&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;AMA&lt;/b&gt; &amp;#8211; submit questions, videos or call-in: &lt;a href="https://lexfridman.com/ama"&gt;https://lexfridman.com/ama&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Hiring&lt;/b&gt; &amp;#8211; join our team: &lt;a href="https://lexfridman.com/hiring"&gt;https://lexfridman.com/hiring&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Other&lt;/b&gt; &amp;#8211; other ways to get in touch: &lt;a href="https://lexfridman.com/contact"&gt;https://lexfridman.com/contact&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EPISODE LINKS:&lt;/b&gt;&lt;br /&gt;
+Michael&amp;#8217;s X: &lt;a href="https://x.com/KofmanMichael"&gt;https://x.com/KofmanMichael&lt;/a&gt;&lt;br /&gt;
+Michael&amp;#8217;s Podcast: &lt;a href="https://warontherocks.com/premium/therussiacontingency/"&gt;https://warontherocks.com/premium/therussiacontingency/&lt;/a&gt;&lt;br /&gt;
+Preston&amp;#8217;s YouTube: &lt;a href="https://youtube.com/@prestonstewart"&gt;https://youtube.com/@prestonstewart&lt;/a&gt;&lt;br /&gt;
+Preston&amp;#8217;s X: &lt;a href="https://x.com/prestonstew_"&gt;https://x.com/prestonstew_&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SPONSORS:&lt;/b&gt;&lt;br /&gt;
+To support this podcast, check out our sponsors &amp;#038; get discounts:&lt;br /&gt;
+&lt;b&gt;GiveDirectly:&lt;/b&gt; Direct donations to people living in extreme poverty.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/givedirectly-ep504-sc"&gt;https://givedirectly.org/lex&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Fin:&lt;/b&gt; AI agent for customer service.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/fin-ep504-sc"&gt;https://fin.ai/lex&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;LMNT:&lt;/b&gt; Zero-sugar electrolyte drink mix.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/lmnt-ep504-sc"&gt;https://drinkLMNT.com/lex&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Wispr Flow:&lt;/b&gt; AI-powered voice dictation app.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/wispr_flow-ep504-sc"&gt;https://wisprflow.ai/lex&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Shop:&lt;/b&gt; Turns any AI agent into your personal shopper.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/shop-ep504-sc"&gt;https://shop.md/lex&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;Perplexity:&lt;/b&gt; AI-powered answer engine.&lt;br /&gt;
+Go to &lt;a href="https://lexfridman.com/s/perplexity-ep504-sc"&gt;https://perplexity.ai/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;OUTLINE:&lt;/b&gt;&lt;br /&gt;
+(00:00) &amp;#8211; Introduction&lt;br /&gt;
+(00:43) &amp;#8211; Sponsors, Comments, and Reflections&lt;br /&gt;
+(08:20) &amp;#8211; State of the war in Ukraine&lt;br /&gt;
+(21:59) &amp;#8211; Drone warfare and the kill zone&lt;br /&gt;
+(59:09) &amp;#8211; Who is winning the war?&lt;br /&gt;
+(1:10:46) &amp;#8211; Military analysis of Russia&amp;#8217;s 2022 invasion&lt;br /&gt;
+(1:26:34) &amp;#8211; Battle of Bakhmut&lt;br /&gt;
+(1:42:17) &amp;#8211; War optimism and bad information&lt;br /&gt;
+(2:02:26) &amp;#8211; Prigozhin&amp;#8217;s mutiny&lt;br /&gt;
+(2:16:40) &amp;#8211; Putin vs Zelenskyy&lt;br /&gt;
+(2:34:38) &amp;#8211; Trump&lt;br /&gt;
+(2:43:33) &amp;#8211; Paths to peace in Ukraine&lt;br /&gt;
+(2:54:13) &amp;#8211; Nature of war&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;PODCAST LINKS:&lt;/b&gt;&lt;br /&gt;
+&amp;#8211; Podcast Website: &lt;a href="https://lexfridman.com/podcast"&gt;https://lexfridman.com/podcast&lt;/a&gt;&lt;br /&gt;
+&amp;#8211; Apple Podcasts: &lt;a href="https://apple.co/2lwqZIr"&gt;https://apple.co/2lwqZIr&lt;/a&gt;&lt;br /&gt;
+&amp;#8211; Spotify: &lt;a href="https://open.spotify.com/episode/7ywcdUyAXA3dNFKU4xjFeY"&gt;https://open.spotify.com/episode/7ywcdUyAXA3dNFKU4xjFeY&lt;/a&gt;&lt;br /&gt;
+&amp;#8211; RSS: &lt;a href="https://lexfridman.com/feed/podcast/"&gt;https://lexfridman.com/feed/podcast/&lt;/a&gt;&lt;br /&gt;
+&amp;#8211; Podcast Playlist: &lt;a href="https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4"&gt;https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4&lt;/a&gt;&lt;br /&gt;
+&amp;#8211; Clips Channel: &lt;a href="https://www.youtube.com/lexclips"&gt;https://www.youtube.com/lexclips&lt;/a&gt;&lt;/p&gt;</description>
+		<enclosure url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_preston_stewart_michael_kofman.mp3" length="130768660" type="audio/mpeg" />
+		<ns2:episodeType>full</ns2:episodeType>
+		<ns2:duration>3:01:15</ns2:duration>
+		<ns4:pid>155994754</ns4:pid>
+	</item>
 	<item>
 		<title>#503 – AI Crisis in Math: Navier-Stokes, Riemann Hypothesis &amp; Complexity Theory</title>
 		<link>https://lexfridman.com/math-ai-crisis/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=math-ai-crisis</link>
@@ -2058,88 +2122,6 @@ Go to &lt;a href="https://lexfridman.com/s/ag1-ep475-sc"&gt;https://drinkag1.com
 		<ns2:episodeType>full</ns2:episodeType>
 		<ns2:duration>2:34:56</ns2:duration>
 		<ns4:pid>147246673</ns4:pid>
-	</item>
-	<item>
-		<title>#474 – DHH: Future of Programming, AI, Ruby on Rails, Productivity &amp; Parenting</title>
-		<link>https://lexfridman.com/dhh-david-heinemeier-hansson/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dhh-david-heinemeier-hansson</link>
-		<pubDate>Sat, 12 Jul 2025 17:16:31 +0000</pubDate>
-		<guid isPermaLink="false">https://lexfridman.com/?p=6259</guid>
-		<comments>https://lexfridman.com/dhh-david-heinemeier-hansson/#respond</comments>
-		<ns5:commentRss>https://lexfridman.com/dhh-david-heinemeier-hansson/feed/</ns5:commentRss>
-		<ns6:comments>0</ns6:comments>
-		<category>Podcast</category>
-		<description>&lt;p&gt;David Heinemeier Hansson (aka DHH) is a legendary programmer, creator of Ruby on Rails, co-owner &amp;#38; CTO of 37signals that created Basecamp, HEY, &amp;#38; ONCE, and is a NYT-best-selling author (with Jason Fried) of 4 books: REWORK, REMOTE, Getting Real, and It Doesn&amp;#8217;t Have To Be Crazy At Work. He is also a race car driver, including a class-winning performance at the 24 hour Le Mans race.&lt;br /&gt;
-Thank you for listening ❤ Check out our sponsors: &lt;a href="https://lexfridman.com/sponsors/ep474-sc"&gt;https://lexfridman.com/sponsors/ep474-sc&lt;/a&gt;&lt;br /&gt;
-See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Transcript:&lt;/b&gt;&lt;br /&gt;
-&lt;a href="https://lexfridman.com/dhh-david-heinemeier-hansson-transcript"&gt;https://lexfridman.com/dhh-david-heinemeier-hansson-transcript&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;CONTACT LEX:&lt;/b&gt;&lt;br /&gt;
-&lt;b&gt;Feedback&lt;/b&gt; &amp;#8211; give feedback to Lex: &lt;a href="https://lexfridman.com/survey"&gt;https://lexfridman.com/survey&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;AMA&lt;/b&gt; &amp;#8211; submit questions, videos or call-in: &lt;a href="https://lexfridman.com/ama"&gt;https://lexfridman.com/ama&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;Hiring&lt;/b&gt; &amp;#8211; join our team: &lt;a href="https://lexfridman.com/hiring"&gt;https://lexfridman.com/hiring&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;Other&lt;/b&gt; &amp;#8211; other ways to get in touch: &lt;a href="https://lexfridman.com/contact"&gt;https://lexfridman.com/contact&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;EPISODE LINKS:&lt;/b&gt;&lt;br /&gt;
-DHH&amp;#8217;s X: &lt;a href="https://x.com/dhh"&gt;https://x.com/dhh&lt;/a&gt;&lt;br /&gt;
-DHH&amp;#8217;s Website: &lt;a href="https://dhh.dk/"&gt;https://dhh.dk/&lt;/a&gt;&lt;br /&gt;
-Ruby on Rails: &lt;a href="https://rubyonrails.org/"&gt;https://rubyonrails.org/&lt;/a&gt;&lt;br /&gt;
-37signals: &lt;a href="https://37signals.com/"&gt;https://37signals.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;DHH&amp;#8217;s books:&lt;br /&gt;
-Rework: &lt;a href="https://amzn.to/44rSKob"&gt;https://amzn.to/44rSKob&lt;/a&gt;&lt;br /&gt;
-Remote: &lt;a href="https://amzn.to/44GFJ91"&gt;https://amzn.to/44GFJ91&lt;/a&gt;&lt;br /&gt;
-It Doesn&amp;#8217;t Have to Be Crazy at Work: &lt;a href="https://amzn.to/46bzuwx"&gt;https://amzn.to/46bzuwx&lt;/a&gt;&lt;br /&gt;
-Getting Real: &lt;a href="https://amzn.to/4kzoMDg"&gt;https://amzn.to/4kzoMDg&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;SPONSORS:&lt;/b&gt;&lt;br /&gt;
-To support this podcast, check out our sponsors &amp;#38; get discounts:&lt;br /&gt;
-&lt;b&gt;UPLIFT Desk:&lt;/b&gt; Standing desks and office ergonomics.&lt;br /&gt;
-Go to &lt;a href="https://lexfridman.com/s/uplift_desk-ep474-sc"&gt;https://upliftdesk.com/lex&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;Lindy:&lt;/b&gt; No-code AI agent builder.&lt;br /&gt;
-Go to &lt;a href="https://lexfridman.com/s/lindy-ep474-sc"&gt;https://go.lindy.ai/lex&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;LMNT:&lt;/b&gt; Zero-sugar electrolyte drink mix.&lt;br /&gt;
-Go to &lt;a href="https://lexfridman.com/s/lmnt-ep474-sc"&gt;https://drinkLMNT.com/lex&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;Shopify:&lt;/b&gt; Sell stuff online.&lt;br /&gt;
-Go to &lt;a href="https://lexfridman.com/s/shopify-ep474-sc"&gt;https://shopify.com/lex&lt;/a&gt;&lt;br /&gt;
-&lt;b&gt;NetSuite:&lt;/b&gt; Business management software.&lt;br /&gt;
-Go to &lt;a href="https://lexfridman.com/s/netsuite-ep474-sc"&gt;http://netsuite.com/lex&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;OUTLINE:&lt;/b&gt;&lt;br /&gt;
-(00:00) &amp;#8211; Introduction&lt;br /&gt;
-(00:58) &amp;#8211; Sponsors, Comments, and Reflections&lt;br /&gt;
-(08:48) &amp;#8211; Programming &amp;#8211; early days&lt;br /&gt;
-(26:13) &amp;#8211; JavaScript&lt;br /&gt;
-(36:32) &amp;#8211; Google Chrome and DOJ&lt;br /&gt;
-(44:19) &amp;#8211; Ruby programming language&lt;br /&gt;
-(51:30) &amp;#8211; Beautiful code&lt;br /&gt;
-(1:09:31) &amp;#8211; Metaprogramming&lt;br /&gt;
-(1:12:52) &amp;#8211; Dynamic typing&lt;br /&gt;
-(1:20:10) &amp;#8211; Scaling&lt;br /&gt;
-(1:33:03) &amp;#8211; Future of programming&lt;br /&gt;
-(1:50:34) &amp;#8211; Future of AI&lt;br /&gt;
-(1:56:29) &amp;#8211; Vibe coding&lt;br /&gt;
-(2:05:01) &amp;#8211; Rails manifesto: Principles of a great programming language&lt;br /&gt;
-(2:29:27) &amp;#8211; Why managers are useless&lt;br /&gt;
-(2:38:48) &amp;#8211; Small teams&lt;br /&gt;
-(2:44:55) &amp;#8211; Jeff Bezos&lt;br /&gt;
-(3:00:13) &amp;#8211; Why meetings are toxic&lt;br /&gt;
-(3:07:58) &amp;#8211; Case against retirement&lt;br /&gt;
-(3:15:15) &amp;#8211; Hard work&lt;br /&gt;
-(3:20:53) &amp;#8211; Why we left the cloud&lt;br /&gt;
-(3:24:04) &amp;#8211; AWS&lt;br /&gt;
-(3:33:22) &amp;#8211; Owning your own servers&lt;br /&gt;
-(3:39:35) &amp;#8211; Elon Musk&lt;br /&gt;
-(3:49:17) &amp;#8211; Apple&lt;br /&gt;
-(4:01:03) &amp;#8211; Tim Sweeney&lt;br /&gt;
-(4:12:37) &amp;#8211; Fatherhood&lt;br /&gt;
-(4:38:19) &amp;#8211; Racing&lt;br /&gt;
-(5:05:23) &amp;#8211; Cars&lt;br /&gt;
-(5:10:41) &amp;#8211; Programming setup&lt;br /&gt;
-(5:25:51) &amp;#8211; Programming language for beginners&lt;br /&gt;
-(5:39:09) &amp;#8211; Open source&lt;br /&gt;
-(5:48:01) &amp;#8211; WordPress drama&lt;br /&gt;
-(5:59:18) &amp;#8211; Money and happiness&lt;br /&gt;
-(6:08:11) &amp;#8211; Hope&lt;/p&gt;</description>
-		<enclosure url="https://media.blubrry.com/takeituneasy/content.blubrry.com/takeituneasy/lex_ai_dhh_david_heinemeier_hansson.mp3" length="281301723" type="audio/mpeg" />
-		<ns2:episodeType>full</ns2:episodeType>
-		<ns2:duration>6:15:11</ns2:duration>
-		<ns4:pid>146979855</ns4:pid>
 	</item>
 	</channel>
 </rss>
