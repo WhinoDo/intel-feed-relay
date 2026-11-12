@@ -4,7 +4,23 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-12T10:48:14Z</ns0:updated>
+  <ns0:updated>2026-11-12T15:38:16Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/e6ffde60312365c5452c46189a26872483943154</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e6ffde60312365c5452c46189a26872483943154" />
+    <ns0:title>
+        fix(deps): relax lancedb upper bound to 1.0.0 (#5341)
+    </ns0:title>
+    <ns0:updated>2026-11-12T15:38:16Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/2283778?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>yanghua</ns0:name>
+      <ns0:uri>https://github.com/yanghua</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(deps): relax lancedb upper bound to 1.0.0 (#5341)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/1ef599dc5a7fd6aca6ad2ded8cf710e4d0e3f1be</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1ef599dc5a7fd6aca6ad2ded8cf710e4d0e3f1be" />
@@ -1057,22 +1073,6 @@ The 10 Nm cap cut joint 2&amp;#39;s gravity torque, which reaches 17 Nm with the
 ---------
 
 Co-authored-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/6e3b67c5f0b77c93a5179d88d7c1d6a5f7ff7b27</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/6e3b67c5f0b77c93a5179d88d7c1d6a5f7ff7b27" />
-    <ns0:title>
-        fix(xvla): apply the LIBERO env processors to LIBERO only and check t…
-    </ns0:title>
-    <ns0:updated>2026-11-04T14:19:19Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>HaomingSong</ns0:name>
-      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(xvla): apply the LIBERO env processors to LIBERO only and check the action conversion (#5084)&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
