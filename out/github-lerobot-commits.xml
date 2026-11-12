@@ -4,7 +4,67 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-11T15:47:19Z</ns0:updated>
+  <ns0:updated>2026-11-12T10:48:14Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/1ef599dc5a7fd6aca6ad2ded8cf710e4d0e3f1be</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1ef599dc5a7fd6aca6ad2ded8cf710e4d0e3f1be" />
+    <ns0:title>
+        refactor(g1): clarify controller naming and fix stale exo joystick in…
+    </ns0:title>
+    <ns0:updated>2026-11-12T10:48:14Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/60154720?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>cetiennec</ns0:name>
+      <ns0:uri>https://github.com/cetiennec</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(g1): clarify controller naming and fix stale exo joystick input (#4990)
+
+* refactor(g1): reserve controller naming for whole-body controllers
+
+* docs(g1): shorten joystick state description
+
+* fix(g1): forward joystick buttons for waist height control
+
+* docs(g1): shorten waist control description
+
+* docs(g1): add troubleshooting for slow simulation
+
+* feat(g1): ease arm targets in after connect and reset
+
+* feat(g1): cap exoskeleton joint target velocity
+
+* refactor(g1): configure velocity limiter time cap and trim comments
+
+---------
+
+Co-authored-by: Martino Russi &amp;lt;nopyeps@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/2f05d8f64d62a865c368a9fdf0ba3d8423e28035</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/2f05d8f64d62a865c368a9fdf0ba3d8423e28035" />
+    <ns0:title>
+        feat(dataset): support storage options for remote Lance datasets (#4794)
+    </ns0:title>
+    <ns0:updated>2026-11-12T09:43:41Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/2283778?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>yanghua</ns0:name>
+      <ns0:uri>https://github.com/yanghua</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(dataset): support storage options for remote Lance datasets (#4794)
+
+* feat(dataset): support storage options for remote Lance datasets
+
+* address review comments
+
+* introduce cache identity helper
+
+* address review comments&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/e581c1d5701f846788662079d4ac08835c96def9</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e581c1d5701f846788662079d4ac08835c96def9" />
@@ -1013,52 +1073,6 @@ Co-authored-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;&lt;/pre&gt;
     </ns0:author>
     <ns0:content type="html">
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(xvla): apply the LIBERO env processors to LIBERO only and check the action conversion (#5084)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/ba83e4cf43737e2665be0aafcb5f513b83c7d0f3</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ba83e4cf43737e2665be0aafcb5f513b83c7d0f3" />
-    <ns0:title>
-        feat(fastwam): add relative actions and per-sample loss reduction for…
-    </ns0:title>
-    <ns0:updated>2026-11-03T16:46:47Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(fastwam): add relative actions and per-sample loss reduction for RA-BC (#4657)
-
-* feat(fastwam): relative-action support
-
-* feat(fastwam): pin the text encoder to its own device and cache prompt embeddings
-
-* feat(fastwam): per-sample loss reduction for RA-BC
-
-* fix(fastwam): add the relative-action steps older checkpoints lack
-
-* feat(fastwam): require proprio_dim for relative actions and document the new options
-
-* fix(fastwam): expose action_horizon as chunk_size for RA-BC sample weighting
-
-* fix(fastwam): address review comments&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/0c741cec3594ec7bf2d6b1c3d0dfdbdcc608da63</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/0c741cec3594ec7bf2d6b1c3d0dfdbdcc608da63" />
-    <ns0:title>
-        chore(dependecies): bump datasets (#5232)
-    </ns0:title>
-    <ns0:updated>2026-11-03T16:32:54Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependecies): bump datasets (#5232)&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
