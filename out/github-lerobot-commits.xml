@@ -4,7 +4,139 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-12T15:38:16Z</ns0:updated>
+  <ns0:updated>2026-11-13T12:00:08Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/fe1c54594f6ba275fccf210b9f7b11f0e2324b89</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/fe1c54594f6ba275fccf210b9f7b11f0e2324b89" />
+    <ns0:title>
+        chore: fix typo in pyproject.toml comment (#5275)
+    </ns0:title>
+    <ns0:updated>2026-11-13T12:00:08Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/165256830?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>dheiver2</ns0:name>
+      <ns0:uri>https://github.com/dheiver2</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore: fix typo in pyproject.toml comment (#5275)
+
+dependecy -&amp;gt; dependency
+
+Signed-off-by: Dheiver Francisco Santos &amp;lt;165256830+dheiver2@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/6e1095036b489b4d40d941b03d67bd99aa295160</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/6e1095036b489b4d40d941b03d67bd99aa295160" />
+    <ns0:title>
+        fix(datasets): escape video paths in concat manifests (#5168)
+    </ns0:title>
+    <ns0:updated>2026-11-13T11:40:40Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/59379458?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>dipeshbabu</ns0:name>
+      <ns0:uri>https://github.com/dipeshbabu</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): escape video paths in concat manifests (#5168)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/866dc27e0a077373f4712214231880f9a61887d2</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/866dc27e0a077373f4712214231880f9a61887d2" />
+    <ns0:title>
+        fix(utils): preserve small rotation vectors (#5159)
+    </ns0:title>
+    <ns0:updated>2026-11-13T11:26:56Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/132809511?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Afloat16</ns0:name>
+      <ns0:uri>https://github.com/Afloat16</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(utils): preserve small rotation vectors (#5159)
+
+* fix(utils): preserve small rotation vectors
+
+* test: keep small-rotation coverage focused on from_rotvec&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/d7a36af45eff170c5a41ade4bd9f49979cf48ffc</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d7a36af45eff170c5a41ade4bd9f49979cf48ffc" />
+    <ns0:title>
+        feat(envhub): explicit trust, whole-repository loading, and a complet…
+    </ns0:title>
+    <ns0:updated>2026-11-13T09:48:05Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(envhub): explicit trust, whole-repository loading, and a complete EnvHub guide (#5276)
+
+* fix(envhub): download the whole repository when loading env.py in-process
+
+* docs(sim): rewrite the EnvHub guide and the simulation pages
+
+* feat(env-server): require --trust_remote_code=true to serve an EnvHub repository
+
+* fix(env-server): require consent for EnvHub repositories served from a YAML too
+
+* docs(envhub): build the test envs with make_env
+
+* docs(envhub): drop the make_env repo ID mention
+
+* fix(envhub): trust_remote_code in-process refusal message
+
+* fix(envhub): one trust_remote_code per process&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/977ce26306d24d9298ecf60f0ce8d08fb6385021</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/977ce26306d24d9298ecf60f0ce8d08fb6385021" />
+    <ns0:title>
+        refactor(envs): make EnvConfig options only, build envs in the factor…
+    </ns0:title>
+    <ns0:updated>2026-11-13T09:48:05Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(envs): make EnvConfig options only, build envs in the factory (#5338)
+
+* refactor(envs): make EnvConfig options only, build envs in the factory, pass benchmark options as flat integration kwargs
+
+* revert the flat integration kwargs, keep the env factory and options-only EnvConfig
+
+* fix infinite make env loop
+
+* keep SimSettings as on main
+
+* refactor(envs): raise in create_envs/create_env and drop make_env&amp;#39;s Hub repo ID path
+
+* refactor(envs): name the use_native_batch equivalent when make_env gets a Hub repo ID&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/4a992388f85dcb128020965ea94423bd1c0d5c9d</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4a992388f85dcb128020965ea94423bd1c0d5c9d" />
+    <ns0:title>
+        docs(datasets): make the v3 loading example runnable (#5303)
+    </ns0:title>
+    <ns0:updated>2026-11-13T09:38:26Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/69956021?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>zhangyue19921010</ns0:name>
+      <ns0:uri>https://github.com/zhangyue19921010</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(datasets): make the v3 loading example runnable (#5303)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/e6ffde60312365c5452c46189a26872483943154</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e6ffde60312365c5452c46189a26872483943154" />
@@ -354,725 +486,6 @@ Co-authored-by: Sang Nguyen &amp;lt;sangnt2@younetgroup.com&amp;gt;&lt;/pre&gt;
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): update uv.lock (#5267)
 
 Co-authored-by: github-actions[bot] &amp;lt;github-actions[bot]@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/837f6b4ba794deeb759b47406314466aca620c09</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/837f6b4ba794deeb759b47406314466aca620c09" />
-    <ns0:title>
-        test(yam): stamp fake CAN frames when received to fix flaky feedback …
-    </ns0:title>
-    <ns0:updated>2026-11-05T15:58:37Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29127300?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>CarolinePascal</ns0:name>
-      <ns0:uri>https://github.com/CarolinePascal</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;test(yam): stamp fake CAN frames when received to fix flaky feedback tests (#5265)
-
-Frames were timestamped when built, so a CI stall longer than the 0.2 s feedback
-timeout before the read made fresh frames stale. Stamp them at recv, as SocketCAN does.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/62a171e72e648f29f1f38f8811b11487873366e3</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/62a171e72e648f29f1f38f8811b11487873366e3" />
-    <ns0:title>
-        chore(dependencies): update uv.lock (#5238)
-    </ns0:title>
-    <ns0:updated>2026-11-05T15:26:44Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): update uv.lock (#5238)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/16d50416981dce02d92603b2fb0f532b3a62bc6b</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/16d50416981dce02d92603b2fb0f532b3a62bc6b" />
-    <ns0:title>
-        feat(sim): NVIDIA RoboLab benchmark on Isaac Lab (#5194)
-    </ns0:title>
-    <ns0:updated>2026-11-05T14:41:52Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(sim): NVIDIA RoboLab benchmark on Isaac Lab (#5194)
-
-* feat(sim): add the NVIDIA RoboLab integration, batched on Isaac Lab
-
-* docs(sim): document RoboLab and test its integration on a stand-in for Isaac Lab
-
-* refactor(sim): tidy the RoboLab integration and slim its image
-
-* fix(env_server): give every simulator image 600 s to start, as Isaac Sim needs
-
-* Ship the NVIDIA Vulkan and EGL loader files in the RoboLab image
-
-* revert(docker): drop the NVIDIA loader files from the RoboLab image, CDI mode provides them
-
-* fix(sim): follow the env server&amp;#39;s new flags and int task IDs in the RoboLab test and docs
-
-* refactor(envs): name the RoboLab config RoboLabEnvConfig, as the other env configs
-
-* docs(sim): drop the CUDA base mention from the RoboLab stage
-
-* fix(envs): check a served env&amp;#39;s tasks against its descriptor, not the server&amp;#39;s task setting
-
-* test(sim): patch the RoboLab module the env loader imports, not a stale package attribute&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/0786da6fd001fafacb8033ce963c73b3e8140921</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/0786da6fd001fafacb8033ce963c73b3e8140921" />
-    <ns0:title>
-        fix(dependencies): pillow bump (#5263)
-    </ns0:title>
-    <ns0:updated>2026-11-05T14:38:54Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(dependencies): pillow bump (#5263)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/d100b030d860c48019b89524e5eb2d34bf54cc7b</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d100b030d860c48019b89524e5eb2d34bf54cc7b" />
-    <ns0:title>
-        feat(sim): one simulator core for batched envs and sim robots, in-pro…
-    </ns0:title>
-    <ns0:updated>2026-11-05T13:33:55Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(sim): one simulator core for batched envs and sim robots, in-process or served (#4888)
-
-* refactor(transport): share torch-free wire contracts between remote inference and the env server
-
-* feat(sim): run simulators behind one session core, in-process or served by lerobot-env-server
-
-* feat(envs): run every --env.type as a batched env on the session core, in-process or with --env.endpoint
-
-* feat(robots): add SimRobot, a simulated world behind the Robot interface, realtime or lockstep
-
-* build(sim): build simulator images from one Dockerfile.sim and run the benchmark matrix against env servers
-
-* docs(sim): document sim robots and batched envs, each in-process or served
-
-* fix(robots): document that SimRobotConfig needs no calibration
-
-* feat(sim): optional JPEG camera frames for served envs and sim robots
-
-* fix(sim): address PR review: benchmark workflow, record/replay control rate and world reset, RoboCasa mapping, docs
-
-* refactor(robots): serve a sim robot with --robot.env.endpoint, as for a batched env
-
-* feat(sims): declare each sim&amp;#39;s robot_type and record it from a sim robot
-
-* fix(ci): run benchmarks without pip on the GPU runner, add missing sim image modules, use the checkpoint&amp;#39;s RoboCasa camera mapping
-
-* feat(sims): adding kwargs to make_env
-
-* fix(ci): pin sim image deps, run RoboTwin from its root, skip two tasks that fail on main too
-
-* feat(eval): cap rollouts with --eval.max_episode_steps, 30 in benchmark CI
-
-* fix(sims): port the VLABench instruction (#5022) and typing (#5045) fixes to the moved files
-
-* fix(ci): pin mujoco for metaworld and setuptools for RoboTwin&amp;#39;s pkg_resources
-
-* refactor(envs): drop the legacy envs/&amp;lt;sim&amp;gt; aliases, import the native envs from lerobot.sims.native
-
-* fix(ci): check RoboTwin&amp;#39;s imports without a GPU at build time, add CUROBO_CUDA_ARCHS for small machines
-
-* refactor(sims): replace the World protocol with a plain SimRobot that autoresets a finished world
-
-* refactor(sim): simplify the simulation foundation (#5109)
-
-* refactor(sim): simplify the simulation foundation on top of #4888
-
-* refactor(sim): follow-ups from the simulation foundation review
-
-- A served environment behaves like a local one before reset: it refuses to
-  step or read, rejects call() arguments and starts with the suite&amp;#39;s first task.
-- Integrations return their environment factories through env_fns(); env_cls
-  and the create_&amp;lt;name&amp;gt;_envs aliases are gone.
-- validate_checkpoint moves to lerobot.envs.utils and skips the cameras the
-  policy&amp;#39;s empty_cameras declares, so lerobot.sim holds no policy conventions.
-- VectorEnv is renamed LocalVectorEnv, pairing with RemoteVectorEnv.
-- Comments say why worker environments are not Gymnasium&amp;#39;s AsyncVectorEnv and
-  what reusing the describing environment saves.
-
-* docs(sim): state what an env, a sim and the env server are
-
-* feat(sim): name the closest valid key for an unknown LEROBOT_SIM key
-
-* refactor(envs): group the env server options under --env.server
-
-* docs(sim): give the accurate reason _ProcessEnv is not AsyncVectorEnv
-
-* refactor(sim): let the caller start a sim robot&amp;#39;s next episode
-
-When an episode ends, the sim robot now stops and ignores actions instead of resetting itself, so strategies are never surprised by a reset. The base strategy and teleoperation start a new episode, the strategy with a fresh policy; replay stops.
-
-Sentry, highlight and DAgger record by time or on demand, not per episode, so they don&amp;#39;t support sim robots yet (new supports_sim_robot strategy flag).
-
-* docs(robots): keep hold() where #4888 put it, with clearer comments
-
-* refactor(sim): name the sim robot sim_robot, after its package
-
-* docs(sim): make docstrings and comments short and plain
-
-* fix(eval): build each task&amp;#39;s env on first reset instead of in a prefetch thread
-
-* feat(sim): let an integration build its whole batch as one vector env with vector_env_fns
-
-* docs(envhub): test a repo locally through HubEnvConfig instead of removed helpers
-
-* fix(env_server): start a session&amp;#39;s presence grace after its first reset
-
-* fix(sim): run LocalVectorEnv under Gymnasium 0.29, which RoboMME&amp;#39;s image pins
-
-* fix(env_server): describe a server that finishes starting during the handshake
-
-* test(env_server): skip the slow-start handshake test without the remote extra
-
-* refactor(sim): review follow-ups for the simulation foundation (#5200)
-
-* refactor(env_server): review fixes for the env client, server and vector envs
-
-- Validate the encoding in EnvServerConfig, so a typo fails at parse time
-- Document EnvClient&amp;#39;s arguments
-- Rename instance/session to instance_id/session_id, in the client and in server replies
-- Make the client&amp;#39;s lock private and drop its unused presence token reference
-- Default task_id to the group&amp;#39;s first task
-- Fail the session if the first result after open is invalid
-- Return a StepResult from request()
-- Close within the handshake timeout and log a warning instead of raising
-- Suggest starting the right server when the deployment is wrong
-- Check reset seeds on the server before the simulator runs
-- RemoteVectorEnv: same argument order as LocalVectorEnv, reject unknown tasks, accept any seed sequence
-- Declare canonical_observations in metadata, so it survives Gymnasium wrappers
-- Return render frames as a tuple, as Gymnasium declares
-
-* refactor(env_server): tidy protocol.py
-
-- Name the invalid part (deployment, instance or session) in key errors, as remote inference does
-- Keep the constants together so the key functions read as one block
-- Plainer docstrings
-
-* refactor(env_server): clarify ServerConfig
-
-- Rename presence_grace_s to initial_presence_timeout_s, as remote inference names it
-- Require the deployment, as remote inference does
-- Check the resource limits in ServerConfig instead of EnvServer
-- Document ServerConfig&amp;#39;s fields
-
-* refactor(env_server): tidy _Session and EnvServer
-
-- Rename rgb, fault and seen_client to camera_keys, failure and presence_established
-- Pass the transport to _Session and close the presence signals in _Session.close()
-- Move the action check next to the seed check, rename encode() to with_jpeg_frames()
-- Replace the stop event with a stop() method, as remote inference does
-- Log a failed session close instead of stopping the server
-- Log unexpected request errors once, in _reply
-- Rename count to num_envs, reword two error messages, add docstrings
-
-* refactor(env_server): name each config after the class it sets up
-
-- Rename the client&amp;#39;s EnvServerConfig to EnvClientConfig
-- Rename the server&amp;#39;s ServerConfig to EnvServerConfig
-- Import EnvClientConfig from lerobot.envs in tests
-- Clarify the server field&amp;#39;s comment: a local env may use worker processes
-- Drop the envs package docstring and the commented-out gymnasium guard
-- List lerobot.sim and lerobot.env_server in pyproject&amp;#39;s gymnasium note
-
-* refactor(envs): build EnvHub native batches through the envhub integration
-
-- Move make_hub_envs into envhub as a public make_envs, so factory uses no private helpers
-- Import a native batch&amp;#39;s env.py once per process, as the shared path does
-- Pass make_env_kwargs and provider configs from HubEnvConfig.create_envs
-- Bring make_env&amp;#39;s docstring to the LeRobot style
-- Fix the EnvHub spelling in the LeIsaac docs
-
-* refactor(envs): tidy envs/utils.py after the move to lerobot.sim
-
-- Drop the EnvHub helper and parse_camera_names re-exports, now unused here
-- Say when preprocess_observation applies instead of prepare_canonical_observation
-- Point integration comments at canonical_observation, which now maps cameras
-- Use single backticks in validate_checkpoint&amp;#39;s docstring
-
-* refactor(inference): one entry point for robot hold
-
-- List supports_command_hold in the InferenceRobot protocol
-- Make configure_position_hold private; callers use configure_hold
-- Document supports_command_hold and hold() for hardware integrators
-
-* refactor(policies): import FeatureSpec from lerobot.utils.feature_spec
-
-- Drop the FeatureSpec re-export from policies/chunk.py
-- Import it from its new home in policies/__init__.py and the policies that use it
-
-* refactor(robots): simplify SimRobot
-
-- Build the env in __init__; drop the unused reconnect path
-- Start the first episode before marking the robot connected
-- Inline feature_names at its one caller in rollout
-- Create the calibration folder only when a calibration is saved
-- Use the observation key constants and single-backtick docstrings
-
-* refactor(robots): lay out SimRobot like the real robots
-
-- Build observation_features from _state_ft and _cameras_ft
-- Build get_observation&amp;#39;s obs_dict with a camera loop, as SOFollower does
-- Type get_observation and send_action with RobotObservation and RobotAction
-
-* refactor(robots): cache SimRobot&amp;#39;s feature dicts and document start_episode
-
-* refactor(robots): clarify SimRobotConfig and default to the suite&amp;#39;s first task
-
-- Default task_id to the suite&amp;#39;s first task, as LocalVectorEnv and RemoteVectorEnv do
-- Explain why SimulatedEnvConfig differs for type checkers and draccus
-- Call task_id an ID, not an index, and tidy the choices docstring
-
-* refactor(remote_inference): follow the shared transport.protocol layer
-
-- Drop the unused peek_envelope re-export
-- List transport.protocol in the README&amp;#39;s package table
-- Describe hold as the robot&amp;#39;s own hold() or position hold
-- Type the codec&amp;#39;s tensor_converter hook
-
-* fix(rollout): close a resumed dataset that records at another fps
-
-* docs(robots): say a sim robot resets its environment, not its world
-
-* docs(scripts): use single backticks in lerobot_env_server docstrings
-
-* refactor(scripts): parse lerobot-env-server with draccus
-
-- Take --config_path and nested overrides (--sim.task, --zenoh.listen_endpoints) instead of --config/--set/--listen
-- Keep a config&amp;#39;s sim settings unresolved (SimSettings) until the server fills them from the simulator&amp;#39;s conventions
-- Require deployment and sim.type, and check endpoints, when the config is parsed
-- Restore the previous signal handlers after serving, as the policy server does
-- Update the image, compose file, CI script and docs to the new flags
-
-* docs(transport): name the envelope version and the codec&amp;#39;s tensor hook
-
-* refactor(env_server): fix each key&amp;#39;s request and reply types
-
-* refactor(utils): say what validate_array got and use it for every action check
-
-The local vector env checks actions with validate_array, and the env server
-sends its message to the client. Docstrings follow LeRobot style.
-
-* refactor(utils): name the feature in every FeatureSpec error
-
-Feature specs are now built from simulator observations and --sim.state_names,
-so a rejection must say which observation failed.
-
-* refactor(sim): fix the Docker install hint and simplify the local vector env
-
-- The missing-simulator hint names a command that works: the sim&amp;#39;s server
-  YAML, --envhub for EnvHub, and no Docker hint for plain Gymnasium envs.
-- StepResult drops the unused sim_time, and task IDs stay ints end to end.
-- Rename sim/vector_env.py to local_vector_env.py, after its class, as
-  Gymnasium names its vector envs.
-- LocalVectorEnv follows RemoteVectorEnv&amp;#39;s layout, with each run mode behind
-  _reset_envs and _step_envs, a frozen _LastStep per env, and descriptors
-  built by keyword.
-- _ProcessEnv workers are asked to close together, so a batch shuts down in
-  parallel.
-- canonical_observation uses LeRobot&amp;#39;s key constants and names the feature
-  in its image error.
-- VLABench records its robot type, and LIBERO drops an overkill quaternion
-  check.
-- The sim configs and types document their fields, and the PR&amp;#39;s docstrings
-  use LeRobot style.
-
-* refactor(ci): tidy the benchmark scripts
-
-run_sim_benchmark always passes the episode cap, checks for Docker only when
-it runs, and names an unknown benchmark. The scripts&amp;#39; functions are typed, and
-the metrics examples use the default LIBERO policy.
-
-* chore(ci): name benchmark jobs and tidy the sim server configs
-
-Matrix jobs are named after their benchmark. The compose health check reads
-the required deployment, the server configs say what conventions() fills in,
-and the docker README says which images ship torch.
-
-* docs(sim): fix the EnvHub server override and tidy simulation wording
-
-The EnvHub page shows the draccus override for make_env options instead of
-the old --set. The benchmark guide names the env server and gives a real
-fragile pin, the RoboMME page says its pins stay away from the policy&amp;#39;s, and
-the simulation page drops &amp;quot;native&amp;quot;/&amp;quot;legacy&amp;quot; and lists the robot type among
-the conventions.
-
-* docs(agent-guide): say what the served benchmark path needs
-
-* test(sim): tidy the simulation tests and test the env server in its own process
-
-Add a test running lerobot-env-server in its own process and stopping it with
-SIGTERM, as Docker does. Merge overlapping tests, drop the range-seed case, and
-run sim robot tests that need no server on a local env, so Fast Tests run them.
-Imports move to the top, shared setup becomes helpers and fixtures, and no test
-reads private state.
-
-* fix(ci): drop the removed PushT observation size flags from the TDMPC eval target
-
-* test(sim): give an installed LIBERO its default config so importing it doesn&amp;#39;t prompt
-
-* test(sim): hide all of LIBERO when testing the missing-simulator hint
-
-* feat(env_server): make the payload limit configurable on the server and the client (#5207)
-
-* feat(envhub): let a repo&amp;#39;s env.py define vector_env_fns, so one batched simulator runs a whole batch
-
-* docs(sim): explain the Vulkan loader error in Docker and how CDI mode fixes it
-
-* refactor(env_server): build the payload limits in one place
-
-* docs(sim): fix the EnvHub worker note and the Vulkan tip
-
-* refactor(envs): name the env configs *EnvConfig, apart from the simulators&amp;#39; gym envs
-
-* docs(robotwin): document the served image instead of the legacy native install
-
-* chore(docker): base the policy image on CUDA 13 to match its torch
-
-* chore(docker): base the simulator images on plain Ubuntu
-
-* chore(ci): restore the license headers of the benchmark workflows
-
-* refactor(utils): import the torch helpers from their modules instead of a lazy utils re-export
-
-* feat(sim): let a simulator report its own per-episode numbers (#5253)
-
-* ci(sim): build the benchmark policy image once from Dockerfile.internal, drop Dockerfile.policy and policy_libero.yaml
-
-* fix(sim): listen on the configured endpoint in Docker instead of 0.0.0.0
-
-* refactor(sim): move the sim robot helpers to robots.utils and export package symbols from their __init__
-
-* fix(envs): use LiberoEnvConfig in the XVLA LIBERO processor override
-
-* revert(ci): keep the per-benchmark Dockerfile.policy build for now
-
-* fix(cosmos3): do not flip the canonical LIBERO images a second time (#5246)
-
-* fix(xvla): build the LIBERO input from the canonical observation (#5255)
-
-* Include the environment processors in the checkpoint check (#5247)
-
-* fix(envs): include the environment processors in the checkpoint check
-
-* docs(sim): name Cosmos3 among the policies with environment processors
-
-* add todos
-
-Signed-off-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;
-
-* feat(rollout): run a sim robot with its environment processors (#5254)
-
-* feat(rollout): run a sim robot with its environment processors
-
-* Add TODO comments
-
-Signed-off-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;
-
----------
-
-Signed-off-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;
-
----------
-
-Signed-off-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;
-
-* style: ruff format the env processor checkpoint check
-
----------
-
-Signed-off-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;
-Co-authored-by: Khalil Meftah &amp;lt;khalil.meftah@huggingface.co&amp;gt;
-Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/9e5ee9859480e425a97a6836bb3fee479539beb5</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9e5ee9859480e425a97a6836bb3fee479539beb5" />
-    <ns0:title>
-        feat(robot): yam robot arm with motorbridge (#4855)
-    </ns0:title>
-    <ns0:updated>2026-11-04T18:39:55Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/13318497?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>s1lent4gnt</ns0:name>
-      <ns0:uri>https://github.com/s1lent4gnt</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(robot): yam robot arm with motorbridge (#4855)
-
-* Add motorbridge-based bimanual YAM follower with gravity feed-forward
-
-* Check python-can using its import name
-
-* Include dataset dependencies in the YAM rollout setup
-
-* Add verified SocketCAN startup helper for YAM
-
-* Wait for asynchronous YAM feedback and protect servo timing during model GC
-
-* docs(yam): include faster gripper tuning in Molmo rollout example
-
-* feat(yam): make faster gripper tuning the library default
-
-* refactor(yam): use shared CAN setup tooling
-
-* refactor(yam): compute gravity compensation with Placo
-
-* feat(yam): add single-arm follower and compose bimanual robot
-
-* fix(yam): register follower configs across CLI commands
-
-* fix(yam): include gravity model asset
-
-* fix(yam): include gravity model in source distribution
-
-* refactor(yam): organize follower and extract position helpers
-
-* refactor(yam): compute gravity torques with shared GravityCompensation
-
-* refactor(yam): extract control step into a pure function
-
-* refactor(yam): move CAN I/O into a _YamBus class
-
-* refactor(yam): move the servo loop into a _Servo class
-
-* refactor(yam): make the connect sequence linear
-
-* refactor(yam): drive bimanual through single-arm public methods
-
-* docs(yam): document control_step and YamFollowerConfig arguments
-
-* fix(yam): harden servo lifecycle and feedback safety
-
-* fix(yam): restore public-index uv.lock and fix docstring order
-
-Restore uv.lock from the main merge: the later relocks resolved against a private mirror and dropped Linux-only markers, which made CI&amp;#39;s uv sync --locked fail. Move the freeze_gc entry in YamFollowerConfig&amp;#39;s Args block to match its declaration order.
-
-* refactor(yam): align units, names and config with LeRobot arms
-
-* refactor(yam): store gripper calibration in degrees
-
-* refactor(yam): move the robot-independent control loop into mit_arm.py
-
-* feat(yam): damp the arm after a fault and require the motor CAN timeout
-
-* feat(yam): add float mode for moving the arm by hand while idle
-
-* feat(yam): limit gripper force only once blocked, with I2RT&amp;#39;s gains
-
-* fix(yam): avoid limit jumps, mixed read-only arms and degree stroke check
-
-* refactor(yam): remove process-wide GC freezing
-
-* fix(yam): rely on firmware watchdog after servo faults
-
-* fix(yam): correct linear gripper gravity model transforms
-
-* refactor(yam): align follower config naming with rebot
-
-* refactor(yam): simplify MIT feedback validation
-
-* docs(yam): add concise follower method docstrings
-
-* fix(yam): reject bimanual actions when either servo is inactive
-
-* docs(yam): simplify setup and safety guidance
-
-* refactor(yam): cleaning
-
-* refactor(yam): replace runtime assertions with explicit errors
-
-* docs(yam): document follower configuration arguments
-
-* refactor(yam): remove read-only mode and safety bypasses
-
-* refactor(yam): load gravity model from URDF bucket
-
-* refactor(yam): use public module facades
-
-* fix(yam): convert gripper feedback to scalar
-
-* refactor(yam): simplify follower config validation
-
-* nit(yam): clarify float mode configuration error
-
-* refactor(yam): remove redundant camera collision check
-
-* fix(yam): calibrate followers during connection
-
-* refactor(yam): use named MIT commands
-
-* docs(yam): clarify MIT motor bus contract
-
-* refactor(yam): name maximum control step
-
-* refactor(yam): clarify internal control API
-
-* refactor(yam): move feedback tolerances into control parameters
-
-* refactor(yam): move motor ordering to the bus
-
-* refactor(yam): simplify the bus feedback checks
-
-- Name the motor IDs and the feedback CAN ID offset
-- Let the monitor socket drop error frames, so only feedback frames reach it
-- Remove checks that cannot fail: frame types and IDs the socket filters already exclude, the payload motor ID, and a status and finiteness check that repeats the monitor&amp;#39;s
-- Allow reconnecting after a failed torque-off, since reconnecting turns torque off first
-- Share one check that the bus is open
-
-* refactor(yam): remove MIT control checks that cannot fail
-
-- read_joint_state: drop the feedback shape and finiteness check; the bus always returns seven decoded values
-- _gravity_feedforward: drop the torque check; the gravity model always returns six finite torques
-
-* refactor(yam): send actions without extra validation
-
-- Clip and submit targets in YamFollower.send_action; a missing target raises KeyError
-- Drop the key and finite checks: policy actions are checked centrally before they reach the robot
-- BiYamFollower.send_action sends each arm its targets; a fault on either arm still stops both servos
-- Remove MitServo.check_healthy, which has no callers left
-
-* refactor(yam): keep the gripper calibration only in the calibration file
-
-- Drop the gripper_closed_deg/gripper_open_deg config fields and their checks
-- Build the gripper control settings from the saved calibration, as other robots read theirs
-- Stop validating our own calibration file and copying it into the config
-- calibrate() keeps the gripper-moved and stroke checks, and reports the measured stroke
-
-* refactor(yam): check the calibration once when opening
-
-- open() uses one _require_params() call instead of a separate is_calibrated check and a parameter rebuild
-- Test that opening an uncalibrated arm touches no hardware
-
-* refactor(yam): tidy the follower config
-
-- Rename max_gripper_speed_s to max_gripper_speed: it is in strokes per second
-- Make the gripper finger stroke a constant, since it is hardware geometry
-- Build the motor feature names in YamFollower and drop motor_feature_names()
-- Drop the coulomb_friction sign check
-- Document the fields once, in the Args block
-
-* refactor(yam): rename CalibratedGripper to GripperParams
-
-It holds the gripper&amp;#39;s gains and limits as well as its calibration, like MitArmParams for the arm.
-
-* refactor(yam): save the calibration like other robots
-
-Drop the atomic-write override of _save_calibration; if atomic saving is wanted, it belongs in the base Robot class for every robot.
-
-* docs(yam): rewrite the YAM page for LeRobot users
-
-Start with what is needed before connecting, give one command per step, add a minimal rollout and an options table, and keep the MolmoAct2 example to its YAM-specific settings.
-
-* docs(model): document GravityCompensation in LeRobot&amp;#39;s docstring format
-
-Say that it returns the torques that hold the model against gravity, and write the Args entries in the standard format.
-
-* refactor(yam): drop joint_signs and joint_offsets_deg from the config
-
-YAM&amp;#39;s joints read their motors directly; MitArmParams keeps sign and offset support for other arms.
-
-* refactor(yam): drop the adapter serial check, redundant state handling and duplicate tests
-
-- Remove expected_adapter_serial, like the other CAN arms; yam.mdx now suggests a udev rule to give the interfaces fixed names.
-- Don&amp;#39;t restore the previous calibration when saving fails, like the other robots.
-- Clear the shared stop event only in YamFollower.open().
-- Remove tests that repeat what other tests already cover, parametrize the stale-feedback and disabled-motor cases, merge the two feature tests, and patch require_package once in an autouse fixture.
-
-* refactor(yam): keep the control settings only on the servo
-
-YamFollower kept a second reference to the servo&amp;#39;s MitArmParams; read servo.params instead.
-
-* refactor(yam): use one community name per concept and order methods like other robots
-
-- Name things once, after I2RT and LeRobot: gripper limits, stroke, joint position, initial position, tolerance, disable torque, CAN timeout, servo loop and feedforward.
-- Rename the matching helpers: feedback_tolerance, _load_gravity_model, _check_initial_position and MitServo.reset.
-- Order YamFollower and BiYamFollower like the Robot base class, with private helpers last.
-- Make docstrings and comments plain and short, in LeRobot&amp;#39;s docstring format.
-- Explain in the MolmoAct2 example how float mode lets the policy start from any position.
-
-* fix(yam): apply the full gravity torque on joint 2
-
-The 10 Nm cap cut joint 2&amp;#39;s gravity torque, which reaches 17 Nm with the forearm extended, so the arm sagged in float mode. Use I2RT&amp;#39;s 25 Nm bound instead.
-
-* fix(yam): import the YAM robots without the yam extra installed
-
-* feat(yam): support position hold
-
-* doc(yam): update doc
-
-* refactor(yam): connect CAN first, then calibrate and start control on the same connection
-
-- connect() opens the CAN interface first, then calibrates if needed and starts control without reconnecting; calibrate=False still connects only the CAN interface, with torque off.
-- BiYamFollower.connect() opens both arms the same way before either is calibrated or enabled.
-- open() no longer opens the bus; it connects the cameras, checks the initial position and resets the servo.
-- The troubleshooting table lists what a wrong robot.id actually does: connecting asks to calibrate again.
-
-* refactor(yam): give MitServo one set of parameters, passed when it is reset
-
-- MitArmParams holds the loop settings too (control_frequency, feedback_timeout_s, command_timeout_s, idle_mode); the ServoSettings protocol is gone.
-- MitServo takes its parameters in reset(state, params) instead of having them assigned from outside.
-- YamFollower builds the parameters from its config and gripper calibration when it needs them.
-
-* doc(yam): update doc with molmoact2 lerobot checkpoint
-
-* docs(hub): note that ensure_bucket_file never refreshes a cached file
-
-* refactor(yam): name the gripper force limiter&amp;#39;s settings gripper_params
-
-* refactor(yam): make the tracking and float steps return the same thing
-
-* refactor(yam): keep MitServo&amp;#39;s loop state private and derive active from its thread
-
-* refactor(yam): move the URDF bucket and cache path to library constants
-
-* refactor(yam): drop unused joint signs and offsets from MitArmParams
-
-* refactor(yam): make connect follow the other arms&amp;#39; calibrate pattern
-
-* refactor(yam): give MitServo its arm and gripper settings when it is built
-
-* refactor(yam): start MitServo from the measured position and use the motor bus method names
-
-* nit
-
-* refactor(yam): use one name per idea in the gripper force limiter
-
-* refactor(yam): name the controller, buses and gripper params like the rest of LeRobot
-
-* doc(yam): nit
-
-* refactor(yam): address review nits on bus and controller naming and connection checks
-
----------
-
-Co-authored-by: Pepijn &amp;lt;pepijn@huggingface.co&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

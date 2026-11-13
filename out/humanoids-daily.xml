@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 12 Nov 2026 17:56:33 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 13 Nov 2026 14:38:55 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/asus-gallop-humanoid-robot-jetson-thor-2028</guid>
+    <title>ASUS Unveils Gallop, Its First Humanoid Robot, Already Packing Parts on Its Own Production Line</title>
+    <link>https://www.humanoidsdaily.com/news/asus-gallop-humanoid-robot-jetson-thor-2028</link>
+    <description>The two-armed robot runs on NVIDIA Jetson Thor and learns from head-camera footage of ASUS factory workers. Partner pilots start in 2027, with a market launch targeted for the second half of 2028.</description>
+    <pubDate>Fri, 13 Nov 2026 14:38:55 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Data Collection</category><category>NVIDIA</category><category>hand</category><category>manufacturing</category><category>Taiwan</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/genki-robotics-humanoid-debut-takaichi-kantei</guid>
+    <title>Andy Rubin's Genki Robotics Shows Its Humanoid to Japan's Prime Minister</title>
+    <link>https://www.humanoidsdaily.com/news/genki-robotics-humanoid-debut-takaichi-kantei</link>
+    <description>Genki Robotics, the Tokyo startup founded by Android creator Andy Rubin, showed its humanoid for the first time at Prime Minister Sanae Takaichi's physical AI meeting. The unit walked for the first time three days earlier, and Genki plans an open Android-style platform built on Japanese hardware.</description>
+    <pubDate>Fri, 13 Nov 2026 14:26:29 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Genki Robotics</category><category>Actuators</category><category>policy</category><category>product-launch</category><category>Japan</category><category>physical-ai</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/jp-morgan-us-humanoid-production-400000-2030-forecast</guid>
     <title>J.P. Morgan Forecasts 300,000 to 400,000 US-Made Humanoids by 2030</title>
@@ -288,26 +308,6 @@
     <pubDate>Wed, 04 Nov 2026 13:57:05 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>South Korea</category><category>kapex</category><category>kist</category><category>LG</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tokio-marine-adrian-flux-humanoid-robot-home-insurance</guid>
-    <title>Tokio Marine HCC and Adrian Flux Launch UK Home Insurance for Humanoid Robots</title>
-    <link>https://www.humanoidsdaily.com/news/tokio-marine-adrian-flux-humanoid-robot-home-insurance</link>
-    <description>The household insurance offering covers domestic humanoid risks including theft, damage and personal liability, with individually priced quotes for UK customers.</description>
-    <pubDate>Wed, 04 Nov 2026 09:15:31 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>insurance</category><category>Europe</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/robotworld-2026-humanoids-physical-ai-manufacturing</guid>
-    <title>RobotWorld 2026 Opens With Humanoids and Physical AI in Focus</title>
-    <link>https://www.humanoidsdaily.com/news/robotworld-2026-humanoids-physical-ai-manufacturing</link>
-    <description>The Korean robotics exhibition brings together 402 companies from 17 countries, with a new humanoid pavilion and demonstrations spanning robot hands and factory automation.</description>
-    <pubDate>Wed, 04 Nov 2026 07:52:26 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>South Korea</category>
   </item>
 
   </channel>
