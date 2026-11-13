@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Fri, 13 Nov 2026 16:32:58 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 13 Nov 2026 18:15:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -146,6 +146,103 @@ AGIBOT is a pioneer in the global general-purpose AI robotics industry, with its
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
+		<title>Narwal builds robot vacuums to serve regional needs</title>
+		<link>https://www.therobotreport.com/narwal-builds-robot-vacuums-to-serve-regional-needs/</link>
+					<comments>https://www.therobotreport.com/narwal-builds-robot-vacuums-to-serve-regional-needs/#respond</comments>
+		
+		<dc:creator>Eugene Demaitre</dc:creator>
+		<pubDate>Fri, 13 Nov 2026 13:18:05 +0000</pubDate>
+				<category>Cameras / Imaging / Vision</category>
+		<category>China</category>
+		<category>Consumer Robotics</category>
+		<category>Mobility / Navigation</category>
+		<category>News</category>
+		<category>Regulatory &amp; Compliance</category>
+		<category>Safety &amp; Security</category>
+		<category>Software</category>
+		<category>cleaning</category>
+		<category>cleaning robots</category>
+		<category>irobot</category>
+		<category>Narwal</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590246</guid>
+
+					<description>&lt;p&gt;Narwal executives say they spent a decade in research and development and have tailored their household cleaning robots to local markets.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/narwal-builds-robot-vacuums-to-serve-regional-needs/"&gt;Narwal builds robot vacuums to serve regional needs&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590247" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590247" class="size-full wp-image-590247" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Narwal_robot_mop.jpg" alt="Narwal has designed robots that can both vacuum and mop." width="770" height="497" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Narwal_robot_mop.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/Narwal_robot_mop-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/Narwal_robot_mop-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/Narwal_robot_mop-768x496.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/Narwal_robot_mop-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590247" class="wp-caption-text"&gt;Narwal has designed robots that can both vacuum and mop. Source: Narwal&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Robots have entered homes, but the path to consumer adoption has been long and winding. iRobot Corp. was the pioneer but entered bankruptcy proceedings late in 2025. Narwal Robotics Corp. has spent a decade on research and development, testing 30 technical routes to self-cleaning robotic mops, and building a supply chain to retain cost control.&lt;/p&gt;
+&lt;p&gt;While &lt;a href="https://www.therobotreport.com/tag/irobot/" target="_blank" rel="noopener"&gt;iRobot&lt;/a&gt; has &lt;a href="https://www.therobotreport.com/irobot-emerges-from-chapter-11-picea-u-s-subsidiary/" target="_blank" rel="noopener"&gt;emerged&lt;/a&gt; from &lt;a href="https://www.therobotreport.com/irobot-to-enter-chapter-11-acquired-chinese-creditor/" target="_blank" rel="noopener"&gt;bankruptcy&lt;/a&gt; with a new owner, Narwal is working toward an initial public offering (IPO). The &lt;a href="https://us.narwal.com/" target="_blank" rel="noopener"&gt;company&lt;/a&gt;, which has offices in Shenzhen, China, and Covina, Calif., is looking to embodied intelligence to take home robots from the &amp;#8220;iPod stage&amp;#8221; to the &amp;#8220;iPhone moment,&amp;#8221; according to founder and CEO Junbin Zhang.&lt;/p&gt;
+&lt;p&gt;Zhang and Icey Bin, head of global brand at Narwal, replied to the following questions from &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;:&lt;/p&gt;
+&lt;h2&gt;Narwal took time to understand the household space&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;Why has the &lt;a href="https://www.therobotreport.com/tag/household/" target="_blank" rel="noopener"&gt;household&lt;/a&gt; robotics market been so difficult to break into?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;The household robotics market has exceptionally high barriers to entry in R&amp;amp;D, supply chain, and algorithm development. In the early days, there were no mature industry solutions to reference. For instance, Narwal spent three years with zero revenue solely focused on R&amp;amp;D, iterating the self-cleaning mop structure over 10 times from scratch.&lt;/p&gt;
+&lt;p&gt;Additionally, contract manufacturers were initially reluctant to cooperate due to the complex product structures and low initial volumes. On the software side, features like automatic mop washing require extremely precise positioning algorithms for the robot to frequently return to its base station, which the industry lacked at the time.&lt;/p&gt;
+&lt;p&gt;Most importantly, to achieve a high market penetration, a company must refine the product&amp;#8217;s experience, quality, and cost to the reliable standards of mature home appliances, which is an incredibly difficult ceiling to break through.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;iRobot struggled for a &lt;a href="https://www.therobotreport.com/looking-back-irobot-scrapped-retired-robots-through-years/" target="_blank" rel="noopener"&gt;number of reasons&lt;/a&gt;. Haven&amp;#8217;t other vacuum providers such as Dyson picked up market share?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Over the past decade, the core dimension of industry competition has fundamentally shifted from stacking hardware parameters to delivering a low-intervention, automated cleaning experience. While traditional handheld vacuums still have a place, overseas households face complex pain points that require automated solutions—such as deep cleaning for carpets and managing pet hair.&lt;/p&gt;
+&lt;p&gt;To address this, Narwal innovated a dedicated carpet deep-cleaning module that automatically lifts the mop and increases suction, boosting carpet cleaning performance by 40% to 50% compared to traditional models.&lt;/p&gt;
+&lt;p&gt;Furthermore, we pioneered the DualFlow tangle-free system to fundamentally solve the pet hair tangling issue. This paradigm shift toward comprehensive automation and solving highly specific pain points is why &lt;a href="https://www.therobotreport.com/category/china/" target="_blank" rel="noopener"&gt;Chinese&lt;/a&gt; challengers have reshaped the global market landscape.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;Technology and supply chain were built from scratch&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;How is Narwal&amp;#8217;s technology and business model different from those of existing &lt;a href="https://www.therobotreport.com/tag/cleaning/" target="_blank" rel="noopener"&gt;cleaning&lt;/a&gt; robot players?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Narwal stands out from incumbent players by rejecting the industry playbook of parameter stacking and scale-first growth, instead building original, user value-centered innovations across four core dimensions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;b&gt; Technology route: category-defining innovation from scratch: &lt;/b&gt;Instead of incremental upgrades to basic sweeping functions, Narwal created the entire self-cleaning robot mop category from its first product. Its proprietary technology portfolio — including self-developed &lt;a href="https://www.therobotreport.com/tag/slam/" target="_blank" rel="noopener"&gt;SLAM&lt;/a&gt; algorithms, NarMind autonomous system, FlowWash hot water cleaning, and DualFlow tangle-free system — all target universal industry pain points rather than meaningless parameter competition.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;A model with full end-to-end control of the supply chain: &lt;/b&gt;Unlike the prevalent asset-light, OEM-heavy model, Narwal leverages the mature Greater Bay Area, a leading comprehensive manufacturing hub in southern China. Its full &amp;#8220;Shenzhen R&amp;amp;D + Dongguan manufacturing&amp;#8221; setup covers the full product lifecycle from development and design to manufacturing and delivery, enabling faster product iteration and consistent quality control.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Operating logic: refined long-term management: &lt;/b&gt;Narwal rejects short-term tactics such as exchanging losses for market share and eroding brand value through price wars. It operates under a business-unit structure where R&amp;amp;D and frontline teams function as mutual profit centers, balancing innovation investment and market demand to avoid blind feature stacking or ineffective marketing spending.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Strategic path: experience-first penetration:&lt;/strong&gt; Contrary to the &amp;#8220;chasing scale first, fixing experience later&amp;#8221; industry norm, Narwal follows a long-term experience-first strategy: it polishes floor cleaning performance to mature home appliance standards first, then gradually reduces costs and drives market penetration through supply chain optimization, with the goal of turning robot vacuums from tech novelties into household essentials.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Behind the Product | Brand-NewIndustrial Design" width="740" height="416" src="https://www.youtube.com/embed/xT37YOaxKd8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;In what geographic regions have you found the most traction and why?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;To date, Narwal&amp;#8217;s products have entered more than 30 countries and regions globally, reaching over 6 million users. We have seen significant traction across North America, Europe, Asia-Pacific, and the Middle East.&lt;/p&gt;
+&lt;p&gt;Between January and April 2026, our overseas revenue grew by nearly 50% year-on-year. This success is primarily because we practice a &amp;#8220;one country, one policy&amp;#8221; approach, heavily customizing product features based on local lifestyle needs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In North America,&lt;/strong&gt; the U.S. is one of our most important markets. Our Flow 2 claimed the No. 1 spot in the robot vacuum new release category on Amazon U.S. within 24 hours of launch, with sales up 305% year over year versus the previous generation.&lt;/p&gt;
+&lt;p&gt;Key local optimizations include battery capacity and path planning upgrades for large single-family homes, plus a dedicated carpet deep-clean mode and DualFlow tangle-free system roller brush tailored to the high pet ownership rate. We have also established offline retail partnerships with major national chains including Best Buy and Costco.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;In &lt;a href="https://www.therobotreport.com/tag/europe/" target="_blank" rel="noopener"&gt;Europe&lt;/a&gt;, &lt;/b&gt;we have expanded steadily since 2024. During the 2025 Black Friday period, revenue in the French market surged 449% year on year, and first-launch sales across Europe grew 241% year on year.&lt;/p&gt;
+&lt;p&gt;Key local optimizations are enhanced carpet-cleaning performance and DualFlow tangle-free system for pet households, as well as water system adjustments for hard-water regions. We have a direct presence via our official website and Amazon in France, Italy, and Germany, with extended reach in Spain, Sweden, and the Netherlands, plus an extensive offline retail network.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Narwal 10th Anniversary | Inspired by Life. Innovating for Life." width="740" height="416" src="https://www.youtube.com/embed/fac5tnbIdyE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Narwal address AI and privacy concerns&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;How do you see recent &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; advances enabling more applications for &lt;a href="https://www.therobotreport.com/category/robots-platforms/consumer-robotics/" target="_blank" rel="noopener"&gt;consumer&lt;/a&gt; robots?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Recent AI advances are transforming consumer robots from executing &amp;#8220;command-based cleaning&amp;#8221; to performing &amp;#8220;perception-based intelligent cleaning.&amp;#8221; For example, Narwal pioneered the AI DirtSense technology and FlowWash hot water cleaning to sense floor dirt levels and automatically adjust cleaning power.&lt;/p&gt;
+&lt;p&gt;Furthermore, we were the first to mass-produce robot vacuums with dual-camera &lt;a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener"&gt;vision&lt;/a&gt;, allowing robots to achieve precise environment perception, obstacle avoidance, and scene recognition. Additionally, large language models enable natural language dialogue, allowing users to issue complex commands like &amp;#8220;clean up the melon seeds near the sofa&amp;#8221; instead of rigid keywords&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;When you mention &amp;#8220;3D embodied intelligence,&amp;#8221; how do you avoid the privacy concerns that affected iRobot?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Data privacy and security are core commitments across every market we operate in, and we have built multi-layer safeguards to address privacy risks. Beyond data governance, most of our products have obtained TÜV certification for product &lt;a href="https://www.therobotreport.com/category/safety-security/" target="_blank" rel="noopener"&gt;safety&lt;/a&gt; and quality as part of our broader commitment to being a trusted brand in people’s homes.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Minimized data collection by design:&lt;/b&gt; Our privacy policy explicitly states that Narwal does not automatically collect user photos or videos without user consent and affirmative user action. Sensitive network information, such as Wi-Fi passwords, is stored locally on the user&amp;#8217;s robot and app only, and is never uploaded to our cloud servers.&lt;/p&gt;
+&lt;p&gt;Personal information collected is only used for necessary purposes, including providing product services, verifying accounts, optimizing product experience, ensuring security, and complying with legal obligations. We never repurpose it for unrelated uses.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Full regulatory &lt;a href="https://www.therobotreport.com/tag/compliance/" target="_blank" rel="noopener"&gt;compliance&lt;/a&gt;:&lt;/b&gt; Our products and services comply with applicable data protection laws and regulations in all operating markets, including GDPR in the EU/EEA and CPRA in California.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Narwal Freo Z10 Turbo | App Operations General Settings" width="740" height="416" src="https://www.youtube.com/embed/RIXq6zcSxyc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Cleaning robots are tailored for the U.S. market&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;How are you navigating &lt;a href="https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/" target="_blank" rel="noopener"&gt;tariffs&lt;/a&gt; and the recent  &lt;a href="https://www.therobotreport.com/tag/fcc" target="_blank" rel="noopener"&gt;FCC&lt;/a&gt; &lt;a href="https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/" target="_blank" rel="noopener"&gt;restrictions&lt;/a&gt;? How do you ensure a reliable supply chain?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Regarding the FCC&amp;#8217;s action, we want to assure our customers that Narwal&amp;#8217;s current lineup is not impacted—every model sold in the U.S. today remains fully certified, fully supported, and available at retail. For future products, we are closely reviewing the FCC&amp;#8217;s announcement, including the conditional approval process.&lt;/p&gt;
+&lt;p&gt;As for tariffs, we are currently evaluating what these new requirements would mean for our operations. To ensure a highly reliable supply chain, Narwal relies on an &amp;#8220;end-to-end&amp;#8221; closed-loop talent and manufacturing system based in the China Greater Bay Area. While overseas competitors might take months to prototype a product, our highly clustered supply chain lets us prototype and iterate within a week, giving us the efficiency to weather external shocks.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Are you customizing any features for the U.S. market?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Yes, we have customized products and operations for the U.S. market across product performance, scenario adaptation and compliance dimensions:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Cleaning scenario adaptation:&lt;/b&gt; For the high pet ownership rate in the U.S. market, we optimized the DualFlow tangle-free system roller brush to effectively solve the pet hair tangling pain point.&lt;/p&gt;
+&lt;p&gt;For the high carpet coverage rate, we launched a Carpet Deep Clean module. When the robot detects carpet, it automatically lifts the mop pad and increases negative pressure suction to enhance deep carpet cleaning performance, improving dust removal by 40–50% compared to standard models.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Home size and runtime adaptation: &lt;/b&gt;For the common scenario of large single-family homes in the U.S., we upgraded &lt;a href="https://www.therobotreport.com/category/technologies/batteries-power-supplies/" target="_blank" rel="noopener"&gt;battery&lt;/a&gt; capacity and optimized path planning for large-area cleaning. Our &amp;#8220;charge while washing&amp;#8221; design allows the robot to charge while returning to the base station to wash the mop, extending effective runtime without increasing battery size and weight.&lt;/p&gt;
+&lt;p&gt;We also enhanced AI &lt;a href="https://www.therobotreport.com/category/mobility-navigation/" target="_blank" rel="noopener"&gt;navigation&lt;/a&gt; powered by dual-camera vision to handle complex floor plans in open-concept homes and large villas.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Stain scenario adaptation: &lt;/b&gt;Our FlowWash hot water cleaning technology continuously cleans the mop with fresh hot water during cleaning, preventing secondary contamination from dirty mops. This is optimized for common U.S. household stain scenarios such as kitchen food spills, muddy paw prints, and water tracked in from pools.&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Behind the Product | Flowwash Mopping System" width="740" height="416" src="https://www.youtube.com/embed/tBFNRR0-8Xk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Robot vacuums approach their &amp;#8216;iPhone moment&amp;#8217;&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;When you say &amp;#8220;iPhone moment,&amp;#8221; are you thinking of apps and a platform approach, increasing levels of autonomy, or something else?&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;The &amp;#8220;iPhone moment&amp;#8221; describes a maturity leap for the entire robot vacuum category, rather than an app ecosystem or platform business model.&lt;/p&gt;
+&lt;p&gt;Right now, robot vacuums are still in the &amp;#8220;iPod stage&amp;#8221;: they only address flat floor cleaning, and remain tech novelties for early adopters. Penetration in China stands below 10%, while roughly 15% in mature overseas markets — far below the 90%+ rate for mature home appliances like refrigerators and washing machines.&lt;/p&gt;
+&lt;p&gt;The category will hit the &amp;#8220;iPhone moment&amp;#8221; inflection point when product experience, reliability and cost all reach mature home appliance standards. At that point, robot vacuums will become a daily household necessity, and penetration will see explosive growth.&lt;/p&gt;
+&lt;p&gt;Alongside mass adoption, products will also evolve in parallel from flat floor-cleaning tools to full-space &amp;#8220;housekeepers&amp;#8221; with 3D cleaning and organizing capabilities — the embodied intelligence form we are working toward.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/narwal-builds-robot-vacuums-to-serve-regional-needs/"&gt;Narwal builds robot vacuums to serve regional needs&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/narwal-builds-robot-vacuums-to-serve-regional-needs/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
@@ -901,260 +998,6 @@ is &amp;#8220;the largest pure-play FPGA provider with a full-spectrum portfolio
 					
 					<ns4:commentRss>https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/feed/</ns4:commentRss>
 			<ns5:comments>7</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>How to minimize Wi-Fi roaming interruptions for autonomous mobile robots</title>
-		<link>https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/</link>
-					<comments>https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/#respond</comments>
-		
-		<dc:creator>Mikko Niemi</dc:creator>
-		<pubDate>Mon, 09 Nov 2026 15:40:41 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Autonomous Mobile Robots (AMRs)</category>
-		<category>Cameras / Imaging / Vision</category>
-		<category>Healthcare Robotics</category>
-		<category>Logistics</category>
-		<category>Manufacturing</category>
-		<category>Mobility / Navigation</category>
-		<category>Networking / Connectivity</category>
-		<category>News</category>
-		<category>Opinion</category>
-		<category>Retail / Wholesale</category>
-		<category>Sensors / Sensing Systems</category>
-		<category>Software</category>
-		<category>Synaptics</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590162</guid>
-
-					<description>&lt;p&gt;Dedicated Wi-Fi scan architectures can improve robot mobility, reliability, and performance, says Synaptics.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/"&gt;How to minimize Wi-Fi roaming interruptions for autonomous mobile robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_590167" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590167" class="size-full wp-image-590167" src="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-01.jpg" alt="A mobile robot between Wi-Fi access points. Wi-Fi connectivity needs to be reliable for real-time mobile robot management, says Synaptics." width="770" height="500" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-01.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-01-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-01-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-01-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-01-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590167" class="wp-caption-text"&gt;Wi-Fi connectivity needs to be reliable for real-time mobile robot management. Source: Synaptics&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;An autonomous mobile robot or AMR may cross dozens of Wi-Fi coverage zones during a single shift. Each transition creates a small but potentially consequential communications problem: How does the robot find its next access point without interrupting the connection it is already using?&lt;/p&gt;
-&lt;p&gt;The answer matters because &lt;a href="https://www.therobotreport.com/category/robots-platforms/amrs/" target="_blank" rel="noopener"&gt;AMRs&lt;/a&gt;, industrial &lt;a href="https://www.therobotreport.com/tag/inspection" target="_blank" rel="noopener"&gt;inspection&lt;/a&gt; robots, &lt;a href="https://www.automatedwarehouseonline.com/" target="_blank" rel="noopener"&gt;warehouse&lt;/a&gt; automation, and healthcare service robots increasingly depend on continuous &lt;a href="https://www.therobotreport.com/category/technologies/networking-connectivity" target="_blank" rel="noopener"&gt;connectivity&lt;/a&gt; for &lt;a href="https://www.therobotreport.com/category/technologies/sensors-sensing/" target="_blank" rel="noopener"&gt;sensor&lt;/a&gt; data, telemetry, and control.&lt;/p&gt;
-&lt;p&gt;In a conventional Wi-Fi architecture, the primary communication radio must periodically stop transmitting and receiving application traffic while it searches for alternative access points. That creates a tradeoff among connectivity, latency, power consumption, and roaming performance.&lt;/p&gt;
-&lt;p&gt;A dedicated scan architecture separates network discovery from application traffic. The robot can monitor its wireless environment continuously while the primary radio maintains the active connection.&lt;/p&gt;
-&lt;p&gt;One implementation, Synaptics Scan Core, uses a low-power wireless subsystem to monitor neighboring access points while the primary Wi-Fi radio remains dedicated to application traffic. This separation can support faster roaming decisions, lower latency, reduced packet loss, and more efficient scanning.&lt;/p&gt;
-&lt;h2&gt;As robots become more mobile, roaming is mission-critical&lt;/h2&gt;
-&lt;p&gt;Robots are becoming more connected and autonomous across &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;manufacturing&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/markets-industries/logistics-warehousing-asrs/" target="_blank" rel="noopener"&gt;logistics&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/markets-industries/biotechnology-medical-healthcare/" target="_blank" rel="noopener"&gt;healthcare&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/retail-wholesale" target="_blank" rel="noopener"&gt;retail&lt;/a&gt;, and &lt;a href="https://www.therobotreport.com/tag/service" target="_blank" rel="noopener"&gt;service&lt;/a&gt; environments. As they move through larger and more complex facilities, reliable wireless connectivity and fast roaming become core design requirements rather than secondary networking considerations.&lt;/p&gt;
-&lt;p&gt;Unlike stationary Wi-Fi devices, robots move continually between coverage areas while maintaining video, &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; inference, telemetry, and &lt;a href="https://www.therobotreport.com/tag/fleet-management" target="_blank" rel="noopener"&gt;fleet-management&lt;/a&gt; communications. These combined demands make mobile robotics a strong use case for dedicated scanning architectures.&lt;/p&gt;
-&lt;p&gt;Modern robots also support increasingly demanding wireless workloads, including HD and multi-camera &lt;a href="https://www.therobotreport.com/category/technologies/cameras-imaging-vision/" target="_blank" rel="noopener"&gt;video&lt;/a&gt;, simultaneous localization and mapping (&lt;a href="https://www.therobotreport.com/tag/slam/" target="_blank" rel="noopener"&gt;SLAM&lt;/a&gt;), AI-assisted &lt;a href="https://www.therobotreport.com/category/mobility-navigation" target="_blank" rel="noopener"&gt;navigation&lt;/a&gt;, predictive maintenance, and remote operation.&lt;/p&gt;
-&lt;p&gt;Wireless connectivity has therefore evolved from a convenience into a critical operational subsystem.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;h2&gt;Mobility poses challenges&lt;/h2&gt;
-&lt;p&gt;A mobile robot must maintain application traffic as it moves between Wi-Fi coverage zones. A warehouse robot may roam dozens or even hundreds of times during a shift. Each roaming event can introduce:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Increased latency&lt;/li&gt;
-&lt;li&gt;Packet loss&lt;/li&gt;
-&lt;li&gt;Video disruption&lt;/li&gt;
-&lt;li&gt;Delayed control responses&lt;/li&gt;
-&lt;li&gt;Reduced productivity&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Common performance targets for robotics deployments include:&lt;/p&gt;
-&lt;table width="348"&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td width="240"&gt;&lt;strong&gt;Requirement&lt;/strong&gt;&lt;/td&gt;
-&lt;td width="108"&gt;&lt;strong&gt;Typical Target&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td width="240"&gt;Roaming latency&lt;/td&gt;
-&lt;td width="108"&gt;&amp;lt;80 ms&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td width="240"&gt;Sustained throughput&lt;/td&gt;
-&lt;td width="108"&gt;20 Mbps&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td width="240"&gt;Packet loss during roaming&lt;/td&gt;
-&lt;td width="108"&gt;&amp;lt;2%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;For many autonomous systems, meeting these targets is important to safe and efficient operation.&lt;/p&gt;
-&lt;h2&gt;Key requirements and pain points&lt;/h2&gt;
-&lt;p&gt;Although stakeholders evaluate robotics systems differently, several wireless performance measures consistently emerge as critical.&lt;/p&gt;
-&lt;h3&gt;Roaming latency&lt;/h3&gt;
-&lt;p&gt;A typical roaming process includes the following steps:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Network discovery&lt;/li&gt;
-&lt;li&gt;Candidate evaluation&lt;/li&gt;
-&lt;li&gt;Authentication&lt;/li&gt;
-&lt;li&gt;Security key exchange&lt;/li&gt;
-&lt;li&gt;Reassociation&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Each step adds delay. In robotics applications, excessive roaming latency can affect navigation, fleet coordination, &lt;a href="https://www.therobotreport.com/tag/teleoperation/" target="_blank" rel="noopener"&gt;teleoperation&lt;/a&gt;, and machine-vision performance.&lt;/p&gt;
-&lt;h3&gt;Packet loss&lt;/h3&gt;
-&lt;p&gt;Even brief connectivity interruptions can affect AMR operations and data transfer. Robots often require communications performance that is consistent and predictable enough for real-time operation.&lt;/p&gt;
-&lt;h3&gt;Power consumption&lt;/h3&gt;
-&lt;p&gt;AMRs must continuously balance &lt;a href="https://www.therobotreport.com/category/technologies/batteries-power-supplies/" target="_blank" rel="noopener"&gt;battery&lt;/a&gt; performance and energy efficiency. Aggressive scanning improves roaming responsiveness but typically increases power consumption.&lt;/p&gt;
-&lt;h3&gt;Dense RF environments&lt;/h3&gt;
-&lt;p&gt;Warehouses, factories, airports, and &lt;a href="https://www.therobotreport.com/tag/hospital" target="_blank" rel="noopener"&gt;hospitals&lt;/a&gt; often contain many access points, multiple wireless protocols, and significant RF reflections. These conditions place additional demands on roaming algorithms.&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;Dedicated scanning can address mobile robot connectivity&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Traditional Wi-Fi clients use the primary communication radio for both application traffic and network discovery. During a background scan, the radio temporarily leaves its serving channel to look for neighboring access points, interrupting active traffic and potentially adding delay or packet loss.&lt;/p&gt;
-&lt;p&gt;A dedicated scan architecture assigns continuous monitoring of the wireless environment to a separate low-power resource. The primary Wi-Fi radio can remain focused on application traffic while candidate access points are identified in advance.&lt;/p&gt;
-&lt;div id="attachment_590164" style="width: 351px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590164" class="size-full wp-image-590164" src="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture1.png" alt="A traditional Wi-Fi architecture for mobile robots, according to Synaptics." width="341" height="227" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture1.png 341w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture1-300x200.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture1-150x100.png 150w" sizes="auto, (max-width: 341px) 100vw, 341px" /&gt;&lt;p id="caption-attachment-590164" class="wp-caption-text"&gt;Source: Synaptics&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Synaptics Scan Core is one implementation of this general architectural approach. A dedicated scan resource removes this contention between active communications and network discovery.&lt;/p&gt;
-&lt;div id="attachment_590165" style="width: 351px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590165" class="size-full wp-image-590165" src="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture2.png" alt="A dedicated Wi-Fi scan architecture, according to Synaptics." width="341" height="227" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture2.png 341w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture2-300x200.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture2-150x100.png 150w" sizes="auto, (max-width: 341px) 100vw, 341px" /&gt;&lt;p id="caption-attachment-590165" class="wp-caption-text"&gt;Source: Synaptics&lt;/p&gt;&lt;/div&gt;
-&lt;h3&gt;&lt;strong&gt;Traditional Wi-Fi versus Scan Core&lt;/strong&gt;&lt;/h3&gt;
-&lt;table&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Conventional Wi-Fi&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Dedicated Scan Core&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Main communication radio performs scanning&lt;/td&gt;
-&lt;td&gt;Dedicated Scan Core performs scanning&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;User traffic interrupted during scans&lt;/td&gt;
-&lt;td&gt;User traffic radio is not interrupted by scan operations&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Reactive roaming&lt;/td&gt;
-&lt;td&gt;Proactive roaming&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Higher scan power&lt;/td&gt;
-&lt;td&gt;Lower scan power&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Longer roaming time&lt;/td&gt;
-&lt;td&gt;Faster roaming&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Periodic access point discovery&lt;/td&gt;
-&lt;td&gt;Continuous AP discovery&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3&gt;&lt;/h3&gt;
-&lt;h3&gt;&lt;strong&gt;Key benefits&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Continuous network awareness: &lt;/strong&gt;The scan radio continuously monitors neighboring channels while the primary radio remains connected.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Faster roaming decisions: &lt;/strong&gt;Candidate access points are discovered before signal quality degrades.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lower packet loss: &lt;/strong&gt;Active communications continue during background scanning.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;More predictable performance: &lt;/strong&gt;Roaming behavior becomes more consistent and predictable.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Improved power efficiency: &lt;/strong&gt;Background scanning can be optimized without disrupting active communications.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Instead of waiting for connectivity to deteriorate, the wireless subsystem can prepare for the next roaming event while application traffic continues on the primary radio.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Measured Scan Core benefits&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Synaptics said its platform characterization measured substantial improvements in scanning efficiency:&lt;/p&gt;
-&lt;table&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Metric&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Improvement&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Scan time&lt;/td&gt;
-&lt;td&gt;Up to 65% faster&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Overall scan duration&lt;/td&gt;
-&lt;td&gt;Approximately 40% shorter&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Scan power&lt;/td&gt;
-&lt;td&gt;Up to 75% lower&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Scan current&lt;/td&gt;
-&lt;td&gt;Up to 77% lower&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;em&gt;Source:&lt;/em&gt; Synaptics robotics platform characterization&lt;/p&gt;
-&lt;p&gt;In a mobile robot, these improvements can contribute to faster roaming, lower scan energy, longer battery life, and steadier application traffic. Actual results will depend on the platform, network topology, traffic load, and RF environment.&lt;/p&gt;
-&lt;h2&gt;Applying dedicated scanning to mobile robots&lt;/h2&gt;
-&lt;p&gt;Commercial connectivity platforms are beginning to incorporate dedicated scanning. For instance, Synaptics offers an integrated platform combining Wi-Fi 7, dual Bluetooth 6.0, and IEEE 802.15.4, as well as multi-band operation across 2.4, 5, and 6 GHz.&lt;/p&gt;
-&lt;p&gt;Within that platform, Scan Core provides a dedicated scan resource that operates independently of the primary WLAN subsystem. This allows scanning and active communications to occur simultaneously rather than compete for the same radio.&lt;/p&gt;
-&lt;h3&gt;Multi-band awareness&lt;/h3&gt;
-&lt;p&gt;The platform evaluates candidate access points across multiple frequency bands, helping the robot maintain connectivity as it moves through a facility.&lt;/p&gt;
-&lt;h3&gt;Fast channel switching&lt;/h3&gt;
-&lt;p&gt;The architecture supports rapid transitions between the main and scan resources. On the Synaptics robotics validation platform, switching between resources was measured on the order of microseconds.&lt;/p&gt;
-&lt;h3&gt;Roaming test results&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Figure 3 &lt;/strong&gt;summarizes the minimum and maximum measured roaming times across three representative scenarios. In Synaptics platform testing, all results remained below the 80 ms target while continuous 20 Mbps UDP traffic was maintained:&lt;/p&gt;
-&lt;div id="attachment_590166" style="width: 792px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590166" class="size-full wp-image-590166" src="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture3.png" alt="SYN4390 roaming performance, according to Synaptics." width="782" height="521" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture3.png 782w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture3-300x200.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture3-150x100.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture3-768x512.png 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi_Picture3-357x238.png 357w" sizes="auto, (max-width: 782px) 100vw, 782px" /&gt;&lt;p id="caption-attachment-590166" class="wp-caption-text"&gt;Source: Synaptics&lt;/p&gt;&lt;/div&gt;
-&lt;h2&gt;Wireless mobility becomes part of robot performance&lt;/h2&gt;
-&lt;p&gt;As AMRs take on more complex workloads and operate across larger, denser environments, wireless mobility becomes part of the robot&amp;#8217;s performance envelope. Roaming affects productivity, fleet efficiency, the user experience, and, in some applications, safe operation.&lt;/p&gt;
-&lt;p&gt;Conventional Wi-Fi makes the communication radio divide its time between application traffic and network discovery. A dedicated scan architecture separates those functions, allowing the robot to identify its next connection without interrupting the one it is already using.&lt;/p&gt;
-&lt;p&gt;Dedicated scanning and Wi-Fi 7 enhanced Multi-Link Single Radio (&lt;a href="https://ieeexplore.ieee.org/document/11059913/" target="_blank" rel="noopener"&gt;eMLSR&lt;/a&gt;) address different parts of wireless mobility. Dedicated scanning improves awareness of nearby access points; eMLSR improves how the device uses multiple links. Together, they can make roaming faster and more predictable without forcing designers to trade application performance against network awareness.&lt;/p&gt;
-&lt;p&gt;In Synaptics internal validation, eMLSR delivered up to a 10x latency improvement over single-link operation under congested conditions. Results vary with network topology, traffic load, and RF conditions. eMLSR can provide many multi-link operation latency benefits without requiring multiple fully active radios.&lt;/p&gt;
-&lt;div id="attachment_590168" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590168" class="size-full wp-image-590168" src="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-04.jpg" alt="Chart showing how Synaptics says Scan Core can help mobile robots maintain coverage." width="770" height="479" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-04.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-04-300x187.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-04-150x93.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-04-768x478.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/WiFi-connectivity-04-368x229.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590168" class="wp-caption-text"&gt;Synaptics says Scan Core can help mobile robots maintain coverage. Source: Synaptics&lt;/p&gt;&lt;/div&gt;
-&lt;h3&gt;Glossary&lt;/h3&gt;
-&lt;table&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Autonomous mobile robot&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;An AMR can navigating and performing tasks using sensors, AI, and wireless connectivity without requiring fixed guidance infrastructure or direct human control.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Access point&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;An AP is a wireless networking device that provides Wi-Fi connectivity to client devices within a coverage area.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Enhanced Multi-Link Single Radio&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;eMLSR is a Wi-Fi 7 capability that enables a single radio to intelligently utilize multiple wireless links, improving latency, reliability, and power efficiency.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Fleet management&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Software and network infrastructure used to monitor, coordinate, and manage multiple AMRs operating within the same environment.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Latency&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;The time required for data to travel between devices. Low and predictable latency is critical for real-time robotics applications.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Multi-Link Operation&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;MLO is a Wi-Fi 7 feature that allows communication over multiple wireless links, improving throughput, reliability, and network efficiency.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Packet loss&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Data packets that fail to reach their destination. Excessive packet loss can interrupt video, telemetry, and real-time control.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Roaming&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;The process by which a Wi-Fi client transitions from one access point to another while maintaining network connectivity.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Scan Core&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;A dedicated low-power wireless receive subsystem that continuously monitors the wireless environment while the primary Wi-Fi radio remains dedicated to application traffic. By separating network awareness from communications, Scan Core enables faster roaming, lower latency, reduced packet loss, and improved power efficiency, according to Synaptics.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Simultaneous Localization and Mapping&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;SLAM is a navigation technique that enables a robot to build a map of its environment while simultaneously determining its own position within that map.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Simultaneous Transmit and Receive&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;STR is a Wi-Fi 7 Multi-Link Operation mode that enables simultaneous transmission and reception over multiple wireless links, maximizing throughput and reducing latency.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;User Datagram Protocol&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;UDP is a lightweight transport protocol used for real-time applications such as video streaming, voice, gaming, and telemetry. Unlike TCP, UDP does not retransmit lost packets, making it well suited for measuring network latency, packet loss, and roaming performance in wireless systems.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Wi-Fi 7 &lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;The latest generation of Wi-Fi technology (&lt;a href="https://standards.ieee.org/ieee/802.11be/7516/" target="_blank" rel="noopener"&gt;IEEE 802.11be&lt;/a&gt;) introduced features such as MLO, wider channel bandwidths, lower latency, and improved efficiency in dense wireless environments.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 aria-hidden="true"&gt;&lt;/h2&gt;
-&lt;h2 class="x_x_x_MsoNormal" aria-hidden="true"&gt;&lt;img loading="lazy" decoding="async" class="alignleft size-medium wp-image-590163" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Mikko_Niemi-300x300.jpeg" alt="Mikko Niemi is director of product marketing at Synaptics." width="300" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Mikko_Niemi-300x300.jpeg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/Mikko_Niemi-150x150.jpeg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/Mikko_Niemi-238x238.jpeg 238w, https://www.therobotreport.com/wp-content/uploads/2026/11/Mikko_Niemi.jpeg 400w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;About the author&lt;/h2&gt;
-&lt;p class="x_x_x_MsoNormal"&gt;&lt;a href="https://www.linkedin.com/in/niemimikko/" target="_blank" rel="noopener"&gt;Mikko Niemi&lt;/a&gt; is a product manager for wireless products at &lt;a href="https://www.synaptics.com/" target="_blank" rel="noopener"&gt;Synaptics Inc.&lt;/a&gt; He has more than 15 years of experience across industrial Internet of Things (&lt;a href="https://www.therobotreport.com/tag/iot/" target="_blank" rel="noopener"&gt;IIoT&lt;/a&gt;), semiconductor, and software-as-a-service (SaaS) sectors. Niemi specializes in building and scaling intelligent, data-driven platforms that power connected infrastructure, smart energy systems, and next-generation industrial applications.&lt;/p&gt;
-&lt;p&gt;He previously worked at Lantronix, where he led a portfolio that included industrial IoT gateways, cloud-based, SaaS device management platforms, and global connectivity services—delivering edge-to-cloud systems that integrate real-time telemetry, AI/machine learning analytics, and robust security at scale. Niemi previosly held management roles at Silicon Labs and Landis+Gyr. He holds an MBA and a Master’s in electronics engineering.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/"&gt;How to minimize Wi-Fi roaming interruptions for autonomous mobile robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
 		
 		
 			</item>
