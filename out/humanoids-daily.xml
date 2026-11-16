@@ -7,9 +7,49 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Sun, 15 Nov 2026 10:50:24 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 16 Nov 2026 16:23:07 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/frontier-language-models-speeding-up-robotics-research</guid>
+    <title>How Frontier Language Models Are Speeding Up Robotics Research</title>
+    <link>https://www.humanoidsdaily.com/features/frontier-language-models-speeding-up-robotics-research</link>
+    <description>From a vibe-coded motion tracker to Argon reviewing robot failures and Astra steering GR00T 2, language models now sit in several parts of the robot-learning loop. Most of the fastest gains are still in simulation.</description>
+    <pubDate>Mon, 16 Nov 2026 16:23:07 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>NVIDIA</category><category>Unitree Robotics</category><category>OpenAI</category><category>DeepMind</category><category>open-source</category><category>Anthropic</category><category>Research</category><category>Apptronik</category><category>world-model</category><category>simulation</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/fort-robotics-s4-revenue-newbury-street-frob</guid>
+    <title>FORT Robotics, Safety Supplier to Agility, Posts 52% Revenue Growth in S-4 Ahead of Nasdaq Listing</title>
+    <link>https://www.humanoidsdaily.com/news/fort-robotics-s4-revenue-newbury-street-frob</link>
+    <description>FORT, which supplies safety systems for Digit, reported $12.5 million in nine-month revenue and an $8.0 million loss as it heads for Nasdaq at a $500 million valuation.</description>
+    <pubDate>Mon, 16 Nov 2026 15:13:28 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>FORT Robotics</category><category>US</category><category>Agility Robotics</category><category>IPO</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/robotera-xhand-1-pro-u-dexumi-gr00t-2</guid>
+    <title>Robotera Opens Orders for XHAND 1 Pro-U, the Hand in NVIDIA's GR00T 2 DexUMI Demos</title>
+    <link>https://www.humanoidsdaily.com/news/robotera-xhand-1-pro-u-dexumi-gr00t-2</link>
+    <description>Robotera's 16-DoF XHAND 1 Pro-U mirrors NVIDIA's DexUMI exoskeleton joint for joint. It ran the GR00T 2 yogurt, granola and match-lighting demos at CoRL, and the first run is 40 units.</description>
+    <pubDate>Mon, 16 Nov 2026 14:48:30 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Data Collection</category><category>NVIDIA</category><category>tactile sensing</category><category>GR00T</category><category>hands</category><category>China</category><category>exoskeleton</category><category>Robotera</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/lg-kiria-humanoid-safety-certification-mou</guid>
+    <title>LG Signs With Korea's Robot Certification Agency to Safety-Test Its Humanoids</title>
+    <link>https://www.humanoidsdaily.com/news/lg-kiria-humanoid-safety-certification-mou</link>
+    <description>LG Electronics and KIRIA will put CLOiD through a pilot safety certification and build the evaluation system for Korea's first humanoid safety certification centre in Daegu.</description>
+    <pubDate>Mon, 16 Nov 2026 10:00:33 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>CLOiD</category><category>South Korea</category><category>safety standards</category><category>LG</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/foundation-missed-payroll-pathak-4-6-million-loan</guid>
     <title>Foundation Misses Payroll After CEO Borrowed $4.6 Million to Buy a Home</title>
@@ -268,46 +308,6 @@
     <pubDate>Thu, 05 Nov 2026 13:42:45 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>US</category><category>Research</category><category>Pixel</category><category>CMU</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/neura-eon-enviam-grid-robotics-2027</guid>
-    <title>NEURA Robotics Partners With E.ON and enviaM on Grid Robotics, With Trials Expected in 2027</title>
-    <link>https://www.humanoidsdaily.com/news/neura-eon-enviam-grid-robotics-2027</link>
-    <description>The partners will train robotic skills at TUM RoboGym before testing inspections, asset monitoring and worker-support applications with grid operator MITNETZ STROM.</description>
-    <pubDate>Thu, 05 Nov 2026 13:04:53 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Neura Robotics</category><category>Europe</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xpeng-groundingpi-robot-vision-manipulation</guid>
-    <title>XPENG Highlights GroundingPI, a Vision Model for More Data-Efficient Robot Learning</title>
-    <link>https://www.humanoidsdaily.com/news/xpeng-groundingpi-robot-vision-manipulation</link>
-    <description>GroundingPI improves simulated robot manipulation with fewer demonstrations, offering a specialized visual foundation rather than an announced upgrade to XPENG’s IRON humanoid.</description>
-    <pubDate>Thu, 05 Nov 2026 12:50:41 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>open-source</category><category>China</category><category>XPENG</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/agility-aglt-nasdaq-trading-debut</guid>
-    <title>Agility Begins Trading on Nasdaq as AGLT, the First US-Listed Pure-Play Humanoid Company</title>
-    <link>https://www.humanoidsdaily.com/news/agility-aglt-nasdaq-trading-debut</link>
-    <description>The Churchill XI merger closed with about $465 million in gross capital, below the $600 million-plus projected in June, as Agility debuts with $1.78 million in 2025 sales.</description>
-    <pubDate>Thu, 05 Nov 2026 12:27:33 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>US</category><category>Market</category><category>Agility Robotics</category><category>IPO</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/mabel-open-source-mobile-bimanual-robot-nyu</guid>
-    <title>NYU's MABEL Puts a 56-DOF Mobile Bimanual Robot on an $8,056 Open-Source Parts List</title>
-    <link>https://www.humanoidsdaily.com/news/mabel-open-source-mobile-bimanual-robot-nyu</link>
-    <description>The open-source robot pairs two 7-DOF arms and 17-DOF ORCA hands with a lift and swerve base, and is teleoperated end to end with an Apple Vision Pro.</description>
-    <pubDate>Thu, 05 Nov 2026 06:56:39 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>LeRobot</category><category>teleoperation</category><category>US</category><category>open-source</category><category>Research</category><category>Mabel</category><category>robotic hand</category>
   </item>
 
   </channel>
