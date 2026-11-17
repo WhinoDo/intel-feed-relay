@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Mon, 16 Nov 2026 23:49:56 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 17 Nov 2026 15:22:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,52 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Boston Dynamics’ Atlas humanoid lands first non-automotive trial</title>
+		<link>https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/</link>
+					<comments>https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/#respond</comments>
+		
+		<dc:creator>Steve Crowe</dc:creator>
+		<pubDate>Tue, 17 Nov 2026 14:49:05 +0000</pubDate>
+				<category>Humanoids</category>
+		<category>News</category>
+		<category>Boston Dynamics</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590271</guid>
+
+					<description>&lt;p&gt;Boston Dynamics’ Atlas humanoid robot will undergo its first trials outside the automotive industry at a major semiconductor manufacturer in early 2027.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/"&gt;Boston Dynamics’ Atlas humanoid lands first non-automotive trial&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590272" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590272" class="size-full wp-image-590272" src="https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries.jpg" alt="Boston Dynamics' Spot and Atlas robots." width="1000" height="667" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries-300x200.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries-150x100.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries-768x512.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries-357x238.jpg 357w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-590272" class="wp-caption-text"&gt;GlobalFoundries will test Boston Dynamics&amp;#8217; Atlas humanoid (right) in semiconductor manufacturing tasks in 2027. | Credit: Boston Dynamics&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;GlobalFoundries, a leading semiconductor manufacturer, will become the first customer outside of the automotive industry to test Boston Dynamics&amp;#8217; Atlas humanoid. Atlas testing will begin in early 2027, marking a key step in Boston Dynamics’ efforts to commercialize its humanoid.&lt;/p&gt;
+&lt;p&gt;GlobalFoundries is already a customer of &lt;a href="http://www.therobotreport.com/tag/boston-dynamics"&gt;Boston Dynamics&lt;/a&gt;, having deployed its Spot quadruped for industrial inspections for several years. The companies are expanding that relationship to include additional Spot deployments across GlobalFoundries’ global manufacturing network. Since April 2026, two Spot robots at its Singapore facility have collectively traveled nearly 900 km (559 mi.) and completed more than 90,000 inspections in sub-fab areas, achieving a 99% mission success rate, according to the companies.&lt;/p&gt;
+&lt;p&gt;Boston Dynamics and GlobalFoundries will identify potential &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/"&gt;humanoid&lt;/a&gt; applications in semiconductor manufacturing, assess integration requirements and customer readiness, and begin training Atlas to perform specific tasks. The companies did not disclose how many Atlas robots will be involved, which facilities will host the humanoids, or what initial tasks they will perform.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Robot Report&lt;/em&gt; has reached out to Boston Dynamics for additional information. This story will be updated if we learn new information.&lt;/p&gt;
+&lt;p&gt;The agreement gives Boston Dynamics an opportunity to validate Atlas in a manufacturing environment outside of that of its parent company, Hyundai Motor Group. While automotive manufacturing has emerged as an early proving ground for humanoids, semiconductor manufacturing could present a different set of technical and operational requirements.&lt;/p&gt;
+&lt;p&gt;“Spot has helped us shift from reactive to predictive maintenance, collecting data across thousands of inspection points to prevent downtime and keep our fabs running more efficiently,” said Pradip Singh, chief manufacturing officer at GlobalFoundries. “Scaling Spot and testing Atlas are the next steps in our journey to AI-enabled manufacturing, putting physical AI to work across our operations worldwide.”&lt;/p&gt;
+&lt;h2&gt;Boston Dynamics expands Atlas beyond Hyundai&lt;/h2&gt;
+&lt;p&gt;When Boston Dynamics unveiled the &lt;a href="https://www.therobotreport.com/boston-dynamics-google-reunite-on-next-gen-atlas-humanoid/"&gt;product version of its electric Atlas humanoid at CES 2026&lt;/a&gt;, it said its initial production run for the year was fully committed. The humanoids were earmarked for Hyundai and Google DeepMind, the latter of which is working with Boston Dynamics to integrate its &lt;a href="https://www.therobotreport.com/boston-dynamics-google-reunite-on-next-gen-atlas-humanoid/"&gt;Gemini Robotics foundation models into Atlas&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Boston Dynamics said at the time it planned to begin working with additional customers in early 2027. GlobalFoundries represents the first publicly announced manufacturing customer outside of Hyundai Motor Group.&lt;/p&gt;
+&lt;p&gt;In September, Boston Dynamics&lt;a href="https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/"&gt; opened its Robotics Metaplant Application Center&lt;/a&gt; (RMAC) at Hyundai Motor Group Metaplant America near Savannah, Ga. The facility serves as a training and testing ground for Atlas ahead of its integration into Hyundai&amp;#8217;s automotive manufacturing operations.&lt;/p&gt;
+&lt;p&gt;Atlas is initially being trained to perform parts sequencing and material handling tasks, with Hyundai targeting component assembly applications by 2030. Boston Dynamics plans to move the RMAC into a facility approximately 10 times its current size in 2027.&lt;/p&gt;
+&lt;p&gt;Hyundai has outlined plans to deploy 25,000 Atlas humanoids across Hyundai Motor and Kia manufacturing facilities over the next several years. It also plans to establish a U.S. factory capable of producing 30,000 robots annually.&lt;/p&gt;
+&lt;p&gt;Boston Dynamics has ambitions for Atlas well beyond automotive manufacturing. In September, the company said it was in discussions with existing Spot and Stretch customers across several industries, including aerospace, semiconductors, logistics, food and beverage, and life sciences.&lt;/p&gt;
+&lt;p&gt;Boston Dynamics&amp;#8217; installed base of mobile robots could provide it with an advantage over humanoid developers that are still establishing relationships with industrial customers. Those existing relationships give Boston Dynamics access to facilities, operational data, and customers that already have experience integrating autonomous robots into their workflows.&lt;/p&gt;
+&lt;div align="center"&gt;
+&lt;p&gt;&lt;iframe title="Atlas on a Roll | Classical Motor Controls and Whole-Body RL | Boston Dynamics" width="740" height="416" src="https://www.youtube.com/embed/NL65Awuv8gU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2&gt;Atlas continues to evolve&lt;/h2&gt;
+&lt;p&gt;Despite entering early production, Atlas continues to undergo hardware and software development. Boston Dynamics unveiled in October a redesigned hand for Atlas featuring four fingers and 13 degrees of freedom (DoF), up from seven DoF in its previous three-fingered design.&lt;/p&gt;
+&lt;p&gt;Boston Dynamics designed the new hand with directly actuated joints and with simulation-based reinforcement learning in mind. The redesign is intended to improve the robot&amp;#8217;s dexterity while balancing the reliability and manufacturability requirements of an industrial robot.&lt;/p&gt;
+&lt;p&gt;Boston Dynamics also demonstrated an experimental version of &lt;a href="https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/"&gt;Atlas equipped with wheels&lt;/a&gt; in place of its feet. Rather than signaling the development of a new commercial product, the experiment served as a testbed for whole-body control and demonstrated the ability of reinforcement learning-based control policies to adapt to changes in the robot&amp;#8217;s hardware.&lt;/p&gt;
+&lt;p&gt;The GlobalFoundries announcement comes just over a month after Boston Dynamics appointed former Amazon executive &lt;a href="https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/"&gt;Rohit Prasad as CEO&lt;/a&gt;. Prasad previously served as senior vice president and head scientist for Alexa and artificial general intelligence at Amazon, where he helped build Alexa and led the development of the Amazon Nova family of foundation models. His appointment comes as Boston Dynamics looks to accelerate the integration of AI into its robots.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/"&gt;Boston Dynamics’ Atlas humanoid lands first non-automotive trial&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>The hidden reason most robots fail on the factory floor</title>
 		<link>https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/</link>
 					<comments>https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/#respond</comments>
@@ -47,7 +93,7 @@
 </description>
 										<ns3:encoded>&lt;p&gt;&lt;iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2439661398&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true" width="100%" height="166" frameborder="no" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;"&gt;&lt;a style="color: #cccccc; text-decoration: none;" title="The Robot Report Podcast" href="https://soundcloud.com/robot-report-podcast" target="_blank" rel="noopener"&gt;The Robot Report Podcast&lt;/a&gt; · &lt;a style="color: #cccccc; text-decoration: none;" title="The hidden reason most robots fail on the factory floor" href="https://soundcloud.com/robot-report-podcast/the-hidden-reason-most-robots" target="_blank" rel="noopener"&gt;The hidden reason most robots fail on the factory floor&lt;/a&gt;&lt;/div&gt;
-&lt;div id="attachment_590260" style="width: 291px" class="wp-caption alignleft"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590260" class="size-full wp-image-590260" src="https://www.therobotreport.com/wp-content/uploads/2026/11/evan-beard-headshot.jpg" alt="Evan Beard, CEO, co-founder, Standard Bots." width="281" height="350" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/evan-beard-headshot.jpg 281w, https://www.therobotreport.com/wp-content/uploads/2026/11/evan-beard-headshot-241x300.jpg 241w, https://www.therobotreport.com/wp-content/uploads/2026/11/evan-beard-headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/11/evan-beard-headshot-191x238.jpg 191w" sizes="(max-width: 281px) 100vw, 281px" /&gt;&lt;p id="caption-attachment-590260" class="wp-caption-text"&gt;Evan Beard, CEO, co-founder, Standard Bots.&lt;/p&gt;&lt;/div&gt;
+&lt;div id="attachment_590260" style="width: 291px" class="wp-caption alignleft"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590260" class="size-full wp-image-590260" src="https://www.therobotreport.com/wp-content/uploads/2026/11/evan-beard-headshot.jpg" alt="Evan Beard, CEO, co-founder, Standard Bots." width="281" height="350" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/evan-beard-headshot.jpg 281w, https://www.therobotreport.com/wp-content/uploads/2026/11/evan-beard-headshot-241x300.jpg 241w, https://www.therobotreport.com/wp-content/uploads/2026/11/evan-beard-headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/11/evan-beard-headshot-191x238.jpg 191w" sizes="auto, (max-width: 281px) 100vw, 281px" /&gt;&lt;p id="caption-attachment-590260" class="wp-caption-text"&gt;Evan Beard, CEO, co-founder, Standard Bots.&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;In Episode 270 of &lt;a href="https://www.therobotreport.com/category/podcast/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt; Podcast&lt;/a&gt;, we talk with Evan Beard, the co-founder, CEO, and chief engineer of &lt;a href="https://www.therobotreport.com/tag/standard-bots/" target="_blank" rel="noopener"&gt;Standard Bots&lt;/a&gt;. Standard Bots is one of America&amp;#8217;s largest manufacturers of &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;-native industrial robots.&lt;/p&gt;
 &lt;p data-pm-slice="1 1 []"&gt;Standard Bots develops its entire robotics stack in-house, from hardware and software to AI. The company designs nearly all its own components, including &lt;a href="https://www.therobotreport.com/category/actuators-motors-servos-2/" target="_blank" rel="noopener"&gt;actuators&lt;/a&gt;, and assembles every robot at its facility in Glen Cove, New York. Its long-term vision is to build a fully domestic &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;manufacturing&lt;/a&gt; operation, from raw metal to finished robots.&lt;/p&gt;
 &lt;p&gt;Evan founded Standard Bots on a simple premise: the country that builds the robots of the future will build everything in the future.&lt;/p&gt;
@@ -68,7 +114,7 @@
 &lt;li&gt;&lt;a href="https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/" target="_blank" rel="noopener"&gt;Can AI agents program industrial robots without training data? Berkeley says yes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/" target="_blank" rel="noopener"&gt;&lt;span class="TextRun SCXW185171944 BCX2" lang="EN-US" xml:lang="EN-US" data-contrast="auto"&gt;&lt;span class="NormalTextRun SCXW185171944 BCX2" data-ccp-parastyle="heading 2"&gt;Boston Dynamics adds wheels to Atlas humanoid to test whole-body control&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;iframe title="Atlas on a Roll | Classical Motor Controls and Whole-Body RL | Boston Dynamics" width="740" height="416" src="https://www.youtube.com/embed/NL65Awuv8gU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Atlas on a Roll | Classical Motor Controls and Whole-Body RL | Boston Dynamics" width="740" height="416" src="https://www.youtube.com/embed/NL65Awuv8gU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Sponsors&lt;/h2&gt;
 &lt;p&gt;&lt;span data-contrast="auto"&gt;The future of robotics isn&amp;#8217;t just about building smarter machines. &lt;/span&gt;&lt;span data-ccp-props="{}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
@@ -962,66 +1008,6 @@ AGIBOT is a pioneer in the global general-purpose AI robotics industry, with its
 					
 					<ns4:commentRss>https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Intel and Altera expand collaboration to simplify sensor integration for physical AI</title>
-		<link>https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/</link>
-					<comments>https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/#comments</comments>
-		
-		<dc:creator>The Robot Report Staff</dc:creator>
-		<pubDate>Tue, 10 Nov 2026 14:47:10 +0000</pubDate>
-				<category>Aerospace</category>
-		<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Defense / Security</category>
-		<category>Development Tools / SDKs / Libraries</category>
-		<category>Healthcare Robotics</category>
-		<category>Manufacturing</category>
-		<category>Microprocessors / SoC</category>
-		<category>Networking / Connectivity</category>
-		<category>News</category>
-		<category>Sensors / Sensing Systems</category>
-		<category>Software</category>
-		<category>Altera</category>
-		<category>Integration</category>
-		<category>Intel</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590207</guid>
-
-					<description>&lt;p&gt;Altera and Intel are working to make it easier to connect diverse sensors, turn data into real-time insights, and develop robotics.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/"&gt;Intel and Altera expand collaboration to simplify sensor integration for physical AI&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_590208" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590208" class="size-full wp-image-590208" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Intel_Altera.jpg" alt="Altera and Intel logos with a robot arm. " width="770" height="498" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Intel_Altera.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/Intel_Altera-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/Intel_Altera-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/Intel_Altera-768x497.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/Intel_Altera-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590208" class="wp-caption-text"&gt;Altera and Intel are collaborating to accelerate the development of intelligent systems across industries.&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Intel Corp. and Altera Corp. today said they are jointly developing flexible, real-time, sensor-bridge reference systems for edge and physical AI applications including robotics. By combining Intel compute, connectivity, and software with Altera field-programmable gate arrays or FPGAs, the companies said they aim to help manufacturers address the growing complexity of connecting, processing, and acting on real-world data across increasingly sensor-rich environments.&lt;/p&gt;
-&lt;p&gt;“Physical AI systems have to sense, decide, and act in real time, and the physical world demands accuracy, reliability, and safety,” stated Farhad Shafai, head of business solutions and marketing at Altera. &amp;#8220;Altera FPGAs provide the sensor connectivity, data processing, and deterministic control that machines need to respond to the physical world, and they stay programmable as sensors and AI models evolve. Combining that with Intel’s compute and software is intended to give OEMs a flexible foundation to tailor systems to their needs.&amp;#8217;&lt;/p&gt;
-&lt;p&gt;Founded in 1983, Altera provides high-performance, programmable compute and connectivity systems for a wide range of advanced and AI-enabled technologies. The San Jose, Calif.-based &lt;a href="https://www.altera.com/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; &lt;a href="https://www.altera.com/newsroom/altera-silver-lake" target="_blank" rel="noopener"&gt;claimed&lt;/a&gt; that it&lt;br /&gt;
-is &amp;#8220;the largest pure-play FPGA provider with a full-spectrum portfolio serving applications ranging from data centers and communications networks to critical embedded systems.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Intel &lt;a href="https://www.intc.com/news-events/press-releases/detail/302/intel-completes-acquisition-of-altera" target="_blank" rel="noopener"&gt;acquired&lt;/a&gt; Altera for $16.7 billion in 2015 and &lt;a href="https://www.altera.com/newsroom/altera-investment-silver-lake" target="_blank" rel="noopener"&gt;sold&lt;/a&gt; 51% of the company to Silver Lake last year.&lt;/p&gt;
-&lt;h2&gt;Sensor-rich edge environments pose challenges for AI&lt;/h2&gt;
-&lt;p&gt;&amp;#8220;Edge and physical AI systems can require data from different sensors and interfaces to be brought together while meeting requirements for timing, performance, power and cost,&amp;#8221; said &lt;a href="https://www.therobotreport.com/tag/intel/" target="_blank" rel="noopener"&gt;Intel&lt;/a&gt; and Altera. &amp;#8220;Some applications also require very high bandwidth or flexible form factors in which input/output (I/O) is located away from the compute board. Sensor data must then be streamed rapidly into memory for the host Intel processor to use across edge, robotics and other workloads.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;The companies said they plan to develop modular reference systems that combine Altera programmable hardware with a consistent Intel &lt;a href="https://www.therobotreport.com/category/technologies/microprocessors-socs/" target="_blank" rel="noopener"&gt;compute&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;software&lt;/a&gt; foundation. Their goal is to give equipment OEMs greater flexibility as applications, &lt;a href="https://www.therobotreport.com/category/technologies/sensors-sensing/" target="_blank" rel="noopener"&gt;sensors&lt;/a&gt;, and workloads evolve, while helping them move more efficiently from prototype to deployment.&lt;/p&gt;
-&lt;p&gt;“As sensors multiply at the edge and through physical AI systems, our customers need a simpler way to turn real-world data into timely action,&amp;#8221; said Dan Rodriguez, corporate vice president and general manager of the Edge Computing Group at Intel. &amp;#8220;Together with Altera, we aim to give OEMs a flexible foundation that simplifies integration and helps them move faster from prototype to market deployment while meeting their needs across performance, power and cost.&amp;#8221;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;h2&gt;&lt;b&gt;Altera, Intel to apply programmable, real-time processing&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;Intel and Altera said they plan to address multiple markets where real-time processing and programmable computing matter most. The companies intend to make resulting reference solutions accessible to developers through Intel’s &lt;a href="https://www.intel.com/content/www/us/en/developer/tools/tiber/edge-platform/overview.html" target="_blank" rel="noopener"&gt;Open Edge Platform&lt;/a&gt; software development kit (SDK) and an Altera SDK.&lt;/p&gt;
-&lt;ul class="bwlistdisc"&gt;
-&lt;li&gt;&lt;b&gt;Robotics:&lt;/b&gt; The partners said they will combine Intel compute, &lt;a href="https://www.therobotreport.com/category/technologies/networking-connectivity/" target="_blank" rel="noopener"&gt;connectivity&lt;/a&gt;, and robotics software with Altera FPGAs to address the increasingly complex sensing, timing, and real-time processing requirements of intelligent machines.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;&lt;a href="https://www.therobotreport.com/category/markets-industries/biotechnology-medical-healthcare/" target="_blank" rel="noopener"&gt;Healthcare&lt;/a&gt;:&lt;/b&gt; The companies are jointly developing a reference system targeting the stringent latency and real-time requirements of advanced healthcare equipment.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;&lt;a href="https://www.therobotreport.com/category/markets-industries/aerospace/" target="_blank" rel="noopener"&gt;Aerospace&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/category/markets-industries/defense-security/" target="_blank" rel="noopener"&gt;defense&lt;/a&gt;:&lt;/b&gt; Intel and Altera are collaborating to support next-generation mission systems, with a focus on size, weight, and power requirements for converged &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; and signal-processing workloads.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Together, Intel and Altera said they will help OEMs move faster from prototype by reducing integration complexity and addressing performance, power, and cost requirements across a range of edge applications.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Overview of Altera’s FPGA AI Suite Software" width="740" height="416" src="https://www.youtube.com/embed/fmaZ7msY4Ng?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/"&gt;Intel and Altera expand collaboration to simplify sensor integration for physical AI&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/feed/</ns4:commentRss>
-			<ns5:comments>1</ns5:comments>
 		
 		
 			</item>

@@ -4,7 +4,116 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-16T17:47:55Z</ns0:updated>
+  <ns0:updated>2026-11-17T11:19:49Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/b00571809f7cab69abeee19744d8dd3c18977aa2</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b00571809f7cab69abeee19744d8dd3c18977aa2" />
+    <ns0:title>
+        refactor: move G1 controllers to lerobot.controllers.unitree_g1 (#5339)
+    </ns0:title>
+    <ns0:updated>2026-11-17T11:19:49Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>nepyope</ns0:name>
+      <ns0:uri>https://github.com/nepyope</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor: move G1 controllers to lerobot.controllers.unitree_g1 (#5339)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/d7705563b2a184573d6f87f94090d3bea8f971cd</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d7705563b2a184573d6f87f94090d3bea8f971cd" />
+    <ns0:title>
+        fix(yam): controller lifecycle fixes and feedback freshness from moto…
+    </ns0:title>
+    <ns0:updated>2026-11-17T11:08:17Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/13318497?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>s1lent4gnt</ns0:name>
+      <ns0:uri>https://github.com/s1lent4gnt</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(yam): controller lifecycle fixes and feedback freshness from motorbridge 0.6 (#5380)
+
+* fix(yam): leave torque off when the controller fails to start
+
+Enable torque inside the guarded block, and disable it if enabling or starting the
+control thread fails, including motors a failed enable_all already turned on.
+
+* fix(yam): raise torque-off failures and still close CAN
+
+disable_torque no longer swallows errors: stop() and disconnect() report them, while
+CAN and the cameras are still closed so the motors&amp;#39; CAN timeout stops the arm. A failed
+connection cleans up without masking the original error.
+
+* fix(yam): stop arms independently and share only faults between them
+
+Stopping one arm&amp;#39;s controller set the stop event both arms share, so recalibrating one
+arm of a BiYamFollower silently ended the other arm&amp;#39;s loop and let it drop after the CAN
+timeout. Each controller now has its own stop signal; the shared event, renamed
+fault_event, is only set by faults, which still stop both arms. start() refuses to run
+after a fault until the owner clears the event on connect.
+
+* fix(yam): compute gravity torques outside the controller lock
+
+The gravity model can take a while; computing it under the lock blocked latest() and
+set_target() callers for that time.
+
+* fix(yam): name controllers after the robot, not its id
+
+str(self.id) gave &amp;quot;None&amp;quot; for robots without an id; str(self) names the robot and its
+id in thread names and error messages.
+
+* fix(yam): require placo up front when gravity compensation is on
+
+Check it when the robot is built, with the yam extra install hint, instead of failing
+later while loading the gravity model.
+
+* refactor(yam): download the gravity model from the robot-urdfs dataset
+
+Load yam/v1/linear_4310.urdf from the lerobot/robot-urdfs dataset with hf_hub_download
+instead of the bucket, and remove ensure_bucket_file and the bucket constants, which only
+YAM used.
+
+* test(yam): cover the controller fixes and slim the YAM tests
+
+Add regression tests for the fixes: torque stays off after a failed start, torque-off
+failures raise after closing CAN, stopping one arm leaves the other running while a fault
+stops both, and recalibrating one arm keeps the other under control. Share the YAM mocks
+in tests/mocks/mock_yam.py, and merge or remove overlapping tests.
+
+* refactor(yam): check feedback freshness with motorbridge 0.6 snapshots and drop python-can
+
+* doc(yam): add mit cmd equation
+
+* refactor(yam): move the robot-urdfs repo id to lerobot.utils.constants
+
+---------
+
+Co-authored-by: CarolinePascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/4407625def76b789346080e4df67eac4a9277372</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4407625def76b789346080e4df67eac4a9277372" />
+    <ns0:title>
+        chore(hf-libero): bumping hf-libero lower bound version to 0.1.5 (#5386)
+    </ns0:title>
+    <ns0:updated>2026-11-17T09:30:42Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29127300?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>CarolinePascal</ns0:name>
+      <ns0:uri>https://github.com/CarolinePascal</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(hf-libero): bumping hf-libero lower bound version to 0.1.5 (#5386)
+
+* chore(hf-libero): bumping hf-libero lower bound version to 0.1.5
+
+* chore(uv lock): updating uv.lock&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/7910c20a75834ad3fa6a9792df4d44a614d1bba6</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7910c20a75834ad3fa6a9792df4d44a614d1bba6" />
@@ -463,54 +572,6 @@ Co-authored-by: CarolinePascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/pr
 
 Co-authored-by: Sang Nguyen &amp;lt;sangnt1552314@gmail.com&amp;gt;
 Co-authored-by: Sang Nguyen &amp;lt;sangnt2@younetgroup.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/aea98d8e66aac08f5b6bd62c86d1370ace175ec7</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/aea98d8e66aac08f5b6bd62c86d1370ace175ec7" />
-    <ns0:title>
-        chore(dependencies): update uv.lock (#5271)
-    </ns0:title>
-    <ns0:updated>2026-11-10T14:29:09Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): update uv.lock (#5271)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/81b8c5bfdd5591ec59e512cfc7ac6db8151c70ee</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/81b8c5bfdd5591ec59e512cfc7ac6db8151c70ee" />
-    <ns0:title>
-        fix(docker): resolve robosuite with RoboCasa's MuJoCo pin (#5293)
-    </ns0:title>
-    <ns0:updated>2026-11-09T13:23:29Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(docker): resolve robosuite with RoboCasa&amp;#39;s MuJoCo pin (#5293)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/d490e472a5d1a207cfe0255caaaf74b6d66e4656</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d490e472a5d1a207cfe0255caaaf74b6d66e4656" />
-    <ns0:title>
-        chore(dependencies): Bump lerobot to 0.7.1 (#5269)
-    </ns0:title>
-    <ns0:updated>2026-11-05T23:27:05Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(dependencies): Bump lerobot to 0.7.1 (#5269)&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
