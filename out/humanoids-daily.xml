@@ -7,9 +7,49 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 17 Nov 2026 14:26:40 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 17 Nov 2026 22:02:49 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/brett-adcock-moonshots-helix-3-homes-six-months</guid>
+    <title>Brett Adcock Hopes Figure Robots Can Work in Any Home Within Six Months</title>
+    <link>https://www.humanoidsdaily.com/news/brett-adcock-moonshots-helix-3-homes-six-months</link>
+    <description>On Peter Diamandis' Moonshots podcast, Figure's CEO gave a home timeline after showing Helix 3, put BotQ capacity at about 40,000 robots a year, and said the world ran out of compute in September.</description>
+    <pubDate>Tue, 17 Nov 2026 22:02:49 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Brett Adcock</category><category>Tesla</category><category>OpenAI</category><category>Figure-04</category><category>Interview</category><category>Figure</category><category>BotQ</category><category>HARK</category><category>helix</category><category>China</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/weekly-newsletter-genesis-ai-foundation-november-17</guid>
+    <title>This Week in Humanoids: Genesis AI’s $500M, Apollo’s Big Week and Foundation’s Missed Payroll</title>
+    <link>https://www.humanoidsdaily.com/news/weekly-newsletter-genesis-ai-foundation-november-17</link>
+    <description>Our November 17 newsletter covers Genesis AI’s Series A, Gemini Robotics 2.5 and GXO’s Apollo plan, Jensen Huang’s exit, Foundation’s payroll and first humanoids from Genki and ASUS.</description>
+    <pubDate>Tue, 17 Nov 2026 21:48:58 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Newsletter</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/gemini-4-hydrogen-robotics-antigravity-plugin</guid>
+    <title>Gemini 4 Hydrogen Takes Over From Gemini Robotics ER 2 as Google Launches a Robotics Plugin for Antigravity</title>
+    <link>https://www.humanoidsdaily.com/news/gemini-4-hydrogen-robotics-antigravity-plugin</link>
+    <description>Google says its cheaper Gemini 4 model beats Gemini Robotics ER 2 on embodied reasoning and scores 58 on AA-Robotics. A new Antigravity plugin sets up an arm over USB, builds MuJoCo sims from chat and runs the same code on hardware.</description>
+    <pubDate>Tue, 17 Nov 2026 21:09:13 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>LeRobot</category><category>DeepMind</category><category>Benchmark</category><category>Foundation Model</category><category>open-source</category><category>Google</category><category>Agentic AI</category><category>Gemini</category><category>google-deepmind</category><category>simulation</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/mimic-robotics-flux-mimic-x-robolab</guid>
+    <title>Mimic Robotics Previews FLUX-mimic-x, Claiming the Top RoboLab Score for Real-Time Robot Policies</title>
+    <link>https://www.humanoidsdaily.com/news/mimic-robotics-flux-mimic-x-robolab</link>
+    <description>The 7B Video-Action Model, built on Black Forest Labs' FLUX 3, scores 51.4% on NVIDIA's RoboLab in Mimic's own chart. No paper, blog post or weights have been published yet.</description>
+    <pubDate>Tue, 17 Nov 2026 21:07:52 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Mimic Robotics</category><category>NVIDIA</category><category>Benchmark</category><category>vla</category><category>Foundation Model</category><category>Europe</category><category>world-model</category><category>simulation</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/genesis-ai-raises-500m-series-a-at-3-5b-valuation</guid>
     <title>Genesis AI Raises $500M Series A at $3.5B Valuation as Eno Heads Into Production</title>
@@ -268,46 +308,6 @@
     <pubDate>Sat, 07 Nov 2026 11:43:21 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>hyundai</category><category>US</category><category>South Korea</category><category>Batteries</category><category>Samsung</category><category>Boston Dynamics</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/unitree-hangzhou-factory-manual-assembly-josef-chen</guid>
-    <title>Inside Unitree's Hangzhou Factory, Robots Are Still Mostly Built by Hand</title>
-    <link>https://www.humanoidsdaily.com/news/unitree-hangzhou-factory-manual-assembly-josef-chen</link>
-    <description>Josef Chen's visit to Unitree's Hangzhou factory, and the company's own filings, show a robot maker running on manual assembly with about $50 of machinery per robot. He argues US wages and trade barriers make factory automation far more valuable to American robot makers.</description>
-    <pubDate>Sat, 07 Nov 2026 11:31:16 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>1X Technologies</category><category>Tesla</category><category>Unitree Robotics</category><category>US</category><category>Figure</category><category>Actuators</category><category>Supply Chain</category><category>manufacturing</category><category>China</category><category>AGIBOT</category><category>FCC</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/embodied-ai-air-wheeled-humanoid-factory-humanoid-europe</guid>
-    <title>Swiss Startup Embodied AI Unveils AIR, a Wheeled Robot Built to Work Beside Factory Staff Without a Cage</title>
-    <link>https://www.humanoidsdaily.com/news/embodied-ai-air-wheeled-humanoid-factory-humanoid-europe</link>
-    <description>The EPFL spin-off's two-armed robot starts each job under remote control and, the company says, takes the task over within a month. It reports a 95% average success rate in paid pilots.</description>
-    <pubDate>Fri, 06 Nov 2026 11:59:02 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>teleoperation</category><category>Europe</category><category>safety standards</category><category>Wheeled base</category><category>product-launch</category><category>manufacturing</category><category>embodied-ai</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/tokyo-3d-printed-musculoskeletal-robot-legs</guid>
-    <title>Tokyo Researchers Build Robotic Legs With 3D-Printed Muscles, Tendons and Ligaments</title>
-    <link>https://www.humanoidsdaily.com/news/tokyo-3d-printed-musculoskeletal-robot-legs</link>
-    <description>University of Tokyo researchers combine flexible printed structures with motor-driven wires to demonstrate supported stepping, offering a different take on bio-inspired robotics from Clone.</description>
-    <pubDate>Fri, 06 Nov 2026 06:48:44 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Research</category><category>Japan</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/apple-halo-humanoid-synthetic-data-unitree-g1</guid>
-    <title>Apple's HALO Teaches a Unitree G1 to Navigate Unseen Rooms With Simulation-Generated Data</title>
-    <link>https://www.humanoidsdaily.com/news/apple-halo-humanoid-synthetic-data-unitree-g1</link>
-    <description>Trained on 300 hours of generated motion in simulated rooms, the onboard system completed 91% of 360 real-world trials without any teleoperation data.</description>
-    <pubDate>Thu, 05 Nov 2026 13:47:43 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>reinforcement-learning</category><category>G1</category><category>Apple</category><category>US</category><category>Research</category><category>simulation</category>
   </item>
 
   </channel>

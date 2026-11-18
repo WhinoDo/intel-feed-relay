@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Tue, 17 Nov 2026 15:22:06 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 17 Nov 2026 23:55:07 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,134 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>California DMV bars Waymo AVs from operating on the state’s freeways</title>
+		<link>https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/</link>
+					<comments>https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/#respond</comments>
+		
+		<dc:creator>Brianna Wessling</dc:creator>
+		<pubDate>Tue, 17 Nov 2026 23:55:07 +0000</pubDate>
+				<category>Artificial Intelligence</category>
+		<category>Artificial Intelligence / Cognition</category>
+		<category>Automotive</category>
+		<category>Design / Development</category>
+		<category>Markets / Industries</category>
+		<category>News</category>
+		<category>Robots / Platforms</category>
+		<category>Self-Driving Vehicles</category>
+		<category>Waymo</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590288</guid>
+
+					<description>&lt;p&gt;The DMV determined that Waymo's freeway operations "pose an imminent hazard to public safety due to recurring incursions by its vehicles."&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/"&gt;California DMV bars Waymo AVs from operating on the state&amp;#8217;s freeways&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590289" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590289" class="size-full wp-image-590289" src="https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured.jpg" alt="A Waymo AV driving on a freeway. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590289" class="wp-caption-text"&gt;Waymo said the DMV order only applies to freeways and will not affect its operations on city streets. | Source: Waymo&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;The California Department of Motor Vehicles has barred Waymo autonomous vehicles (AVs) from operating on the state’s freeways. The DMV issued the order on Nov. 11, following a number of incidents in the state, it confirmed to &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Waymo said it will restrict freeway operations across all of its operating areas, as part of its safety-first approach.&lt;/p&gt;
+&lt;p&gt;The ban comes &amp;#8220;following an incident in which three Waymo autonomous vehicles entered an active construction closure on U.S. Route 101 near Burlingame and another incident involving CHP vehicles on Highway 280 in San Francisco,&amp;#8221; the DMV said. In the second incident, a Waymo vehicle can be seen on &lt;a href="https://x.com/ABC7/status/2121332271529488577" target="_blank" rel="noopener"&gt;video&lt;/a&gt; attempting to drive past California Highway Patrol officers while they&amp;#8217;re conducting a traffic stop.&lt;/p&gt;
+&lt;p&gt;The DMV determined that &lt;a href="https://www.therobotreport.com/tag/waymo/" target="_blank" rel="noopener"&gt;Waymo&amp;#8217;s&lt;/a&gt; freeway operations &amp;#8220;pose an imminent hazard to public safety due to recurring incursions by its vehicles into active construction zones where construction workers, vehicles and equipment are present.&amp;#8221; The action prevents Waymo from operating or testing its driverless vehicles on all California freeways.&lt;/p&gt;
+&lt;p&gt;The restrictions will remain in place until Waymo demonstrates to the DMV that it has &amp;#8220;taken effective corrective actions to address the deficiencies that precipitated the restrictions.&amp;#8221; This includes providing evidence that its AVs can safely detect and respond to construction zones, emergency vehicles, and other roadway situations within the vehicles’ operational design domain.&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Safety is at the foundation of everything we do. Following recent freeway construction zone encounters on U.S. 101 in California that did not involve any injuries or collisions, the California DMV has implemented an operating restriction on freeway operations in the state. In alignment with our safety-first principles, we have also temporarily restricted freeway operations across our other operating markets to evaluate our performance. Our ride-hailing service continues to operate safely on surface streets, serving over half a million trips each week. We are working with the California DMV and other state officials diligently and responsibly to resume freeway operations,&amp;#8221; a Waymo spokesperson told&amp;nbsp;&lt;em&gt;The Robot Report&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;iframe title="Why does the Waymo Driver rely on cameras, radar, and lidar? The answer comes down to sensor fusion." width="740" height="416" src="https://www.youtube.com/embed/Vwrz1hfVeSM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Waymo AVs struggle with construction zones&lt;/h2&gt;
+&lt;p&gt;This isn&amp;#8217;t Waymo&amp;#8217;s first time running into issues with the California DMV this year. The DMV noted that Waymo AVs still posed a safety threat &amp;#8220;despite a prior restriction and corrective actions implemented following similar incidents that occurred on May 18, 2026.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;The incidents the DMV is referring to occurred when seven Waymo vehicles drove between construction cones and into closed lanes in San Francisco. This incident resulted in Waymo &lt;a href="https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26E035-7637.pdf" target="_blank" rel="noopener"&gt;issuing&lt;/a&gt; a safety recall with the National Highway Traffic Safety Administration (NHTSA) in June.&lt;/p&gt;
+&lt;p&gt;In the recall report, Waymo said that &amp;#8220;under certain circumstances, the AV may enter and drive at speed in freeway construction zones due to inappropriately prioritizing the avoidance of other freeway hazards and/or failing to recognize the construction zone.&amp;#8221; The recall was supposed to enhance Waymo AVs&amp;#8217; performance in and around freeway construction zones.&lt;/p&gt;
+&lt;p&gt;Waymo said it plans to continue freeway testing with trained autonomous specialists in the vehicles. It noted that its vehicles had been driving fully autonomously on California freeways for several years and began offering public riders trips using freeways last November.&lt;/p&gt;
+&lt;p&gt;Emergency vehicles, stopped &lt;a href="https://www.therobotreport.com/nhtsa-investigates-waymo-autonomous-vehicle-hit-child-near-santa-monica-school/" target="_blank" rel="noopener"&gt;school buses&lt;/a&gt;, and now construction zones have been some of the biggest challenges for Waymo since it began rolling out its robotaxis in 2018. Waymo now operates commercial services in over 15 cities in the U.S., including Austin, Las Vegas, and Atlanta. It has plans to expand to 17 more cities, including in London and Tokyo, in the coming years.&lt;/p&gt;
+&lt;h2&gt;Waymo vehicles and hit-and-runs in Arizona&lt;/h2&gt;
+&lt;p&gt;The robotaxis have also been involved in a growing number of hit-and-run incidents in Arizona, according to a local CBS channel.&lt;/p&gt;
+&lt;p&gt;Almost half of all police-reported crashes involving Waymo robotaxis in the Phoenix metro area end with the human driver fleeing the scene—a hit-and-run rate per mile more than double that of the general public, according to a 10-month review of crash reports and body-camera footage.&lt;/p&gt;
+&lt;p&gt;&lt;iframe title="Waymo hit-and-runs in Arizona: What police records reveal" width="740" height="416" src="https://www.youtube.com/embed/l5yDslNWOvU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/"&gt;California DMV bars Waymo AVs from operating on the state&amp;#8217;s freeways&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
+		<title>Learn how AI is changing supply chain robotics</title>
+		<link>https://www.therobotreport.com/learn-how-ai-is-changing-supply-chain-robotics/</link>
+					<comments>https://www.therobotreport.com/learn-how-ai-is-changing-supply-chain-robotics/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Tue, 17 Nov 2026 19:58:18 +0000</pubDate>
+				<category>Events</category>
+		<category>Logistics</category>
+		<category>Markets / Industries</category>
+		<category>News</category>
+		<category>Ambi Robotics</category>
+		<category>Gideon</category>
+		<category>inVia Robotics</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590284</guid>
+
+					<description>&lt;p&gt;The live webinar, "Robots in the Supply Chain," will take place Wednesday, November 18, 2026, at 12 P.M. ET.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/learn-how-ai-is-changing-supply-chain-robotics/"&gt;Learn how AI is changing supply chain robotics&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590285" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590285" class="size-full wp-image-590285" src="https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured.jpg" alt="From left to right: Lio Elazary, the co-founder and CEO of inVia Robotics, Josip Cesic, the co-founder and CEO of Gideon, and Jeff Mahler, the co-founder and CTO of Ambi Robotics." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590285" class="wp-caption-text"&gt;From left to right: Lior Elazary, the co-founder and CEO of inVia Robotics, Josip Cesic, the co-founder and CEO of Gideon, and Jeff Mahler, the co-founder and CTO of Ambi Robotics.&lt;/p&gt;&lt;/div&gt;
+&lt;p id="isPasted"&gt;Supply chain robotics is undergoing rapid transformation. Companies hope to address labor shortages, improve efficiency, and build resilience against disruptions. Increasingly, they&amp;#8217;re turning to robotics to solve these challenges.&lt;/p&gt;
+&lt;p&gt;Currently, available technologies include warehouse automation, picking and packing systems, autonomous mobile robots for material handling, and AI-powered inventory management. These systems can work together and help organizations adapt to changing demand patterns and product variations.&lt;/p&gt;
+&lt;p&gt;Now, the integration of artificial intelligence is enabling predictive analytics, demand forecasting, and dynamic routing optimization. With AI, robots can learn from operational data to improve performance, reduce errors, and optimize energy consumption.&lt;/p&gt;
+&lt;p&gt;Even manufacturers already using robots stand to gain from these advancements, achieving higher quality, reduced downtime, better predictability, and cost optimization. This transition is a strategic necessity, supporting the shift towards high-volume, high-mix production and resilient supply chains.&lt;/p&gt;
+&lt;p&gt;Learn about all of the latest advancements in the &lt;a href="https://event.on24.com/wcc/r/5176426/A83AF2B49EA1386E318873A6BA3252B3?ms=1794941369096&amp;amp;partnerref=emailShareFromReg" target="_blank" rel="noopener"&gt;webinar&lt;/a&gt;, &amp;#8220;Robots in the Supply Chain.&amp;#8221; The live webinar will take place Wednesday, November 18, 2026, at 12 P.M. ET. If you can&amp;#8217;t attend live, registered attendees will be able to watch a recording of the webinar at their convenience.&lt;/p&gt;
+&lt;p&gt;The webinar will feature insights from three robotics experts: Lior Elazary, co-founder and CEO of InVia Robotics; Josip Cesic, co-founder and CEO of Gideon; and Jeff Mahler, co-founder and CTO of Ambi Robotics.&lt;/p&gt;
+&lt;p&gt;In this webinar, attendees will learn how:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Integrated automation solutions combine warehouse robotics, AI, and predictive analytics for end-to-end supply chain optimization.&lt;/li&gt;
+&lt;li&gt;AI-powered systems enable adaptive operations that respond to changing demand patterns and disruptions.&lt;/li&gt;
+&lt;li&gt;High-volume, high-mix production requirements drive adoption of flexible robotic solutions.&lt;/li&gt;
+&lt;li&gt;Real-time visibility and predictive capabilities improve decision-making and operational resilience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Meet the speakers&lt;/h2&gt;
+&lt;div class="MuiBox-root css-0"&gt;
+&lt;div class="css-172ajfk"&gt;
+&lt;p&gt;&lt;a href="https://www.linkedin.com/in/lelazary/" target="_blank" rel="noopener"&gt;Lior Elazary&lt;/a&gt; is the co-founder and CEO of &lt;a href="https://www.therobotreport.com/tag/inVia-Robotics/" target="_blank" rel="noopener"&gt;inVia Robotics&lt;/a&gt;. At inVia, he leads the company’s vision for applying AI, software, and robotics to improve warehouse operations. With more than 20 years of experience in technology and entrepreneurship, he has built and scaled companies across robotics, software, networking, and enterprise technology.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="MuiBox-root css-0"&gt;
+&lt;div class="MuiBox-root css-xynzzt"&gt;
+&lt;div class="MuiBox-root css-0"&gt;
+&lt;div class="css-172ajfk"&gt;
+&lt;p&gt;&lt;a href="https://www.linkedin.com/in/josipcesic/" target="_blank" rel="noopener"&gt;Josip Cesic&lt;/a&gt; is the co-founder and CEO of &lt;a href="https://www.therobotreport.com/tag/Gideon/" target="_blank" rel="noopener"&gt;Gideon&lt;/a&gt;, a pioneering robotics and AI company. Gideon revolutionizes supply chains with their Physical-AI platform, automating some of the hardest automation problems such as loading and unloading truck trailers with autonomous forklifts.&lt;/p&gt;
+&lt;p&gt;Cesic holds a PhD in autonomy technologies from the University of Zagreb (FER), Croatia, and completed with the University of Waterloo, Canada. His accolades include the Dean&amp;#8217;s Award, Special Dean&amp;#8217;s Award, Rector&amp;#8217;s Award, Special Rector&amp;#8217;s Award, and the Silver Plaque for his outstanding doctoral dissertation. He holds several patents and has published over 20 research papers on robotics and AI. Josip also serves on the Board of Alumni at FER.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="MuiBox-root css-0"&gt;
+&lt;div class="MuiBox-root css-xynzzt"&gt;
+&lt;div class="MuiBox-root css-0"&gt;
+&lt;div class="css-172ajfk"&gt;
+&lt;p&gt;&lt;a href="https://www.linkedin.com/in/jeff-mahler-64b56138/" target="_blank" rel="noopener"&gt;Jeff Mahler&lt;/a&gt; is a co-founder and the CTO for &lt;a href="https://www.therobotreport.com/tag/Ambi-Robotics/" target="_blank" rel="noopener"&gt;Ambi Robotics&lt;/a&gt;, previously serving as CEO of the company. Mahler is responsible for guiding the vision and execution of the company’s advanced operating system, AmbiOS, to power highly dexterous robotic systems in commercial production.&lt;/p&gt;
+&lt;p&gt;Mahler obtained his Ph.D. from UC Berkeley as a member of the AUTOLAB and Berkeley Artificial Intelligence Research Lab. His dissertation research is on the Dexterity-Network (Dex-Net), and he has also published on deep learning from demonstration and control for surgical robots. His research papers have been nominated for numerous awards, including Best Manipulation Paper (ICRA 2016) and Best Human-Robot Interaction Paper (ICRA 2016).&lt;/p&gt;
+&lt;p&gt;Mahler&amp;#8217;s open-source code, training datasets, and neural network weights receive hundreds of downloads per month. Along with Prof. Ruzena Bajcsy, he helped start EE 106B, the UC Berkeley course on mathematical models for robot manipulation. Previously, he co-founded the 3D scanning startup Lynx Laboratories in 2012, which was acquired by Occipital, Inc., and he received the National Defense Science and Engineering Fellowship in 2015.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/learn-how-ai-is-changing-supply-chain-robotics/"&gt;Learn how AI is changing supply chain robotics&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/learn-how-ai-is-changing-supply-chain-robotics/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>Boston Dynamics’ Atlas humanoid lands first non-automotive trial</title>
 		<link>https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/</link>
 					<comments>https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/#respond</comments>
@@ -36,7 +164,7 @@
 					<description>&lt;p&gt;Boston Dynamics’ Atlas humanoid robot will undergo its first trials outside the automotive industry at a major semiconductor manufacturer in early 2027.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/"&gt;Boston Dynamics’ Atlas humanoid lands first non-automotive trial&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_590272" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590272" class="size-full wp-image-590272" src="https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries.jpg" alt="Boston Dynamics' Spot and Atlas robots." width="1000" height="667" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries-300x200.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries-150x100.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries-768x512.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries-357x238.jpg 357w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-590272" class="wp-caption-text"&gt;GlobalFoundries will test Boston Dynamics&amp;#8217; Atlas humanoid (right) in semiconductor manufacturing tasks in 2027. | Credit: Boston Dynamics&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_590272" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590272" class="size-full wp-image-590272" src="https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries.jpg" alt="Boston Dynamics' Spot and Atlas robots." width="1000" height="667" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries-300x200.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries-150x100.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries-768x512.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/atlas-globalfoundries-357x238.jpg 357w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;p id="caption-attachment-590272" class="wp-caption-text"&gt;GlobalFoundries will test Boston Dynamics&amp;#8217; Atlas humanoid (right) in semiconductor manufacturing tasks in 2027. | Credit: Boston Dynamics&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;GlobalFoundries, a leading semiconductor manufacturer, will become the first customer outside of the automotive industry to test Boston Dynamics&amp;#8217; Atlas humanoid. Atlas testing will begin in early 2027, marking a key step in Boston Dynamics’ efforts to commercialize its humanoid.&lt;/p&gt;
 &lt;p&gt;GlobalFoundries is already a customer of &lt;a href="http://www.therobotreport.com/tag/boston-dynamics"&gt;Boston Dynamics&lt;/a&gt;, having deployed its Spot quadruped for industrial inspections for several years. The companies are expanding that relationship to include additional Spot deployments across GlobalFoundries’ global manufacturing network. Since April 2026, two Spot robots at its Singapore facility have collectively traveled nearly 900 km (559 mi.) and completed more than 90,000 inspections in sub-fab areas, achieving a 99% mission success rate, according to the companies.&lt;/p&gt;
 &lt;p&gt;Boston Dynamics and GlobalFoundries will identify potential &lt;a href="https://www.therobotreport.com/category/robots-platforms/humanoids/"&gt;humanoid&lt;/a&gt; applications in semiconductor manufacturing, assess integration requirements and customer readiness, and begin training Atlas to perform specific tasks. The companies did not disclose how many Atlas robots will be involved, which facilities will host the humanoids, or what initial tasks they will perform.&lt;/p&gt;
@@ -52,7 +180,7 @@
 &lt;p&gt;Boston Dynamics has ambitions for Atlas well beyond automotive manufacturing. In September, the company said it was in discussions with existing Spot and Stretch customers across several industries, including aerospace, semiconductors, logistics, food and beverage, and life sciences.&lt;/p&gt;
 &lt;p&gt;Boston Dynamics&amp;#8217; installed base of mobile robots could provide it with an advantage over humanoid developers that are still establishing relationships with industrial customers. Those existing relationships give Boston Dynamics access to facilities, operational data, and customers that already have experience integrating autonomous robots into their workflows.&lt;/p&gt;
 &lt;div align="center"&gt;
-&lt;p&gt;&lt;iframe title="Atlas on a Roll | Classical Motor Controls and Whole-Body RL | Boston Dynamics" width="740" height="416" src="https://www.youtube.com/embed/NL65Awuv8gU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Atlas on a Roll | Classical Motor Controls and Whole-Body RL | Boston Dynamics" width="740" height="416" src="https://www.youtube.com/embed/NL65Awuv8gU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2&gt;Atlas continues to evolve&lt;/h2&gt;
 &lt;p&gt;Despite entering early production, Atlas continues to undergo hardware and software development. Boston Dynamics unveiled in October a redesigned hand for Atlas featuring four fingers and 13 degrees of freedom (DoF), up from seven DoF in its previous three-fingered design.&lt;/p&gt;
@@ -91,7 +219,7 @@
 					<description>&lt;p&gt;Evan Beard explains how AI-native robotics could make automation easier to program and help American manufacturing compete globally.&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/"&gt;The hidden reason most robots fail on the factory floor&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;p&gt;&lt;iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2439661398&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true" width="100%" height="166" frameborder="no" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+										<ns3:encoded>&lt;p&gt;&lt;iframe loading="lazy" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2439661398&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true" width="100%" height="166" frameborder="no" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;"&gt;&lt;a style="color: #cccccc; text-decoration: none;" title="The Robot Report Podcast" href="https://soundcloud.com/robot-report-podcast" target="_blank" rel="noopener"&gt;The Robot Report Podcast&lt;/a&gt; · &lt;a style="color: #cccccc; text-decoration: none;" title="The hidden reason most robots fail on the factory floor" href="https://soundcloud.com/robot-report-podcast/the-hidden-reason-most-robots" target="_blank" rel="noopener"&gt;The hidden reason most robots fail on the factory floor&lt;/a&gt;&lt;/div&gt;
 &lt;div id="attachment_590260" style="width: 291px" class="wp-caption alignleft"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590260" class="size-full wp-image-590260" src="https://www.therobotreport.com/wp-content/uploads/2026/11/evan-beard-headshot.jpg" alt="Evan Beard, CEO, co-founder, Standard Bots." width="281" height="350" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/evan-beard-headshot.jpg 281w, https://www.therobotreport.com/wp-content/uploads/2026/11/evan-beard-headshot-241x300.jpg 241w, https://www.therobotreport.com/wp-content/uploads/2026/11/evan-beard-headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/11/evan-beard-headshot-191x238.jpg 191w" sizes="auto, (max-width: 281px) 100vw, 281px" /&gt;&lt;p id="caption-attachment-590260" class="wp-caption-text"&gt;Evan Beard, CEO, co-founder, Standard Bots.&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;In Episode 270 of &lt;a href="https://www.therobotreport.com/category/podcast/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt; Podcast&lt;/a&gt;, we talk with Evan Beard, the co-founder, CEO, and chief engineer of &lt;a href="https://www.therobotreport.com/tag/standard-bots/" target="_blank" rel="noopener"&gt;Standard Bots&lt;/a&gt;. Standard Bots is one of America&amp;#8217;s largest manufacturers of &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;-native industrial robots.&lt;/p&gt;
@@ -884,129 +1012,6 @@ AGIBOT is a pioneer in the global general-purpose AI robotics industry, with its
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Dynamic Creatures partners with Sixth Wall Studio to bring Hasbro characters to life with robots</title>
-		<link>https://www.therobotreport.com/dynamic-creatures-partners-sixth-wall-studio-bring-hasbro-characters-life-with-robots/</link>
-					<comments>https://www.therobotreport.com/dynamic-creatures-partners-sixth-wall-studio-bring-hasbro-characters-life-with-robots/#respond</comments>
-		
-		<dc:creator>Brianna Wessling</dc:creator>
-		<pubDate>Tue, 10 Nov 2026 18:31:17 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Autonomous Mobile Robots (AMRs)</category>
-		<category>Design / Development</category>
-		<category>Humanoids</category>
-		<category>News</category>
-		<category>Robots / Platforms</category>
-		<category>Dynamic Creatures</category>
-		<category>hospitality</category>
-		<category>service robots</category>
-		<category>Sixth Wall Studio</category>
-		<category>social robots</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590210</guid>
-
-					<description>&lt;p&gt;The companies will combine Sixth Wall’s character authoring and alignment with Dynamic Creatures’ mobile, expressive robots.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/dynamic-creatures-partners-sixth-wall-studio-bring-hasbro-characters-life-with-robots/"&gt;Dynamic Creatures partners with Sixth Wall Studio to bring Hasbro characters to life with robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_590215" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590215" class="size-full wp-image-590215" src="https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured.jpg" alt="On the left, Roberta Thomson, the CEO of Sixth Wall Studio, and on the right, Marc Theerman, co-founder and CEO of Dynamic Creatures. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/hasbro-and-dynamic-creatures-corporate-portrait-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590215" class="wp-caption-text"&gt;On the left, Roberta Thomson, the CEO of Sixth Wall Studio, and on the right, Marc Theerman, co-founder and CEO of Dynamic Creatures. | Source: Dynamic Creatures&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Dynamic Creatures today said it has partnered with Sixth Wall Studio, an AI studio launched by Hasbro in June 2026. The collaborators plan to bring Hasbro characters to life through interactive robots.&lt;/p&gt;
-&lt;p&gt;The company will combine its mobile, expressive robots with &lt;a href="https://sixthwallstudio.com/" target="_blank" rel="noopener"&gt;Sixth Wall&lt;/a&gt;&amp;#8216;s character authoring and alignment. The goal is to create characters that can greet guests, share adventures with them, and remember them when they return at theme parks, resorts, and other entertainment and &lt;a href="https://www.therobotreport.com/tag/hospitality/" target="_blank" rel="noopener"&gt;hospitality&lt;/a&gt; venues.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Today CharacterOS is focused on voice, and Dynamic Creatures is focused on the physical embodiment,&amp;#8221; Marc Theermann, the co-founder and CEO of Dynamic Creatures, told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;Together, the partners will work on turning bits and bytes into real personality over time. One of the research areas is to turn answers into meaningful expressions.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Through the partnership, Sixth Wall Studio will extend its CharacterOS platform and Behavioral Licensing framework into physical experiences. It will support how characters speak, behave and remain true to their established personalities and stories.&lt;/p&gt;
-&lt;p&gt;Dynamic Creatures said its robots will give that intelligence a physical presence. The &lt;a href="https://www.therobotreport.com/tag/dynamic-creatures/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; connects a character’s conversation and personality with expressive movements, gazes, gestures, reactions, and more.&lt;/p&gt;
-&lt;p&gt;“Bringing a character to life means preserving the personality, voice, and story that fans love while opening up new ways to interact,” said Roberta Thomson, CEO of Sixth Wall Studio. “Our partnership with Dynamic Creatures takes that ambition into the physical world. We envision characters that can share an adventure with you while feeling unmistakably authentic from the first hello.”&lt;/p&gt;
-&lt;div id="attachment_590216" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590216" class="size-full wp-image-590216" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped.jpg" alt="Dynamic Creatures' Hugo robot, a furry, purple creature with horns. " width="1000" height="738" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped-300x221.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped-150x111.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped-768x567.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/Hugo-dynamiccreatures-cropped-322x238.jpg 322w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590216" class="wp-caption-text"&gt;Dynamic Creatures designed its first character robot, Hugo, to move freely through guest environments. | Source: Dynamic Creatures&lt;/p&gt;&lt;/div&gt;
-&lt;h2&gt;Partners plan to use robots to provide better guest experiences&lt;/h2&gt;
-&lt;p&gt;&lt;span class="TextRun SCXW185596182 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="auto"&gt;&lt;span class="NormalTextRun SCXW185596182 BCX0"&gt;Together, the companies envision encounters that become part of a continuing story. A character at a resort could welcome a guest, send them on a quest and, during a later encounter, ask how the adventure went. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&amp;#8220;One use case we are exploring is for a guest to show the robot their entrance ticket,&amp;#8221; Theerman said. &amp;#8220;This would allow the robot to identify the guest, and provide personalized experiences such as dining recommendations, or skip the line suggestions.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Beyond theme parks and resorts, the partners envision applications across hotels, cruise ships, &lt;a href="https://www.therobotreport.com/category/retail-wholesale/" target="_blank" rel="noopener"&gt;retail&lt;/a&gt; destinations, and other immersive environments. Memory-enabled experiences would be developed around guest choice and clearly defined permissions, with deployment details established for each venue and use case. Initial Sixth Wall applications would align with its focus on audiences ages 13 and older.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Safety is a central pillar for both Dynamic Creatures and Hasbro,&amp;#8221; said Theerman. &amp;#8220;For Hasbro, it’s about safe interactions, and for Dynamic Creatures, it&amp;#8217;s about physical safety of the robot. One way to ensure this today is by having a human in the loop. Over time, more autonomy features will be swapped in, and the human supervisor will go from &lt;a href="https://www.therobotreport.com/tag/teleoperation/" target="_blank" rel="noopener"&gt;teleoperation&lt;/a&gt; to telemonitoring.&amp;#8221;&lt;/p&gt;
-&lt;h2&gt;Dynamic Creatures has a busy few months since emerging from stealth&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Dynamic Creatures: Living Character Robot Hugo" width="740" height="416" src="https://www.youtube.com/embed/NT7PEX4IlY8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Dynamic Creatures &lt;a href="https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/" target="_blank" rel="noopener"&gt;emerged&lt;/a&gt; from stealth in September 2026 and is developing fully custom robots and character experiences built on existing robotic platforms. As &lt;a href="https://www.therobotreport.com/tag/boston-dynamics/" target="_blank" rel="noopener"&gt;Boston Dynamics&lt;/a&gt;’ official hospitality and entertainment partner, the Cambridge, Mass.-based company combines advanced mobility with character design and real-time interaction for guest environments.&lt;/p&gt;
-&lt;p&gt;Its &lt;a href="https://www.dynamiccreatures.com/snowjay" target="_blank" rel="noopener"&gt;SnowJay&lt;/a&gt; robotics &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; platform coordinates perception, movement, and behavior, bringing together conversation, memory, facial expressions, and animatronics. The company recently released Hugo, its first living character robot. The robot runs on SnowJay and features 43 actuators.&lt;/p&gt;
-&lt;p&gt;“For generations, people have formed powerful connections with fictional characters. Now those characters can share our physical world and respond to us as individuals,” said Marc Theermann, co-founder and CEO of Dynamic Creatures. “Sixth Wall brings the character intelligence and creative framework. We bring the physical expression and presence. Together, we want to make meeting a favorite character feel like the beginning of an ongoing relationship.”&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/dynamic-creatures-partners-sixth-wall-studio-bring-hasbro-characters-life-with-robots/"&gt;Dynamic Creatures partners with Sixth Wall Studio to bring Hasbro characters to life with robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/dynamic-creatures-partners-sixth-wall-studio-bring-hasbro-characters-life-with-robots/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Why predictive maintenance matters more as factories add robots</title>
-		<link>https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/</link>
-					<comments>https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/#respond</comments>
-		
-		<dc:creator>Rob Carbone</dc:creator>
-		<pubDate>Tue, 10 Nov 2026 16:13:40 +0000</pubDate>
-				<category>Actuators / Motors / Servos</category>
-		<category>Arms / Manipulators</category>
-		<category>Autonomous Mobile Robots (AMRs)</category>
-		<category>Batteries / Power Supplies</category>
-		<category>Cameras / Imaging / Vision</category>
-		<category>Controllers</category>
-		<category>Grippers</category>
-		<category>Industrial Robots</category>
-		<category>Manufacturing</category>
-		<category>Motion Control</category>
-		<category>Networking / Connectivity</category>
-		<category>News</category>
-		<category>Opinion</category>
-		<category>Sensors / Sensing Systems</category>
-		<category>Software</category>
-		<category>Advanced Technology Services</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590209</guid>
-
-					<description>&lt;p&gt;As robotics scales across industries, companies need a maintenance strategy to collect and use the right data to minimize downtime.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/"&gt;Why predictive maintenance matters more as factories add robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_590212" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590212" class="size-full wp-image-590212" src="https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-freek-wolsink-508219-34207359-copy.jpg" alt="An industrial automation workcell. Robot data combined with predictive analytics can improve uptime and productivity, says Advanced Technology Services." width="770" height="497" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-freek-wolsink-508219-34207359-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-freek-wolsink-508219-34207359-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-freek-wolsink-508219-34207359-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-freek-wolsink-508219-34207359-copy-768x496.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-freek-wolsink-508219-34207359-copy-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590212" class="wp-caption-text"&gt;Robot data combined with predictive analytics can improve uptime and productivity, says ATS. Source: Pexels, Advanced Technology Services&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;Factories are adding more robots because they can handle repetitive, precise, and physically demanding work at high speed. As robotics take on a greater share of production, keeping those systems available becomes more important.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="none"&gt;The International Federation of Robotics&lt;/span&gt;&lt;span data-contrast="auto"&gt; (&lt;a href="https://www.therobotreport.com/tag/international-federation-of-robotics/" target="_blank" rel="noopener"&gt;IFR&lt;/a&gt;) &lt;a href="https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/" target="_blank" rel="noopener"&gt;reported&lt;/a&gt; about 5 million industrial robots in operation worldwide in 2025, up 11% from the prior year.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;An unexpected robot failure can affect more than one machine. It can interrupt a cell, slow a line, and create delays that spread through the plant. As &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;manufacturers&lt;/a&gt; rely more heavily on robotic systems, the need to identify developing problems before they force equipment offline becomes increasingly valuable.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;h2 aria-level="2"&gt;Why robotic systems raise the support stakes&lt;/h2&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;Traditional preventive maintenance follows a schedule based on time, usage, or manufacturer recommendations. That approach still has value, but it may not reveal what’s happening inside a robot between planned service intervals. A joint, reducer, &lt;a href="https://www.therobotreport.com/category/technologies/actuators-motors-servos/" target="_blank" rel="noopener"&gt;motor&lt;/a&gt;, or &lt;a href="https://www.therobotreport.com/category/technologies/controllers/" target="_blank" rel="noopener"&gt;controller&lt;/a&gt; can begin to show signs of wear while the robot is still operating.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;span data-contrast="auto"&gt;Predictive maintenance uses equipment data to identify changes that may point to developing faults. &lt;/span&gt;&lt;a href="https://www.therobotreport.com/tag/nist/"&gt;&lt;span data-contrast="none"&gt;NIST&lt;/span&gt;&lt;/a&gt;&lt;span data-contrast="auto"&gt;&lt;a href="https://www.nist.gov/publications/comprehensive-evaluations-condition-monitoring-based-technologies-industrial" target="_blank" rel="noopener"&gt; describes condition monitoring&lt;/a&gt; as the detection, diagnosis or prediction of faults and failures in industrial equipment.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;For robotics, that means maintenance decisions can be based more on actual equipment condition than on a calendar alone.&lt;/span&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;h2&gt;&lt;strong&gt;What predictive maintenance can monitor &lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;&lt;a href="https://www.therobotreport.com/category/robots-platforms/industrial-robots/" target="_blank" rel="noopener"&gt;Industrial&lt;/a&gt; automation and related systems generate many types of operating data. Useful signals depend on the robot, application, and failure mode. Common examples include vibration, temperature, and motor current. Torque, controller alarms, cycle data, and maintenance history can also provide useful context.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;The goal isn’t to collect every available data point. Teams need data that can reveal changes tied to the way a robot operates. A rise in vibration may point to a mechanical issue, while changes in motor current or torque may indicate added resistance or abnormal loading. Temperature variations can also signal that a component isn’t operating as expected.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559740&amp;quot;:259}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;Changes in an &lt;a href="https://www.therobotreport.com/category/technologies/grippers-end-effectors/" target="_blank" rel="noopener"&gt;end effector&lt;/a&gt;, &lt;a href="https://www.therobotreport.com/category/technologies/sensors-sensing/" target="_blank" rel="noopener"&gt;sensor&lt;/a&gt;, &lt;a href="https://www.automatedwarehouseonline.com/category/conveyance/" target="_blank" rel="noopener"&gt;conveyor&lt;/a&gt;, or surrounding process can affect robot performance. Looking at the robot in the context of a larger workcell can help teams separate&lt;/span&gt;&lt;span data-contrast="auto"&gt; normal operating variation from a change that may deserve maintenance attention. That distinction is especially important if the same robot handles different loads, speeds, or &lt;a href="https://www.therobotreport.com/category/robot-components/motioncontrol/" target="_blank" rel="noopener"&gt;motion&lt;/a&gt; paths.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;This is where &lt;/span&gt;&lt;a href="https://www.advancedtech.com/industrial-technology/remote-monitoring-analytics/" target="_blank" rel="noopener"&gt;&lt;span data-contrast="none"&gt;reliability monitoring&lt;/span&gt;&lt;/a&gt;&lt;span data-contrast="auto"&gt; can help. Sensors and connected systems can gather machine data, while monitoring and analytics tools help identify changes in equipment behavior. &lt;/span&gt;&lt;a href="https://www.advancedtech.com/industrial-technology/remote-monitoring-analytics/"&gt;&lt;span data-contrast="none"&gt;When a pattern changes&lt;/span&gt;&lt;/a&gt;,&lt;span data-ccp-props="{}"&gt; maintenance teams can then investigate the cause before a failure forces the robot offline.&lt;/span&gt;&lt;/p&gt;
-&lt;div id="attachment_590213" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590213" class="wp-image-590213 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-cmrcn-29988955-1-copy.jpg" alt="A worker and a forklift. Changes in robot performance, plus environmental or process data, can provide maintenance warnings, says ATI." width="770" height="497" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-cmrcn-29988955-1-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-cmrcn-29988955-1-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-cmrcn-29988955-1-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-cmrcn-29988955-1-copy-768x496.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-cmrcn-29988955-1-copy-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590213" class="wp-caption-text"&gt;Changes in equipment performance, plus environmental or process data, can provide warning of problems, says ATI. Source: Pexels, Advanced Technology Services&lt;/p&gt;&lt;/div&gt;
-&lt;h2 aria-level="2"&gt;Turn robot data into maintenance decisions&lt;/h2&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;Collecting data is only the first step. The information has to support a practical maintenance decision. A useful alert should help a team determine what needs attention, how urgent the issue is, and when the robot can be inspected without causing an unnecessary production interruption.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;This becomes more important as factories operate larger fleets of robots. Maintenance teams may not have time to inspect every asset at the same frequency. Predictive maintenance can help direct attention toward equipment showing signs of change while allowing healthy assets to remain in service.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;Earlier warnings can also improve parts planning. If a component shows signs of deterioration, teams may have more time to confirm the problem, locate the correct replacement part, and schedule work during a planned maintenance window.&lt;/span&gt;&lt;/p&gt;
-&lt;div id="attachment_590214" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590214" class="size-full wp-image-590214" src="https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-alex-197677521-11951215-copy.jpg" alt="A welding robot. Robot-generated data provides clues as to their maintenance status, says ATS." width="770" height="498" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-alex-197677521-11951215-copy.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-alex-197677521-11951215-copy-300x194.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-alex-197677521-11951215-copy-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-alex-197677521-11951215-copy-768x497.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/pexels-alex-197677521-11951215-copy-368x238.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590214" class="wp-caption-text"&gt;Earlier warnings can reduce downtime and improve productivity, says ATS. Source: Pexels, Advanced Technology Services&lt;/p&gt;&lt;/div&gt;
-&lt;h2 aria-level="2"&gt;Getting ahead on productivity, asset life, and safety&lt;/h2&gt;
-&lt;p&gt;&lt;span data-ccp-props="{}"&gt;T&lt;/span&gt;&lt;span data-contrast="auto"&gt;he value of predictive maintenance goes beyond preventing unplanned stops. Finding issues early on can limit secondary damage and help manufacturers get more useful life from robotic assets. Planned repairs can also reduce the disruption that occurs when technicians must troubleshoot a failed robot during production.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;A planned maintenance window gives teams more control over when equipment is taken offline and serviced. That can support safer maintenance practices because technicians can prepare for the work instead of responding to an unexpected failure under production pressure.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span data-contrast="auto"&gt;As more factories rely heavily on robotics, maintenance strategies need to account for how those systems perform throughout their service life. Predictive maintenance gives manufacturers a way to use equipment data, condition signals and analytics to identify developing issues earlier. When that information leads to timely inspection and repair, manufacturers can reduce unplanned downtime, protect robotic assets and keep production schedules more stable.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;img loading="lazy" decoding="async" class="alignleft size-medium wp-image-590211" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Rob_Carbone-300x300.jpeg" alt="Robert Carbone is vice president at Advanced Technology Services" width="300" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Rob_Carbone-300x300.jpeg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/Rob_Carbone-150x150.jpeg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/Rob_Carbone-238x238.jpeg 238w, https://www.therobotreport.com/wp-content/uploads/2026/11/Rob_Carbone.jpeg 400w" sizes="auto, (max-width: 300px) 100vw, 300px" /&gt;About the author&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.linkedin.com/in/robert-carbone-8932a1103/" target="_blank" rel="noopener"&gt;Rob Carbone&lt;/a&gt; is vice president of operations at Advanced Technology Services. He is responsible for leading initiatives that help manufacturers improve equipment reliability, maintenance excellence, and customer success.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/"&gt;Why predictive maintenance matters more as factories add robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
