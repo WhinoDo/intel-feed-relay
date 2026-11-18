@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom" version="2.0">
   <channel>
     <title>cs.RO updates on arXiv.org</title>
     <link>http://rss.arxiv.org/rss/cs.RO</link>
@@ -7,12 +7,402 @@
     <ns0:link href="http://rss.arxiv.org/rss/cs.RO" rel="self" type="application/rss+xml" />
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Nov 2026 05:00:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 05:00:00 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 17 Nov 2026 00:00:00 -0500</pubDate>
+    <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
-  </channel>
+    <item>
+      <title>Robustness as a Transferable Skill: Cross-Task Adversarial Defense for Vision-Language-Action Policies</title>
+      <link>https://arxiv.org/abs/2611.18702</link>
+      <description>arXiv:2611.18702v1 Announce Type: new 
+Abstract: Vision-Language-Action (VLA) policies are vulnerable to adversarial visual perturbations, while defenses often require task-specific adversarial fine-tuning. We investigate whether robustness learned on source manipulation tasks can protect independently specialized target policies without target-side adversarial training. We first show that even a single source defense update improves robustness on held-out tasks, establishing cross-task defense reuse independently of multi-source aggregation. To combine source updates, we introduce Source-Norm Transferable Robustness Vector (SN-TRV), which retains the direction of their mean while calibrating its magnitude using source-update norms. The resulting update is applied to the target visual encoder without target adversarial data, target-side gradient optimization, or additional inference modules. Evaluations across three VLA backbones, fixed and adaptive attacks, and different source defense recipes show improved robustness over naive averaging and identify limits in attack coverage. Physical PiPER trials increase average success under printed adversarial patches from 20.3% to 45.8%.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.18702v1</guid>
+      <category>cs.RO</category>
+      <category>cs.CV</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Jinquan Zhang, Run Yang, Dongfu Yin, Qiang Lai, Yufeng Yan, Pengshuai Yin, F. Richard Yu</dc:creator>
+    </item>
+    <item>
+      <title>Technical Report of Auriga's 1:10 Scale Autonomous Vehicle Robot</title>
+      <link>https://arxiv.org/abs/2611.18855</link>
+      <description>arXiv:2611.18855v1 Announce Type: new 
+Abstract: This report presents the design and implementation of Auriga Robotics' 1:10 scale autonomous vehicle, developed at Shahid Beheshti University's Robotics and Intelligent Automation Laboratory. The platform integrates a custom mechanical chassis, a distributed embedded system based on ESP32 microcontrollers, and a Jetson Orin NX module for high-level perception and control. The embedded layer manages sensor interfacing, real-time data acquisition, and actuator control, while the Jetson handles environment perception through deep-learning--based lane, sign, and traffic light detection, as well as decision-making and trajectory control. System communication is achieved via structured UART links, ensuring synchronized operation between perception and control subsystems. The vehicle's software stack incorporates ROS, modular firmware design, and multiple control algorithms---Stanley, PID, and Pure Pursuit---to achieve stable autonomous navigation in structured driving scenarios. The overall system demonstrates robust performance and reliability in urban-like environments, serving as a modular research platform for future autonomous driving studies.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.18855v1</guid>
+      <category>cs.RO</category>
+      <category>cs.CV</category>
+      <category>cs.SY</category>
+      <category>eess.SY</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Marya Sabouri Dodaran, Ali Taheri Garakani, Mandana Shabanzadeh Nasrollah-Abadi, Yousef Ashrafi, Mohammad Mahdi Azimi, Erfan Nekouei Ghahfarokhi, Amirhossein Kheiri Holighi, Seyyed Sobhan Hosseini Hajibakandeh, Matin Jamshidi, Amirhossein Gholizadeh Behbahani, Mohammad Hossein Moaiyeri</dc:creator>
+    </item>
+    <item>
+      <title>Passage-Focused Soft Coordination for Hierarchical Multi-Robot Navigation in Bottleneck Environments</title>
+      <link>https://arxiv.org/abs/2611.18877</link>
+      <description>arXiv:2611.18877v1 Announce Type: new 
+Abstract: In multi-robot navigation, rigid global schedules are sensitive to execution deviations, while local methods lack long-horizon coordination. We propose a passage-focused framework combining soft global coordination with flexible local execution. A passage-induced graph of convex sets supports priority-ordered planning with two levels of soft coordination. Passage-aware route selection accounts for passage usage and traversal directions, while route-restricted continuous space-time planning penalizes temporal conflicts. The resulting references guide a model predictive path integral controller that avoids collisions online. Adaptive temporal and geometric tracking accommodates execution deviations, while selective replanning maintains coordination without rigid trajectory reservations. Across 1,200 instances in 4 different environments with 5-30 robots, the framework achieves a near-perfect success rate and outperforms evaluated baselines in makespan and flowtime. Hardware experiments with 8 robots demonstrate successful completion of all trials without collisions. These results highlight the effectiveness of passage-focused coordination in balancing long-horizon cooperation with flexible execution.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.18877v1</guid>
+      <category>cs.RO</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Haoze Dong, Stepan Dergachev, Meng Guo, Konstantin Yakovlev, Zhongkui Li</dc:creator>
+    </item>
+    <item>
+      <title>Correcting Persistent Failures in Point-Cloud Grasping Policies using Human Demonstrations in Virtual Reality</title>
+      <link>https://arxiv.org/abs/2611.18919</link>
+      <description>arXiv:2611.18919v1 Announce Type: new 
+Abstract: Robots in homes, warehouses and farms must pick up objects they have never seen, usually without a 3D model or a category label. A grasping policy that works directly on the point cloud from a depth sensor needs only the geometry the robot observes, so it applies to any new object. Offline grasp generators such as Contact-GraspNet work this way, but they rank grasps by learned plausibility rather than by whether the grasp actually lifts the object. Reinforcement learning (RL) can optimize for that directly and make a point-cloud grasping policy much better on average, yet it leaves specific grasps persistently unsolved. We present a human-in-the-loop failure loop that targets those grasps: situations an RL policy keeps failing are mined automatically, sent to a virtual-reality application where a person picks the object up with their own hands, and returned to training as two grasp points. The person contributes only where to grasp; the robot chooses its own approach. In simulation, RL raises success on unseen objects from 55% with Contact-GraspNet to 83%. Adding 58 human demonstrations nearly doubles success on the hard cases RL kept failing, from 24% to 45%, and recovers performance that RL alone loses on similar cases that were never demonstrated, without reducing success on unseen objects.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.18919v1</guid>
+      <category>cs.RO</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Achyuthan Unni Krishnan, Karthik Rengarajan, Bharath Narasimhan, Chris von Csefalvay</dc:creator>
+    </item>
+    <item>
+      <title>Optimal Operating-Point Selection for Single-Linearization Trajectory Planning of Nonlinear Robot Manipulators</title>
+      <link>https://arxiv.org/abs/2611.18935</link>
+      <description>arXiv:2611.18935v1 Announce Type: new 
+Abstract: Single-point linearization provides a computationally efficient basis for optimization-based trajectory planning of nonlinear robot manipulators. However, planning performance depends on the selected linearization point. This paper presents an offline performance-driven approach that treats the location of a single linearization as an optimization variable. Candidate operating points are sampled from a common cubic seed trajectory, and each corresponding affine model is used to solve an identical constrained finite-horizon quadratic program (QP). The resulting control sequences are executed on the original nonlinear dynamics, and the operating point minimizing the nonlinear trajectory objective is selected through grid search and bounded refinement. Evaluation on four point-to-point motions of a three-degree-of-freedom UR5 manipulator yields optimal normalized operating-point locations between 0.325 and 0.935, demonstrating trajectory-dependent selection. Compared with the best-performing conventional initial, midpoint, or terminal linearization, the proposed approach reduces the nonlinear trajectory objective by 17-18%, 21-22%, 37-38%, and 7-8% across the four tasks, respectively. Additional nonlinear execution with identical PID feedback correction confirms that the performance advantage persists for a representative task. These results demonstrate that systematic operating-point selection can substantially improve single-linearization trajectory planning while preserving a fixed affine planning model.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.18935v1</guid>
+      <category>cs.RO</category>
+      <category>cs.SY</category>
+      <category>eess.SY</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Bhanuka Dayawansa, Rohan Munasinghe</dc:creator>
+    </item>
+    <item>
+      <title>TMA: Sim-to-Real Forceful Humanoid Manipulation via Tactile-Driven Motor Adaptation</title>
+      <link>https://arxiv.org/abs/2611.18976</link>
+      <description>arXiv:2611.18976v1 Announce Type: new 
+Abstract: Recent humanoid loco-manipulation in articulated environments has largely focused on geometry-dominant interactions, where success is primarily determined by geometric alignment and motion execution. In contrast, forceful multi-finger manipulation requires the robot to adapt to real-world uncertainties in contact and interaction dynamics. We present Tactile-Driven Motor Adaptation (TMA) and an integrated whole-body system for zero-shot sim-to-real forceful humanoid manipulation, and study round-doorknob opening as a challenging benchmark requiring stable multi-finger frictional grasping, sufficient torque generation without slip, force-regulated pushing, and whole-body stability. TMA structures policy learning around interactions observable through tactile feedback, uses cone geometry as an inductive bias for multi-finger contact representation, and adapts motor behavior online from tactile history. An upper-body manipulation policy is trained alongside a pretrained general locomotion controller to coordinate dexterous interaction and whole-body stabilization. Trained entirely in simulation, TMA transfers zero-shot to a Unitree G1 humanoid with BrainCo Revo2 multi-fingered hands and substantially outperforms standard Rapid Motor Adaptation (RMA) and reactive tactile policy baselines across four commercial round doorknobs in the real world.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.18976v1</guid>
+      <category>cs.RO</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Yiting Chen, Kelin Yu, Sarthak Kaingade, Bryan Trinh, Kaiyu Hang, Roberto Martin-martin, Nima Fazeli, X. Alice Wu</dc:creator>
+    </item>
+    <item>
+      <title>Robot Demonstration Videos Should Include Transparency Disclosures</title>
+      <link>https://arxiv.org/abs/2611.18982</link>
+      <description>arXiv:2611.18982v1 Announce Type: new 
+Abstract: This paper argues that the robotics and AI community should adopt disclosure standards for demonstration videos. As physical and financial constraints limit direct public access to embodied AI, public dissemination of progress in robotics is mainly through curated demonstration videos rather than direct experience with the technology. In a large-scale (N=9,341), pre-registered experiment across six countries, we find that the general public struggles to discern both the visual authenticity (e.g., distinguishing real footage from CGI) and behavioral authenticity (e.g., distinguishing autonomy from teleoperation) of robot demonstration videos. The omission of these details distorts public perception, leading people to overestimate the ability of robots to perform tasks and navigate real world environments. Using evidence from behavioral science, we design a disclosure intervention and demonstrate that the inclusion of clear disclosures in robot demonstration videos significantly improves discernment of visual and behavioral authenticity, as well as understanding robots' capabilities. We propose the adoption of disclosure standards for robot demonstration videos to accurately calibrate public expectations and promote transparency in robotics research.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.18982v1</guid>
+      <category>cs.RO</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Nozomi Nakajima</dc:creator>
+    </item>
+    <item>
+      <title>Refinement vs. Replanning: Inference Compute Allocation in Robot Policies</title>
+      <link>https://arxiv.org/abs/2611.19034</link>
+      <description>arXiv:2611.19034v1 Announce Type: new 
+Abstract: A frozen chunked robot policy can spend deployment-time inference compute in two coupled ways: more work within each policy call to refine a predicted action chunk, or more frequent policy calls to replan from fresh observations. We study this allocation without updating model weights. Our evaluation procedure reports success with both nominal compute rate and complete attempt cost, selects comparisons on discovery tasks, and tests prespecified comparisons on held-out tasks. Comparisons added after inspecting the held-out results only summarize observed patterns. We demonstrate the procedure with one frozen SmolVLA checkpoint in synchronous LIBERO simulation, using denoising count as the refinement control and fixing chunk length at K=50. Arithmetic and latency characterize cost differently: at d=10, 82.1% of counted arithmetic is independent of denoising, whereas a descriptive affine fit to fixed-input host time assigns 17.7% to its intercept. At h=2, d=2 succeeds on 139/160 attempts versus 122/160 for d=5 (+10.6 percentage points; task-conditional 95% interval: +4.4 to +16.9), while using 5.9% less arithmetic per control step. Executing h=5 rather than h=2 at d=2 yields 138/160 versus 139/160 successes and 60.7% lower arithmetic per attempt; equivalence is not established. The case study shows why deployment adaptation must evaluate generation effort and feedback frequency jointly; it does not define a universal setting.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19034v1</guid>
+      <category>cs.RO</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Alba Maria Tellez Fernandez</dc:creator>
+    </item>
+    <item>
+      <title>Certify, Then Select: Viability-Aware Runtime Steering of Frozen Diffusion Policies</title>
+      <link>https://arxiv.org/abs/2611.19047</link>
+      <description>arXiv:2611.19047v1 Announce Type: new 
+Abstract: Diffusion policies, which generate short action sequences by denoising random noise, are a leading way to learn robot skills from demonstrations. Once deployed, they meet constraints the demonstrations never contained, and retraining for each is impractical. A safety filter edits the policy's action to satisfy them, but the edit ignores the task, and a large edit can leave the policy where it cannot continue. We propose CAST (Certified Action Selection at Test time): draw a few action chunks from the frozen policy, certify each with a barrier condition, and execute the certified chunk that a learned value ensemble ranks highest. We prove that a certified step is safe whatever the critic does; that, whenever a certified sample exists, the executed chunk stays within log N nats of the policy conditioned on feasibility, while a safety-filter projection can be singular to it; and that an exact closed-loop identity splits the gain of ranking into availability, spread and the critic's target. Certifying the next chunk is not enough: a generative controller can have safe actions available now and none later. We characterise the safe control authority of a frozen policy under finite sampling, and CAST-V preserves it through a policy-conditioned viability, estimated with a model under a finite-sample guarantee or learned from the controller's own logs (CAST-VL). On robomimic manipulation, a planar quadrotor, a MuJoCo humanoid and a unicycle, with frozen policies, CAST raises joint task-and-constraint success above the output filter in nearly every setting; certifying before ranking is decisive where a filter's edit is large, and viability removes most dead ends that one-step certification cannot see. Project page: https://clmoro.github.io/cast.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19047v1</guid>
+      <category>cs.RO</category>
+      <category>cs.LG</category>
+      <category>cs.SY</category>
+      <category>eess.SY</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Angelo Moroncelli, Loris Roveda</dc:creator>
+    </item>
+    <item>
+      <title>RoboCoEvo: Expanding Robot Capabilities through Agent-Policy Co-Evolution</title>
+      <link>https://arxiv.org/abs/2611.19081</link>
+      <description>arXiv:2611.19081v1 Announce Type: new 
+Abstract: Integrating MLLM-based agents with robotic foundation models has attracted increasing attention as a means of enhancing robotic capabilities. However, the improvement of such integrated systems remains largely decoupled across their agent and model components, with advances in one component not necessarily benefiting the other, substantially limiting the capabilities of the combined system. As both MLLMs and robotic foundation models become increasingly capable, fully realizing their combined potential calls for co-evolution, an iterative process in which improvements in agents and robotic foundation models reinforce one another. We propose RoboCoEvo, a failure-guided co-evolution framework that couples the refinement of the agent's explicit and reusable executable knowledge with parameter learning in robotic foundation models, such as vision-language-action (VLA) models. Through a code-as-policy formulation, the agent develops and refines executable failure-detection and recovery programs, generating targeted corrective experience. Post-training consolidates the resulting corrective behaviors into the robotic model's end-to-end policy, improving autonomous task execution. Changes in the updated policy's failure distribution, in turn, guide subsequent revisions to the agent's programs. Experiments on BEHAVIOR-1K, RoboCasa, and RoboTwin demonstrate sustained improvements in autonomous VLA task performance across successive co-evolution rounds.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19081v1</guid>
+      <category>cs.RO</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Ran Qi, Yixin Xiao, Dawei Wang, Zhiyuan Li, Jinbang Huang, Xuan Zhao, Yintao Ma, Yangzheng Wu, Tongtong Cao, Yingxue Zhang</dc:creator>
+    </item>
+    <item>
+      <title>Leaning Over to Reach Far-Away Objects</title>
+      <link>https://arxiv.org/abs/2611.19100</link>
+      <description>arXiv:2611.19100v1 Announce Type: new 
+Abstract: We study supported reaching to extend a humanoid robot's workspace by bracing against the environment for stabilization using a straightforward yet capable whole-body model predictive control (MPC) approach, exclusively with local sensing and fiducial markers. While typical solutions for whole body humanoid control aim at avoiding or accommodating contact, contact is explicitly required to reach objects placed on surfaces far out of normal reach. We employ sampling-based MPC for whole-body leaning, bracing, reaching, and recovery on a Unitree H1-2 humanoid. The controller runs in real-time at 34 Hz on a laptop, transfers sim-to-real, extends reach by about 50 cm beyond the unbraced standing workspace, and sustains the loaded posture for over four minutes, before pose estimation drifts. The controller reaches the commanded target in 89% of trials and completes the full reach-and-recovery cycle in 81%, across 54 trials spanning six targets and three table heights. We further characterize why such a small real-time sampling budget is sufficient, finding that temporal persistence of sampled actions and exploration scale strongly govern success, while CEM provides the widest operating region over planning rate and model mismatch. These results establish a real-world baseline for online, contact-rich humanoid manipulation. Code, videos, and full hardware details are available at https://h12leaner.github.io/</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19100v1</guid>
+      <category>cs.RO</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Allen Devaraj, William Xie, Nikolaus Correll</dc:creator>
+    </item>
+    <item>
+      <title>Wireless Edge-Assisted Adaptive Latent Reasoning for Vision-Language-Action Models in Physical AI</title>
+      <link>https://arxiv.org/abs/2611.19131</link>
+      <description>arXiv:2611.19131v1 Announce Type: new 
+Abstract: Vision-language-action (VLA) models enable embodied artificial intelligence (AI) by translating visual observations and language instructions into robotic actions. Emerging use cases in physical AI are expected to drive the need for efficient inference and communication, as the computational demands of the VLA models pose challenges for real-time control with limited onboard resources. Test-time scaling through latent reasoning allows these models to refine hidden representations without generating explicit chain-of-thought (CoT) tokens, but introduces a trade-off between task success, inference latency, and energy consumption. In this paper, we address the efficient collaborative inference under a realistic communication scenario. We propose a wireless edge-assisted framework for adaptive latent reasoning (WEALR) that augments onboard computation with edge computing. A decision-making agent jointly selects the execution location and latent-reasoning convergence threshold. We formulate this joint adaptation as a constrained Markov decision process (CMDP). A Lagrangian-constrained deep reinforcement learning (CDRL) approach, namely trust region policy optimization Lagrangian (TRPO-Lag), learns to balance task performance and resource consumption under varying wireless conditions and task requirements. We evaluate the framework using LIBERO manipulation tasks, profiled VLA inference costs, and ray-traced wireless channels. Experimental results demonstrate that TRPO-Lag achieves up to 23% higher feasibility-weighted task success rate compared to benchmark CDRL methods.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19131v1</guid>
+      <category>cs.RO</category>
+      <category>cs.NI</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Fatih Temiz, Melike Erol-Kantarci</dc:creator>
+    </item>
+    <item>
+      <title>SuperGlance: Driving at a Glance with a Vision-Language Model</title>
+      <link>https://arxiv.org/abs/2611.19138</link>
+      <description>arXiv:2611.19138v1 Announce Type: new 
+Abstract: Autonomous driving is turning to vision-language-action models (VLAs). They answer and plan by decoding, one step at a time. Each step is another forward pass, so a plan can take over a second of GPU time. Embodied AI often pairs such a slow, reasoning System 2 with a fast System 1 that acts. Human drivers plan at a glance, with System 1. Faster designs usually put System 1 outside the vision-language model (VLM), in a planner without its abilities. Yet before a VLM writes its first token, it has already read the scene into one hidden state. We show that, once trained, this hidden state is enough to drive and to answer questions about what the model sees. SuperGlance reads it to turn a decoder-only VLM into an encoder-style driving policy. Its linear head scores a fixed set of 5,273 candidate trajectories. With the set fixed, rewards are computed offline, so supervised targets can be reward-weighted and reinforcement learning maximizes the exact expected reward. Before and during policy training, multiple-choice training keeps the VLM's visual abilities in one pass, so the policy still answers questions about driving scenes. Training questions are built against shortcuts. Each must be answered right in two option orders. Against drift, a KL term keeps each stage near its starting model. One pass offers VLAs a more plausible path to System 1. SuperGlance answers visual multiple-choice questions as well as its base VLM does by decoding. It plans in 84 ms of GPU time, six times faster than Qwen-Drive-1.0, and at least as well on NAVSIM, PAI-AV and WOD-E2E. In AlpaSim closed loop, km per at-fault incident holds for both planners up to a 300-ms delay and drops beyond. With GPU time charged as delay, SuperGlance's lead over Qwen-Drive-1.0 grows from 2.8 to 3.9 times. Delayed by 1.2 s, our model falls below Qwen-Drive-1.0 at its own 518 ms.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19138v1</guid>
+      <category>cs.RO</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Jieyuan Pei, Xin Yan, Mingwei Xu, Haiyi Zhang, Siyu Zou, Zhangyi Hu, Zhuoxuan Li, Yuguang Yang, Rongjunchen Zhang, Cheng Chi, Hui Xiong, Yan Wang</dc:creator>
+    </item>
+    <item>
+      <title>ImpedanceMimic: Learned Impedance as Action Space for Force-Accurate Motion Imitation</title>
+      <link>https://arxiv.org/abs/2611.19153</link>
+      <description>arXiv:2611.19153v1 Announce Type: new 
+Abstract: Recovering the forces behind a motion is ill-posed: different controllers can reproduce the same movement while generating different contact forces. Physics-based motion imitation resolves this ambiguity through simulation, but relies on fixed-gain proportional-derivative (PD) control. We show that fixed gains impose a trade-off between motion and force tracking, as contact and swing place conflicting demands on joint stiffness and damping. We introduce ImpedanceMimic, a reinforcement-learning policy that modulates per-joint stiffness, damping, and position setpoints from motion and force measurements, but requires only motion at inference. Across 129 participants and six activities, ImpedanceMimic outperforms matched fixed-gain PD under every integration scheme, direct-torque, muscle-actuated and existing imitation controllers in kinematic and force fidelity, approaching a dedicated motion-to-force regressor. By expressing gains as multiples of inertia-scaled priors, a single policy controls subject-specific biomechanical models without explicit anthropometric input and transfers zero-shot to unseen humans and a humanoid robot. The learned impedance forms a low-dimensional representation of motor state, shared across bodies, that generalizes to withheld activities: stiffness scales with load, and damping anticipates unloading.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19153v1</guid>
+      <category>cs.RO</category>
+      <category>cs.GR</category>
+      <category>cs.LG</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Matthias Jammot, Pembe Gizem \"Ozdil</dc:creator>
+    </item>
+    <item>
+      <title>Distilling Safety Filters for Filter-free Multi-agent RL</title>
+      <link>https://arxiv.org/abs/2611.19190</link>
+      <description>arXiv:2611.19190v1 Announce Type: new 
+Abstract: Reinforcement learning (RL) can teach robot teams to navigate shared spaces, but trial and error causes collisions that real robots cannot afford. Control barrier function (CBF) safety filters prevent these collisions by correcting unsafe actions, yet in a team the filter becomes a centralized optimization whose number of constraints grows quadratically with the team size. We propose an approach that builds the filter's safety into the RL policy and examine how such a system behaves during filter-free deployment. However, the filter that keeps training safe also hides what the policy must learn: it masks the cost of unsafe actions, which actor-critic methods then overvalue, and it keeps near-collision states out of the training data. Our approach therefore learns only from executed safe actions with implicit Q-learning and distills the filter into the policy at synthetic near-collision states. We prove that filter distillation loss bounds the policy's constraint violation and hence how far agents can cross their safety margin, so errors never accumulate. When distillation states cover deployed states, the loss also bounds the collision probability at every step. Without a filter and acting only on local observations, our policies have no collisions in 1,800 test episodes with multiple agents. A policy trained with three agents transfers zero-shot to teams of twenty at constant per-agent computation and stays collision-free with up to eight agents. We test our policies on Crazyflie quadrotors with up to five flying at the same time.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19190v1</guid>
+      <category>cs.RO</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Srikar Babu Gadipudi, Somayeh Sojoudi, Claire J. Tomlin</dc:creator>
+    </item>
+    <item>
+      <title>Ego2Sim2Humanoid: Agentic Real-to-Sim for Learning Loco-Manipulation VLAs without Robot Demonstrations</title>
+      <link>https://arxiv.org/abs/2611.19196</link>
+      <description>arXiv:2611.19196v1 Announce Type: new 
+Abstract: Imitation learning for visuomotor policies typically relies on teleoperated robot demonstrations, which are costly because every episode requires a trained operator controlling a physical robot in real time through teleoperation interfaces and wearable body-tracking hardware. Egocentric glasses capture human demonstrations without a robot or handheld grippers, yet they track only the head and in-view human hands, and directly copying human motion to a robot with different stature, arm reach and hand morphology fails to produce feasible contacts. \method{} converts egocentric glasses recordings into physically verified robot training trajectories. An agentic real-to-sim stage reconstructs collision and textured visual assets from the recorded RGB-D and head streams, completes unseen surfaces when needed, and predicts target contact bands on the manipulated objects. During motion adaptation, a grasp planner turns each contact band into a feasible robot wrist pose and finger closure, bilevel stance optimization plans collision-free standing postures that keep hand targets reachable, and a whole-body motion generator synthesizes lower-body locomotion and out-of-view arm motion. Two-stage motion correction then blends visibility transitions kinematically and trains a reinforcement-learning tracking policy in physics simulation under agent-designed semantic rewards, completing manipulation phases even when the object leaves the camera view. Rendering the reconstructed scene through the robot's onboard camera along the optimized rollout yields synchronized robot-view images, proprioception and verified action labels. Fine-tuned exclusively on this converted dataset, without real-robot demonstrations, GR00T N1.7 performed loco-manipulation tasks autonomously on a Unitree G1. Project page: https://robonana.github.io/ego2sim2humanoid/</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19196v1</guid>
+      <category>cs.RO</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Chen Liu, Nikolaus Correll</dc:creator>
+    </item>
+    <item>
+      <title>Self-Calibrating Vision-Agent-Action: Deploying Pick-and-Place to New Robot Cells without Demonstrations or Fine-Tuning</title>
+      <link>https://arxiv.org/abs/2611.19198</link>
+      <description>arXiv:2611.19198v1 Announce Type: new 
+Abstract: In simulation, Vision-Agent-Action (VAA) performs pick-and-place in robot cells with gripper or base-frame changes without robot demonstrations or fine-tuning. It uses pre-trained vision-language and language models for interpretation, measures the command map and camera geometry from its own motion and fingertips, estimates lens distortion, and plans grasps from measured object depth. A controlled study of eight public LIBERO-fine-tuned vision-language-action models (VLAs) varies robot hardware, camera geometry, appearance, and base frame. Gripper and frame changes dominate their losses in the tested fractional design. Across 18 cells with these changes, frozen VAA achieves 230/360 successes (64%), the refined VAA 268/360 (74%), and the strongest released VLA on this subset 76/360 (21%). Paired ablations support the self-calibration bundle, lens estimation under compounded changes, and the measured-depth pipeline. On a two-step LIBERO-Goal chain with object state carried between instructions, VAA completes 54/60 chains in changed cells, while four evaluated VLAs complete none.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19198v1</guid>
+      <category>cs.RO</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Jae Hun Hwang, Yechan Seo, Hong-In Won</dc:creator>
+    </item>
+    <item>
+      <title>Continuous Lower-Limb Joint-Angle Estimation from sEMG and IMU: The Conditional Value of Cross-Activity and Cross-Subject Data under Update-Matched Controls</title>
+      <link>https://arxiv.org/abs/2611.19238</link>
+      <description>arXiv:2611.19238v1 Announce Type: new 
+Abstract: Intent-driven exoskeleton control needs a continuous, causal estimate of the wearer's joint kinematics and an answer to a second question: whose data should train the estimator for a new user? Borrowing the user's recordings of other activities, or other users' recordings of the same activity, is usually evaluated as "more data" versus "less data," which confounds the information a source carries with the optimizer updates it adds and hides negative transfer behind averages. We separate these effects for hip, knee, and ankle angle estimation from high-density sEMG and an IMU across six locomotion activities on all ten participants of a public dataset. A compact residual causal TCN-GRU decoder is frozen, and an update-matched replay control prices every added source against the same number of updates on the user's own data. A user's own other activities raise $R^2$ from 0.722 to 0.788, of which +0.048 is information beyond replay; stair descent is a reliably harmful donor and sit-stand-walk a reliably beneficial one. Other users' same-activity data help while the user has only the target activity ($G_\mathrm{T} = +0.053$) and half as much once own other-activity data exist ($G_\mathrm{W} = +0.028$); at full calibration, donor value collapses after one to two target records. Per-target gains from the two sources correlate, and leave-one-participant-out gates recover most of the cross-subject value only at low calibration. Data value is hierarchical, state-dependent, and directional; the bottleneck is deciding, without test labels, when to transfer.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19238v1</guid>
+      <category>cs.RO</category>
+      <category>cs.LG</category>
+      <category>eess.SP</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Jiaying Xu (Conamur), Guangyuan Chen (Institute of Neuroscience, Chinese Academy of Sciences), Buyun Gao (Conamur), Zhen Dong (University of California, Santa Barbara)</dc:creator>
+    </item>
+    <item>
+      <title>Physics-Informed Causal Reasoning for Nonstationary Robot Dynamics</title>
+      <link>https://arxiv.org/abs/2611.19251</link>
+      <description>arXiv:2611.19251v1 Announce Type: new 
+Abstract: Reasoning about what an action will cause requires internalizing how a system behaves. As conditions seldom stay fixed, this must often happen within a few interactions. Yet systems that look identical in a snapshot can respond differently to the same action, depending on physical conditions the snapshot hides. Context-based models capture this separation by summarizing recent transitions into a latent context, but do not specify how that context should change the equations of motion. Physics-informed neural networks build those equations into the model, but describe only a single system and cannot recognize when it has changed. We present Physics-Informed Causal Reasoning (PICR), which bridges the two. Only a context, re-inferred from recent interactions, is updated; it conditions a fixed physics-informed network that determines the robot's inertia and potential energy, so the robot adapts to new physical conditions from its own experience without retraining or a hand-specified robot model. On a Franka Panda arm in NVIDIA Isaac Sim, PICR predicts motion under changing and unseen payloads, reducing error on the latter by 1.6-3.8x over baselines, and extends to counterfactual queries under alternative torques. Our analysis shows that the context, inferred solely from interaction, encodes payload physical properties, tracks their changes, and governs the arm's response. The gravity and inertia terms induced by the context further demonstrate its physical validity, each agreeing with the simulator at the level of individual Lagrangian components.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19251v1</guid>
+      <category>cs.RO</category>
+      <category>cs.LG</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Jungjin Lee, Se Jin Kim, Sung Kwon On, Insoon Yang</dc:creator>
+    </item>
+    <item>
+      <title>HospitalBench: Diagnosing Where and Why Embodied Agents Fail on Long Hospital Task Chains</title>
+      <link>https://arxiv.org/abs/2611.19274</link>
+      <description>arXiv:2611.19274v1 Announce Type: new 
+Abstract: Long-horizon embodied tasks fail in ways that end-task success cannot see. HospitalBench is a diagnostic benchmark of ten hospital chores in NVIDIA Isaac Sim, each two unscored warm-up steps followed by a causal chain of five scored sub-tasks in one continuous simulation: the state one step leaves (an object pose, a choice, a fact seen once) determines what the next step must do, unlike benchmarks that place sub-tasks side by side. Vision-language agents act through skill-level tools from camera images. A scripted robot that makes only the calls a model gets is the solvability check of a chore. From each trajectory the benchmark reads where a chain breaks, what the agent did after a failed call, and how far its own position estimate drifts from the true one. This version reports first results only: 15 of 60 planned runs (three models at high effort, one run each on chores T1 and T10 from both start states and T3 from one), with scripted-robot proofs on three of the ten chores. Of the 15 runs, 2 passed all five sub-tasks. Runs still going after sub-tasks 1 to 5 were 15, 8, 4, 2, 2. Of 189 failed calls, 168 were followed by a different call and 111 by a call that did not fail. These are first results and not a full benchmark. We will release the scenes, task chains, scripted robot, evaluation harness and trajectories.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19274v1</guid>
+      <category>cs.RO</category>
+      <category>cs.AI</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Gaytri Jena, Kapil Wanaskar, Aman Chadha, Vasu Sharma, Vinija Jain, Amitava Das</dc:creator>
+    </item>
+    <item>
+      <title>VLN-Flash: Parallel Action Decoding with Adaptive Execution for Vision-and-Language Navigation</title>
+      <link>https://arxiv.org/abs/2611.19287</link>
+      <description>arXiv:2611.19287v1 Announce Type: new 
+Abstract: When a vision-and-language navigation policy generates an action sequence autoregressively, the robot waits for a chain of dependent predictions. A small discrete action vocabulary makes it possible to score all short-horizon plans in parallel. We introduce VLN-Flash, a training-free decoder that evaluates the complete action-prefix tree in a single forward pass. Branch-specific attention and matched token positions preserve the original policy's conditional action distribution for each prefix in exact arithmetic. We use the score margin between the stepwise-greedy prefix and its strongest alternative at each depth to decide how many actions to execute. The robot then executes the plan with the highest joint score at the chosen depth before observing again. On matched inputs, VLN-Flash achieves a nearly $3\times$ speedup in action decoding over native autoregression on Uni-NaVid and StreamVLN. Compared with the native autoregressive decoders, it improves success rate and success weighted by path length (SPL) on R2R-CE and RxR-CE, with success gains up to 2.7 percentage points. On a Unitree GO2, VLN-Flash improves navigation success and cuts the mean wait between actions by about 160 ms after subtracting network transmission time.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19287v1</guid>
+      <category>cs.RO</category>
+      <category>cs.CV</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Ruizhe Xie, Honghua Chen, Binglin Wang, Tong Guo, Xu Tang, Puti Yan, Shaoxiong Cai</dc:creator>
+    </item>
+    <item>
+      <title>Residual Reinforcement Learning for Visual Servo Control with Zero-Shot Sim-to-Real Transfer</title>
+      <link>https://arxiv.org/abs/2611.19318</link>
+      <description>arXiv:2611.19318v1 Announce Type: new 
+Abstract: We address tracking a moving object on a conveyor with a Franka Emika Panda robot arm, despite an imprecise digital twin, measurement errors, and noise. Our novel approach augments a loop-shaped inverse-Jacobian PI controller with a residual policy learned via Soft Actor-Critic in the digital twin. A delay-compensated Kalman filter fuses out-of-sequence camera measurements to provide latency-aware moving target position estimates. We compare the achieved performance to a performance bound for a class of model-based controllers derived from a frequency-domain sensitivity analysis, quantifying the minimum achievable error imposed by uncertain kinematic model mismatch. Simulation and hardware experiments indicate that our residual policy drives tracking error below the bound. Across conveyor speeds (27.9-41.8 mm/s), our method reduces mean tracking errors from 1.1-1.4 mm (baseline inverse-Jacobian PI) to 0.3-0.7 mm. These results show that learning residual corrections in a limited-fidelity simulator, combined with delay compensation, can substantially improve model-based control under modeling and measurement uncertainties while maintaining reliable sim-to-real transfer.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19318v1</guid>
+      <category>cs.RO</category>
+      <category>cs.SY</category>
+      <category>eess.SY</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Mahdi Nobar, Alisa Rupenyan, John Lygeros, J\"urg Keller</dc:creator>
+    </item>
+    <item>
+      <title>MARS: Dynamic Routing of Reinforcement-Learned Atomic Skills for Multi-Stage Robotic Manipulation</title>
+      <link>https://arxiv.org/abs/2611.19324</link>
+      <description>arXiv:2611.19324v1 Announce Type: new 
+Abstract: Vision-Language-Action (VLA) models have demonstrated strong capabilities in multi-task robotic manipulation. However, they still face limitations in control precision and execution stability during critical manipulation stages, such as object grasping, alignment and insertion. To combine general-purpose manipulation capabilities with task-specific fine-grained control, while enabling effective coordination between generalist and specialized policies throughout multi-stage manipulation tasks, this paper proposes MARS (Modular Atomic-skill Routing System), a dynamic routing framework for reinforcement learning-based atomic skills. MARS integrates a frozen generalist VLA policy with multiple independently trained atomic skill policies. Using a shared RL Token state representation and the reference action of VLA, specialized control policies are optimized through reinforcement learning for different cr`itical manipulation stages. For high-level policy selection, we develop a dynamic router that integrates temporal context and skill semantics. The router employs Mamba-based recurrent encoding and a historical feature window to capture state evolution during manipulation. Skill descriptions of candidate policies are encoded into semantic queries, and attention mechanisms are used to establish correspondences between skill semantics and temporal state features. Experimental results show that MARS achieves an average Macro-F1 score of 90.47% across four LIBERO task suites under fixed-trajectory evaluation, outperforming an MLP-based router by 7.08 percentage points. In the simulated Tube Transport task, the full-task success rate increases from 20.04% to 85.67%. These results demonstrate that stage-specific reinforcement learning and temporal state-aware dynamic policy routing can improve multi-policy coordination and overall task execution performance in multi-stage robotic manipulation.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19324v1</guid>
+      <category>cs.RO</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Zequan Zeng, Junqin Yang, Kai Wang</dc:creator>
+    </item>
+    <item>
+      <title>Long-Horizon Causal Inertial Odometry in Multistory Buildings</title>
+      <link>https://arxiv.org/abs/2611.19387</link>
+      <description>arXiv:2611.19387v1 Announce Type: new 
+Abstract: In indoor 3D localization inside multistory buildings, an elevator or an escalator accelerates for a few seconds and then cruises at constant velocity for tens of seconds. Gait excitation disappears, the specific force degenerates into a constant gravity reaction, and instantaneous velocity becomes unobservable within a 1-2 s window. The output of short-window learned inertial odometry consequently degrades toward the conditional mean of the training set, and vertical displacement is systematically underestimated. We propose Local-Token Causal Attention (LTCA), a long-horizon architecture that compresses each 1 s inertial window into a 1 Hz motion token and sustains, over a bounded 60 s causal cache, the motion state established at the onset event. We further introduce a pluggable barometer branch that, when online, supplies a direct elevation constraint to the vertical channel through local differential height observations, and we train it with paired online/fallback conditional training so that the barometer also regularizes the representation shared by the two modes during training. On MSIO, our benchmark of nine buildings, the RoNIN and TLIO instances reach 3D trajectory errors (ATE-3D) of 2.83/4.18 m and 2.44/5.12 m on the Seen and Unseen splits, respectively, with the barometer online. With the barometer disabled at inference, the same weights fall back to pure inertial inference and reach 3.24/4.28 m and 2.64/5.23 m, still below every native short-window baseline. We further validate the framework on the public RoNIN and TLIO benchmarks.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19387v1</guid>
+      <category>cs.RO</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Tianzi Zhang, Yan Wang, Hao Qiao, Jian Kuang, Xiaoji Niu</dc:creator>
+    </item>
+    <item>
+      <title>Semantics First, Pixels Later: Mission-Driven Event Streams for Drone Video over Bandwidth-Starved Links</title>
+      <link>https://arxiv.org/abs/2611.19463</link>
+      <description>arXiv:2611.19463v1 Announce Type: new 
+Abstract: A surveillance drone on a bandwidth-starved link cannot send the video its operator would need, yet the operator's questions are often not about pixels: did three people converge, when, and where? We study what should cross a link of 1 Mbps down to 1 kbps instead, and in what order. BPS, a behavior-primitive stream, sends semantics first and pixels later: it runs a detector and a tracker onboard and sends short records (25 bytes on average) of multi-frame events selected by a mission card of 16-125 bytes, ahead of positions and pictures. We measure it by what a ground-side language model answers from it, under a preregistered protocol with a held-out set, against H.265 read by the vision fine-tune of the same model, H.265 on which the ground runs our own perception, a stream of quantized tracks, and onboard captions. On the development set (84% of questions about convergence, mostly one location) the event stream answers 74.3% of questions at 0.13 kbps. A reader that receives nothing answers 57.4%, and the video reader 59.6% at 100 kbps and 64.7% on the source frames. When the ground instead runs our perception on the video, video matches the stream at 100 kbps, about 800 times the stream's rate, and falls behind at 64 kbps and below. A track stream matches it at 96 times the bytes and loses 0.03 at 17 times. On held-out data the result is weaker: with events taken from annotated tracks, an oracle, the stream beats H.265 at 100 kbps (+0.13), but with onboard perception it does not (+0.01 [-0.04, +0.06]) and is no better than receiving nothing. Sent alone through emulated links the event records answer 0.739 at 1 Mbps and still 0.724 at 0.3 kbps; an every-frame track stream holds down to 1 kbps and video with ground-side perception down to about 100 kbps. On a Jetson Orin Nano the unchanged pipeline runs at 4.5 fps and misses most events.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19463v1</guid>
+      <category>cs.RO</category>
+      <category>cs.CV</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Cong Xu</dc:creator>
+    </item>
+    <item>
+      <title>Depth-Aware Path Planning and Collision Avoidance for Robotic Nursing Assistants Using Real-Time 3D Vision</title>
+      <link>https://arxiv.org/abs/2611.19534</link>
+      <description>arXiv:2611.19534v1 Announce Type: new 
+Abstract: This paper presents a depth-aware path planning and collision avoidance framework for the safe navigation of robotic nursing assistants in cluttered environments with low-height obstacles. Conventional LiDAR-based navigation systems, while accurate for mapping and localization, fail to detect transparent or low-height obstacles, whereas vision-based systems are prone to noise and occlusion. The proposed framework integrates RGB-D depth sensing, rule-based obstacle avoidance, and the NavfnROS global path planner to drive the robot from an initial point to a goal point. The proposed approach is implemented on the Husky A200 robot, equipped with a Kinova Gen3 arm, to form a complete setup for a robotic nursing assistant. This system features a multi-layer architecture for global planning, perception fusion, and real-time control in the ROS-Gazebo environment. Experimental evaluations in a simulated cluttered environment demonstrate up to 40\% higher success rate and 35\% improvement in minimum clearance compared with single-sensor baselines. Furthermore, real-world experimental results validate the proposed approach as a computationally efficient and safety-aware navigation solution for autonomous healthcare robots.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19534v1</guid>
+      <category>cs.RO</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Peeyush Thakur, Dharmendra Sharma, Archit Sharma, Sandeep Gupta, Anuj Nandanwar, Laxmidhar Behera</dc:creator>
+    </item>
+    <item>
+      <title>Cooperative Gradient Estimation for Multi-Robot Source Seeking with Heteroskedastic Measurements</title>
+      <link>https://arxiv.org/abs/2611.19535</link>
+      <description>arXiv:2611.19535v1 Announce Type: new 
+Abstract: This paper proposes a novel approach for localizing the source of a three-dimensional scalar field using a team of heterogeneous cooperative mobile robots. Each robot measures the field intensity at its location and shares the information within the team. Measurement noise is explicitly considered, and heterogeneity arises from robot-dependent sensing accuracies, leading to heteroskedastic data. The proposed framework combines a weighted centroidal Voronoi tessellation-based formation strategy, defined on a spherical surface and parameterized by sensor noise variances, with a Weighted Least Squares estimator to compute the field gradient at the formation center. By explicitly accounting for sensor heterogeneity in both formation design and estimation, the method achieves robust gradient estimation under noisy measurements. In particular, we show analytically that this construction is nearly optimal. The covariance of the gradient estimate is derived in closed form, providing a lower bound on the attainable estimation variance for any formation on the sphere, and the proposed tessellation is shown to asymptotically satisfy the conditions under which this bound is attained. The estimated gradient is then exploited within a gradient-ascent strategy to guide the team toward the source location. Simulation results demonstrate the effectiveness of the proposed approach compared to alternative strategies and highlight its intrinsic ability to reconfigure online in response to robot failures, thereby enhancing its adaptability.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19535v1</guid>
+      <category>cs.RO</category>
+      <category>cs.SY</category>
+      <category>eess.SY</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <ns1:DOI>10.1016/j.ifacsc.2026.100456</ns1:DOI>
+      <ns1:journal_reference>IFAC Journal of Systems and Control, Volume 38, 2026</ns1:journal_reference>
+      <dc:creator>Alessandro Renzaglia, Lara Bri\~n\'on-Arranz</dc:creator>
+    </item>
+    <item>
+      <title>ResWAM: Learning What Changes, Not What Stays, for World-Action Models</title>
+      <link>https://arxiv.org/abs/2611.19559</link>
+      <description>arXiv:2611.19559v1 Announce Type: new 
+Abstract: World-action models (WAMs) augment vision-language-action policies (VLAs) with future prediction so that the policy can anticipate how its actions will affect the physical world. Existing WAMs supervise complete future observations. However, observations typically change little over an action chunk, so the future loss is dominated by copying static background content rather than learning task-relevant robot and object motion, limiting policy learning. Moreover, existing WAMs rely on large video generation models or separate world models, incurring heavy training and inference compute that hinders closed-loop deployment. To improve policy performance, we propose visual residual learning, supervising only the feature change from the current frame to the future frame in a frozen DINOv3 space. Compared with complete future features, this residual learning target yields a higher feature rank with richer and more diverse representations of scene changes, and spatially concentrates on the robot arm and manipulated objects rather than the background. To further improve computational efficiency, we present ResWAM, a residual world-action model with 2.3B parameters in total, including a lightweight 0.5B dual-branch DiT that jointly trains an action branch and a residual branch via conditional flow matching. Without robot pretraining (i.e., pretraining on external robot action trajectories beyond the benchmark demonstrations), ResWAM achieves top average success rates on LIBERO-Plus (81.1%), RoboTwin 2.0 (93.8%), and RoboDojo (9.40% success, 13.41 score) at the lowest training (2.7-4.0 TFLOPs) and inference compute (1.0-1.4 TFLOPs), and leads real-robot Open, Put, and Stack (80.0% average, +10.0% over $\pi_{0.5}$) at 92.7 ms latency.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19559v1</guid>
+      <category>cs.RO</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Chongyu Fan, Gaowen Liu, Ramana Rao Kompella, Jason Corso, Sijia Liu</dc:creator>
+    </item>
+    <item>
+      <title>Towards Probabilistically Safe Reinforcement Learning: Theory and Deployment on Humanoid and Aerial Robots</title>
+      <link>https://arxiv.org/abs/2611.19616</link>
+      <description>arXiv:2611.19616v1 Announce Type: new 
+Abstract: Reinforcement learning (RL) enables robots to acquire complex skills, but standard RL formulations do not guarantee that learned policies satisfy safety constraints, which limits their use in safety-critical settings. Existing safe RL methods with provable guarantees typically support only restricted classes of constraints and require unbiased estimators of the objective and constraint functions, which prevents their direct integration with state-of-the-art algorithms such as proximal policy optimization (PPO). In this paper, we extend the recently introduced robust safe gradient flow-based reinforcement learning (RSGF-RL) framework to overcome these limitations. Our formulation accommodates a general class of trajectory-level safety constraints, including chance constraints such as collision avoidance with a prescribed probability, and our analysis allows for biased value and gradient estimators. We show that, with high probability, the constraint violation throughout training is bounded by the estimator bias plus a term that vanishes as the number of rollouts grows, and decays to this level if the initial policy is unsafe. We also establish the convergence properties of the iterates to approximate KKT points of the original safe RL problem. Finally, we show that RSGF-RL implemented with PPO-style estimates enables zero-shot sim-to-real deployment of whole-body control policies on a Unitree G1 humanoid and collision-free waypoint navigation on a Crazyflie drone.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19616v1</guid>
+      <category>cs.RO</category>
+      <category>cs.SY</category>
+      <category>eess.SY</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Pol Mestres, Varun Gabbita, Jason H. K. Siu, Sergio A. Esteban, Hampus Serneke, Joel W. Burdick, Aaron D. Ames</dc:creator>
+    </item>
+    <item>
+      <title>PSK: A Matrix-Free Single-Loop Method for K-Level Physics-Based Control</title>
+      <link>https://arxiv.org/abs/2611.19660</link>
+      <description>arXiv:2611.19660v1 Announce Type: new 
+Abstract: Physics-based control is central to robot learning, but differentiating through implicit physics steps typically requires Hessian or Karush--Kuhn--Tucker (KKT) linear solves; we ask whether gradient steps suffice. Each simulation step minimizes an energy under many contact and collision constraints. Without constraints, we view control over $K$ steps as $K$-level optimization with strongly convex lower levels, recast as one min--max problem. Our Penalized Single-loop $K$-level method (PSK) uses only gradients and a projection, updates all levels in parallel, and reaches an $\epsilon$-stationary control in $O(\epsilon^{-3})$ iterations, with a $K$-independent exponent but a $K$-dependent constant. Contact-rich constraints, however, typically violate a constraint qualification (CQ). We replace each constraint by a smooth wall that acts on a band of constant width. Under mild assumptions that need no CQ, every exact solution of the banded lower levels is then feasible and banded Fritz--John, and PSK keeps the $O(\epsilon^{-3})$ complexity. Without a CQ that is uniform in the band width, however, a shrinking band loses the $K$-independent exponent: with width $\epsilon$ and fixed $K\geq2$, deterministic zero-respecting methods need $\Omega(\epsilon^{-(K+3)/4})$ calls on a hard instance whose control dimension grows with $1/\epsilon$. We prove our assumptions for smoothed kinematic and dynamic multi-robot navigation among segment obstacles. In navigation experiments, PSK, tuned per case, reaches every goal with sixteen levels and, at equal time, reaches a lower loss than tuned unrolling in 17 of 18 cases, while implicit differentiation is lower in 10.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2611.19660v1</guid>
+      <category>cs.RO</category>
+      <category>cs.NA</category>
+      <category>math.NA</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 -0500</pubDate>
+      <ns1:announce_type>new</ns1:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Zherong Pan</dc:creator>
+    </item>
+    </channel>
 </rss>
