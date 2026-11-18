@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Wed, 18 Nov 2026 02:28:42 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 18 Nov 2026 16:52:22 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,56 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Rockwell Automation acquiring mobile robot maker AGILOX</title>
+		<link>https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/</link>
+					<comments>https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/#respond</comments>
+		
+		<dc:creator>Steve Crowe</dc:creator>
+		<pubDate>Wed, 18 Nov 2026 16:44:18 +0000</pubDate>
+				<category>Autonomous Mobile Robots (AMRs)</category>
+		<category>Financial</category>
+		<category>Logistics</category>
+		<category>Markets / Industries</category>
+		<category>Mergers &amp; Acquisitions</category>
+		<category>News</category>
+		<category>Agilox</category>
+		<category>Otto Motors</category>
+		<category>Rockwell Automation</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590295</guid>
+
+					<description>&lt;p&gt;Rockwell Automation has agreed to acquire autonomous mobile robot developer AGILOX, expanding its mobile robotics portfolio following its 2023 acquisition of OTTO Motors.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/"&gt;Rockwell Automation acquiring mobile robot maker AGILOX&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590296" style="width: 810px" class="wp-caption aligncenter"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590296" class="size-full wp-image-590296" src="https://www.therobotreport.com/wp-content/uploads/2026/11/agilox-x-logimat-2026-124-scaled-1.jpg" alt="Agilox mobile robot" width="800" height="533" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/agilox-x-logimat-2026-124-scaled-1.jpg 800w, https://www.therobotreport.com/wp-content/uploads/2026/11/agilox-x-logimat-2026-124-scaled-1-300x200.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/agilox-x-logimat-2026-124-scaled-1-150x100.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/agilox-x-logimat-2026-124-scaled-1-768x512.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/agilox-x-logimat-2026-124-scaled-1-357x238.jpg 357w" sizes="(max-width: 800px) 100vw, 800px" /&gt;&lt;p id="caption-attachment-590296" class="wp-caption-text"&gt;An AGILOX mobile robot operating inside a container. | Credit: AGILOX&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Rockwell Automation has signed a definitive agreement to acquire AGILOX, an Austria-based developer of autonomous mobile robots (AMRs). Rockwell said the acquisition will more than double the size of its AMR business and complement its existing OTTO Motors portfolio.&lt;/p&gt;
+&lt;p&gt;Financial terms of the acquisition were not disclosed. The deal is expected to close in the second quarter of Rockwell&amp;#8217;s fiscal 2027, subject to regulatory approval. &lt;a href="https://www.agilox.net/en/" target="_blank" rel="noopener"&gt;AGILOX&lt;/a&gt; will become part of Rockwell&amp;#8217;s Intelligent Devices operating segment.&lt;/p&gt;
+&lt;p&gt;AGILOX said it has deployed more than 2,500 AMRs worldwide since its founding in 2017. The company has more than 250 employees and operations in Europe, North America, and China. Its robots are used in automotive, third-party logistics, food and beverage, and pharmaceutical applications.&lt;/p&gt;
+&lt;p&gt;The acquisition will combine OTTO&amp;#8217;s strong presence in North America with AGILOX&amp;#8217;s established customer base in Europe, Rockwell said.&lt;/p&gt;
+&lt;p&gt;The acquisition also marks an exit for global investment firm Carlyle, which made a majority growth investment in AGILOX in 2021. According to Carlyle, AGILOX has quadrupled its revenue since then and launched a robots-as-a-service (RaaS) offering.&lt;/p&gt;
+&lt;h2&gt;How AGILOX and OTTO Motors compare&lt;/h2&gt;
+&lt;p&gt;Both AGILOX and OTTO Motors develop AMRs that automate material transport. However, there are several differences between their technologies.&lt;/p&gt;
+&lt;p&gt;OTTO specializes in flatbed AMRs that can be equipped with attachments such as conveyors and lift tables to transport different materials. Its largest AMR, the OTTO 1500, can carry payloads of up to 1,900 kg (4,189 lb.). The company also offers an autonomous forklift called OTTO Lifter.&lt;/p&gt;
+&lt;p&gt;AGILOX specializes in AMRs with integrated lifting mechanisms for transporting pallets and other loads. Its robots feature omnidirectional drives, enabling them to move sideways and diagonally without turning. This allows the robots to maneuver in tight spaces. AGILOX also has an autonomous forklift.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Rockwell said the technologies are complementary, but it did not disclose how it plans to integrate the two platforms or whether customers will eventually be able to operate AGILOX and OTTO robots as part of the same fleet.&lt;/p&gt;
+&lt;h2&gt;Rockwell continues to expand its robotics business&lt;/h2&gt;
+&lt;p&gt;The AGILOX deal comes three years after &lt;a href="https://www.therobotreport.com/rockwell-automation-acquiring-amr-developer-clearpath-robotics/"&gt;Rockwell acquired Clearpath Robotics&lt;/a&gt;, including its industrial division, OTTO Motors. Rockwell valued that acquisition at $609 million at the time of purchase.&lt;/p&gt;
+&lt;p&gt;Founded in 2009 in Ontario, Canada, Clearpath initially developed mobile robots for research applications. It launched OTTO Motors in 2015 to automate material handling in industrial environments.&lt;/p&gt;
+&lt;p&gt;Rockwell has also invested in robotics beyond AMRs. In March 2025, it made a &lt;a href="https://www.therobotreport.com/righthand-robotics-receives-investment-from-rockwell-automation/"&gt;strategic investment in RightHand Robotics&lt;/a&gt;, a Massachusetts-based developer of robotic piece-picking systems for warehouses. Financial terms of that investment were not disclosed. RightHand Robotics combines AI, machine vision, and robotic gripping to pick individual items in fulfillment operations.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/"&gt;Rockwell Automation acquiring mobile robot maker AGILOX&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>California DMV bars Waymo AVs from operating on the state’s freeways</title>
 		<link>https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/</link>
 					<comments>https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/#respond</comments>
@@ -42,15 +92,15 @@
 					<description>&lt;p&gt;The DMV determined that Waymo's freeway operations "pose an imminent hazard to public safety due to recurring incursions by its vehicles."&lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/"&gt;California DMV bars Waymo AVs from operating on the state&amp;#8217;s freeways&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_590289" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590289" class="size-full wp-image-590289" src="https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured.jpg" alt="A Waymo AV driving on a freeway. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590289" class="wp-caption-text"&gt;Waymo said the DMV order only applies to freeways and will not affect its operations on city streets. | Source: Waymo&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_590289" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured.jpg"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-590289" class="size-full wp-image-590289" src="https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured.jpg" alt="A Waymo AV driving on a freeway. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured-368x238.jpg 368w" sizes="(max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590289" class="wp-caption-text"&gt;Waymo said the DMV order only applies to freeways and will not affect its operations on city streets. | Source: Waymo&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;The California Department of Motor Vehicles has barred Waymo autonomous vehicles (AVs) from operating on the state’s freeways. The DMV issued the order on Nov. 11, following a number of incidents in the state, it confirmed to &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Waymo said it will restrict freeway operations across all of its operating areas, as part of its safety-first approach.&lt;/p&gt;
 &lt;p&gt;The ban comes &amp;#8220;following an incident in which three Waymo autonomous vehicles entered an active construction closure on U.S. Route 101 near Burlingame and another incident involving CHP vehicles on Highway 280 in San Francisco,&amp;#8221; the DMV said. In the second incident, a Waymo vehicle can be seen attempting to drive past California Highway Patrol officers while they&amp;#8217;re conducting a traffic stop. You can watch the incidents below.&lt;/p&gt;
-&lt;p&gt;&lt;iframe title="California bans Waymo vehicles from freeways" width="740" height="416" src="https://www.youtube.com/embed/X-YZEjS6020?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="California bans Waymo vehicles from freeways" width="740" height="416" src="https://www.youtube.com/embed/X-YZEjS6020?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;The DMV determined that &lt;a href="https://www.therobotreport.com/tag/waymo/" target="_blank" rel="noopener"&gt;Waymo&amp;#8217;s&lt;/a&gt; freeway operations &amp;#8220;pose an imminent hazard to public safety due to recurring incursions by its vehicles into active construction zones where construction workers, vehicles and equipment are present.&amp;#8221; The action prevents Waymo from operating or testing its driverless vehicles on all California freeways.&lt;/p&gt;
 &lt;p&gt;The restrictions will remain in place until Waymo demonstrates to the DMV that it has &amp;#8220;taken effective corrective actions to address the deficiencies that precipitated the restrictions.&amp;#8221; This includes providing evidence that its AVs can safely detect and respond to construction zones, emergency vehicles, and other roadway situations within the vehicles’ operational design domain.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;Safety is at the foundation of everything we do. Following recent freeway construction zone encounters on U.S. 101 in California that did not involve any injuries or collisions, the California DMV has implemented an operating restriction on freeway operations in the state. In alignment with our safety-first principles, we have also temporarily restricted freeway operations across our other operating markets to evaluate our performance. Our ride-hailing service continues to operate safely on surface streets, serving over half a million trips each week. We are working with the California DMV and other state officials diligently and responsibly to resume freeway operations,&amp;#8221; a Waymo spokesperson told&amp;nbsp;&lt;em&gt;The Robot Report&lt;/em&gt;.&lt;/p&gt;
-&lt;div align="center"&gt;&lt;iframe title="Why does the Waymo Driver rely on cameras, radar, and lidar? The answer comes down to sensor fusion." width="740" height="416" src="https://www.youtube.com/embed/Vwrz1hfVeSM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;div align="center"&gt;&lt;iframe loading="lazy" title="Why does the Waymo Driver rely on cameras, radar, and lidar? The answer comes down to sensor fusion." width="740" height="416" src="https://www.youtube.com/embed/Vwrz1hfVeSM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
 &lt;h2&gt;Waymo AVs struggle with construction zones&lt;/h2&gt;
 &lt;p&gt;This isn&amp;#8217;t Waymo&amp;#8217;s first time running into issues with the California DMV this year. The DMV noted that Waymo AVs still posed a safety threat &amp;#8220;despite a prior restriction and corrective actions implemented following similar incidents that occurred on May 18, 2026.&amp;#8221;&lt;/p&gt;
 &lt;p&gt;The incidents the DMV is referring to occurred when seven Waymo vehicles drove between construction cones and into closed lanes in San Francisco. This incident resulted in Waymo &lt;a href="https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26E035-7637.pdf" target="_blank" rel="noopener"&gt;issuing&lt;/a&gt; a safety recall with the National Highway Traffic Safety Administration (NHTSA) in June.&lt;/p&gt;
@@ -931,88 +981,6 @@ AGIBOT is a pioneer in the global general-purpose AI robotics industry, with its
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/memories-ai-builds-standardized-egocentric-video-pipeline/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Can AI agents program industrial robots without training data? Berkeley says yes</title>
-		<link>https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/</link>
-					<comments>https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/#respond</comments>
-		
-		<dc:creator>Mike Oitzman</dc:creator>
-		<pubDate>Wed, 11 Nov 2026 12:55:16 +0000</pubDate>
-				<category>Academia / Research</category>
-		<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Educational</category>
-		<category>News</category>
-		<category>ROS / Open Source Solutions</category>
-		<category>Ambi Robotics</category>
-		<category>Bosch</category>
-		<category>Nvidia</category>
-		<category>uc berkeley</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590113</guid>
-
-					<description>&lt;p&gt;UC Berkeley and NVIDIA have released open-source tools for teams of AI coding agents that write, simulate, and refine readable robot programs. &lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/"&gt;Can AI agents program industrial robots without training data? Berkeley says yes&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_590205" style="width: 780px" class="wp-caption aligncenter"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590205" class="size-full wp-image-590205" src="https://www.therobotreport.com/wp-content/uploads/2026/11/robosimstudio.jpg" alt="screenshot of robosim studio." width="770" height="443" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/robosimstudio.jpg 770w, https://www.therobotreport.com/wp-content/uploads/2026/11/robosimstudio-300x173.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/robosimstudio-150x86.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/robosimstudio-768x442.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/robosimstudio-368x212.jpg 368w" sizes="auto, (max-width: 770px) 100vw, 770px" /&gt;&lt;p id="caption-attachment-590205" class="wp-caption-text"&gt;The new RoboSimStudio is an open-source project that enables agentic AI coding of robotic simulation environments. | Credit: UC Berkeley&lt;/p&gt;&lt;/div&gt;
-&lt;p data-lfile-container="cd29357e-655d-4ced-bb8f-ce3c1c1f0bda" data-pm-slice="1 1 []"&gt;UC Berkeley and NVIDIA have released open-source tools for a new approach: enabling teams of AI coding agents to write, simulate, and refine readable robot programs.&lt;/p&gt;
-&lt;p&gt;Since the early days of industrial robots, programming, tuning, and troubleshooting robotic workcells has taken weeks to months. New research coming out of &lt;a href="https://www.therobotreport.com/tag/uc-berkeley/" target="_blank" rel="noopener"&gt;UC Berkeley&lt;/a&gt; has demonstrated that new agentic &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; programming tools could change how industrial robots are coded and maintained.&lt;/p&gt;
-&lt;p&gt;Why is this important? As anyone who&amp;#8217;s programmed an &lt;a href="https://www.therobotreport.com/category/robots-platforms/industrial-robots/" target="_blank" rel="noopener"&gt;industrial&lt;/a&gt; workcell knows, implementing the code has to wait until the end of the design and fabrication process. The robot needs to be installed in the workcell; all of the feeders, conveyance, and other elements also need to be installed. The pressure to get this done all falls on the &lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;software&lt;/a&gt; team, often when the project deadline is looming.&lt;/p&gt;
-&lt;p&gt;The new toolset goes beyond the idea of &amp;#8220;vibe coding&amp;#8221; a robot application. While it generates code with large language models (LLMs), what&amp;#8217;s novel is the use of AI agents to manage the coding, testing and deployment.&lt;/p&gt;
-&lt;p&gt;“Agentic robotics is a fundamental shift in how robots are programmed,” said Ken Goldberg, the William S. Floyd Jr. Distinguished Chair in Engineering at UC Berkeley. “Instead of collecting massive amounts of data and hand-tuning every behavior, teams of agents can quickly generate, test, and refine robot programs that allow human engineers to interpret how the programs work for fine-tuning and verification.”&lt;/p&gt;
-&lt;h3&gt;Researchers introduce GaP and VABAR&lt;/h3&gt;
-&lt;div&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Graph-as-Policy (&lt;a href="https://graph-robots.github.io/gap/#va" target="_blank" rel="noopener"&gt;GaP&lt;/a&gt;)&lt;/strong&gt; is a modular framework that splits a task into skills &amp;#8212; perception, grasp planning, collision-free motion &amp;#8212; which agents generate, connect and rehearse in simulation.&lt;/li&gt;
-&lt;li&gt;Variational Automation Benchmark for Agentic Robotics (&lt;a href="https://berkeleyautomation.github.io/vabar-website/" target="_blank" rel="noopener"&gt;VABAR&lt;/a&gt;) is a benchmark of six tasks: tool sorting, tool hanging, gear meshing, syringe packing, cable insertion, and cable routing. It is built built on Isaac Lab-Arena and Newton, with standardized variations and difficulty tiers.&lt;/li&gt;
-&lt;li&gt;The UC Berkeley and NVIDIA team presented the concept at &lt;a href="https://2026.corl.org/" target="_blank" rel="noopener"&gt;CoRL 2026&lt;/a&gt; this week in Austin, Texas.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;How the toolset works&lt;/h2&gt;
-&lt;p&gt;Dr. Goldberg described the research to &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. In September, Eric Chen, one of his graduate students, give GPT-6 Astra Eric&amp;#8217;s new &lt;a href="https://robosimstudio.github.io/" target="_blank" rel="noopener"&gt;RoboSimStudio&lt;/a&gt; tool to see if it could generate not just a graphic model, but also a full 3D simulation of a scene. And that&amp;#8217;s exactly what happened.&lt;/p&gt;
-&lt;p&gt;According to Goldberg, Chen gave the model a video and this new tool, and within an hour, it had generated a Newton simulation that was incredibly similar to the video.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;When a new frontier model came out in early September, they gave it the tool and a video,&amp;#8221; said Goldberg. &amp;#8220;Within about an hour, it produced a Newton simulation closely matching the video, by iterative trial and error.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;“And Newton [simulation] is really wonderful,&amp;#8221; he added. &amp;#8220;The problem is Newton is very complicated. It has a lot of parameters, hundreds of parameters. So generally, people didn’t really use it that much because it’s just too complicated, too many dials and switches.”&lt;/p&gt;
-&lt;p&gt;Goldberg praised Chen for pulling this together. Initially, Chen built the tool just for himself.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;I want my student Eric to get credit for this,&amp;#8221; he said. &amp;#8220;He basically sat down and built a new interface for Newton called RoboSimStudio. It is basically just an interface that makes you have sliders on the right-hand side of your screen, and you have a visualizer on the left. &amp;#8230; You can tune all these parameters much easier than you could before, so he built that just for himself to make the simulation part easier.”&lt;/p&gt;
-&lt;p&gt;But simulation alone isn&amp;#8217;t enough, according to Goldberg. Simulation matters to the whole approach of using agents to code robots.&lt;/p&gt;
-&lt;p&gt;“The agent needs a simulator to be able to basically iterate and see how to improve this code,” he said. Goldberg noted that the existing tools “were not very reliable and had a lot of problems.”&lt;/p&gt;
-&lt;div style="width: 2376px" class="wp-caption aligncenter"&gt;&lt;a href="https://graph-robots.github.io/gap/assets/img/pipeline.png"&gt;&lt;img loading="lazy" decoding="async" src="https://graph-robots.github.io/gap/assets/img/pipeline.png" alt="GAP LLM Harness. AI agents are intended to make robot training easier and safer." width="2366" height="808" /&gt;&lt;/a&gt;&lt;p class="wp-caption-text"&gt;The harness converts a VA task specification into a computation graph, optimizes it via self-learning in simulation, and hands G* to an edge-based interpreter that drives the robot — sim and real feedback close the loop. | Credit: UC Berkeley&lt;/p&gt;&lt;/div&gt;
-&lt;h2&gt;Agents write and test code&lt;/h2&gt;
-&lt;p&gt;Agentic robotics operates in a loop: Agents write robot code, test it in simulation, see where it fails, and revise. That loop is only as good as the simulator behind it.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://developer.nvidia.com/newton-physics" target="_blank" rel="noopener"&gt;Newton Physics&lt;/a&gt;, the open-source physics engine that UC Berkeley chose, is powerful but exposes hundreds of parameters, which has kept many developers from using it.&lt;/p&gt;
-&lt;p&gt;RoboSim Studio made those parameters tractable, and that turned the simulator from a bottleneck into something an AI agent could tune on its own.&lt;/p&gt;
-&lt;p&gt;UC Berkeley developed the VABAR benchmark suite with &lt;a href="https://developer.nvidia.com/isaac" target="_blank" rel="noopener"&gt;NVIDIA Isaac Lab-Arena&lt;/a&gt; &lt;a href="https://www.therobotreport.com/category/technologies/ros-open-source/" target="_blank" rel="noopener"&gt;open-source&lt;/a&gt; policy-evaluation framework and the Newton physics engine. It includes a detailed physics-based simulation for contact-rich robot-object interactions.&lt;/p&gt;
-&lt;p&gt;VABAR evaluates how robots perform on practical manipulation tasks ranging from tool sorting and handing to cable insertion and routing. The tool facilitates comparisons and measures progress across realistic industrial tasks, changing conditions, and increasing levels of difficulty.&lt;/p&gt;
-&lt;p&gt;Each task includes standardized variations, difficulty tiers, and success metrics, allowing researchers to measure progress, compare approaches, and evaluate whether systems can handle the demands of industrial operation. At the same time, Isaac Lab-Arena enables large-scale systematic evaluations across changing task conditions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.linkedin.com/in/spencermhuang/" target="_blank" rel="noopener"&gt;Spencer Huang&lt;/a&gt;, director of product for robotics at &lt;a href="https://www.therobotreport.com/tag/nvidia/" target="_blank" rel="noopener"&gt;NVIDIA&lt;/a&gt; (and son of CEO Jensen Huang), has worked with Goldberg&amp;#8217;s lab at UC Berkeley to interface with the NVIDIA product teams.&lt;/p&gt;
-&lt;p&gt;The partners listed some of the new capabilities:&lt;/p&gt;
-&lt;ul data-lfile-container="cd29357e-655d-4ced-bb8f-ce3c1c1f0bda" data-pm-slice="3 3 []"&gt;
-&lt;li&gt;&lt;strong&gt;Graph structure:&lt;/strong&gt; Each node (perception, grasp, motion planning) can be assigned to its own agent, so agents work in parallel without &amp;#8220;stepping on each other&amp;#8217;s toes.&amp;#8221;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ROS equivalence:&lt;/strong&gt; The graph turns out to be equivalent to a ROS graph and can be converted to ROS 2.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Output:&lt;/strong&gt; Python that calls existing vendor modules (such as &lt;a href="https://www.therobotreport.com/tag/kuka/" target="_blank" rel="noopener"&gt;KUKA&lt;/a&gt;) for low-level drive control. It does not replace robot &lt;a href="https://www.therobotreport.com/category/technologies/controllers/" target="_blank" rel="noopener"&gt;controllers&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The harness:&lt;/strong&gt; Thousands of prompts and structures constrain the agents.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;How do agents change robot programming?&lt;/h2&gt;
-&lt;p&gt;When asked how this new approach differs from straight &amp;#8220;vibe coding&amp;#8221; of an app, Goldberg responded that the magic is in the harness provided by GaP. The graph structure organizes the agents.&lt;/p&gt;
-&lt;p&gt;The code produced by &amp;#8220;vibe coding&amp;#8221; is already mature and well understood, he explained. The use of AI to write code is accepted in software engineering today. But rarely does an application function as intended in the first pass.&lt;/p&gt;
-&lt;p&gt;This is true for software from human engineers, and it&amp;#8217;s equally true for software development developed with AI. Testing and iteration are needed to optimize the application, said Goldberg.&lt;/p&gt;
-&lt;p&gt;When applied to robotics, the best practice now is to test in simulation before deploying the code on a real robot. With agentic AI, a robotics engineer can enable the agent to iterate on both the simulation environment and then the subsequent code to more efficiently develop the robotic application.&lt;/p&gt;
-&lt;p&gt;For instance, &lt;a href="https://www.therobotreport.com/tag/Bosch/" target="_blank" rel="noopener"&gt;Bosch&lt;/a&gt; is evaluating agentic robotics for diverse industrial automation scenarios. “Agentic robotics holds great promise because it generates interpretable code that engineers can thoroughly analyze before production deployment,” said Liu Ren, senior vice president and AI fellow at &lt;a href="https://www.therobotreport.com/tag/Bosch/" target="_blank" rel="noopener"&gt;Bosch&lt;/a&gt; Research. “Bosch Research is actively collaborating with Goldberg and Huang and their teams.”&lt;/p&gt;
-&lt;p&gt;“AI-powered industrial robots must continuously improve reliability and performance,” said Jeff Mahler, co-founder and chief technology officer of &lt;a href="https://www.therobotreport.com/tag/ambi-robotics/" target="_blank" rel="noopener"&gt;Ambi Robotics&lt;/a&gt;. “Agentic robotics converted production data into robot behavior updates, increasing throughput across our U.S. fleet while keeping engineers in control.”&lt;/p&gt;
-&lt;p&gt;Goldberg is also an advisor to Ambi Robotics.&lt;/p&gt;
-&lt;div&gt;&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;&lt;/div&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/"&gt;Can AI agents program industrial robots without training data? Berkeley says yes&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
