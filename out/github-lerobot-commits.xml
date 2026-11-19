@@ -4,7 +4,60 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-18T16:03:26Z</ns0:updated>
+  <ns0:updated>2026-11-18T19:04:02Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/8ec1a474da5f3f90a670d9343386995ec9f81264</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8ec1a474da5f3f90a670d9343386995ec9f81264" />
+    <ns0:title>
+        fix(eval): keep per-episode simulator metrics in eval_info.json (#5279)
+    </ns0:title>
+    <ns0:updated>2026-11-18T19:04:02Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/43451416?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>xSurus</ns0:name>
+      <ns0:uri>https://github.com/xSurus</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(eval): keep per-episode simulator metrics in eval_info.json (#5279)
+
+eval_policy puts the numbers an environment reports in
+per_episode[i][&amp;quot;metrics&amp;quot;], but eval_one rebuilt its result without them,
+so lerobot-eval and in-training eval never saw them. Benchmarks that
+report nothing get the same output as before.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/a1caad57c5e2cf0940ae75850519462c338dbda5</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/a1caad57c5e2cf0940ae75850519462c338dbda5" />
+    <ns0:title>
+        fix(eval): save dataset episodes when a rollout reaches its step cap …
+    </ns0:title>
+    <ns0:updated>2026-11-18T19:02:34Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/47457359?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>rudycelekli</ns0:name>
+      <ns0:uri>https://github.com/rudycelekli</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(eval): save dataset episodes when a rollout reaches its step cap (#5405)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/169694686e3b3593f350c7b7498967d0b590d64c</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/169694686e3b3593f350c7b7498967d0b590d64c" />
+    <ns0:title>
+        fix(sim): keep terminal observations when vector simulators reuse buf…
+    </ns0:title>
+    <ns0:updated>2026-11-18T18:29:59Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/47457359?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>rudycelekli</ns0:name>
+      <ns0:uri>https://github.com/rudycelekli</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(sim): keep terminal observations when vector simulators reuse buffers (#5404)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/7e5739737ac198706ccad0cc67c1d327f80b55d6</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7e5739737ac198706ccad0cc67c1d327f80b55d6" />
@@ -488,81 +541,6 @@ and a codename. The block now names the public Hub repository of the weights,
 `runwayml/praxis-1-base-lerobot`, as the public config does, and describes the checkpoint in plain
 words. Nothing reads the values: the config check only allows the key, and the base-checkpoint test
 skips the block.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/4864a7ec6ad6ad5259d08f121f0c1b44983b4582</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4864a7ec6ad6ad5259d08f121f0c1b44983b4582" />
-    <ns0:title>
-        feat(policies): add Praxis-1 (#5321)
-    </ns0:title>
-    <ns0:updated>2026-11-11T14:56:42Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): add Praxis-1 (#5321)
-
-Add `praxis`, the LeRobot adapter of Praxis-1, Runway&amp;#39;s open-weight World Action Model: a
-chunk-causal video diffusion backbone (a 27B-parameter mixture-of-experts transformer) with an
-action expert that denoises 24 Cartesian commands at 15 Hz alongside the next 1.6 s of video.
-
-- The policy, its configuration and its processor steps in `lerobot/policies/praxis`, with the
-  model code vendored under `praxis_core` (FlashAttention-4 and Triton attention backends).
-- Inference with the single-arm DROID checkpoint and the bimanual YAM checkpoint.
-- Fine-tuning through `lerobot-train` with the praxis objective, in full (FSDP) or with LoRA
-  adapters through PEFT, and the `praxis_adamw` optimizer (AdamW with stochastic rounding for
-  the bfloat16 weights).
-- The base checkpoint: conversion, the heads of a rig and its normalization statistics.
-- Datacenter and RTX Blackwell GPUs.
-- Batched Euler, quaternion and matrix conversions on `Rotation`.
-- The `praxis` extra, examples, the guide, a model card section and tests.
-
-Co-authored-by: Hui Zhang &amp;lt;hui@runwayml.com&amp;gt;
-Co-authored-by: Pepijn &amp;lt;138571049+pkooij@users.noreply.github.com&amp;gt;
-Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;
-Co-authored-by: Lucas Kabela &amp;lt;20960393+Lucaskabela@users.noreply.github.com&amp;gt;
-Co-authored-by: Andy Chen &amp;lt;2110833+andersenchen@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/08b559cb6f6a36223c8ecebcb303c1572ce873ad</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/08b559cb6f6a36223c8ecebcb303c1572ce873ad" />
-    <ns0:title>
-        fix(tests): checkpoint resolution molmoact2 (#5322)
-    </ns0:title>
-    <ns0:updated>2026-11-11T14:25:14Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/58737870?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>imstevenpmwork</ns0:name>
-      <ns0:uri>https://github.com/imstevenpmwork</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(tests): checkpoint resolution molmoact2 (#5322)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/ff0acf5ee6434369eeeb9d26e76d1e2ddc20c0d2</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/ff0acf5ee6434369eeeb9d26e76d1e2ddc20c0d2" />
-    <ns0:title>
-        fix(processor): refuse rename_map collisions instead of silently drop…
-    </ns0:title>
-    <ns0:updated>2026-11-11T13:12:15Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29127300?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>CarolinePascal</ns0:name>
-      <ns0:uri>https://github.com/CarolinePascal</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(processor): refuse rename_map collisions instead of silently dropping a key (#5316)
-
-Two keys renamed to the same name (e.g. action.cartesian -&amp;gt; action on a dataset
-that already has action) were resolved differently per code path: make_policy
-read the action names from the first match, while the features, stats, batches
-and observations kept the last one. Every rename path now goes through
-rename_keys, which raises and suggests renaming the existing key as well.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>

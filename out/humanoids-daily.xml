@@ -7,9 +7,39 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Tue, 17 Nov 2026 22:02:49 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 18 Nov 2026 23:01:00 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/intelliprove-2-7m-seed-camera-vital-signs-humanoid-robots</guid>
+    <title>IntelliProve Raises €2.7M to Bring Camera-Based Vital Signs to Humanoid Robots</title>
+    <link>https://www.humanoidsdaily.com/news/intelliprove-2-7m-seed-camera-vital-signs-humanoid-robots</link>
+    <description>The Belgian startup reads heart rate, breathing and blood pressure from a 30-second face scan with an ordinary camera. After building it into virtual-care apps in 50+ countries, it now wants the same software running on humanoid and assistive robots.</description>
+    <pubDate>Wed, 18 Nov 2026 23:01:00 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Europe</category><category>fundraising</category><category>Investment</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-globalfoundries-spot-atlas-early-adopter</guid>
+    <title>GlobalFoundries Becomes First Chipmaker to Test Boston Dynamics' Atlas</title>
+    <link>https://www.humanoidsdaily.com/news/boston-dynamics-globalfoundries-spot-atlas-early-adopter</link>
+    <description>GlobalFoundries joins the Atlas early adopter program, the first customer from outside the car industry, with onsite testing from early 2027. It is also spreading Spot to fabs in New York, Dresden and Singapore, where two robots have logged 90,000 inspections since April.</description>
+    <pubDate>Wed, 18 Nov 2026 18:58:14 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Europe</category><category>Deployment</category><category>Atlas</category><category>manufacturing</category><category>Singapore</category><category>Boston Dynamics</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/humanoids-summit-2026-tesla-optimus-partnership-san-mateo</guid>
+    <title>Humanoids Summit Confirms Tesla Optimus for December Event, but Not Reservations</title>
+    <link>https://www.humanoidsdaily.com/news/humanoids-summit-2026-tesla-optimus-partnership-san-mateo</link>
+    <description>Humanoids Summit says Tesla will bring Optimus and FSD demo drives to its December 1–2 San Mateo event. The release does not mention the Optimus reservations or Gen 3 appearance its founder linked to the summit in October.</description>
+    <pubDate>Wed, 18 Nov 2026 18:49:32 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>Optimus</category><category>Tesla</category><category>US</category><category>Humanoids Summit</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/brett-adcock-moonshots-helix-3-homes-six-months</guid>
     <title>Brett Adcock Hopes Figure Robots Can Work in Any Home Within Six Months</title>
@@ -278,36 +308,6 @@
     <pubDate>Mon, 09 Nov 2026 15:12:27 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>reinforcement-learning</category><category>Unitree Robotics</category><category>Research</category><category>Atlas</category><category>Wheeled base</category><category>Boston Dynamics</category><category>Hexagon</category><category>simulation</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/primebot-10000th-personal-robot-production</guid>
-    <title>PrimeBOT Builds Its 10,000th Personal Robot, 14 Days After Its 5,000th</title>
-    <link>https://www.humanoidsdaily.com/news/primebot-10000th-personal-robot-production</link>
-    <description>PrimeBOT says its 10,000th Q1 and T1 personal robot rolled off the line on November 8, with daily capacity at 240 units. It has not disclosed sales or deliveries.</description>
-    <pubDate>Mon, 09 Nov 2026 07:51:36 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>manufacturing</category><category>China</category><category>AGIBOT</category><category>Consumer Tech</category><category>PrimeBOT</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/figure-hq-crawling-with-figure-03-robots-adcock-videos</guid>
-    <title>Figure’s HQ Is Crawling With Figure 03 Robots. What Are They All Doing?</title>
-    <link>https://www.humanoidsdaily.com/news/figure-hq-crawling-with-figure-03-robots-adcock-videos</link>
-    <description>Two new videos from Brett Adcock show dozens of Figure 03 humanoids roaming Figure’s headquarters, inside and out. The company is close to having more robots than employees, but has said little about how many are doing paid work.</description>
-    <pubDate>Sat, 07 Nov 2026 18:28:26 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Unitree Robotics</category><category>US</category><category>Figure</category><category>Figure-03</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/samsung-sdi-atlas-battery-70-cells-1-3-kwh</guid>
-    <title>Atlas Battery Pack to Use 70 Samsung SDI Cells, Report Says</title>
-    <link>https://www.humanoidsdaily.com/news/samsung-sdi-atlas-battery-70-cells-1-3-kwh</link>
-    <description>The reported 1.3 kWh pack adds detail to Atlas’s power system as humanoid makers pursue battery swapping, fast charging and new chemistries.</description>
-    <pubDate>Sat, 07 Nov 2026 11:43:21 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>hyundai</category><category>US</category><category>South Korea</category><category>Batteries</category><category>Samsung</category><category>Boston Dynamics</category>
   </item>
 
   </channel>
