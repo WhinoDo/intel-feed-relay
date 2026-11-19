@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Wed, 18 Nov 2026 23:01:00 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 19 Nov 2026 13:07:04 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xpeng-ai-day-2026-november-25-guangzhou</guid>
+    <title>XPENG Sets November 25 AI Day in Guangzhou, Promises New IRON Capabilities</title>
+    <link>https://www.humanoidsdaily.com/news/xpeng-ai-day-2026-november-25-guangzhou</link>
+    <description>He Xiaopeng says the event will focus on how AI models and physical systems evolve together, with IRON interacting live on stage weeks before its mass-production target.</description>
+    <pubDate>Thu, 19 Nov 2026 13:07:04 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>China</category><category>XPENG</category><category>physical-ai</category><category>IRON</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/njit-phd-hand-3d-printed-linkage-driven-humanoid-hand</guid>
+    <title>NJIT's PHD-Hand Uses Linkages, Not Tendons, in a Humanoid Hand You Can Print for Under $650</title>
+    <link>https://www.humanoidsdaily.com/news/njit-phd-hand-3d-printed-linkage-driven-humanoid-hand</link>
+    <description>NJIT researchers built PHD-Hand, a 570 g, 3D-printable humanoid hand with 15 linkage-driven joints and a parts cost under $650. The paper is accepted at IEEE Humanoids 2026, and the design will be open-sourced.</description>
+    <pubDate>Thu, 19 Nov 2026 07:55:32 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>US</category><category>Dexterity</category><category>open-source</category><category>Anthropic</category><category>Research</category><category>hands</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/intelliprove-2-7m-seed-camera-vital-signs-humanoid-robots</guid>
     <title>IntelliProve Raises €2.7M to Bring Camera-Based Vital Signs to Humanoid Robots</title>
@@ -288,26 +308,6 @@
     <pubDate>Tue, 10 Nov 2026 11:38:26 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Skild AI</category><category>Uma</category><category>Europe</category><category>Bosch</category><category>Agility Robotics</category><category>Wandercraft</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/nvidia-gr00t-2-world-action-model-corl-2026</guid>
-    <title>"Robotics Is No Longer an Elitist Sport": NVIDIA Unveils GR00T 2 and Open-Sources the Stack Behind It</title>
-    <link>https://www.humanoidsdaily.com/news/nvidia-gr00t-2-world-action-model-corl-2026</link>
-    <description>Jim Fan presented the 2B-parameter model at CoRL. NVIDIA reports 95% success from five demonstrations per task; weights open in December, with data, SimFoundry and hardware designs out now.</description>
-    <pubDate>Mon, 09 Nov 2026 21:05:16 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Dr Jim Fan</category><category>NVIDIA</category><category>Skild AI</category><category>OpenAI</category><category>Foundation Model</category><category>microagi</category><category>foxconn</category><category>open-source</category><category>GR00T</category><category>simulation</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/boston-dynamics-atlas-wheels-rl-actuator-test</guid>
-    <title>Boston Dynamics Puts Atlas on Wheels to Push Its Motors to the Limit</title>
-    <link>https://www.humanoidsdaily.com/news/boston-dynamics-atlas-wheels-rl-actuator-test</link>
-    <description>Boston Dynamics swapped Atlas's feet for scooter wheels on the ankle actuators and retrained its whole-body RL controller to roll, drift and spin-jump. It is a motor stress test, not a product.</description>
-    <pubDate>Mon, 09 Nov 2026 15:12:27 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>reinforcement-learning</category><category>Unitree Robotics</category><category>Research</category><category>Atlas</category><category>Wheeled base</category><category>Boston Dynamics</category><category>Hexagon</category><category>simulation</category>
   </item>
 
   </channel>

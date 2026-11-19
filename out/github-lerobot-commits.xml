@@ -4,7 +4,146 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-18T19:04:02Z</ns0:updated>
+  <ns0:updated>2026-11-19T16:21:56Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/83883ae60a8e1682552b6853e4170c74d83a4525</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/83883ae60a8e1682552b6853e4170c74d83a4525" />
+    <ns0:title>
+        fix(env): defer signal shutdown until the owner loop (#5295)
+    </ns0:title>
+    <ns0:updated>2026-11-19T16:21:56Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/193130714?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>manfromnowhere143</ns0:name>
+      <ns0:uri>https://github.com/manfromnowhere143</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(env): defer signal shutdown until the owner loop (#5295)
+
+* fix(env): defer CLI signal shutdown to the owner loop
+
+Carry Hadrien-Cornier&amp;#39;s deferred-shutdown approach from #4959 onto
+the current EnvServer architecture. Keep the active client session
+through ordinary and lock-held SIGTERM/SIGINT regression checks.
+
+* ci(env): require signal regressions in Fast Tests
+
+Install the locked test, dataset and remote extras for the existing
+signal regression. Select all four cases explicitly and reject missing,
+skipped or unsuccessful JUnit results. Keep the minimal dependency tiers
+and the shutdown implementation unchanged.
+
+* ci(env): leave signal regressions to Full Tests&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/c15b8159ecfeade583825498901b61a432f0eb01</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c15b8159ecfeade583825498901b61a432f0eb01" />
+    <ns0:title>
+        fix(eval): keep per-episode seeds in eval_info.json for every benchma…
+    </ns0:title>
+    <ns0:updated>2026-11-19T15:24:36Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/22116919?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>stock-code</ns0:name>
+      <ns0:uri>https://github.com/stock-code</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(eval): keep per-episode seeds in eval_info.json for every benchmark (#5424)
+
+eval_one dropped per_episode unless the env reported info[&amp;quot;metrics&amp;quot;],
+so LIBERO and most benchmarks lost each episode&amp;#39;s seed in eval_info.json
+and two runs could not be paired episode by episode without rebuilding
+seeds from --seed and the batch layout. Readers of existing keys see no
+change.
+
+Refs #5418&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/7c5c71fd160111f723461479ebfcbb698cecd644</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7c5c71fd160111f723461479ebfcbb698cecd644" />
+    <ns0:title>
+        fix(env-server): keep Zenoh syntax compatible with Python 3.11 (#5397)
+    </ns0:title>
+    <ns0:updated>2026-11-19T11:32:36Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(env-server): keep Zenoh syntax compatible with Python 3.11 (#5397)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/6707af9edf8b225d6c7a84b72311db9cf995e0ac</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/6707af9edf8b225d6c7a84b72311db9cf995e0ac" />
+    <ns0:title>
+        fix(envs): send ALOHA and PushT their dataset instruction instead of …
+    </ns0:title>
+    <ns0:updated>2026-11-19T10:44:41Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/22116919?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>stock-code</ns0:name>
+      <ns0:uri>https://github.com/stock-code</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(envs): send ALOHA and PushT their dataset instruction instead of the gym id (#5390)
+
+* fix(envs): send ALOHA and PushT their dataset instruction instead of the gym id
+
+Fixes #5373.
+
+* fix(envs): skip the reference-prompt lookup when task is None (mypy)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/c21cb98fe0cfba33893293116c9cad965f21aa81</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c21cb98fe0cfba33893293116c9cad965f21aa81" />
+    <ns0:title>
+        fix(datasets): clean stale metadata after feature removal (#5142)
+    </ns0:title>
+    <ns0:updated>2026-11-19T10:43:53Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/61369791?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Teddy-Liao</ns0:name>
+      <ns0:uri>https://github.com/Teddy-Liao</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): clean stale metadata after feature removal (#5142)
+
+* fix(datasets): clean stale metadata after feature removal
+
+* test(datasets): cover remove-camera split regression
+
+* perf(datasets): skip rewriting clean episode metadata
+
+Inspect parquet schemas before decoding episode metadata so clean files
+keep the copy-only path and only files with stale feature columns are
+decoded and rewritten. Cover the conditional rewrite with a spy test.
+
+* test(datasets): guard optional imports&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/f88f9a18a3afd5612c2e466b525e3317e20d029b</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f88f9a18a3afd5612c2e466b525e3317e20d029b" />
+    <ns0:title>
+        fix(sim): fall back to spawn for async workers without forkserver (#5…
+    </ns0:title>
+    <ns0:updated>2026-11-19T09:43:05Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(sim): fall back to spawn for async workers without forkserver (#5412)
+
+Co-authored-by: Rudy Celekli &amp;lt;rudy@gradiahq.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/8ec1a474da5f3f90a670d9343386995ec9f81264</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8ec1a474da5f3f90a670d9343386995ec9f81264" />
@@ -374,173 +513,6 @@ Signed-off-by: Dheiver Francisco Santos &amp;lt;165256830+dheiver2@users.noreply
 * fix(envhub): trust_remote_code in-process refusal message
 
 * fix(envhub): one trust_remote_code per process&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/977ce26306d24d9298ecf60f0ce8d08fb6385021</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/977ce26306d24d9298ecf60f0ce8d08fb6385021" />
-    <ns0:title>
-        refactor(envs): make EnvConfig options only, build envs in the factor…
-    </ns0:title>
-    <ns0:updated>2026-11-13T09:48:05Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(envs): make EnvConfig options only, build envs in the factory (#5338)
-
-* refactor(envs): make EnvConfig options only, build envs in the factory, pass benchmark options as flat integration kwargs
-
-* revert the flat integration kwargs, keep the env factory and options-only EnvConfig
-
-* fix infinite make env loop
-
-* keep SimSettings as on main
-
-* refactor(envs): raise in create_envs/create_env and drop make_env&amp;#39;s Hub repo ID path
-
-* refactor(envs): name the use_native_batch equivalent when make_env gets a Hub repo ID&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/4a992388f85dcb128020965ea94423bd1c0d5c9d</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4a992388f85dcb128020965ea94423bd1c0d5c9d" />
-    <ns0:title>
-        docs(datasets): make the v3 loading example runnable (#5303)
-    </ns0:title>
-    <ns0:updated>2026-11-13T09:38:26Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/69956021?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>zhangyue19921010</ns0:name>
-      <ns0:uri>https://github.com/zhangyue19921010</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(datasets): make the v3 loading example runnable (#5303)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/e6ffde60312365c5452c46189a26872483943154</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e6ffde60312365c5452c46189a26872483943154" />
-    <ns0:title>
-        fix(deps): relax lancedb upper bound to 1.0.0 (#5341)
-    </ns0:title>
-    <ns0:updated>2026-11-12T15:38:16Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/2283778?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>yanghua</ns0:name>
-      <ns0:uri>https://github.com/yanghua</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(deps): relax lancedb upper bound to 1.0.0 (#5341)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/1ef599dc5a7fd6aca6ad2ded8cf710e4d0e3f1be</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/1ef599dc5a7fd6aca6ad2ded8cf710e4d0e3f1be" />
-    <ns0:title>
-        refactor(g1): clarify controller naming and fix stale exo joystick in…
-    </ns0:title>
-    <ns0:updated>2026-11-12T10:48:14Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/60154720?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>cetiennec</ns0:name>
-      <ns0:uri>https://github.com/cetiennec</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor(g1): clarify controller naming and fix stale exo joystick input (#4990)
-
-* refactor(g1): reserve controller naming for whole-body controllers
-
-* docs(g1): shorten joystick state description
-
-* fix(g1): forward joystick buttons for waist height control
-
-* docs(g1): shorten waist control description
-
-* docs(g1): add troubleshooting for slow simulation
-
-* feat(g1): ease arm targets in after connect and reset
-
-* feat(g1): cap exoskeleton joint target velocity
-
-* refactor(g1): configure velocity limiter time cap and trim comments
-
----------
-
-Co-authored-by: Martino Russi &amp;lt;nopyeps@gmail.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/2f05d8f64d62a865c368a9fdf0ba3d8423e28035</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/2f05d8f64d62a865c368a9fdf0ba3d8423e28035" />
-    <ns0:title>
-        feat(dataset): support storage options for remote Lance datasets (#4794)
-    </ns0:title>
-    <ns0:updated>2026-11-12T09:43:41Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/2283778?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>yanghua</ns0:name>
-      <ns0:uri>https://github.com/yanghua</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(dataset): support storage options for remote Lance datasets (#4794)
-
-* feat(dataset): support storage options for remote Lance datasets
-
-* address review comments
-
-* introduce cache identity helper
-
-* address review comments&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/e581c1d5701f846788662079d4ac08835c96def9</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e581c1d5701f846788662079d4ac08835c96def9" />
-    <ns0:title>
-        docs(praxis): refresh stale statements; no internal path in the base …
-    </ns0:title>
-    <ns0:updated>2026-11-11T15:47:19Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/11545281?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>hzhang86</ns0:name>
-      <ns0:uri>https://github.com/hzhang86</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;docs(praxis): refresh stale statements; no internal path in the base fixture (#5325)
-
-* docs(praxis): the public checkpoint names, the LeRobot 0.7 lock, praxis-sim on PyPI
-
-- The checkpoints are named by their public Hub repositories throughout the guide, the model card
-  README, the examples README, code comments and test docstrings: `runwayml/praxis-1-droid-lerobot`
-  is the released single-arm DROID checkpoint (54 GB, sharded), `runwayml/praxis-1-yam-lerobot` the
-  bimanual checkpoint for two YAM arms, `runwayml/praxis-1-base-lerobot` the backbone and
-  action-expert trunk without the heads of a rig. The earlier, unreleased DROID checkpoint of the
-  results section is called that. Labels of training runs and export directories are gone.
-- The page said LeRobot 0.7.0 locks transformers 5.22.1; main is LeRobot 0.7.1 and locks 5.22.2,
-  which gives the same commands as 5.22.1 (checked on the DROID and the YAM checkpoint against the
-  praxis repository), so the installation paragraph, the warning, the results and the parity notes
-  name the 0.7 lock and both patch versions.
-- `praxis-sim` is on PyPI (0.1.0, the code of the praxis repository&amp;#39;s `packages/praxis-sim`): the
-  vendoring note says so and the resources table gets a Simulator row. LeRobot has no environment
-  for it yet.
-- References to a private repository&amp;#39;s pull requests and commits are replaced by the public
-  praxis-1-oss `main` and the vendored commit the file headers name.
-- `examples/praxis/README.md` lists `compute_norm_stats.py` and `init_heads.py` (the base
-  checkpoint) and notes the converter&amp;#39;s own `SHA256SUMS` and the base checkpoint&amp;#39;s missing
-  processors.
-
-No code change: comments and docstrings only in the Python files.
-
-* test(praxis): the base fixture&amp;#39;s provenance names the public checkpoint
-
-The base checkpoint fixture carried the provenance block of its training run, with a storage path
-and a codename. The block now names the public Hub repository of the weights,
-`runwayml/praxis-1-base-lerobot`, as the public config does, and describes the checkpoint in plain
-words. Nothing reads the values: the config check only allows the key, and the base-checkpoint test
-skips the block.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
