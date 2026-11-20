@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Thu, 19 Nov 2026 13:07:04 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 20 Nov 2026 10:58:12 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/apptronik-morgenstein-legs-safer-than-wheels</guid>
+    <title>Apptronik's RL Lead Says Legs, Not Wheels, Make Robots Safe to Work Beside</title>
+    <link>https://www.humanoidsdaily.com/news/apptronik-morgenstein-legs-safer-than-wheels</link>
+    <description>Kyle Morgenstein argues the "fits in human spaces" case for humanoids is really about safety: legs keep a robot compliant with small actuators, while wheeled bases carry large reflected inertia.</description>
+    <pubDate>Fri, 20 Nov 2026 10:58:12 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>humanoid-robots</category><category>US</category><category>Research</category><category>Apptronik</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/1x-neo-developers-december-runtime-2026-bornich</guid>
+    <title>1X Will Ship NEO to Developers in December, Plans Weekly Leaderboard and Live Robot Runs</title>
+    <link>https://www.humanoidsdaily.com/news/1x-neo-developers-december-runtime-2026-bornich</link>
+    <description>At Runtime 2026, Bernt Børnich said NEO ships in December to developers and some consumers, with a sensor-matched data collection rig, an automated training pipeline, open APIs, a Discord community and a Friday leaderboard streamed on Twitch.</description>
+    <pubDate>Fri, 20 Nov 2026 09:24:40 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>1X Technologies</category><category>humanoid-robots</category><category>US</category><category>NEO</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/xpeng-ai-day-2026-november-25-guangzhou</guid>
     <title>XPENG Sets November 25 AI Day in Guangzhou, Promises New IRON Capabilities</title>
@@ -288,26 +308,6 @@
     <pubDate>Tue, 10 Nov 2026 13:35:28 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>NVIDIA</category><category>OpenAI</category><category>Benchmark</category><category>Foundation Model</category><category>Anthropic</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/robbyant-lingbot-touch-open-source-tactile-model</guid>
-    <title>Robbyant Open-Sources LingBot-Touch, One Tactile Model for Three Sensor Types</title>
-    <link>https://www.humanoidsdaily.com/news/robbyant-lingbot-touch-open-source-tactile-model</link>
-    <description>Ant Group's Robbyant has released LingBot-Touch under Apache 2.0. Across 26 real-robot tasks, its tactile tokens lifted four policies by 14 to 25 points, including on a hand whose sensor it never saw.</description>
-    <pubDate>Tue, 10 Nov 2026 12:22:45 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Robbyant</category><category>Foundation Model</category><category>Robotics Research</category><category>tactile sensing</category><category>open-source</category><category>Sharpa Robotics</category><category>China</category><category>Robotera</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/machina-summit-2027-palais-des-congres-paris-first-speakers</guid>
-    <title>MACHINA Summit Moves to the Palais des Congrès for 2027, Names Wandercraft, Agility and Skild AI Speakers</title>
-    <link>https://www.humanoidsdaily.com/news/machina-summit-2027-palais-des-congres-paris-first-speakers</link>
-    <description>The Paris physical AI conference grows to two days and 3,500 expected attendees on 7–8 July 2027, closing with an invitation-only gala at Versailles.</description>
-    <pubDate>Tue, 10 Nov 2026 11:38:26 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Skild AI</category><category>Uma</category><category>Europe</category><category>Bosch</category><category>Agility Robotics</category><category>Wandercraft</category>
   </item>
 
   </channel>

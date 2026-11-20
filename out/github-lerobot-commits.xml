@@ -4,7 +4,27 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-19T16:21:56Z</ns0:updated>
+  <ns0:updated>2026-11-20T12:14:21Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/9c23a7db15f9c6332824ac8524c3ad889f3a002a</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9c23a7db15f9c6332824ac8524c3ad889f3a002a" />
+    <ns0:title>
+        fix(processor): preserve sample indices when filtering tensor fields …
+    </ns0:title>
+    <ns0:updated>2026-11-20T12:14:21Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/69956021?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>zhangyue19921010</ns0:name>
+      <ns0:uri>https://github.com/zhangyue19921010</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(processor): preserve sample indices when filtering tensor fields (#5420)
+
+* fix(processor): preserve sample indices when filtering tensor fields
+
+* fix(processor): simplify batched field selection&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/83883ae60a8e1682552b6853e4170c74d83a4525</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/83883ae60a8e1682552b6853e4170c74d83a4525" />
@@ -481,38 +501,6 @@ Signed-off-by: Dheiver Francisco Santos &amp;lt;165256830+dheiver2@users.noreply
 * fix(utils): preserve small rotation vectors
 
 * test: keep small-rotation coverage focused on from_rotvec&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/d7a36af45eff170c5a41ade4bd9f49979cf48ffc</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d7a36af45eff170c5a41ade4bd9f49979cf48ffc" />
-    <ns0:title>
-        feat(envhub): explicit trust, whole-repository loading, and a complet…
-    </ns0:title>
-    <ns0:updated>2026-11-13T09:48:05Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(envhub): explicit trust, whole-repository loading, and a complete EnvHub guide (#5276)
-
-* fix(envhub): download the whole repository when loading env.py in-process
-
-* docs(sim): rewrite the EnvHub guide and the simulation pages
-
-* feat(env-server): require --trust_remote_code=true to serve an EnvHub repository
-
-* fix(env-server): require consent for EnvHub repositories served from a YAML too
-
-* docs(envhub): build the test envs with make_env
-
-* docs(envhub): drop the make_env repo ID mention
-
-* fix(envhub): trust_remote_code in-process refusal message
-
-* fix(envhub): one trust_remote_code per process&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
