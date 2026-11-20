@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>contact@humanoidsdaily.com (Humanoids Daily Staff)</managingEditor>
       <webMaster>contact@humanoidsdaily.com (Humanoids Daily Staff)</webMaster>
-      <lastBuildDate>Fri, 20 Nov 2026 10:58:12 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 20 Nov 2026 14:38:30 GMT</lastBuildDate>
       <ns0:link href="https://www.humanoidsdaily.com/feed.xml" rel="self" type="application/rss+xml" />
       
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/foundation-base-group-150-million-investment</guid>
+    <title>South Korea's Base Group Plans $150 Million Lifeline for Foundation</title>
+    <link>https://www.humanoidsdaily.com/news/foundation-base-group-150-million-investment</link>
+    <description>Seoul-based Base Group is preparing to invest $150 million in Foundation, which has not paid staff since October 30, Reuters reports. The deal would deepen Base's ties to the Trump family, which Democratic senators questioned in August.</description>
+    <pubDate>Fri, 20 Nov 2026 14:38:30 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>sankaet-pathak</category><category>South Korea</category><category>military-robotics</category><category>Foundation</category><category>Investment</category>
+  </item>
+
+  <item>
+    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/openai-robotics-team-reorganized-gpt-6-astra</guid>
+    <title>OpenAI Folds Its Robotics Team Into Research as GPT-6 Astra Takes On Robot Control</title>
+    <link>https://www.humanoidsdaily.com/news/openai-robotics-team-reorganized-gpt-6-astra</link>
+    <description>Six months after launching OpenAI Robotics, the company has moved its robotics researchers under Mark Chen and its hardware teams under Greg Brockman, saying general models like GPT-6 Astra can run robots directly.</description>
+    <pubDate>Fri, 20 Nov 2026 12:36:44 GMT</pubDate>
+    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
+    <category>OpenAI</category><category>Foundation Model</category><category>Humanoid</category>
+  </item>
+
   <item>
     <guid isPermaLink="false">https://www.humanoidsdaily.com/news/apptronik-morgenstein-legs-safer-than-wheels</guid>
     <title>Apptronik's RL Lead Says Legs, Not Wheels, Make Robots Safe to Work Beside</title>
@@ -288,26 +308,6 @@
     <pubDate>Tue, 10 Nov 2026 15:19:43 GMT</pubDate>
     <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
     <category>Newsletter</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/hd-hyundai-robotics-dual-arm-robot-palantir-skild-ai-korea</guid>
-    <title>HD Hyundai Robotics Builds Its Own Robot Brain, as Skild AI Pitches Korea on Building the Bodies</title>
-    <link>https://www.humanoidsdaily.com/news/hd-hyundai-robotics-dual-arm-robot-palantir-skild-ai-korea</link>
-    <description>HD Hyundai Robotics' new dual-arm robot runs a foundation model it trained itself, and Palantir AI agents have cut its problem-resolution time by 63%. In Seoul the same week, Skild AI's Deepak Pathak courted Korean motor makers and described deployments at LG and Market Kurly.</description>
-    <pubDate>Tue, 10 Nov 2026 14:29:46 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>Skild AI</category><category>South Korea</category><category>Foundation Model</category><category>manufacturing</category><category>LG</category><category>Palantir</category>
-  </item>
-
-  <item>
-    <guid isPermaLink="false">https://www.humanoidsdaily.com/news/anthropic-claude-fable-5-2-robotics-robodojo</guid>
-    <title>Anthropic Says Claude Fable 5.2 More Than Doubles GPT-6 Astra on a Robot-Control Benchmark</title>
-    <link>https://www.humanoidsdaily.com/news/anthropic-claude-fable-5-2-robotics-robodojo</link>
-    <description>Anthropic reports 64.9% on the RoboDojo simulated two-arm benchmark, against 29.8% for Astra in its own runs. On RoboDojo's leaderboard, only one agent system scores higher.</description>
-    <pubDate>Tue, 10 Nov 2026 13:35:28 GMT</pubDate>
-    <author>contact@humanoidsdaily.com (Humanoids Daily Staff)</author>
-    <category>NVIDIA</category><category>OpenAI</category><category>Benchmark</category><category>Foundation Model</category><category>Anthropic</category>
   </item>
 
   </channel>

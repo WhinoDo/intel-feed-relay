@@ -4,7 +4,139 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-20T12:14:21Z</ns0:updated>
+  <ns0:updated>2026-11-20T18:59:06Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/b13b952556c597d1e0849cadb6b6e7496bc5a2f3</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b13b952556c597d1e0849cadb6b6e7496bc5a2f3" />
+    <ns0:title>
+        feat(processor): add JointReorderProcessorStep (#5446)
+    </ns0:title>
+    <ns0:updated>2026-11-20T18:59:06Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>nepyope</ns0:name>
+      <ns0:uri>https://github.com/nepyope</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(processor): add JointReorderProcessorStep (#5446)
+
+* feat(processor): add JointReorderProcessorStep
+
+* Update PolicyFeature shape calculation in joint_reorder_processo
+Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;
+
+---------
+
+Signed-off-by: Martino Russi &amp;lt;77496684+nepyope@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/039e05183f38b02d28c5f6ac9dbc7ef1680728cd</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/039e05183f38b02d28c5f6ac9dbc7ef1680728cd" />
+    <ns0:title>
+        fix(processor): require explicit consent for custom code (#5384)
+    </ns0:title>
+    <ns0:updated>2026-11-20T14:48:36Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(processor): require explicit consent for custom code (#5384)
+
+* fix:arbitary code execution in DataProcessorPipeline
+
+* Ensure the subclass is strictly subclass()
+
+* fix(processor): enforce ProcessorStep subclass validation in _resolve_step_class and update unit tests
+
+* pre validation before improt via trust_remot_code
+
+* resolved trust_remote_code , updated test and fixed CLI opt-in
+
+* fix(processor): enforce caller-scoped remote code consent
+
+* refactor(processor): condense consent checks and regression tests
+
+* test(processor): merge consent regressions into pipeline loader tests
+
+* fix(processor): close tokenizer consent gaps and preserve config exports
+
+Co-authored-by: Taher Tadpatri &amp;lt;107971260+TaherTadpatri@users.noreply.github.com&amp;gt;
+Co-authored-by: Ravindu Somawansa &amp;lt;3657419+ravediamond@users.noreply.github.com&amp;gt;
+Co-authored-by: saime428 &amp;lt;51110572+saime428@users.noreply.github.com&amp;gt;
+
+* fix(rewards): require caller consent for remote code
+
+* style(configs): align policy and reward config exports
+
+* fix(configs): enforce checkpoint consent and forward classifier opt-in
+
+* docs: explain custom tokenizer and reward classifier consent
+
+* test: adapt classifier and FineART fixtures to explicit consent
+
+* fix(security): enforce caller consent and pin tokenizer references
+
+* docs: show FAST tokenizer pins for FineART and WALL-X
+
+* fix(security): add policy-server consent and name the CLI flags in consent errors
+
+* fix(security): clear nested checkpoint consent and resolve FineART pins
+
+* style(tests): apply pyupgrade to FineART cache regression
+
+* fix(jobs): forward caller consent for EnvHub evaluation
+
+---------
+
+Co-authored-by: TaherTadpatri &amp;lt;tahertadpatri@gamil.com&amp;gt;
+Co-authored-by: Taher Tadpatri &amp;lt;107971260+TaherTadpatri@users.noreply.github.com&amp;gt;
+Co-authored-by: Ravindu Somawansa &amp;lt;3657419+ravediamond@users.noreply.github.com&amp;gt;
+Co-authored-by: saime428 &amp;lt;51110572+saime428@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/37025bd14c689e0c0723a3f463e2d54f91de65e2</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/37025bd14c689e0c0723a3f463e2d54f91de65e2" />
+    <ns0:title>
+        feat(envhub): load environments from Spaces (#5361)
+    </ns0:title>
+    <ns0:updated>2026-11-20T14:17:19Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(envhub): load environments from Spaces (#5361)
+
+* feat(envhub): load environments from Spaces
+
+* docs(envhub): promote the public SO-101 Spaces
+
+* docs(envhub): restore generic repository placeholders
+
+* docs(envhub): distinguish Spaces tag filtering from name search
+
+* docs(envhub): use hf CLI for tag discovery
+
+* docs(envhub): simplify Space publishing guidance
+
+* docs: link directly to EnvHub Spaces filter
+
+* feat(envhub): resolve bare Hub paths to a Space first, then a model repository
+
+* fix(envhub): clearer Space revision error, Gradio and offline docs, stable build folder
+
+* fix(envhub): type the repo type and show where a missing entry file was looked for
+
+* refactor(envhub): load environments from Spaces only
+
+* docs(envhub): explain migration from model repositories&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/9c23a7db15f9c6332824ac8524c3ad889f3a002a</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9c23a7db15f9c6332824ac8524c3ad889f3a002a" />
@@ -445,62 +577,6 @@ Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
 Co-authored-by: davrens101 &amp;lt;166565828+davrens101@users.noreply.github.com&amp;gt;
 Co-authored-by: ogawakonatsu-hue &amp;lt;306685633+ogawakonatsu-hue@users.noreply.github.com&amp;gt;
 Co-authored-by: Jonny (Bones) Faeth &amp;lt;210794222+JonnyFaeth@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/fe1c54594f6ba275fccf210b9f7b11f0e2324b89</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/fe1c54594f6ba275fccf210b9f7b11f0e2324b89" />
-    <ns0:title>
-        chore: fix typo in pyproject.toml comment (#5275)
-    </ns0:title>
-    <ns0:updated>2026-11-13T12:00:08Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/165256830?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>dheiver2</ns0:name>
-      <ns0:uri>https://github.com/dheiver2</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore: fix typo in pyproject.toml comment (#5275)
-
-dependecy -&amp;gt; dependency
-
-Signed-off-by: Dheiver Francisco Santos &amp;lt;165256830+dheiver2@users.noreply.github.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/6e1095036b489b4d40d941b03d67bd99aa295160</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/6e1095036b489b4d40d941b03d67bd99aa295160" />
-    <ns0:title>
-        fix(datasets): escape video paths in concat manifests (#5168)
-    </ns0:title>
-    <ns0:updated>2026-11-13T11:40:40Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/59379458?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>dipeshbabu</ns0:name>
-      <ns0:uri>https://github.com/dipeshbabu</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): escape video paths in concat manifests (#5168)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/866dc27e0a077373f4712214231880f9a61887d2</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/866dc27e0a077373f4712214231880f9a61887d2" />
-    <ns0:title>
-        fix(utils): preserve small rotation vectors (#5159)
-    </ns0:title>
-    <ns0:updated>2026-11-13T11:26:56Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/bd82aa0275837f9955285170c5047350?d=https%3A%2F%2Fgithub.githubassets.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=g&amp;s=30" />
-    <ns0:author>
-      <ns0:name />
-      <ns0:email>ShuffleMonkey@163.com</ns0:email>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(utils): preserve small rotation vectors (#5159)
-
-* fix(utils): preserve small rotation vectors
-
-* test: keep small-rotation coverage focused on from_rotvec&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
