@@ -4,7 +4,77 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-20T18:59:06Z</ns0:updated>
+  <ns0:updated>2026-11-21T18:26:33Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/e5be0c16be1df4ae004abb4167842a7456c4cd54</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e5be0c16be1df4ae004abb4167842a7456c4cd54" />
+    <ns0:title>
+        feat(policies): add the NAT VLA policy (nat_vla) (#5416)
+    </ns0:title>
+    <ns0:updated>2026-11-21T18:26:33Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/94938815?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>ahadjawaid</ns0:name>
+      <ns0:uri>https://github.com/ahadjawaid</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(policies): add the NAT VLA policy (nat_vla) (#5416)
+
+* feat(policies): add the NAT VLA policy (nat_vla)
+
+A vision-language model (LFM2-VL) that writes NAT action tokens, fine-tunable with lerobot-train from the pretrained
+ahad-j/nat-vla-450m.
+
+- nat_tokenizer.py: the NAT action tokenizer, built from its own config and safetensors weights
+  (ahad-j/nat-tokenizer-h32-l4-c6400 by default, swappable through --policy.action_tokenizer). It encodes and decodes
+  actions of any number of columns, gives the tokens needed for a number of steps, the first tokens of a chunk that
+  starts with given actions, and a streaming decoder that returns each latent&amp;#39;s actions as its tokens arrive.
+- modeling_nat_vla.py: the policy. Training is cross-entropy over the action tokens with the VLM&amp;#39;s original token
+  embeddings frozen. Inference generates the tokens greedily in a background thread and streams the chunk, so each
+  latent&amp;#39;s actions are returned as soon as its tokens are generated. With rtc_steps, the next chunk is generated
+  while the current chunk&amp;#39;s last actions run and starts with their tokens (token-prefix real-time chunking).
+- configuration_nat_vla.py, processor_nat_vla.py: config and the default pre/post-processors (MIN_MAX actions).
+- The VLM&amp;#39;s architecture config, tokenizer and image processor come from the vlm/ subfolder of ahad-j/nat-vla-450m.
+- Registration in the policy factory, the nat_vla extra, docs and tests.
+
+* fix(nat_vla): address review
+
+- Build the prompt token ids, image inputs and state bins in a NATVLATokenizerProcessorStep, saved with the
+  checkpoint together with the VLM processor as vlm/; fine-tuning a checkpoint writes prompts with the active
+  config&amp;#39;s cameras, setup and control mode.
+- Keep the VLM config in the policy config, so a checkpoint loads without config.vlm or the Hub.
+- Start --policy.type=nat_vla from the pretrained weights in config.vlm.
+- Leave train/eval mode to the caller.
+- Follow config.dtype (bfloat16 by default); the NAT tokenizer always runs in float32.
+- Pad with the tokenizer&amp;#39;s pad id.
+- Do not train the tokens of fully padded latents (action_is_pad).
+- Support LeRobot real-time chunking (supports_rtc, predict_action_chunk(inference_delay,
+  prev_chunk_left_over)): the chunk starts with the tokens of the actions that run during inference,
+  rounded up to whole latents.
+- Tests build a tiny LFM2-VL and NAT tokenizer instead of downloading the checkpoint.
+- Apache license headers, policy README and a longer guide with evaluation and deployment commands.
+
+* fix(nat_vla): address the second review
+
+- Reject action normalization other than MIN_MAX: the NAT tokenizer encodes actions in [-1, 1].
+- The processor left-pads the prompts and ends them with &amp;lt;action_start&amp;gt;, so training and generation append
+  the action tokens with one torch.cat instead of unpadding and re-padding each prompt.
+- Pin the Hub downloads with vlm_revision and action_tokenizer_revision.
+- Tests build float32 policies: CPU bfloat16 kernels differ between processors.
+- Docs: a note on the optional causal-conv1d kernels.
+
+* fix(nat_vla): address the rest of the second review
+
+- Model card note: the LFM Open License&amp;#39;s commercial-use limit and redistribution terms.
+- Copyright headers name Ahad Jawaid and The HuggingFace Inc. team.
+- Docs: the LIBERO fine-tune command the evaluation uses, the recipe&amp;#39;s steps and batch size with the GPU memory
+  they need, and the rtc_steps values of the default tokenizer.
+- Type annotations for the tokenizer&amp;#39;s modules, the hooks and the processor step.
+- uv.lock with the nat_vla extra.
+- --policy.type keeps the NAT tokenizer of --policy.action_tokenizer instead of the one saved with the
+  pretrained VLA.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/b13b952556c597d1e0849cadb6b6e7496bc5a2f3</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b13b952556c597d1e0849cadb6b6e7496bc5a2f3" />
@@ -557,26 +627,6 @@ Four fixes to the Praxis-1 policy from a review of #5321, each with a test that 
   reading slightly outside [0, 1] gave different commands from the praxis session.
 
 Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/781d3daccc64e8ce3e3d0910e64b2b0180551059</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/781d3daccc64e8ce3e3d0910e64b2b0180551059" />
-    <ns0:title>
-        fix(openarm): stop re-zeroing the leader on connect and decode the ha…
-    </ns0:title>
-    <ns0:updated>2026-11-16T12:37:49Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(openarm): stop re-zeroing the leader on connect and decode the handshake reply (#5358)
-
-Co-authored-by: davrens101 &amp;lt;166565828+davrens101@users.noreply.github.com&amp;gt;
-Co-authored-by: ogawakonatsu-hue &amp;lt;306685633+ogawakonatsu-hue@users.noreply.github.com&amp;gt;
-Co-authored-by: Jonny (Bones) Faeth &amp;lt;210794222+JonnyFaeth@users.noreply.github.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
