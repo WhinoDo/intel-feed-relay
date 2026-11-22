@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Sat, 21 Nov 2026 01:24:33 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 21 Nov 2026 22:25:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,79 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>The manufacturing data gap holding back physical AI</title>
+		<link>https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/</link>
+					<comments>https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/#respond</comments>
+		
+		<dc:creator>Mike Kenworthy, CTO, VulcanForms</dc:creator>
+		<pubDate>Sat, 21 Nov 2026 22:25:35 +0000</pubDate>
+				<category>Artificial Intelligence</category>
+		<category>Manufacturing</category>
+		<category>Markets / Industries</category>
+		<category>News</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590317</guid>
+
+					<description>&lt;p&gt;Manufacturers looking to deploy autonomous robots must close gaps in industrial data collection, interoperability, and quality feedback to enable reliable decision-making and improve production efficiency.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/"&gt;The manufacturing data gap holding back physical AI&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;p&gt;&lt;img fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-590318" src="https://www.therobotreport.com/wp-content/uploads/2026/11/IMG_6760-e1795299517703.jpeg" alt="" width="1000" height="667"&gt;&lt;/p&gt;
+&lt;p&gt;Robotics and physical AI companies have raised &lt;a href="https://www.ft.com/content/e5fd2655-f95f-4183-9dd9-b3c1ebe67a6b?syn-25a6b1a6=1" target="_blank" rel="noopener"&gt;nearly $48 billion so far in 2026&lt;/a&gt;, but the rollout of fully autonomous machines in industrial settings isn’t a given. For robots to step beyond controlled environments onto the manufacturing floor, they need real-world data to learn from.&lt;/p&gt;
+&lt;p&gt;Most production facilities aren’t set up to provide it.&lt;/p&gt;
+&lt;p&gt;Consider the welding process. For a robot to improve its technique autonomously, it needs to understand how changes in welding angle, travel speed, workpiece position, and other key parameters affect the finished result. Experienced technicians develop this understanding through years of hands-on experience, but much of that knowledge isn&amp;#8217;t captured in a form robotics partners can use to train autonomous systems.&lt;/p&gt;
+&lt;p&gt;Similar gaps exist in other manufacturing processes where technicians rely on experience to make adjustments that aren&amp;#8217;t consistently documented.&lt;br /&gt;
+Manufacturers looking to deploy physical AI need to close this data gap. Without information connecting process decisions to production outcomes, even sophisticated robotic systems may struggle to adapt to changing conditions.&lt;/p&gt;
+&lt;p&gt;These limitations could prevent manufacturers from achieving the efficiency and quality improvements they expect from physical AI.&lt;/p&gt;
+&lt;h2&gt;Why industrial data remains a barrier to physical AI&lt;/h2&gt;
+&lt;p&gt;Manufacturers already collect extensive operational data, but much of it was never structured for autonomous learning. Sometimes it is collected and never even reviewed at all!&lt;/p&gt;
+&lt;p&gt;Relevant contextual information often sits in separate systems. A machine may record operating parameters while a quality management system captures inspection results, making it difficult to connect process decisions with finished-part quality.&lt;/p&gt;
+&lt;p&gt;Manufacturing leaders are increasingly aware that these silos are an obstacle. According to the &lt;a href="https://manufacturingleadershipcouncil.com/survey-smart-factories-enter-the-execution-era/" target="_blank" rel="noopener"&gt;Manufacturing Leadership Council&amp;#8217;s 2026 Smart Factories and Digital Production Survey&lt;/a&gt;, 37% of surveyed manufacturers cited a lack of data interoperability as a major roadblock to implementing their smart factory strategies, up from 22% in 2025.&lt;/p&gt;
+&lt;p&gt;However, improving interoperability alone won&amp;#8217;t get robots the data they need to learn. Manufacturers also need to ensure that production records can be tied to measurable quality outcomes.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;3 ways manufacturers can prepare for physical AI&lt;/h2&gt;
+&lt;p&gt;Preparing a factory for physical AI requires more than collecting additional data or connecting disparate systems. Manufacturers need to understand what information their robotic systems will rely on, how that data reflects real production conditions and whether it can help systems make reliable adjustments over time.&lt;/p&gt;
+&lt;p&gt;Addressing these questions early, in collaboration with robotics partners, can help manufacturers identify gaps in their existing infrastructure and focus investments where they&amp;#8217;ll have the greatest impact.&lt;/p&gt;
+&lt;p&gt;Here are three areas to prioritize before deployment.&lt;/p&gt;
+&lt;h2&gt;1. Capture data that reflects real production conditions&lt;/h2&gt;
+&lt;p&gt;Begin by identifying the production conditions your robotic systems need to recognize and respond to. Focus on capturing the complex interactions between the process parameters and quality outcomes to show how planned and unplanned changes in materials or equipment performance affect the finished product.&lt;/p&gt;
+&lt;p&gt;Consider metal additive &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/"&gt;manufacturing&lt;/a&gt;, where factors like powder (or wire) characteristics, processing temperatures, and environmental conditions can influence a component&amp;#8217;s final properties and characteristic defect structure. Connecting these variables with inspection results gives your robotics partners a clearer picture of which conditions contribute to defects or variations in quality.&lt;/p&gt;
+&lt;p&gt;You can then use that information to train systems to recognize changing production conditions and develop more realistic simulations for testing their responses.&lt;/p&gt;
+&lt;h2&gt;2. Connect data across the entire production process&lt;/h2&gt;
+&lt;p&gt;The data you capture won’t have much value if it remains isolated within individual machines or production stages. The next step is to create a digital thread that connects production conditions with inspection results and finished-part quality.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ve seen this challenge firsthand in advanced manufacturing. AI-based image recognition is becoming table stakes for assessing quality within metal additive manufacturing printers, while downstream equipment such as heat-treatment furnaces may be far more difficult to integrate into the same system. Lior Susan of Eclipse rightly says: “If your physical asset isn’t generating real-time operational data, it’s a dead asset.”&lt;/p&gt;
+&lt;p&gt;The disconnect creates gaps in the production history of a component, making it harder to understand how subsequent processing affects its final properties.&lt;/p&gt;
+&lt;p&gt;To close those gaps, you need to connect equipment and quality management systems that weren&amp;#8217;t designed to communicate. Start by identifying the data needed for a specific robotic application, then work with technology partners to establish consistent part identifiers and link process records to inspection results in a true digital thread.&lt;/p&gt;
+&lt;p&gt;By starting with a targeted application, you can build the data connections to support physical AI without having to overhaul your entire production infrastructure at once.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;3. Build feedback loops around quality and repeatability&lt;/h2&gt;
+&lt;p&gt;Finally, establish how autonomous systems will be evaluated and when human oversight is required. Work with your robotics partners to identify which process adjustments can be made automatically and how the system will determine whether those changes improved production outcomes.&lt;/p&gt;
+&lt;p&gt;In medical device manufacturing, for example, regulatory requirements often mandate validation of production processes to ensure consistent product quality. Changes to those processes may require additional testing and revalidation, limiting how freely AI systems can modify production parameters.&lt;/p&gt;
+&lt;p&gt;Before authorizing autonomous adjustments, work with your robotics partners to define acceptable operating limits and establish how the system will verify results.&lt;/p&gt;
+&lt;p&gt;Also develop clear criteria for when an unexpected outcome requires engineering review. A system that can modify operating parameters but can’t evaluate the resulting quality is not ready to make those decisions independently.&lt;/p&gt;
+&lt;h2&gt;Preparing manufacturing data for industrial autonomy&lt;/h2&gt;
+&lt;p&gt;As you evaluate data infrastructure investments, determine whether they will support your physical AI goals. Before adding more sensors or connecting another piece of equipment, have a plan for how the resulting information will help explain how a process adjustment affects product quality.&lt;/p&gt;
+&lt;p&gt;Where that connection is missing, you may get more value from linking existing process records to inspection results than from collecting additional machine data.&lt;/p&gt;
+&lt;p&gt;Industrial autonomy won&amp;#8217;t depend on how much data manufacturers collect, but on whether their robotic systems are actually leveraging that data to make reliable decisions on the factory floor.&lt;/p&gt;
+&lt;h2&gt;&lt;img decoding="async" class="size-medium wp-image-590320 alignleft" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Mike-Kenworthy-300x253.png" alt="" width="300" height="253" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Mike-Kenworthy-300x253.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/Mike-Kenworthy-150x127.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/Mike-Kenworthy-768x649.png 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/Mike-Kenworthy-282x238.png 282w, https://www.therobotreport.com/wp-content/uploads/2026/11/Mike-Kenworthy.png 1006w" sizes="(max-width: 300px) 100vw, 300px" /&gt;About the author&lt;/h2&gt;
+&lt;p&gt;Michael Kenworthy is chief technology officer at &lt;a href="https://www.vulcanforms.com/" target="_blank" rel="noopener"&gt;VulcanForms&lt;/a&gt;, bringing more than a decade of experience in engineering, product development and advanced manufacturing. Previously, he served as VP of engineering at Relativity Space, where he helped lead the development of 3D-printed rockets, and chief product officer at Seurat Technologies, where he oversaw product strategy. He holds degrees from MIT and the University of Wisconsin-Madison.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/"&gt;The manufacturing data gap holding back physical AI&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>Medtronic’s Hugo surgical robot ready for bigger operation</title>
 		<link>https://www.therobotreport.com/medtronics-hugo-surgical-robot-ready-for-bigger-operation/</link>
 					<comments>https://www.therobotreport.com/medtronics-hugo-surgical-robot-ready-for-bigger-operation/#respond</comments>
@@ -43,7 +116,7 @@
 					<description>&lt;p&gt;Globally, the Hugo surgical system is on track to surpass 50,000 cumulative procedures by the end of Medtronic's fiscal year. &lt;/p&gt;
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/medtronics-hugo-surgical-robot-ready-for-bigger-operation/"&gt;Medtronic&amp;#8217;s Hugo surgical robot ready for bigger operation&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
-										<ns3:encoded>&lt;div id="attachment_590310" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured.jpg"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590310" class="size-full wp-image-590310" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured.jpg" alt="The Medtronic Hugo surgical robot. " width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured-368x238.jpg 368w" sizes="(max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590310" class="wp-caption-text"&gt;Medtronic&amp;#8217;s Hugo surgical robot features a modular design that allows surgeons to use only the robotic arms needed for any given procedure. | Source: Medtronic&lt;/p&gt;&lt;/div&gt;
+										<ns3:encoded>&lt;div id="attachment_590310" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590310" class="size-full wp-image-590310" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured.jpg" alt="The Medtronic Hugo surgical robot. " width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/11/Medtronic-Hugo-RAS-System-FDA-clearance-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590310" class="wp-caption-text"&gt;Medtronic&amp;#8217;s Hugo surgical robot features a modular design that allows surgeons to use only the robotic arms needed for any given procedure. | Source: Medtronic&lt;/p&gt;&lt;/div&gt;
 &lt;p&gt;Medtronic this week announced the U.S. Food and Drug Administration (FDA) has cleared the Hugo robotic-assisted surgery system for use in general surgery procedures. The approval enables the modular, cart-based system to perform surgeries across the abdomen.&lt;/p&gt;
 &lt;p&gt;The clearance covers all upper abdominal general surgical procedures, including cholecystectomy, Roux-en-Y gastric bypass, ventral hernia, and small bowel resection. The FDA also cleared lower abdominal procedures of inguinal hernia and appendectomy.&lt;/p&gt;
 &lt;p&gt;Combined, &lt;a href="https://www.therobotreport.com/tag/medtronic/" target="_blank" rel="noopener"&gt;Medtronic&lt;/a&gt; said these procedures account for about 3.5 million surgeries annually in the U.S.&lt;/p&gt;
@@ -57,7 +130,7 @@
 &lt;p&gt;“We took two pathways [to gain FDA clearance]. One was we did a clinical trial in the U.S. and worked with the FDA and IDE, but we also leveraged the data from outside the U.S,” Kamal said. &amp;#8220;I think it was a creative way of approaching this, and we were able to get a broader set of general surgery indications.&amp;#8221;&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;General surgery also represents the highest growth for Hugo system procedures outside the U.S., surpassing urology and gynecology.&lt;/p&gt;
 &lt;h2&gt;How is Medtronic using the latest advances in AI?&lt;/h2&gt;
-&lt;p&gt;&lt;iframe title="How AI and robots are shaping the future of surgery" width="740" height="416" src="https://www.youtube.com/embed/T00S50Dx2Wk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="How AI and robots are shaping the future of surgery" width="740" height="416" src="https://www.youtube.com/embed/T00S50Dx2Wk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;Outside of bringing its existing technology to new markets, Medtronic is also interesting in exploring new technologies. This includes the latest advances in &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt;, which dominate conversations in the robotics industry today.&lt;/p&gt;
 &lt;p&gt;Kamal said surgical care has three stages: preoperative, intraoperative, and postoperative. He thinks AI can make a difference in each stage.&lt;/p&gt;
 &lt;p&gt;&amp;#8220;Pre-operative, you could use AI to plan a procedure, using imaging and all that to personalize it. You use AI intraoperatively to be able to identify anatomic structures, to be able to identify critical structures, and to be able to provide intraoperative guidance. You can use AI post-operatively as well to optimize the post-op recovery pathway,” Kamal said.&lt;/p&gt;
@@ -69,7 +142,7 @@
 &lt;p&gt;Additionally, the controls are more intuitive than the traditional imaging systems a surgeon would use in a manual procedure.&amp;nbsp;“Any laparoscopic surgeon who is doing robotics will tell you that they don’t want to go back,” Kamal continued.&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;Robotics could also help newer surgeons develop their skills.&lt;/p&gt;
 &lt;p&gt;“If you’re a new surgeon coming in, just think about the amount of information you get if you are doing it robotically. You can see the surgical field much clearer,” Kamal said. “The instruments are a lot more precise and accurate. Now with AI, you get better features.”&lt;/p&gt;
-&lt;p&gt;&lt;iframe title="How are surgical robotics impacting the future of surgery" width="740" height="416" src="https://www.youtube.com/embed/JxypjG_0PJM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="How are surgical robotics impacting the future of surgery" width="740" height="416" src="https://www.youtube.com/embed/JxypjG_0PJM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;What comes next for Medtronic?&lt;/h2&gt;
 &lt;p&gt;Medtronic is continuing to make progress in the U.S. market. The company is &lt;a href="https://www.massdevice.com/medtronic-initiates-ide-study-hugo-gynecology/" target="_blank" rel="noopener"&gt;running&lt;/a&gt; an IDE study for using Hugo in gynecology. The study evaluates Hugo’s safety and effectiveness when used during radical, modified radical or total hysterectomies, inclusive of those treated for malignancies.&lt;/p&gt;
 &lt;p&gt;The company is also investing in technologies that it hasn&amp;#8217;t developed. In September, it &lt;a href="https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/" target="_blank" rel="noopener"&gt;invested&lt;/a&gt; $700 million into &lt;a href="https://www.therobotreport.com/tag/cornerstone-robotics" target="_blank" rel="noopener"&gt;Cornerstone Robotics&lt;/a&gt;. With the deal, Medtronic also gained the rights to distribute Cornerstone Robotics’ Sentire surgical system in select markets outside the U.S. where the system is approved.&lt;/p&gt;
@@ -92,7 +165,7 @@
 		<item>
 		<title>MassRobotics launching marine robotics facility on Boston Harbor</title>
 		<link>https://www.therobotreport.com/massrobotics-launching-marine-robotics-facility-on-boston-harbor/</link>
-					<comments>https://www.therobotreport.com/massrobotics-launching-marine-robotics-facility-on-boston-harbor/#respond</comments>
+					<comments>https://www.therobotreport.com/massrobotics-launching-marine-robotics-facility-on-boston-harbor/#comments</comments>
 		
 		<dc:creator>The Robot Report Staff</dc:creator>
 		<pubDate>Fri, 20 Nov 2026 17:04:28 +0000</pubDate>
@@ -128,7 +201,7 @@
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/massrobotics-launching-marine-robotics-facility-on-boston-harbor/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
+			<ns5:comments>2</ns5:comments>
 		
 		
 			</item>
@@ -1011,68 +1084,6 @@ AGIBOT is a pioneer in the global general-purpose AI robotics industry, with its
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>How Rhoda AI is using video data to create generalized AI models for robots</title>
-		<link>https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/</link>
-					<comments>https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/#respond</comments>
-		
-		<dc:creator>Brianna Wessling</dc:creator>
-		<pubDate>Fri, 13 Nov 2026 13:30:44 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Design / Development</category>
-		<category>Logistics</category>
-		<category>Manufacturing</category>
-		<category>Markets / Industries</category>
-		<category>News</category>
-		<category>Rhoda AI</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590242</guid>
-
-					<description>&lt;p&gt;Rhoda AI offers a direct video action model, which it recently extended with mobile DVA, to enable robots to understand the physical world.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/"&gt;How Rhoda AI is using video data to create generalized AI models for robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_590243" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/rhodaai-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590243" class="wp-image-590243 size-full" src="https://www.therobotreport.com/wp-content/uploads/2026/11/rhodaai-featured.jpg" alt="Two robot arms folding a cardboard box. Rhoda AI pretrains its models on internet-scale video." width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/rhodaai-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/rhodaai-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/rhodaai-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/rhodaai-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/rhodaai-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590243" class="wp-caption-text"&gt;Rhoda pretrains its models on internet-scale video to build a strong prior on motion, physics, and physical interaction. | Source: Rhoda AI&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;Earlier this year, Rhoda AI emerged from 18 months of stealth with $450 million in Series A funding. The company is working with customers in automotive, manufacturing, logistics, and e-commerce to deploy its direct video action, or DVA, model for robotics.&lt;/p&gt;
-&lt;p&gt;“We’re focused on deploying in the real world, and that means you have to deal with the messiness of the real world. Every run can be different,&amp;#8221; Jagdeep Singh, the co-founder and CEO of Rhoda AI, told &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;. &amp;#8220;Every configuration can be different, and you need a really robust model. To build a robust model, you need a massive training dataset.”&lt;/p&gt;
-&lt;p&gt;A large training dataset is exactly what allowed large language models (LLMs) like ChatGPT to rapidly progress in recent years. Physical &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; has trailed behind those models because the same dataset doesn&amp;#8217;t exist for the physical world, noted Singh.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Every word ever put on the internet, from Shakespeare to Reddit, was used to train these AI models. In the physical AI world, you didn’t have an internet-scale dataset,” he said. “People tried to collect their own data by tele-operating robots, and that approach made for interesting lab demonstrations in robots that could fold T-shirts or make coffees and so on, but none of those demonstrations were robust enough to cross over into the real world. The number of autonomous manipulation capable robots that are solving real world problems today is effectively zero.”&lt;/p&gt;
-&lt;p&gt;Rhoda AI is betting on using video to data to close this gap and to create truly generalized robotics.&lt;/p&gt;
-&lt;h2&gt;How does a DVA model work?&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Mobile DVA: A Single Video-Action Policy for Manipulation and Mobility" width="740" height="416" src="https://www.youtube.com/embed/XrMAjpqmtNE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Many physical AI developers are creating vision-language-action (VLA) models, which allow robots to learn from data from images or videos of its surroundings and text instructions. These models, however, still struggle to cope with the variability of the real world, according to Rhoda AI.&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://www.rhoda.ai/" target="_blank" rel="noopener"&gt;company&lt;/a&gt; claimed that its DVA model, which it recently extended with mobile DVA, combines manipulation and mobility into one policy.&lt;/p&gt;
-&lt;p&gt;“The way it works is the model will look at a history of video frames and action tokens and language tokens. From that history, or from that context, it will make a prediction in video for the next few 100 milliseconds, the next half second or so,&amp;#8221; explained Singh. &amp;#8220;It’ll predict the scene and what it thinks will happen in that scene. Once you have that prediction, you pass it to a second part of the model, which is an action converter. It takes the video scene and spits out robot actions.”&lt;/p&gt;
-&lt;p&gt;“Once you have that action space output, you can execute those actions on a real robot. The robot then moves for that half second, and then you make a new observation, because the state of the world has changed, and you make a new prediction for the next half second,” he continued. “It’s basically making an observation, a prediction of what should happen next, a conversion to action, an execution of the action, and then you close the loop and make a new observation and a new prediction based on that new observation.”&lt;/p&gt;
-&lt;h2&gt;For Rhoda AI, quantity of data is key&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Giving Robots a Sense of Touch" width="740" height="416" src="https://www.youtube.com/embed/aFPxURCVf84?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;According to Singh, any AI model that’s trained on a small dataset is going to be very brittle. These models could work if the inference time distribution of data is very similar to the training time distribution, but as those distributions diverge, then the model starts to fail.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Hundreds of years of videos were used to train the model, so the model has seen just an incredible diversity of everything: baseball videos, people throwing darts, waves crashing on a beach, or trees blowing in the wind,&amp;#8221; Singh said. &amp;#8220;Not just videos that have humans in them. Every video has something to teach the model about how the world works. Essentially, the entire internet becomes like a physics classroom.”&lt;/p&gt;
-&lt;p&gt;Rhoda AI uses video data for pretraining. “Once you’ve gotten that pretraining, you then apply a small amount of task-specific training, maybe 10 to 20 hours&amp;#8217; worth, similar to the way you would train a new worker on an assembly line,&amp;#8221; said Singh. &amp;#8220;They already come in with a certain set of skills, and you need to teach them the workflow of your particular company. With that little bit of post training, the model is able to do things that traditional robots cannot do.”&lt;/p&gt;
-&lt;p&gt;The Palo Alto, Calif.-based company aims to make a model that can understand the world generally. For this, it doesn&amp;#8217;t limit the data it uses to just human-centric videos.&lt;/p&gt;
-&lt;p&gt;“We looked at more heavily curated videos that only had human, egocentric manipulation in them,&amp;#8221; Singh said. &amp;#8220;There was a question of maybe those videos were better to train on. We found that the models that perform the best were the ones actually trained on the broadest data sets, including things that were not obviously relevant to manipulation.”&lt;/p&gt;
-&lt;p&gt;This generalization also enables Rhoda AI&amp;#8217;s models to generalize across different robot embodiments. In fact, the specific robot embodiment only comes into play in the post-training phase.&lt;/p&gt;
-&lt;h2&gt;How does Rhoda AI offer its models?&lt;/h2&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Rhoda AI: Returns Processing Demo" width="740" height="416" src="https://www.youtube.com/embed/L4ip7JzA_dI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Singh said Rhoda AI is a full-stack company, and it offers its technology in a range of methods.&lt;/p&gt;
-&lt;p&gt;“We always own the AI layer, that’s the core,&amp;#8221; Singh said. &amp;#8220;In terms of the body or hardware layer, we can run with our body or a third-party body. In terms of the skills, we can be the ones training the skills, or we can let third parties train the skills. That provides the largest set of solutions to our customers, and that’s really our mission.”&lt;/p&gt;
-&lt;p&gt;Internally, Rhoda AI is focusing on developing skills in &lt;a href="https://www.therobotreport.com/category/markets-industries/manufacturing/" target="_blank" rel="noopener"&gt;manufacturing&lt;/a&gt; and &lt;a href="https://www.therobotreport.com/category/markets-industries/logistics-warehousing-asrs/" target="_blank" rel="noopener"&gt;logistics&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;We&amp;#8217;re going after those areas because there&amp;#8217;s an immediate problem there,&amp;#8221; added Singh. &amp;#8220;Many manufacturing and logistics companies have a shortage of labor. Many industries have been offshored for decades because its too expensive to build in those economies. So this technology offers a path to &lt;a href="https://www.therobotreport.com/tag/reshoring/" target="_blank" rel="noopener"&gt;repatriate&lt;/a&gt; some of those industries.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;Looking ahead, Rhoda AI aims to continue getting its model out into the real world. Singh said he believes robotics&amp;#8217; &amp;#8220;ChatGPT moment&amp;#8221; will be coming sooners than people expect.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;The kind of approach we’re taking really has the potential to get us there because the only way to get that level of generality is to train on a dataset that has both the scale of the internet and diversity of the internet,&amp;#8221; said Singh. &amp;#8220;If you don’t have both those things, your models will not be able to generalize well enough.”&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/"&gt;How Rhoda AI is using video data to create generalized AI models for robots&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
