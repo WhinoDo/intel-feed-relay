@@ -4,7 +4,44 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-21T18:26:33Z</ns0:updated>
+  <ns0:updated>2026-11-23T10:37:41Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/8476881bfb5d6f412a651a66517ed0502d849d9e</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8476881bfb5d6f412a651a66517ed0502d849d9e" />
+    <ns0:title>
+        feat(fastwam): return the imagined video with return_predicted_video …
+    </ns0:title>
+    <ns0:updated>2026-11-23T10:37:41Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/99832715?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>AlejandroParedesLT</ns0:name>
+      <ns0:uri>https://github.com/AlejandroParedesLT</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(fastwam): return the imagined video with return_predicted_video (#5336)
+
+* feat(fastwam): return the imagined video with return_predicted_video
+
+FastWAM skips future-video generation at inference. With the opt-in
+return_predicted_video, select_action also denoises the clip that follows
+the current observation with the video expert alone and returns, with each
+action, the imagined camera frames it moves toward (shown by --display_data),
+following LingBot-VA&amp;#39;s flag of the same name (#3757, #3923).
+
+Video tokens never attend to action tokens, so the video-only pass gives the
+same clip as infer_joint and leaves the actions unchanged; it also works for
+Faster-WAM&amp;#39;s shallow action experts, which the joint forward rejects.
+
+* Trim comments and docs
+
+* fix(fastwam): address review on predicted video
+
+- select_action goes through predict_action_chunk again (torch.compile hook)
+- video latents no longer consume the global RNG when the seed is None
+- split cameras at the equal widths used when stacking them
+- pass the predicted actions to action-conditioned video experts&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/e5be0c16be1df4ae004abb4167842a7456c4cd54</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/e5be0c16be1df4ae004abb4167842a7456c4cd54" />
@@ -588,45 +625,6 @@ Co-authored-by: CarolinePascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/pr
 * chore(hf-libero): bumping hf-libero lower bound version to 0.1.5
 
 * chore(uv lock): updating uv.lock&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/7910c20a75834ad3fa6a9792df4d44a614d1bba6</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7910c20a75834ad3fa6a9792df4d44a614d1bba6" />
-    <ns0:title>
-        fix(praxis): backward numerics, padded-chunk frame stacks, merged dev…
-    </ns0:title>
-    <ns0:updated>2026-11-16T17:47:55Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/11545281?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>hzhang86</ns0:name>
-      <ns0:uri>https://github.com/hzhang86</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(praxis): backward numerics, padded-chunk frame stacks, merged device, raw bimanual gripper (#5328)
-
-Four fixes to the Praxis-1 policy from a review of #5321, each with a test that fails on main.
-
-- Training backward under the praxis numerics. `forward` pins float32 matmuls without TF32 (the
-  MoE router scores in float32), but the backward ran later under the host&amp;#39;s flags, and
-  `lerobot-train` turns TF32 on by default: the router&amp;#39;s float32 backward GEMMs and the
-  activation-checkpoint recompute of each block (which recomputes the router logits, so a
-  near-tied expert choice can flip, silently, since the dispatch keeps its shapes) ran in TF32.
-  A hook on the loss now runs the whole backward under the same guard and restores the host
-  flags at its end. The gradients no longer depend on `--tf32`.
-- Frame stacks after a padded chunk. The first chunk of a context window has 21 real commands,
-  padded to 24 with the last one. A caller that executed all 24 rows and handed over the 24
-  frames shifted the next chunk&amp;#39;s context by 3 frames (the session reads the last 21 executed
-  frames). The frames of the padded rows are now dropped, so the next chunk is the one of a
-  caller that executed the 21 real commands.
-- The merge tool keeps the base config&amp;#39;s device. It loads the base on `--device` (default
-  `cpu`) and saved that device into the merged checkpoint, so loading it later without
-  `--policy.device` put the 27B model on the CPU.
-- The bimanual proprio keeps the raw gripper value, as its training data and the praxis
-  session do; the single-arm rig keeps clipping it to [0, 1] like the DROID data code. A YAM
-  reading slightly outside [0, 1] gave different commands from the praxis session.
-
-Co-authored-by: Steven Palma &amp;lt;imstevenpmwork@ieee.org&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
