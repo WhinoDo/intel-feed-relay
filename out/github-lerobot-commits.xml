@@ -4,7 +4,68 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-24T10:35:58Z</ns0:updated>
+  <ns0:updated>2026-11-24T17:20:42Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/b07adcc5e3ce42c26a248236dbb3571f84c28c43</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b07adcc5e3ce42c26a248236dbb3571f84c28c43" />
+    <ns0:title>
+        feat(processor): add JointAffineProcessorStep (#5480)
+    </ns0:title>
+    <ns0:updated>2026-11-24T17:20:42Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/13318497?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>s1lent4gnt</ns0:name>
+      <ns0:uri>https://github.com/s1lent4gnt</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(processor): add JointAffineProcessorStep (#5480)
+
+LeRobot robots report joints in degrees and grippers from 0 to 100. A
+policy trained on other units (radians, grippers from 0 to 1) or another
+calibration needs those values mapped before normalization, and its
+actions mapped back.
+
+JointAffineProcessorStep maps the leading entries of the state and the
+action with `scales * x + offsets`; `inverse=True` maps predicted actions
+back to the robot. A negative scale flips a joint, and zero scales are
+rejected. `transform_stats()` maps a dataset&amp;#39;s stats the same way,
+swapping min/max and the low/high quantiles on flipped joints, so a
+normalizer placed after the step can use stats recorded in the robot&amp;#39;s
+units.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/de011c1053553bcd675a06a4bfe52c8c627b321c</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/de011c1053553bcd675a06a4bfe52c8c627b321c" />
+    <ns0:title>
+        fix(train): unwrap the policy before building the sample weighter (#5…
+    </ns0:title>
+    <ns0:updated>2026-11-24T17:04:21Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/3051193?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HipsterBrown</ns0:name>
+      <ns0:uri>https://github.com/HipsterBrown</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(train): unwrap the policy before building the sample weighter (#5499)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/7173d41517307fceb3fdddcd2a1b684a93774de7</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7173d41517307fceb3fdddcd2a1b684a93774de7" />
+    <ns0:title>
+        fix(processor): match Hub artifacts independently of their filename s…
+    </ns0:title>
+    <ns0:updated>2026-11-24T16:15:46Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/69956021?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>zhangyue19921010</ns0:name>
+      <ns0:uri>https://github.com/zhangyue19921010</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(processor): match Hub artifacts independently of their filename suffix (#5452)&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/c5a8bed13f67c192f84d2b00e8429afd85745e1a</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c5a8bed13f67c192f84d2b00e8429afd85745e1a" />
@@ -530,59 +591,6 @@ decoded and rewritten. Cover the conditional rewrite with a spy test.
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(sim): fall back to spawn for async workers without forkserver (#5412)
 
 Co-authored-by: Rudy Celekli &amp;lt;rudy@gradiahq.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/8ec1a474da5f3f90a670d9343386995ec9f81264</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8ec1a474da5f3f90a670d9343386995ec9f81264" />
-    <ns0:title>
-        fix(eval): keep per-episode simulator metrics in eval_info.json (#5279)
-    </ns0:title>
-    <ns0:updated>2026-11-18T19:04:02Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/43451416?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>xSurus</ns0:name>
-      <ns0:uri>https://github.com/xSurus</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(eval): keep per-episode simulator metrics in eval_info.json (#5279)
-
-eval_policy puts the numbers an environment reports in
-per_episode[i][&amp;quot;metrics&amp;quot;], but eval_one rebuilt its result without them,
-so lerobot-eval and in-training eval never saw them. Benchmarks that
-report nothing get the same output as before.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/a1caad57c5e2cf0940ae75850519462c338dbda5</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/a1caad57c5e2cf0940ae75850519462c338dbda5" />
-    <ns0:title>
-        fix(eval): save dataset episodes when a rollout reaches its step cap …
-    </ns0:title>
-    <ns0:updated>2026-11-18T19:02:34Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/47457359?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>rudycelekli</ns0:name>
-      <ns0:uri>https://github.com/rudycelekli</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(eval): save dataset episodes when a rollout reaches its step cap (#5405)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/169694686e3b3593f350c7b7498967d0b590d64c</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/169694686e3b3593f350c7b7498967d0b590d64c" />
-    <ns0:title>
-        fix(sim): keep terminal observations when vector simulators reuse buf…
-    </ns0:title>
-    <ns0:updated>2026-11-18T18:29:59Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/47457359?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>rudycelekli</ns0:name>
-      <ns0:uri>https://github.com/rudycelekli</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(sim): keep terminal observations when vector simulators reuse buffers (#5404)&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
