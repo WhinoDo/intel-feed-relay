@@ -4,7 +4,68 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-23T16:39:22Z</ns0:updated>
+  <ns0:updated>2026-11-24T10:35:58Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/c5a8bed13f67c192f84d2b00e8429afd85745e1a</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c5a8bed13f67c192f84d2b00e8429afd85745e1a" />
+    <ns0:title>
+        fix(act): build the inference latent in the weights' dtype (#5191)
+    </ns0:title>
+    <ns0:updated>2026-11-24T10:35:58Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/170045716?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>arun-elr</ns0:name>
+      <ns0:uri>https://github.com/arun-elr</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(act): build the inference latent in the weights&amp;#39; dtype (#5191)
+
+* fix(act): build the inference latent in the weights&amp;#39; dtype
+
+ACT created its zero latent as float32 whatever the model dtype, so a
+half precision ACT (policy.half() or bfloat16) failed with a dtype
+mismatch in the first linear layer, and its ONNX export did not load in
+ONNX Runtime. Float32 outputs are unchanged.
+
+(cherry picked from commit 004d8bfb3efcd613f0c723f168cd0bf3c6333ce6)
+
+* test(act): cover the image-input path in float16 and bfloat16
+
+Co-authored-by: JonnyFaeth &amp;lt;210794222+JonnyFaeth@users.noreply.github.com&amp;gt;
+
+* test(act): drop extra image/action-queue test
+
+---------
+
+Co-authored-by: JonnyFaeth &amp;lt;210794222+JonnyFaeth@users.noreply.github.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/cc69168f28410da7654e0f81381dec2efb1bb5bb</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/cc69168f28410da7654e0f81381dec2efb1bb5bb" />
+    <ns0:title>
+        fix(train): reduce policy sub-losses by name across ranks (#5460)
+    </ns0:title>
+    <ns0:updated>2026-11-24T07:14:24Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/69956021?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>zhangyue19921010</ns0:name>
+      <ns0:uri>https://github.com/zhangyue19921010</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(train): reduce policy sub-losses by name across ranks (#5460)
+
+* fix(train): reduce policy sub-losses by name across ranks
+
+* fix(train): preserve caller reductions for late logging meters
+
+* fix(train): keep local meter values when policy keys overlap
+
+---------
+
+Co-authored-by: Haoming Song &amp;lt;haomingsong24@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/c2a086e24fa20911bf060ee5cffbc0e1dbfd96ad</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c2a086e24fa20911bf060ee5cffbc0e1dbfd96ad" />
@@ -522,68 +583,6 @@ report nothing get the same output as before.&lt;/pre&gt;
     </ns0:author>
     <ns0:content type="html">
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(sim): keep terminal observations when vector simulators reuse buffers (#5404)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/7e5739737ac198706ccad0cc67c1d327f80b55d6</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/7e5739737ac198706ccad0cc67c1d327f80b55d6" />
-    <ns0:title>
-        fix(fastwam): stage checkpoint weights on CPU to avoid loading OOM (#…
-    </ns0:title>
-    <ns0:updated>2026-11-18T16:03:26Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/329369830?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>JinHe-102</ns0:name>
-      <ns0:uri>https://github.com/JinHe-102</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(fastwam): stage checkpoint weights on CPU to avoid loading OOM (#5237)
-
-* fix(fastwam): stage checkpoint weights on CPU
-
-Avoid an additional accelerator-resident checkpoint while preserving the existing model device, dtype, and shape-aware strict loading behavior.
-
-Add CPU and real-GPU regression coverage for parameter identity and weight copies, and document the host-memory and loading-time trade-offs.
-
-* test(fastwam): focus CPU-staging regression coverage
-
-Keep four model-device and checkpoint-location combinations with fixed bf16 weights. Use named parameter assertions, remove redundant checks and annotations, and condense the guide to one staging sentence.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/0793738cefde81a8354e9730c4dce0d0259280fa</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/0793738cefde81a8354e9730c4dce0d0259280fa" />
-    <ns0:title>
-        fix(robotwin): generate 100 instruction candidates per reset, seeded …
-    </ns0:title>
-    <ns0:updated>2026-11-18T12:34:45Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/329369830?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>JinHe-102</ns0:name>
-      <ns0:uri>https://github.com/JinHe-102</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(robotwin): generate 100 instruction candidates per reset, seeded by the episode (#5355)
-
-RoboTwinEnv.reset() builds the official block-ranking instruction by calling
-RoboTwin&amp;#39;s generate_episode_descriptions() with max_descriptions=1,000,000,
-then keeps a single sentence. The block-ranking templates have no
-object-description placeholders, so each template fills to one fixed
-sentence and the candidate lists only repeat a small, fixed set of
-sentences in each split. Building them dominated reset time.
-
-- Default LEROBOT_ROBOTWIN_INSTRUCTION_MAX to 100, as RoboTwin&amp;#39;s own
-  collect/eval scripts do. The set of distinct candidates is unchanged.
-  Non-integer or non-positive values now raise ValueError.
-- Pass the episode seed to the generator when it accepts `seed`
-  (RoboTwin &amp;gt;= 724b05e), and pick with random.Random(f&amp;quot;{seed}:select&amp;quot;)
-  instead of np.random.choice, matching eval_policy_xpolicylab.py. With
-  such RoboTwin versions the instruction depends only on the seed and
-  scene; older versions stay callable, but their candidate order still
-  depends on the global Python RNG. The final pick no longer advances the
-  global NumPy RNG.
-
-The sentence picked for a given seed changes.&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
