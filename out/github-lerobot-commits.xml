@@ -4,7 +4,75 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-23T10:37:41Z</ns0:updated>
+  <ns0:updated>2026-11-23T16:39:22Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/c2a086e24fa20911bf060ee5cffbc0e1dbfd96ad</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c2a086e24fa20911bf060ee5cffbc0e1dbfd96ad" />
+    <ns0:title>
+        fix(configs): validate eval.n_episodes and eval.batch_size in EvalCon…
+    </ns0:title>
+    <ns0:updated>2026-11-23T16:39:22Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/128605647?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>theguysudo</ns0:name>
+      <ns0:uri>https://github.com/theguysudo</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(configs): validate eval.n_episodes and eval.batch_size in EvalConfig (#5465)
+
+* fix(configs): validate eval.n_episodes and eval.batch_size in EvalConfig
+
+EvalConfig.__post_init__ accepted non-positive n_episodes and negative
+batch_size, which failed much later with a misleading &amp;#39;n_envs must be
+at least 1&amp;#39; error from make_env, or a raw ZeroDivisionError from direct
+callers of eval_policy (elapsed / n_episodes).
+
+Raise ValueError for n_episodes &amp;lt; 1 and batch_size &amp;lt; 0 at config
+construction. batch_size=0 remains a valid auto-tuning sentinel.
+
+Fixes #5463
+
+* Remove the extra tests per review
+
+Keep just the two validations in EvalConfig.__post_init__.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/9d82710c87e2663f4f8038441f58479dcd857b8a</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/9d82710c87e2663f4f8038441f58479dcd857b8a" />
+    <ns0:title>
+        fix(datasets): import TorchCodec before the streaming worker threads …
+    </ns0:title>
+    <ns0:updated>2026-11-23T16:30:37Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): import TorchCodec before the streaming worker threads start (#5484)
+
+datasets looks twice in sys.modules for TorchCodec while it encodes a table. A decode thread that imported TorchCodec between the two lookups made Dataset.from_dict on a parquet thread raise UnboundLocalError, so streaming failed before the first batch.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/cf3425517de123ebae52f369e77d830e0347c1fd</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/cf3425517de123ebae52f369e77d830e0347c1fd" />
+    <ns0:title>
+        fix(train): keep the restored sampler epoch after accelerate prepare …
+    </ns0:title>
+    <ns0:updated>2026-11-23T16:29:37Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/109958190?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>HaomingSong</ns0:name>
+      <ns0:uri>https://github.com/HaomingSong</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(train): keep the restored sampler epoch after accelerate prepare (#5483)
+
+The prepared dataloader calls set_epoch(iteration) on every pass and iteration starts at 0, so a run resumed in epoch 1 or later read the order of epoch 0. Start iteration at the restored sampler epoch.&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/8476881bfb5d6f412a651a66517ed0502d849d9e</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/8476881bfb5d6f412a651a66517ed0502d849d9e" />
@@ -516,115 +584,6 @@ sentences in each split. Building them dominated reset time.
   global NumPy RNG.
 
 The sentence picked for a given seed changes.&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/b00571809f7cab69abeee19744d8dd3c18977aa2</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b00571809f7cab69abeee19744d8dd3c18977aa2" />
-    <ns0:title>
-        refactor: move G1 controllers to lerobot.controllers.unitree_g1 (#5339)
-    </ns0:title>
-    <ns0:updated>2026-11-17T11:19:49Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/77496684?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>nepyope</ns0:name>
-      <ns0:uri>https://github.com/nepyope</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor: move G1 controllers to lerobot.controllers.unitree_g1 (#5339)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/d7705563b2a184573d6f87f94090d3bea8f971cd</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/d7705563b2a184573d6f87f94090d3bea8f971cd" />
-    <ns0:title>
-        fix(yam): controller lifecycle fixes and feedback freshness from moto…
-    </ns0:title>
-    <ns0:updated>2026-11-17T11:08:17Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/13318497?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>s1lent4gnt</ns0:name>
-      <ns0:uri>https://github.com/s1lent4gnt</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(yam): controller lifecycle fixes and feedback freshness from motorbridge 0.6 (#5380)
-
-* fix(yam): leave torque off when the controller fails to start
-
-Enable torque inside the guarded block, and disable it if enabling or starting the
-control thread fails, including motors a failed enable_all already turned on.
-
-* fix(yam): raise torque-off failures and still close CAN
-
-disable_torque no longer swallows errors: stop() and disconnect() report them, while
-CAN and the cameras are still closed so the motors&amp;#39; CAN timeout stops the arm. A failed
-connection cleans up without masking the original error.
-
-* fix(yam): stop arms independently and share only faults between them
-
-Stopping one arm&amp;#39;s controller set the stop event both arms share, so recalibrating one
-arm of a BiYamFollower silently ended the other arm&amp;#39;s loop and let it drop after the CAN
-timeout. Each controller now has its own stop signal; the shared event, renamed
-fault_event, is only set by faults, which still stop both arms. start() refuses to run
-after a fault until the owner clears the event on connect.
-
-* fix(yam): compute gravity torques outside the controller lock
-
-The gravity model can take a while; computing it under the lock blocked latest() and
-set_target() callers for that time.
-
-* fix(yam): name controllers after the robot, not its id
-
-str(self.id) gave &amp;quot;None&amp;quot; for robots without an id; str(self) names the robot and its
-id in thread names and error messages.
-
-* fix(yam): require placo up front when gravity compensation is on
-
-Check it when the robot is built, with the yam extra install hint, instead of failing
-later while loading the gravity model.
-
-* refactor(yam): download the gravity model from the robot-urdfs dataset
-
-Load yam/v1/linear_4310.urdf from the lerobot/robot-urdfs dataset with hf_hub_download
-instead of the bucket, and remove ensure_bucket_file and the bucket constants, which only
-YAM used.
-
-* test(yam): cover the controller fixes and slim the YAM tests
-
-Add regression tests for the fixes: torque stays off after a failed start, torque-off
-failures raise after closing CAN, stopping one arm leaves the other running while a fault
-stops both, and recalibrating one arm keeps the other under control. Share the YAM mocks
-in tests/mocks/mock_yam.py, and merge or remove overlapping tests.
-
-* refactor(yam): check feedback freshness with motorbridge 0.6 snapshots and drop python-can
-
-* doc(yam): add mit cmd equation
-
-* refactor(yam): move the robot-urdfs repo id to lerobot.utils.constants
-
----------
-
-Co-authored-by: CarolinePascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/4407625def76b789346080e4df67eac4a9277372</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/4407625def76b789346080e4df67eac4a9277372" />
-    <ns0:title>
-        chore(hf-libero): bumping hf-libero lower bound version to 0.1.5 (#5386)
-    </ns0:title>
-    <ns0:updated>2026-11-17T09:30:42Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/29127300?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>CarolinePascal</ns0:name>
-      <ns0:uri>https://github.com/CarolinePascal</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;chore(hf-libero): bumping hf-libero lower bound version to 0.1.5 (#5386)
-
-* chore(hf-libero): bumping hf-libero lower bound version to 0.1.5
-
-* chore(uv lock): updating uv.lock&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
