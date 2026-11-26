@@ -6,7 +6,7 @@
 	<ns0:link href="https://www.therobotreport.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.therobotreport.com/</link>
 	<description>Robotics news, research and analysis</description>
-	<lastBuildDate>Tue, 24 Nov 2026 18:03:37 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 25 Nov 2026 18:24:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<ns1:updatePeriod>
 	hourly	</ns1:updatePeriod>
@@ -22,6 +22,134 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>How Vention is cutting factory programming from weeks to minutes</title>
+		<link>https://www.therobotreport.com/how-vention-is-cutting-factory-programming-from-weeks-to-minutes/</link>
+					<comments>https://www.therobotreport.com/how-vention-is-cutting-factory-programming-from-weeks-to-minutes/#respond</comments>
+		
+		<dc:creator>The Robot Report Staff</dc:creator>
+		<pubDate>Wed, 25 Nov 2026 18:24:42 +0000</pubDate>
+				<category>Assembly</category>
+		<category>End of Arm Tooling</category>
+		<category>Manufacturing</category>
+		<category>Mechanical</category>
+		<category>News</category>
+		<category>Opinion</category>
+		<category>Podcast</category>
+		<category>amazon robotics</category>
+		<category>Nvidia</category>
+		<category>RAI Institute</category>
+		<category>vention</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590372</guid>
+
+					<description>&lt;p&gt;Etienne Lacroix explains why AI deployment—not just better models—will define the future of industrial automation.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-vention-is-cutting-factory-programming-from-weeks-to-minutes/"&gt;How Vention is cutting factory programming from weeks to minutes&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;p&gt;&lt;iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2444691345&amp;amp;color=%23ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true" width="100%" height="166" frameborder="no" scrolling="no"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;"&gt;&lt;a style="color: #cccccc; text-decoration: none;" title="The Robot Report Podcast" href="https://soundcloud.com/robot-report-podcast" target="_blank" rel="noopener"&gt;The Robot Report Podcast&lt;/a&gt; · &lt;a style="color: #cccccc; text-decoration: none;" title="How Vention is cutting factory programming from weeks to minutes" href="https://soundcloud.com/robot-report-podcast/how-vention-is-cutting-factory" target="_blank" rel="noopener"&gt;How Vention is cutting factory programming from weeks to minutes&lt;/a&gt;&lt;/div&gt;
+&lt;div id="attachment_590373" style="width: 290px" class="wp-caption alignleft"&gt;&lt;img fetchpriority="high" decoding="async" aria-describedby="caption-attachment-590373" class="size-full wp-image-590373" src="https://www.therobotreport.com/wp-content/uploads/2026/11/Etienne-Lacroix-headshot.jpg" alt="headshot of Etienne Lacroix." width="280" height="350" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/Etienne-Lacroix-headshot.jpg 280w, https://www.therobotreport.com/wp-content/uploads/2026/11/Etienne-Lacroix-headshot-240x300.jpg 240w, https://www.therobotreport.com/wp-content/uploads/2026/11/Etienne-Lacroix-headshot-120x150.jpg 120w, https://www.therobotreport.com/wp-content/uploads/2026/11/Etienne-Lacroix-headshot-190x238.jpg 190w" sizes="(max-width: 280px) 100vw, 280px" /&gt;&lt;p id="caption-attachment-590373" class="wp-caption-text"&gt;President &amp;amp; Chief Executive Officer, Founder, Vention.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;In Episode 271 of &lt;a href="https://www.therobotreport.com/category/podcast/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt; Podcast&lt;/a&gt;, we talk with Etienne Lacroix, President &amp;amp; Chief Executive Officer, Founder of Vention.&lt;/p&gt;
+&lt;p&gt;Etienne Lacroix is a business leader and entrepreneur building and transforming engineering-driven companies.&lt;/p&gt;
+&lt;p&gt;At Vention, McKinsey, and GE, he developed new industrial technologies and supported manufacturers across sectors from aerospace to consumer electronics.&lt;/p&gt;
+&lt;p&gt;He holds an MBA from Harvard and a mechanical engineering degree from Ecole de Technologie Supérieure&lt;/p&gt;
+&lt;div id="attachment_590376" style="width: 1020px" class="wp-caption aligncenter"&gt;&lt;img decoding="async" aria-describedby="caption-attachment-590376" class="size-full wp-image-590376" src="https://www.therobotreport.com/wp-content/uploads/2026/11/vention-configurator.png" alt="screenshot of the vention workcell configurator." width="1010" height="763" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/vention-configurator.png 1010w, https://www.therobotreport.com/wp-content/uploads/2026/11/vention-configurator-300x227.png 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/vention-configurator-150x113.png 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/vention-configurator-768x580.png 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/vention-configurator-315x238.png 315w" sizes="(max-width: 1010px) 100vw, 1010px" /&gt;&lt;p id="caption-attachment-590376" class="wp-caption-text"&gt;Vention lets customers select from multiple workcell templates when spec&amp;#8217;ing a workcelll. | Credit Vention&lt;/p&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Show timeline&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;1:02 &amp;#8211; News of the week&lt;/li&gt;
+&lt;li&gt;11.45 &amp;#8211; &lt;a href="https://www.linkedin.com/in/etiennelacroix/" target="_blank" rel="noopener"&gt;Etienne Lacroix&lt;/a&gt;, Founder and CEO of &lt;a href="https://www.therobotreport.com/tag/vention/" target="_blank" rel="noopener"&gt;Vention&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;News of the week&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.therobotreport.com/nvidia-reinstates-jensen-huang-after-11-day-absence/" target="_blank" rel="noopener"&gt;NVIDIA reinstates Jensen Huang after 11-day absence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/" target="_blank" rel="noopener"&gt;SoftBank acquires Robotics and AI Institute&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Amazon delivery drone crashes into home’s garage" width="740" height="416" src="https://www.youtube.com/embed/dcxBRp0mYek?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Sponsors&lt;/h2&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;The future of robotics isn&amp;#8217;t just about building smarter machines. &lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;It&amp;#8217;s about making them work in the real world.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;Intel is helping developers and businesses move from prototype to production with an open, scalable robotics platform that brings AI inference, sensing, and real-time control together.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;From intelligent automation to advanced Physical AI, Intel provides the compute, software, and ecosystem to help turn robotics innovation into real-world impact.&lt;/span&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span data-contrast="auto"&gt;Explore what&amp;#8217;s possible at &lt;/span&gt;&lt;a href="https://www.intel.com/content/www/us/en/products/details/robotics.html?utm_source=therobotreport&amp;amp;utm_medium=podcast&amp;amp;utm_campaign=ih-q4-promo" target="_blank" rel="noopener"&gt;&lt;span data-contrast="none"&gt;intel.com/robotics&lt;/span&gt;&lt;/a&gt;&lt;span data-ccp-props="{}"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;To learn how you can sponsor a future episode of &lt;em&gt;The Robot Report&lt;/em&gt; Podcast, contact Jami Brownlee at &lt;a href="mailto:jbrownlee@arrowfly.com" target="_blank" rel="noopener"&gt;jbrownlee@arrowfly.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Would you like to be a guest on a future episode? Contact Mike Oitzman at &lt;a href="mailto:moitzman@arrowfly.com" target="_blank" rel="noopener"&gt;moitzman@arrowfly.com&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/how-vention-is-cutting-factory-programming-from-weeks-to-minutes/"&gt;How Vention is cutting factory programming from weeks to minutes&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/how-vention-is-cutting-factory-programming-from-weeks-to-minutes/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
+		<title>FCC should focus on robot security, not country of origin</title>
+		<link>https://www.therobotreport.com/fcc-should-focus-on-robot-security-not-country-of-origin/</link>
+					<comments>https://www.therobotreport.com/fcc-should-focus-on-robot-security-not-country-of-origin/#respond</comments>
+		
+		<dc:creator>David Pinn</dc:creator>
+		<pubDate>Wed, 25 Nov 2026 17:00:07 +0000</pubDate>
+				<category>Artificial Intelligence</category>
+		<category>News</category>
+		<category>Software</category>
+		<category>Software / Simulation</category>
+		<category>Brain Corp</category>
+		<category>FCC</category>
+		<guid isPermaLink="false">https://www.therobotreport.com/?p=590368</guid>
+
+					<description>&lt;p&gt;Where a robot was assembled tells you little about who controls it once it's deployed, writes Brain Corp CEO David Pinn.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/fcc-should-focus-on-robot-security-not-country-of-origin/"&gt;FCC should focus on robot security, not country of origin&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns3:encoded>&lt;div id="attachment_590370" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/unitreequadruped-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590370" class="size-full wp-image-590370" src="https://www.therobotreport.com/wp-content/uploads/2026/11/unitreequadruped-featured.jpg" alt="Unitree's Go2 quadruped robot. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/unitreequadruped-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/unitreequadruped-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/unitreequadruped-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/unitreequadruped-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/unitreequadruped-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590370" class="wp-caption-text"&gt;The Go2 quadruped robot from Unitree, a prominent Chinese robot developer. | Source: Unitree&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;The FCC is right to &lt;a href="https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/"&gt;treat connected robots as a security issue&lt;/a&gt;. Its recent action &lt;a href="https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/"&gt;restricting foreign-produced advanced robotic devices&lt;/a&gt; reflects a real risk. These machines carry cameras and sensors, transmit data, take remote software updates, and make their own decisions inside factories, warehouses, stores, and airports.&lt;/p&gt;
+&lt;p&gt;But where a robot was assembled tells you little about who controls it once it&amp;#8217;s deployed. A robot built entirely in the United States, with unsigned updates and open remote access, is a bigger risk than one built overseas with secure software. The real security boundary is the code, the data, and whoever can change them, not the chassis.&lt;/p&gt;
+&lt;p&gt;The FCC has already &lt;a href="https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/" target="_blank" rel="noopener"&gt;recognized&lt;/a&gt; this. Its definition of a covered device relies on software: firmware and &lt;a href="https://www.therobotreport.com/category/design-development/ai-cognition/" target="_blank" rel="noopener"&gt;AI&lt;/a&gt; or machine-learning model weights that control navigation, perception, data collection, and remote command and control. The agency has identified the layer that matters. The next step is to turn that critical layer into the standard.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.therobotreport.com/tag/brain-corp/" target="_blank" rel="noopener"&gt;Brain Corp&lt;/a&gt; builds autonomy software, so of course I think software deserves scrutiny. But that&amp;#8217;s also why I know where the risk lives. Our technology runs more than 50,000 robots on six continents and has logged more than 25 million hours of autonomous operation. At that scale, the failures that matter are rarely in the hardware. They&amp;#8217;re in how software gets updated, who can reach the machine, and what happens when it meets a situation nobody anticipated.&lt;/p&gt;
+&lt;h2&gt;Regulate control, not just origin&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.therobotreport.com/category/software-simulation/" target="_blank" rel="noopener"&gt;Software&lt;/a&gt; provenance alone can&amp;#8217;t mean where the code was written. Robots run on open-source libraries, globally trained models, and international engineering teams. What should matter is provenance of control, demonstrated rather than declared. Any robot deployed in a sensitive or public setting, wherever its parts came from, should be able to show:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Who can push code to it, and that every update is signed and verified before it runs.&lt;/li&gt;
+&lt;li&gt;That unauthorized code can&amp;#8217;t execute.&lt;/li&gt;
+&lt;li&gt;Where its data goes, where it&amp;#8217;s processed, and who can access it.&lt;/li&gt;
+&lt;li&gt;How remote access is granted, logged, and revoked.&lt;/li&gt;
+&lt;li&gt;How quickly a newly discovered vulnerability can be patched across the entire fleet.&lt;/li&gt;
+&lt;li&gt;An independent safety layer that the AI cannot override.&lt;/li&gt;
+&lt;li&gt;Independent audits and certifications that back up all of the above.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
+&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;AI can be probabilistic. Physical safety can&amp;#8217;t be.&lt;/h2&gt;
+&lt;p&gt;The safety layer deserves emphasis, because AI is changing what robots can do faster than policy is changing how we judge them. When a chatbot gets something wrong, the result is a bad answer. When a robot gets something wrong, it could generate unsafe behavior in a crowded aisle or beside a worker.&lt;/p&gt;
+&lt;p&gt;AI models will make robots far more capable, but they shouldn&amp;#8217;t be the final authority over physical behavior. Robots need deterministic constraints beneath the intelligence layer. If a model proposes an unsafe action, an independent mechanism must stop it, and sensor data should check the model&amp;#8217;s reading of the world rather than defer to it.&lt;/p&gt;
+&lt;p&gt;The more sophisticated the models become, the more this separation matters, and the more it belongs in any serious security standard.&lt;/p&gt;
+&lt;h2&gt;The next step&lt;/h2&gt;
+&lt;p&gt;The industry doesn&amp;#8217;t need to wait for regulators to adopt these standards. Developers can publish how their systems meet them today, and enterprise buyers can require them in procurement. But voluntary practice is no substitute for a clear rule.&lt;/p&gt;
+&lt;p&gt;The FCC has already recognized that a robot is defined by its software. The next step is to regulate it that way: not just where the parts were made, but who controls the code.&lt;/p&gt;
+&lt;h4&gt;About the Author&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/davidpinn.jpg"&gt;&lt;img loading="lazy" decoding="async" class="alignleft wp-image-590369 size-medium" src="https://www.therobotreport.com/wp-content/uploads/2026/11/davidpinn-200x300.jpg" alt="David Pinn." width="200" height="300" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/davidpinn-200x300.jpg 200w, https://www.therobotreport.com/wp-content/uploads/2026/11/davidpinn-683x1024.jpg 683w, https://www.therobotreport.com/wp-content/uploads/2026/11/davidpinn-100x150.jpg 100w, https://www.therobotreport.com/wp-content/uploads/2026/11/davidpinn-768x1152.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/davidpinn-1024x1536.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/11/davidpinn-159x238.jpg 159w, https://www.therobotreport.com/wp-content/uploads/2026/11/davidpinn.jpg 1365w" sizes="auto, (max-width: 200px) 100vw, 200px" /&gt;&lt;/a&gt;David Pinn assumed the role of CEO at &lt;a href="https://www.braincorp.com/" target="_blank" rel="noopener"&gt;Brain Corp&lt;/a&gt; in 2022, where he has held various executive positions since joining in 2017, including chief strategy officer and chief financial officer. During his tenure, Pinn was instrumental in leading Brain Corp’s transformation from a robotics hardware company to a software as a service (SaaS) provider. He played a pivotal role in securing over $100 million in funding from prominent investors such as the SoftBank Vision Fund, Qualcomm Ventures, Hercules Capital, ClearBridge Investments, and Satwik Ventures.&lt;/p&gt;
+&lt;p&gt;Prior to joining Brain Corp, Pinn served as head of finance for Antenna79, a technology startup backed by L Catterton, the world’s largest consumer-focused private equity group, where he facilitated the raising of $94.9 million in private equity funding. Before his tenure at Antenna79, Pinn co-founded Snaptracs, Qualcomm’s consumer electronics subsidiary. Under his leadership, Snaptracs was successfully sold, leading to a merger with Whistle and a $117 million acquisition by Mars.&lt;/p&gt;
+&lt;p&gt;Pinn holds a Bachelor of Science degree in Electrical Engineering from the University of Texas at Austin and a Master&amp;#8217;s in Business Administration from the University of California, Berkeley, Haas School of Business.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/fcc-should-focus-on-robot-security-not-country-of-origin/"&gt;FCC should focus on robot security, not country of origin&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
+</ns3:encoded>
+					
+					<ns4:commentRss>https://www.therobotreport.com/fcc-should-focus-on-robot-security-not-country-of-origin/feed/</ns4:commentRss>
+			<ns5:comments>0</ns5:comments>
+		
+		
+			</item>
+		<item>
 		<title>Robotics Summit 2027 opens call for speakers</title>
 		<link>https://www.therobotreport.com/robotics-summit-2027-opens-call-for-speakers/</link>
 					<comments>https://www.therobotreport.com/robotics-summit-2027-opens-call-for-speakers/#respond</comments>
@@ -35,7 +163,7 @@
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/robotics-summit-2027-opens-call-for-speakers/"&gt;Robotics Summit 2027 opens call for speakers&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
 										<ns3:encoded>&lt;div align="center"&gt;
-&lt;p&gt;&lt;iframe title="Best Moments of Robotics Summit 2026" width="740" height="416" src="https://www.youtube.com/embed/lQU79UDbEgs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Best Moments of Robotics Summit 2026" width="740" height="416" src="https://www.youtube.com/embed/lQU79UDbEgs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;em&gt;The Robot Report&lt;/em&gt; invites you to &lt;a href="https://www.roboticssummit.com/call-for-presentations/" target="_blank" rel="noopener"&gt;submit a session abstract&lt;/a&gt; to be considered for presentation at the 2027 &lt;a href="http://www.roboticssummit.com" target="_blank" rel="noopener"&gt;Robotics Summit &amp;amp; Expo&lt;/a&gt;, which will be on June 2-3 at the Hynes Convention Center in Boston. The Robotics Summit is the leading event focused on the technical issues involved with developing commercial robots.&lt;/p&gt;
 &lt;p&gt;The Robotics Summit &amp;amp; Expo will gather more than 5,000 attendees to explore the latest enabling technologies, engineering best practices, and emerging trends shaping commercial robotics. The event will feature five keynotes and over 60 educational sessions.&lt;/p&gt;
@@ -85,14 +213,14 @@
 &lt;p&gt;The post &lt;a href="https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/"&gt;SoftBank acquires Marc Raibert&amp;#8217;s Robotics and AI Institute&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
 </description>
 										<ns3:encoded>&lt;div align="center"&gt;
-&lt;p&gt;&lt;iframe title="Perceptive Dynamic Manipulation with Spot" width="740" height="416" src="https://www.youtube.com/embed/nDIWulWjDz8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Perceptive Dynamic Manipulation with Spot" width="740" height="416" src="https://www.youtube.com/embed/nDIWulWjDz8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a href="https://www.therobotreport.com/tag/softbank/"&gt;SoftBank&lt;/a&gt; has completed its acquisition of the Robotics and AI Institute (RAI) from Hyundai Motor Group, &lt;em&gt;The Robot Report&lt;/em&gt; has learned. Financial terms of the deal were not disclosed. SoftBank responded to emailed questions from &lt;em&gt;The Robot Report&lt;/em&gt; about the acquisition, but it declined to comment.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The Robot Report&lt;/em&gt; first reported the &lt;a href="https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-institute/"&gt;acquisition agreement in September 2026&lt;/a&gt;. The deal adds another prominent name to SoftBank&amp;#8217;s growing portfolio of robotics companies.&lt;/p&gt;
 &lt;p&gt;Boston Dynamics founder Marc Raibert founded the RAI Institute in 2022 with more than $400 million in initial funding from Hyundai. Based in Cambridge, Mass., the institute focuses on solving fundamental challenges in robotics, including mobility, manipulation, perception, and intelligence.&lt;/p&gt;
 &lt;p&gt;RAI is also looking to expand its team. It &lt;a href="https://rai-inst.com/careers/" target="_blank" rel="noopener"&gt;currently has 24 open positions&lt;/a&gt;, including internships, across its offices in Cambridge and Zurich, Switzerland. The openings cover a range of technologies, including robot learning, manipulation, simulation, navigation, and hardware engineering.&lt;/p&gt;
 &lt;div align="center"&gt;
-&lt;p&gt;&lt;iframe title="Meet Roadrunner: A Bipedal, Wheeled Robot for Multi-Modal Locomotion" width="740" height="416" src="https://www.youtube.com/embed/9kae-UAME1U?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe loading="lazy" title="Meet Roadrunner: A Bipedal, Wheeled Robot for Multi-Modal Locomotion" width="740" height="416" src="https://www.youtube.com/embed/9kae-UAME1U?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2&gt;SoftBank continues to build its robotics portfolio&lt;/h2&gt;
 &lt;p&gt;The acquisition reunites SoftBank and Raibert. SoftBank acquired Boston Dynamics from Alphabet in 2017 before selling a controlling stake to Hyundai in 2021 in a deal that valued the robotics company at $1.1 billion.&lt;/p&gt;
@@ -879,135 +1007,6 @@ Manufacturers looking to deploy physical AI need to close this data gap. Without
 </ns3:encoded>
 					
 					<ns4:commentRss>https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>California DMV bars Waymo AVs from operating on the state’s freeways</title>
-		<link>https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/</link>
-					<comments>https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/#respond</comments>
-		
-		<dc:creator>Brianna Wessling</dc:creator>
-		<pubDate>Tue, 17 Nov 2026 23:55:07 +0000</pubDate>
-				<category>Artificial Intelligence</category>
-		<category>Artificial Intelligence / Cognition</category>
-		<category>Automotive</category>
-		<category>Design / Development</category>
-		<category>Markets / Industries</category>
-		<category>News</category>
-		<category>Robots / Platforms</category>
-		<category>Self-Driving Vehicles</category>
-		<category>Waymo</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590288</guid>
-
-					<description>&lt;p&gt;The DMV determined that Waymo's freeway operations "pose an imminent hazard to public safety due to recurring incursions by its vehicles."&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/"&gt;California DMV bars Waymo AVs from operating on the state&amp;#8217;s freeways&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_590289" style="width: 1010px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590289" class="size-full wp-image-590289" src="https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured.jpg" alt="A Waymo AV driving on a freeway. " width="1000" height="649" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured.jpg 1000w, https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured-768x498.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/waymo-freeway-featured-368x238.jpg 368w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590289" class="wp-caption-text"&gt;Waymo said the DMV order only applies to freeways and will not affect its operations on city streets. | Source: Waymo&lt;/p&gt;&lt;/div&gt;
-&lt;p&gt;The California Department of Motor Vehicles has barred Waymo autonomous vehicles (AVs) from operating on the state’s freeways. The DMV issued the order on Nov. 11, following a number of incidents in the state, it confirmed to &lt;a href="https://www.therobotreport.com/" target="_blank" rel="noopener"&gt;&lt;em&gt;The Robot Report&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Waymo said it will restrict freeway operations across all of its operating areas, as part of its safety-first approach.&lt;/p&gt;
-&lt;p&gt;The ban comes &amp;#8220;following an incident in which three Waymo autonomous vehicles entered an active construction closure on U.S. Route 101 near Burlingame and another incident involving CHP vehicles on Highway 280 in San Francisco,&amp;#8221; the DMV said. In the second incident, a Waymo vehicle can be seen attempting to drive past California Highway Patrol officers while they&amp;#8217;re conducting a traffic stop. You can watch the incidents below.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="California bans Waymo vehicles from freeways" width="740" height="416" src="https://www.youtube.com/embed/X-YZEjS6020?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;The DMV determined that &lt;a href="https://www.therobotreport.com/tag/waymo/" target="_blank" rel="noopener"&gt;Waymo&amp;#8217;s&lt;/a&gt; freeway operations &amp;#8220;pose an imminent hazard to public safety due to recurring incursions by its vehicles into active construction zones where construction workers, vehicles and equipment are present.&amp;#8221; The action prevents Waymo from operating or testing its driverless vehicles on all California freeways.&lt;/p&gt;
-&lt;p&gt;The restrictions will remain in place until Waymo demonstrates to the DMV that it has &amp;#8220;taken effective corrective actions to address the deficiencies that precipitated the restrictions.&amp;#8221; This includes providing evidence that its AVs can safely detect and respond to construction zones, emergency vehicles, and other roadway situations within the vehicles’ operational design domain.&lt;/p&gt;
-&lt;p&gt;&amp;#8220;Safety is at the foundation of everything we do. Following recent freeway construction zone encounters on U.S. 101 in California that did not involve any injuries or collisions, the California DMV has implemented an operating restriction on freeway operations in the state. In alignment with our safety-first principles, we have also temporarily restricted freeway operations across our other operating markets to evaluate our performance. Our ride-hailing service continues to operate safely on surface streets, serving over half a million trips each week. We are working with the California DMV and other state officials diligently and responsibly to resume freeway operations,&amp;#8221; a Waymo spokesperson told&amp;nbsp;&lt;em&gt;The Robot Report&lt;/em&gt;.&lt;/p&gt;
-&lt;div align="center"&gt;&lt;iframe loading="lazy" title="Why does the Waymo Driver rely on cameras, radar, and lidar? The answer comes down to sensor fusion." width="740" height="416" src="https://www.youtube.com/embed/Vwrz1hfVeSM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;h2&gt;Waymo AVs struggle with construction zones&lt;/h2&gt;
-&lt;p&gt;This isn&amp;#8217;t Waymo&amp;#8217;s first time running into issues with the California DMV this year. The DMV noted that Waymo AVs still posed a safety threat &amp;#8220;despite a prior restriction and corrective actions implemented following similar incidents that occurred on May 18, 2026.&amp;#8221;&lt;/p&gt;
-&lt;p&gt;The incidents the DMV is referring to occurred when seven Waymo vehicles drove between construction cones and into closed lanes in San Francisco. This incident resulted in Waymo &lt;a href="https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26E035-7637.pdf" target="_blank" rel="noopener"&gt;issuing&lt;/a&gt; a safety recall with the National Highway Traffic Safety Administration (NHTSA) in June.&lt;/p&gt;
-&lt;p&gt;In the recall report, Waymo said that &amp;#8220;under certain circumstances, the AV may enter and drive at speed in freeway construction zones due to inappropriately prioritizing the avoidance of other freeway hazards and/or failing to recognize the construction zone.&amp;#8221; The recall was supposed to enhance Waymo AVs&amp;#8217; performance in and around freeway construction zones.&lt;/p&gt;
-&lt;p&gt;Waymo said it plans to continue freeway testing with trained autonomous specialists in the vehicles. It noted that its vehicles had been driving fully autonomously on California freeways for several years and began offering public riders trips using freeways last November.&lt;/p&gt;
-&lt;p&gt;Emergency vehicles, stopped &lt;a href="https://www.therobotreport.com/nhtsa-investigates-waymo-autonomous-vehicle-hit-child-near-santa-monica-school/" target="_blank" rel="noopener"&gt;school buses&lt;/a&gt;, and now construction zones have been some of the biggest challenges for Waymo since it began rolling out its robotaxis in 2018. Waymo now operates commercial services in over 15 cities in the U.S., including Austin, Las Vegas, and Atlanta. It has plans to expand to 17 more cities, including in London and Tokyo, in the coming years.&lt;/p&gt;
-&lt;h2&gt;Waymo vehicles and hit-and-runs in Arizona&lt;/h2&gt;
-&lt;p&gt;The robotaxis have also been involved in a growing number of hit-and-run incidents in Arizona, according to a local CBS channel.&lt;/p&gt;
-&lt;p&gt;Almost half of all police-reported crashes involving Waymo robotaxis in the Phoenix metro area end with the human driver fleeing the scene—a hit-and-run rate per mile more than double that of the general public, according to a 10-month review of crash reports and body-camera footage.&lt;/p&gt;
-&lt;p&gt;&lt;iframe loading="lazy" title="Waymo hit-and-runs in Arizona: What police records reveal" width="740" height="416" src="https://www.youtube.com/embed/l5yDslNWOvU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/"&gt;California DMV bars Waymo AVs from operating on the state&amp;#8217;s freeways&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/feed/</ns4:commentRss>
-			<ns5:comments>0</ns5:comments>
-		
-		
-			</item>
-		<item>
-		<title>Learn how AI is changing supply chain robotics</title>
-		<link>https://www.therobotreport.com/learn-how-ai-is-changing-supply-chain-robotics/</link>
-					<comments>https://www.therobotreport.com/learn-how-ai-is-changing-supply-chain-robotics/#respond</comments>
-		
-		<dc:creator>The Robot Report Staff</dc:creator>
-		<pubDate>Tue, 17 Nov 2026 19:58:18 +0000</pubDate>
-				<category>Events</category>
-		<category>Logistics</category>
-		<category>Markets / Industries</category>
-		<category>News</category>
-		<category>Ambi Robotics</category>
-		<category>Gideon</category>
-		<category>inVia Robotics</category>
-		<guid isPermaLink="false">https://www.therobotreport.com/?p=590284</guid>
-
-					<description>&lt;p&gt;The live webinar, "Robots in the Supply Chain," will take place Wednesday, November 18, 2026, at 12 P.M. ET.&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/learn-how-ai-is-changing-supply-chain-robotics/"&gt;Learn how AI is changing supply chain robotics&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</description>
-										<ns3:encoded>&lt;div id="attachment_590285" style="width: 1550px" class="wp-caption aligncenter"&gt;&lt;a href="https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured.jpg"&gt;&lt;img loading="lazy" decoding="async" aria-describedby="caption-attachment-590285" class="size-full wp-image-590285" src="https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured.jpg" alt="From left to right: Lio Elazary, the co-founder and CEO of inVia Robotics, Josip Cesic, the co-founder and CEO of Gideon, and Jeff Mahler, the co-founder and CTO of Ambi Robotics." width="1540" height="1000" srcset="https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured.jpg 1540w, https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured-300x195.jpg 300w, https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured-1024x665.jpg 1024w, https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured-150x97.jpg 150w, https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured-768x499.jpg 768w, https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured-1536x997.jpg 1536w, https://www.therobotreport.com/wp-content/uploads/2026/11/robotsinsupplychain-featured-368x238.jpg 368w" sizes="auto, (max-width: 1540px) 100vw, 1540px" /&gt;&lt;/a&gt;&lt;p id="caption-attachment-590285" class="wp-caption-text"&gt;From left to right: Lior Elazary, the co-founder and CEO of inVia Robotics, Josip Cesic, the co-founder and CEO of Gideon, and Jeff Mahler, the co-founder and CTO of Ambi Robotics.&lt;/p&gt;&lt;/div&gt;
-&lt;p id="isPasted"&gt;Supply chain robotics is undergoing rapid transformation. Companies hope to address labor shortages, improve efficiency, and build resilience against disruptions. Increasingly, they&amp;#8217;re turning to robotics to solve these challenges.&lt;/p&gt;
-&lt;p&gt;Currently, available technologies include warehouse automation, picking and packing systems, autonomous mobile robots for material handling, and AI-powered inventory management. These systems can work together and help organizations adapt to changing demand patterns and product variations.&lt;/p&gt;
-&lt;p&gt;Now, the integration of artificial intelligence is enabling predictive analytics, demand forecasting, and dynamic routing optimization. With AI, robots can learn from operational data to improve performance, reduce errors, and optimize energy consumption.&lt;/p&gt;
-&lt;p&gt;Even manufacturers already using robots stand to gain from these advancements, achieving higher quality, reduced downtime, better predictability, and cost optimization. This transition is a strategic necessity, supporting the shift towards high-volume, high-mix production and resilient supply chains.&lt;/p&gt;
-&lt;p&gt;Learn about all of the latest advancements in the &lt;a href="https://event.on24.com/wcc/r/5176426/A83AF2B49EA1386E318873A6BA3252B3?ms=1794941369096&amp;amp;partnerref=emailShareFromReg" target="_blank" rel="noopener"&gt;webinar&lt;/a&gt;, &amp;#8220;Robots in the Supply Chain.&amp;#8221; The live webinar will take place Wednesday, November 18, 2026, at 12 P.M. ET. If you can&amp;#8217;t attend live, registered attendees will be able to watch a recording of the webinar at their convenience.&lt;/p&gt;
-&lt;p&gt;The webinar will feature insights from three robotics experts: Lior Elazary, co-founder and CEO of InVia Robotics; Josip Cesic, co-founder and CEO of Gideon; and Jeff Mahler, co-founder and CTO of Ambi Robotics.&lt;/p&gt;
-&lt;p&gt;In this webinar, attendees will learn how:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Integrated automation solutions combine warehouse robotics, AI, and predictive analytics for end-to-end supply chain optimization.&lt;/li&gt;
-&lt;li&gt;AI-powered systems enable adaptive operations that respond to changing demand patterns and disruptions.&lt;/li&gt;
-&lt;li&gt;High-volume, high-mix production requirements drive adoption of flexible robotic solutions.&lt;/li&gt;
-&lt;li&gt;Real-time visibility and predictive capabilities improve decision-making and operational resilience.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h2&gt;Meet the speakers&lt;/h2&gt;
-&lt;div class="MuiBox-root css-0"&gt;
-&lt;div class="css-172ajfk"&gt;
-&lt;p&gt;&lt;a href="https://www.linkedin.com/in/lelazary/" target="_blank" rel="noopener"&gt;Lior Elazary&lt;/a&gt; is the co-founder and CEO of &lt;a href="https://www.therobotreport.com/tag/inVia-Robotics/" target="_blank" rel="noopener"&gt;inVia Robotics&lt;/a&gt;. At inVia, he leads the company’s vision for applying AI, software, and robotics to improve warehouse operations. With more than 20 years of experience in technology and entrepreneurship, he has built and scaled companies across robotics, software, networking, and enterprise technology.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="MuiBox-root css-0"&gt;
-&lt;div class="MuiBox-root css-xynzzt"&gt;
-&lt;div class="MuiBox-root css-0"&gt;
-&lt;div class="css-172ajfk"&gt;
-&lt;p&gt;&lt;a href="https://www.linkedin.com/in/josipcesic/" target="_blank" rel="noopener"&gt;Josip Cesic&lt;/a&gt; is the co-founder and CEO of &lt;a href="https://www.therobotreport.com/tag/Gideon/" target="_blank" rel="noopener"&gt;Gideon&lt;/a&gt;, a pioneering robotics and AI company. Gideon revolutionizes supply chains with their Physical-AI platform, automating some of the hardest automation problems such as loading and unloading truck trailers with autonomous forklifts.&lt;/p&gt;
-&lt;p&gt;Cesic holds a PhD in autonomy technologies from the University of Zagreb (FER), Croatia, and completed with the University of Waterloo, Canada. His accolades include the Dean&amp;#8217;s Award, Special Dean&amp;#8217;s Award, Rector&amp;#8217;s Award, Special Rector&amp;#8217;s Award, and the Silver Plaque for his outstanding doctoral dissertation. He holds several patents and has published over 20 research papers on robotics and AI. Josip also serves on the Board of Alumni at FER.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="MuiBox-root css-0"&gt;
-&lt;div class="MuiBox-root css-xynzzt"&gt;
-&lt;div class="MuiBox-root css-0"&gt;
-&lt;div class="css-172ajfk"&gt;
-&lt;p&gt;&lt;a href="https://www.linkedin.com/in/jeff-mahler-64b56138/" target="_blank" rel="noopener"&gt;Jeff Mahler&lt;/a&gt; is a co-founder and the CTO for &lt;a href="https://www.therobotreport.com/tag/Ambi-Robotics/" target="_blank" rel="noopener"&gt;Ambi Robotics&lt;/a&gt;, previously serving as CEO of the company. Mahler is responsible for guiding the vision and execution of the company’s advanced operating system, AmbiOS, to power highly dexterous robotic systems in commercial production.&lt;/p&gt;
-&lt;p&gt;Mahler obtained his Ph.D. from UC Berkeley as a member of the AUTOLAB and Berkeley Artificial Intelligence Research Lab. His dissertation research is on the Dexterity-Network (Dex-Net), and he has also published on deep learning from demonstration and control for surgical robots. His research papers have been nominated for numerous awards, including Best Manipulation Paper (ICRA 2016) and Best Human-Robot Interaction Paper (ICRA 2016).&lt;/p&gt;
-&lt;p&gt;Mahler&amp;#8217;s open-source code, training datasets, and neural network weights receive hundreds of downloads per month. Along with Prof. Ruzena Bajcsy, he helped start EE 106B, the UC Berkeley course on mathematical models for robot manipulation. Previously, he co-founded the 3D scanning startup Lynx Laboratories in 2012, which was acquired by Occipital, Inc., and he received the National Defense Science and Engineering Fellowship in 2015.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;div style="text-align: center;"&gt;&lt;a href="https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/"&gt;
-&lt;img loading="lazy" decoding="async" class="aligncenter size-full wp-image-568305" src="https://www.therobotreport.com/wp-content/uploads/2026/10/TRR50-1456x180-Banner-Ad.jpg" alt="Submissions open now for TRR50" width="728" height="90" /&gt;&lt;/a&gt;&lt;b&gt;Submit your innovation now!&lt;/b&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;The post &lt;a href="https://www.therobotreport.com/learn-how-ai-is-changing-supply-chain-robotics/"&gt;Learn how AI is changing supply chain robotics&lt;/a&gt; appeared first on &lt;a href="https://www.therobotreport.com"&gt;The Robot Report&lt;/a&gt;.&lt;/p&gt;
-</ns3:encoded>
-					
-					<ns4:commentRss>https://www.therobotreport.com/learn-how-ai-is-changing-supply-chain-robotics/feed/</ns4:commentRss>
 			<ns5:comments>0</ns5:comments>
 		
 		
