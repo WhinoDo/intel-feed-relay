@@ -4,7 +4,79 @@
   <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commits/main" />
   <ns0:link type="application/atom+xml" rel="self" href="https://github.com/huggingface/lerobot/commits/main.atom" />
   <ns0:title>Recent Commits to lerobot:main</ns0:title>
-  <ns0:updated>2026-11-24T17:20:42Z</ns0:updated>
+  <ns0:updated>2026-11-27T15:53:00Z</ns0:updated>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/712d75a8ae62b1ddb9219992ad10c118241eb13a</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/712d75a8ae62b1ddb9219992ad10c118241eb13a" />
+    <ns0:title>
+        feat(sim): sim_settings per suite, with features declared up front (#…
+    </ns0:title>
+    <ns0:updated>2026-11-27T15:53:00Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(sim): sim_settings per suite, with features declared up front (#5513)
+
+* feat(sim): resolve sim_settings per suite and let suites declare their features
+
+* fix(sim): describe each served suite with its own settings and check every suite where its env is created
+
+* refactor(envs): remove EnvConfig.sim_config
+
+* refactor(sim): LocalVectorEnv takes SimSettings, the server uses its config.sim
+
+* refactor(sim): SimConfig.resolve takes SimSettings, which reads a missing task as every task&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/3a42b4af3f36a239b1b327388f62eb36f8c6ce75</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/3a42b4af3f36a239b1b327388f62eb36f8c6ce75" />
+    <ns0:title>
+        fix(envhub): pass --env.task to the repository in-process, as the ser…
+    </ns0:title>
+    <ns0:updated>2026-11-27T15:53:00Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>Maximellerbach</ns0:name>
+      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(envhub): pass --env.task to the repository in-process, as the server does (#5509)
+
+* fix(envhub): pass --env.task to the repository in-process, as the server does
+
+* fix(envs): describe the env from the requested suite instead of building the first one
+
+* fix(envhub): a served client needs no --env.hub_path
+
+* docs(envhub): shorten the task comment
+
+* test(envhub): cover comma-separated tasks
+
+* docs(envhub): say what task vector_env_fns receives&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
+  <ns0:entry>
+    <ns0:id>tag:github.com,2008:Grit::Commit/affbf201f5cc08c1e5c108777e4830c26279e4bc</ns0:id>
+    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/affbf201f5cc08c1e5c108777e4830c26279e4bc" />
+    <ns0:title>
+        feat(datasets): add non-dropping mode to streaming video encoder (#4462)
+    </ns0:title>
+    <ns0:updated>2026-11-27T12:44:23Z</ns0:updated>
+    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/99887893?s=30&amp;v=4" />
+    <ns0:author>
+      <ns0:name>waterEand</ns0:name>
+      <ns0:uri>https://github.com/waterEand</ns0:uri>
+    </ns0:author>
+    <ns0:content type="html">
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;feat(datasets): add non-dropping mode to streaming video encoder (#4462)
+
+Co-authored-by: Caroline Pascal &amp;lt;caroline8.pascal@gmail.com&amp;gt;&lt;/pre&gt;
+    </ns0:content>
+  </ns0:entry>
   <ns0:entry>
     <ns0:id>tag:github.com,2008:Grit::Commit/b07adcc5e3ce42c26a248236dbb3571f84c28c43</ns0:id>
     <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/b07adcc5e3ce42c26a248236dbb3571f84c28c43" />
@@ -523,74 +595,6 @@ Refs #5418&lt;/pre&gt;
     </ns0:author>
     <ns0:content type="html">
       &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(env-server): keep Zenoh syntax compatible with Python 3.11 (#5397)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/6707af9edf8b225d6c7a84b72311db9cf995e0ac</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/6707af9edf8b225d6c7a84b72311db9cf995e0ac" />
-    <ns0:title>
-        fix(envs): send ALOHA and PushT their dataset instruction instead of …
-    </ns0:title>
-    <ns0:updated>2026-11-19T10:44:41Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/22116919?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>stock-code</ns0:name>
-      <ns0:uri>https://github.com/stock-code</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(envs): send ALOHA and PushT their dataset instruction instead of the gym id (#5390)
-
-* fix(envs): send ALOHA and PushT their dataset instruction instead of the gym id
-
-Fixes #5373.
-
-* fix(envs): skip the reference-prompt lookup when task is None (mypy)&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/c21cb98fe0cfba33893293116c9cad965f21aa81</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/c21cb98fe0cfba33893293116c9cad965f21aa81" />
-    <ns0:title>
-        fix(datasets): clean stale metadata after feature removal (#5142)
-    </ns0:title>
-    <ns0:updated>2026-11-19T10:43:53Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/61369791?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Teddy-Liao</ns0:name>
-      <ns0:uri>https://github.com/Teddy-Liao</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(datasets): clean stale metadata after feature removal (#5142)
-
-* fix(datasets): clean stale metadata after feature removal
-
-* test(datasets): cover remove-camera split regression
-
-* perf(datasets): skip rewriting clean episode metadata
-
-Inspect parquet schemas before decoding episode metadata so clean files
-keep the copy-only path and only files with stale feature columns are
-decoded and rewritten. Cover the conditional rewrite with a spy test.
-
-* test(datasets): guard optional imports&lt;/pre&gt;
-    </ns0:content>
-  </ns0:entry>
-  <ns0:entry>
-    <ns0:id>tag:github.com,2008:Grit::Commit/f88f9a18a3afd5612c2e466b525e3317e20d029b</ns0:id>
-    <ns0:link type="text/html" rel="alternate" href="https://github.com/huggingface/lerobot/commit/f88f9a18a3afd5612c2e466b525e3317e20d029b" />
-    <ns0:title>
-        fix(sim): fall back to spawn for async workers without forkserver (#5…
-    </ns0:title>
-    <ns0:updated>2026-11-19T09:43:05Z</ns0:updated>
-    <ns1:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/38923282?s=30&amp;v=4" />
-    <ns0:author>
-      <ns0:name>Maximellerbach</ns0:name>
-      <ns0:uri>https://github.com/Maximellerbach</ns0:uri>
-    </ns0:author>
-    <ns0:content type="html">
-      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix(sim): fall back to spawn for async workers without forkserver (#5412)
-
-Co-authored-by: Rudy Celekli &amp;lt;rudy@gradiahq.com&amp;gt;&lt;/pre&gt;
     </ns0:content>
   </ns0:entry>
 </ns0:feed>
